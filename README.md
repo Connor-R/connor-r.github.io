@@ -1,3 +1,3 @@
 # connor-r.github.io
 
-Personal Page
+Personal Website
