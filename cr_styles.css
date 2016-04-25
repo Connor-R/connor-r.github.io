@@ -10,13 +10,13 @@ top:2px;}
 #home{background:url('i/links.png') 0 0;}
 #home a:hover{background: url('i/links.png') 0 -65px;}
 
-#res{left:280px;width:200px;}
-#res{background:url('i/links.png') -200px 0;}
-#res a:hover{background: url('i/links.png') -200px -65px;}
+#proj{left:280px;width:200px;}
+#proj{background:url('i/links.png') -200px 0;}
+#proj a:hover{background: url('i/links.png') -200px -65px;}
 
-#cv{left:510px;width:170px;}
-#cv{background:url('i/links.png') -400px 0;}
-#cv a:hover{background: url('i/links.png') -400px -65px;}
+#resume{left:510px;width:170px;}
+#resume{background:url('i/links.png') -400px 0;}
+#resume a:hover{background: url('i/links.png') -400px -65px;}
 
 #int{left:730px;width:200px;}
 #int{background:url('i/links.png') -580px 0;}
