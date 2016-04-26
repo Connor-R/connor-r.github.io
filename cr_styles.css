@@ -26,8 +26,16 @@ body {background-color:#D1D1E0;margin: 0;}
 p{font-family: Optima, Segoe, "Segoe UI", Candara, Calibri, Arial, sans-serif;}
 h1{font-size:30px;}
 h2{font-size:20px;}
-img.gen{border:1px solid black;display:block;margin: 0 auto;}
-img.bord{border:1px solid black;}
+h3 {
+    display: block;
+    font-size: 1.17em;
+    margin-top: 1em;
+    margin-bottom: 1em;
+    margin-left: 0;
+    margin-right: 0;
+    font-weight: bold;
+}img.gen{border:1px solid black;display:block;margin: 0 auto;}
+img.bord{border:2px solid black;}
 img.name{position:absolute;top:0px;margin: 0 auto 0 5px;z-index:1;}
 iframe{display:block; margin: 0 auto;}
 
