@@ -3,6 +3,17 @@
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <link rel="stylesheet" type="text/css" href="cr_styles.css">
+<style>
+h3 { 
+    display: block;
+    font-size: 1.17em;
+    margin-top: 1em;
+    margin-bottom: 1em;
+    margin-left: 0;
+    margin-right: 0;
+    font-weight: italic;
+}
+</style>
 <title>Connor Reed - Projects</title>
 </head>
 
@@ -20,8 +31,48 @@
 </div>
 <div id="innards">
 
-Coming Soon
+<h2> Simulation Baseball </h2>
+<p> 
+  I have participiated in <a target="_blank" href="http://diamond-mind.com/">Diamond Mind Baseball (DMB)</a> simulation leagues since I was 16. The general idea of a simulation league is to use statistical projections for players to simulate, using the DMB software, a complete 162 game season running parallel to the real life MLB season. The league I participate in has used the <a target="blank" href="http://www.fangraphs.com/blogs/category/2016-zips-projections/">ZiPS projection system</a> provided by Dan Szymborski. While most of the statistical projections translate seemlessly into the DMB program, some do not. Most notably, DMB rates defense differently than raw ZiPS. Instead of taking the raw runs saved values ZiPS provides, DMB projects defense in 5 discrete range factors and an error rating relative to his position. Using <a target="blank" href="http://fansofdmb.yuku.com/topic/205/t/Value--Defense-including---Position-Players-reposted.html?page=1">public research</a> as well as reverse engineering the park factors used by ZiPS and re-projecting each player's offensive projection in a park-neutral environment, I now produce a yearly report of DMB-adjusted player values, according to the popular metric Wins Above Replacement (WAR). This work has allowed me to greatly exploit market inefficiencies in my league, greatly increasing the surplus value I am able to produce despite a limited budget.</p>
+  <center>
+  <figure>
+  <img src="i/dmb1.png" width="700" >
+  <figcaption>   <p>
+2016 DMB-adjusted WAR distribution for the 2967 player-position projections courtesy of ZiPS <br>
+ The 3 best ratings (upper RH corner) belong to (unsurprisingly) <a target="blank" href="http://www.fangraphs.com/statss.aspx?playerid=10155&position=OF">Mike Trout [CF]</a>, <a target="blank" href="http://www.fangraphs.com/statss.aspx?playerid=11579&position=OF">Bryce Harper [RF]</a>, and Bryce Harper [CF] </p>
+ </figcaption>
+ </figure>
+</center>
+</p><br>
 
+
+<!-- <h2> Predicting the NHL </h2>
+<p> 
+  content
+</p> -->
+
+  <figure>
+  <center>
+  <img src="i/xgoals1.png" height="300px" align="right" style="magin-left:20px"/>
+  </center>
+  </figure><h2> NHL Shot Quality </h2>
+
+<p> 
+
+  My friend <a target="_blank" href="https://www.linkedin.com/in/james-mccorriston-624360b4">Jamie McCorriston</a> and I have developed a set of distance based shot quality metrics for the National Hockey League. By regressing shooting percentages from various distances at various game states, we created a set of expected goal models at both a team and individual player level. The full dataset can be seen at our site <a target="_blank" href="http://fourthlineheroes.com/">Fourth Line Heroes</a> with more detailed explanations available <a target="_blank" href="http://fourthlineheroes.com/#explanation">here</a> and <a target="_blank" href="xgoals-terms.pdf">here</a>. Our flagship metric, the xGoal, has been shown to be a better indicator of team success on an individual game level than commonly referenced metrics shots on goal and shot attempts, suggesting that expected goals are less influenced by score effects than shot volume based metrics.
+</p><br>
+
+
+<h2> NHL Daily Fantasy Sports </h2>
+<p> 
+  Coming soon.
+</p><br>
+
+
+<h2> NBA Public Models vs. Vegas Lines </h2>
+<p> 
+  Coming soon.
+</p>
 
 </div>
 </div>
