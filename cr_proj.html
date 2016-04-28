@@ -67,13 +67,16 @@ h3 {
 
 <h2> NHL Daily Fantasy Sports </h2>
 <p> 
-  Coming soon.
+  The aforementioned Jamie McCorriston and I created a model for playing NHL DFS. While it has not been very profitable to this point, there are some components of the model that have been successful. For one, our process has been sound, through running multiple models as well as comparing to two basic control models to ensure that we are indeed creating value rather than essentially blindly selecting players.
+</p>
+<p>
+  Secondly, our goalie projection system has performed quite well. Without giving away the details, I will try to outline the general idea of how we project goalie performance. First, we use a prediction for how many shots the opposing team will have against a neutral opponent, and how many shots the goalie's team will allow. We create a weighted average of these two values to create an estimation of the total shots on goal the goalie will face in the game. We perform a similar step to estimate the goalie's save percentage and then multiply this value by the expected shots on goal to find the number of expected goals and we expect the goalie to allow and the number of expected saves we expect him to make. The biggest factor in projecting DFS goalie performance is Wins. For this, we use a combination of Vegas lines as well as metrics we created under our xGoals model. Finally, we add a probability of a Shutout, by raising the expected save percentage to the power of expected shots (e.g. a goalie with an expected Sv% of .910 and with 30 shots on goal against, would be expected to record a shutout .910^30 = 5.9% of games). While the overall framework is pretty basic, the projections have performed relatively strongly thus far, recording roughly 90% of its expected value over our limited test sample to this point.
 </p><br>
 
 
 <h2> NBA Public Models vs. Vegas Lines </h2>
 <p> 
-  Coming soon.
+  Over the course of the 2015-16 NBA season, I began tracking a variety of public models and tracked their process against Vegas opening and closing lines. While there were no real dollars invested, each individual model as well as a weighted ensemble of all models managed to profit over the full season while betting at a proportion of the <a target="_blank" href="https://en.wikipedia.org/wiki/Kelly_criterion">Kelly Criterion</a>(although some models did not have projections for all 1230 games). While this is not a guarantee of potential profit in the future, it would suggest that Vegas lines are not as unbeatable as they once thought to be (or at least as unbeatable as I thought they were). However, this does not necessarily mean there is free money to be had. Most models did not take into account injuries, often overrating heavily depleated rosters (think late season <a target="blank" href="http://www.nba.com/celtics/news/sidebar/shoot-visitor-030916-Grizzlies-Bearing-Down-Despite-Myriad-Injuries">Memphis Grizzlies</a>). Additionally, there were a number of <a target="blank" href="http://espn.go.com/nba/recap?gameId=400828818">substantial</a> <a target="blank" href="http://www.usatoday.com/story/sports/nba/2016/04/06/timberwolves-shock-warriors-124-117-in-overtime/82690818/">upsets</a> in the NBA in which the models generally bet on the underdog, greatly increasing their profit margins in highly volatile events. So although the models all had positive ROI in 2015-16, there is reason to believe it may not be sustainable if the NBA has a calmer season in 2016-2017 and beyond. Regardless, I will continue to track and follow this project, monitoring the strength of various public models betting against Las Vegas sportsbooks.
 </p>
 
 </div>
