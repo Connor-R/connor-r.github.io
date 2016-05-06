@@ -1,3 +1,3 @@
 # About
 
-Personal Website ([connor-r.github.io](http://connor-r.github.io))
+Repository for my personal website ([connor-r.github.io](http://connor-r.github.io))
