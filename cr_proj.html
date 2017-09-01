@@ -33,65 +33,39 @@ h3 {
 </div>
 <div id="innards">
 
-<h2> Simulation Baseball </h2>
+<h2> <a target="blank" href="https://github.com/Connor-R/NSBL/"> Simulation Baseball Analytics </a> </h2>
 <p> 
-  I have participiated in <a target="_blank" href="http://diamond-mind.com/">Diamond Mind Baseball (DMB)</a> simulation leagues since I was 16. The general idea of a simulation league is to use statistical projections for players to simulate, using the DMB software, a complete 162 game season running parallel to the real life MLB season. The league I participate in has used the <a target="blank" href="http://www.fangraphs.com/blogs/category/2016-zips-projections/">ZiPS projection system</a> provided by Dan Szymborski. While most of the statistical projections translate seemlessly into the DMB program, some do not. Most notably, DMB rates defense differently than raw ZiPS. Instead of taking the raw runs saved values ZiPS provides, DMB projects defense in 5 discrete range factors and an error rating relative to his position. Using <a target="blank" href="http://fansofdmb.yuku.com/topic/205/t/Value--Defense-including---Position-Players-reposted.html?page=1">public research</a> as well as reverse engineering the park factors used by ZiPS and re-projecting each player's offensive projection in a park-neutral environment, I now produce a yearly report of DMB-adjusted player values, according to the popular metric <a target="blank" href="http://www.fangraphs.com/library/misc/war/">Wins Above Replacement</a> (WAR). This work has allowed me to greatly exploit market inefficiencies in my league, greatly increasing the surplus value I am able to produce despite a limited budget.</p>
-  <center>
-  <figure>
-  <img src="i/dmb1.png" width="700" >
-  <figcaption>   <p>
-2016 DMB-adjusted WAR distribution for the 2967 player-position projections courtesy of ZiPS <br>
- The 3 best ratings (upper RH corner) belong (unsurprisingly) to <a target="blank" href="http://www.baseball-reference.com/players/t/troutmi01.shtml">Mike Trout [CF]</a>, <a target="blank" href="http://www.baseball-reference.com/players/h/harpebr03.shtml">Bryce Harper [RF]</a>, and Bryce Harper [CF] </p>
- </figcaption>
- </figure>
+  I have participiated in <a target="_blank" href="http://diamond-mind.com/">Diamond Mind Baseball (DMB)</a> simulation leagues since I was 16. The general idea of a simulation league is to use statistical projections for players to simulate, using the DMB software, a complete 162 game season running parallel to the real life MLB season. The <a target="_blank" href="http://thensbl.com/">league</a> I participate in has used the <a target="blank" href="http://www.fangraphs.com/blogs/category/2017-zips-projections/">ZiPS projection system</a> provided by Dan Szymborski.
+</p>
+<p>
+  While this remainings one of my favorite recreational pastimes, in the past couple of years I have began to use an extremely data driven approach to running my particular team. This involves re-shaping my thinking process and decision making approach to be more objective and less subjective than when I started in 2008. I reverse-engineered certain parts of projection system our league is based on and now have more detailed player projections for every player in the league which helps lessen personal biases in decision making processes regarding player transactions or roster movement. Additionally, I created an automated tracking system for the top available minor league and amateur players available in the league that helps me track player trends for the best draft eligible players.
+</p>
+<p>
+  Additionally, I have made my own projection system which generates a Gaussian distribution curve for each player projection within the simulation. From these projections, I use an implementation of the <a target="blank" href="https://en.wikipedia.org/wiki/Hungarian_algorithm">Hungarian algorithm</a> to create optimized <a target="blank" href="https://github.com/Connor-R/NSBL/blob/master/team_strength/pitching_optimizer.py">pitching rotations</a> and optimized <a target="blank" href="https://github.com/Connor-R/NSBL/blob/master/team_strength/lineup_optimizer.py">batting lineups</a> against Left- and Right-hand opposing pitchers. Next, by treating every player as a independent random variable, I can <a target="blank" href="https://en.wikipedia.org/wiki/Sum_of_normally_distributed_random_variables">create</a> a team-level distribution which leads to a <a target="blank" href="https://github.com/Connor-R/NSBL/blob/master/team_strength/team_strength.py">projection</a> of each team's Win-Loss record and the amount of expected variance given their optimal roster construction. Finally, using these projections and <a target="blank" href="https://www.printyourbrackets.com/how-do-the-mlb-playoffs-work.html">MLB's playoff structure</a> I can compute the probability of each team's advancement to various playoff rounds by using the <a target="blank" href="https://en.wikipedia.org/wiki/Log5">Log5 odds ratio</a> to predict the likelihood of a team winning a single game, and the <a target="blank" href="https://en.wikipedia.org/wiki/Binomial_distribution#Probability_mass_function">binomial probability mass function</a> to predict the likelihood of winning a 5 or 7 game series as appropriate.
+</p>
+<center>
+<figure>
+<img src="i/nsbl1.png" width="800" >
+<figcaption>
+<p>
+2017 NSBL Projected Standings and Playoff Odds
+</figcaption>
+</figure>
 </center>
 </p>
-<br><br>
-<h2> Further Simulation Baseball Research </h2>
-<p> 
-  In November 2016, I wrote a set of Python scripts capable of producing advanced analytics for the league. This code builds a MySQL database, populates the tables by scraping the league site, and then post-processes the data into a myriad of advanced metrics. The full codebase is available <a target="blank" href="https://github.com/connor-r/NSBL">on my github</a>, while a full backup of the database (both SQL and .csv format) can be found <a target="blank" href="http://bit.ly/NSBL_db_backups">on Dropbox</a>.
+
+<p>
+  The full codebase for this research and analysis is available <a target="blank" href="https://github.com/connor-r/NSBL">on my github</a>. This code has scipts capable of building a MySQL database, populating the tables by scraping the league and additional sites, post-processessing the data into a myriad of advanced metrics, computing historical statistics, analyzing prospects for an amateur draft, optimizing team rosters, and predicting team-level outcomes. If you're interested in just seeing the results and not the process, a full (relatively up-to-date) backup of the database (both SQL and .csv format) can be found <a target="blank" href="http://bit.ly/NSBL_db_backups">on Dropbox</a>.
 </p>
 <br>
 
-
-<!-- <h2> Predicting the NHL </h2>
-<p> 
-  content
-</p> -->
-
-  <figure>
-  <center>
-  <img src="i/xgoals1.png" height="300px" align="right" style="margin-left:40px"/>
-  </center>
-  </figure><h2> NHL Shot Quality </h2>
-
-<p> 
-
-  My friend <a target="_blank" href="https://www.linkedin.com/in/james-mccorriston-624360b4">Jamie McCorriston</a> and I have developed a set of distance based shot quality metrics for the National Hockey League. By regressing shooting percentages from various distances at various game states, we created a set of expected goal models at both a team and individual player level. The full dataset can be seen at our site <a target="_blank" href="http://fourthlineheroes.com/">Fourth Line Heroes</a> with more detailed explanations available <a target="_blank" href="http://fourthlineheroes.com/#explanation">here</a> and <a target="_blank" href="xgoals-terms.pdf">here</a>. Our flagship metric, the xGoal, has been shown to be a better indicator of team success on an individual game level than commonly referenced metrics shots on goal and shot attempts, suggesting that expected goals are less influenced by score effects than shot volume based metrics.
-</p><br>
-
-
-<h2> NHL Daily Fantasy Sports </h2>
-<p> 
-  The aforementioned Jamie McCorriston and I created a model for playing NHL DFS. While it has not been very profitable to this point, there are some components of the model that have been successful. For one, our process has been sound, through running multiple models as well as comparing to two basic control models to ensure that we are indeed creating value rather than essentially blindly selecting players.
-</p>
-<p>
-  Secondly, our goalie projection system has performed quite well. Without giving away the details, I will try to outline the general idea of how we project goalie performance. First, we use a prediction for how many shots the opposing team will have against a neutral opponent, and how many shots the goalie's team will allow. We create a weighted average of these two values to create an estimation of the total shots on goal the goalie will face in the game. We perform a similar step to estimate the goalie's save percentage and then multiply this value by the expected shots on goal to find the number of expected goals and we expect the goalie to allow and the number of expected saves we expect him to make. The biggest factor in projecting DFS goalie performance is Wins. For this, we use a combination of Vegas lines as well as metrics we created under our xGoals model. Finally, we add a probability of a Shutout, by raising the expected save percentage to the power of expected shots (e.g. a goalie with an expected Sv% of .910 and with 30 shots on goal against, would be expected to record a shutout .910^30 = 5.9% of games). While the overall framework is pretty basic, the projections have performed relatively strongly thus far, recording roughly 90% of its expected value over our limited test sample to this point.
-</p><br>
-
-
-<h2> NBA Public Models vs. Vegas Lines </h2>
-<p> 
-  Over the course of the 2015-16 NBA season, I began tracking a variety of public models and tracked their process against Vegas opening and closing lines. While there were no real dollars invested, each individual model as well as a weighted ensemble of all models managed to profit over the full season while betting at a proportion of the <a target="_blank" href="https://en.wikipedia.org/wiki/Kelly_criterion">Kelly Criterion</a> (although some models did not have projections for all 1230 games). While this is not a guarantee of potential profit in the future, it would suggest that Vegas lines are not as unbeatable as they once thought to be (or at least as unbeatable as I thought they were). However, this does not necessarily mean there is free money to be had. Most models did not take into account injuries, often overrating heavily depleated rosters (think late season <a target="blank" href="http://www.nba.com/celtics/news/sidebar/shoot-visitor-030916-Grizzlies-Bearing-Down-Despite-Myriad-Injuries">Memphis Grizzlies</a>). Additionally, there were a number of <a target="blank" href="http://espn.go.com/nba/recap?gameId=400828818">substantial</a> <a target="blank" href="http://espn.go.com/nba/recap?gameId=400829050">upsets</a> in the NBA in which the models generally bet on the underdog, greatly increasing their profit margins in highly volatile events. So although the models all had positive ROI in 2015-16, there is reason to believe it may not be sustainable if the NBA has a calmer season in 2016-2017 and beyond. Regardless, I will continue to track and follow this project, monitoring the strength of various public models betting against Las Vegas sportsbooks.
-</p><br>
-
+<br>
   <figure>
   <center>
   <img src="i/curry_shots.png" height="400px" align="right" style="margin-left:40px"/>
   </center>
   </figure>
-
-<h2> NBA Shot Charts </h2>
+<h2> <a target="blank" href="https://github.com/Connor-R/nba_shot_charts/"> NBA Shot Charts </a> </h2>
 <p> 
   In January 2017, I tried my hand at making NBA shot charts. These charts are primarily an extension from the work of <a target="blank" href="http://www.danvatterott.com/">Dan Vatterott</a> and <a target="blank" href="http://www.savvastjortjoglou.com">Savvas Tjortjoglou</a>. I made an attempt to combine my favorite aspects of other shot charts on the internet (primarily from: <a target="blank" href="https://www.instagram.com/kirkgoldsberry/">Kirk</a> <a target="blank" href="https://fivethirtyeight.com/contributors/kirk-goldsberry/">Goldsberry</a>, <a target="blank" href="http://buckets.peterbeshai.com/app/#/playerView/201935_2015">Buckets (by Peter Beshai)</a>, <a target="blank" href="http://toddwschneider.com/posts/ballr-interactive-nba-shot-charts-with-r-and-shiny/">BallR (by Todd Schneider)</a>, and <a target="blank" href="http://www.austinclemens.com/shotcharts/">Swish (by Austin Clemens)</a>) into one image, while also adding some additional features I thought would be nice in order to better distinguish the strengths and weaknesses of a player.
 </p>
@@ -103,16 +77,50 @@ h3 {
 </p>
 <p>
   The chart to the right is from Stephen Curry's historic 2015/16 season, in which he became the NBA's first unanimous MVP. He sank 402 3 point shots (obliterating the NBA record), added 406 points over an average NBA offense (highest on record), and posted an EFG+ of 125 (highest on record for player with > 800 shots in season).
-
-
 </p>
+<br>
+
+<br>
+<h2> <a target="blank" href="https://github.com/Connor-R/Craigslist/"> Apartment Hunting on Craigslist </a> </h2>
+<p>
+  Using the craigslist python package, I scrape and categorize local apartment listings that fit my budget and e-mail myself new results every 2 hours. In addition to generating a dataset for future analysis on the topic of apartments in my region, this set of scripts eliminates the need to constantly check craigslist manually and scroll through the results for new postings. I'm hopeful that this project will help me navigate the tough task of not drastically overpaying for housing in the brutal Northern California region.
+</p>
+<br>
+
+<br>
+  <figure>
+  <center>
+  <img src="i/xgoals1.png" height="300px" align="right" style="margin-left:40px"/>
+  </center>
+  </figure><h2> NHL Shot Quality </h2>
+<p> 
+  My friend <a target="_blank" href="https://www.linkedin.com/in/james-mccorriston-624360b4">Jamie McCorriston</a> and I have developed a set of distance based shot quality metrics for the National Hockey League. By regressing shooting percentages from various distances at various game states, we created a set of expected goal models at both a team and individual player level. The full dataset can be seen at our site <a target="_blank" href="http://fourthlineheroes.com/">Fourth Line Heroes</a> with more detailed explanations available <a target="_blank" href="http://fourthlineheroes.com/#explanation">here</a> and <a target="_blank" href="xgoals-terms.pdf">here</a>. Our flagship metric, the xGoal, has been shown to be a better indicator of team success on an individual game level than commonly referenced metrics shots on goal and shot attempts, suggesting that expected goals are less influenced by score effects than shot volume based metrics.
+</p>
+<br>
+
+<br>
+<h2> NHL Daily Fantasy Sports </h2>
+<p> 
+  The aforementioned Jamie McCorriston and I created a model for playing NHL DFS. While it has not been very profitable to this point, there are some components of the model that have been successful. For one, our process has been sound, through running multiple models as well as comparing to two basic control models to ensure that we are indeed creating value rather than essentially blindly selecting players.
+</p>
+<p>
+  Secondly, our goalie projection system has performed quite well. Without giving away the details, I will try to outline the general idea of how we project goalie performance. First, we use a prediction for how many shots the opposing team will have against a neutral opponent, and how many shots the goalie's team will allow. We create a weighted average of these two values to create an estimation of the total shots on goal the goalie will face in the game. We perform a similar step to estimate the goalie's save percentage and then multiply this value by the expected shots on goal to find the number of expected goals and we expect the goalie to allow and the number of expected saves we expect him to make. The biggest factor in projecting DFS goalie performance is Wins. For this, we use a combination of Vegas lines as well as metrics we created under our xGoals model. Finally, we add a probability of a Shutout, by raising the expected save percentage to the power of expected shots (e.g. a goalie with an expected Sv% of .910 and with 30 shots on goal against, would be expected to record a shutout .910^30 = 5.9% of games). While the overall framework is pretty basic, the projections have performed relatively strongly thus far, recording roughly 90% of its expected value over our limited test sample to this point.
+</p>
+<br>
+
+
+<br>
+<h2> NBA Public Models vs. Vegas Lines </h2>
+<p> 
+  Over the course of the 2015-16 NBA season, I began tracking a variety of public models and tracked their process against Vegas opening and closing lines. While there were no real dollars invested, each individual model as well as a weighted ensemble of all models managed to profit over the full season while betting at a proportion of the <a target="_blank" href="https://en.wikipedia.org/wiki/Kelly_criterion">Kelly Criterion</a> (although some models did not have projections for all 1230 games). While this is not a guarantee of potential profit in the future, it would suggest that Vegas lines are not as unbeatable as they once thought to be (or at least as unbeatable as I thought they were). However, this does not necessarily mean there is free money to be had. Most models did not take into account injuries, often overrating heavily depleated rosters (think late season <a target="blank" href="http://www.nba.com/celtics/news/sidebar/shoot-visitor-030916-Grizzlies-Bearing-Down-Despite-Myriad-Injuries">Memphis Grizzlies</a>). Additionally, there were a number of <a target="blank" href="http://espn.go.com/nba/recap?gameId=400828818">substantial</a> <a target="blank" href="http://espn.go.com/nba/recap?gameId=400829050">upsets</a> in the NBA in which the models generally bet on the underdog, greatly increasing their profit margins in highly volatile events. So although the models all had positive ROI in 2015-16, there is reason to believe it may not be sustainable if the NBA has a calmer season in 2016-2017 and beyond. Regardless, I will continue to track and follow this project, monitoring the strength of various public models betting against Las Vegas sportsbooks.
+</p>
+
+
 
 </div>
 </div>
 </body>
 </html>
-
-
 <script>
   (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
   (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
