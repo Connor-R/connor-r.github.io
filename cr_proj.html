@@ -43,16 +43,15 @@ h3 {
 <p>
   The following paragraph further details my data oriented process. First, I have done research on how players perform relative to their projections, resulting in the ability to generate a Gaussian distribution curve for each player projection within the simulation. From these projections, I use an implementation of the <a target="blank" href="https://en.wikipedia.org/wiki/Hungarian_algorithm">Hungarian algorithm</a> to create optimized <a target="blank" href="https://github.com/Connor-R/NSBL/blob/master/team_strength/pitching_optimizer.py">pitching rotations</a> and optimized <a target="blank" href="https://github.com/Connor-R/NSBL/blob/master/team_strength/lineup_optimizer.py">batting lineups</a> against left- and right-hand opposing pitchers. Next, by treating every player as a independent random variable, I can <a target="blank" href="https://en.wikipedia.org/wiki/Sum_of_normally_distributed_random_variables">create</a> a team-level distribution which leads to a <a target="blank" href="https://github.com/Connor-R/NSBL/blob/master/team_strength/team_strength.py">projection</a> of each team's win-loss record and the amount of expected variance given their optimal roster construction. Finally, using these projections and <a target="blank" href="https://www.printyourbrackets.com/how-do-the-mlb-playoffs-work.html">MLB's playoff structure</a> I can compute the probability of each team's advancement to various playoff rounds by using the <a target="blank" href="https://en.wikipedia.org/wiki/Log5">Log5 odds ratio</a> to predict the likelihood of a team winning a single game, and the <a target="blank" href="https://en.wikipedia.org/wiki/Binomial_distribution#Probability_mass_function">binomial probability mass function</a> to predict the likelihood of winning a 5 or 7 game series as appropriate.
 </p>
+
 <center>
-<figure>
-<img src="i/nsbl1.png" width="800" >
-<figcaption>
-<p>
-2017 NSBL Projected Standings and Playoff Odds
-</figcaption>
+<figure style="float:none">
+   <img src="i/nsbl1.png" alt="NSBL Standings" style="width:800px;">
+   <figcaption> 
+    2017 NSBL Projected Standings and Playoff Odds
+   </figcaption>
 </figure>
 </center>
-</p>
 
 <p>
   The full codebase for this research and analysis is available <a target="blank" href="https://github.com/connor-r/NSBL">on my github</a>. This code has scripts capable of building a MySQL database, populating the tables by scraping the league and additional sites, post-processessing the data into a myriad of advanced metrics, computing historical statistics, analyzing prospects for an amateur draft, optimizing team rosters, and predicting team-level outcomes. If you're interested in just seeing the results and not the process, a full (relatively up-to-date) backup of the database (both SQL and .csv format) can be found <a target="blank" href="http://bit.ly/NSBL_db_backups">on Dropbox</a>.
@@ -60,11 +59,14 @@ h3 {
 <br>
 
 <br>
-  <figure>
-  <center>
-  <img src="i/curry_shots.png" height="400px" align="right" style="margin-left:40px"/>
-  </center>
-  </figure>
+
+<figure style="float:right">
+   <img src="i/curry_shots.png" alt="Stephen Curry Shot Chart" style="height:400px;">
+   <figcaption> 
+     <!-- Stephen Curry's 2015/16 Shot Chart -->
+   </figcaption>
+</figure>
+
 <h2> <a target="blank" href="https://github.com/Connor-R/nba_shot_charts/"> NBA Shot Charts </a> </h2>
 <p> 
   In January 2017, I tried my hand at making NBA shot charts. These charts are primarily an extension from the work of <a target="blank" href="http://www.danvatterott.com/">Dan Vatterott</a> and <a target="blank" href="http://www.savvastjortjoglou.com">Savvas Tjortjoglou</a>. I made an attempt to combine my favorite aspects of other shot charts on the internet (primarily from: <a target="blank" href="https://www.instagram.com/kirkgoldsberry/">Kirk</a> <a target="blank" href="https://fivethirtyeight.com/contributors/kirk-goldsberry/">Goldsberry</a>, <a target="blank" href="http://buckets.peterbeshai.com/app/#/playerView/201935_2015">Buckets (by Peter Beshai)</a>, <a target="blank" href="http://toddwschneider.com/posts/ballr-interactive-nba-shot-charts-with-r-and-shiny/">BallR (by Todd Schneider)</a>, and <a target="blank" href="http://www.austinclemens.com/shotcharts/">Swish (by Austin Clemens)</a>) into one image, while also adding some additional features I thought would be nice in order to better distinguish the amount of value added by a player.
@@ -87,12 +89,14 @@ h3 {
 </p>
 <br>
 
-<br>
-  <figure>
-  <center>
-  <img src="i/xgoals1.png" height="300px" align="right" style="margin-left:40px"/>
-  </center>
-  </figure><h2> NHL Shot Quality </h2>
+<figure style="float:right">
+   <img src="i/xgoals1.png" alt="xGoals Table" style="height:300px;">
+   <figcaption> <br>
+     xGoals vs. possession based metrics
+   </figcaption>
+</figure>
+
+<h2> NHL Shot Quality </h2>
 <p> 
   My friend <a target="_blank" href="https://www.linkedin.com/in/james-mccorriston-624360b4">Jamie McCorriston</a> and I have developed a set of distance based shot quality metrics for the National Hockey League. By regressing shooting percentages from various distances at various game states, we created a set of expected goal models at both a team and individual player level. The full dataset can be seen at our site <a target="_blank" href="http://fourthlineheroes.com/">Fourth Line Heroes</a> with more detailed explanations available <a target="_blank" href="http://fourthlineheroes.com/#explanation">here</a> and <a target="_blank" href="xgoals-terms.pdf">here</a>. Our flagship metric, the xGoal, has been shown to be a better indicator of team success on an individual game level than commonly referenced metrics shots on goal and shot attempts, suggesting that expected goals are less influenced by score effects than shot volume based metrics.
 </p>

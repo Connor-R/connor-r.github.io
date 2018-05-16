@@ -46,6 +46,18 @@ p.center{text-align:center;}
 
 ul.a {list-style-type:circle;}
 
+figure {
+  display: table;
+  float: right;
+}
+figcaption {
+  text-align: center;
+  display: table-caption;
+  font-type:italic; 
+  font-size:12pt;
+  caption-side: bottom;
+}
+
 #nav {
 	position:relative;
 	top:-100px; height:67px;
