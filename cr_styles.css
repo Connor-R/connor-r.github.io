@@ -24,8 +24,8 @@ top:2px;}
 
 body {background-color:#D1D1E0;margin: 0;}
 p{font-family: Optima, Segoe, "Segoe UI", Candara, Calibri, Arial, sans-serif; line-height:180%;}
-h1{font-size:30px;}
-h2{font-size:20px;}
+h1{font-size:30px;font-family: Garamond, Baskerville, "Baskerville Old Face", "Hoefler Text", "Times New Roman", serif;}
+h2{font-size:20px;font-family: Garamond, Baskerville, "Baskerville Old Face", "Hoefler Text", "Times New Roman", serif;}
 h3 {
     display: block;
     font-size: 1.17em;
@@ -40,11 +40,13 @@ img.name{position:absolute;top:0px;margin: 0 auto 0 5px;z-index:1;}
 iframe{display:block; margin: 0 auto;}
 
 p.cv{font-family: Garamond, Baskerville, "Baskerville Old Face", "Hoefler Text", "Times New Roman", serif;}
-h3 {font-size:20px;text-decoration:underline;margin:0;}
-h4{font-size:18px;font-weight:bold;margin:0;}
+h3 {font-family: Garamond, Baskerville, "Baskerville Old Face", "Hoefler Text", "Times New Roman", serif; font-size:20px;text-decoration:underline;margin:0;}
+h4{font-family: Garamond, Baskerville, "Baskerville Old Face", "Hoefler Text", "Times New Roman", serif; font-size:18px;font-weight:bold;margin:0;}
 p.center{text-align:center;}
 
 ul.a {list-style-type:circle;}
+ul{font-family: Garamond, Baskerville, "Baskerville Old Face", "Hoefler Text", "Times New Roman", serif;}
+ol{font-family: Garamond, Baskerville, "Baskerville Old Face", "Hoefler Text", "Times New Roman", serif;}
 
 figure {
   display: table;
