@@ -23,7 +23,7 @@ top:2px;}
 #int a:hover{background: url('i/links.png') -580px -65px;}
 
 body {background-color:#D1D1E0;margin: 0;}
-p{font-family: Optima, Segoe, "Segoe UI", Candara, Calibri, Arial, sans-serif;}
+p{font-family: Optima, Segoe, "Segoe UI", Candara, Calibri, Arial, sans-serif; line-height:180%;}
 h1{font-size:30px;}
 h2{font-size:20px;}
 h3 {
