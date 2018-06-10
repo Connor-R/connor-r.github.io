@@ -40,7 +40,7 @@ img.name{position:absolute;top:0px;margin: 0 auto 0 5px;z-index:1;}
 iframe{display:block; margin: 0 auto;}
 
 p.cv{font-family: Garamond, Baskerville, "Baskerville Old Face", "Hoefler Text", "Times New Roman", serif;}
-h3 {font-family: Garamond, Baskerville, "Baskerville Old Face", "Hoefler Text", "Times New Roman", serif; font-size:20px;text-decoration:underline;margin:0;}
+h3{font-family: Garamond, Baskerville, "Baskerville Old Face", "Hoefler Text", "Times New Roman", serif; font-size:20px;text-decoration:underline;margin:0;}
 h4{font-family: Garamond, Baskerville, "Baskerville Old Face", "Hoefler Text", "Times New Roman", serif; font-size:18px;font-weight:bold;margin:0;}
 p.center{text-align:center;}
 
@@ -58,6 +58,7 @@ figcaption {
   font-type:italic; 
   font-size:12pt;
   caption-side: bottom;
+  font-family: Garamond, Baskerville, "Baskerville Old Face", "Hoefler Text", "Times New Roman", serif;
 }
 
 #nav {
