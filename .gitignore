@@ -1,5 +1,2 @@
 .DS_Store
-bookmarks.html
-relevant_bookmarks.csv
-bookmark_run.sh
-bookmark_parser.py
+/bookmarks/
