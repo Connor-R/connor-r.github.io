@@ -1,0 +1,3 @@
+# Posts
+
+Where I store any blog-ish style posts. If you want to view a post in particular, go to [http://connor-r.github.io/Posts/*file_name*.html](http://connor-r.github.io/Posts/*file_name*.html) (e.g., in the off chance somebody was interested in things that I've read or sites that I frequently visit, you would go to [http://connor-r.github.io/Posts/2018_nba_draft_board.html](http://connor-r.github.io/Posts/2018_nba_draft_board.html)).
