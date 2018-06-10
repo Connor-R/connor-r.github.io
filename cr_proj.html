@@ -68,7 +68,30 @@ h3 {
 </p>
 <br>
 
+
+
+<h2> <a target="blank" href="https://github.com/Connor-R/mlb_prospects"> Prospect Analysis </a> </h2>
+<p> 
+  I love amatuer/minor league sports. While I try and stay somewhat knowledge about the top NHL and NHL draft prospects (mostly by reading <a target="blank" href="https://twitter.com/coreypronman">Corey Pronman</a>), I follow minor league baseball, the MLB draft, and the NBA draft much more closely. I've attached links to my draft rankings for the 2016, 2017, and 2018 NBA Drafts:
+  <ul>
+    <li> <a href="2018_nba_draft_board.html">2018</a>
+    <li> <a href="2018_nba_draft_board.html#2017">2017</a>
+    <li> <a href="2018_nba_draft_board.html#2016">2016</a>
+  </ul>
+<p>
+  The below link contains a joined table from my prospect database, which contains data on MLB prospects from 2013 to present. I've done my best to join prospects together from my 3 datasources (mlb.com, fangraphs.com, and minorleagueball.com) by matching based on name, birthdate, age, and occasionally team. That said, I'm sure a number of players slipped through the cracks. If you find one, let me know! Since there are many columns, I've added pseudo line breaks between columns that are specific to each site. The column name "*fg*" indicates that the following columns are all from fangraphs.com (and similarly with "*mlb*" for mlb.com, and "*mi*" for minorleagueball.com). A column prefix ending in "d" (e.g. "fgd_rank") indicates a draft related column, while column prefix ending in "p" (e.g. "mlbp_top100") indicates a prospect related column.
+</p>
+  <ul>
+    <li> <a href="NSBL_files/master_prospects.html">MLB prospect dataset</a>
+  </ul>
+</p>
+<p>
+  The code for my MLB prospect database is all posted <a target="blank" href="https://github.com/Connor-R/mlb_prospects">on my github</a>. 
+</p>
 <br>
+<br>
+
+
 
 <figure style="float:right">
    <img src="i/curry_shots.png" alt="Stephen Curry Shot Chart" style="height:400px;">
@@ -106,13 +129,17 @@ h3 {
    </figcaption>
 </figure>
 
+
+
 <h2> NHL Shot Quality </h2>
 <p> 
   My friend <a target="_blank" href="https://www.linkedin.com/in/james-mccorriston-624360b4">Jamie McCorriston</a> and I have developed a set of distance based shot quality metrics for the National Hockey League. By regressing shooting percentages from various distances at various game states, we created a set of expected goal models at both a team and individual player level. The full dataset can be seen at our site <a target="_blank" href="http://fourthlineheroes.com/">Fourth Line Heroes</a> with more detailed explanations available <a target="_blank" href="http://fourthlineheroes.com/#explanation">here</a> and <a target="_blank" href="xgoals-terms.pdf">here</a>. Our flagship metric, the xGoal, has been shown to be a better indicator of team success on an individual game level than commonly referenced metrics shots on goal and shot attempts, suggesting that expected goals are less influenced by score effects than shot volume based metrics.
 </p>
 <br>
-
 <br>
+
+
+
 <h2> NHL Daily Fantasy Sports </h2>
 <p> 
   The aforementioned Jamie McCorriston and I created a model for playing NHL DFS. While it has not been very profitable to this point, there are some components of the model that have been successful. For one, our process has been sound, through running multiple models as well as comparing to two basic control models to ensure that we are indeed creating value rather than essentially blindly selecting players.
@@ -121,24 +148,15 @@ h3 {
   Secondly, our goalie projection system has performed quite well. Without giving away the details, I will try to outline the general idea of how we project goalie performance. First, we use a prediction for how many shots the opposing team will have against a neutral opponent, and how many shots the goalie's team will allow. We create a weighted average of these two values to create an estimation of the total shots on goal the goalie will face in the game. We perform a similar step to estimate the goalie's save percentage and then multiply this value by the expected shots on goal to find the number of expected goals and we expect the goalie to allow and the number of expected saves we expect him to make. The biggest factor in projecting DFS goalie performance is Wins. For this, we use a combination of Vegas lines as well as metrics we created under our xGoals model. Finally, we add a probability of a Shutout, by raising the expected save percentage to the power of expected shots (e.g. a goalie with an expected Sv% of .910 and with 30 shots on goal against, would be expected to record a shutout .910^30 = 5.9% of games). While the overall framework is pretty basic, the projections have performed relatively strongly thus far, recording roughly 90% of its expected value over our limited test sample to this point.
 </p>
 <br>
-
-
 <br>
+
+
+
 <h2> NBA Public Models vs. Vegas Lines </h2>
 <p> 
   Over the course of the 2015-16 NBA season, I began tracking a variety of public models and tracked their process against Vegas opening and closing lines. While there were no real dollars invested, each individual model as well as a weighted ensemble of all models managed to profit over the full season while betting at a proportion of the <a target="_blank" href="https://en.wikipedia.org/wiki/Kelly_criterion">Kelly Criterion</a> (although some models did not have projections for all 1230 games). While this is not a guarantee of potential profit in the future, it would suggest that Vegas lines are not as unbeatable as they once thought to be (or at least as unbeatable as I thought they were). However, this does not necessarily mean there is free money to be had. Most models did not take into account injuries, often overrating heavily depleated rosters (think late season <a target="blank" href="http://www.nba.com/celtics/news/sidebar/shoot-visitor-030916-Grizzlies-Bearing-Down-Despite-Myriad-Injuries">Memphis Grizzlies</a>). Additionally, there were a number of <a target="blank" href="http://espn.go.com/nba/recap?gameId=400828818">substantial</a> <a target="blank" href="http://espn.go.com/nba/recap?gameId=400829050">upsets</a> in the NBA in which the models generally bet on the underdog, greatly increasing their profit margins in highly volatile events. So although the models all had positive ROI in 2015-16, there is reason to believe it may not be sustainable if the NBA has a calmer season in 2016-2017 and beyond. Regardless, I will continue to track and follow this project, monitoring the strength of various public models betting against Las Vegas sportsbooks.
 </p>
 
-<br>
-<h2> NBA Draft Rankings </h2>
-<p> 
-  A tangential hobby is following professional sports drafts. I've done work regarding MLB and NHL drafts, but the only rankings I've made public are my rankings for the NBA Draft:
-  <ul>
-    <li> <a href="2018_nba_draft_board.html">2018</a>
-    <li> <a href="2018_nba_draft_board.html#2017">2017</a>
-    <li> <a href="2018_nba_draft_board.html#2016">2016</a>
-  </ul>
-</p>
 
 
 
