@@ -22,7 +22,7 @@ def add_google_analytics(file_path):
         txt = in_file.read()
         soup = bs4.BeautifulSoup(txt,"lxml")
 
-        soup.append("\n\n\n")
+        soup.append("\n")
         new_script = soup.new_tag("script")
         soup.append(new_script)
 
