@@ -1,7 +1,7 @@
 SHELL=/bin/bash
 source "/Users/connordog/.bash_profile"
 
-python processing/8a_parser.py
+python 8a_parser.py
 
 wait
 
