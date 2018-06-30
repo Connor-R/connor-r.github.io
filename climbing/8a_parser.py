@@ -10,8 +10,7 @@ f = open("8a.html","r")
 soup = BeautifulSoup(f.read(), "html.parser")
 f.close()
 
-csv_path = "/Users/connordog/Dropbox/Desktop_Files/Work_Things/connor-r.github.io/csvs/8a_boulders.csv"
-# csv_path = "/Users/connordog/Dropbox/Desktop_Files/Work_Things/connor-r.github.io/csvs/boulders_completed.csv"
+csv_path = "/Users/connordog/Dropbox/Desktop_Files/Work_Things/connor-r.github.io/csvs/boulders_completed.csv"
 csv_file = open(csv_path, "wb")
 append_csv = csv.writer(csv_file)
 csv_header = ["Date", "Boulder Name", "Area", "Sub Area", "Grade", "Euro Grade", "Flash", "Soft/Hard", "Stars (1-3)", "FA", "Recommended", "Attempts", "Duration", "Session #", "Comment"]
