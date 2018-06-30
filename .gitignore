@@ -1,5 +1,8 @@
 .DS_Store
-/bookmarks/
+/bookmarks/bookmark_run.sh
+/bookmarks/bookmarks.html
+/bookmarks/cr_bookmarks.sh
+/climbing/8a.html
+/climbing/climbing_update_run.html
 /tv_shows/
-/csv_to_html_run.sh
-/ad_hoc
+/ad_hoc/
