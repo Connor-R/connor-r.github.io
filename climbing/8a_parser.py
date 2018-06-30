@@ -23,7 +23,7 @@ grade_dict = {
     "7C+":"V10", "7C":"V9", "7B+":"V8", "7B":"V7/8", "7A+":"V7", "7A":"V6",
     "6C+":"V5/6", "6C":"V5", "6B+":"V4/5", "6B":"V4", "6A+":"V3/4", "6A":"V3",
     "5C":"V2", "5B":"V1", "5A":"V0", 
-    "4C":"VB", "4B":"VB", "4A":"VB", "3C":"VB", "3B":"VB", "3A":"VB", "2":"VB"}
+    "4C":"V0-", "4B":"V0-", "4A":"V0-", "3C":"V0-", "3B":"V0-", "3A":"V0-", "2":"V0-"}
 
 for comment in soup.find_all(string=lambda text:isinstance(text, Comment)):
     if comment.strip() == "Ascents":
@@ -64,7 +64,7 @@ for i, ascent in enumerate(ascents):
         if boulder_name[0] == "*":
             boulder_name = boulder_name[1:]
 
-        print str(i-1) + " of " + str(len(ascents)-2) + ": " + boulder_name
+        # print str(i-1) + " of " + str(len(ascents)-2) + ": " + boulder_name
 
         try:
             area = areas.split("/")[0].strip()
