@@ -6,7 +6,7 @@ import os
 
 base_path = os.getcwd()
 
-f = open("8a.html","r")
+f = open("/Users/connordog/Dropbox/__TempFiles/Andy the Eagle God - Boulder Log-book 8a.nu.html","r")
 soup = BeautifulSoup(f.read(), "html.parser")
 f.close()
 

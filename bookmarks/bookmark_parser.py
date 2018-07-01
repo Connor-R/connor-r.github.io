@@ -6,7 +6,7 @@ import os
 
 base_path = os.getcwd()
 
-f = open('bookmarks.html','r')
+f = open('/Users/connordog/Dropbox/__TempFiles/bookmarks.html','r')
 soup = bs4.BeautifulSoup(f.read(), 'html.parser')
 f.close()
 
