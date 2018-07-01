@@ -1,0 +1,85 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link rel="stylesheet" type="text/css" href="../cr_styles.css">
+<style>
+h3 { 
+    display: block;
+    font-size: 1.17em;
+    margin-top: 1em;
+    margin-bottom: 1em;
+    margin-left: 0;
+    margin-right: 0;
+    font-weight: italic;
+}
+</style>
+  <link rel="icon" type="image/vnd.microsoft.icon"
+     href="../cr_icon.ico" />
+<title>MLB Prospect Analysis</title>
+</head>
+
+
+<body>
+<div id="column">
+<img src="../i/gen_header.jpg"/>
+
+<div id="nav">
+<ul id="navlist">
+  <li id="home"><a href="../index.html"></a></li>
+  <li id="archive"><a href="../cr_archive.html"></a></li>
+  <li id="resume"><a href="../Connor_Reed_Resume.pdf"></a></li>  <!-- Resume is hard linked to /Users/connordog/Dropbox/Desktop_Files/Work_Things/_Resumes/Connor_Reed_Resume/Connor_Reed_Resume.pdf -->
+  <li id="interests"><a href="../cr_interests.html"></a></li>
+</ul>
+</div>
+<div id="innards">
+
+<h1> <a target="blank" href="https://github.com/Connor-R/mlb_prospects"> MLB Prospect Analysis </a> </h1>
+<p>
+  <i>May 26, 2018</i><br>
+  <i>Updated: July 1, 2018</i>
+</p>
+<p> 
+  I love amatuer/minor league sports. While I try and stay somewhat knowledge about the top NHL and NHL draft prospects (mostly by reading <a target="blank" href="https://twitter.com/coreypronman">Corey Pronman</a>), I follow the NBA draft (click <a href="2018_nba_draft_board.html">here</a> for my thoughts), minor league baseball, and the MLB draft much more closely.
+<p>
+  I've attached links to two master prospect tables from my prospect database. The first link (MLB historical prospect dataset) is a joined table, which contains data on MLB prospects from 2013 to present. I've done my best to join prospects together from my 3 datasources (mlb.com, fangraphs.com, and minorleagueball.com) by matching based on subsets of names, birthdate, age, and occasionally team. That said, I'm sure a number of players slipped through the cracks. If you find one, let me know! Since there are many columns, I've added pseudo line breaks between columns that are specific to each site. The column name "*fg*" indicates that the following columns are all from fangraphs.com (and similarly with "*mlb*" for mlb.com, and "*mi*" for minorleagueball.com). A column prefix ending in "d" (e.g. "fgd_rank") indicates a draft related column, while column prefix ending in "p" (e.g. "mlbp_top100") indicates a prospect related column.
+</p>
+<p>
+  The second link (MLB prospect dataset (current year)) is a ranking of 2018 MLB prospects based on aggregating the following datapoints:
+  <ul>
+    <li>FV grades from fangraphs.com and mlb.com</li>
+    <li> letter grades from minorleagueball.com</li>
+    <li>future scouting grades (OFP) from mlb.com and fangraphs.com</li>
+    <li>current scouting grades (OFP) from fangraphs.com</li>
+    <li>text analysis on scouting reports from mlb.com and minorleagueball.com for notable keywords that may signify a breakout or sleeper prospect</li>
+    <li>shortlist updates for prospects that have performed well, received strong scouting reports, or have some other notable change in the profile since the offseason</li>
+  </ul>
+</p>
+<p>
+  This method provides an ordinal (superAdj_rank) and cardinal (superAdj_FV) rank to each prospect ranked by one of my three datasources (1256 in total for 2018). Additionally, it is a great time saver, as I can read all of the primary information about a prospect by only checking one source (my own) instead of going to multiple sites individually.
+</p>
+  <ul>
+    <li> <a href="../Tables/master_prospects.html">MLB historical prospect dataset</a>
+    <li> <a href="../Tables/master_current.html">MLB prospect dataset (current year)</a>
+  </ul>
+</p>
+<p>
+  All code for my MLB prospect database is posted <a target="blank" href="https://github.com/Connor-R/mlb_prospects">on my github</a>. 
+</p>
+
+
+</div>
+</div>
+</body>
+</html>
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-77536074-1', 'auto');
+  ga('send', 'pageview');
+
+</script>
+

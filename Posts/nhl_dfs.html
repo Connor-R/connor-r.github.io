@@ -1,0 +1,64 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link rel="stylesheet" type="text/css" href="../cr_styles.css">
+<style>
+h3 { 
+    display: block;
+    font-size: 1.17em;
+    margin-top: 1em;
+    margin-bottom: 1em;
+    margin-left: 0;
+    margin-right: 0;
+    font-weight: italic;
+}
+</style>
+  <link rel="icon" type="image/vnd.microsoft.icon"
+     href="../cr_icon.ico" />
+<title>NHL Daily Fantasy Sports</title>
+</head>
+
+
+<body>
+<div id="column">
+<img src="../i/gen_header.jpg"/>
+
+<div id="nav">
+<ul id="navlist">
+  <li id="home"><a href="../index.html"></a></li>
+  <li id="archive"><a href="../cr_archive.html"></a></li>
+  <li id="resume"><a href="../Connor_Reed_Resume.pdf"></a></li>  <!-- Resume is hard linked to /Users/connordog/Dropbox/Desktop_Files/Work_Things/_Resumes/Connor_Reed_Resume/Connor_Reed_Resume.pdf -->
+  <li id="interests"><a href="../cr_interests.html"></a></li>
+</ul>
+</div>
+<div id="innards">
+
+<h1> NHL Daily Fantasy Sports </h1>
+<p>
+<i>Fall 2015</i>
+</p>
+
+<p> 
+  My friend <a target="_blank" href="https://www.linkedin.com/in/james-mccorriston-624360b4">Jamie McCorriston</a> and and I created a model for playing NHL DFS. While it has not been very profitable to this point, there are some components of the model that have been successful. For one, our process has been sound, through running multiple models as well as comparing to two basic control models to ensure that we are indeed creating value rather than essentially blindly selecting players.
+</p>
+<p>
+  Secondly, our goalie projection system has performed quite well. Without giving away the details, I will try to outline the general idea of how we project goalie performance. First, we use a prediction for how many shots the opposing team will have against a neutral opponent, and how many shots the goalie's team will allow. We create a weighted average of these two values to create an estimation of the total shots on goal the goalie will face in the game. We perform a similar step to estimate the goalie's save percentage and then multiply this value by the expected shots on goal to find the number of expected goals and we expect the goalie to allow and the number of expected saves we expect him to make. The biggest factor in projecting DFS goalie performance is Wins. For this, we use a combination of Vegas lines as well as metrics we created under our xGoals model. Finally, we add a probability of a Shutout, by raising the expected save percentage to the power of expected shots (e.g. a goalie with an expected Sv% of .910 and with 30 shots on goal against, would be expected to record a shutout .910^30 = 5.9% of games). While the overall framework is pretty basic, the projections have performed relatively strongly thus far, recording roughly 90% of its expected value over our limited test sample to this point.
+</p>
+
+
+</div>
+</div>
+</body>
+</html>
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-77536074-1', 'auto');
+  ga('send', 'pageview');
+
+</script>
+

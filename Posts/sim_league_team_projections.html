@@ -1,0 +1,92 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link rel="stylesheet" type="text/css" href="../cr_styles.css">
+<style>
+h3 { 
+    display: block;
+    font-size: 1.17em;
+    margin-top: 1em;
+    margin-bottom: 1em;
+    margin-left: 0;
+    margin-right: 0;
+    font-weight: italic;
+}
+</style>
+  <link rel="icon" type="image/vnd.microsoft.icon"
+     href="../cr_icon.ico" />
+<title>Simulation Baseball Team Level Projections</title>
+</head>
+
+
+<body>
+<div id="column">
+<img src="../i/gen_header.jpg"/>
+
+<div id="nav">
+<ul id="navlist">
+  <li id="home"><a href="../index.html"></a></li>
+  <li id="archive"><a href="../cr_archive.html"></a></li>
+  <li id="resume"><a href="../Connor_Reed_Resume.pdf"></a></li>  <!-- Resume is hard linked to /Users/connordog/Dropbox/Desktop_Files/Work_Things/_Resumes/Connor_Reed_Resume/Connor_Reed_Resume.pdf -->
+  <li id="interests"><a href="../cr_interests.html"></a></li>
+</ul>
+</div>
+<div id="innards">
+
+<h1> <a target="blank" href="https://github.com/Connor-R/NSBL/tree/master/team_strength"> Simulation Baseball Team Level Projections </a> </h1>
+<p>
+  <i>December 27, 2016</i></br>
+  <i>Updated July 1, 2018</i>
+</p>
+<p> 
+  I have participiated in <a target="_blank" href="http://diamond-mind.com/">Diamond Mind Baseball (DMB)</a> simulation leagues since I was 16. The general idea of a simulation league is to use statistical projections for players to simulate, using the DMB software, a complete 162 game season running parallel to the real life MLB season. The <a target="_blank" href="http://thensbl.com/">league</a> I participate in has used the <a target="blank" href="http://www.fangraphs.com/blogs/category/2017-zips-projections/">ZiPS projection system</a> provided by Dan Szymborski.
+</p>
+<p>
+  While this remains one of my favorite recreational pastimes, in the past couple of years I have shifted towards an extremely data driven approach to run my particular team. This has involved re-shaping my thinking process and decision making approach to be more objective and less subjective than when I started in 2008. For example, I reverse-engineered certain parts of projection system our league is based on and now have more detailed player projections for every player in the league which helps lessen personal biases in decision making processes regarding player transactions or roster movement. Additionally, I created an automated tracking system for the top available minor league and amateur players available in the league that helps me track player performance and trends for the best draft eligible players, which you can read about <a target="blank" href="mlb_prospect_analysis.html">here</a>. Finally, the part of my process I'm most proud of, the part that is most valuable as well as certainly the most computationally difficult part of my process, is my team level projections.
+</p>
+<p>
+  While it is true that since it is a <i>simulation</i> league, one could sit down and run a large number of simulations and use that number to determine the general strength of each team. However, this is both very time consuming as well as fail to compensate for any injuries that may happen during a simulation. Therefore, I created a ground up theoretical model for projecting the performance of each team. First, I have done research on how players perform relative to their projections, resulting in the ability to generate a Gaussian distribution curve for each player projection within the simulation. From these projections, I use an implementation of the <a target="blank" href="https://en.wikipedia.org/wiki/Hungarian_algorithm">Hungarian algorithm</a> to create optimized <a target="blank" href="https://github.com/Connor-R/NSBL/blob/master/team_strength/pitching_optimizer.py">pitching rotations</a> and optimized <a target="blank" href="https://github.com/Connor-R/NSBL/blob/master/team_strength/lineup_optimizer.py">batting lineups</a> against left- and right-hand opposing pitchers. Next, by treating every player as a independent random variable, I can <a target="blank" href="https://en.wikipedia.org/wiki/Sum_of_normally_distributed_random_variables">create</a> a team-level distribution which leads to a <a target="blank" href="https://github.com/Connor-R/NSBL/blob/master/team_strength/team_strength.py">projection</a> of each team's win-loss record and the amount of expected variance given their optimal roster construction. Finally, using these projections and <a target="blank" href="https://www.printyourbrackets.com/how-do-the-mlb-playoffs-work.html">MLB's playoff structure</a> I can compute the probability of each team's advancement to various playoff rounds by using the <a target="blank" href="https://en.wikipedia.org/wiki/Log5">Log5 odds ratio</a> to predict the likelihood of a team winning a single game, and the <a target="blank" href="https://en.wikipedia.org/wiki/Binomial_distribution#Probability_mass_function">binomial probability mass function</a> to predict the likelihood of winning a 5 or 7 game series as appropriate.
+</p>
+
+<center>
+<figure style="float:none">
+   <img src="../i/nsbl1.png" alt="NSBL Standings" style="width:800px;">
+   <figcaption> 
+    <br>2018 NSBL Projected Standings and Playoff Odds (through ~1/4 of the season)
+   </figcaption>
+</figure>
+</center>
+
+<br>
+<p>
+  During the season, I maintain updated tables for rest of season projections as well as weekly changes in playoff probabilities.
+  <ul>
+    <li> <a href="../Tables/leaderboard_Standings.html">Advanced Standings</a></li>
+    <li> <a href="../Tables/leaderboard_Changes.html">Weekly Changes</a></li>
+  </ul>
+</p>
+
+<br>
+<p>
+  All scripts for my team level projections are available <a target="blank" href="https://github.com/Connor-R/NSBL/tree/master/team_strength">on github</a>, as well as the <a target="blank" href="https://github.com/connor-r/NSBL">full codebase</a> for my simulation league research and analysis. This code has scripts capable of building a MySQL database, populating the tables by scraping the league and additional sites, post-processessing the data into a myriad of advanced metrics, computing historical statistics, analyzing prospects for an amateur draft, optimizing team rosters, and predicting team-level outcomes. If you're interested in just seeing the results and not the process, a full (relatively up-to-date) backup of the database (both SQL and .csv format) can be found <a target="blank" href="http://bit.ly/NSBL_db_backups">on Dropbox</a>.
+</p>
+</p>
+
+
+
+</div>
+</div>
+</body>
+</html>
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-77536074-1', 'auto');
+  ga('send', 'pageview');
+
+</script>
+

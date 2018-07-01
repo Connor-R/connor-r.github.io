@@ -10,17 +10,17 @@ top:2px;}
 #home{background:url('i/links.png') 0 0;}
 #home a:hover{background: url('i/links.png') 0 -65px;}
 
-#proj{left:280px;width:200px;}
-#proj{background:url('i/links.png') -200px 0;}
-#proj a:hover{background: url('i/links.png') -200px -65px;}
+#archive{left:280px;width:200px;}
+#archive{background:url('i/links.png') -200px 0;}
+#archive a:hover{background: url('i/links.png') -200px -65px;}
 
 #resume{left:510px;width:170px;}
 #resume{background:url('i/links.png') -400px 0;}
 #resume a:hover{background: url('i/links.png') -400px -65px;}
 
-#int{left:730px;width:200px;}
-#int{background:url('i/links.png') -580px 0;}
-#int a:hover{background: url('i/links.png') -580px -65px;}
+#interests{left:730px;width:200px;}
+#interests{background:url('i/links.png') -580px 0;}
+#interests a:hover{background: url('i/links.png') -580px -65px;}
 
 body {background-color:#D1D1E0;margin: 0;}
 p{font-family: Optima, Segoe, "Segoe UI", Candara, Calibri, Arial, sans-serif; line-height:180%;}
@@ -34,14 +34,16 @@ h3 {
     margin-left: 0;
     margin-right: 0;
     font-weight: bold;
-}img.gen{border:1px solid black;display:block;margin: 0 auto;}
+}
+h4{font-size:15px;font-family: Garamond, Baskerville, "Baskerville Old Face", "Hoefler Text", "Times New Roman", serif;}
+img.gen{border:1px solid black;display:block;margin: 0 auto;}
 img.bord{border:2px solid black;}
 img.name{position:absolute;top:0px;margin: 0 auto 0 5px;z-index:1;}
 iframe{display:block; margin: 0 auto;}
 
 p.cv{font-family: Garamond, Baskerville, "Baskerville Old Face", "Hoefler Text", "Times New Roman", serif;}
 h3{font-family: Garamond, Baskerville, "Baskerville Old Face", "Hoefler Text", "Times New Roman", serif; font-size:20px;text-decoration:underline;margin:0;}
-h4{font-family: Garamond, Baskerville, "Baskerville Old Face", "Hoefler Text", "Times New Roman", serif; font-size:18px;font-weight:bold;margin:0;}
+h4{font-family: Garamond, Baskerville, "Baskerville Old Face", "Hoefler Text", "Times New Roman", serif; font-size:15px;font-weight:bold;margin:0;}
 p.center{text-align:center;}
 
 ul.a {list-style-type:circle;}
