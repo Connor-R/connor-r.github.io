@@ -1,5 +1,5 @@
 podcast_name,genre,peak_grade,consistency_grade,adjustment,overall_grade
-"""30 For 30 Podcasts""","""Sports(Other)""",75,70,,73
+"""30 For 30 Podcasts""","""Sports(Other)""",70,70,,70
 """31 Thoughts: The Podcast""","""Sports(Hockey)""",70,60,,66
 """Advanced Football Analytics""","""Sports(Football)""",50,50,,50
 """Baseball America""","""Sports(Baseball)""",60,30,,48
@@ -7,34 +7,34 @@ podcast_name,genre,peak_grade,consistency_grade,adjustment,overall_grade
 """Biscuits: A Hockey Podcast""","""Sports(Hockey)""",60,60,,60
 """Data Skeptic""","""Data Science""",65,45,,57
 """Defensive Indifference: A 2080 Baseball Podcast""","""Sports(Baseball)""",55,35,,47
-"""Dray Day""","""Sports(Basketball)""",55,55,,55
+"""Dray Day""","""Sports(Basketball)""",50,55,,52
 """Dunc'd On Basketball NBA Podcast""","""Sports(Basketball)""",60,35,,50
-"""Effectively Wild: A FanGraphs Baseball Podcast""","""Sports(Baseball)""",55,45,,51
+"""Effectively Wild: A FanGraphs Baseball Podcast""","""Sports(Baseball)""",60,40,,52
 """ESPN: Behind The Dish with Keith Law""","""Sports(Baseball)""",50,35,,44
 """FanGraphs Baseball""","""Sports(Baseball)""",75,60,,69
-"""FanGraphs Fantasy Baseball""","""Sports(Baseball)""",55,40,,49
+"""FanGraphs Fantasy Baseball""","""Sports(Baseball)""",60,40,,52
 """Fringe Average: Baseball Prospectus Podcast""","""Sports(Baseball)""",60,60,,60
 """Hardwood Homies NBA Draft Podcast""","""Sports(Basketball)""",55,45,,51
-"""Hockey Graphs Podcast""","""Sports(Hockey)""",55,45,,51
+"""Hockey Graphs Podcast""","""Sports(Hockey)""",50,45,,48
 """Hockey PDOcast""","""Sports(Hockey)""",60,55,,58
 """Hockey Prospectus Radio""","""Sports(Hockey)""",50,50,,50
 """Home Court Vantage Podcast""","""Sports(Basketball)""",50,50,,50
 """IEEE Software's ""On Computing"" with Grady Booch""","""Data Science""",40,60,,48
-"""In Play, Pod(cast)""","""Sports(Baseball)""",60,40,,52
+"""In Play, Pod(cast)""","""Sports(Baseball)""",50,40,,46
 """Linear Digressions""","""Data Science""",50,60,,54
 """Measurables""","""Sports(Other)""",40,45,,42
 """Mike Detective""","""Comedy""",65,65,,65
 """MLB Pipeline""","""Sports(Baseball)""",60,45,,54
 """NFL: Game Theory and Money""","""Sports(Football)""",55,35,,47
-"""Nothing But Nylon""","""Sports(Basketball)""",65,65,,65
+"""Nothing But Nylon""","""Sports(Basketball)""",65,50,,59
 """Off The Charts Football Podcast""","""Sports(Football)""",50,50,,50
 """Off The Post""","""Sports(Hockey)""",45,55,,49
 """PFF Fantasy Football Podcast with Jeff Ratcliffe""","""Sports(Football)""",40,50,,44
 """Pitch Talks""","""Sports(Baseball)""",50,55,,52
-"""Pitcher List Fantasy Baseball Podcast""","""Sports(Baseball)""",45,45,,45
+"""Pitcher List Fantasy Baseball Podcast""","""Sports(Baseball)""",55,40,,49
 """Programming Throwdown""","""Data Science""",60,50,,56
 """R U Talkin' R.E.M. RE: ME?""","""Comedy""",55,55,,55
-"""Sharp Football Analysis""","""Sports(Football)""",55,50,,53
+"""Sharp Football Analysis""","""Sports(Football)""",55,45,,51
 """Statcast Podcast""","""Sports(Baseball)""",60,60,,60
 """Stolen Signs""","""Sports(Baseball)""",45,40,,43
 """The Better Rivals 49ers Podcast""","""Sports(Football)""",45,45,,45
@@ -48,7 +48,7 @@ podcast_name,genre,peak_grade,consistency_grade,adjustment,overall_grade
 """The Late-Round Podcast""","""Sports(Football)""",65,60,,63
 """The Lowe Post""","""Sports(Basketball)""",75,60,,69
 """The Motus Show""","""Sports(Other)""",55,60,,57
-"""The PFF Forecast""","""Sports(Football)""",60,60,,60
+"""The PFF Forecast""","""Sports(Football)""",60,50,,56
 """The R^2 Podcast""","""Sports(Basketball)""",65,50,,59
 """The Sports Analytics Department""","""Sports(Other)""",50,50,,50
 """The Spotrac Podcast""","""Sports(Other)""",45,55,,49
