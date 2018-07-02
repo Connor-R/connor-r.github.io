@@ -5,7 +5,7 @@ podcast_name,genre,peak_grade,consistency_grade,adjustment,overall_grade
 """Baseball America""","""Sports(Baseball)""",60,30,,48
 """Bet The Process""","""Sports(Other)""",70,55,,64
 """Biscuits: A Hockey Podcast""","""Sports(Hockey)""",60,60,,60
-"""Data Skeptic""","""Data Science""",65,45,,57
+"""Data Skeptic""","""Data Science""",60,45,,54
 """Defensive Indifference: A 2080 Baseball Podcast""","""Sports(Baseball)""",55,35,,47
 """Dray Day""","""Sports(Basketball)""",50,55,,52
 """Dunc'd On Basketball NBA Podcast""","""Sports(Basketball)""",60,35,,50
@@ -21,7 +21,7 @@ podcast_name,genre,peak_grade,consistency_grade,adjustment,overall_grade
 """Home Court Vantage Podcast""","""Sports(Basketball)""",50,50,,50
 """IEEE Software's ""On Computing"" with Grady Booch""","""Data Science""",40,60,,48
 """In Play, Pod(cast)""","""Sports(Baseball)""",50,40,,46
-"""Linear Digressions""","""Data Science""",50,60,,54
+"""Linear Digressions""","""Data Science""",55,60,,57
 """Measurables""","""Sports(Other)""",40,45,,42
 """Mike Detective""","""Comedy""",65,65,,65
 """MLB Pipeline""","""Sports(Baseball)""",60,45,,54
