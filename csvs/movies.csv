@@ -1,2 +1,2 @@
-movie_name,length,grade,comment
-"""Alpha Go""",90,70,"""Documentary about Alpha Go, the machine learning program that beat the best Go players in the world."""
+movie_name,genre,length,grade,comment
+"""Alpha Go""","""Documentary""",90,70,"""Documentary about Alpha Go, the machine learning program that beat the best Go players in the world."""
