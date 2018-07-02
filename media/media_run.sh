@@ -1,0 +1,34 @@
+SHELL=/bin/bash
+source "/Users/connordog/.bash_profile"
+
+python bookmark_parser.py
+
+wait
+
+python export_media.py
+
+waite
+
+csvtotable /Users/connordog/Dropbox/Desktop_Files/Work_Things/connor-r.github.io/csvs/relevant_bookmarks.csv -o -c "Connor Reed - Bookmarks" /Users/connordog/Dropbox/Desktop_Files/Work_Things/connor-r.github.io/Tables/cr_bookmarks.html -vs 15
+python /Users/connordog/Dropbox/Desktop_Files/Work_Things/connor-r.github.io/Tables/google_analytics_appender.py --file_path "/Users/connordog/Dropbox/Desktop_Files/Work_Things/connor-r.github.io/Tables/cr_bookmarks.html"
+
+csvtotable /Users/connordog/Dropbox/Desktop_Files/Work_Things/connor-r.github.io/csvs/books.csv -o -c "Connor Reed - Books" /Users/connordog/Dropbox/Desktop_Files/Work_Things/connor-r.github.io/Tables/books.html -vs 15
+python /Users/connordog/Dropbox/Desktop_Files/Work_Things/connor-r.github.io/Tables/google_analytics_appender.py --file_path "/Users/connordog/Dropbox/Desktop_Files/Work_Things/connor-r.github.io/Tables/books.html"
+
+csvtotable /Users/connordog/Dropbox/Desktop_Files/Work_Things/connor-r.github.io/csvs/movies.csv -o -c "Connor Reed - Movies" /Users/connordog/Dropbox/Desktop_Files/Work_Things/connor-r.github.io/Tables/movies.html -vs 15
+python /Users/connordog/Dropbox/Desktop_Files/Work_Things/connor-r.github.io/Tables/google_analytics_appender.py --file_path "/Users/connordog/Dropbox/Desktop_Files/Work_Things/connor-r.github.io/Tables/movies.html"
+
+csvtotable /Users/connordog/Dropbox/Desktop_Files/Work_Things/connor-r.github.io/csvs/podcasts.csv -o -c "Connor Reed - Podcasts" /Users/connordog/Dropbox/Desktop_Files/Work_Things/connor-r.github.io/Tables/podcasts.html -vs 15
+python /Users/connordog/Dropbox/Desktop_Files/Work_Things/connor-r.github.io/Tables/google_analytics_appender.py --file_path "/Users/connordog/Dropbox/Desktop_Files/Work_Things/connor-r.github.io/Tables/podcasts.html"
+
+cd ~/Dropbox/Desktop_Files/Work_Things/connor-r.github.io
+git add Tables/cr_bookmarks.html
+git add csvs/relevant_bookmarks.csv
+git add Tables/books.html
+git add csvs/books.csv
+git add Tables/movies.html
+git add csvs/movies.csv
+git add Tables/podcasts.html
+git add csvs/podcasts.csv
+git commit -m "update media"
+git push
