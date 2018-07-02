@@ -36,7 +36,7 @@ def initiate():
         except ZeroDivisionError:
             avg_eps = 0
 
-        entry['show_name'] = show_name
+        entry['show_name'] = show_name.replace("_"," ")
         entry['seasons'] = seasons_cnt
         entry['episodes'] = episodes_cnt
         entry['episodes_per_season'] = avg_eps

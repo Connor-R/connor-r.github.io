@@ -36,7 +36,10 @@ def update_podcast_grades():
     for row in res:
         podcast_name, genre, peak, consistency, adj, overall = row
 
-        grade = (float(peak)*3 + float(consistency)*2)/5 + max(adj,0)
+        try:
+            grade = (float(peak)*3 + float(consistency)*2)/5 + max(adj,0)
+        except TypeError:
+            grade = 0
 
         entry = {"podcast_name":podcast_name, "genre":genre, "peak_grade":peak, "consistency_grade":consistency, "adjustment":adj, "overall_grade":grade}
 
