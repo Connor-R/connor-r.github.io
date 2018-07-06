@@ -36,7 +36,7 @@ podcast_name,genre,peak_grade,consistency_grade,adjustment,overall_grade
 """R U Talkin' R.E.M. RE: ME?""","""Comedy""",55,55,,55
 """Sharp Football Analysis""","""Sports(Football)""",55,45,,51
 """Statcast Podcast""","""Sports(Baseball)""",60,60,,60
-"""Stolen Signs""","""Sports(Baseball)""",45,40,,43
+"""Stolen Signs""","""Sports(Baseball)""",45,45,,45
 """The Better Rivals 49ers Podcast""","""Sports(Football)""",45,45,,45
 """The Daily Fantasy Edge""","""Sports(Other)""",45,45,,45
 """The Football Analytics Show by The Power Rank""","""Sports(Football)""",60,65,,62

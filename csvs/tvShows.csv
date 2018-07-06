@@ -25,11 +25,11 @@ show_name,genre,seasons,episodes,episode_length,episodes_per_season,approx_runti
 """Parks And Recreation""","""comedy""",,,22,,,65,55,,61
 """Documentary Now""","""comedy""",,,22,,,65,55,,61
 """Blunt Talk""","""comedy""",,,30,,,65,55,,61
+"""Chappelle's Show""","""comedy""",,,22,,,65,55,,61
 """30 Rock""","""comedy""",,,22,,,60,60,,60
 """Atlanta""","""comedy""",2,9,22,4.50,3.30,60,60,,60
 """The Boondocks""","""comedy""",,,22,,,60,60,,60
 """Archer""","""comedy""",,,22,,,70,45,,60
-"""Chappelle's Show""","""comedy""",,,22,,,65,50,,59
 """The Eric Andre Show""","""comedy""",,,11,,,70,40,,58
 """Summer Heights High""","""comedy""",,,22,,,60,50,,56
 """Check It Out With Dr. Steve Brule""","""comedy""",,,11,,,70,35,,56
@@ -46,6 +46,7 @@ show_name,genre,seasons,episodes,episode_length,episodes_per_season,approx_runti
 """BBC Frozen Planet""","""documentary""",,,48,,,60,35,,50
 """Unsupervised""","""comedy""",,,22,,,55,40,,49
 """NTSF SD SUV""","""comedy""",,,11,,,55,40,,49
+"""Betas""","""comedy""",,,28,,,50,45,,48
 """Unbreakable Kimmy Schmidt""","""comedy""",,,25,,,40,60,,48
 """Trailer Park Boys""","""comedy""",,,22,,,60,30,,48
 """Flight of the Conchords""","""comedy""",,,25,,,60,30,,48
@@ -53,7 +54,6 @@ show_name,genre,seasons,episodes,episode_length,episodes_per_season,approx_runti
 """Workaholics""","""comedy""",,,22,,,45,50,,47
 """Human Giant""","""comedy""",,,22,,,60,25,,46
 """Undeclared""","""comedy""",,,22,,,50,40,,46
-"""Betas""","""comedy""",,,28,,,50,40,,46
 """Eastbound and Down""","""comedy""",,,28,,,50,40,,46
 """Drunk History""","""comedy""",,,22,,,50,40,,46
 """Stella""","""comedy""",,,22,,,60,25,,46
