@@ -42,21 +42,17 @@ h3 {
 <p> 
   I love amatuer/minor league sports. While I try and stay somewhat knowledge about the top NHL and NHL draft prospects (mostly by reading <a target="blank" href="https://twitter.com/coreypronman">Corey Pronman</a>), I follow the NBA draft (click <a href="2018_nba_draft_board.html">here</a> for my thoughts), minor league baseball, and the MLB draft much more closely.
 <p>
-  I've attached links to two master prospect tables from my prospect database. The first link (MLB historical prospect dataset) is a joined table, which contains data on MLB prospects from 2013 to present. I've done my best to join prospects together from my 3 datasources (mlb.com, fangraphs.com, and minorleagueball.com) by matching based on subsets of names, birthdate, age, and occasionally team. That said, I'm sure a number of players slipped through the cracks. If you find one, let me know! Since there are many columns, I've added pseudo line breaks between columns that are specific to each site. The column name "*fg*" indicates that the following columns are all from fangraphs.com (and similarly with "*mlb*" for mlb.com, and "*mi*" for minorleagueball.com). A column prefix ending in "d" (e.g. "fgd_rank") indicates a draft related column, while column prefix ending in "p" (e.g. "mlbp_top100") indicates a prospect related column.
-</p>
-<p>
-  The second link (MLB prospect dataset (current year)) is a ranking of 2018 MLB prospects based on aggregating the following datapoints:
+  I've attached links to two master prospect tables from my prospect database. The first link (MLB historical prospect dataset) is a joined table, which contains data on MLB prospects from 2013 to present. I've done my best to join prospects together from my 3 datasources (mlb.com, fangraphs.com, and minorleagueball.com) by matching based on subsets of names, birthdate, age, and occasionally team. That said, I'm sure a number of players slipped through the cracks. If you find one, let me know! Since there are many columns, I've added pseudo line breaks between columns that are specific to each site. The column name "*fg*" indicates that the following columns are all from fangraphs.com (and similarly with "*mlb*" for mlb.com, and "*mi*" for minorleagueball.com). A column prefix ending in "d" (e.g. "fgd_rank") indicates a draft related column, while column prefix ending in "p" (e.g. "mlbp_top100") indicates a prospect related column. The first four columns (superAdj_FV, adj_FV, avg_FV, and ofp_FV) are four different methods of generating a FV score for each prospect, for comparison of prospects in different years. These methods are based on aggregating the following datapoints:
   <ul>
     <li>FV grades from fangraphs.com and mlb.com</li>
     <li> letter grades from minorleagueball.com</li>
     <li>future scouting grades (OFP) from mlb.com and fangraphs.com</li>
     <li>current scouting grades (OFP) from fangraphs.com</li>
     <li>text analysis on scouting reports from mlb.com and minorleagueball.com for notable keywords that may signify a breakout or sleeper prospect</li>
-    <li>shortlist updates for prospects that have performed well, received strong scouting reports, or have some other notable change in the profile since the offseason</li>
   </ul>
 </p>
 <p>
-  This method provides an ordinal (superAdj_rank) and cardinal (superAdj_FV) rank to each prospect ranked by one of my three datasources (1256 in total for 2018). Additionally, it is a great time saver, as I can read all of the primary information about a prospect by only checking one source (my own) instead of going to multiple sites individually.
+  The second link (MLB prospect dataset (current year)) is a ranking of 2018 MLB prospects based on aggregating the datapoints listed above, as well as shortlist updates for prospects that have performed well, received strong scouting reports, or have some other notable change in the profile since the offseason. This method provides an ordinal (superAdj_rank) and cardinal (superAdj_FV) rank to each prospect ranked by one of my three datasources (1256 in total for 2018). Additionally, it is a great time saver, as I can read all of the primary information about a prospect by only checking one source (my own) instead of going to multiple sites individually.
 </p>
   <ul>
     <li> <a href="../Tables/master_prospects.html">MLB historical prospect dataset</a>
