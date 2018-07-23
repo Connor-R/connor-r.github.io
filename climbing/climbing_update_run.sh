@@ -16,5 +16,6 @@ git add Tables/boulders_completed.html
 git add Tables/boulders_undone.html
 git add csvs/boulders_completed.csv
 git add csvs/boulders_undone.csv
+git add csvs/boulders_returnInterest.csv
 git commit -m "update climbing dataset"
 git push
