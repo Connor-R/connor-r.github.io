@@ -1,11 +1,12 @@
 show_name,genre,seasons,episodes,episode_length,episodes_per_season,approx_runtime_hours,peak_grade,consistency_grade,adjustment,overall_grade
 """Better Off Ted""","""comedy""",,,22,,,80,80,,80
 """Tough Season""","""comedy""",,,6,,,80,80,,80
-"""Silicon Valley""","""comedy""",,,28,,,80,70,,76
 """Rick And Morty""","""comedy""",,,22,,,80,60,,72
 """China Illinois""","""comedy""",,,15,,,75,60,,69
 """South Park""","""comedy""",,,22,,,75,60,,69
+"""Silicon Valley""","""comedy""",,,28,,,80,50,,68
 """Look Around You""","""comedy""",,,6,,,80,50,,68
+"""Brooklyn Nine Nine""","""comedy""",0,0,22,0.00,0.00,60,75,,66
 """The Greatest Event In Television History""","""comedy""",,,22,,,70,60,,66
 """Sherlock""","""drama""",,,90,,,75,50,,65
 """Frisky Dingo""","""comedy""",,,12,,,75,50,,65
@@ -21,7 +22,6 @@ show_name,genre,seasons,episodes,episode_length,episodes_per_season,approx_runti
 """Futurama""","""comedy""",,,22,,,60,65,,62
 """BBC Planet Earth""","""documentary""",,,48,,,70,50,,62
 """New Girl""","""comedy""",,,22,,,60,65,,62
-"""Brooklyn Nine Nine""","""comedy""",0,0,22,0.00,0.00,55,70,,61
 """Parks And Recreation""","""comedy""",,,22,,,65,55,,61
 """Documentary Now""","""comedy""",,,22,,,65,55,,61
 """Blunt Talk""","""comedy""",,,30,,,65,55,,61
@@ -40,6 +40,7 @@ show_name,genre,seasons,episodes,episode_length,episodes_per_season,approx_runti
 """Blue Mountain State""","""comedy""",,,22,,,65,35,,53
 """Kroll Show""","""comedy""",,,22,,,60,40,,52
 """The IT Crowd""","""comedy""",,,22,,,60,40,,52
+"""Unbreakable Kimmy Schmidt""","""comedy""",,,25,,,45,60,,51
 """Arrested Development""","""comedy""",,,22,,,65,30,,51
 """Da Ali G Show""","""comedy""",,,22,,,65,30,,51
 """BBC Blue Planet""","""documentary""",,,48,,,60,35,,50
@@ -47,7 +48,6 @@ show_name,genre,seasons,episodes,episode_length,episodes_per_season,approx_runti
 """Unsupervised""","""comedy""",,,22,,,55,40,,49
 """NTSF SD SUV""","""comedy""",,,11,,,55,40,,49
 """Betas""","""comedy""",,,28,,,50,45,,48
-"""Unbreakable Kimmy Schmidt""","""comedy""",,,25,,,40,60,,48
 """Trailer Park Boys""","""comedy""",,,22,,,60,30,,48
 """Flight of the Conchords""","""comedy""",,,25,,,60,30,,48
 """Community""","""comedy""",,,22,,,55,35,,47

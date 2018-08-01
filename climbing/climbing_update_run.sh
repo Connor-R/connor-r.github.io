@@ -1,7 +1,7 @@
 SHELL=/bin/bash
 source "/Users/connordog/.bash_profile"
 
-python 8a_parser.py
+python 8a_scraper.py
 
 wait
 
