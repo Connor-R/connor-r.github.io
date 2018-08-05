@@ -5,6 +5,14 @@ python 8a_scraper.py
 
 wait
 
+python completed_to_tried.py
+
+wait
+
+python update_climbing_csvs.py
+
+wait
+
 csvtotable /Users/connordog/Dropbox/Desktop_Files/Work_Things/connor-r.github.io/csvs/boulders_completed.csv /Users/connordog/Dropbox/Desktop_Files/Work_Things/connor-r.github.io/Tables/boulders_completed.html -c "Connor Reed - Completed Boulder Problems" -o -vs 15
 python /Users/connordog/Dropbox/Desktop_Files/Work_Things/connor-r.github.io/Tables/google_analytics_appender.py --file_path "/Users/connordog/Dropbox/Desktop_Files/Work_Things/connor-r.github.io/Tables/boulders_completed.html"
 
