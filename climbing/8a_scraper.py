@@ -98,7 +98,7 @@ def initiate():
         for i, row in enumerate(update_res):
             print "\nUpdate %s of %s" % (i+1, len(update_res))
 
-            keys = ["grade", "flash", "name", "area", "area2", "cmt", "date", "time"]
+            keys = ["grade", "flash", "name", "area", "area2", "2ndGo", "cmt", "date", "time"]
 
             _date, _time, _name, _area, _subarea, _grade, attempts, _comment = row
             
@@ -107,13 +107,17 @@ def initiate():
             else:
                 flash = "None"
 
+            if attempts == 2:
+                go2 = "Second GO"
+            else:
+                go2 = "None"
+
             for js, gd in grade_dict.items():
                 eg, hg, foo = gd
-                if str(_grade) == hg:
+                if float(_grade) == float(hg):
                     euro_grade = eg
 
-            vals = [euro_grade, flash, _name, _area, _subarea, _comment, _date, _time]
-
+            vals = [euro_grade, flash, _name, _area, _subarea, go2, _comment, _date, _time]
             for k, v in zip(keys, vals):
                 print (k+":"), "\t", v
 
@@ -126,6 +130,7 @@ def initiate():
 def process_8a(url, table_name):
     html = requests.get(url, headers=headers)
     soup = BeautifulSoup(html.content, "lxml")
+    print "\t\tgrabbed html"
 
     if table_name != None:
         qry = "UPDATE %s SET updated = 'FALSE';" % table_name
