@@ -67,65 +67,12 @@ def initiate():
     url = "https://www.8a.nu/scorecard/andy-the-eagle-god/boulders/?AscentClass=0&AscentListTimeInterval=0&AscentListViewType=1&ListByAscDate=1&GID=4e15446b352fd1a7852da8accd84d52c"
     table_name = "boulders_completed"
 
-    print "\tchecking for boulders to update"
-    update_qry = """SELECT
-    est_date AS ascent_date, est_time, boulder_name, area, sub_area,
-    v_grade, attempts, 
-    CONCAT("Total_Duration={'Attempts':", attempts, ", 'Minutes':", minutes, ", 'Sessions':", sessions, "}. ", ascent.comment) AS 'comment'
-    FROM(
-        SELECT est_date, est_time, boulder_name, area, sub_area, bt.v_grade, bt.comment
-        FROM boulders_tried bt
-        LEFT JOIN boulders_completed bc USING (boulder_name, area, sub_area)
-        WHERE completed = "TRUE"
-        AND bc.ascent_date IS NULL
-    ) ascent
-    JOIN(
-        SELECT 
-        boulder_name, area,
-        SUM(est_attempts) AS attempts,
-        SUM(est_minutes) AS minutes,
-        COUNT(*) AS sessions
-        FROM boulders_tried
-        GROUP BY boulder_name, area
-    ) sessions USING (boulder_name, area)
-    ORDER BY ascent_date ASC, est_time ASC;"""
-
-    update_res = db.query(update_qry)
-
-    if update_res == ():
-        print "No boulders to update!"
-    else:
-        for i, row in enumerate(update_res):
-            print "\nUpdate %s of %s" % (i+1, len(update_res))
-
-            keys = ["grade", "flash", "name", "area", "area2", "2ndGo", "cmt", "date", "time"]
-
-            _date, _time, _name, _area, _subarea, _grade, attempts, _comment = row
-            
-            if attempts == 1:
-                flash = "FLASH"
-            else:
-                flash = "None"
-
-            if attempts == 2:
-                go2 = "Second GO"
-            else:
-                go2 = "None"
-
-            for js, gd in grade_dict.items():
-                eg, hg, foo = gd
-                if float(_grade) == float(hg):
-                    euro_grade = eg
-
-            vals = [euro_grade, flash, _name, _area, _subarea, go2, _comment, _date, _time]
-            for k, v in zip(keys, vals):
-                print (k+":"), "\t", v
-
-            if (((i+1)%3 == 0) or ((i+1) == len(update_res))):
-                raw_input("\n\nGo to 8a.nu to update!\n\n")
+    check_for_updates()
             
     print "\tscraping 8a"
     process_8a(url, table_name)
+
+    check_for_updates()
 
 def process_8a(url, table_name):
     html = requests.get(url, headers=headers)
@@ -271,6 +218,65 @@ def process_8a(url, table_name):
             if table_name is not None:
                 db.insertRowDict(entry, table_name, insertMany=False, replace=True, rid=0, debug=1)
                 db.conn.commit()
+
+
+def check_for_updates():
+    print "\tchecking for boulders to update"
+    update_qry = """SELECT
+    est_date AS ascent_date, est_time, boulder_name, area, sub_area,
+    v_grade, attempts, 
+    CONCAT("Total_Duration={'Attempts':", attempts, ", 'Minutes':", minutes, ", 'Sessions':", sessions, "}. ", ascent.comment) AS 'comment'
+    FROM(
+        SELECT est_date, est_time, boulder_name, area, sub_area, bt.v_grade, bt.comment
+        FROM boulders_tried bt
+        LEFT JOIN boulders_completed bc USING (boulder_name, area, sub_area)
+        WHERE completed = "TRUE"
+        AND bc.ascent_date IS NULL
+    ) ascent
+    JOIN(
+        SELECT 
+        boulder_name, area,
+        SUM(est_attempts) AS attempts,
+        SUM(est_minutes) AS minutes,
+        COUNT(*) AS sessions
+        FROM boulders_tried
+        GROUP BY boulder_name, area
+    ) sessions USING (boulder_name, area)
+    ORDER BY ascent_date ASC, est_time ASC;"""
+
+    update_res = db.query(update_qry)
+
+    if update_res == ():
+        print "No boulders to update!"
+    else:
+        for i, row in enumerate(update_res):
+            print "\nUpdate %s of %s" % (i+1, len(update_res))
+
+            keys = ["grade", "flash", "name", "area", "area2", "2ndGo", "cmt", "date", "time"]
+
+            _date, _time, _name, _area, _subarea, _grade, attempts, _comment = row
+            
+            if attempts == 1:
+                flash = "FLASH"
+            else:
+                flash = "None"
+
+            if attempts == 2:
+                go2 = "Second GO"
+            else:
+                go2 = "None"
+
+            for js, gd in grade_dict.items():
+                eg, hg, foo = gd
+                if float(_grade) == float(hg):
+                    euro_grade = eg
+
+            vals = [euro_grade, flash, _name, _area, _subarea, go2, _comment, _date, _time]
+            for k, v in zip(keys, vals):
+                print (k+":"), "\t", v
+
+            if (((i+1)%3 == 0) or ((i+1) == len(update_res))):
+                raw_input("\n\nGo to 8a.nu to update!\n\n")
 
 if __name__ == "__main__":     
     initiate()
