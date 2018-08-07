@@ -19,9 +19,17 @@ val_dict = {
     }
 
 def initiate():
-    deal_cards(suits, val_dict)
+    print '\n\n'
+    p1_prompt = "Player 1 Name: "
+    p1_name = raw_input(p1_prompt)
 
-def deal_cards(suits, val_dict):
+    p2_prompt = "Player 2 Name: "
+    p2_name = raw_input(p2_prompt)
+
+    print '\nReady?'
+    deal_cards(suits, val_dict, p1_name, p2_name)
+
+def deal_cards(suits, val_dict, p1_name, p2_name):
     total_hands = 0
     p1_hands = 0
     p2_hands = 0
@@ -47,33 +55,33 @@ def deal_cards(suits, val_dict):
         else:
             player_2_hand.append(card_val)
 
-    play_hand(player_1_hand, player_2_hand, total_hands, p1_hands, p2_hands, total_wars, p1_wars, p2_wars)
+    play_hand(player_1_hand, player_2_hand, total_hands, p1_hands, p2_hands, total_wars, p1_wars, p2_wars, p1_name, p2_name, False)
 
-def play_hand(player_1_hand, player_2_hand, total_hands, p1_hands, p2_hands, total_wars, p1_wars, p2_wars):
+def play_hand(player_1_hand, player_2_hand, total_hands, p1_hands, p2_hands, total_wars, p1_wars, p2_wars, p1_name, p2_name, finish):
     if (total_hands+5*total_wars) > 899:
         print '\n\n\nDRAW! (too many hands played)'
-        print 'total hands:\t', total_hands
-        print 'total wars:\t', total_wars
-        print 'p1 hand record:\t', p1_hands, '-', p2_hands
-        print 'p1 war record:\t', p1_wars, '-', p2_wars
+        print 'Total Hands:\t', total_hands
+        print 'Total Wars:\t', total_wars
+        print 'Hands:\t', p1_hands, '('+p1_name+')', '-', p2_hands, '('+p2_name+')'
+        print 'Wars:\t', p1_wars, '('+p1_name+')', '-', p2_wars, '('+p2_name+')'
         print '\n\n'
         return None
 
     if (player_1_hand==[] or player_2_hand==[]):
-        print '\n\n\nGAME OVER!!!'
+        print '\n\n\nGAME OVER!!!\n'
         if player_2_hand==[]:
-            print 'player 1 wins!'
-            print 'total hands:\t', total_hands
-            print 'total wars:\t', total_wars
-            print 'p1 hand record:', p1_hands, '-', p2_hands
-            print 'p1 war record:', p1_wars, '-', p2_wars
+            print '%s Wins!!' % (p1_name)
+            print 'Total Hands:\t', total_hands
+            print 'Total Wars:\t', total_wars
+            print 'Hands:\t', p1_hands, '('+p1_name+')', '-', p2_hands, '('+p2_name+')'
+            print 'Wars:\t', p1_wars, '('+p1_name+')', '-', p2_wars, '('+p2_name+')'
             print '\n\n'
         elif player_1_hand==[]:
-            print 'player 2 wins!'
-            print 'total hands:\t', total_hands
-            print 'total wars:\t', total_wars
-            print 'p2 hand record:\t', p2_hands, '-', p1_hands
-            print 'p2 war record:\t', p2_wars, '-', p1_wars
+            print '%s Wins!!' % (p2_name)
+            print 'Total Hands:\t', total_hands
+            print 'Total Wars:\t', total_wars
+            print 'Hands:\t', p1_hands, '('+p1_name+')', '-', p2_hands, '('+p2_name+')'
+            print 'Wars:\t', p1_wars, '('+p1_name+')', '-', p2_wars, '('+p2_name+')'
             print '\n\n'
         return None
         
@@ -87,34 +95,42 @@ def play_hand(player_1_hand, player_2_hand, total_hands, p1_hands, p2_hands, tot
         p1_val = val_dict.get(p1_card.split('_')[0])
         p2_val = val_dict.get(p2_card.split('_')[0])
 
-        # raw_input("")
+        if finish is False:
+            fin = raw_input("")
+            if fin != "":
+                finish = True
+
+
         if p1_val > p2_val:
             total_hands += 1
-            print 'Hand %s: %s(%s) vs %s(%s) -- P1 WINS' % (total_hands, p1_card, len(player_1_hand)+1, p2_card, len(player_2_hand)+1)
+            print 'Hand %s: %s(%s) vs %s(%s) -- %s Wins' % (total_hands, p1_card, len(player_1_hand)+1, p2_card, len(player_2_hand)+1, p1_name)
             p1_hands += 1
             player_1_hand.append(p1_card)
             player_1_hand.append(p2_card)
-            play_hand(player_1_hand, player_2_hand, total_hands, p1_hands, p2_hands, total_wars, p1_wars, p2_wars)
+            play_hand(player_1_hand, player_2_hand, total_hands, p1_hands, p2_hands, total_wars, p1_wars, p2_wars, p1_name, p2_name, finish)
         elif p1_val < p2_val:
             total_hands += 1
-            print 'Hand %s: %s(%s) vs %s(%s) -- P2 WINS' % (total_hands, p1_card, len(player_1_hand)+1, p2_card, len(player_2_hand)+1)
+            print 'Hand %s: %s(%s) vs %s(%s) -- %s Wins' % (total_hands, p1_card, len(player_1_hand)+1, p2_card, len(player_2_hand)+1, p2_name)
             p2_hands += 1
             player_2_hand.append(p1_card)
             player_2_hand.append(p2_card)
-            play_hand(player_1_hand, player_2_hand, total_hands, p1_hands, p2_hands, total_wars, p1_wars, p2_wars)
+            play_hand(player_1_hand, player_2_hand, total_hands, p1_hands, p2_hands, total_wars, p1_wars, p2_wars, p1_name, p2_name, finish)
         elif (len(player_1_hand)<2):
-            play_hand([], player_2_hand, total_hands, p1_hands, p2_hands, total_wars, p1_wars, p2_wars)
+            play_hand([], player_2_hand, total_hands, p1_hands, p2_hands, total_wars, p1_wars, p2_wars, p1_name, p2_name, finish)
         elif (len(player_2_hand)<2):
-            play_hand(player_1_hand, [], total_hands, p1_hands, p2_hands, total_wars, p1_wars, p2_wars)
+            play_hand(player_1_hand, [], total_hands, p1_hands, p2_hands, total_wars, p1_wars, p2_wars, p1_name, p2_name, finish)
         else:
-            war(player_1_hand, player_2_hand, p1_card, p2_card, total_hands, p1_hands, p2_hands, total_wars, p1_wars, p2_wars, [], [])
+            war(player_1_hand, player_2_hand, p1_card, p2_card, total_hands, p1_hands, p2_hands, total_wars, p1_wars, p2_wars, [], [], p1_name, p2_name, finish)
 
-def war(player_1_hand, player_2_hand, p1_card, p2_card, total_hands, p1_hands, p2_hands, total_wars, p1_wars, p2_wars, p1_pre_war, p2_pre_war):
+def war(player_1_hand, player_2_hand, p1_card, p2_card, total_hands, p1_hands, p2_hands, total_wars, p1_wars, p2_wars, p1_pre_war, p2_pre_war, p1_name, p2_name, finish):
 
     if (p1_pre_war == [] and p2_pre_war == []):
-        print 'Pre-War: %s(%s) vs %s(%s)' % (p1_card, len(player_1_hand)+1, p2_card, len(player_2_hand)+1)
+        print 'WAR!! %s(%s) vs %s(%s)' % (p1_card, len(player_1_hand)+1, p2_card, len(player_2_hand)+1)
 
-    # raw_input("")
+    if finish is False:
+        fin = raw_input("")
+        if fin != "":
+            finish = True
 
     if len(player_1_hand) < 5:
         p1_cards = player_1_hand[0:(len(player_1_hand)-1)]
@@ -134,11 +150,11 @@ def war(player_1_hand, player_2_hand, p1_card, p2_card, total_hands, p1_hands, p
     p1_war_card = player_1_hand[0]
     p2_war_card = player_2_hand[0]
 
-    print '\tPlayer 1 Cards:'
+    print '\t%s Cards:' % (p1_name)
     for c in p1_cards:
         print '\t\t', c
 
-    print '\tPlayer 2 Cards:'
+    print '\t%s Cards:' % (p2_name)
     for c in p2_cards:
         print '\t\t', c
 
@@ -150,7 +166,7 @@ def war(player_1_hand, player_2_hand, p1_card, p2_card, total_hands, p1_hands, p
 
     if p1_val > p2_val:
         # os.system('say "CULT OF THE V 8"')
-        print '\t\t\tWar %s: %s(%s) vs %s(%s) -- P1 WINS\n' % (total_wars+1, p1_war_card, len(player_1_hand)+len(p1_cards)+len(p1_pre_war)+2, p2_war_card, len(player_2_hand)+len(p2_cards)+len(p2_pre_war)+2)
+        print '\t\t\tWar %s: %s(%s) vs %s(%s) -- %s Wins\n' % (total_wars+1, p1_war_card, len(player_1_hand)+len(p1_cards)+len(p1_pre_war)+2, p2_war_card, len(player_2_hand)+len(p2_cards)+len(p2_pre_war)+2, p1_name)
         total_wars += 1
         p1_wars += 1
 
@@ -167,10 +183,10 @@ def war(player_1_hand, player_2_hand, p1_card, p2_card, total_hands, p1_hands, p
         player_1_hand.append(p2_card)
         player_1_hand.append(p1_war_card)
         player_1_hand.append(p2_war_card)
-        play_hand(player_1_hand, player_2_hand, total_hands, p1_hands, p2_hands, total_wars, p1_wars, p2_wars)
+        play_hand(player_1_hand, player_2_hand, total_hands, p1_hands, p2_hands, total_wars, p1_wars, p2_wars, p1_name, p2_name, finish)
     elif p1_val < p2_val:
         # os.system('say "CULT OF THE V 8"')
-        print '\t\t\tWar %s: %s(%s) vs %s(%s) -- P2 WINS\n' % (total_wars+1, p1_war_card, len(player_1_hand)+len(p1_cards)+len(p1_pre_war)+2, p2_war_card, len(player_2_hand)+len(p2_cards)+len(p2_pre_war)+2)
+        print '\t\t\tWar %s: %s(%s) vs %s(%s) -- %s Wins\n' % (total_wars+1, p1_war_card, len(player_1_hand)+len(p1_cards)+len(p1_pre_war)+2, p2_war_card, len(player_2_hand)+len(p2_cards)+len(p2_pre_war)+2, p2_name)
         total_wars += 1
         p2_wars += 1
 
@@ -187,13 +203,13 @@ def war(player_1_hand, player_2_hand, p1_card, p2_card, total_hands, p1_hands, p
         player_2_hand.append(p2_card)
         player_2_hand.append(p1_war_card)
         player_2_hand.append(p2_war_card)
-        play_hand(player_1_hand, player_2_hand, total_hands, p1_hands, p2_hands, total_wars, p1_wars, p2_wars)
+        play_hand(player_1_hand, player_2_hand, total_hands, p1_hands, p2_hands, total_wars, p1_wars, p2_wars, p1_name, p2_name, finish)
     elif (len(player_1_hand)<2):
-        play_hand([], player_2_hand, total_hands, p1_hands, p2_hands, total_wars, p1_wars, p2_wars)
+        play_hand([], player_2_hand, total_hands, p1_hands, p2_hands, total_wars, p1_wars, p2_wars, p1_name, p2_name, finish)
     elif (len(player_2_hand)<2):
-        play_hand(player_1_hand, [], total_hands, p1_hands, p2_hands, total_wars, p1_wars, p2_wars)
+        play_hand(player_1_hand, [], total_hands, p1_hands, p2_hands, total_wars, p1_wars, p2_wars, p1_name, p2_name, finish)
     else:
-        print 'Pre-Mega War: %s(%s) vs %s(%s)' % (p1_war_card, len(player_1_hand)+len(p1_cards)+len(p1_pre_war)+2, p2_war_card, len(player_2_hand)+len(p2_cards)+len(p2_pre_war)+2)
+        print 'MEGA WAR!!! %s(%s) vs %s(%s)' % (p1_war_card, len(player_1_hand)+len(p1_cards)+len(p1_pre_war)+2, p2_war_card, len(player_2_hand)+len(p2_cards)+len(p2_pre_war)+2)
         p1_war_cards = []
         p2_war_cards = []
 
@@ -209,7 +225,7 @@ def war(player_1_hand, player_2_hand, p1_card, p2_card, total_hands, p1_hands, p
             p2_war_cards.append(c)
         p2_war_cards.append(p2_war_card)
 
-        war(player_1_hand, player_2_hand, p1_war_card, p2_war_card, total_hands, p1_hands, p2_hands, total_wars, p1_wars, p2_wars, p1_war_cards, p2_war_cards)
+        war(player_1_hand, player_2_hand, p1_war_card, p2_war_card, total_hands, p1_hands, p2_hands, total_wars, p1_wars, p2_wars, p1_war_cards, p2_war_cards, p1_name, p2_name, finish)
 
 
 if __name__ == "__main__":     
