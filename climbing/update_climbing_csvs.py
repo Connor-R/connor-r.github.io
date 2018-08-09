@@ -30,7 +30,12 @@ def process_completed():
     res = db.query(qry)
 
     for row in res:
+        upd = row[-1]
+        comm = "".join(row[-2].split("}.")[1:]).strip()
+        row = row[:-2]
         row = list(row)
+        row.append(comm)
+        row.append(upd)
         for i, val in enumerate(row):
             if type(val) in (str,unicode):
                 row[i] = '"' + "".join([l if ord(l) < 128 else "" for l in val]).replace("<o>","").replace("<P>","").replace("\n","  ") + '"'
