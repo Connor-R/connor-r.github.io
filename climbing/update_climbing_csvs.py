@@ -22,7 +22,7 @@ def process_completed():
     csv_path = "/Users/connordog/Dropbox/Desktop_Files/Work_Things/connor-r.github.io/csvs/boulders_completed.csv"
     csv_file = open(csv_path, "wb")
     append_csv = csv.writer(csv_file)
-    csv_header = ["Date", "Boulder Name", "Area", "Sub Area", "V Grade", "Euro Grade", "8a.nu Points", "Flash", "Soft/Hard", "Stars (1-3)", "FA", "Recommended", "Estimated Attempts", "Estimated Minutes", "Estimated Session #", "Comment", "Updated"]
+    csv_header = ["Date", "Boulder Name", "Area", "Sub Area", "V Grade", "Euro Grade", "8a.nu Points", "Flash", "Soft/Hard", "Stars (1-3)", "FA", "Recommended", "Estimated Final Time", "Estimated Attempts", "Estimated Minutes", "Estimated Session #", "Comment", "Updated"]
     append_csv.writerow(csv_header)
 
     qry = "SELECT * FROM boulders_completed ORDER BY ascent_date DESC;"

@@ -9,7 +9,7 @@ def initiate():
     start_time = time()
 
     print "\ndeleting backfilled tried boulders"
-    db.query("DELETE FROM boulders_tried WHERE return_interest IS NULL AND completed = 'FALSE';")
+    db.query("DELETE FROM boulders_tried WHERE return_interest IS NULL;")
     db.conn.commit()
 
     print "\nupdating tried boulders"
