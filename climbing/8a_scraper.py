@@ -37,6 +37,8 @@ def initiate():
 
     check_for_updates()
 
+    check_for_un_updated()
+
 def process_8a(url, table_name):
     html = requests.get(url, headers=headers)
     soup = BeautifulSoup(html.content, "lxml")
@@ -221,9 +223,9 @@ def check_for_updates():
         print "No boulders to update!"
     else:
         for i, row in enumerate(update_res):
-            print "\nUpdate %s of %s" % (i+1, len(update_res))
+            print "\n\nUpdate %s of %s" % (i+1, len(update_res))
 
-            keys = ["grade", "flash", "name", "area", "area2", "2ndGo", "cmt", "date", "time", "final mins"]
+            keys = ["grade", "flash", "name", "area", "sub area", "2ndGo", "cmt", "date", "time", "final mins"]
 
             _date, _name, _area, _subarea, _grade, _grade2, _time, attempts, _mins, _sessions, _comment = row
             
@@ -239,10 +241,30 @@ def check_for_updates():
 
             vals = [_grade2, flash, _name, _area, _subarea, go2, _comment, _date, _time, _mins]
             for k, v in zip(keys, vals):
-                print (k+":"), "\t", v
+                print ("\t"+k+":"), "\n", v
 
-            if (((i+1)%3 == 0) or ((i+1) == len(update_res))):
-                raw_input("\n\nGo to 8a.nu to update!\n\n")
+            # if (((i+1)%3 == 0) or ((i+1) == len(update_res))):
+            raw_input("\n\nGo to 8a.nu to update!\n\n")
+
+def check_for_un_updated():
+    print "\nchecking for boulders to delete"
+    qry = """SELECT ascent_date, boulder_name, area, sub_area, v_grade, euro_grade, updated
+    FROM boulders_completed
+    WHERE updated = 'FALSE';"""
+
+    res = db.query(qry)
+
+    if res == ():
+        print "No boulders to update!"
+    else:
+        for i, row in enumerate(res):
+            print "\nUpdate %s of %s" % (i+1, len(res))
+
+            keys = ["date", "name", "area", "sub area", "hueco", "euro", "updated"]
+
+            for k, v in zip(keys, row):
+                print ("\t"+k+":"), "\n", v
+        raw_input("\n\nUpdate these problems in the database!\n\n")
 
 if __name__ == "__main__":     
     initiate()
