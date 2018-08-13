@@ -32,7 +32,7 @@ def initiate():
 
     check_for_updates()
             
-    print "\tscraping 8a"
+    print "\n\tscraping 8a"
     process_8a(url, table_name)
 
     check_for_updates()
@@ -220,7 +220,7 @@ def check_for_updates():
     update_res = db.query(update_qry)
 
     if update_res == ():
-        print "\t\tNo boulders to update!\n"
+        print "\t\tNo boulders to update!"
     else:
         for i, row in enumerate(update_res):
             print "\n\nUpdate %s of %s" % (i+1, len(update_res))
@@ -255,7 +255,7 @@ def check_for_un_updated():
     res = db.query(qry)
 
     if res == ():
-        print "\t\tNo boulders to update!\n"
+        print "\t\tNo boulders to update!"
     else:
         for i, row in enumerate(res):
             print "\nUpdate %s of %s" % (i+1, len(res))
