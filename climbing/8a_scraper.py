@@ -193,7 +193,7 @@ def process_8a(url, table_name):
 
 
 def check_for_updates():
-    print "\tchecking for boulders to update"
+    print "\n\tchecking for boulders to update"
     update_qry = """SELECT
     est_date AS ascent_date, boulder_name, area, sub_area,
     v_grade, font, est_time, attempts, est_minutes, sessions,
@@ -220,7 +220,7 @@ def check_for_updates():
     update_res = db.query(update_qry)
 
     if update_res == ():
-        print "No boulders to update!"
+        print "\t\tNo boulders to update!\n"
     else:
         for i, row in enumerate(update_res):
             print "\n\nUpdate %s of %s" % (i+1, len(update_res))
@@ -247,7 +247,7 @@ def check_for_updates():
             raw_input("\n\nGo to 8a.nu to update!\n\n")
 
 def check_for_un_updated():
-    print "\nchecking for boulders to delete"
+    print "\n\tchecking for boulders to delete"
     qry = """SELECT ascent_date, boulder_name, area, sub_area, v_grade, euro_grade, updated
     FROM boulders_completed
     WHERE updated = 'FALSE';"""
@@ -255,7 +255,7 @@ def check_for_un_updated():
     res = db.query(qry)
 
     if res == ():
-        print "No boulders to update!"
+        print "\t\tNo boulders to update!\n"
     else:
         for i, row in enumerate(res):
             print "\nUpdate %s of %s" % (i+1, len(res))
