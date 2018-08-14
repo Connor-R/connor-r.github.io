@@ -27,7 +27,10 @@ def initiate():
 def update_boulders():
     qry = """SELECT 
     ascent_date, boulder_name, area, sub_area, v_grade, bc.comment,
-    bc.final_time, bc.est_sessions,
+    TIMEDIFF(bc.final_time, SEC_TO_TIME(fin.final_min*60)) AS 'final_time', 
+    fin.final_min,
+    fin.final_att,
+    bc.est_sessions,
     (bc.est_attempts - IFNULL(bt.est_attempts,0)) AS 'update_attempts',
     (bc.est_minutes - IFNULL(bt.est_minutes,0)) AS 'update_minutes',
     (bc.est_sessions - IFNULL(bt.est_sessions,0)) AS 'update_sessions',
@@ -40,8 +43,17 @@ def update_boulders():
         FROM boulders_tried
         GROUP BY boulder_name, area, sub_area
     ) bt USING (boulder_name, area, sub_area)
+    LEFT JOIN(
+        SELECT boulder_name, area, sub_area, 
+        bc2.est_minutes-IFNULL(bt2.fail_minutes,0) AS 'final_min', 
+        bc2.est_attempts-IFNULL(bt2.fail_attempts,0) AS 'final_att'
+        FROM boulders_completed bc2
+        LEFT JOIN (
+            SELECT boulder_name, area, sub_area, SUM(est_attempts) AS fail_attempts, SUM(est_minutes) AS fail_minutes FROM boulders_tried WHERE completed = 'FALSE' GROUP BY boulder_name, area, sub_area
+        ) bt2 USING (boulder_name, area, sub_area)
+    ) fin USING (boulder_name, area, sub_area)
     WHERE bc.updated != "FALSE"
-    ORDER BY update_sessions DESC;"""
+    ORDER BY ascent_date DESC, update_sessions DESC;"""
 
     res = db.query(qry)
 
@@ -49,7 +61,7 @@ def update_boulders():
         process_update(row)
 
 def process_update(row):
-    _date, boulder_name, area, sub_area, v_grade, final_comment, final_time, final_sessions, u_atts, u_mins, u_sessions, u_completed = row
+    _date, boulder_name, area, sub_area, v_grade, final_comment, final_time, final_minutes, final_attempts, final_sessions, u_atts, u_mins, u_sessions, u_completed = row
 
     return_interest = None
     update_sessions = u_sessions - u_completed
@@ -89,8 +101,8 @@ def process_update(row):
         entry = {}
         return_interest = None
         est_time = final_time
-        est_attempts = u_atts - update_sessions
-        est_minutes = u_mins - update_sessions
+        est_attempts = final_attempts - update_sessions
+        est_minutes = final_minutes - update_sessions
 
         entry["est_date"] = _date
         entry["est_time"] = est_time

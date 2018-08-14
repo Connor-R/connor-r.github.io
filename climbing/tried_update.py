@@ -103,6 +103,14 @@ def process_time(i):
     user_prompt = "%s %s: " % (i, prompt)
     if i == 8:
         _days = raw_input(user_prompt)
+        
+        try:
+            if _days[0] == "-":
+                i = -int(_days)
+                return i, [cat], [None]
+        except TypeError:
+            pass
+
         if _days == "":
             _days = 0
         cur_date = date.today()
@@ -111,6 +119,14 @@ def process_time(i):
 
     if i == 9:
         _time = raw_input(user_prompt)
+        
+        try:
+            if _time[0] == "-":
+                i = -int(_time)
+                return i, [cat], [None]
+        except TypeError:
+            pass
+
         try:
             _time = str(int(_time)) + ":00"
         except ValueError:
@@ -119,13 +135,6 @@ def process_time(i):
         val = est_time
 
     i += 1
-    try:
-        if val[0] == "-":
-            i = -int(val)
-            return i, [cat], [None]
-    except TypeError:
-        pass
-
     return i, [cat], [val]
 
 def process_complete(i):
@@ -150,6 +159,7 @@ def process_complete(i):
 
     if completed == "TRUE":
         return_interest = None
+        i += 2
     else:
         return_interest = raw_input("Return Interest (0-5): ")
     

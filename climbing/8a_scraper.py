@@ -214,7 +214,7 @@ def check_for_updates():
         FROM boulders_tried
         GROUP BY boulder_name, area
     ) sessions USING (boulder_name, area)
-    JOIN boulders_grades ON v_grade = hueco
+    LEFT JOIN (SELECT hueco, MAX(font) AS font FROM boulders_grades GROUP BY hueco) bg ON v_grade = hueco
     ORDER BY ascent_date ASC, est_time ASC;"""
 
     update_res = db.query(update_qry)
