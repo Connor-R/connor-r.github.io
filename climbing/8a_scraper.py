@@ -228,7 +228,7 @@ def check_for_updates():
         for i, row in enumerate(update_res):
             print "\n\nUpdate %s of %s" % (i+1, len(update_res))
 
-            keys = ["grade", "flash", "name", "area", "sub area", "2ndGo", "cmt", "date", "time", "final mins"]
+            keys = ["grade", "flash", "name", "area", "sub area", "2ndGo", "cmt", "date"]
 
             _date, _name, _area, _subarea, _grade, _grade2, _time, attempts, _mins, _sessions, _comment = row
             
@@ -242,7 +242,7 @@ def check_for_updates():
             else:
                 go2 = "None"
 
-            vals = [_grade2, flash, _name, _area, _subarea, go2, _comment, _date, _time, _mins]
+            vals = [_grade2, flash, _name, _area, _subarea, go2, _comment, _date]
             for k, v in zip(keys, vals):
                 print ("\t"+k+":"), "\n", v
 

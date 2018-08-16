@@ -15,7 +15,7 @@ base_path = os.getcwd()
 def initiate():
     print "\tupdating csvs"
     process_completed()
-    process_undone()
+    process_tried()
     process_returnInterest()
 
 def process_completed():
@@ -42,20 +42,21 @@ def process_completed():
         append_csv.writerow(row)
         
 
-def process_undone():
-    csv_path = "/Users/connordog/Dropbox/Desktop_Files/Work_Things/connor-r.github.io/csvs/boulders_undone.csv"
+def process_tried():
+    csv_path = "/Users/connordog/Dropbox/Desktop_Files/Work_Things/connor-r.github.io/csvs/boulders_triedLog.csv"
     csv_file = open(csv_path, "wb")
     append_csv = csv.writer(csv_file)
-    csv_header = ["Estimated Date", "Estimated Time", "Boulder Name", "Area", "Sub Area", "V Grade", "Estimated Attempts", "Estimated Minutes", "Return Interest", "Comment"]
+    csv_header = ["Estimated Date", "Estimated Time", "Boulder Name", "Area", "Sub Area", "V Grade", "Estimated Attempts", "Estimated Minutes", "Return Interest", "Session Number", "Comment"]
     append_csv.writerow(csv_header)
     
     qry = """SELECT 
     bt.est_date, bt.est_time,
     bt.boulder_name, bt.area, bt.sub_area,
-    bt.v_grade, bt.est_attempts, bt.est_minutes, bt.return_interest, bt.comment
+    bt.v_grade, bt.est_attempts, bt.est_minutes, bt.return_interest, bt.session_num, bt.comment
     FROM boulders_tried bt
     LEFT JOIN boulders_completed bc USING (boulder_name, area)
-    WHERE bc.ascent_date IS NULL
+    WHERE est_date > '0000-00-00'
+    AND bt.completed = 'FALSE'
     ORDER BY est_date DESC, est_time DESC;"""
 
     res = db.query(qry)
