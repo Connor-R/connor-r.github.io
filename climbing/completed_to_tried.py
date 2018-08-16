@@ -65,7 +65,7 @@ def process_update(row):
 
     return_interest = None
     update_sessions = u_sessions - u_completed
-    update_comment = "".join(final_comment.split("}.")[1:]).strip()
+    update_comment = "".join(final_comment.split("}.")[1:]).replace("*Bounty Extra Soft*.","").strip()
 
     for sess_num in range(1,update_sessions+1):
         entry = {}

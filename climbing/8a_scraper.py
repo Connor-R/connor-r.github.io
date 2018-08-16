@@ -170,6 +170,9 @@ def process_8a(url, table_name):
                 minutes = None
                 session = None
 
+            if "*Bounty Extra Soft*." in comment:
+                soft_hard = "BOUNTY EXTRA SOFT"
+
 
             if attempts == 2:
                 pts += 2

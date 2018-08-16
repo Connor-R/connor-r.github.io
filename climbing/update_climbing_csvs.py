@@ -31,7 +31,7 @@ def process_completed():
 
     for row in res:
         upd = row[-1]
-        comm = "".join(row[-2].split("}.")[1:]).strip()
+        comm = "".join(row[-2].split("}.")[1:]).replace("*Bounty Extra Soft*.","").strip()
         row = row[:-2]
         row = list(row)
         row.append(comm)
