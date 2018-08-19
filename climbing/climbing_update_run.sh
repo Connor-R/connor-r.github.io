@@ -1,11 +1,11 @@
 SHELL=/bin/bash
 source "/Users/connordog/.bash_profile"
 
-python 8a_scraper.py
+# python 8a_scraper.py
 
-wait
+# wait
 
-python completed_to_tried.py
+# python completed_to_tried.py
 
 wait
 
