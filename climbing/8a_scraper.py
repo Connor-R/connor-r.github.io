@@ -35,8 +35,6 @@ def initiate():
     print "\n\tscraping 8a"
     process_8a(url, table_name)
 
-    check_for_updates()
-
     check_for_un_updated()
 
 def process_8a(url, table_name):
@@ -195,30 +193,12 @@ def process_8a(url, table_name):
                 db.conn.commit()
 
 
-def check_for_updates():
+def check_for_updates(): ##### change me
     print "\n\tchecking for boulders to update"
-    update_qry = """SELECT
-    est_date AS ascent_date, boulder_name, area, sub_area,
-    v_grade, font, est_time, attempts, est_minutes, sessions,
-    CONCAT("Total_Duration={'Final Time':'", TIME_FORMAT(ADDTIME(est_time, SEC_TO_TIME(est_minutes*60)), '%k:%i'), "', 'Attempts':", attempts, ", 'Minutes':", minutes, ", 'Sessions':", sessions, "}. ", ascent.comment) AS 'comment'
-    FROM(
-        SELECT est_date, bt.est_time, bt.est_minutes, boulder_name, area, sub_area, bt.v_grade, bt.comment
-        FROM boulders_tried bt
-        LEFT JOIN boulders_completed bc USING (boulder_name, area, sub_area)
-        WHERE completed = "TRUE"
-        AND bc.ascent_date IS NULL
-    ) ascent
-    JOIN(
-        SELECT 
-        boulder_name, area,
-        SUM(est_attempts) AS attempts,
-        SUM(est_minutes) AS minutes,
-        COUNT(*) AS sessions
-        FROM boulders_tried
-        GROUP BY boulder_name, area
-    ) sessions USING (boulder_name, area)
-    LEFT JOIN (SELECT hueco, MAX(font) AS font FROM boulders_grades GROUP BY hueco) bg ON v_grade = hueco
-    ORDER BY ascent_date ASC, est_time ASC;"""
+    update_qry = """SELECT 
+    euro_grade, soft_hard, flash, boulder_name, area, sub_area, fa, est_attempts, comment, stars, ascent_date, recommended
+    FROM boulders_completed
+    WHERE updated = "FALSE";"""
 
     update_res = db.query(update_qry)
 
@@ -228,21 +208,19 @@ def check_for_updates():
         for i, row in enumerate(update_res):
             print "\n\nUpdate %s of %s" % (i+1, len(update_res))
 
-            keys = ["grade", "flash", "name", "area", "sub area", "2ndGo", "cmt", "date"]
+            keys = ["grade", "soft_hard", "style", "name", "area", "sub area", "FA", "2ndGo", "comment", "stars", "date", "recommended"]
 
-            _date, _name, _area, _subarea, _grade, _grade2, _time, attempts, _mins, _sessions, _comment = row
+            _grade2, soft_hard, _flash, _name, _area, _subarea, _fa, attempts, _comment, _stars, _date, _recommended = row
             
-            if attempts == 1:
-                flash = "FLASH"
-            else:
-                flash = "None"
+            if _flash is None:
+                _flash = "Redpoint"
 
             if attempts == 2:
                 go2 = "Second GO"
             else:
                 go2 = "None"
 
-            vals = [_grade2, flash, _name, _area, _subarea, go2, _comment, _date]
+            vals = [_grade2, soft_hard, _flash, _name, _area, _subarea, go2, _fa, _comment, _stars, _date, _recommended]
             for k, v in zip(keys, vals):
                 print ("\t"+k+":"), "\n", v
 
@@ -250,7 +228,7 @@ def check_for_updates():
             raw_input("\n\nGo to 8a.nu to update!\n\n")
 
 def check_for_un_updated():
-    print "\n\tchecking for boulders to delete"
+    print "\n\tchecking for boulders to delete (or add)"
     qry = """SELECT ascent_date, boulder_name, area, sub_area, v_grade, euro_grade, updated
     FROM boulders_completed
     WHERE updated = 'FALSE';"""
