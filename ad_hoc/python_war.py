@@ -101,19 +101,27 @@ def play_hand(player_1_hand, player_2_hand, total_hands, p1_hands, p2_hands, tot
                 finish = True
 
 
+        won_cards = [p1_card, p2_card]
+        cards_won = len(won_cards)
         if p1_val > p2_val:
             total_hands += 1
             print 'Hand %s: %s(%s) vs %s(%s) -- %s Wins' % (total_hands, p1_card, len(player_1_hand)+1, p2_card, len(player_2_hand)+1, p1_name)
             p1_hands += 1
-            player_1_hand.append(p1_card)
-            player_1_hand.append(p2_card)
+            for i in range(0,cards_won):
+                ind = random.sample(range(0, cards_won-i), 1)[0]
+                card_val = won_cards[ind]
+                won_cards.remove(card_val)
+                player_1_hand.append(card_val)
             play_hand(player_1_hand, player_2_hand, total_hands, p1_hands, p2_hands, total_wars, p1_wars, p2_wars, p1_name, p2_name, finish)
         elif p1_val < p2_val:
             total_hands += 1
             print 'Hand %s: %s(%s) vs %s(%s) -- %s Wins' % (total_hands, p1_card, len(player_1_hand)+1, p2_card, len(player_2_hand)+1, p2_name)
             p2_hands += 1
-            player_2_hand.append(p1_card)
-            player_2_hand.append(p2_card)
+            for i in range(0,cards_won):
+                ind = random.sample(range(0, cards_won-i), 1)[0]
+                card_val = won_cards[ind]
+                won_cards.remove(card_val)
+                player_2_hand.append(card_val)
             play_hand(player_1_hand, player_2_hand, total_hands, p1_hands, p2_hands, total_wars, p1_wars, p2_wars, p1_name, p2_name, finish)
         elif (len(player_1_hand)<2):
             play_hand([], player_2_hand, total_hands, p1_hands, p2_hands, total_wars, p1_wars, p2_wars, p1_name, p2_name, finish)
@@ -164,25 +172,32 @@ def war(player_1_hand, player_2_hand, p1_card, p2_card, total_hands, p1_hands, p
     player_1_hand.remove(p1_war_card)
     player_2_hand.remove(p2_war_card)
 
+    won_cards = []
+    for c in p1_cards:
+        won_cards.append(c)
+    for c in p2_cards:
+        won_cards.append(c)
+    for c in p1_pre_war:
+        won_cards.append(c)
+    for c in p2_pre_war:
+        won_cards.append(c)
+    won_cards.append(p1_card)
+    won_cards.append(p2_card)
+    won_cards.append(p1_war_card)
+    won_cards.append(p2_war_card)
+    cards_won = len(won_cards)
     if p1_val > p2_val:
         # os.system('say "CULT OF THE V 8"')
         print '\t\t\tWar %s: %s(%s) vs %s(%s) -- %s Wins\n' % (total_wars+1, p1_war_card, len(player_1_hand)+len(p1_cards)+len(p1_pre_war)+2, p2_war_card, len(player_2_hand)+len(p2_cards)+len(p2_pre_war)+2, p1_name)
         total_wars += 1
         p1_wars += 1
 
-        for c in p1_cards:
-            player_1_hand.append(c)
-        for c in p2_cards:
-            player_1_hand.append(c)
-        for c in p1_pre_war:
-            player_1_hand.append(c)
-        for c in p2_pre_war:
-            player_1_hand.append(c)
+        for i in range(0,cards_won):
+            ind = random.sample(range(0, cards_won-i), 1)[0]
+            card_val = won_cards[ind]
+            won_cards.remove(card_val)
+            player_1_hand.append(card_val)
 
-        player_1_hand.append(p1_card)
-        player_1_hand.append(p2_card)
-        player_1_hand.append(p1_war_card)
-        player_1_hand.append(p2_war_card)
         play_hand(player_1_hand, player_2_hand, total_hands, p1_hands, p2_hands, total_wars, p1_wars, p2_wars, p1_name, p2_name, finish)
     elif p1_val < p2_val:
         # os.system('say "CULT OF THE V 8"')
@@ -190,19 +205,12 @@ def war(player_1_hand, player_2_hand, p1_card, p2_card, total_hands, p1_hands, p
         total_wars += 1
         p2_wars += 1
 
-        for c in p1_cards:
-            player_2_hand.append(c)
-        for c in p2_cards:
-            player_2_hand.append(c)
-        for c in p1_pre_war:
-            player_2_hand.append(c)
-        for c in p2_pre_war:
-            player_2_hand.append(c)
+        for i in range(0,cards_won):
+            ind = random.sample(range(0, cards_won-i), 1)[0]
+            card_val = won_cards[ind]
+            won_cards.remove(card_val)
+            player_2_hand.append(card_val)
 
-        player_2_hand.append(p1_card)
-        player_2_hand.append(p2_card)
-        player_2_hand.append(p1_war_card)
-        player_2_hand.append(p2_war_card)
         play_hand(player_1_hand, player_2_hand, total_hands, p1_hands, p2_hands, total_wars, p1_wars, p2_wars, p1_name, p2_name, finish)
     elif (len(player_1_hand)<2):
         play_hand([], player_2_hand, total_hands, p1_hands, p2_hands, total_wars, p1_wars, p2_wars, p1_name, p2_name, finish)
