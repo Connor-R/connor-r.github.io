@@ -193,10 +193,6 @@ def process_breakdown():
 
     for row in res:
         row = list(row)
-        for i, val in enumerate(row):
-            if type(val) in (str,unicode):
-                pass
-                # row[i] = '"' + "".join([l if ord(l) < 128 else "" for l in val]).replace("<o>","").replace("<P>","").replace("\n","  ") + '"'
         append_csv.writerow(row)
 
 
