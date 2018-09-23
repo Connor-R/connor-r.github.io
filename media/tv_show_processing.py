@@ -56,7 +56,7 @@ def update_rankings():
         row_qry = """SELECT 
         show_name, genre, episode_length, peak_grade, consistency_grade, adjustment, overall_grade
         FROM tv_show_grades
-        WHERE show_name = '%s';"""
+        WHERE show_name = "%s";"""
 
         row_query = row_qry % (show_name)
 

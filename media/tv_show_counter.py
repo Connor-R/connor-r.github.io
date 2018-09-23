@@ -7,7 +7,7 @@ db = db('personal')
 
 def initiate():
     #TODO UPDAE PATH
-    base_path = "/Users/connordog/Desktop/temp_tv/"
+    base_path = "/Volumes/Daddy/NOT_ON_LAPTOP/TV_Shows/"
 
     for i in range (1, len(os.listdir(base_path))):
         entry = {}
@@ -28,13 +28,19 @@ def initiate():
         for k in seasons_indices:
             episodes_paths = base_path+os.listdir(base_path)[i]+'/'+os.listdir(seasons_path)[k]
 
-            episodes_count = len([name for name in os.listdir(episodes_paths) if name.startswith(show_name)])
-            episodes_cnt += episodes_count
+            try:
+                episodes_count = len([name for name in os.listdir(episodes_paths) if name.startswith(show_name)])
+                episodes_cnt += episodes_count
+            except OSError:
+                seasons_cnt -= 1
 
         try:
             avg_eps = float(episodes_cnt)/float(seasons_cnt)
         except ZeroDivisionError:
             avg_eps = 0
+
+        if show_name[0] == 'z':
+            show_name = show_name[1:]
 
         entry['show_name'] = show_name.replace("_"," ")
         entry['seasons'] = seasons_cnt
