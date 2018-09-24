@@ -34,8 +34,8 @@ show_name,genre,seasons,episodes,episode_length,episodes_per_season,approx_runti
 """Archer""","""comedy""",9,101,22,11.22,37.03,70,45,,60
 """The Boondocks""","""comedy""",4,55,22,13.75,20.17,60,60,,60
 """The Eric Andre Show""","""comedy""",4,40,11,10.00,7.33,70,40,,58
-"""Vice Principals""","""comedy""",2,18,30,9.00,9.00,60,50,,56
 """Summer Heights High""","""comedy""",1,8,22,8.00,2.93,60,50,,56
+"""Vice Principals""","""comedy""",2,18,30,9.00,9.00,60,50,,56
 """Check It Out With Dr. Steve Brule""","""comedy""",4,20,11,5.00,3.67,70,35,,56
 """Pitch""","""drama""",1,10,44,10.00,7.33,60,50,,56
 """Freaks And Geeks""","""comedy""",1,18,22,18.00,6.60,55,55,,55
