@@ -305,7 +305,7 @@ movie_name,year,genre,sub_genre,length,grade,comment
 """The Rookie""",2002,"""drama""","""sports""",127,45,
 """The Room""",2003,"""drama""","""""",99,60,
 """The Royal Tenenbaums""",2001,"""comedy""","""""",110,65,
-"""The Sandlot""",1993,"""comedy""","""""",101,70,
+"""The Sandlot""",1993,"""comedy""","""sports""",101,70,
 """The Sasquatch Gang""",2006,"""comedy""","""""",86,60,
 """The Slammin' Salmon""",2009,"""comedy""","""""",90,55,
 """The Social Network""",2010,"""drama""","""biography""",120,50,
