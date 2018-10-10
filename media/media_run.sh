@@ -5,7 +5,7 @@ python bookmark_parser.py
 
 wait 
 
-python tv_show_counter.py
+# python tv_show_counter.py
 
 wait
 
