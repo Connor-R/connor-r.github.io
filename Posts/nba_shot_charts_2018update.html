@@ -1,0 +1,293 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link rel="stylesheet" type="text/css" href="../cr_styles.css">
+<style>
+h3 { 
+    display: block;
+    font-size: 1.17em;
+    margin-top: 1em;
+    margin-bottom: 1em;
+    margin-left: 0;
+    margin-right: 0;
+    font-weight: italic;
+}
+</style>
+  <link rel="icon" type="image/vnd.microsoft.icon"
+     href="../cr_icon.ico" />
+<title>NBA Shot Charts - 2018 Update</title>
+</head>
+
+
+<body>
+<div id="column">
+<img src="../i/gen_header.jpg"/>
+
+<div id="nav">
+<ul id="navlist">
+  <li id="home"><a href="../index.html"></a></li>
+  <li id="archive"><a href="../cr_archive.html"></a></li>
+  <li id="resume"><a href="../Connor_Reed_Resume.pdf"></a></li>  <!-- Resume is hard linked to /Users/connordog/Dropbox/Desktop_Files/Work_Things/_Resumes/Connor_Reed_Resume/Connor_Reed_Resume.pdf -->
+  <li id="interests"><a href="../cr_interests.html"></a></li>
+</ul>
+</div>
+<div id="innards">
+
+
+
+<h1> <a target="blank" href="https://github.com/Connor-R/nba_shot_charts/"> NBA Shot Charts - 2018 Update</a> </h1>
+<p>
+  <i>October 15, 2018</i>
+</p>
+<p>
+  Recall back in early 2017 I released my first <a href="Posts/nba_shot_charts.html">shot chart post</a>. Well, after a year and a half and with some free time on my hands after returning from <a href="https://drive.google.com/open?id=1U5t0P0NFYeQUNJoS6-ePU4yf4Lcej0-O">my trip to Africa</a>, I figured it was time to make some much needed updates to the ol' shot chart machine and accompanying <a href="https://twitter.com/NBAChartBot">Twitter bot</a> as I am now (slightly) <i>less</i> dumb, (slightly) <i>more</i> compotent, and have a (slightly) <i>better</i> understanding of the NBA, or I at least hope (at least one of) these things are true.
+
+
+<br><br><br>
+<a id="index"> <h2>Index</h2> </a>
+<p> 
+  If you've only come to look at pretty pictures, then click <a target="_blank" href="http://bit.ly/2A9qyIr">here for all player charts</a> or click <a target="_blank" href="http://bit.ly/2CckZKC">here for all team charts</a>. If you'd like to read on, this post is divided into a few sections, follow any links to jump to that portion of the write-up.
+  <ul>
+    <li><b><a href="#example">Example and Description of a Single Chart</a></b></li><br>
+    <li><b><a href="#playerTypes">Examples of a Few Player Types</a></b></li><br>
+    <ul>
+      <li><b><a href="#good">High Skill - High Efficiency</a></b></li><br>
+      <li><b><a href="#efficient">Low Skill - High Efficiency</a></b></li><br>
+      <li><b><a href="#skill">High Skill - Low Efficiency</a></b></li><br>
+      <li><b><a href="#bad">Low Skill - Low Efficiency</a></b></li><br>
+    </ul>
+    <li><b><a href="#metrics">Description of Metrics</a></b></li><br>
+    <ul>
+      <li><b><a href="#efgPlus">EFG+</a></b></li><br>
+      <li><b><a href="#paa">PAA and PAA/Game</a></b></li><br>
+      <li><b><a href="#shotSkillPlus">ShotSkill+</a></b></li><br>
+      <li><b><a href="#z_perc">z%</a></b></li><br>
+      <li><b><a href="#z_percPlus">z%+</a></b></li><br>
+      <li><b><a href="#z_efgPlus">zEFG+</a></b></li><br>
+      <li><b><a href="#z_paa">zPAA</a></b></li><br>
+    </ul>
+    <li><b><a href="#leaderboards">Historical Leaderboards (since 1996)</a></b></li><br>
+    <li><b><a href="#limitations">Notable Limitations</a></b></li><br>
+    <li><b><a href="#future">Ideas for Future Work</a></b></li><br>
+  </ul>
+
+
+<br><br><br>
+<h2><a id="example">Example and Description of a Single Chart</a></h2> 
+<a href="#index">(back to index)</a>
+<p>
+  To best describe these charts, we will use a labeled example chart, and explain the significance of each label. For the example, let's use what is arguably the greatest single season shooting effort in NBA history, Stephen Curry's breath-taking, earth-shaking, record-breaking, history-making 2015/16 season.
+  <figure style="float:none">
+     <a target="_blank" href="../i/nba2018_curry.png"><img src="../i/nba2018_curry.png" alt="Stephen Curry Shot Chart" style="width:800px;"></a>
+  </figure>
+</p>
+<p>
+  The first thing to notice about this chart is how ridiculous of a season it was. It is easily the top <a href="#paa">PAA</a> season in my database, worth 405.9 PAA; 86.2 points higher than the next best season, which is more than the difference between second place (Shquille O'Neal's 1999/2000 season) and the 11th best season on record. What's also astonishing is that Curry did this primarily via outside shooting while most of the other top seasons are from guys who can dominant the paint (primarily Shaq). The top-15 best seasons by this metric contain the following names: Shaquille O'Neal (6 seasons), LeBron James (2 seasons), Stephen Curry (2 seasons), DeAndre Jordan (2 seasons), and a single season each from Peja Stojakovic, Amar'e Stoudemire, and Steve Nash.
+</p>
+<p>
+  Moving on, we notice seven labels (A through G):
+</p>
+  <ul>
+    <li><p><b>A:</b> This is the title of the chart. It appears fairly straightforward, but there is one unique aspect, the dark red color. This color corresponds to the player's <a href="#efgPlus">EFG+</a> percentile with the higher the percentile, the darker the color. Since Curry's season was in the 100th percentile, his color is the as dark red as possible (on the other hand, a player in the 0th percentile, would have their name in white).</p></li>
+    <li><p><b>B:</b> The date the chart was plotted, so it is possible to tell when a chart is out of date.</p></li>
+    <li><p><b>C:</b> Key for the size of the hexagons. Similar to the title of the chart, the color of this key corresponds to the player's <a href="#efgPlus">EFG+</a> percentile with the higher the percentile, the darker the color.</p></li>
+    <li><p><b>D:</b> Color bar key. The color is again based on a player's <a href="#efgPlus">EFG+</a> for each zone. For example, if a player shoots 40% from a 3-point zone, that zone will be darker red than a 40% 2-point zone.</p></li>
+    <li><p><b>E:</b> A listing of the date-range that the chart and the teams the player played for over that range.</p></li>
+    <li><p><b>F:</b> Percentiles for four categories; volume as measured by FGA/Game (Field Goal Attempts per Game), shooting skill as measured by <a href="#shotSkillPlus">ShotSkill+</a>, efficiency as measured by overall <a href="#efgPlus">EFG+</a>, and efficiency value added as measured by <a href="#paa">PAA/Game</a>.</p></li>
+    <li><p><b>G:</b> A player's <b>Favorite Zone</b> as measured by <a href="#z_percPlus">z%+</a>, <b>Best/Worst Skill Zones</b> as measured by <a href="#z_efgPlus">zEFG+</a>, and <b>Best/Least Value Zones</b> as measured by <a href="#z_PAA">zPAA</a>.</p></li>
+  </ul>
+</p>
+
+
+<br><br><br>
+<h2><a id="playerTypes">Examples of a Few Player Types</a></h2> 
+<a href="#index">(back to index)</a>
+<p>
+  Let's compare Curry's chart to other charts from that showcase a few different season types for high volume players (click on image to see full-size):
+</p>
+<h3><a id="good">High Skill - High Efficiency</a></h3>
+<center>
+<figure style="float:none">
+    <a target="_blank" href="../i/nba2018_lbj.png"><img src="../i/nba2018_lbj.png" alt="High Skill - High Efficiency - LeBron James 2012/13" style="width:275px;"></a>
+    &nbsp;
+    <a target="_blank" href="../i/nba2018_peja.png"><img src="../i/nba2018_peja.png" alt="High Skill - High Efficiency - Peja Stojakovic 2003/04" style="width:275px;"></a>
+    &nbsp;
+    <a target="_blank" href="../i/nba2018_jokic.png"><img src="../i/nba2018_jokic.png" alt="High Skill - High Efficiency - Nikola Jokic 2016/17" style="width:275px;"></a>
+   <figcaption> 
+    LeBron James 2012/13 - Peja Stojakovic 2003/04 - Nikola Jokic 2016/17
+   </figcaption>
+</figure>
+</center>
+<p>
+  Three very different looking shot profiles, but all three were high usage players who finished in the 95th percentile or higher in terms of shot skill, efficiency, and value added.
+  <ul>
+  <li><p><b>LeBron James (2012/13)</b> dominated with his finishing close to the basket to rack up 285 <a href="#z_paa">zPAA</a> in the Restricted Area.</p></li>
+  <li><p><b>Peja Stojakovic (2003/04)</b> destroyed every zone beyond the arc but was especially fond of the Corners, where he took 152% more shots than an average distribution (<a href="#z_percPlus">z%+</a>).</p></li>
+  <li><p><b>Nikola Jokic (2016/17)</b> used his soft touch to shoot 56% better than league average (<a href="#z_efgPlus">zEFG+</a>) in the typically awkward Non-Restricted Area of the paint.
+</ul>
+</p> 
+
+<br><br><h3><a id="efficient">Low Skill - High Efficiency</a></h3>
+<center>
+<figure style="float:none">
+    <a target="_blank" href="../i/nba2018_qrich.png"><img src="../i/nba2018_qrich.png" alt="Low Skill - High Efficiency - Quentin Richardson 2004/05" style="width:275px;"></a>
+    &nbsp;
+    <a target="_blank" href="../i/nba2018_batum.png"><img src="../i/nba2018_batum.png" alt="Low Skill - High Efficiency - Nicolas Batum 2011/12" style="width:275px;"></a>
+    &nbsp;
+    <a target="_blank" href="../i/nba2018_marion.png"><img src="../i/nba2018_marion.png" alt="Low Skill - High Efficiency - Shawn Marion 2007/08" style="width:275px;"></a>
+   <figcaption> 
+    Quentin Richardson 2004/05 - Nicolas Batum 2011/12 - Shawn Marion 2007/08
+   </figcaption>
+</figure>
+</center>
+<p>
+  Smart shot selection boosts these players efficiency value, even while they were non-outstanding players by <a href="#shotSkillPlus">ShotSkill+</a>. Personally, I like to think of these players as the basketball representation of <a href="https://en.wikipedia.org/wiki/Simpson%27s_paradox">Simpson's Paradox</a>.
+  <ul>
+  <li><p><b>Quentin Richardson (2004/05)</b> was a below average shooter (95 <a href="#shotSkillPlus">ShotSkill+</a>, 41st percentile). Even in his most skilled zone (Above the Break 3), he was only 3% above the average NBA player. However, due to his shot selection (primarily shooting 3s and dunks/layups), he still managed to generate positive efficiency value for the season (0.4 <a href="#paa">PAA/Game</a>).</p></li>
+  <li><p><b>Nicolas Batum (2011/12)</b> was a skilled shooter (64th percentile by <a href="#shotSkillPlus">ShotSkill+</a>), but produced upper echelon efficiency value (92nd percentile by <a href="#paa">PAA</a>) by heavily favoring shooting from the Corner 3 zones (298 <a href="#z_percPlus">z%+)</a>.</p></li>
+  <li><p><b>Shawn Marion (2007/08)</b> was similar to Batum in that he had above average skill (68th percentile by <a href="#shotSkillPlus">ShotSkill+</a>), while generating tons of value (97th percentile by <a href="#paa">PAA</a>). However, Marion generated his value with great skill finishing around the rim (111 <a href="#z_efgPlus">zEFG+</a>, 125 <a href="#z_paa">zPAA</a> in the Restricted Area). </p></li>
+</ul>
+</p> 
+
+<br><br><h3><a id="skill">High Skill - Low Efficiency</a></h3>
+<center>
+<figure style="float:none">
+    <a target="_blank" href="../i/nba2018_ddr.png"><img src="../i/nba2018_ddr.png" alt="High Skill - Low Efficiency - DeMar DeRozan 2016/17" style="width:275px;"></a>
+    &nbsp;
+    <a target="_blank" href="../i/nba2018_lma.png"><img src="../i/nba2018_lma.png" alt="High Skill - Low Efficiency - LaMarcus Aldridge 2013/14" style="width:275px;"></a>
+    &nbsp;
+    <a target="_blank" href="../i/nba2018_jcross.png"><img src="../i/nba2018_jcross.png" alt="High Skill - Low Efficiency - Jamal Crawford 2016/17" style="width:275px;"></a>
+   <figcaption> 
+    DeMar DeRozan 2016/17 - LaMarcus Aldridge 2013/14 - Jamal Crawford 2016/17
+   </figcaption>
+</figure>
+</center>
+<p>
+  An affinity for the Mid Range drags down the efficiency value for these players, all of whom are talented shooters.
+  <ul>
+  <li><p><b>DeMar DeRozan (2016/17)</b> is the poster child for this group; 75th percentile in <a href="#shotSkillPlus">ShotSkill+</a>, but his extreme favoring towards the two least valuable zones (Mid Range and Non-Restricted area of the paint) ruin his efficiency (28th percentile in <a href="#efgPlus">EFG+</a>). (NOTE: As mentioned <a href="#limitations">below</a>, my metrics will generally underrate players like DeRozan more than any other, due to most of his true value coming from free throws and volume scoring).</p></li>
+  <li><p><b>LaMarcus Aldridge (2013/14)</b>, you can basically copy and paste what was said about DeRozan and put it here for Aldridge. However, his efficiency has generally improved after moving to San Antonio, maybe the same will happen for DDR.</p></li>
+  <li><p><b>Jamal Crawford (2016/17)</b>, even at 36 years old, Crawford was still an extremely talented player (111 <a href="#shotSkillPlus">ShotSkill+</a>, 92nd percentile). Unfortunately, his shot selection hadn't adapted to the more efficient modern NBA (93 <a href="#efgPlus">EFG+</a>, 30th percentile).</p></li>
+</ul>
+</p> 
+
+<br><br><h3><a id="bad">Low Skill - Low Efficiency</a></h3>
+<center>
+<figure style="float:none">
+    <a target="_blank" href="../i/nba2018_mudiay.png"><img src="../i/nba2018_mudiay.png" alt="Low Skill - Low Efficiency - Emmanuel Mudiay 2015/16" style="width:275px;"></a>
+    &nbsp;
+    <a target="_blank" href="../i/nba2018_jsmoove.png"><img src="../i/nba2018_jsmoove.png" alt="Low Skill - Low Efficiency - Josh Smith 2013/14" style="width:275px;"></a>
+    &nbsp;
+   <a target="_blank" href="../i/nba2018_blatche.png"><img src="../i/nba2018_blatche.png" alt="Low Skill - Low Efficiency - Andray Blatche 2010/11" style="width:275px;"></a>
+   <figcaption> 
+    Emmanuel Mudiay 2015/16 - Josh Smith 2013/14 - Andray Blatche 2010/11
+   </figcaption>
+</figure>
+</center>
+<p>
+  Generally, players in this class can be described as "chuckers" and would have been better off taking a lower volume of shots.
+  <ul>
+  <li><p><b>Emmanuel Mudiay (2015/16)</b> had a terrible rookie season. He failed to generate positive efficiency value from a single zone (his <b>Best Value Zone</b> was worth -9 <a href="#z_paa">zPAA</a>).</p></li>
+  <li><p><b>Josh Smith (2013/14)</b> managed to negate all value he created with his above average finishing in the restricted area by chucking up bricks from every other zone on the court.</p></li>
+  <li><p><b>Andray Blatche (2010/11)</b>. It's rare for a big man to below below league average at finishing in the Restricted Area, but Blatche managed to do this, finishing with a 98 <a href="#z_efgPlus">zEFG+</a> in his <b>Best Skill Zone</b>.</p></li>
+</ul>
+</p> 
+
+<br><br><br>
+<h2><a id="metrics">Description of Metrics</a></h2>
+<a href="#index">(back to index)</a>
+<ul>
+  <h3><a id="efgPlus">EFG+</a></h3>
+  <p>
+    Effective Field Goal Percentage Plus is an index metric comparing a player's Effective Field Goal Percentage to the league average, where 100 is average. An EFG+ of 125 is 25% better than league average, while an EFG+ of 75 is 25% worse than league average.
+  </p>
+  <h3><a id="paa">PAA and PAA/Game</a></h3>
+  <p>
+    Points (Added) Above Average is a basic measure of the number of points a player has added via his shooting. The general formula is Efficiency x Volume.
+  </p>
+  <h3><a id="shotSkillPlus">ShotSkill+</a></h3>
+  <p>
+    Shot Skill Plus measures the amount above or below league average a player performed at shooting given his shot profile, where 100 is average. A ShotSkill+ of 125 means that a player made 25% more shots than we would expect an average player to make given the same shots.
+  </p>
+  <h3><a id="z_perc">z%</a></h3>
+  <p>
+    Zone Percentage is the percentage of shots a player takes from a given zone.
+  </p>
+  <h3><a id="z_percPlus">z%+</a></h3>
+  <p>
+    Zone Percentage Plus compares the a player's distribution of shots to league average, where 100 is average. A z%+ of 125 from a zone means that a player's distribution of shots featured 25% more shots from that zone than the league average distribution.
+  </p>
+  <h3><a id="z_efgPlus">zEFG+</a></h3>
+  <p>
+    Zone Effective Field Goal Percentage Plus compares a player's shooting percentage in a zone to league average, wher 100 is average. A zEFG+ of 125 from a zone means that a player was 25% better than league average at shooting in that zone.
+  </p>
+  <h3><a id="z_paa">zPAA</a></h3>
+  <p>
+    Zone Points (Added) Above Average measures how many points added or subtracted a player has added via his shooting in that zone. Most players will have positive zPAA in the efficient zones (notably the Restricted Area and Corner 3) and negative zPAA in inefficient zones (notably the Mid Range).
+  </p>
+</ul>
+
+
+<br><br><br>
+<h2><a id="leaderboards">Historical Leaderboards (since 1996)</a></h2>
+<a href="#index">(back to index)</a>
+<p>
+  I have leaderboards for the statistics I created. If there's a statistic not on here that you'd like to see, or you have a specific data request, feel free to e-mail me.
+</p>
+  <ul>
+    <li><b><a target="_blank" href="http://connor-r.github.io/Tables/NBA_leaderboards/Player_Post_Career.html">Player Playoff Leaders (career)</a></b></li><br>
+    <li><b><a target="_blank" href="http://connor-r.github.io/Tables/NBA_leaderboards/Player_Post.html">Player Playoff Leaders (season)</a></b></li><br>
+    <li><b><a target="_blank" href="http://connor-r.github.io/Tables/NBA_leaderboards/Player_Pre_Career.html">Player Preseason Leaders (career)</a></b></li><br>
+    <li><b><a target="_blank" href="http://connor-r.github.io/Tables/NBA_leaderboards/Player_Pre.html">Player Preseason Leaders (season)</a></b></li><br>
+    <li><b><a target="_blank" href="http://connor-r.github.io/Tables/NBA_leaderboards/Player_Reg_Career.html">Player Regular Season Leaders (career)</a></b></li><br>
+    <li><b><a target="_blank" href="http://connor-r.github.io/Tables/NBA_leaderboards/Player_Reg.html">Player Regular Season Leaders (season)</a></b></li><br>
+    <li><b><a target="_blank" href="http://connor-r.github.io/Tables/NBA_leaderboards/Team_Post.html">Team Playoff Leaders (season)</a></b></li><br>
+    <li><b><a target="_blank" href="http://connor-r.github.io/Tables/NBA_leaderboards/Team_Pre.html">Team Preseason Leaders (season)</a></b></li><br>
+    <li><b><a target="_blank" href="http://connor-r.github.io/Tables/NBA_leaderboards/Team_Reg.html">Team Regular Season Leaders (season)</a></b></li><br>
+  </ul>
+<p>
+  You can also download any of this data as .csv <a target="_blank" href="https://github.com/Connor-R/nba_shot_charts/tree/master/csvs">from my github</a>.
+</p>
+
+
+<br><br><br>
+<h2><a id="limitations">Notable Limitations</a></h2>
+<a href="#index">(back to index)</a>
+<ul>
+  <li><p><b>Free Throws:</b> My metrics and charts do not account for any value gained via drawing and shooting free throws. As a <a target="_blank" href="https://www.basketball-reference.com/players/w/willilo02.html">few</a> <a target="_blank" href="https://www.basketball-reference.com/players/d/derozde01.html">notable</a> <a target="_blank" href="https://www.basketball-reference.com/players/h/hardeja01.html">players</a> have demonstrated, this is a very valuable and repeatable skill.</p></li>
+  <li><p><b>Accounting for Volume:</b> We know that in general, a player's <a target="_blank" href="https://elgee35.wordpress.com/2011/01/14/can-good-players-shoot-too-much/">efficiency declines as usage increases</a> (an inverse <a target="_blank" href="https://en.wikipedia.org/wiki/Jevons_paradox">Jevons Paradox</a> if you will). My metrics don't account for this. Therefore, a high volume, slightly below average efficiency player will score very low by the <a href="#paa">PAA</a> metric, even though we know them to be valuable offensively (think of players like Allen Iverson or Russell Westbrook).</p></li>
+  <li><p><b>Role/Positional Consideration:</b> All averages and percentiles are based on the entire set of NBA players, instead of being divided up into groups by position or role. Therefore, it is very difficult for a small Point Guard to grade out as above average at finishing in the restricted area even if they are better than most other guards. It is similarly very easy for a plodding Center to be described as an above average finisher there, even if they are worse than most other big men.</p></li>
+  <li><p><b>Passing, Defense, Off-Ball Play, and More:</b> There are obviously many other ways to contribute value on a basketball court, and none of them are considered by these metrics. If you're looking for a metric that is more all-encompassing, I would suggest checking out any of the Plus-Minus, On/Off, or WOWY based metrics.</p></li>
+</ul>
+
+<br><br><br>
+<h2><a id="future">Ideas for Future Work</a></h2>
+<a href="#index">(back to index)</a>
+<ul>
+  <li><p><b>Custom Charts:</b> I have a script that can generate "custom" charts, based on custom date-ranges, Pre-Season/Playoff shots, multiple players, etc. Unfortunately, it uses a lot of bad legacy code, takes a long time, and is not compatible with my newer suite of metrics. Hopefully I'll find to update this script during the season as it is especially fun to play around with during the playoffs.</p></li>
+  <li><p><b>Similarity Scores:</b> I've always wanted to make some form of a similarity score to find the player's with the most similar shot profiles but it's never been my top priority so I haven't tackled it yet.</p></li>
+  <li><p><b>Gather Positional/Physical Data:</b> Gathering data on a player's listed position and his physical profile would allow me to bin players based by bigs/wings/guards, or better, create a model to determine player roles when joined with their shot profile. This would allow for better comparisons and percentile baselines based on role.</p></li>
+  <li><p><b>Playoff/Pre-Season Charts:</b> I have the data to automate the generate of pre-season and playoff charts, but I'm not sure if it's worth the computing energy. If this is something anybody is interested in, let me know and I'll set it up.</p></li>
+  <li><p><b>WNBA and G-League Charts:</b> I have the API calls to get shot location data for the WNBA and G-League, but I never decided on the best method for data storage. Should I make new tables? Set up a new database? Just add in new fields that signify league? The best answer is probably new tables. Still, I haven't had the motivation to do this yet since I don't follow either league outside of the playoffs and occasional regular season game.</p></li>
+  <li><p><b>Improve the ShotSkill+ Model:</b> Right now, the ShotSkill+ model is based on comparing a player's performance in each subzone to the NBA average. However, I could use a more predictive method based on shot distance/angle that would improve the model (the best method would be to get more data, such as nearest defender distance, nearest defender height/length, pre-shot player movement, pre-shot ball movement, etc.). However, I've left the model as is, using the idea that when compared to a better model, what I have right now was 10% of the work while capturing 90% of the signal.</p></li>
+</ul>
+
+
+
+
+</div>
+</div>
+</body>
+</html>
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-77536074-1', 'auto');
+  ga('send', 'pageview');
+
+</script>
+
