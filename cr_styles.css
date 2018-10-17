@@ -10,9 +10,9 @@ top:2px;}
 #home{background:url('i/links.png') 0 0;}
 #home a:hover{background: url('i/links.png') 0 -65px;}
 
-#archive{left:280px;width:200px;}
-#archive{background:url('i/links.png') -200px 0;}
-#archive a:hover{background: url('i/links.png') -200px -65px;}
+#posts{left:280px;width:200px;}
+#posts{background:url('i/links.png') -200px 0;}
+#posts a:hover{background: url('i/links.png') -200px -65px;}
 
 #resume{left:510px;width:170px;}
 #resume{background:url('i/links.png') -400px 0;}
