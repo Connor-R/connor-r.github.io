@@ -2,7 +2,7 @@ podcast_name,genre,peak_grade,consistency_grade,adjustment,overall_grade
 """30 For 30 Podcasts""","""Sports(Other)""",65,65,,65
 """31 Thoughts: The Podcast""","""Sports(Hockey)""",70,60,,66
 """Advanced Football Analytics""","""Sports(Football)""",50,50,,50
-"""Baseball America""","""Sports(Baseball)""",60,30,,48
+"""Baseball America""","""Sports(Baseball)""",50,20,,38
 """Bet The Process""","""Sports(Other)""",70,55,,64
 """Biscuits: A Hockey Podcast""","""Sports(Hockey)""",60,60,,60
 """Data Skeptic""","""Data Science""",60,45,,54
@@ -31,9 +31,11 @@ podcast_name,genre,peak_grade,consistency_grade,adjustment,overall_grade
 """PFF Fantasy Football Podcast with Jeff Ratcliffe""","""Sports(Football)""",40,50,,44
 """Pitch Talks""","""Sports(Baseball)""",50,55,,52
 """Pitcher List Fantasy Baseball Podcast""","""Sports(Baseball)""",55,40,,49
+"""Pitching to Contact""","""Sports(Baseball)""",50,50,,50
 """Programming Throwdown""","""Data Science""",60,50,,56
 """R U Talkin' R.E.M. RE: ME?""","""Comedy""",55,55,,55
 """Sharp Football Analysis""","""Sports(Football)""",55,45,,51
+"""Spot Starters""","""Sports(Baseball)""",55,50,,53
 """Statcast Podcast""","""Sports(Baseball)""",60,60,,60
 """Stolen Signs""","""Sports(Baseball)""",45,45,,45
 """The Better Rivals 49ers Podcast""","""Sports(Football)""",45,45,,45
