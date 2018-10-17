@@ -34,6 +34,10 @@ python /Users/connordog/Dropbox/Desktop_Files/Work_Things/connor-r.github.io/Tab
 csvtotable /Users/connordog/Dropbox/Desktop_Files/Work_Things/connor-r.github.io/csvs/tvShows.csv -o -c "Connor Reed - TV Shows (Last Updated $updateDate)" /Users/connordog/Dropbox/Desktop_Files/Work_Things/connor-r.github.io/Tables/tvShows.html -vs 15
 python /Users/connordog/Dropbox/Desktop_Files/Work_Things/connor-r.github.io/Tables/google_analytics_appender.py --file_path "/Users/connordog/Dropbox/Desktop_Files/Work_Things/connor-r.github.io/Tables/tvShows.html"
 
+
+csvtotable /Users/connordog/Dropbox/Desktop_Files/Work_Things/connor-r.github.io/csvs/nba_201819LeaguePassRankings.csv -o -c "Connor Reed - 2018/19 NBA League Pass Rankings (Last Updated $updateDate)" /Users/connordog/Dropbox/Desktop_Files/Work_Things/connor-r.github.io/Tables/nba_201819LeaguePassRankings.html -vs 15
+python /Users/connordog/Dropbox/Desktop_Files/Work_Things/connor-r.github.io/Tables/google_analytics_appender.py --file_path "/Users/connordog/Dropbox/Desktop_Files/Work_Things/connor-r.github.io/Tables/nba_201819LeaguePassRankings.html"
+
 cd ~/Dropbox/Desktop_Files/Work_Things/connor-r.github.io
 git add Tables/cr_bookmarks.html
 git add csvs/relevant_bookmarks.csv
@@ -45,5 +49,7 @@ git add Tables/podcasts.html
 git add csvs/podcasts.csv
 git add Tables/tvShows.html
 git add csvs/tvShows.csv
+git add Tables/nba_201819LeaguePassRankings.html
+git add csvs/nba_201819LeaguePassRankings.csv
 git commit -m "update media"
 git push
