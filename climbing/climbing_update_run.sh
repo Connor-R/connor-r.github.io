@@ -3,7 +3,6 @@ source "/Users/connordog/.bash_profile"
 
 updateDate=$( date +"%b %d, %Y" )
 
-
 python 8a_scraper.py
 
 wait
