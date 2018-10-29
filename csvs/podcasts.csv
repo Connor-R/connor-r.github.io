@@ -13,6 +13,7 @@ podcast_name,genre,peak_grade,consistency_grade,adjustment,overall_grade
 """ESPN: Behind The Dish with Keith Law""","""Sports(Baseball)""",50,35,,44
 """FanGraphs Baseball""","""Sports(Baseball)""",75,60,,69
 """FanGraphs Fantasy Baseball""","""Sports(Baseball)""",60,40,,52
+"""Freakonomics Radio""","""Economics/Psychology""",65,40,,55
 """Fringe Average: Baseball Prospectus Podcast""","""Sports(Baseball)""",60,60,,60
 """Hardwood Homies NBA Draft Podcast""","""Sports(Basketball)""",55,45,,51
 """Hockey Graphs Podcast""","""Sports(Hockey)""",50,45,,48
