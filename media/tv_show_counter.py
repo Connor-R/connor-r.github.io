@@ -6,7 +6,6 @@ db = db('personal')
 
 
 def initiate():
-    #TODO UPDAE PATH
     base_path = "/Volumes/Daddy/NOT_ON_LAPTOP/TV_Shows/"
 
     for i in range (1, len(os.listdir(base_path))):

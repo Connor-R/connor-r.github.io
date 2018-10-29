@@ -100,7 +100,7 @@ def export_to_csv():
     csv_title = "/Users/connordog/Dropbox/Desktop_Files/Work_Things/connor-r.github.io/csvs/tvShows.csv"
     csv_file = open(csv_title, "wb")
     append_csv = csv.writer(csv_file)
-    headers = ['show_name', 'genre', 'seasons', 'episodes', 'episode_length', 'episodes_per_season', 'approx_runtime_hours', 'peak_grade', 'consistency_grade', 'adjustment', 'overall_grade']
+    headers = ['show_name', 'genre', 'estimated_seasons', 'estimated_episodes', 'episode_length', 'episodes_per_season', 'approx_runtime_hours', 'peak_grade', 'consistency_grade', 'adjustment', 'overall_grade']
     append_csv.writerow(headers)
 
     for row in res:
