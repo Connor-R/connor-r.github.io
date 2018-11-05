@@ -17,13 +17,13 @@ db.query("Truncate bookmarks;")
 db.conn.commit()
 
 categories = [
-    'MLB Gameplay and Analysis', 'MLB General Articles', 
+    'MLB Coaching and Player Development', 'MLB Gameplay and Analysis', 'MLB General Articles', 
     'MLB Metric Descriptions', 'MLB Profiles', 'MLB General Sites', 
-    'NHL Gameplay and Analysis', 'NHL General Articles', 
+    'NHL Coaching and Player Development', 'NHL Gameplay and Analysis', 'NHL General Articles', 
     'NHL Metric Descriptions', 'NHL Profiles','NBA General Sites',
-    'NBA Gameplay and Analysis', 'NBA General Articles', 
+    'NBA Coaching and Player Development', 'NBA Gameplay and Analysis', 'NBA General Articles', 
     'NBA Metric Descriptions', 'NBA Profiles',
-    'NFL Gameplay and Analysis', 'NFL General Articles', 'NFL General Sites', 
+    'NFL Coaching and Player Development', 'NFL Gameplay and Analysis', 'NFL General Articles', 'NFL General Sites', 
     'NFL Metric Descriptions', 'NFL Profiles',
     'NHL Rest', 'NHL Shot Quality', 'NHL General Sites', 
     'Multi-Sport Articles', 'Multi-Sport Sites', 'Soccer', 'Climbing',
