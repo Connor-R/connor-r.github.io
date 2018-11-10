@@ -17,20 +17,17 @@ db.query("Truncate bookmarks;")
 db.conn.commit()
 
 categories = [
-    'MLB Coaching and Player Development', 'MLB Gameplay and Analysis', 'MLB General Articles', 
-    'MLB Metric Descriptions', 'MLB Profiles', 'MLB General Sites', 
-    'NHL Coaching and Player Development', 'NHL Gameplay and Analysis', 'NHL General Articles', 
-    'NHL Metric Descriptions', 'NHL Profiles','NBA General Sites',
-    'NBA Coaching and Player Development', 'NBA Gameplay and Analysis', 'NBA General Articles', 
-    'NBA Metric Descriptions', 'NBA Profiles',
-    'NFL Coaching and Player Development', 'NFL Gameplay and Analysis', 'NFL General Articles', 'NFL General Sites', 
-    'NFL Metric Descriptions', 'NFL Profiles',
-    'NHL Rest', 'NHL Shot Quality', 'NHL General Sites', 
-    'Multi-Sport Articles', 'Multi-Sport Sites', 'Soccer', 'Climbing',
-    'Decision Making and Psychology', 'Lifestyle and Self-Improvement',
-    'Bash', 'General Programming', 'Git', 'Python', 'SQL', 'Ubuntu',
-    'Data Science Articles', 'Data Science Documentation', 'Bayesian Articles', 
+    'Climbing', 'Multi-Sport Articles', 'Multi-Sport Sites', 'Soccer', 
+    'Bash', 'General Programming', 'Git', 'LaTeX', 'Python', 'SQL', 'Ubuntu',
+    'Bayesian Articles', 'Data Science Articles', 'Data Science Documentation', 
+    'Decision Making and Psychology', 'Individual Profiles', 'Lifestyle and Self-Improvement',
     ]
+
+for sport in ('MLB', 'NHL', 'NBA', 'NFL'):
+    for desc in ('Coaching and Player Development', 'Gameplay and Analysis', 'General Articles', 'General Sites', 'Metric Descriptions', 'Profiles', 'Sport Science'):
+        cat_label = sport + ' ' + desc
+        categories.append(cat_label)
+
 
 csv_path = '/Users/connordog/Dropbox/Desktop_Files/Work_Things/connor-r.github.io/csvs/relevant_bookmarks.csv'
 csv_file = open(csv_path, 'wb')

@@ -1,0 +1,89 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link rel="stylesheet" type="text/css" href="../cr_styles.css">
+<style>
+h3 { 
+  display: block;
+  font-size: 1.17em;
+  margin-top: 1em;
+  margin-bottom: 1em;
+  margin-left: 0;
+  margin-right: 0;
+  font-weight: italic;
+}
+</style>
+  <link rel="icon" type="image/vnd.microsoft.icon"
+   href="../cr_icon.ico" />
+<title>Simulation League In-Playoff Projections</title>
+</head>
+
+
+<body>
+<div id="column">
+<img src="../i/gen_header.jpg"/>
+
+<div id="nav">
+<ul id="navlist">
+  <li id="home"><a href="../index.html"></a></li>
+  <li id="posts"><a href="../Posts.html"></a></li>
+  <li id="resume"><a href="../resume.html"></a></li>  <!-- Resume is hard linked to /Users/connordog/Dropbox/Desktop_Files/Work_Things/_Resumes/Connor_Reed_Resume/Connor_Reed_Resume.pdf -->
+  <li id="interests"><a href="../cr_interests.html"></a></li>
+</ul>
+</div>
+<div id="innards">
+
+
+
+<h1>Simulation League In-Playoff Projections</a> </h1>
+<p>
+  <i>November 9, 2018</i>
+</p>
+<p>
+  A year and a half ago, I created a <a target="_blank" href="../Posts/sim_league_team_projections.html">projection system</a> for my <a target="_blank" href="http://thensbl.com/">simulation baseball league</a>, which worked both at both the pre-season and in-season level. Unfortunately, it was not a robust enough system to handle in-playoff performance. Using similar methods, I wrote <a target="_blank" href="https://github.com/Connor-R/NSBL/blob/master/team_strength/in_playoff_probabilities.py">a script</a> that can process in-playoff probabilities.
+</p>
+<p>
+  The result is that I now can compute probabilities, both for advancing out of the current playoff series, as well as advancing along every step of the playoffs:
+  <ul>
+  <li> <a target="blank" href="../Tables/in_playoff_bracket.html">Current Playoff Bracket</a></li>
+  <br><li> <a target="blank" href="../Tables/in_playoff_probabilities.html">Current Playoff Probabilities</a></li>
+  </ul>
+</p>
+<br>
+<p>
+  Additionally, similar, to my <a target="_blank" href="../Posts/sim_league_weekly_charts.html">week-by-week charts</a> I posted last week, I can also produce in-playoff charts for teams winning the pennant as well as the world series:
+</p>
+<center>
+<figure style="float:none">
+  <a target="_blank" href="../i/NSBL_WeeklyProjections/2018_NSBL_inPlayoff_PennantOdds-Projections.png"><img src="../i/NSBL_WeeklyProjections/2018_NSBL_inPlayoff_PennantOdds-Projections.png" alt="In Playoff Pennant Projections" style="width:700px;"></a>
+</figcaption>
+</figure>
+</center>
+<center>
+<figure style="float:none">
+  <a target="_blank" href="../i/NSBL_WeeklyProjections/2018_NSBL_inPlayoff_WorldSeriesOdds-Projections.png"><img src="../i/NSBL_WeeklyProjections/2018_NSBL_inPlayoff_WorldSeriesOdds-Projections.png" alt="In Playoff World Series Projections" style="width:700px;"></a>
+</figcaption>
+</figure>
+</center>
+
+<p>
+  As always, the full codebase for my simulation league research and analysis is available <a target="blank" href="https://github.com/connor-r/NSBL">on github</a> .
+</p>
+
+
+</div>
+</div>
+</body>
+</html>
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-77536074-1', 'auto');
+  ga('send', 'pageview');
+
+</script>
+
