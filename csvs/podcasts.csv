@@ -22,6 +22,7 @@ podcast_name,genre,peak_grade,consistency_grade,adjustment,overall_grade
 """Home Court Vantage Podcast""","""Sports(Basketball)""",50,50,,50
 """IEEE Software's ""On Computing"" with Grady Booch""","""Data Science""",40,60,,48
 """In Play, Pod(cast)""","""Sports(Baseball)""",50,40,,46
+"""It Seemed Smart""","""Sports(Other)""",,,,0
 """Linear Digressions""","""Data Science""",55,60,,57
 """Measurables""","""Sports(Other)""",40,45,,42
 """Mike Detective""","""Comedy""",65,65,,65
