@@ -23,6 +23,9 @@ def initiate():
     print "\nexporting podcasts to csv"
     export_to_csv('podcasts')
 
+    print "\nexporting quotes to csv"
+    export_to_csv('quotes')
+
     end_time = time()
     elapsed_time = float(end_time - start_time)
     print "\n\nexport_media.py"

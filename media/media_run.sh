@@ -31,6 +31,9 @@ python /Users/connordog/Dropbox/Desktop_Files/Work_Things/connor-r.github.io/Tab
 csvtotable /Users/connordog/Dropbox/Desktop_Files/Work_Things/connor-r.github.io/csvs/podcasts.csv -o -c "Connor Reed - Podcasts (Last Updated $updateDate)" /Users/connordog/Dropbox/Desktop_Files/Work_Things/connor-r.github.io/Tables/podcasts.html -vs 15
 python /Users/connordog/Dropbox/Desktop_Files/Work_Things/connor-r.github.io/Tables/google_analytics_appender.py --file_path "/Users/connordog/Dropbox/Desktop_Files/Work_Things/connor-r.github.io/Tables/podcasts.html"
 
+csvtotable /Users/connordog/Dropbox/Desktop_Files/Work_Things/connor-r.github.io/csvs/quotes.csv -o -c "Connor Reed - Quotes (Last Updated $updateDate)" /Users/connordog/Dropbox/Desktop_Files/Work_Things/connor-r.github.io/Tables/quotes.html -vs 15
+python /Users/connordog/Dropbox/Desktop_Files/Work_Things/connor-r.github.io/Tables/google_analytics_appender.py --file_path "/Users/connordog/Dropbox/Desktop_Files/Work_Things/connor-r.github.io/Tables/quotes.html"
+
 csvtotable /Users/connordog/Dropbox/Desktop_Files/Work_Things/connor-r.github.io/csvs/tvShows.csv -o -c "Connor Reed - TV Shows (Last Updated $updateDate)" /Users/connordog/Dropbox/Desktop_Files/Work_Things/connor-r.github.io/Tables/tvShows.html -vs 15
 python /Users/connordog/Dropbox/Desktop_Files/Work_Things/connor-r.github.io/Tables/google_analytics_appender.py --file_path "/Users/connordog/Dropbox/Desktop_Files/Work_Things/connor-r.github.io/Tables/tvShows.html"
 
@@ -43,6 +46,8 @@ git add Tables/movies.html
 git add csvs/movies.csv
 git add Tables/podcasts.html
 git add csvs/podcasts.csv
+git add Tables/quotes.html
+git add csvs/quotes.csv
 git add Tables/tvShows.html
 git add csvs/tvShows.csv
 git commit -m "update media ($updateDate)"
