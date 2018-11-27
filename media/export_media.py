@@ -69,7 +69,7 @@ def export_to_csv(table_name):
     append_csv = csv.writer(csv_file)
     append_csv.writerow(columns)
 
-    qry = "SELECT * FROM %s;" % table_name
+    qry = "SELECT * FROM %s ORDER BY 1;" % table_name
 
     res = db.query(qry)
 
