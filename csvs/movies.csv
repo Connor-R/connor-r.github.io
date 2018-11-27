@@ -321,6 +321,7 @@ movie_name,year,est_year_watched,genre,sub_genre,length,grade,comment
 """The Day After Tomorrow""",2004,2008,"""adventure""","""action""",124,30,""""""
 """The Departed""",2006,2008,"""crime""","""drama""",151,60,""""""
 """The Disaster Artist""",2017,2018,"""comedy""","""biography""",104,55,""""""
+"""The Fifth Element""",1997,2018,"""action""","""sci-fi""",126,60,""""""
 """The Foot Fist Way""",2006,2009,"""comedy""","""""",85,65,""""""
 """The Frighteners""",1996,2011,"""comedy""","""fantasy""",110,45,""""""
 """The Garden of Words""",2013,2016,"""animated""","""drama""",46,55,""""""
