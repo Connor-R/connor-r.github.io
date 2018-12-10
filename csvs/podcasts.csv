@@ -8,11 +8,11 @@ podcast_name,genre,peak_grade,consistency_grade,adjustment,overall_grade
 """Data Skeptic""","""Data Science""",60,45,,54
 """Defensive Indifference: A 2080 Baseball Podcast""","""Sports(Baseball)""",55,35,,47
 """Dray Day""","""Sports(Basketball)""",50,55,,52
-"""Driveline Baseball Podcast""","""Sports(Baseball)""",,,,0
+"""Driveline Baseball Podcast""","""Sports(Baseball)""",65,65,,65
 """Dunc'd On Basketball NBA Podcast""","""Sports(Basketball)""",60,35,,50
 """Effectively Wild: A FanGraphs Baseball Podcast""","""Sports(Baseball)""",60,40,,52
 """ESPN: Behind The Dish with Keith Law""","""Sports(Baseball)""",50,35,,44
-"""FanGraphs Baseball""","""Sports(Baseball)""",75,60,,69
+"""FanGraphs Baseball""","""Sports(Baseball)""",65,60,,63
 """FanGraphs Fantasy Baseball""","""Sports(Baseball)""",60,40,,52
 """Freakonomics Radio""","""Economics/Psychology""",65,40,,55
 """Fringe Average: Baseball Prospectus Podcast""","""Sports(Baseball)""",60,60,,60
@@ -23,7 +23,7 @@ podcast_name,genre,peak_grade,consistency_grade,adjustment,overall_grade
 """Home Court Vantage Podcast""","""Sports(Basketball)""",50,50,,50
 """IEEE Software's ""On Computing"" with Grady Booch""","""Data Science""",40,60,,48
 """In Play, Pod(cast)""","""Sports(Baseball)""",50,40,,46
-"""It Seemed Smart""","""Sports(Other)""",,,,0
+"""It Seemed Smart""","""Sports(Other)""",65,40,,55
 """Linear Digressions""","""Data Science""",55,60,,57
 """Measurables""","""Sports(Other)""",40,45,,42
 """Mike Detective""","""Comedy""",65,65,,65
@@ -50,7 +50,7 @@ podcast_name,genre,peak_grade,consistency_grade,adjustment,overall_grade
 """The Harvard Sports Analytics Podcast""","""Sports(Other)""",40,45,,42
 """The Lab""","""Sports(Basketball)""",60,55,,58
 """The Late-Round Podcast""","""Sports(Football)""",65,60,,63
-"""The Lowe Post""","""Sports(Basketball)""",75,60,,69
+"""The Lowe Post""","""Sports(Basketball)""",70,60,,66
 """The Motus Show""","""Sports(Other)""",55,60,,57
 """The PFF Forecast""","""Sports(Football)""",60,50,,56
 """The R^2 Podcast""","""Sports(Basketball)""",65,50,,59
@@ -64,5 +64,5 @@ podcast_name,genre,peak_grade,consistency_grade,adjustment,overall_grade
 """TSN Hockey Analytics""","""Sports(Hockey)""",45,60,,51
 """U Talkin' U2 To Me?""","""Comedy""",55,55,,55
 """Up And In: The Baseball Prospectus Podcast""","""Sports(Baseball)""",65,65,,65
-"""Upon Further Review""","""Sports(Other)""",,,,0
+"""Upon Further Review""","""Sports(Other)""",65,65,,65
 """Watch The Game: A Hockey Podcast""","""Sports(Hockey)""",50,50,,50
