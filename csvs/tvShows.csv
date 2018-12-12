@@ -10,8 +10,8 @@ show_name,genre,estimated_seasons,estimated_episodes,episode_length,episodes_per
 """Silicon Valley""","""comedy""",5,46,28,9.20,21.47,80,50,,68
 """The Greatest Event In Television History""","""comedy""",1,4,22,4.00,1.47,70,60,,66
 """Brooklyn Nine Nine""","""comedy""",5,111,22,22.20,40.70,60,75,,66
-"""Wet Hot American Summer""","""comedy""",2,16,28,8.00,7.47,65,65,,65
 """Bored To Death""","""comedy""",3,24,28,8.00,11.20,65,65,,65
+"""Wet Hot American Summer""","""comedy""",2,16,28,8.00,7.47,65,65,,65
 """Sherlock""","""drama""",4,14,90,3.50,21.00,75,50,,65
 """Frisky Dingo""","""comedy""",2,25,12,12.50,5.00,75,50,,65
 """Bob's Burgers""","""comedy""",8,149,22,18.63,54.63,70,55,,64
@@ -23,8 +23,8 @@ show_name,genre,estimated_seasons,estimated_episodes,episode_length,episodes_per
 """Futurama""","""comedy""",8,132,22,16.50,48.40,60,65,,62
 """New Girl""","""comedy""",6,138,22,23.00,50.60,60,65,,62
 """BBC Planet Earth""","""documentary""",2,17,48,8.50,13.60,70,50,,62
-"""The Good Place""","""comedy""",2,25,22,12.50,9.17,70,50,,62
 """Burning Love""","""comedy""",3,42,12,14.00,8.40,70,50,,62
+"""The Good Place""","""comedy""",2,25,22,12.50,9.17,70,50,,62
 """Documentary Now""","""comedy""",2,14,22,7.00,5.13,65,55,,61
 """Blunt Talk""","""comedy""",2,20,30,10.00,10.00,65,55,,61
 """Chappelle's Show""","""comedy""",2,26,22,13.00,9.53,65,55,,61
