@@ -60,7 +60,7 @@ podcast_name,genre,peak_grade,consistency_grade,adjustment,overall_grade
 """The TSN Hockey Bobcast""","""Sports(Hockey)""",50,30,,42
 """The Wharton Moneyball Post Game Podcast""","""Sports(Other)""",55,30,,45
 """The Woj Pod""","""Sports(Basketball)""",45,35,,41
-"""Thinking Basketball""","""Sports(Basketball)""",65,65,,65
+"""Thinking Basketball""","""Sports(Basketball)""",70,65,,68
 """TSN Hockey Analytics""","""Sports(Hockey)""",45,60,,51
 """U Talkin' U2 To Me?""","""Comedy""",55,55,,55
 """Up And In: The Baseball Prospectus Podcast""","""Sports(Baseball)""",65,65,,65
