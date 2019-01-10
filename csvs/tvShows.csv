@@ -10,8 +10,8 @@ show_name,genre,estimated_seasons,estimated_episodes,episode_length,episodes_per
 """Silicon Valley""","""comedy""",5,46,28,9.20,21.47,80,50,,68
 """The Greatest Event In Television History""","""comedy""",1,4,22,4.00,1.47,70,60,,66
 """Brooklyn Nine Nine""","""comedy""",5,111,22,22.20,40.70,60,75,,66
-"""Wet Hot American Summer""","""comedy""",2,16,28,8.00,7.47,65,65,,65
 """Bored To Death""","""comedy""",3,24,28,8.00,11.20,65,65,,65
+"""Wet Hot American Summer""","""comedy""",2,16,28,8.00,7.47,65,65,,65
 """Sherlock""","""drama""",4,14,90,3.50,21.00,75,50,,65
 """Frisky Dingo""","""comedy""",2,25,12,12.50,5.00,75,50,,65
 """Bob's Burgers""","""comedy""",8,149,22,18.63,54.63,70,55,,64
