@@ -64,7 +64,7 @@ def export_to_csv(table_name):
     for col_name in col_names:
         columns.append(col_name[0])
 
-    csv_title = "/Users/connordog/Dropbox/Desktop_Files/Work_Things/connor-r.github.io/csvs/%s.csv" % (table_name)
+    csv_title = "/Users/connordog/Dropbox/Desktop_Files/Work_Things/connor-r.github.io/csvs/personal_%s.csv" % (table_name)
     csv_file = open(csv_title, "wb")
     append_csv = csv.writer(csv_file)
     append_csv.writerow(columns)

@@ -38,17 +38,7 @@ csvtotable /Users/connordog/Dropbox/Desktop_Files/Work_Things/connor-r.github.io
 python /Users/connordog/Dropbox/Desktop_Files/Work_Things/connor-r.github.io/Tables/google_analytics_appender.py --file_path "/Users/connordog/Dropbox/Desktop_Files/Work_Things/connor-r.github.io/Tables/tvShows.html"
 
 cd ~/Dropbox/Desktop_Files/Work_Things/connor-r.github.io
-git add Tables/cr_bookmarks.html
-git add csvs/relevant_bookmarks.csv
-git add Tables/books.html
-git add csvs/books.csv
-git add Tables/movies.html
-git add csvs/movies.csv
-git add Tables/podcasts.html
-git add csvs/podcasts.csv
-git add Tables/quotes.html
-git add csvs/quotes.csv
-git add Tables/tvShows.html
-git add csvs/tvShows.csv
+git add Tables/*
+git add csvs/*
 git commit -m "update media ($updateDate)"
 git push

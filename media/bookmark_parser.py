@@ -29,7 +29,7 @@ for sport in ('MLB', 'NHL', 'NBA', 'NFL'):
         categories.append(cat_label)
 
 
-csv_path = '/Users/connordog/Dropbox/Desktop_Files/Work_Things/connor-r.github.io/csvs/relevant_bookmarks.csv'
+csv_path = '/Users/connordog/Dropbox/Desktop_Files/Work_Things/connor-r.github.io/csvs/personal_relevant_bookmarks.csv'
 csv_file = open(csv_path, 'wb')
 append_csv = csv.writer(csv_file)
 csv_header = ['category', 'name', 'tags', 'link']
