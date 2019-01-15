@@ -1,0 +1,68 @@
+podcast_name,genre,peak_grade,consistency_grade,adjustment,overall_grade
+"""30 For 30 Podcasts""","""Sports(Other)""",65,65,,65
+"""31 Thoughts: The Podcast""","""Sports(Hockey)""",70,60,,66
+"""Advanced Football Analytics""","""Sports(Football)""",50,50,,50
+"""Baseball America""","""Sports(Baseball)""",50,20,,38
+"""Bet The Process""","""Sports(Other)""",70,55,,64
+"""Biscuits: A Hockey Podcast""","""Sports(Hockey)""",60,60,,60
+"""Data Skeptic""","""Data Science""",60,45,,54
+"""Defensive Indifference: A 2080 Baseball Podcast""","""Sports(Baseball)""",55,35,,47
+"""Dray Day""","""Sports(Basketball)""",50,55,,52
+"""Driveline Baseball Podcast""","""Sports(Baseball)""",65,65,,65
+"""Dunc'd On Basketball NBA Podcast""","""Sports(Basketball)""",60,35,,50
+"""Effectively Wild: A FanGraphs Baseball Podcast""","""Sports(Baseball)""",60,40,,52
+"""ESPN: Behind The Dish with Keith Law""","""Sports(Baseball)""",50,35,,44
+"""FanGraphs Baseball""","""Sports(Baseball)""",65,60,,63
+"""FanGraphs Fantasy Baseball""","""Sports(Baseball)""",60,40,,52
+"""Freakonomics Radio""","""Economics/Psychology""",65,40,,55
+"""Fringe Average: Baseball Prospectus Podcast""","""Sports(Baseball)""",60,60,,60
+"""Hardwood Homies NBA Draft Podcast""","""Sports(Basketball)""",55,45,,51
+"""Hockey Graphs Podcast""","""Sports(Hockey)""",50,45,,48
+"""Hockey PDOcast""","""Sports(Hockey)""",60,55,,58
+"""Hockey Prospectus Radio""","""Sports(Hockey)""",50,50,,50
+"""Home Court Vantage Podcast""","""Sports(Basketball)""",50,50,,50
+"""IEEE Software's ""On Computing"" with Grady Booch""","""Data Science""",40,60,,48
+"""In Play, Pod(cast)""","""Sports(Baseball)""",50,40,,46
+"""It Seemed Smart""","""Sports(Other)""",65,40,,55
+"""Linear Digressions""","""Data Science""",55,60,,57
+"""Measurables""","""Sports(Other)""",40,45,,42
+"""Mike Detective""","""Comedy""",65,65,,65
+"""MLB Pipeline""","""Sports(Baseball)""",60,45,,54
+"""NFL: Game Theory and Money""","""Sports(Football)""",55,35,,47
+"""Nothing But Nylon""","""Sports(Basketball)""",65,50,,59
+"""Off The Charts Football Podcast""","""Sports(Football)""",50,50,,50
+"""PFF Fantasy Football Podcast with Jeff Ratcliffe""","""Sports(Football)""",40,50,,44
+"""Pitch Talks""","""Sports(Baseball)""",50,55,,52
+"""Pitcher List Fantasy Baseball Podcast""","""Sports(Baseball)""",55,40,,49
+"""Pitching to Contact""","""Sports(Baseball)""",50,50,,50
+"""Programming Throwdown""","""Data Science""",60,50,,56
+"""R U Talkin' R.E.M. RE: ME?""","""Comedy""",55,55,,55
+"""Sharp Football Analysis""","""Sports(Football)""",55,45,,51
+"""Spot Starters""","""Sports(Baseball)""",55,50,,53
+"""Statcast Podcast""","""Sports(Baseball)""",60,60,,60
+"""Stolen Signs""","""Sports(Baseball)""",45,45,,45
+"""The Better Rivals 49ers Podcast""","""Sports(Football)""",45,45,,45
+"""The Daily Fantasy Edge""","""Sports(Other)""",45,45,,45
+"""The Football Analytics Show by The Power Rank""","""Sports(Football)""",60,65,,62
+"""The Full 48""","""Sports(Basketball)""",55,45,,51
+"""The Full 60""","""Sports(Hockey)""",50,55,,52
+"""The GiveMeSport NBA Podcast""","""Sports(Basketball)""",50,50,,50
+"""The Harvard Sports Analytics Podcast""","""Sports(Other)""",40,45,,42
+"""The Lab""","""Sports(Basketball)""",60,55,,58
+"""The Late-Round Podcast""","""Sports(Football)""",65,60,,63
+"""The Lowe Post""","""Sports(Basketball)""",70,60,,66
+"""The Motus Show""","""Sports(Other)""",55,60,,57
+"""The PFF Forecast""","""Sports(Football)""",60,50,,56
+"""The R^2 Podcast""","""Sports(Basketball)""",65,50,,59
+"""The Sports Analytics Department""","""Sports(Other)""",50,50,,50
+"""The Spotrac Podcast""","""Sports(Other)""",45,55,,49
+"""The Stepien NBA Draft Podcast""","""Sports(Basketball)""",60,40,,52
+"""The TSN Hockey Bobcast""","""Sports(Hockey)""",50,30,,42
+"""The Wharton Moneyball Post Game Podcast""","""Sports(Other)""",55,30,,45
+"""The Woj Pod""","""Sports(Basketball)""",45,35,,41
+"""Thinking Basketball""","""Sports(Basketball)""",70,65,,68
+"""TSN Hockey Analytics""","""Sports(Hockey)""",45,60,,51
+"""U Talkin' U2 To Me?""","""Comedy""",55,55,,55
+"""Up And In: The Baseball Prospectus Podcast""","""Sports(Baseball)""",65,65,,65
+"""Upon Further Review""","""Sports(Other)""",65,65,,65
+"""Watch The Game: A Hockey Podcast""","""Sports(Hockey)""",50,50,,50
