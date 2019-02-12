@@ -10,8 +10,8 @@ show_name,genre,estimated_seasons,estimated_episodes,episode_length,episodes_per
 """Silicon Valley""","""comedy""",5,46,28,9.20,21.47,80,50,,68
 """The Greatest Event In Television History""","""comedy""",1,4,22,4.00,1.47,70,60,,66
 """Brooklyn Nine Nine""","""comedy""",5,111,22,22.20,40.70,60,75,,66
-"""Bored To Death""","""comedy""",3,24,28,8.00,11.20,65,65,,65
 """Wet Hot American Summer""","""comedy""",2,16,28,8.00,7.47,65,65,,65
+"""Bored To Death""","""comedy""",3,24,28,8.00,11.20,65,65,,65
 """Sherlock""","""drama""",4,14,90,3.50,21.00,75,50,,65
 """ESPN 30 For 30 OJ-Made In America""","""documentary""",1,5,90,5.00,7.50,65,65,,65
 """Frisky Dingo""","""comedy""",2,25,12,12.50,5.00,75,50,,65
@@ -37,8 +37,8 @@ show_name,genre,estimated_seasons,estimated_episodes,episode_length,episodes_per
 """Archer""","""comedy""",9,101,22,11.22,37.03,70,45,,60
 """The Eric Andre Show""","""comedy""",4,40,11,10.00,7.33,70,40,,58
 """Check It Out With Dr. Steve Brule""","""comedy""",4,20,11,5.00,3.67,70,35,,56
-"""Summer Heights High""","""comedy""",1,8,22,8.00,2.93,60,50,,56
 """Vice Principals""","""comedy""",2,18,30,9.00,9.00,60,50,,56
+"""Summer Heights High""","""comedy""",1,8,22,8.00,2.93,60,50,,56
 """Pitch""","""drama""",1,10,44,10.00,7.33,60,50,,56
 """Ugly Americans""","""comedy""",2,31,22,15.50,11.37,55,55,,55
 """Freaks And Geeks""","""comedy""",1,18,22,18.00,6.60,55,55,,55
