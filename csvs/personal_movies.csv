@@ -112,6 +112,7 @@ movie_name,year,est_year_watched,genre,sub_genre,length,grade,comment
 """Friday Night Lights""",2004,2004,"""drama""","""sports""",118,60,""""""
 """Garden State""",2004,2008,"""comedy""","""drama""",102,50,""""""
 """Gentlemen Broncos""",2009,2010,"""comedy""","""sci-fi""",90,65,""""""
+"""Ghostbusters""",1984,2019,"""fantasy""","""comedy""",105,45,""""""
 """God Bless America""",2011,2013,"""comedy""","""""",105,65,""""""
 """Good Burger""",1997,2011,"""comedy""","""""",95,40,""""""
 """Good Will Hunting""",1997,2007,"""drama""","""""",126,75,""""""
