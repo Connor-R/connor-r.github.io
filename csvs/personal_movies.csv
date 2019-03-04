@@ -111,6 +111,7 @@ movie_name,year,est_year_watched,genre,sub_genre,length,grade,comment
 """Freeloaders""",2012,2013,"""comedy""","""""",77,25,""""""
 """Friday Night Lights""",2004,2004,"""drama""","""sports""",118,60,""""""
 """Garden State""",2004,2008,"""comedy""","""drama""",102,50,""""""
+"""GATTACA""",1997,2019,"""sci-fi""","""drama""",106,60,""""""
 """Gentlemen Broncos""",2009,2010,"""comedy""","""sci-fi""",90,65,""""""
 """Ghostbusters""",1984,2019,"""fantasy""","""comedy""",105,45,""""""
 """God Bless America""",2011,2013,"""comedy""","""""",105,65,""""""
