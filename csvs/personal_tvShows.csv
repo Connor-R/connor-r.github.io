@@ -1,84 +1,85 @@
 show_name,genre,estimated_seasons,estimated_episodes,episode_length,episodes_per_season,approx_runtime_hours,peak_grade,consistency_grade,adjustment,overall_grade
 """Tough Season""","""comedy""",2,25,6,12.50,2.50,80,80,,80
 """Better Off Ted""","""comedy""",2,26,22,13.00,9.53,80,80,,80
-"""Game of Zones""","""comedy""",5,31,5,6.20,2.58,80,70,,76
+"""Game of Zones""","""comedy""",4,31,5,7.75,2.58,80,70,,76
 """Rick And Morty""","""comedy""",3,31,22,10.33,11.37,80,60,,72
 """ESPN 30 For 30""","""documentary""",3,84,75,28.00,105.00,75,60,,69
-"""South Park""","""comedy""",21,287,22,13.67,105.23,75,60,,69
+"""South Park""","""comedy""",22,297,22,13.50,108.90,75,60,,69
 """China, Illinois""","""comedy""",3,30,15,10.00,7.50,75,60,,69
 """Look Around You""","""comedy""",1,15,6,15.00,1.50,80,50,,68
 """Silicon Valley""","""comedy""",5,46,28,9.20,21.47,80,50,,68
 """The Greatest Event In Television History""","""comedy""",1,4,22,4.00,1.47,70,60,,66
 """Brooklyn Nine Nine""","""comedy""",5,111,22,22.20,40.70,60,75,,66
-"""Wet Hot American Summer""","""comedy""",2,16,28,8.00,7.47,65,65,,65
-"""Bored To Death""","""comedy""",3,24,28,8.00,11.20,65,65,,65
-"""Sherlock""","""drama""",4,14,90,3.50,21.00,75,50,,65
 """ESPN 30 For 30 OJ-Made In America""","""documentary""",1,5,90,5.00,7.50,65,65,,65
 """Frisky Dingo""","""comedy""",2,25,12,12.50,5.00,75,50,,65
+"""Bored To Death""","""comedy""",3,24,28,8.00,11.20,65,65,,65
+"""Wet Hot American Summer""","""comedy""",2,16,28,8.00,7.47,65,65,,65
+"""Sherlock""","""drama""",4,14,90,3.50,21.00,75,50,,65
 """Bob's Burgers""","""comedy""",8,149,22,18.63,54.63,70,55,,64
 """Mr. Robot""","""drama""",3,32,44,10.67,23.47,70,55,,64
 """Fleabag""","""comedy""",1,6,25,6.00,2.50,70,55,,64
-"""Children's Hospital""","""comedy""",7,85,11,12.14,15.58,75,45,,63
 """Nathan For You""","""comedy""",4,32,22,8.00,11.73,65,60,,63
 """Mike Tyson Mysteries""","""comedy""",3,30,11,10.00,5.50,65,60,,63
 """The League""","""comedy""",7,84,22,12.00,30.80,75,45,,63
-"""Futurama""","""comedy""",8,132,22,16.50,48.40,60,65,,62
-"""New Girl""","""comedy""",6,138,22,23.00,50.60,60,65,,62
+"""Children's Hospital""","""comedy""",7,85,11,12.14,15.58,75,45,,63
+"""New Girl""","""comedy""",7,146,22,20.86,53.53,60,65,,62
 """BBC Planet Earth""","""documentary""",2,17,48,8.50,13.60,70,50,,62
 """Burning Love""","""comedy""",3,42,12,14.00,8.40,70,50,,62
-"""The Good Place""","""comedy""",2,25,22,12.50,9.17,70,50,,62
+"""The Good Place""","""comedy""",3,37,22,12.33,13.57,70,50,,62
+"""Futurama""","""comedy""",8,132,22,16.50,48.40,60,65,,62
 """Documentary Now""","""comedy""",2,14,22,7.00,5.13,65,55,,61
 """Blunt Talk""","""comedy""",2,20,30,10.00,10.00,65,55,,61
 """Chappelle's Show""","""comedy""",2,26,22,13.00,9.53,65,55,,61
 """Parks And Recreation""","""comedy""",7,121,22,17.29,44.37,65,55,,61
 """30 Rock""","""comedy""",7,135,22,19.29,49.50,60,60,,60
-"""Atlanta""","""comedy""",2,32,22,16.00,11.73,60,60,,60
 """The Boondocks""","""comedy""",4,55,22,13.75,20.17,60,60,,60
+"""Atlanta""","""comedy""",2,32,22,16.00,11.73,60,60,,60
 """Archer""","""comedy""",9,101,22,11.22,37.03,70,45,,60
 """The Eric Andre Show""","""comedy""",4,40,11,10.00,7.33,70,40,,58
 """Check It Out With Dr. Steve Brule""","""comedy""",4,20,11,5.00,3.67,70,35,,56
 """Summer Heights High""","""comedy""",1,8,22,8.00,2.93,60,50,,56
 """Vice Principals""","""comedy""",2,18,30,9.00,9.00,60,50,,56
 """Pitch""","""drama""",1,10,44,10.00,7.33,60,50,,56
-"""Ugly Americans""","""comedy""",2,31,22,15.50,11.37,55,55,,55
+"""Barry""","""comedy""",1,8,30,8.00,4.00,60,50,,56
 """Freaks And Geeks""","""comedy""",1,18,22,18.00,6.60,55,55,,55
+"""Ugly Americans""","""comedy""",2,31,22,15.50,11.37,55,55,,55
 """ESPN 30 For 30 ESPN Films Presents""","""documentary""",1,10,65,10.00,10.83,60,45,,54
 """Important Things""","""comedy""",2,17,22,8.50,6.23,50,60,,54
 """Joe Pera Talks With You""","""comedy""",1,9,11,9.00,1.65,55,50,,53
 """Blue Mountain State""","""comedy""",3,38,22,12.67,13.93,65,35,,53
 """Angry Boys""","""comedy""",1,12,22,12.00,4.40,55,50,,53
-"""The IT Crowd""","""comedy""",4,24,22,6.00,8.80,60,40,,52
 """Kroll Show""","""comedy""",3,30,22,10.00,11.00,60,40,,52
-"""Arrested Development""","""comedy""",4,68,22,17.00,24.93,65,30,,51
+"""The IT Crowd""","""comedy""",4,24,22,6.00,8.80,60,40,,52
+"""Arrested Development""","""comedy""",5,76,22,15.20,27.87,65,30,,51
 """Da Ali G Show""","""comedy""",2,23,22,11.50,8.43,65,30,,51
 """Unbreakable Kimmy Schmidt""","""comedy""",4,45,25,11.25,18.75,45,60,,51
-"""NHL DocumentarySeries""","""documentary""",5,23,45,4.60,17.25,50,50,,50
 """BBC The Blue Planet""","""documentary""",1,8,48,8.00,6.40,60,35,,50
-"""Big Mouth""","""comedy""",1,10,26,10.00,4.33,50,50,,50
+"""Big Mouth""","""comedy""",2,20,26,10.00,8.67,50,50,,50
 """BBC Frozen Planet""","""documentary""",1,7,48,7.00,5.60,60,35,,50
+"""NHL DocumentarySeries""","""documentary""",5,23,45,4.60,17.25,50,50,,50
 """Unsupervised""","""comedy""",1,10,22,10.00,3.67,55,40,,49
 """Wild Wild Country""","""documentary""",1,6,65,6.00,6.50,55,40,,49
 """NTSF SD SUV""","""comedy""",3,37,11,12.33,6.78,55,40,,49
-"""Betas""","""comedy""",1,11,28,11.00,5.13,50,45,,48
 """Trailer Park Boys""","""comedy""",12,105,22,8.75,38.50,60,30,,48
 """Flight of the Conchords""","""comedy""",2,22,25,11.00,9.17,60,30,,48
+"""Betas""","""comedy""",1,11,28,11.00,5.13,50,45,,48
 """Workaholics""","""comedy""",7,86,22,12.29,31.53,45,50,,47
 """Community""","""comedy""",6,110,22,18.33,40.33,55,35,,47
-"""Drunk History""","""comedy""",5,55,22,11.00,20.17,50,40,,46
 """The Increasingly Poor Decisions Of Todd Margaret""","""comedy""",3,18,22,6.00,6.60,50,40,,46
 """Stella""","""comedy""",1,10,22,10.00,3.67,60,25,,46
-"""Aqua Teen Hunger Force""","""comedy""",12,139,11,11.58,25.48,60,25,,46
 """Human Giant""","""comedy""",3,44,22,14.67,16.13,60,25,,46
 """Undeclared""","""comedy""",1,18,22,18.00,6.60,50,40,,46
+"""Aqua Teen Hunger Force""","""comedy""",12,139,11,11.58,25.48,60,25,,46
 """Eastbound and Down""","""comedy""",4,28,28,7.00,13.07,50,40,,46
+"""Drunk History""","""comedy""",5,55,22,11.00,20.17,50,40,,46
 """Man Seeking Woman""","""comedy""",3,30,22,10.00,11.00,45,45,,45
 """Tim And Eric Awesome Show, Great Job!""","""comedy""",5,50,11,10.00,9.17,55,30,,45
 """The Franchise""","""documentary""",1,8,30,8.00,4.00,45,45,,45
-"""ESPN 30 For 30 Soccer Stories""","""documentary""",1,8,35,8.00,4.67,45,40,,43
-"""Master of None""","""comedy""",1,10,27,10.00,4.50,45,40,,43
 """We Can Be Heroes""","""comedy""",1,6,28,6.00,2.80,45,40,,43
 """Louie""","""comedy""",5,61,22,12.20,22.37,45,40,,43
 """BBC Human Planet""","""documentary""",1,8,48,8.00,6.40,55,25,,43
 """Jonah From Tonga""","""comedy""",1,6,22,6.00,2.20,45,40,,43
-"""John Safran Vs. God""","""documentary""",1,8,22,8.00,2.93,40,45,,42
+"""ESPN 30 For 30 Soccer Stories""","""documentary""",1,8,35,8.00,4.67,45,40,,43
+"""Master of None""","""comedy""",1,10,27,10.00,4.50,45,40,,43
 """Entourage""","""drama""",8,96,25,12.00,40.00,50,30,,42
+"""John Safran Vs. God""","""documentary""",1,8,22,8.00,2.93,40,45,,42
