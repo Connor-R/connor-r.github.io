@@ -17,7 +17,6 @@ script = """
 # and also from https://stackoverflow.com/questions/19123245/inserting-into-a-html-file-using-python
 def add_google_analytics(file_path):
 
-
     with open(file_path) as in_file:
         txt = in_file.read()
         soup = bs4.BeautifulSoup(txt,"lxml")
