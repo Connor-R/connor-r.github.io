@@ -267,6 +267,7 @@ movie_name,year,est_year_watched,genre,sub_genre,length,grade,comment
 """Sharknado(5)-Global Swarming""",2017,2018,"""action""","""comedy""",93,45,""""""
 """Shaun of the Dead""",2004,2007,"""comedy""","""""",99,55,""""""
 """Shrek""",2001,2004,"""animated""","""comedy""",90,40,""""""
+"""Shutter Island""",2010,2019,"""mystery""","""thriller""",138,65,""""""
 """Silver Linings Playbook""",2012,2014,"""comedy""","""drama""",122,45,""""""
 """Sister Act""",1992,2003,"""comedy""","""crime""",100,45,""""""
 """Slumdog Millionaire""",2008,2009,"""drama""","""""",120,65,""""""
