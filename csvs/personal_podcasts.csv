@@ -28,10 +28,10 @@ podcast_name,genre,peak_grade,consistency_grade,adjustment,overall_grade
 """Measurables""","""Sports(Other)""",40,45,,42
 """Mike Detective""","""Comedy""",65,65,,65
 """MLB Pipeline""","""Sports(Baseball)""",60,45,,54
+"""MnM Hockey Podcast""","""Sports(Hockey)""",65,70,,67
 """NFL: Game Theory and Money""","""Sports(Football)""",55,35,,47
 """Nothing But Nylon""","""Sports(Basketball)""",65,50,,59
 """Off The Charts Football Podcast""","""Sports(Football)""",50,50,,50
-"""PFF Fantasy Football Podcast with Jeff Ratcliffe""","""Sports(Football)""",40,50,,44
 """Pitch Talks""","""Sports(Baseball)""",50,55,,52
 """Pitcher List Fantasy Baseball Podcast""","""Sports(Baseball)""",55,40,,49
 """Pitching to Contact""","""Sports(Baseball)""",50,50,,50
@@ -46,7 +46,6 @@ podcast_name,genre,peak_grade,consistency_grade,adjustment,overall_grade
 """The Football Analytics Show by The Power Rank""","""Sports(Football)""",60,65,,62
 """The Full 48""","""Sports(Basketball)""",55,45,,51
 """The Full 60""","""Sports(Hockey)""",50,55,,52
-"""The GiveMeSport NBA Podcast""","""Sports(Basketball)""",50,50,,50
 """The Harvard Sports Analytics Podcast""","""Sports(Other)""",40,45,,42
 """The Lab""","""Sports(Basketball)""",60,55,,58
 """The Late-Round Podcast""","""Sports(Football)""",65,60,,63
@@ -56,7 +55,6 @@ podcast_name,genre,peak_grade,consistency_grade,adjustment,overall_grade
 """The R^2 Podcast""","""Sports(Basketball)""",65,50,,59
 """The Sports Analytics Department""","""Sports(Other)""",50,50,,50
 """The Spotrac Podcast""","""Sports(Other)""",45,55,,49
-"""The Stepien NBA Draft Podcast""","""Sports(Basketball)""",60,40,,52
 """The TSN Hockey Bobcast""","""Sports(Hockey)""",50,30,,42
 """The Wharton Moneyball Post Game Podcast""","""Sports(Other)""",55,30,,45
 """The Woj Pod""","""Sports(Basketball)""",45,35,,41
@@ -66,3 +64,4 @@ podcast_name,genre,peak_grade,consistency_grade,adjustment,overall_grade
 """Up And In: The Baseball Prospectus Podcast""","""Sports(Baseball)""",65,65,,65
 """Upon Further Review""","""Sports(Other)""",65,65,,65
 """Watch The Game: A Hockey Podcast""","""Sports(Hockey)""",50,50,,50
+"""What Would Sashi Do? A Football Podcast""","""Sports(Football)""",55,60,,57
