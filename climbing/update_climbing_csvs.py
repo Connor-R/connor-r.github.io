@@ -39,7 +39,13 @@ def process_completed():
         row.append(upd)
         for i, val in enumerate(row):
             if type(val) in (str,unicode):
-                row[i] = '"' + "".join([l if ord(l) < 128 else "" for l in val]).replace("<o>","").replace("<P>","").replace("\n","  ") + '"'
+                if ("\t" in val):
+                    print val
+                row[i] = '"' + "".join([l if ord(l) < 128 else "" for l in val]).replace("<o>","").replace("<P>","").replace("\n","<>line break<>")+ '"'
+                if i == 16:
+                    print row[i]
+                    print 
+
         append_csv.writerow(row)
         
 
@@ -66,7 +72,7 @@ def process_tried():
         row = list(row)
         for i, val in enumerate(row):
             if type(val) in (str,unicode):
-                row[i] = '"' + "".join([l if ord(l) < 128 else "" for l in val]).replace("<o>","").replace("<P>","").replace("\n","  ") + '"'
+                row[i] = '"' + "".join([l if ord(l) < 128 else "" for l in val]).replace("<o>","").replace("<P>","").replace("\n"," --line break-- ") + '"'
         append_csv.writerow(row)
 
 
