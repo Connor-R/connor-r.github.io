@@ -2,15 +2,17 @@ podcast_name,genre,peak_grade,consistency_grade,adjustment,overall_grade
 """30 For 30 Podcasts""","""Sports(Other)""",65,65,,65
 """31 Thoughts: The Podcast""","""Sports(Hockey)""",65,50,,59
 """Advanced Football Analytics""","""Sports(Football)""",50,50,,50
+"""Against the Rules with Michael Leiws""","""Sports(Other)""",,,,0
 """Ahead Of Their Time""","""Sports(Other)""",65,60,,63
+"""Bauer Bytes""","""Sports(Baseball)""",,,,0
 """Bet The Process""","""Sports(Other)""",70,55,,64
 """Biscuits: A Hockey Podcast""","""Sports(Hockey)""",55,50,,53
 """Data Skeptic""","""Data Science""",60,45,,54
 """Defensive Indifference: A 2080 Baseball Podcast""","""Sports(Baseball)""",55,35,,47
 """Dray Day""","""Sports(Basketball)""",50,55,,52
 """Driveline Baseball Podcast""","""Sports(Baseball)""",65,65,,65
-"""Dunc'd On Basketball NBA Podcast""","""Sports(Basketball)""",60,35,,50
-"""Effectively Wild: A FanGraphs Baseball Podcast""","""Sports(Baseball)""",55,55,,55
+"""Dunc'd On Basketball NBA Podcast""","""Sports(Basketball)""",60,50,,56
+"""Effectively Wild: A FanGraphs Baseball Podcast""","""Sports(Baseball)""",70,45,,60
 """ESPN: Behind The Dish with Keith Law""","""Sports(Baseball)""",50,35,,44
 """FanGraphs Baseball""","""Sports(Baseball)""",65,60,,63
 """FanGraphs Fantasy Baseball""","""Sports(Baseball)""",65,40,,55
@@ -18,7 +20,6 @@ podcast_name,genre,peak_grade,consistency_grade,adjustment,overall_grade
 """Fringe Average: Baseball Prospectus Podcast""","""Sports(Baseball)""",60,60,,60
 """Hockey Graphs Podcast""","""Sports(Hockey)""",50,45,,48
 """Hockey PDOcast""","""Sports(Hockey)""",65,60,,63
-"""Hockey Prospectus Radio""","""Sports(Hockey)""",50,50,,50
 """Home Court Vantage Podcast""","""Sports(Basketball)""",50,50,,50
 """IEEE Software's ""On Computing"" with Grady Booch""","""Data Science""",40,60,,48
 """In Play, Pod(cast)""","""Sports(Baseball)""",50,40,,46
@@ -28,23 +29,26 @@ podcast_name,genre,peak_grade,consistency_grade,adjustment,overall_grade
 """Mike Detective""","""Comedy""",65,65,,65
 """MLB Pipeline""","""Sports(Baseball)""",55,35,,47
 """MnM Hockey Podcast""","""Sports(Hockey)""",65,70,,67
-"""NFL: Game Theory and Money""","""Sports(Football)""",45,35,,41
 """Nothing But Nylon""","""Sports(Basketball)""",65,50,,59
 """Off The Charts Football Podcast""","""Sports(Football)""",50,50,,50
 """Pitch Talks""","""Sports(Baseball)""",50,55,,52
 """Pitcher List Fantasy Baseball Podcast""","""Sports(Baseball)""",55,40,,49
 """Pitching to Contact""","""Sports(Baseball)""",50,50,,50
+"""Pro Football Doc Podcast""","""Sports(Football)""",60,40,,52
 """Programming Throwdown""","""Data Science""",60,50,,56
+"""Puck Pursuit""","""Sports(Hockey)""",50,50,,50
 """R U Talkin' R.E.M. RE: ME?""","""Comedy""",55,55,,55
 """Sharp Football Analysis""","""Sports(Football)""",55,45,,51
 """Spot Starters""","""Sports(Baseball)""",55,50,,53
 """Statcast Podcast""","""Sports(Baseball)""",60,60,,60
+"""StatsBomb""","""Sports(Other)""",55,55,,55
 """Stolen Signs""","""Sports(Baseball)""",45,45,,45
 """The Better Rivals 49ers Podcast""","""Sports(Football)""",45,45,,45
 """The Daily Fantasy Edge""","""Sports(Other)""",45,45,,45
 """The Football Analytics Show by The Power Rank""","""Sports(Football)""",60,65,,62
 """The Full 48""","""Sports(Basketball)""",55,50,,53
 """The Full 60""","""Sports(Hockey)""",50,55,,52
+"""The Habershow""","""Sports(Basketball)""",,,,0
 """The Harvard Sports Analytics Podcast""","""Sports(Other)""",40,45,,42
 """The Lab""","""Sports(Basketball)""",60,55,,58
 """The Late-Round Podcast""","""Sports(Football)""",65,65,,65
@@ -54,6 +58,7 @@ podcast_name,genre,peak_grade,consistency_grade,adjustment,overall_grade
 """The R^2 Podcast""","""Sports(Basketball)""",65,50,,59
 """The Sports Analytics Department""","""Sports(Other)""",50,50,,50
 """The Spotrac Podcast""","""Sports(Other)""",45,55,,49
+"""The Taekcast: A (mostly) Sports Podcast""","""Sports(Other)""",60,40,,52
 """The TSN Hockey Bobcast""","""Sports(Hockey)""",50,40,,46
 """The Wharton Moneyball Post Game Podcast""","""Sports(Other)""",55,30,,45
 """The Woj Pod""","""Sports(Basketball)""",45,35,,41
