@@ -2,7 +2,7 @@ podcast_name,genre,peak_grade,consistency_grade,adjustment,overall_grade
 """30 For 30 Podcasts""","""Sports(Other)""",65,65,,65
 """31 Thoughts: The Podcast""","""Sports(Hockey)""",65,50,,59
 """Advanced Football Analytics""","""Sports(Football)""",50,50,,50
-"""Against the Rules with Michael Leiws""","""Sports(Other)""",,,,0
+"""Against the Rules with Michael Leiws""","""Economics/Psychology""",,,,0
 """Ahead Of Their Time""","""Sports(Other)""",65,60,,63
 """Bauer Bytes""","""Sports(Baseball)""",,,,0
 """Bet The Process""","""Sports(Other)""",70,55,,64
