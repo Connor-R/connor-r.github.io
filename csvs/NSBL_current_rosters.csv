@@ -113,7 +113,7 @@ Ariel Jurado,WAS,p,0.750,2nd,0,,,N
 Ariel Pena,WAS,p,0.500,XXX,0,,,N
 Aristides Aquino,TEX,of,0.500,XXX,0,,,N
 Arodys Vizcaino,PIT,p,6.527,CE,2020,,Y,Y
-Aroldis Chapman,TAM,p,12.222,V,2021,Y,Y,Y
+Aroldis Chapman,TAM,p,11.000,V,2021,Y,Y,Y
 Asdrual Cabrera,DET,if,4.000,V,2019,,,Y
 Ashe Russell,NYA,p,0.500,XXX,0,,,N
 Austin Barnes,TEX,c,1.529,4th,0,,,Y
@@ -224,7 +224,7 @@ Bryan Reynolds,BAL,of,0.500,XXX,0,,,N
 Bryan Shaw,DET,p,4.750,V,2020,,,Y
 Bryce Brentz,BOS,of,0.750,2nd,0,,,N
 Bryce Harper,TAM,of,23.848,CE,2019,,,Y
-Bryse Wilson,ARI,p,0.500,XXX,0,,,N
+Bryse Wilson,ARI,p,0.500,XXX,0,,,Y
 Bubba Starling,BOS,of,0.500,XXX,0,,,N
 Bubba Thompson,KC,of,0.500,XXX,0,,,N
 Bud Norris,ATL,p,1.500,V,2019,,,Y
@@ -529,7 +529,7 @@ Francisco Cervelli,TAM,c,5.500,V,2020,Y,Y,Y
 Francisco Lindor,COL,if,3.957,4th,0,,,Y
 Francisco Mejia,ARI,c,0.500,XXX,0,,,N
 Francisco Morales,KC,p,0.500,XXX,0,,,N
-Francisco Rios,CHC,p,0.500,XXX,0,,,Y
+Francisco Rios,CHC,p,0.500,XXX,0,,,N
 Frankie Montas,NYM,p,0.925,2nd,0,,,N
 Franklin Barreto,MIN,if,0.500,XXX,0,,,Y
 Franklin Perez,CHC,p,0.500,XXX,0,,,N
@@ -624,7 +624,6 @@ J.B. Bukauskas,CHA,p,0.500,XXX,0,,,N
 J.B. Wendelken,TOR,p,5.300,V,2020,,Y,Y
 J.D. Davis,ATL,if,0.500,XXX,0,,,N
 J.D. Martinez,WAS,of,17.291,CE,2019,,,Y
-J.J. Schwarz,CHC,c,0.500,XXX,0,,,N
 J.P. Crawford,DET,if,0.500,XXX,0,,,Y
 J.R. Murphy,MIN,c,0.750,2nd,0,,,Y
 J.T. Ginn,DET,p,0.500,XXX,0,,,N
@@ -807,7 +806,7 @@ Jose Devers,TOR,if,0.500,XXX,0,,,N
 Jose Iglesias,PHI,if,4.739,5th,0,,,Y
 Jose LeClerc,WAS,p,8.750,V,2021,Y,Y,Y
 Jose Martinez,OAK,if,9.500,V,2020,,Y,Y
-Jose Osuna,TAM,if,1.000,MLI,2019,,,N
+Jose Osuna,TAM,if,1.000,MLI,2019,,,Y
 Jose Peraza,TEX,if,0.650,2nd,0,,,Y
 Jose Pirela,STL,of,1.500,V,2020,,Y,Y
 Jose Pujols,STL,of,0.500,XXX,0,,,N
@@ -961,6 +960,7 @@ Logan Morrison,BAL,if,19.000,V,2019,,,Y
 Logan Shore,MIL,p,0.500,XXX,0,,,N
 Logan Warmoth,DET,if,0.500,XXX,0,,,N
 Lolo Sanchez,NYM,of,0.500,XXX,0,,,N
+Lonnie Chisenhall,COL,of,1.000,V,2019,,,Y
 Lorenzo Cain,BOS,of,28.000,V,2021,N,Y,Y
 Lou Trivino,TAM,p,5.750,V,2021,Y,Y,Y
 Lourdes Gurriel,PIT,if,0.500,XXX,0,,Y,N
@@ -1003,7 +1003,7 @@ Manuel Margot,DET,of,1.050,2nd,0,,,Y
 Marc Rzepcynski,CLE,p,1.500,V,2019,,,Y
 Marcell Ozuna,PIT,of,3.917,5th,0,,,Y
 Marco Estrada,DET,p,17.500,V,2019,Y,,Y
-Marco Gonzales,DET,p,0.900,2nd,0,,,N
+Marco Gonzales,DET,p,0.900,2nd,0,,,Y
 Marcos Diplan,TAM,p,0.500,XXX,0,,,N
 Marcus Semien,MIN,if,3.801,6th,0,,,Y
 Marcus Stroman,CHA,p,11.056,CE,2020,,,Y
@@ -1070,7 +1070,6 @@ Michael A. Taylor,OAK,of,0.650,2nd,0,,,Y
 Michael Brantley,CIN,of,12.765,V,2020,,,Y
 Michael Chavis,TEX,if,0.500,XXX,0,,,N
 Michael Choice,LAA,of,1.300,3rd,0,,,N
-Michael Clevinger,LAN,p,0.650,2nd,0,,,Y
 Michael Conforto,CHA,of,4.455,4th,0,,,Y
 Michael Feliz,ARI,p,1.050,2nd,0,,,N
 Michael Fiers,DET,p,4.385,6th,0,,,Y
@@ -1100,6 +1099,7 @@ Miguel Sano,CHA,if,4.071,4th,0,,,Y
 Miguel Socolovich,STL,p,2.500,V,2019,Y,Y,Y
 Miguel Vargas,BOS,if,0.500,XXX,0,,Y,N
 Miguelangel Sierra,CLE,if,0.500,XXX,0,,,N
+Mike Clevinger,LAN,p,0.650,2nd,0,,,Y
 Mike Foltynewicz,SEA,p,0.500,XXX,0,,,Y
 Mike Ford,CLE,if,4.002,V,2020,,,Y
 Mike Leake,TOR,p,5.850,V,2019,,,Y
@@ -1181,6 +1181,7 @@ Oliver Perez,CHA,p,4.000,V,2020,,Y,Y
 Omar Narvaez,SF,c,1.010,V,2019,,,Y
 Oneil Cruz,ARI,if,0.500,XXX,0,,,N
 Orlando Arcia,KC,if,0.750,2nd,0,,,Y
+Orlando Calixte,CHC,if,1.000,V,2019,,,Y
 Oscar de la Cruz,PIT,p,0.500,XXX,0,,,N
 Oscar Mercado,STL,of,0.500,XXX,0,,,N
 Owen White,OAK,p,0.500,XXX,0,,,N
