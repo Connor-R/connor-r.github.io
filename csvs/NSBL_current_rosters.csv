@@ -76,7 +76,7 @@ Anderson Franco,KC,if,0.500,XXX,0,,,N
 Anderson Tejeda,MIN,if,0.500,XXX,0,,,N
 Andrelton Simmons,SD,if,9.383,CE,2019,,,Y
 Andres Gimenez,CHA,if,0.500,XXX,0,,,N
-Andrew Benintendi,COL,of,1.050,2nd,0,,,N
+Andrew Benintendi,COL,of,1.050,2nd,0,,,Y
 Andrew Cashner,KC,p,13.750,V,2019,,,Y
 Andrew Chafin,PIT,p,2.036,4th,0,,,Y
 Andrew Heaney,MIL,p,1.365,3rd,0,,,N
@@ -138,6 +138,7 @@ Ben Bowden,ATL,p,0.500,XXX,0,,,N
 Ben Gamel,MIN,of,3.500,V,2020,,Y,Y
 Ben Heller,SF,p,1.500,V,2019,Y,Y,Y
 Ben Lively,STL,p,0.500,XXX,0,,,N
+Ben Revere,BOS,of,1.000,V,2019,,,Y
 Ben Zobrist,CIN,of,10.000,V,2019,,,Y
 Billy Hamilton,ARI,of,6.169,CE,2019,,,Y
 Billy McKinney,PHI,of,0.500,XXX,0,,,N
@@ -211,7 +212,7 @@ Brian McCann,BAL,c,9.000,V,2019,,,Y
 Brian Moran,BAL,p,1.000,V,2019,,,Y
 Brice Turang,OAK,if,0.500,XXX,0,,,N
 Brock Burke,ARI,p,0.500,XXX,0,,Y,N
-Brock Dykxhoorn,MIL,p,0.500,XXX,0,,,N
+Brock Dykxhoorn,MIL,p,0.500,XXX,0,,,Y
 Brock Holt,WAS,if,4.807,V,2019,,,Y
 Brock Stassi,MIN,if,2.500,V,2020,Y,,Y
 Brock Stewart,CHC,p,0.500,1st,0,,,Y
@@ -636,7 +637,7 @@ Jackie Bradley Jr.,NYM,of,10.731,CE,2021,,Y,Y
 Jackson Kowar,TOR,p,0.500,XXX,0,,,N
 Jacob Barnes,NYA,p,3.042,V,2020,Y,,Y
 Jacob deGrom,SD,p,3.639,5th,0,,,Y
-Jacob Faria,COL,p,0.845,3rd,0,,,Y
+Jacob Faria,COL,p,0.845,3rd,0,,,N
 Jacob Gatewood,STL,if,0.500,XXX,0,,,N
 Jacob Gonzalez,MIL,if,0.500,XXX,0,,,N
 Jacob Lindgren,KC,p,0.500,1st,0,,,N
@@ -658,7 +659,7 @@ Jake Burger,NYM,if,0.500,XXX,0,,,N
 Jake Cave,PHI,of,1.500,V,2020,Y,Y,Y
 Jake Diekman,PHI,p,5.000,V,2019,,,Y
 Jake Eder,CLE,p,0.500,XXX,0,,,N
-Jake Junis,MIA,p,0.500,XXX,0,,,N
+Jake Junis,MIA,p,0.500,XXX,0,,,Y
 Jake Lamb,LAN,if,0.845,3rd,0,,,Y
 Jake Marisnick,BOS,of,0.500,1st,0,,,Y
 Jake McCarthy,STL,of,0.500,XXX,0,,Y,N
@@ -800,7 +801,7 @@ Jose Alvarez,CHA,p,1.750,V,2019,Y,,Y
 Jose Bautista,NYM,of,1.000,V,2019,,,Y
 Jose Berrios,CHA,p,0.650,2nd,0,,,Y
 Jose Campos,COL,p,0.500,XXX,0,,,N
-Jose Castillo,COL,p,0.500,XXX,0,,Y,N
+Jose Castillo,COL,p,0.500,XXX,0,,Y,Y
 Jose de Leon,TAM,p,0.500,XXX,0,,,N
 Jose Devers,TOR,if,0.500,XXX,0,,,N
 Jose Iglesias,PHI,if,4.739,5th,0,,,Y
@@ -823,6 +824,7 @@ Josh Bell,ARI,if,4.268,4th,0,,,Y
 Josh Donaldson,ARI,if,29.600,V,2020,,,Y
 Josh Fuentes,HOU,if,2.400,V,2023,Y,Y,Y
 Josh Hader,LAA,p,0.975,3rd,0,,,Y
+Josh Harrison,BOS,if,1.000,V,2019,,,Y
 Josh Hart,ATL,of,0.500,XXX,0,,,N
 Josh James,CIN,p,0.500,XXX,0,,,Y
 Josh Morgan,ARI,if,0.500,XXX,0,,,N
@@ -972,7 +974,7 @@ Lucius Fox,ARI,if,0.500,XXX,0,,,N
 Luis (05/16/00) Garcia,KC,if,0.500,XXX,0,,,N
 Luis Alejandro Basabe,HOU,if,0.500,XXX,0,,,N
 Luis Alexander Basabe,COL,of,0.500,XXX,0,,,N
-Luis Castillo,COL,p,0.650,2nd,0,,,Y
+Luis Castillo,COL,p,0.650,2nd,0,,,N
 Luis Garcia,CLE,if,0.500,XXX,0,,Y,N
 Luis Garcia,CLE,p,1.750,V,2019,Y,,Y
 Luis Medina,KC,p,0.500,XXX,0,,,N
@@ -1036,6 +1038,7 @@ Matt Davidson,LAA,if,0.650,2nd,0,,,N
 Matt Grace,MIN,p,1.350,V,2019,,,Y
 Matt Hall,PIT,p,0.500,XXX,0,,,N
 Matt Harvey,ATL,p,3.000,V,2020,Y,,Y
+Matt Holliday,BOS,of,1.000,V,2019,,,Y
 Matt Kemp,DET,of,12.000,V,2020,,Y,Y
 Matt Krook,BAL,p,0.500,XXX,0,,,N
 Matt M. Duffy,MIA,if,2.375,4th,0,,,Y
@@ -1133,7 +1136,6 @@ Nate Orf,PHI,if,0.650,2nd,0,,,Y
 Nate Pearson,TOR,p,0.500,XXX,0,,,N
 Nathan Eovaldi,CIN,p,8.000,V,2021,Y,,Y
 Nathaniel Lowe,PIT,if,0.500,XXX,0,,,N
-Neil Ramirez,TAM,p,0.845,3rd,0,,,N
 Neil Walker,KC,if,12.000,V,2020,,,Y
 Nelson Cruz,WAS,of,19.000,V,2019,Y,,Y
 Nicholas Castellanos,PHI,of,6.065,5th,0,,,Y
@@ -1154,7 +1156,7 @@ Nick Lodolo,TOR,p,0.500,XXX,0,,,N
 Nick Longhi,DET,of,0.500,XXX,0,,,N
 Nick Madrigal,COL,if,0.500,XXX,0,,,N
 Nick Markakis,SD,of,4.000,V,2020,,Y,Y
-Nick Martini,KC,of,1.000,MLI,2019,,,N
+Nick Martini,KC,of,1.000,MLI,2019,,,Y
 Nick Neidert,LAN,p,0.500,XXX,0,,,N
 Nick Pivetta,TAM,p,0.500,XXX,0,,,N
 Nick Plummer,OAK,of,0.500,XXX,0,,,N
@@ -1223,6 +1225,7 @@ Randall Delgado,BOS,p,5.424,5th,0,,,Y
 Rangel Ravelo,MIL,if,1.505,V,2019,Y,,Y
 Raul Alcantara,WAS,p,0.650,2nd,0,,,N
 Ray Black,TAM,p,2.500,V,2020,Y,Y,Y
+Raynel Espinal,TAM,p,1.000,V,2019,,,Y
 Reese McGuire,NYM,c,0.500,XXX,0,,,N
 Reggie Lawson,TOR,p,0.500,XXX,0,,,N
 Renato Nunez,ARI,if,0.500,XXX,0,,,N
@@ -1512,6 +1515,7 @@ Yadier Molina,BOS,c,3.000,V,2019,,,Y
 Yairo Munoz,SEA,if,0.500,XXX,0,,,Y
 Yan Gomes,PHI,c,3.434,6th,0,,,Y
 Yandy Diaz,MIA,if,0.750,2nd,0,,,Y
+Yangervis Solarte,BOS,if,1.000,V,2019,,,Y
 Yasel Antuna,CIN,if,0.500,XXX,0,,,N
 Yasiel Puig,SD,of,12.596,CE,2020,,,Y
 Yasmani Grandal,WAS,c,5.106,CE,2019,,,Y
