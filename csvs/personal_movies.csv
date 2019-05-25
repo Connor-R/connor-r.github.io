@@ -34,6 +34,7 @@ movie_name,year,est_year_watched,genre,sub_genre,length,grade,comment
 """BASEketball""",1998,2005,"""comedy""","""sports""",103,70,""""""
 """Baywatch""",2017,2018,"""comedy""","""action""",116,35,""""""
 """Beerfest""",2006,2009,"""comedy""","""""",110,55,""""""
+"""Behind The Curve""",2018,2019,"""documentary""","""""",96,50,""""""
 """Being John Malkovich""",1999,2013,"""drama""","""comedy""",112,45,""""""
 """Better Off Dead""",1985,2007,"""comedy""","""""",97,65,""""""
 """Big Daddy""",1999,2004,"""comedy""","""""",93,45,""""""
