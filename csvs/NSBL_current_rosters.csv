@@ -70,7 +70,7 @@ Alex Verdugo,TEX,of,0.500,XXX,0,,,N
 Alex Wood,COL,p,11.614,CE,2020,,,Y
 Alexander Canario,CHA,of,0.500,XXX,0,,Y,N
 Amed Rosario,OAK,if,0.500,XXX,0,,,N
-Amir Garrett,TEX,p,0.500,XXX,0,,,N
+Amir Garrett,TEX,p,0.500,XXX,0,,,Y
 Anderson Espinoza,SF,p,0.500,XXX,0,,,N
 Anderson Franco,KC,if,0.500,XXX,0,,,N
 Anderson Tejeda,MIN,if,0.500,XXX,0,,,N
@@ -114,7 +114,7 @@ Ariel Pena,WAS,p,0.500,XXX,0,,,N
 Aristides Aquino,TEX,of,0.500,XXX,0,,,N
 Arodys Vizcaino,PIT,p,6.527,CE,2020,,Y,Y
 Aroldis Chapman,TAM,p,11.000,V,2021,Y,Y,Y
-Asdrual Cabrera,DET,if,4.000,V,2019,,,Y
+Asdrubal Cabrera,DET,if,4.000,V,2019,,,Y
 Ashe Russell,NYA,p,0.500,XXX,0,,,N
 Austin Barnes,TEX,c,1.529,4th,0,,,Y
 Austin Beck,PIT,of,0.500,XXX,0,,,N
@@ -197,7 +197,7 @@ Brett Cumberland,TAM,c,0.500,XXX,0,,,N
 Brett Gardner,SD,of,10.556,V,2020,,,Y
 Brett Graves,PHI,p,0.500,XXX,0,,,N
 Brett Lawrie,OAK,if,3.500,V,2019,Y,,Y
-Brett Martin,CHA,p,0.500,XXX,0,,,N
+Brett Martin,CHA,p,0.500,XXX,0,,,Y
 Brett Nicholas,MIL,c,1.002,V,2019,,,Y
 Brett Oberholtzer,PHI,p,0.845,3rd,0,,,N
 Brett Phillips,MIL,of,0.500,1st,0,,,Y
@@ -256,7 +256,7 @@ Carlos Santana,CHA,if,4.878,V,2020,Y,Y,Y
 Carlos Tocci,MIA,of,0.500,XXX,0,,,N
 Carlos Vargas,TAM,p,0.500,XXX,0,,Y,N
 Carson Fulmer,CHC,p,0.500,XXX,0,,,Y
-Carson Kelly,BOS,c,0.500,XXX,0,,,N
+Carson Kelly,BOS,c,0.500,XXX,0,,,Y
 Carson Sands,WAS,p,0.500,XXX,0,,,N
 Carson Smith,MIA,p,2.259,4th,0,,,Y
 Carter Kieboom,CHC,if,0.500,XXX,0,,,N
@@ -413,7 +413,7 @@ Daz Cameron,TOR,of,0.500,XXX,0,,,N
 Deck McGuire,LAA,p,0.650,2nd,0,,,N
 Dee Gordon,BOS,of,8.250,V,2020,,Y,Y
 Deivi Garcia,SF,p,0.500,XXX,0,,,N
-Delino DeShields Jr,ATL,of,3.008,5th,0,,,Y
+Delino DeShields,ATL,of,3.008,5th,0,,,Y
 Dellin Betances,MIA,p,5.915,5th,0,,,Y
 Delvin Perez,ARI,if,0.500,XXX,0,,,N
 Demi Orimoloye,MIL,of,0.500,XXX,0,,,N
@@ -626,7 +626,6 @@ J.B. Wendelken,TOR,p,5.300,V,2020,,Y,Y
 J.D. Davis,ATL,if,0.500,XXX,0,,,N
 J.D. Martinez,WAS,of,17.291,CE,2019,,,Y
 J.P. Crawford,DET,if,0.500,XXX,0,,,Y
-J.R. Murphy,MIN,c,0.750,2nd,0,,,Y
 J.T. Ginn,DET,p,0.500,XXX,0,,,N
 J.T. Realmuto,ARI,c,1.529,4th,0,,,Y
 Jabari Blash,CHA,of,1.000,MLI,2019,,,N
@@ -649,7 +648,7 @@ Jacob Turner,LAA,p,0.500,XXX,0,,,N
 Jacoby Ellsbury,WAS,of,1.350,V,2019,,Y,Y
 JaCoby Jones,CIN,of,0.500,XXX,0,,,Y
 Jahmai Jones,NYM,of,0.500,XXX,0,,,N
-Jaime Barria,BOS,p,0.500,XXX,0,,,N
+Jaime Barria,BOS,p,0.500,XXX,0,,,Y
 Jaime Schultz,LAA,p,0.500,XXX,0,,,N
 Jairo Solis,OAK,p,0.500,XXX,0,,,N
 Jake Arrieta,OAK,p,5.353,5th,0,,,Y
@@ -758,6 +757,7 @@ John Gant,MIN,p,0.650,2nd,0,,,Y
 John Hicks,DET,c,1.750,V,2019,,,Y
 John Lackey,NYA,p,8.500,V,2019,,,Y
 John Nogowski,LAN,if,1.850,V,2019,Y,Y,Y
+John Ryan Murphy,MIN,c,0.750,2nd,0,,,Y
 Johnny Cueto,NYA,p,32.000,V,2020,,,Y
 Johnny Giavotella,NYA,if,1.501,V,2019,Y,,Y
 JoJo Romero,COL,p,0.500,XXX,0,,,N
@@ -822,6 +822,7 @@ Jose Urena,SF,p,0.500,XXX,0,,,Y
 Jose Vinicio,STL,if,0.500,XXX,0,,,N
 Josh Bell,ARI,if,4.268,4th,0,,,Y
 Josh Donaldson,ARI,if,29.600,V,2020,,,Y
+Josh Fields,SEA,p,2.876,5th,0,,,Y
 Josh Fuentes,HOU,if,2.400,V,2023,Y,Y,Y
 Josh Hader,LAA,p,0.975,3rd,0,,,Y
 Josh Harrison,BOS,if,1.000,V,2019,,,Y
@@ -836,7 +837,6 @@ Josh Sborz,MIL,p,0.500,XXX,0,,,N
 Josh Smoker,LAN,p,1.876,V,2019,,,Y
 Josh Staumont,NYM,p,0.500,XXX,0,,,Y
 Josh Tomlin,CIN,p,3.700,V,2019,Y,,Y
-Joshua Fields,SEA,p,2.876,5th,0,,,Y
 Joshua Lowe,NYM,of,0.500,XXX,0,,,N
 JT Chargois,CHA,p,1.000,MLI,2019,,,N
 JT Riddle,CLE,if,2.510,V,2021,Y,Y,Y
@@ -898,7 +898,7 @@ Kevin Gowdy,BAL,p,0.500,XXX,0,,,N
 Kevin Kiermaier,TAM,of,11.018,CE,2021,,Y,Y
 Kevin Kramer,MIA,if,0.500,XXX,0,,,N
 Kevin Maitan,PHI,if,0.500,XXX,0,,,N
-Kevin Newman,MIL,if,0.500,XXX,0,,,N
+Kevin Newman,MIL,if,0.500,XXX,0,,,Y
 Kevin Padlo,PIT,if,0.500,XXX,0,,,N
 Kevin Pillar,TOR,of,13.431,V,2020,Y,,Y
 Kevin Plawecki,COL,c,0.845,3rd,0,,,Y
@@ -959,11 +959,11 @@ Logan Allen,MIA,p,0.500,XXX,0,,,N
 Logan Forsythe,ARI,if,1.750,V,2020,Y,Y,Y
 Logan Gilbert,LAN,p,0.500,XXX,0,,,N
 Logan Morrison,BAL,if,19.000,V,2019,,,Y
-Logan Shore,MIL,p,0.500,XXX,0,,,N
+Logan Shore,MIL,p,0.500,XXX,0,,,Y
 Logan Warmoth,DET,if,0.500,XXX,0,,,N
 Lolo Sanchez,NYM,of,0.500,XXX,0,,,N
 Lonnie Chisenhall,COL,of,1.000,V,2019,,,Y
-Lorenzo Cain,BOS,of,28.000,V,2021,N,Y,Y
+Lorenzo Cain,BOS,of,28.000,V,2021,,Y,Y
 Lou Trivino,TAM,p,5.750,V,2021,Y,Y,Y
 Lourdes Gurriel,PIT,if,0.500,XXX,0,,Y,N
 Lucas Duda,CLE,if,18.000,V,2019,,,Y
@@ -974,6 +974,7 @@ Lucius Fox,ARI,if,0.500,XXX,0,,,N
 Luis (05/16/00) Garcia,KC,if,0.500,XXX,0,,,N
 Luis Alejandro Basabe,HOU,if,0.500,XXX,0,,,N
 Luis Alexander Basabe,COL,of,0.500,XXX,0,,,N
+Luis Avilan,LAN,p,2.660,V,2019,Y,Y,Y
 Luis Castillo,COL,p,0.650,2nd,0,,,N
 Luis Garcia,CLE,if,0.500,XXX,0,,Y,N
 Luis Garcia,CLE,p,1.750,V,2019,Y,,Y
@@ -1002,7 +1003,7 @@ Manny Machado,COL,if,13.994,CE,2019,,,Y
 Manny Pina,PHI,c,1.500,V,2018,Y,,Y
 Manuel Banuelos,SD,p,0.845,3rd,0,,,N
 Manuel Margot,DET,of,1.050,2nd,0,,,Y
-Marc Rzepcynski,CLE,p,1.500,V,2019,,,Y
+Marc Rzepczynski,CLE,p,1.500,V,2019,,,Y
 Marcell Ozuna,PIT,of,3.917,5th,0,,,Y
 Marco Estrada,DET,p,17.500,V,2019,Y,,Y
 Marco Gonzales,DET,p,0.900,2nd,0,,,Y
@@ -1028,7 +1029,6 @@ Matt Adams,PIT,if,1.856,4th,0,,,Y
 Matt Albers,BOS,p,1.000,MLI,2019,,,Y
 Matt Andriese,NYM,p,5.991,6th,0,,,Y
 Matt Barnes,TOR,p,0.650,2nd,0,,,Y
-Matt Bowman,TEX,p,4.500,V,2021,,,Y
 Matt Boyd,ATL,p,0.500,XXX,0,,,N
 Matt Bush,CIN,p,4.200,V,2019,Y,,Y
 Matt Carpenter,PIT,if,8.760,CE,2019,,,Y
@@ -1055,6 +1055,7 @@ Matt Tabor,ARI,p,0.500,XXX,0,,,N
 Matt Thaiss,HOU,c,0.500,XXX,0,,,N
 Matt Wieters,CLE,c,1.500,V,2019,Y,Y,Y
 Matt Wisler,MIA,p,0.500,XXX,0,,,N
+Matthew Bowman,TEX,p,4.500,V,2021,,,Y
 Matthew Joyce,BAL,of,1.000,V,2019,,,Y
 Matthew Liberatore,COL,p,0.500,XXX,0,,,N
 Matthew Szczur,WAS,of,0.650,2nd,0,,,N
@@ -1073,9 +1074,9 @@ Michael A. Taylor,OAK,of,0.650,2nd,0,,,Y
 Michael Brantley,CIN,of,12.765,V,2020,,,Y
 Michael Chavis,TEX,if,0.500,XXX,0,,,N
 Michael Choice,LAA,of,1.300,3rd,0,,,N
+Michael Clevinger,LAN,p,0.650,2nd,0,,,Y
 Michael Conforto,CHA,of,4.455,4th,0,,,Y
 Michael Feliz,ARI,p,1.050,2nd,0,,,N
-Michael Fiers,DET,p,4.385,6th,0,,,Y
 Michael Fulmer,BAL,p,0.650,2nd,0,,,Y
 Michael Gettys,TAM,of,0.500,XXX,0,,,N
 Michael Kickham,CIN,p,0.845,3rd,0,,,Y
@@ -1102,7 +1103,7 @@ Miguel Sano,CHA,if,4.071,4th,0,,,Y
 Miguel Socolovich,STL,p,2.500,V,2019,Y,Y,Y
 Miguel Vargas,BOS,if,0.500,XXX,0,,Y,N
 Miguelangel Sierra,CLE,if,0.500,XXX,0,,,N
-Mike Clevinger,LAN,p,0.650,2nd,0,,,Y
+Mike Fiers,DET,p,4.385,6th,0,,,Y
 Mike Foltynewicz,SEA,p,0.500,XXX,0,,,Y
 Mike Ford,CLE,if,4.002,V,2020,,,Y
 Mike Leake,TOR,p,5.850,V,2019,,,Y
@@ -1200,7 +1201,6 @@ Paul Fry,NYA,p,4.000,V,2021,Y,Y,Y
 Paul Goldschmidt,CIN,if,24.000,V,2021,,Y,Y
 Pavin Smith,MIN,if,0.500,XXX,0,,,N
 Pedro Alvarez,OAK,if,1.250,V,2019,,,Y
-Pedro Avilan,LAN,p,2.660,V,2019,Y,Y,Y
 Pedro Baez,LAN,p,3.000,V,2021,,Y,Y
 Pedro Gonzalez,CHC,of,0.500,XXX,0,,,N
 Pedro Strop,LAN,p,4.440,V,2020,,,Y
@@ -1243,12 +1243,12 @@ Riley Ferrell,BAL,p,0.500,XXX,0,,,N
 Riley Pint,SF,p,0.500,XXX,0,,,N
 Rio Ruiz,SF,if,0.500,XXX,0,,,N
 Roansy Contreras,CIN,p,0.500,XXX,0,,,N
+Rob Refsnyder,WAS,if,0.845,3rd,0,,,Y
 Robbie Erlin,TAM,p,0.500,XXX,0,,,Y
 Robbie Grossman,NYM,of,0.650,2nd,0,,,Y
 Robbie Ray,TEX,p,1.888,4th,0,,,Y
 Robert Gsellman,MIA,p,1.203,3rd,0,,,N
 Robert Kaminsky,MIL,p,0.500,XXX,0,,,N
-Robert Refsnyder,WAS,if,0.845,3rd,0,,,Y
 Robert Stephenson,NYM,p,0.500,XXX,0,,,Y
 Robert Tyler,KC,p,0.500,XXX,0,,,N
 Roberto Baldoquin,HOU,if,0.500,XXX,0,,,N
@@ -1359,13 +1359,13 @@ Stephen Tarpley,MIL,p,1.000,V,2019,,Y,Y
 Stephen Vogt,KC,c,1.850,V,2019,,,Y
 Stetson Allie,MIN,p,0.500,XXX,0,,,N
 Steve Cishek,CLE,p,2.816,V,2019,Y,,Y
-Steve Okert,TOR,p,2.750,V,2019,Y,,Y
 Steve Pearce,TAM,if,1.333,V,2019,Y,Y,Y
 Steven Brault,HOU,p,0.500,XXX,0,,,Y
 Steven Duggar,KC,of,0.500,XXX,0,,,N
 Steven Jennings,BAL,p,0.500,XXX,0,,,N
 Steven Matz,ATL,p,2.397,4th,0,,,Y
 Steven Moya,CIN,of,0.925,2nd,0,,,N
+Steven Okert,TOR,p,2.750,V,2019,Y,,Y
 Steven Souza,CHA,of,3.178,4th,0,,,Y
 Stolmy Pimentel,WAS,p,0.650,2nd,0,,,N
 Stone Garrett,SF,of,0.500,XXX,0,,,N
@@ -1451,7 +1451,7 @@ Tyler Glasnow,OAK,p,0.650,2nd,0,,,N
 Tyler Goeddel,HOU,if,0.845,3rd,0,,,N
 Tyler Jay,CHC,p,0.500,XXX,0,,,Y
 Tyler Kolek,PHI,p,0.500,XXX,0,,,N
-Tyler Mahle,SF,p,0.500,XXX,0,,,N
+Tyler Mahle,SF,p,0.500,XXX,0,,,Y
 Tyler Marlette,NYA,c,0.650,2nd,0,,,N
 Tyler Moore,BOS,if,0.975,3rd,0,,,N
 Tyler Naquin,MIL,of,0.845,3rd,0,,,N
@@ -1527,9 +1527,9 @@ Yoel Mecias,LAA,p,0.500,XXX,0,,,N
 Yoenis Cespedes,SEA,of,16.500,V,2020,Y,Y,Y
 Yohander Mendez,MIL,p,0.500,XXX,0,,,N
 Yolmer Sanchez,HOU,if,1.529,4th,0,,,Y
+Yonathan Daza,BAL,of,1.000,V,2019,,,Y
 Yonder Alonso,COL,if,7.905,CE,2019,,,Y
 Yonny Chirinos,PIT,p,0.650,2nd,0,,,Y
-Yonothan Daza,BAL,of,1.000,V,2019,,,Y
 Yordan Alvarez,KC,of,0.500,XXX,0,,,N
 Yoshihisa Hirano,STL,p,3.000,V,2020,Y,Y,Y
 Yu Chang,NYM,if,0.500,XXX,0,,,Y
