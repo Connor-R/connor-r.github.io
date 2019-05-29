@@ -116,6 +116,7 @@ movie_name,year,est_year_watched,genre,sub_genre,length,grade,comment
 """GATTACA""",1997,2019,"""sci-fi""","""drama""",106,60,""""""
 """Gentlemen Broncos""",2009,2010,"""comedy""","""sci-fi""",90,65,""""""
 """Ghostbusters""",1984,2019,"""fantasy""","""comedy""",105,45,""""""
+"""Glass""",2019,2019,"""sci-fi""","""drama""",129,45,""""""
 """God Bless America""",2011,2013,"""comedy""","""""",105,65,""""""
 """Good Burger""",1997,2011,"""comedy""","""""",95,40,""""""
 """Good Will Hunting""",1997,2007,"""drama""","""""",126,75,""""""
