@@ -11,10 +11,6 @@ wait
 
 wait
 
-python tv_show_processing.py
-
-wait
-
 python export_media.py
 
 wait
