@@ -43,17 +43,21 @@ def update_grades(media_type):
 
         name = row[0]
 
-        div_val, adjustment = ifnull(div_val, 1, row[-2], 0)
-        div_val, timelessness = ifnull(div_val, 1, row[-3], 0)
+        adjustment = row[-2]
+
+        div_val, timelessness = ifnull(div_val, 0.5, row[-3], 0)
         div_val, length = ifnull(div_val, 1, row[-4], 0)
-        div_val, wit = ifnull(div_val, 1, row[-5], 0)
+        div_val, wit = ifnull(div_val, 0.5, row[-5], 0)
         div_val, desired_effects = ifnull(div_val, 1, row[-6], 0)
-        div_val, plot = ifnull(div_val, 1, row[-7], 0)
+        div_val, plot = ifnull(div_val, 0.5, row[-7], 0)
         div_val, consistency = ifnull(div_val, 1, row[-8], 0)
         div_val, peak = ifnull(div_val, 1, row[-9], 0)
 
 
-        grade = float(adjustment+timelessness+length+wit+desired_effects+plot+consistency+peak) / float(max(div_val, 1.0))
+        grade = float(timelessness+length+wit+desired_effects+plot+consistency+peak) / float(max(div_val, 1.0))
+
+        if adjustment is not None:
+            grade = grade + float(adjustment)
 
         row = list(row)
         row[-1] = grade
