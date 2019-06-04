@@ -1,437 +1,437 @@
-name,year,est_year_watched,genre,sub_genre,movie_length,peak,consistency,plot,desired_effects,wit,length,timelessness,adjustment,overall_grade
-"""12 Angry Men""",1957,2012,"""drama""","""""",96,,,,,,,,,0.0
-"""127 Hours""",2010,2012,"""adventure""","""biography""",94,,,,,,,,,0.0
-"""1984""",1984,2017,"""sci-fi""","""""",113,,,,,,,,,0.0
-"""21""",2008,2009,"""drama""","""""",123,,,,,,,,,0.0
-"""21 Jump Street""",2012,2014,"""comedy""","""""",110,,,,,,,,,0.0
-"""22 Jump Street""",2014,2015,"""comedy""","""""",112,,,,,,,,,0.0
-"""300""",2006,2008,"""action""","""""",117,,,,,,,,,0.0
-"""42""",2013,2014,"""biography""","""sports""",128,,,,,,,,,0.0
-"""50 First Dates""",2004,2007,"""romantic comedy""","""""",99,,,,,,,,,0.0
-"""50/50""",2011,2012,"""drama""","""comedy""",110,,,,,,,,,0.0
-"""6 Days to Air-The Making Of South Park""",2011,2011,"""documentary""","""comedy""",42,,,,,,,,,0.0
-"""A Beautiful Mind""",2001,2014,"""biography""","""drama""",140,,,,,,,,,0.0
-"""A Clockwork Orange""",1971,2011,"""crime""","""drama""",136,,,,,,,,,0.0
-"""A Knight's Tale""",2001,2004,"""adventure""","""action""",132,,,,,,,,,0.0
-"""Accepted""",2006,2007,"""comedy""","""""",93,,,,,,,,,0.0
-"""Adult World""",2013,2015,"""comedy""","""""",97,,,,,,,,,0.0
-"""All the President's Men""",1976,2005,"""history""","""drama""",138,,,,,,,,,0.0
-"""Almost Famous""",2000,2007,"""comedy""","""drama""",162,,,,,,,,,0.0
-"""AlphaGo""",2017,2018,"""documentary""","""""",90,,,,,,,,,0.0
-"""Amelie""",2001,2010,"""romantic comedy""","""french""",129,,,,,,,,,0.0
-"""American History X""",1998,2010,"""crime""","""drama""",119,,,,,,,,,0.0
-"""An Inconvenient Truth""",2006,2006,"""documentary""","""""",96,,,,,,,,,0.0
-"""Anchorman: The Legend of Ron Burgundy""",2004,2008,"""comedy""","""""",94,,,,,,,,,0.0
-"""Angels & Demons""",2009,2011,"""mystery""","""""",138,,,,,,,,,0.0
-"""Angels in the Outfield""",1994,2002,"""fantasy""","""sports""",102,,,,,,,,,0.0
-"""Anger Management""",2003,2007,"""comedy""","""""",106,,,,,,,,,0.0
-"""Baby Driver""",2017,2018,"""action""","""""",113,,,,,,,,,0.0
-"""Back to the Future(1)""",1985,2003,"""adventure""","""sci-fi""",116,,,,,,,,,0.0
-"""Back to the Future(2)""",1985,2003,"""adventure""","""sci-fi""",108,,,,,,,,,0.0
-"""Back to the Future(3)""",1990,2003,"""adventure""","""sci-fi""",118,,,,,,,,,0.0
-"""Bad News Bears""",1979,2017,"""comedy""","""sports""",102,,,,,,,,,0.0
-"""Bad News Bears""",2005,2017,"""comedy""","""sports""",113,,,,,,,,,0.0
-"""BASEketball""",1998,2005,"""comedy""","""sports""",103,,,,,,,,,0.0
-"""Baywatch""",2017,2018,"""comedy""","""action""",116,,,,,,,,,0.0
-"""Beerfest""",2006,2009,"""comedy""","""""",110,,,,,,,,,0.0
-"""Behind The Curve""",2018,2019,"""documentary""","""""",96,,,,,,,,,0.0
-"""Being John Malkovich""",1999,2013,"""drama""","""comedy""",112,,,,,,,,,0.0
-"""Better Off Dead""",1985,2007,"""comedy""","""""",97,,,,,,,,,0.0
-"""Big Daddy""",1999,2004,"""comedy""","""""",93,,,,,,,,,0.0
-"""Big Hero 6""",2014,2016,"""superhero""","""animated""",102,,,,,,,,,0.0
-"""Bill and Teds Bogus Journey""",1991,2005,"""comedy""","""""",93,,,,,,,,,0.0
-"""Bill and Teds Excellent Adventure""",1989,2005,"""comedy""","""""",89,,,,,,,,,0.0
-"""Billy Madison""",1995,2000,"""comedy""","""""",89,,,,,,,,,0.0
-"""Blood Diamond""",2006,2007,"""adventure""","""drama""",143,,,,,,,,,0.0
-"""Bolt""",2008,2014,"""adventure""","""animated""",96,,,,,,,,,0.0
-"""Borat: Cultural Learnings of America for Make Benefit Glorius Nation of Kazakhstan""",2006,2007,"""comedy""","""mockumentary""",84,,,,,,,,,0.0
-"""Bottle Rocket""",1996,2012,"""comedy""","""crime""",91,,,,,,,,,0.0
-"""Bourne(1): The Bourne Identity""",2002,2003,"""action""","""thriller""",119,,,,,,,,,0.0
-"""Bourne(2): The Bourne Supremacy""",2004,2005,"""action""","""thriller""",108,,,,,,,,,0.0
-"""Bourne(3): The Bourne Ultimatum""",2007,2008,"""action""","""thriller""",115,,,,,,,,,0.0
-"""Brick""",2005,2012,"""mystery""","""""",110,,,,,,,,,0.0
-"""Bruce Almighty""",2003,2005,"""comedy""","""fantasy""",101,,,,,,,,,0.0
-"""Bruno""",2009,2016,"""comedy""","""mockumentary""",82,,,,,,,,,0.0
-"""Burn After Reading""",2008,2009,"""comedy""","""crime""",96,,,,,,,,,0.0
-"""Butter""",2011,2013,"""comedy""","""""",90,,,,,,,,,0.0
-"""Cars""",2006,2011,"""animated""","""comedy""",117,,,,,,,,,0.0
-"""Cast Away""",2000,2005,"""adventure""","""drama""",143,,,,,,,,,0.0
-"""Catch Me If You Can""",2002,2008,"""drama""","""biography""",141,,,,,,,,,0.0
-"""Central Intelligence""",2016,2018,"""comedy""","""action""",107,,,,,,,,,0.0
-"""Chasing Mavericks""",2012,2015,"""drama""","""biography""",116,,,,,,,,,0.0
-"""Children Who Chase Lost Voices""",2011,2017,"""animated""","""adventure""",116,,,,,,,,,0.0
-"""CHiPs""",2017,2018,"""comedy""","""crime""",100,,,,,,,,,0.0
-"""City Of God""",2002,2018,"""crime""","""drama""",130,,,,,,,,,0.0
-"""Clerks""",1994,2013,"""comedy""","""""",92,,,,,,,,,0.0
-"""Clerks II""",2006,2013,"""comedy""","""""",97,,,,,,,,,0.0
-"""Click""",2006,2007,"""comedy""","""""",107,,,,,,,,,0.0
-"""Concussion""",2015,2015,"""biography""","""sports""",123,,,,,,,,,0.0
-"""Cool Runnings""",1993,2000,"""comedy""","""sports""",98,,,,,,,,,0.0
-"""Crash""",2004,2008,"""crime""","""drama""",112,,,,,,,,,0.0
-"""D1: The Mighty Ducks""",1992,2000,"""comedy""","""sports""",100,,,,,,,,,0.0
-"""D2: The Mighty Ducks""",1994,2000,"""comedy""","""sports""",106,,,,,,,,,0.0
-"""D3: The Mighty Ducks""",1996,2000,"""comedy""","""sports""",104,,,,,,,,,0.0
-"""Dances With Wolves""",1990,2006,"""adventure""","""western""",181,,,,,,,,,0.0
-"""Dark Knight Trilogy(1): Batman Begins""",2005,2012,"""superhero""","""action""",140,,,,,,,,,0.0
-"""Dark Knight Trilogy(2): The Dark Knight""",2008,2015,"""superhero""","""action""",152,,,,,,,,,0.0
-"""Dark Knight Trilogy(3): The Dark Knight Rises""",2012,2015,"""superhero""","""action""",164,,,,,,,,,0.0
-"""Dazed and Confused""",1993,2011,"""comedy""","""""",102,,,,,,,,,0.0
-"""Deja Vu""",2006,2012,"""action""","""sci-fi""",126,,,,,,,,,0.0
-"""Despicable Me""",2010,2015,"""comedy""","""animated""",95,,,,,,,,,0.0
-"""Despicable Me(2)""",2013,2015,"""comedy""","""animated""",98,,,,,,,,,0.0
-"""Die Hard""",1998,2014,"""action""","""""",132,,,,,,,,,0.0
-"""Dodgeball: A True Underdog Story""",2004,2006,"""comedy""","""sports""",92,,,,,,,,,0.0
-"""Dogma""",1999,2006,"""comedy""","""drama""",130,,,,,,,,,0.0
-"""Donnie Darko""",2001,2009,"""drama""","""sci-fi""",113,,,,,,,,,0.0
-"""Draft Day""",2014,2016,"""drama""","""sports""",110,,,,,,,,,0.0
-"""Drive""",2011,2017,"""drama""","""crime""",100,,,,,,,,,0.0
-"""Dumb and Dumber""",1994,2002,"""comedy""","""""",107,,,,,,,,,0.0
-"""Dumb and Dumberer: When Harry Met Lloyd""",2003,2004,"""comedy""","""""",85,,,,,,,,,0.0
-"""Eagle Vs. Shark""",2007,2011,"""comedy""","""""",88,,,,,,,,,0.0
-"""Edward Scissorhands""",1990,2004,"""drama""","""""",105,,,,,,,,,0.0
-"""Elf""",2003,2004,"""comedy""","""""",97,,,,,,,,,0.0
-"""Enders Game""",2013,2018,"""action""","""fantasy""",114,,,,,,,,,0.0
-"""Everything Is Illuminated""",2005,2007,"""comedy""","""drama""",106,,,,,,,,,0.0
-"""Ex Machina""",2014,2018,"""drama""","""sci-fi""",108,,,,,,,,,0.0
-"""Fast and Furious(1)(1)-The Fast and the Furious""",2001,2008,"""action""","""""",106,,,,,,,,,0.0
-"""Fast and Furious(2)(2)-2 Fast 2 Furious""",2003,2009,"""action""","""""",107,,,,,,,,,0.0
-"""Fast and Furious(3)(6)-Tokyo Drift""",2006,2016,"""action""","""""",106,,,,,,,,,0.0
-"""Fast and Furious(4)(3)-Fast and Furious""",2009,2016,"""action""","""""",107,,,,,,,,,0.0
-"""Fast and Furious(5)(4)-Fast Five""",2011,2012,"""action""","""""",130,,,,,,,,,0.0
-"""Fast and Furious(6)(5)-Fast and Furious 6""",2013,2016,"""action""","""""",130,,,,,,,,,0.0
-"""Fast and Furious(7)(7)-Furious 7""",2015,2016,"""action""","""""",137,,,,,,,,,0.0
-"""Fast and Furious(8)(8)-The Fate of the Furious""",2017,2019,"""action""","""""",136,,,,,,,,,0.0
-"""Fast Times at Ridgement High""",1982,2013,"""comedy""","""""",90,,,,,,,,,0.0
-"""Ferris Bueller's Day Off""",1986,2003,"""comedy""","""""",103,,,,,,,,,0.0
-"""Field of Dreams""",1989,2002,"""drama""","""fantasy""",107,,,,,,,,,0.0
-"""Fight Club""",1999,2010,"""drama""","""""",139,,,,,,,,,0.0
-"""Finding Dory""",2016,2018,"""comedy""","""animated""",97,,,,,,,,,0.0
-"""Finding Nemo""",2003,2004,"""comedy""","""animated""",100,,,,,,,,,0.0
-"""Forgetting Sarah Marshall""",2008,2010,"""comedy""","""""",111,,,,,,,,,0.0
-"""Forrest Gump""",1994,2006,"""comedy""","""drama""",142,,,,,,,,,0.0
-"""Freedom Writers""",2007,2011,"""drama""","""biography""",123,,,,,,,,,0.0
-"""Freeloaders""",2012,2013,"""comedy""","""""",77,,,,,,,,,0.0
-"""Friday Night Lights""",2004,2004,"""drama""","""sports""",118,,,,,,,,,0.0
-"""Garden State""",2004,2008,"""comedy""","""drama""",102,,,,,,,,,0.0
-"""GATTACA""",1997,2019,"""sci-fi""","""drama""",106,,,,,,,,,0.0
-"""Gentlemen Broncos""",2009,2010,"""comedy""","""sci-fi""",90,,,,,,,,,0.0
-"""Ghostbusters""",1984,2019,"""fantasy""","""comedy""",105,,,,,,,,,0.0
-"""Glass""",2019,2019,"""sci-fi""","""drama""",129,,,,,,,,,0.0
-"""God Bless America""",2011,2013,"""comedy""","""""",105,,,,,,,,,0.0
-"""Good Burger""",1997,2011,"""comedy""","""""",95,,,,,,,,,0.0
-"""Good Will Hunting""",1997,2007,"""drama""","""""",126,,,,,,,,,0.0
-"""Goon(1)""",2011,2012,"""comedy""","""sports""",92,,,,,,,,,0.0
-"""Goon(2)-Last of the Enforcers""",2017,2017,"""comedy""","""sports""",101,,,,,,,,,0.0
-"""Grandma's Boy""",2006,2009,"""comedy""","""""",94,,,,,,,,,0.0
-"""Groundhog Day""",1993,2006,"""comedy""","""""",101,,,,,,,,,0.0
-"""Half Baked""",1998,2011,"""comedy""","""""",82,,,,,,,,,0.0
-"""Happy Feet(1)""",2006,2013,"""adventure""","""animated""",108,,,,,,,,,0.0
-"""Happy Feet(2)""",2011,2013,"""adventure""","""comedy""",100,,,,,,,,,0.0
-"""Happy Gilmore""",1996,1999,"""comedy""","""sports""",92,,,,,,,,,0.0
-"""Harold & Kumar Go to White Castle""",2004,2008,"""comedy""","""adventure""",88,,,,,,,,,0.0
-"""Harry Potter(1) and the Philosopher's Stone""",2001,2001,"""fantasy""","""""",152,,,,,,,,,0.0
-"""Harry Potter(2) and the Chamber of Secrets""",2002,2002,"""fantasy""","""""",161,,,,,,,,,0.0
-"""Harry Potter(3) and the Prisoner of Azkaban""",2004,2004,"""fantasy""","""""",142,,,,,,,,,0.0
-"""Harry Potter(4) and the Goblet of Fire""",2005,2005,"""fantasy""","""""",157,,,,,,,,,0.0
-"""Harry Potter(5) and the Order of the Phoenix""",2007,2007,"""fantasy""","""""",138,,,,,,,,,0.0
-"""Harry Potter(6) and the Half-Blood Prince""",2009,2010,"""fantasy""","""""",153,,,,,,,,,0.0
-"""Harry Potter(7) and the Deathly Hallows Pt.1""",2010,2011,"""fantasy""","""""",146,,,,,,,,,0.0
-"""Harry Potter(8) and the Deathly Hallows Pt.2""",2011,2012,"""fantasy""","""""",130,,,,,,,,,0.0
-"""Heavy Weights""",1995,2009,"""comedy""","""""",100,,,,,,,,,0.0
-"""Holes""",2003,2006,"""adventure""","""comedy""",117,,,,,,,,,0.0
-"""Holy Rollers-The True Story of Card Counting Christians""",2011,2015,"""documentary""","""""",92,,,,,,,,,0.0
-"""Home Alone(1)""",1990,1998,"""comedy""","""family""",103,,,,,,,,,0.0
-"""Home Alone(2)-Lost in New York""",1992,1998,"""comedy""","""family""",120,,,,,,,,,0.0
-"""Hot Fuzz""",2007,2009,"""comedy""","""action""",121,,,,,,,,,0.0
-"""Hot Rod""",2007,2008,"""comedy""","""""",88,,,,,,,,,0.0
-"""Hot Tub Time Machine(1)""",2010,2012,"""comedy""","""sci-fi""",101,,,,,,,,,0.0
-"""Hot Tub Time Machine(2)""",2015,2016,"""comedy""","""sci-fi""",93,,,,,,,,,0.0
-"""Hurricane of Fun: The Making of Wet Hot""",2015,2017,"""documentary""","""comedy""",64,,,,,,,,,0.0
-"""I Love You, Man""",2009,2011,"""comedy""","""""",105,,,,,,,,,0.0
-"""I, Robot""",2004,2004,"""action""","""""",115,,,,,,,,,0.0
-"""Icarus""",2017,2018,"""documentary""","""sports""",121,,,,,,,,,0.0
-"""Ice Age(1)""",2002,2006,"""comedy""","""animated""",81,,,,,,,,,0.0
-"""Ice Age(2): The Meltdown""",2006,2010,"""comedy""","""animated""",91,,,,,,,,,0.0
-"""Ice Guardians""",2016,2017,"""documentary""","""sports""",108,,,,,,,,,0.0
-"""Idiocracy""",2006,2009,"""comedy""","""""",84,,,,,,,,,0.0
-"""Inception""",2010,2012,"""action""","""sci-fi""",148,,,,,,,,,0.0
-"""Inglourious Basterds""",2009,2012,"""drama""","""adventure""",153,,,,,,,,,0.0
-"""Inside Job""",2010,2015,"""documentary""","""economics""",105,,,,,,,,,0.0
-"""Inside Out""",2015,2018,"""comedy""","""animated""",95,,,,,,,,,0.0
-"""Into The Wild""",2007,2008,"""adventure""","""biography""",148,,,,,,,,,0.0
-"""Invictus""",2009,2010,"""drama""","""biography""",134,,,,,,,,,0.0
-"""Invincible""",2006,2008,"""biography""","""sports""",105,,,,,,,,,0.0
-"""Island of Lemurs: Madagascar""",2014,2014,"""documentary""","""wilderness""",39,,,,,,,,,0.0
-"""Jay and Silent Bob Strike Back""",2001,2009,"""comedy""","""""",104,,,,,,,,,0.0
-"""Jeff Who Lives at Home""",2011,2013,"""comedy""","""drama""",83,,,,,,,,,0.0
-"""Joe Dirt""",2001,2006,"""comedy""","""""",91,,,,,,,,,0.0
-"""John Dies at The End""",2012,2016,"""comedy""","""horror""",99,,,,,,,,,0.0
-"""Jumanji: Welcome To The Jungle""",2017,2018,"""comedy""","""adventure""",119,,,,,,,,,0.0
-"""Juno""",2007,2007,"""comedy""","""drama""",96,,,,,,,,,0.0
-"""Keanu""",2016,2018,"""comedy""","""action""",100,,,,,,,,,0.0
-"""Kill Bill: Vol. 1""",2003,2010,"""action""","""""",111,,,,,,,,,0.0
-"""Kill Bill: Vol. 2""",2004,2010,"""action""","""""",137,,,,,,,,,0.0
-"""Kitten Bowl-2014""",2014,2014,"""cats""","""sports""",124,,,,,,,,,0.0
-"""Kung Fu Panda(1)""",2008,2013,"""adventure""","""animated""",92,,,,,,,,,0.0
-"""Kung Fu Panda(2)""",2011,2013,"""adventure""","""animated""",90,,,,,,,,,0.0
-"""Kung Fury""",2015,2015,"""comedy""","""action""",31,,,,,,,,,0.0
-"""L.A. Confidential""",1997,2011,"""drama""","""mystery""",138,,,,,,,,,0.0
-"""Legally Blonde""",2001,2005,"""comedy""","""""",96,,,,,,,,,0.0
-"""Life Is Beautiful""",1997,2009,"""drama""","""comedy""",116,,,,,,,,,0.0
-"""Life of Pi""",2012,2014,"""adventure""","""fantasy""",127,,,,,,,,,0.0
-"""Little Giants""",1994,2013,"""comedy""","""sports""",107,,,,,,,,,0.0
-"""Little Miss Sunshine""",2006,2008,"""comedy""","""""",101,,,,,,,,,0.0
-"""Little Nicky""",2000,2002,"""comedy""","""""",90,,,,,,,,,0.0
-"""Looper""",2012,2014,"""action""","""drama""",113,,,,,,,,,0.0
-"""Lord of the Rings(1): The Fellowship of the Ring""",2001,2018,"""fantasy""","""adventure""",178,,,,,,,,,0.0
-"""Lord of the Rings(2): The Two Towers""",2002,2018,"""fantasy""","""adventure""",179,,,,,,,,,0.0
-"""Lord of the Rings(3): The Return of the King""",2003,2018,"""fantasy""","""adventure""",201,,,,,,,,,0.0
-"""MacGruber""",2010,2015,"""comedy""","""action""",90,,,,,,,,,0.0
-"""Mad Max: Fury Road""",2015,2018,"""action""","""""",120,,,,,,,,,0.0
-"""Madagascar(1)""",2005,2008,"""comedy""","""animated""",86,,,,,,,,,0.0
-"""Madagascar(2)-Escape 2 Africa""",2008,2013,"""comedy""","""animated""",89,,,,,,,,,0.0
-"""Major Payne""",1995,2004,"""comedy""","""""",95,,,,,,,,,0.0
-"""Malibus Most Wanted""",2003,2007,"""comedy""","""""",86,,,,,,,,,0.0
-"""Matilda""",1996,2002,"""fantasy""","""comedy""",102,,,,,,,,,0.0
-"""Me and Earl and the Dying Girl""",2015,2017,"""comedy""","""drama""",105,,,,,,,,,0.0
-"""Mean Girls""",2004,2008,"""comedy""","""""",97,,,,,,,,,0.0
-"""Men in Black(1)""",1997,1999,"""comedy""","""""",98,,,,,,,,,0.0
-"""Men in Black(2)""",2002,2003,"""comedy""","""""",88,,,,,,,,,0.0
-"""Men With Brooms""",2002,2006,"""comedy""","""drama""",102,,,,,,,,,0.0
-"""Michael Bolton's Big, Sexy Valentine's Day Special""",2017,2017,"""comedy""","""musical""",54,,,,,,,,,0.0
-"""Millennium Series 1-The Girl With The Dragon Tattoo""",2009,2013,"""drama""","""""",152,,,,,,,,,0.0
-"""Miracle""",2004,2005,"""biography""","""sports""",135,,,,,,,,,0.0
-"""Miss Congeniality""",2000,2003,"""comedy""","""action""",109,,,,,,,,,0.0
-"""Moneyball""",2011,2012,"""sports""","""biography""",133,,,,,,,,,0.0
-"""Monsters Inc.""",2001,2008,"""animated""","""comedy""",92,,,,,,,,,0.0
-"""Monty Python and the Holy Grail""",1975,2005,"""comedy""","""""",91,,,,,,,,,0.0
-"""Monty Python-And Now For Something Completely Different""",1971,2018,"""comedy""","""sketches""",88,,,,,,,,,0.0
-"""Moonrise Kingdom""",2012,2014,"""comedy""","""adventure""",94,,,,,,,,,0.0
-"""Mr. Deeds""",2002,2006,"""comedy""","""""",96,,,,,,,,,0.0
-"""Nacho Libre""",2006,2008,"""comedy""","""""",92,,,,,,,,,0.0
-"""Napoleon Dynamite""",2004,2005,"""comedy""","""""",96,,,,,,,,,0.0
-"""National Treasure""",2004,2006,"""adventure""","""action""",131,,,,,,,,,0.0
-"""Norman""",2010,2011,"""comedy""","""drama""",99,,,,,,,,,0.0
-"""Not Another Teen Movie""",2001,2007,"""comedy""","""""",89,,,,,,,,,0.0
-"""Now You See Me(1)""",2013,2015,"""mystery""","""""",115,,,,,,,,,0.0
-"""Now You See Me(2)""",2016,2018,"""mystery""","""""",129,,,,,,,,,0.0
-"""Ocean's 11""",2001,2003,"""crime""","""""",116,,,,,,,,,0.0
-"""Ocean's 12""",2004,2005,"""crime""","""""",125,,,,,,,,,0.0
-"""Ocean's 13""",2007,2009,"""crime""","""""",122,,,,,,,,,0.0
-"""Office Space""",1999,2006,"""comedy""","""""",89,,,,,,,,,0.0
-"""One & Done (Ben Simmons)""",2016,2016,"""documentary""","""""",91,,,,,,,,,0.0
-"""One Crazy Summer""",1986,2014,"""comedy""","""""",93,,,,,,,,,0.0
-"""One Flew Over The Cuckoos Nest""",1975,2009,"""drama""","""""",133,,,,,,,,,0.0
-"""Orgazmo""",1997,2011,"""comedy""","""""",94,,,,,,,,,0.0
-"""Pelotero-Ballplayer""",2011,2011,"""documentary""","""sports""",77,,,,,,,,,0.0
-"""Phantom Thread""",2018,2018,"""drama""","""""",130,,,,,,,,,0.0
-"""Pineapple Express""",2008,2009,"""comedy""","""""",111,,,,,,,,,0.0
-"""Pirate Radio""",2009,2017,"""comedy""","""drama""",117,,,,,,,,,0.0
-"""Pirates of the Caribbean(1): The Curse of the Black Pearl""",2003,2012,"""action""","""fantasy""",143,,,,,,,,,0.0
-"""Pirates of the Caribbean(2): Dead Man's Chest""",2006,2012,"""action""","""fantasy""",151,,,,,,,,,0.0
-"""Pirates of the Caribbean(3): At World's End""",2007,2012,"""action""","""fantasy""",169,,,,,,,,,0.0
-"""Pirates of the Caribbean(4): On Stranger Tides""",2011,2012,"""action""","""fantasy""",136,,,,,,,,,0.0
-"""Pitch Perfect""",2012,2012,"""music""","""comedy""",112,,,,,,,,,0.0
-"""Pocahontas""",1995,2012,"""animated""","""adventure""",81,,,,,,,,,0.0
-"""Point Break""",1991,2014,"""action""","""""",122,,,,,,,,,0.0
-"""Pootie Tang""",2001,2007,"""comedy""","""""",81,,,,,,,,,0.0
-"""Popstar-Never Stop Never Stopping""",2016,2017,"""comedy""","""""",87,,,,,,,,,0.0
-"""Puddle Cruiser""",1996,2012,"""comedy""","""""",102,,,,,,,,,0.0
-"""Pulp Fiction""",1994,2007,"""drama""","""""",154,,,,,,,,,0.0
-"""Rain Man""",1988,2010,"""drama""","""""",133,,,,,,,,,0.0
-"""Ready Player One""",2018,2018,"""action""","""sci-fi""",140,,,,,,,,,0.0
-"""Real Genius""",1985,2008,"""comedy""","""sci-fi""",108,,,,,,,,,0.0
-"""Remember the Titans""",2000,2005,"""biography""","""sports""",113,,,,,,,,,0.0
-"""Requiem For a Dream""",2000,2010,"""drama""","""""",102,,,,,,,,,0.0
-"""Reservoir Dogs""",1992,2014,"""crime""","""drama""",99,,,,,,,,,0.0
-"""Road To Perdition""",2002,2009,"""crime""","""drama""",117,,,,,,,,,0.0
-"""Robin Hood: Men In Tights""",1993,1998,"""comedy""","""""",104,,,,,,,,,0.0
-"""Role Models""",2008,2009,"""comedy""","""""",99,,,,,,,,,0.0
-"""Rookie of the Year""",1993,2002,"""comedy""","""sports""",103,,,,,,,,,0.0
-"""Rounders""",1998,2007,"""drama""","""""",121,,,,,,,,,0.0
-"""Run Ronnie Run""",2002,2018,"""comedy""","""""",86,,,,,,,,,0.0
-"""Rushmore""",1998,2008,"""comedy""","""""",93,,,,,,,,,0.0
-"""Safety Not Guaranteed""",2012,2013,"""comedy""","""""",86,,,,,,,,,0.0
-"""Saving Private Ryan""",1998,2004,"""drama""","""""",169,,,,,,,,,0.0
-"""School of Rock""",2003,2004,"""comedy""","""music""",108,,,,,,,,,0.0
-"""Scott Pilgrim vs. The World""",2010,2011,"""comedy""","""action""",112,,,,,,,,,0.0
-"""Se7en""",1995,2012,"""crime""","""drama""",127,,,,,,,,,0.0
-"""Searching for Bobby Fischer""",1993,2017,"""drama""","""""",109,,,,,,,,,0.0
-"""Secondhand Lions""",2003,2018,"""comedy""","""drama""",109,,,,,,,,,0.0
-"""Semi-Pro""",2008,2019,"""comedy""","""sports""",91,,,,,,,,,0.0
-"""Seven Pounds""",2008,2015,"""drama""","""""",123,,,,,,,,,0.0
-"""Seven Psychopaths""",2012,2012,"""comedy""","""""",110,,,,,,,,,0.0
-"""Shaolin Soccer""",2001,2006,"""comedy""","""action""",87,,,,,,,,,0.0
-"""Sharknado(1)""",2013,2014,"""action""","""comedy""",86,,,,,,,,,0.0
-"""Sharknado(2)-The Second One""",2014,2015,"""action""","""comedy""",95,,,,,,,,,0.0
-"""Sharknado(3)-Oh Hell No""",2015,2016,"""action""","""comedy""",93,,,,,,,,,0.0
-"""Sharknado(4)-The Fourth Awakens""",2016,2016,"""action""","""comedy""",95,,,,,,,,,0.0
-"""Sharknado(5)-Global Swarming""",2017,2018,"""action""","""comedy""",93,,,,,,,,,0.0
-"""Shaun of the Dead""",2004,2007,"""comedy""","""""",99,,,,,,,,,0.0
-"""Shrek""",2001,2004,"""animated""","""comedy""",90,,,,,,,,,0.0
-"""Shutter Island""",2010,2019,"""mystery""","""thriller""",138,,,,,,,,,0.0
-"""Silver Linings Playbook""",2012,2014,"""comedy""","""drama""",122,,,,,,,,,0.0
-"""Sister Act""",1992,2003,"""comedy""","""crime""",100,,,,,,,,,0.0
-"""Slumdog Millionaire""",2008,2009,"""drama""","""""",120,,,,,,,,,0.0
-"""Sorry to Bother You""",2018,2019,"""comedy""","""fantasy""",111,,,,,,,,,0.0
-"""Source Code""",2011,2015,"""sci-fi""","""mystery""",93,,,,,,,,,0.0
-"""South Park-Bigger, Longer, and Uncut""",1999,2012,"""comedy""","""animated""",81,,,,,,,,,0.0
-"""Space Jam""",1996,1998,"""sports""","""animated""",88,,,,,,,,,0.0
-"""Spaceballs""",1987,2005,"""comedy""","""sci-fi""",96,,,,,,,,,0.0
-"""Split""",2016,2017,"""thriller""","""""",117,,,,,,,,,0.0
-"""Spotlight""",2015,2017,"""crime""","""history""",128,,,,,,,,,0.0
-"""St. Vincent""",2014,2018,"""comedy""","""drama""",102,,,,,,,,,0.0
-"""Stand and Deliver""",1988,2006,"""drama""","""""",103,,,,,,,,,0.0
-"""Starsky and Hutch""",2004,2005,"""comedy""","""""",101,,,,,,,,,0.0
-"""Step Brothers""",2008,2009,"""comedy""","""""",98,,,,,,,,,0.0
-"""Straight Outta Compton""",2015,2017,"""biography""","""music""",147,,,,,,,,,0.0
-"""Stranger Than Fiction""",2006,2007,"""comedy""","""""",113,,,,,,,,,0.0
-"""StudioGhibli-Castle in the Sky""",1986,2011,"""animated""","""adventure""",125,,,,,,,,,0.0
-"""StudioGhibli-Castle Of Cagliostro""",1979,2010,"""animated""","""adventure""",102,,,,,,,,,0.0
-"""StudioGhibli-From Up on Poppy Hill""",2011,2016,"""animated""","""drama""",91,,,,,,,,,0.0
-"""StudioGhibli-Howl's Moving Castle""",2004,2011,"""animated""","""adventure""",119,,,,,,,,,0.0
-"""StudioGhibli-Kiki's Delivery Service""",1989,2016,"""animated""","""adventure""",103,,,,,,,,,0.0
-"""StudioGhibli-My Neighbor Totoro""",1988,2012,"""animated""","""adventure""",86,,,,,,,,,0.0
-"""StudioGhibli-Nausicaa of the Valley of the Wind""",1984,2016,"""animated""","""adventure""",117,,,,,,,,,0.0
-"""StudioGhibli-Ponyo""",2008,2015,"""animated""","""adventure""",101,,,,,,,,,0.0
-"""StudioGhibli-Porco Rosso""",1992,2015,"""animated""","""adventure""",94,,,,,,,,,0.0
-"""StudioGhibli-Princess Mononoke""",1997,2009,"""animated""","""adventure""",134,,,,,,,,,0.0
-"""StudioGhibli-Spirited Away""",2001,2010,"""animated""","""adventure""",125,,,,,,,,,0.0
-"""StudioGhibli-The Secret World of Arrietty""",2010,2016,"""animated""","""adventure""",94,,,,,,,,,0.0
-"""StudioGhibli-The Tale of Princess Kaguya""",2013,2016,"""animated""","""adventure""",137,,,,,,,,,0.0
-"""StudioGhibli-The Wind Rises""",2013,2016,"""animated""","""biography""",126,,,,,,,,,0.0
-"""StudioGhibli-Whisper of the Heart""",1995,2016,"""animated""","""adventure""",111,,,,,,,,,0.0
-"""Sudden Death""",1995,2018,"""action""","""""",111,,,,,,,,,0.0
-"""Super Size Me""",2004,2005,"""documentary""","""""",100,,,,,,,,,0.0
-"""Super Troopers""",2001,2009,"""comedy""","""""",100,,,,,,,,,0.0
-"""Superbabies: Baby Geniuses 2""",2004,2010,"""comedy""","""""",88,,,,,,,,,0.0
-"""Superbad""",2007,2008,"""comedy""","""""",113,,,,,,,,,0.0
-"""Superheroes""",2011,2013,"""documentary""","""""",90,,,,,,,,,0.0
-"""Talladega Nights: The Ballad of Ricky Bobby""",2006,2007,"""comedy""","""sports""",108,,,,,,,,,0.0
-"""Tangled""",2010,2012,"""animated""","""adventures""",100,,,,,,,,,0.0
-"""Terri""",2011,2013,"""comedy""","""drama""",105,,,,,,,,,0.0
-"""The 40-Year-Old Virgin""",2005,2009,"""comedy""","""""",116,,,,,,,,,0.0
-"""The Accountant""",2016,2017,"""action""","""""",128,,,,,,,,,0.0
-"""The Adjustment Bureau""",2011,2013,"""sci-fi""","""""",106,,,,,,,,,0.0
-"""The Aristocats""",1970,2018,"""comedy""","""animated""",78,,,,,,,,,0.0
-"""The Babymakers""",2012,2014,"""comedy""","""""",95,,,,,,,,,0.0
-"""The Benchwarmers""",2006,2007,"""comedy""","""sports""",80,,,,,,,,,0.0
-"""The BFG""",2016,2018,"""fantasy""","""adventure""",117,,,,,,,,,0.0
-"""The Big Lebowski""",1998,2008,"""comedy""","""""",117,,,,,,,,,0.0
-"""The Blind Side""",2009,2011,"""biography""","""sports""",129,,,,,,,,,0.0
-"""The Blues Brothers""",1980,2003,"""comedy""","""action""",133,,,,,,,,,0.0
-"""The Blues Brothers(2) 2000""",1998,2003,"""comedy""","""action""",123,,,,,,,,,0.0
-"""The Breakfast Club""",1985,2006,"""comedy""","""drama""",97,,,,,,,,,0.0
-"""The Brothers Bloom""",2008,2011,"""comedy""","""drama""",114,,,,,,,,,0.0
-"""The Bucket List""",2007,2011,"""adventure""","""comedy""",97,,,,,,,,,0.0
-"""The Da Vinci Code""",2006,2008,"""mystery""","""""",149,,,,,,,,,0.0
-"""The Darjeeling Limited""",2007,2018,"""comedy""","""adventure""",91,,,,,,,,,0.0
-"""The Day After Tomorrow""",2004,2008,"""adventure""","""action""",124,,,,,,,,,0.0
-"""The Departed""",2006,2008,"""crime""","""drama""",151,,,,,,,,,0.0
-"""The Disaster Artist""",2017,2018,"""comedy""","""biography""",104,,,,,,,,,0.0
-"""The Fifth Element""",1997,2018,"""action""","""sci-fi""",126,,,,,,,,,0.0
-"""The Foot Fist Way""",2006,2009,"""comedy""","""""",85,,,,,,,,,0.0
-"""The Frighteners""",1996,2011,"""comedy""","""fantasy""",110,,,,,,,,,0.0
-"""The Garden of Words""",2013,2016,"""animated""","""drama""",46,,,,,,,,,0.0
-"""The Girl Who Leapt Through Time""",2006,2018,"""animated""","""adventure""",98,,,,,,,,,0.0
-"""The Goonies""",1985,2005,"""comedy""","""adventure""",114,,,,,,,,,0.0
-"""The Grand Budapest Hotel""",2014,2015,"""comedy""","""adventure""",99,,,,,,,,,0.0
-"""The Hangover(1)""",2009,2010,"""comedy""","""""",100,,,,,,,,,0.0
-"""The Hitchhikers Guide to the Galaxy""",2005,2006,"""sci-fi""","""comedy""",109,,,,,,,,,0.0
-"""The Human Centipede""",2009,2010,"""horror""","""""",92,,,,,,,,,0.0
-"""The Hunger Games(1)-The Hunger Games""",2012,2012,"""adventure""","""sci-fi""",142,,,,,,,,,0.0
-"""The Hunger Games(2)-Catching Fire""",2013,2014,"""adventure""","""sci-fi""",146,,,,,,,,,0.0
-"""The Hunger Games(3)-Mockingjay (Pt. 1)""",2014,2015,"""adventure""","""sci-fi""",123,,,,,,,,,0.0
-"""The Hunger Games(4)-Mockingjay (Pt. 2)""",2015,2015,"""adventure""","""sci-fi""",137,,,,,,,,,0.0
-"""The Hunt for Red October""",1990,2002,"""action""","""thriller""",135,,,,,,,,,0.0
-"""The Illusionist""",2006,2010,"""drama""","""mystery""",110,,,,,,,,,0.0
-"""The Imitation Game""",2014,2017,"""drama""","""biography""",114,,,,,,,,,0.0
-"""The Incredibles""",2004,2008,"""animated""","""action""",115,,,,,,,,,0.0
-"""The Italian Job""",1969,2011,"""action""","""""",99,,,,,,,,,0.0
-"""The Italian Job""",2003,2006,"""action""","""""",111,,,,,,,,,0.0
-"""The Karate Kid""",1984,2012,"""action""","""drama""",126,,,,,,,,,0.0
-"""The Lego Batman Movie""",2017,2017,"""comedy""","""animated""",104,,,,,,,,,0.0
-"""The Lego Movie""",2014,2014,"""comedy""","""animated""",100,,,,,,,,,0.0
-"""The Life Aquatic with Steve Zissou""",2004,2009,"""comedy""","""adventure""",119,,,,,,,,,0.0
-"""The Lion King""",1994,2018,"""animated""","""adventure""",88,,,,,,,,,0.0
-"""The Little Rascals""",1994,2006,"""comedy""","""""",82,,,,,,,,,0.0
-"""The Longest Yard""",2005,2006,"""comedy""","""sports""",113,,,,,,,,,0.0
-"""The Matrix(1)""",1999,2001,"""action""","""sci-fi""",136,,,,,,,,,0.0
-"""The Matrix(2) Reloaded""",2003,2006,"""action""","""sci-fi""",138,,,,,,,,,0.0
-"""The Matrix(3) Revolutions""",2003,2008,"""action""","""sci-fi""",129,,,,,,,,,0.0
-"""The Nice Guys""",2016,2016,"""comedy""","""action""",116,,,,,,,,,0.0
-"""The Notebook""",2004,2012,"""romantic comedy""","""""",123,,,,,,,,,0.0
-"""The Overnight""",2015,2017,"""comedy""","""""",79,,,,,,,,,0.0
-"""The Point""",1971,2006,"""animated""","""adventure""",74,,,,,,,,,0.0
-"""The Prestige""",2006,2013,"""drama""","""mystery""",130,,,,,,,,,0.0
-"""The Pursuit of Happyness""",2006,2009,"""drama""","""biography""",117,,,,,,,,,0.0
-"""The Rookie""",2002,2002,"""drama""","""sports""",127,,,,,,,,,0.0
-"""The Room""",2003,2011,"""drama""","""""",99,,,,,,,,,0.0
-"""The Royal Tenenbaums""",2001,2006,"""comedy""","""""",110,,,,,,,,,0.0
-"""The Sandlot""",1993,1998,"""comedy""","""sports""",101,,,,,,,,,0.0
-"""The Sasquatch Gang""",2006,2009,"""comedy""","""""",86,,,,,,,,,0.0
-"""The Slammin' Salmon""",2009,2010,"""comedy""","""""",90,,,,,,,,,0.0
-"""The Social Network""",2010,2011,"""drama""","""biography""",120,,,,,,,,,0.0
-"""The Sound of Music""",1965,2005,"""drama""","""music""",172,,,,,,,,,0.0
-"""The Truman Show""",1998,2004,"""comedy""","""sci-fi""",103,,,,,,,,,0.0
-"""The Untouchables""",1987,2007,"""crime""","""drama""",119,,,,,,,,,0.0
-"""The Usual Suspects""",1995,2001,"""crime""","""mystery""",106,,,,,,,,,0.0
-"""The Waterboy""",1998,1999,"""comedy""","""sports""",90,,,,,,,,,0.0
-"""The Yellow Submarine""",1968,1998,"""music""","""animated""",85,,,,,,,,,0.0
-"""Thirteen Days""",2000,2005,"""history""","""drama""",145,,,,,,,,,0.0
-"""This Film Is Not Yet Rated""",2006,2018,"""documentary""","""""",98,,,,,,,,,0.0
-"""This Is Spinal Tap""",1984,2008,"""comedy""","""music""",82,,,,,,,,,0.0
-"""This Is The End""",2013,2014,"""comedy""","""fantasy""",107,,,,,,,,,0.0
-"""Three Billboards Outside Ebbing Missouri""",2017,2018,"""drama""","""comedy""",115,,,,,,,,,0.0
-"""Tin Cup""",1996,2001,"""drama""","""comedy""",135,,,,,,,,,0.0
-"""Tongan Ninja""",2002,2010,"""comedy""","""action""",83,,,,,,,,,0.0
-"""Toy Story 1""",1995,1998,"""animated""","""adventure""",81,,,,,,,,,0.0
-"""Toy Story 2""",1999,1999,"""animated""","""adventure""",92,,,,,,,,,0.0
-"""Toy Story 3""",2010,2011,"""animated""","""adventure""",103,,,,,,,,,0.0
-"""Trailer Park Boys-Christmas Special""",2004,2013,"""comedy""","""""",57,,,,,,,,,0.0
-"""Trailer Park Boys-Countdown to Liquor Day""",2009,2013,"""comedy""","""""",102,,,,,,,,,0.0
-"""Trailer Park Boys-Don't Legalize It""",2014,2016,"""comedy""","""""",95,,,,,,,,,0.0
-"""Trailer Park Boys-The Big Dirty""",2006,2013,"""comedy""","""""",95,,,,,,,,,0.0
-"""Trailer Park Boys-The Movie""",1999,2013,"""comedy""","""""",67,,,,,,,,,0.0
-"""Training Day""",2001,2011,"""crime""","""drama""",122,,,,,,,,,0.0
-"""Trainspotting""",1996,2010,"""drama""","""""",94,,,,,,,,,0.0
-"""Tremors""",1990,2001,"""comedy""","""horror""",96,,,,,,,,,0.0
-"""Tropic Thunder""",2008,2010,"""comedy""","""action""",107,,,,,,,,,0.0
-"""Tucker and Dale vs Evil""",2010,2018,"""comedy""","""horror""",89,,,,,,,,,0.0
-"""Twilight(1)""",2008,2009,"""fantasy""","""romance""",122,,,,,,,,,0.0
-"""Twilight(2)-New Moon""",2009,2011,"""fantasy""","""romance""",130,,,,,,,,,0.0
-"""Twilight(3)-Eclipse""",2010,2011,"""fantasy""","""romance""",124,,,,,,,,,0.0
-"""Twilight(4)-Breaking Down Pt.1""",2011,2013,"""fantasy""","""romance""",117,,,,,,,,,0.0
-"""Twilight(5)-Breaking Dawn Pt. 2""",2012,2013,"""fantasy""","""romance""",115,,,,,,,,,0.0
-"""Unbreakable""",2000,2010,"""drama""","""sci-fi""",106,,,,,,,,,0.0
-"""Up""",2009,2012,"""animated""","""adventure""",96,,,,,,,,,0.0
-"""V for Vendetta""",2005,2008,"""action""","""sci-fi""",132,,,,,,,,,0.0
-"""Walk the Line""",2005,2009,"""biography""","""music""",136,,,,,,,,,0.0
-"""Wall-E""",2008,2014,"""animated""","""adventure""",98,,,,,,,,,0.0
-"""Waterworld""",1995,2007,"""sci-fi""","""action""",135,,,,,,,,,0.0
-"""Wayne's World 1""",1992,2005,"""comedy""","""music""",94,,,,,,,,,0.0
-"""Wayne's World 2""",1993,2005,"""comedy""","""music""",95,,,,,,,,,0.0
-"""Wedding Crashers""",2005,2009,"""comedy""","""""",119,,,,,,,,,0.0
-"""Weekend At Bernies 1""",1989,2008,"""comedy""","""adventure""",97,,,,,,,,,0.0
-"""Weekend At Bernies 2""",1993,2010,"""comedy""","""adventure""",97,,,,,,,,,0.0
-"""Wet Hot American Summer""",2001,2010,"""comedy""","""""",97,,,,,,,,,0.0
-"""What We Do In The Shadows""",2014,2016,"""comedy""","""mockumentary""",86,,,,,,,,,0.0
-"""White Men Can't Jump""",1992,2019,"""sports""","""comedy""",115,,,,,,,,,0.0
-"""Without a Paddle""",2004,2007,"""comedy""","""adventure""",95,,,,,,,,,0.0
-"""Wizard People, Dear Reader""",2004,2016,"""comedy""","""""",152,,,,,,,,,0.0
-"""Wolf Children""",2012,2016,"""animated""","""drama""",117,,,,,,,,,0.0
-"""X-Men(1)(2000)-X-Men""",2000,2010,"""superhero""","""documentary""",104,,,,,,,,,0.0
-"""X-Men(10)(2029)-Logan""",2017,2018,"""superhero""","""documentary""",137,,,,,,,,,0.0
-"""X-Men(2)(2003)-X2""",2003,2010,"""superhero""","""documentary""",134,,,,,,,,,0.0
-"""X-Men(3)(2006)-The Last Stand""",2006,2014,"""superhero""","""documentary""",104,,,,,,,,,0.0
-"""X-Men(4)(1981)-Origins Wolverine""",2009,2014,"""superhero""","""documentary""",107,,,,,,,,,0.0
-"""X-Men(5)(1962)-First Class""",2011,2014,"""superhero""","""documentary""",131,,,,,,,,,0.0
-"""X-Men(6)(2013)-The Wolverine""",2013,2015,"""superhero""","""documentary""",126,,,,,,,,,0.0
-"""X-Men(7)(2023)-Days of Future Past""",2014,2016,"""superhero""","""documentary""",132,,,,,,,,,0.0
-"""X-Men(8)(1983)-Apocalypse""",2016,2017,"""superhero""","""documentary""",144,,,,,,,,,0.0
-"""X-Men(9)(2016)-Deadpool""",2016,2017,"""superhero""","""documentary""",108,,,,,,,,,0.0
-"""Your Name""",2016,2016,"""animated""","""drama""",106,,,,,,,,,0.0
-"""Youth In Revolt""",2009,2010,"""comedy""","""drama""",90,,,,,,,,,0.0
-"""Zack and Miri Make a Porno""",2008,2010,"""comedy""","""romance""",101,,,,,,,,,0.0
-"""Zoolander 1""",2001,2003,"""comedy""","""""",90,,,,,,,,,0.0
-"""Zoolander 2""",2016,2017,"""comedy""","""""",101,,,,,,,,,0.0
+name,year,est_year_watched,genre,sub_genre,movie_length,peak,consistency,premise,plot,information_gain,desired_effects,wit,length,timelessness,adjustment,overall_grade
+"""12 Angry Men""",1957,2012,"""drama""","""""",96,,,,,,,,,,,0.0
+"""127 Hours""",2010,2012,"""adventure""","""biography""",94,,,,,,,,,,,0.0
+"""1984""",1984,2017,"""sci-fi""","""""",113,,,,,,,,,,,0.0
+"""21""",2008,2009,"""drama""","""""",123,,,,,,,,,,,0.0
+"""21 Jump Street""",2012,2014,"""comedy""","""""",110,,,,,,,,,,,0.0
+"""22 Jump Street""",2014,2015,"""comedy""","""""",112,,,,,,,,,,,0.0
+"""300""",2006,2008,"""action""","""""",117,,,,,,,,,,,0.0
+"""42""",2013,2014,"""biography""","""sports""",128,,,,,,,,,,,0.0
+"""50 First Dates""",2004,2007,"""romantic comedy""","""""",99,,,,,,,,,,,0.0
+"""50/50""",2011,2012,"""drama""","""comedy""",110,,,,,,,,,,,0.0
+"""6 Days to Air-The Making Of South Park""",2011,2011,"""documentary""","""comedy""",42,,,,,,,,,,,0.0
+"""A Beautiful Mind""",2001,2014,"""biography""","""drama""",140,,,,,,,,,,,0.0
+"""A Clockwork Orange""",1971,2011,"""crime""","""drama""",136,,,,,,,,,,,0.0
+"""A Knight's Tale""",2001,2004,"""adventure""","""action""",132,,,,,,,,,,,0.0
+"""Accepted""",2006,2007,"""comedy""","""""",93,,,,,,,,,,,0.0
+"""Adult World""",2013,2015,"""comedy""","""""",97,,,,,,,,,,,0.0
+"""All the President's Men""",1976,2005,"""history""","""drama""",138,,,,,,,,,,,0.0
+"""Almost Famous""",2000,2007,"""comedy""","""drama""",162,,,,,,,,,,,0.0
+"""AlphaGo""",2017,2018,"""documentary""","""""",90,,,,,,,,,,,0.0
+"""Amelie""",2001,2010,"""romantic comedy""","""french""",129,,,,,,,,,,,0.0
+"""American History X""",1998,2010,"""crime""","""drama""",119,,,,,,,,,,,0.0
+"""An Inconvenient Truth""",2006,2006,"""documentary""","""""",96,,,,,,,,,,,0.0
+"""Anchorman: The Legend of Ron Burgundy""",2004,2008,"""comedy""","""""",94,,,,,,,,,,,0.0
+"""Angels & Demons""",2009,2011,"""mystery""","""""",138,,,,,,,,,,,0.0
+"""Angels in the Outfield""",1994,2002,"""fantasy""","""sports""",102,,,,,,,,,,,0.0
+"""Anger Management""",2003,2007,"""comedy""","""""",106,,,,,,,,,,,0.0
+"""Baby Driver""",2017,2018,"""action""","""""",113,,,,,,,,,,,0.0
+"""Back to the Future(1)""",1985,2003,"""adventure""","""sci-fi""",116,,,,,,,,,,,0.0
+"""Back to the Future(2)""",1985,2003,"""adventure""","""sci-fi""",108,,,,,,,,,,,0.0
+"""Back to the Future(3)""",1990,2003,"""adventure""","""sci-fi""",118,,,,,,,,,,,0.0
+"""Bad News Bears""",1979,2017,"""comedy""","""sports""",102,,,,,,,,,,,0.0
+"""Bad News Bears""",2005,2017,"""comedy""","""sports""",113,,,,,,,,,,,0.0
+"""BASEketball""",1998,2005,"""comedy""","""sports""",103,,,,,,,,,,,0.0
+"""Baywatch""",2017,2018,"""comedy""","""action""",116,,,,,,,,,,,0.0
+"""Beerfest""",2006,2009,"""comedy""","""""",110,,,,,,,,,,,0.0
+"""Behind The Curve""",2018,2019,"""documentary""","""""",96,,,,,,,,,,,0.0
+"""Being John Malkovich""",1999,2013,"""drama""","""comedy""",112,,,,,,,,,,,0.0
+"""Better Off Dead""",1985,2007,"""comedy""","""""",97,,,,,,,,,,,0.0
+"""Big Daddy""",1999,2004,"""comedy""","""""",93,,,,,,,,,,,0.0
+"""Big Hero 6""",2014,2016,"""superhero""","""animated""",102,,,,,,,,,,,0.0
+"""Bill and Teds Bogus Journey""",1991,2005,"""comedy""","""""",93,,,,,,,,,,,0.0
+"""Bill and Teds Excellent Adventure""",1989,2005,"""comedy""","""""",89,,,,,,,,,,,0.0
+"""Billy Madison""",1995,2000,"""comedy""","""""",89,,,,,,,,,,,0.0
+"""Blood Diamond""",2006,2007,"""adventure""","""drama""",143,,,,,,,,,,,0.0
+"""Bolt""",2008,2014,"""adventure""","""animated""",96,,,,,,,,,,,0.0
+"""Borat: Cultural Learnings of America for Make Benefit Glorius Nation of Kazakhstan""",2006,2007,"""comedy""","""mockumentary""",84,,,,,,,,,,,0.0
+"""Bottle Rocket""",1996,2012,"""comedy""","""crime""",91,,,,,,,,,,,0.0
+"""Bourne(1): The Bourne Identity""",2002,2003,"""action""","""thriller""",119,,,,,,,,,,,0.0
+"""Bourne(2): The Bourne Supremacy""",2004,2005,"""action""","""thriller""",108,,,,,,,,,,,0.0
+"""Bourne(3): The Bourne Ultimatum""",2007,2008,"""action""","""thriller""",115,,,,,,,,,,,0.0
+"""Brick""",2005,2012,"""mystery""","""""",110,,,,,,,,,,,0.0
+"""Bruce Almighty""",2003,2005,"""comedy""","""fantasy""",101,,,,,,,,,,,0.0
+"""Bruno""",2009,2016,"""comedy""","""mockumentary""",82,,,,,,,,,,,0.0
+"""Burn After Reading""",2008,2009,"""comedy""","""crime""",96,,,,,,,,,,,0.0
+"""Butter""",2011,2013,"""comedy""","""""",90,,,,,,,,,,,0.0
+"""Cars""",2006,2011,"""animated""","""comedy""",117,,,,,,,,,,,0.0
+"""Cast Away""",2000,2005,"""adventure""","""drama""",143,,,,,,,,,,,0.0
+"""Catch Me If You Can""",2002,2008,"""drama""","""biography""",141,,,,,,,,,,,0.0
+"""Central Intelligence""",2016,2018,"""comedy""","""action""",107,,,,,,,,,,,0.0
+"""Chasing Mavericks""",2012,2015,"""drama""","""biography""",116,,,,,,,,,,,0.0
+"""Children Who Chase Lost Voices""",2011,2017,"""animated""","""adventure""",116,,,,,,,,,,,0.0
+"""CHiPs""",2017,2018,"""comedy""","""crime""",100,,,,,,,,,,,0.0
+"""City Of God""",2002,2018,"""crime""","""drama""",130,,,,,,,,,,,0.0
+"""Clerks""",1994,2013,"""comedy""","""""",92,,,,,,,,,,,0.0
+"""Clerks II""",2006,2013,"""comedy""","""""",97,,,,,,,,,,,0.0
+"""Click""",2006,2007,"""comedy""","""""",107,,,,,,,,,,,0.0
+"""Concussion""",2015,2015,"""biography""","""sports""",123,,,,,,,,,,,0.0
+"""Cool Runnings""",1993,2000,"""comedy""","""sports""",98,,,,,,,,,,,0.0
+"""Crash""",2004,2008,"""crime""","""drama""",112,,,,,,,,,,,0.0
+"""D1: The Mighty Ducks""",1992,2000,"""comedy""","""sports""",100,,,,,,,,,,,0.0
+"""D2: The Mighty Ducks""",1994,2000,"""comedy""","""sports""",106,,,,,,,,,,,0.0
+"""D3: The Mighty Ducks""",1996,2000,"""comedy""","""sports""",104,,,,,,,,,,,0.0
+"""Dances With Wolves""",1990,2006,"""adventure""","""western""",181,,,,,,,,,,,0.0
+"""Dark Knight Trilogy(1): Batman Begins""",2005,2012,"""superhero""","""action""",140,,,,,,,,,,,0.0
+"""Dark Knight Trilogy(2): The Dark Knight""",2008,2015,"""superhero""","""action""",152,,,,,,,,,,,0.0
+"""Dark Knight Trilogy(3): The Dark Knight Rises""",2012,2015,"""superhero""","""action""",164,,,,,,,,,,,0.0
+"""Dazed and Confused""",1993,2011,"""comedy""","""""",102,,,,,,,,,,,0.0
+"""Deja Vu""",2006,2012,"""action""","""sci-fi""",126,,,,,,,,,,,0.0
+"""Despicable Me""",2010,2015,"""comedy""","""animated""",95,,,,,,,,,,,0.0
+"""Despicable Me(2)""",2013,2015,"""comedy""","""animated""",98,,,,,,,,,,,0.0
+"""Die Hard""",1998,2014,"""action""","""""",132,,,,,,,,,,,0.0
+"""Dodgeball: A True Underdog Story""",2004,2006,"""comedy""","""sports""",92,,,,,,,,,,,0.0
+"""Dogma""",1999,2006,"""comedy""","""drama""",130,,,,,,,,,,,0.0
+"""Donnie Darko""",2001,2009,"""drama""","""sci-fi""",113,,,,,,,,,,,0.0
+"""Draft Day""",2014,2016,"""drama""","""sports""",110,,,,,,,,,,,0.0
+"""Drive""",2011,2017,"""drama""","""crime""",100,,,,,,,,,,,0.0
+"""Dumb and Dumber""",1994,2002,"""comedy""","""""",107,,,,,,,,,,,0.0
+"""Dumb and Dumberer: When Harry Met Lloyd""",2003,2004,"""comedy""","""""",85,,,,,,,,,,,0.0
+"""Eagle Vs. Shark""",2007,2011,"""comedy""","""""",88,,,,,,,,,,,0.0
+"""Edward Scissorhands""",1990,2004,"""drama""","""""",105,,,,,,,,,,,0.0
+"""Elf""",2003,2004,"""comedy""","""""",97,,,,,,,,,,,0.0
+"""Enders Game""",2013,2018,"""action""","""fantasy""",114,,,,,,,,,,,0.0
+"""Everything Is Illuminated""",2005,2007,"""comedy""","""drama""",106,,,,,,,,,,,0.0
+"""Ex Machina""",2014,2018,"""drama""","""sci-fi""",108,,,,,,,,,,,0.0
+"""Fast and Furious(1)(1)-The Fast and the Furious""",2001,2008,"""action""","""""",106,,,,,,,,,,,0.0
+"""Fast and Furious(2)(2)-2 Fast 2 Furious""",2003,2009,"""action""","""""",107,,,,,,,,,,,0.0
+"""Fast and Furious(3)(6)-Tokyo Drift""",2006,2016,"""action""","""""",106,,,,,,,,,,,0.0
+"""Fast and Furious(4)(3)-Fast and Furious""",2009,2016,"""action""","""""",107,,,,,,,,,,,0.0
+"""Fast and Furious(5)(4)-Fast Five""",2011,2012,"""action""","""""",130,,,,,,,,,,,0.0
+"""Fast and Furious(6)(5)-Fast and Furious 6""",2013,2016,"""action""","""""",130,,,,,,,,,,,0.0
+"""Fast and Furious(7)(7)-Furious 7""",2015,2016,"""action""","""""",137,,,,,,,,,,,0.0
+"""Fast and Furious(8)(8)-The Fate of the Furious""",2017,2019,"""action""","""""",136,,,,,,,,,,,0.0
+"""Fast Times at Ridgement High""",1982,2013,"""comedy""","""""",90,,,,,,,,,,,0.0
+"""Ferris Bueller's Day Off""",1986,2003,"""comedy""","""""",103,,,,,,,,,,,0.0
+"""Field of Dreams""",1989,2002,"""drama""","""fantasy""",107,,,,,,,,,,,0.0
+"""Fight Club""",1999,2010,"""drama""","""""",139,,,,,,,,,,,0.0
+"""Finding Dory""",2016,2018,"""comedy""","""animated""",97,,,,,,,,,,,0.0
+"""Finding Nemo""",2003,2004,"""comedy""","""animated""",100,,,,,,,,,,,0.0
+"""Forgetting Sarah Marshall""",2008,2010,"""comedy""","""""",111,,,,,,,,,,,0.0
+"""Forrest Gump""",1994,2006,"""comedy""","""drama""",142,,,,,,,,,,,0.0
+"""Freedom Writers""",2007,2011,"""drama""","""biography""",123,,,,,,,,,,,0.0
+"""Freeloaders""",2012,2013,"""comedy""","""""",77,,,,,,,,,,,0.0
+"""Friday Night Lights""",2004,2004,"""drama""","""sports""",118,,,,,,,,,,,0.0
+"""Garden State""",2004,2008,"""comedy""","""drama""",102,,,,,,,,,,,0.0
+"""GATTACA""",1997,2019,"""sci-fi""","""drama""",106,,,,,,,,,,,0.0
+"""Gentlemen Broncos""",2009,2010,"""comedy""","""sci-fi""",90,,,,,,,,,,,0.0
+"""Ghostbusters""",1984,2019,"""fantasy""","""comedy""",105,,,,,,,,,,,0.0
+"""Glass""",2019,2019,"""sci-fi""","""drama""",129,,,,,,,,,,,0.0
+"""God Bless America""",2011,2013,"""comedy""","""""",105,,,,,,,,,,,0.0
+"""Good Burger""",1997,2011,"""comedy""","""""",95,,,,,,,,,,,0.0
+"""Good Will Hunting""",1997,2007,"""drama""","""""",126,,,,,,,,,,,0.0
+"""Goon(1)""",2011,2012,"""comedy""","""sports""",92,,,,,,,,,,,0.0
+"""Goon(2)-Last of the Enforcers""",2017,2017,"""comedy""","""sports""",101,,,,,,,,,,,0.0
+"""Grandma's Boy""",2006,2009,"""comedy""","""""",94,,,,,,,,,,,0.0
+"""Groundhog Day""",1993,2006,"""comedy""","""""",101,,,,,,,,,,,0.0
+"""Half Baked""",1998,2011,"""comedy""","""""",82,,,,,,,,,,,0.0
+"""Happy Feet(1)""",2006,2013,"""adventure""","""animated""",108,,,,,,,,,,,0.0
+"""Happy Feet(2)""",2011,2013,"""adventure""","""comedy""",100,,,,,,,,,,,0.0
+"""Happy Gilmore""",1996,1999,"""comedy""","""sports""",92,,,,,,,,,,,0.0
+"""Harold & Kumar Go to White Castle""",2004,2008,"""comedy""","""adventure""",88,,,,,,,,,,,0.0
+"""Harry Potter(1) and the Philosopher's Stone""",2001,2001,"""fantasy""","""""",152,,,,,,,,,,,0.0
+"""Harry Potter(2) and the Chamber of Secrets""",2002,2002,"""fantasy""","""""",161,,,,,,,,,,,0.0
+"""Harry Potter(3) and the Prisoner of Azkaban""",2004,2004,"""fantasy""","""""",142,,,,,,,,,,,0.0
+"""Harry Potter(4) and the Goblet of Fire""",2005,2005,"""fantasy""","""""",157,,,,,,,,,,,0.0
+"""Harry Potter(5) and the Order of the Phoenix""",2007,2007,"""fantasy""","""""",138,,,,,,,,,,,0.0
+"""Harry Potter(6) and the Half-Blood Prince""",2009,2010,"""fantasy""","""""",153,,,,,,,,,,,0.0
+"""Harry Potter(7) and the Deathly Hallows Pt.1""",2010,2011,"""fantasy""","""""",146,,,,,,,,,,,0.0
+"""Harry Potter(8) and the Deathly Hallows Pt.2""",2011,2012,"""fantasy""","""""",130,,,,,,,,,,,0.0
+"""Heavy Weights""",1995,2009,"""comedy""","""""",100,,,,,,,,,,,0.0
+"""Holes""",2003,2006,"""adventure""","""comedy""",117,,,,,,,,,,,0.0
+"""Holy Rollers-The True Story of Card Counting Christians""",2011,2015,"""documentary""","""""",92,,,,,,,,,,,0.0
+"""Home Alone(1)""",1990,1998,"""comedy""","""family""",103,,,,,,,,,,,0.0
+"""Home Alone(2)-Lost in New York""",1992,1998,"""comedy""","""family""",120,,,,,,,,,,,0.0
+"""Hot Fuzz""",2007,2009,"""comedy""","""action""",121,,,,,,,,,,,0.0
+"""Hot Rod""",2007,2008,"""comedy""","""""",88,,,,,,,,,,,0.0
+"""Hot Tub Time Machine(1)""",2010,2012,"""comedy""","""sci-fi""",101,,,,,,,,,,,0.0
+"""Hot Tub Time Machine(2)""",2015,2016,"""comedy""","""sci-fi""",93,,,,,,,,,,,0.0
+"""Hurricane of Fun: The Making of Wet Hot""",2015,2017,"""documentary""","""comedy""",64,,,,,,,,,,,0.0
+"""I Love You, Man""",2009,2011,"""comedy""","""""",105,,,,,,,,,,,0.0
+"""I, Robot""",2004,2004,"""action""","""""",115,,,,,,,,,,,0.0
+"""Icarus""",2017,2018,"""documentary""","""sports""",121,,,,,,,,,,,0.0
+"""Ice Age(1)""",2002,2006,"""comedy""","""animated""",81,,,,,,,,,,,0.0
+"""Ice Age(2): The Meltdown""",2006,2010,"""comedy""","""animated""",91,,,,,,,,,,,0.0
+"""Ice Guardians""",2016,2017,"""documentary""","""sports""",108,,,,,,,,,,,0.0
+"""Idiocracy""",2006,2009,"""comedy""","""""",84,,,,,,,,,,,0.0
+"""Inception""",2010,2012,"""action""","""sci-fi""",148,,,,,,,,,,,0.0
+"""Inglourious Basterds""",2009,2012,"""drama""","""adventure""",153,,,,,,,,,,,0.0
+"""Inside Job""",2010,2015,"""documentary""","""economics""",105,,,,,,,,,,,0.0
+"""Inside Out""",2015,2018,"""comedy""","""animated""",95,,,,,,,,,,,0.0
+"""Into The Wild""",2007,2008,"""adventure""","""biography""",148,,,,,,,,,,,0.0
+"""Invictus""",2009,2010,"""drama""","""biography""",134,,,,,,,,,,,0.0
+"""Invincible""",2006,2008,"""biography""","""sports""",105,,,,,,,,,,,0.0
+"""Island of Lemurs: Madagascar""",2014,2014,"""documentary""","""wilderness""",39,,,,,,,,,,,0.0
+"""Jay and Silent Bob Strike Back""",2001,2009,"""comedy""","""""",104,,,,,,,,,,,0.0
+"""Jeff Who Lives at Home""",2011,2013,"""comedy""","""drama""",83,,,,,,,,,,,0.0
+"""Joe Dirt""",2001,2006,"""comedy""","""""",91,,,,,,,,,,,0.0
+"""John Dies at The End""",2012,2016,"""comedy""","""horror""",99,,,,,,,,,,,0.0
+"""Jumanji: Welcome To The Jungle""",2017,2018,"""comedy""","""adventure""",119,,,,,,,,,,,0.0
+"""Juno""",2007,2007,"""comedy""","""drama""",96,,,,,,,,,,,0.0
+"""Keanu""",2016,2018,"""comedy""","""action""",100,,,,,,,,,,,0.0
+"""Kill Bill: Vol. 1""",2003,2010,"""action""","""""",111,,,,,,,,,,,0.0
+"""Kill Bill: Vol. 2""",2004,2010,"""action""","""""",137,,,,,,,,,,,0.0
+"""Kitten Bowl-2014""",2014,2014,"""cats""","""sports""",124,,,,,,,,,,,0.0
+"""Kung Fu Panda(1)""",2008,2013,"""adventure""","""animated""",92,,,,,,,,,,,0.0
+"""Kung Fu Panda(2)""",2011,2013,"""adventure""","""animated""",90,,,,,,,,,,,0.0
+"""Kung Fury""",2015,2015,"""comedy""","""action""",31,,,,,,,,,,,0.0
+"""L.A. Confidential""",1997,2011,"""drama""","""mystery""",138,,,,,,,,,,,0.0
+"""Legally Blonde""",2001,2005,"""comedy""","""""",96,,,,,,,,,,,0.0
+"""Life Is Beautiful""",1997,2009,"""drama""","""comedy""",116,,,,,,,,,,,0.0
+"""Life of Pi""",2012,2014,"""adventure""","""fantasy""",127,,,,,,,,,,,0.0
+"""Little Giants""",1994,2013,"""comedy""","""sports""",107,,,,,,,,,,,0.0
+"""Little Miss Sunshine""",2006,2008,"""comedy""","""""",101,,,,,,,,,,,0.0
+"""Little Nicky""",2000,2002,"""comedy""","""""",90,,,,,,,,,,,0.0
+"""Looper""",2012,2014,"""action""","""drama""",113,,,,,,,,,,,0.0
+"""Lord of the Rings(1): The Fellowship of the Ring""",2001,2018,"""fantasy""","""adventure""",178,,,,,,,,,,,0.0
+"""Lord of the Rings(2): The Two Towers""",2002,2018,"""fantasy""","""adventure""",179,,,,,,,,,,,0.0
+"""Lord of the Rings(3): The Return of the King""",2003,2018,"""fantasy""","""adventure""",201,,,,,,,,,,,0.0
+"""MacGruber""",2010,2015,"""comedy""","""action""",90,,,,,,,,,,,0.0
+"""Mad Max: Fury Road""",2015,2018,"""action""","""""",120,,,,,,,,,,,0.0
+"""Madagascar(1)""",2005,2008,"""comedy""","""animated""",86,,,,,,,,,,,0.0
+"""Madagascar(2)-Escape 2 Africa""",2008,2013,"""comedy""","""animated""",89,,,,,,,,,,,0.0
+"""Major Payne""",1995,2004,"""comedy""","""""",95,,,,,,,,,,,0.0
+"""Malibus Most Wanted""",2003,2007,"""comedy""","""""",86,,,,,,,,,,,0.0
+"""Matilda""",1996,2002,"""fantasy""","""comedy""",102,,,,,,,,,,,0.0
+"""Me and Earl and the Dying Girl""",2015,2017,"""comedy""","""drama""",105,,,,,,,,,,,0.0
+"""Mean Girls""",2004,2008,"""comedy""","""""",97,,,,,,,,,,,0.0
+"""Men in Black(1)""",1997,1999,"""comedy""","""""",98,,,,,,,,,,,0.0
+"""Men in Black(2)""",2002,2003,"""comedy""","""""",88,,,,,,,,,,,0.0
+"""Men With Brooms""",2002,2006,"""comedy""","""drama""",102,,,,,,,,,,,0.0
+"""Michael Bolton's Big, Sexy Valentine's Day Special""",2017,2017,"""comedy""","""musical""",54,,,,,,,,,,,0.0
+"""Millennium Series 1-The Girl With The Dragon Tattoo""",2009,2013,"""drama""","""""",152,,,,,,,,,,,0.0
+"""Miracle""",2004,2005,"""biography""","""sports""",135,,,,,,,,,,,0.0
+"""Miss Congeniality""",2000,2003,"""comedy""","""action""",109,,,,,,,,,,,0.0
+"""Moneyball""",2011,2012,"""sports""","""biography""",133,,,,,,,,,,,0.0
+"""Monsters Inc.""",2001,2008,"""animated""","""comedy""",92,,,,,,,,,,,0.0
+"""Monty Python and the Holy Grail""",1975,2005,"""comedy""","""""",91,,,,,,,,,,,0.0
+"""Monty Python-And Now For Something Completely Different""",1971,2018,"""comedy""","""sketches""",88,,,,,,,,,,,0.0
+"""Moonrise Kingdom""",2012,2014,"""comedy""","""adventure""",94,,,,,,,,,,,0.0
+"""Mr. Deeds""",2002,2006,"""comedy""","""""",96,,,,,,,,,,,0.0
+"""Nacho Libre""",2006,2008,"""comedy""","""""",92,,,,,,,,,,,0.0
+"""Napoleon Dynamite""",2004,2005,"""comedy""","""""",96,,,,,,,,,,,0.0
+"""National Treasure""",2004,2006,"""adventure""","""action""",131,,,,,,,,,,,0.0
+"""Norman""",2010,2011,"""comedy""","""drama""",99,,,,,,,,,,,0.0
+"""Not Another Teen Movie""",2001,2007,"""comedy""","""""",89,,,,,,,,,,,0.0
+"""Now You See Me(1)""",2013,2015,"""mystery""","""""",115,,,,,,,,,,,0.0
+"""Now You See Me(2)""",2016,2018,"""mystery""","""""",129,,,,,,,,,,,0.0
+"""Ocean's 11""",2001,2003,"""crime""","""""",116,,,,,,,,,,,0.0
+"""Ocean's 12""",2004,2005,"""crime""","""""",125,,,,,,,,,,,0.0
+"""Ocean's 13""",2007,2009,"""crime""","""""",122,,,,,,,,,,,0.0
+"""Office Space""",1999,2006,"""comedy""","""""",89,,,,,,,,,,,0.0
+"""One & Done (Ben Simmons)""",2016,2016,"""documentary""","""""",91,,,,,,,,,,,0.0
+"""One Crazy Summer""",1986,2014,"""comedy""","""""",93,,,,,,,,,,,0.0
+"""One Flew Over The Cuckoos Nest""",1975,2009,"""drama""","""""",133,,,,,,,,,,,0.0
+"""Orgazmo""",1997,2011,"""comedy""","""""",94,,,,,,,,,,,0.0
+"""Pelotero-Ballplayer""",2011,2011,"""documentary""","""sports""",77,,,,,,,,,,,0.0
+"""Phantom Thread""",2018,2018,"""drama""","""""",130,,,,,,,,,,,0.0
+"""Pineapple Express""",2008,2009,"""comedy""","""""",111,,,,,,,,,,,0.0
+"""Pirate Radio""",2009,2017,"""comedy""","""drama""",117,,,,,,,,,,,0.0
+"""Pirates of the Caribbean(1): The Curse of the Black Pearl""",2003,2012,"""action""","""fantasy""",143,,,,,,,,,,,0.0
+"""Pirates of the Caribbean(2): Dead Man's Chest""",2006,2012,"""action""","""fantasy""",151,,,,,,,,,,,0.0
+"""Pirates of the Caribbean(3): At World's End""",2007,2012,"""action""","""fantasy""",169,,,,,,,,,,,0.0
+"""Pirates of the Caribbean(4): On Stranger Tides""",2011,2012,"""action""","""fantasy""",136,,,,,,,,,,,0.0
+"""Pitch Perfect""",2012,2012,"""music""","""comedy""",112,,,,,,,,,,,0.0
+"""Pocahontas""",1995,2012,"""animated""","""adventure""",81,,,,,,,,,,,0.0
+"""Point Break""",1991,2014,"""action""","""""",122,,,,,,,,,,,0.0
+"""Pootie Tang""",2001,2007,"""comedy""","""""",81,,,,,,,,,,,0.0
+"""Popstar-Never Stop Never Stopping""",2016,2017,"""comedy""","""""",87,,,,,,,,,,,0.0
+"""Puddle Cruiser""",1996,2012,"""comedy""","""""",102,,,,,,,,,,,0.0
+"""Pulp Fiction""",1994,2007,"""drama""","""""",154,,,,,,,,,,,0.0
+"""Rain Man""",1988,2010,"""drama""","""""",133,,,,,,,,,,,0.0
+"""Ready Player One""",2018,2018,"""action""","""sci-fi""",140,,,,,,,,,,,0.0
+"""Real Genius""",1985,2008,"""comedy""","""sci-fi""",108,,,,,,,,,,,0.0
+"""Remember the Titans""",2000,2005,"""biography""","""sports""",113,,,,,,,,,,,0.0
+"""Requiem For a Dream""",2000,2010,"""drama""","""""",102,,,,,,,,,,,0.0
+"""Reservoir Dogs""",1992,2014,"""crime""","""drama""",99,,,,,,,,,,,0.0
+"""Road To Perdition""",2002,2009,"""crime""","""drama""",117,,,,,,,,,,,0.0
+"""Robin Hood: Men In Tights""",1993,1998,"""comedy""","""""",104,,,,,,,,,,,0.0
+"""Role Models""",2008,2009,"""comedy""","""""",99,,,,,,,,,,,0.0
+"""Rookie of the Year""",1993,2002,"""comedy""","""sports""",103,,,,,,,,,,,0.0
+"""Rounders""",1998,2007,"""drama""","""""",121,,,,,,,,,,,0.0
+"""Run Ronnie Run""",2002,2018,"""comedy""","""""",86,,,,,,,,,,,0.0
+"""Rushmore""",1998,2008,"""comedy""","""""",93,,,,,,,,,,,0.0
+"""Safety Not Guaranteed""",2012,2013,"""comedy""","""""",86,,,,,,,,,,,0.0
+"""Saving Private Ryan""",1998,2004,"""drama""","""""",169,,,,,,,,,,,0.0
+"""School of Rock""",2003,2004,"""comedy""","""music""",108,,,,,,,,,,,0.0
+"""Scott Pilgrim vs. The World""",2010,2011,"""comedy""","""action""",112,,,,,,,,,,,0.0
+"""Se7en""",1995,2012,"""crime""","""drama""",127,,,,,,,,,,,0.0
+"""Searching for Bobby Fischer""",1993,2017,"""drama""","""""",109,,,,,,,,,,,0.0
+"""Secondhand Lions""",2003,2018,"""comedy""","""drama""",109,,,,,,,,,,,0.0
+"""Semi-Pro""",2008,2019,"""comedy""","""sports""",91,,,,,,,,,,,0.0
+"""Seven Pounds""",2008,2015,"""drama""","""""",123,,,,,,,,,,,0.0
+"""Seven Psychopaths""",2012,2012,"""comedy""","""""",110,,,,,,,,,,,0.0
+"""Shaolin Soccer""",2001,2006,"""comedy""","""action""",87,,,,,,,,,,,0.0
+"""Sharknado(1)""",2013,2014,"""action""","""comedy""",86,,,,,,,,,,,0.0
+"""Sharknado(2)-The Second One""",2014,2015,"""action""","""comedy""",95,,,,,,,,,,,0.0
+"""Sharknado(3)-Oh Hell No""",2015,2016,"""action""","""comedy""",93,,,,,,,,,,,0.0
+"""Sharknado(4)-The Fourth Awakens""",2016,2016,"""action""","""comedy""",95,,,,,,,,,,,0.0
+"""Sharknado(5)-Global Swarming""",2017,2018,"""action""","""comedy""",93,,,,,,,,,,,0.0
+"""Shaun of the Dead""",2004,2007,"""comedy""","""""",99,,,,,,,,,,,0.0
+"""Shrek""",2001,2004,"""animated""","""comedy""",90,,,,,,,,,,,0.0
+"""Shutter Island""",2010,2019,"""mystery""","""thriller""",138,,,,,,,,,,,0.0
+"""Silver Linings Playbook""",2012,2014,"""comedy""","""drama""",122,,,,,,,,,,,0.0
+"""Sister Act""",1992,2003,"""comedy""","""crime""",100,,,,,,,,,,,0.0
+"""Slumdog Millionaire""",2008,2009,"""drama""","""""",120,,,,,,,,,,,0.0
+"""Sorry to Bother You""",2018,2019,"""comedy""","""fantasy""",111,,,,,,,,,,,0.0
+"""Source Code""",2011,2015,"""sci-fi""","""mystery""",93,,,,,,,,,,,0.0
+"""South Park-Bigger, Longer, and Uncut""",1999,2012,"""comedy""","""animated""",81,,,,,,,,,,,0.0
+"""Space Jam""",1996,1998,"""sports""","""animated""",88,,,,,,,,,,,0.0
+"""Spaceballs""",1987,2005,"""comedy""","""sci-fi""",96,,,,,,,,,,,0.0
+"""Split""",2016,2017,"""thriller""","""""",117,,,,,,,,,,,0.0
+"""Spotlight""",2015,2017,"""crime""","""history""",128,,,,,,,,,,,0.0
+"""St. Vincent""",2014,2018,"""comedy""","""drama""",102,,,,,,,,,,,0.0
+"""Stand and Deliver""",1988,2006,"""drama""","""""",103,,,,,,,,,,,0.0
+"""Starsky and Hutch""",2004,2005,"""comedy""","""""",101,,,,,,,,,,,0.0
+"""Step Brothers""",2008,2009,"""comedy""","""""",98,,,,,,,,,,,0.0
+"""Straight Outta Compton""",2015,2017,"""biography""","""music""",147,,,,,,,,,,,0.0
+"""Stranger Than Fiction""",2006,2007,"""comedy""","""""",113,,,,,,,,,,,0.0
+"""StudioGhibli-Castle in the Sky""",1986,2011,"""animated""","""adventure""",125,,,,,,,,,,,0.0
+"""StudioGhibli-Castle Of Cagliostro""",1979,2010,"""animated""","""adventure""",102,,,,,,,,,,,0.0
+"""StudioGhibli-From Up on Poppy Hill""",2011,2016,"""animated""","""drama""",91,,,,,,,,,,,0.0
+"""StudioGhibli-Howl's Moving Castle""",2004,2011,"""animated""","""adventure""",119,,,,,,,,,,,0.0
+"""StudioGhibli-Kiki's Delivery Service""",1989,2016,"""animated""","""adventure""",103,,,,,,,,,,,0.0
+"""StudioGhibli-My Neighbor Totoro""",1988,2012,"""animated""","""adventure""",86,,,,,,,,,,,0.0
+"""StudioGhibli-Nausicaa of the Valley of the Wind""",1984,2016,"""animated""","""adventure""",117,,,,,,,,,,,0.0
+"""StudioGhibli-Ponyo""",2008,2015,"""animated""","""adventure""",101,,,,,,,,,,,0.0
+"""StudioGhibli-Porco Rosso""",1992,2015,"""animated""","""adventure""",94,,,,,,,,,,,0.0
+"""StudioGhibli-Princess Mononoke""",1997,2009,"""animated""","""adventure""",134,,,,,,,,,,,0.0
+"""StudioGhibli-Spirited Away""",2001,2010,"""animated""","""adventure""",125,,,,,,,,,,,0.0
+"""StudioGhibli-The Secret World of Arrietty""",2010,2016,"""animated""","""adventure""",94,,,,,,,,,,,0.0
+"""StudioGhibli-The Tale of Princess Kaguya""",2013,2016,"""animated""","""adventure""",137,,,,,,,,,,,0.0
+"""StudioGhibli-The Wind Rises""",2013,2016,"""animated""","""biography""",126,,,,,,,,,,,0.0
+"""StudioGhibli-Whisper of the Heart""",1995,2016,"""animated""","""adventure""",111,,,,,,,,,,,0.0
+"""Sudden Death""",1995,2018,"""action""","""""",111,,,,,,,,,,,0.0
+"""Super Size Me""",2004,2005,"""documentary""","""""",100,,,,,,,,,,,0.0
+"""Super Troopers""",2001,2009,"""comedy""","""""",100,,,,,,,,,,,0.0
+"""Superbabies: Baby Geniuses 2""",2004,2010,"""comedy""","""""",88,,,,,,,,,,,0.0
+"""Superbad""",2007,2008,"""comedy""","""""",113,,,,,,,,,,,0.0
+"""Superheroes""",2011,2013,"""documentary""","""""",90,,,,,,,,,,,0.0
+"""Talladega Nights: The Ballad of Ricky Bobby""",2006,2007,"""comedy""","""sports""",108,,,,,,,,,,,0.0
+"""Tangled""",2010,2012,"""animated""","""adventures""",100,,,,,,,,,,,0.0
+"""Terri""",2011,2013,"""comedy""","""drama""",105,,,,,,,,,,,0.0
+"""The 40-Year-Old Virgin""",2005,2009,"""comedy""","""""",116,,,,,,,,,,,0.0
+"""The Accountant""",2016,2017,"""action""","""""",128,,,,,,,,,,,0.0
+"""The Adjustment Bureau""",2011,2013,"""sci-fi""","""""",106,,,,,,,,,,,0.0
+"""The Aristocats""",1970,2018,"""comedy""","""animated""",78,,,,,,,,,,,0.0
+"""The Babymakers""",2012,2014,"""comedy""","""""",95,,,,,,,,,,,0.0
+"""The Benchwarmers""",2006,2007,"""comedy""","""sports""",80,,,,,,,,,,,0.0
+"""The BFG""",2016,2018,"""fantasy""","""adventure""",117,,,,,,,,,,,0.0
+"""The Big Lebowski""",1998,2008,"""comedy""","""""",117,,,,,,,,,,,0.0
+"""The Blind Side""",2009,2011,"""biography""","""sports""",129,,,,,,,,,,,0.0
+"""The Blues Brothers""",1980,2003,"""comedy""","""action""",133,,,,,,,,,,,0.0
+"""The Blues Brothers(2) 2000""",1998,2003,"""comedy""","""action""",123,,,,,,,,,,,0.0
+"""The Breakfast Club""",1985,2006,"""comedy""","""drama""",97,,,,,,,,,,,0.0
+"""The Brothers Bloom""",2008,2011,"""comedy""","""drama""",114,,,,,,,,,,,0.0
+"""The Bucket List""",2007,2011,"""adventure""","""comedy""",97,,,,,,,,,,,0.0
+"""The Da Vinci Code""",2006,2008,"""mystery""","""""",149,,,,,,,,,,,0.0
+"""The Darjeeling Limited""",2007,2018,"""comedy""","""adventure""",91,,,,,,,,,,,0.0
+"""The Day After Tomorrow""",2004,2008,"""adventure""","""action""",124,,,,,,,,,,,0.0
+"""The Departed""",2006,2008,"""crime""","""drama""",151,,,,,,,,,,,0.0
+"""The Disaster Artist""",2017,2018,"""comedy""","""biography""",104,,,,,,,,,,,0.0
+"""The Fifth Element""",1997,2018,"""action""","""sci-fi""",126,,,,,,,,,,,0.0
+"""The Foot Fist Way""",2006,2009,"""comedy""","""""",85,,,,,,,,,,,0.0
+"""The Frighteners""",1996,2011,"""comedy""","""fantasy""",110,,,,,,,,,,,0.0
+"""The Garden of Words""",2013,2016,"""animated""","""drama""",46,,,,,,,,,,,0.0
+"""The Girl Who Leapt Through Time""",2006,2018,"""animated""","""adventure""",98,,,,,,,,,,,0.0
+"""The Goonies""",1985,2005,"""comedy""","""adventure""",114,,,,,,,,,,,0.0
+"""The Grand Budapest Hotel""",2014,2015,"""comedy""","""adventure""",99,,,,,,,,,,,0.0
+"""The Hangover(1)""",2009,2010,"""comedy""","""""",100,,,,,,,,,,,0.0
+"""The Hitchhikers Guide to the Galaxy""",2005,2006,"""sci-fi""","""comedy""",109,,,,,,,,,,,0.0
+"""The Human Centipede""",2009,2010,"""horror""","""""",92,,,,,,,,,,,0.0
+"""The Hunger Games(1)-The Hunger Games""",2012,2012,"""adventure""","""sci-fi""",142,,,,,,,,,,,0.0
+"""The Hunger Games(2)-Catching Fire""",2013,2014,"""adventure""","""sci-fi""",146,,,,,,,,,,,0.0
+"""The Hunger Games(3)-Mockingjay (Pt. 1)""",2014,2015,"""adventure""","""sci-fi""",123,,,,,,,,,,,0.0
+"""The Hunger Games(4)-Mockingjay (Pt. 2)""",2015,2015,"""adventure""","""sci-fi""",137,,,,,,,,,,,0.0
+"""The Hunt for Red October""",1990,2002,"""action""","""thriller""",135,,,,,,,,,,,0.0
+"""The Illusionist""",2006,2010,"""drama""","""mystery""",110,,,,,,,,,,,0.0
+"""The Imitation Game""",2014,2017,"""drama""","""biography""",114,,,,,,,,,,,0.0
+"""The Incredibles""",2004,2008,"""animated""","""action""",115,,,,,,,,,,,0.0
+"""The Italian Job""",1969,2011,"""action""","""""",99,,,,,,,,,,,0.0
+"""The Italian Job""",2003,2006,"""action""","""""",111,,,,,,,,,,,0.0
+"""The Karate Kid""",1984,2012,"""action""","""drama""",126,,,,,,,,,,,0.0
+"""The Lego Batman Movie""",2017,2017,"""comedy""","""animated""",104,,,,,,,,,,,0.0
+"""The Lego Movie""",2014,2014,"""comedy""","""animated""",100,,,,,,,,,,,0.0
+"""The Life Aquatic with Steve Zissou""",2004,2009,"""comedy""","""adventure""",119,,,,,,,,,,,0.0
+"""The Lion King""",1994,2018,"""animated""","""adventure""",88,,,,,,,,,,,0.0
+"""The Little Rascals""",1994,2006,"""comedy""","""""",82,,,,,,,,,,,0.0
+"""The Longest Yard""",2005,2006,"""comedy""","""sports""",113,,,,,,,,,,,0.0
+"""The Matrix(1)""",1999,2001,"""action""","""sci-fi""",136,,,,,,,,,,,0.0
+"""The Matrix(2) Reloaded""",2003,2006,"""action""","""sci-fi""",138,,,,,,,,,,,0.0
+"""The Matrix(3) Revolutions""",2003,2008,"""action""","""sci-fi""",129,,,,,,,,,,,0.0
+"""The Nice Guys""",2016,2016,"""comedy""","""action""",116,,,,,,,,,,,0.0
+"""The Notebook""",2004,2012,"""romantic comedy""","""""",123,,,,,,,,,,,0.0
+"""The Overnight""",2015,2017,"""comedy""","""""",79,,,,,,,,,,,0.0
+"""The Point""",1971,2006,"""animated""","""adventure""",74,,,,,,,,,,,0.0
+"""The Prestige""",2006,2013,"""drama""","""mystery""",130,,,,,,,,,,,0.0
+"""The Pursuit of Happyness""",2006,2009,"""drama""","""biography""",117,,,,,,,,,,,0.0
+"""The Rookie""",2002,2002,"""drama""","""sports""",127,,,,,,,,,,,0.0
+"""The Room""",2003,2011,"""drama""","""""",99,,,,,,,,,,,0.0
+"""The Royal Tenenbaums""",2001,2006,"""comedy""","""""",110,,,,,,,,,,,0.0
+"""The Sandlot""",1993,1998,"""comedy""","""sports""",101,,,,,,,,,,,0.0
+"""The Sasquatch Gang""",2006,2009,"""comedy""","""""",86,,,,,,,,,,,0.0
+"""The Slammin' Salmon""",2009,2010,"""comedy""","""""",90,,,,,,,,,,,0.0
+"""The Social Network""",2010,2011,"""drama""","""biography""",120,,,,,,,,,,,0.0
+"""The Sound of Music""",1965,2005,"""drama""","""music""",172,,,,,,,,,,,0.0
+"""The Truman Show""",1998,2004,"""comedy""","""sci-fi""",103,,,,,,,,,,,0.0
+"""The Untouchables""",1987,2007,"""crime""","""drama""",119,,,,,,,,,,,0.0
+"""The Usual Suspects""",1995,2001,"""crime""","""mystery""",106,,,,,,,,,,,0.0
+"""The Waterboy""",1998,1999,"""comedy""","""sports""",90,,,,,,,,,,,0.0
+"""The Yellow Submarine""",1968,1998,"""music""","""animated""",85,,,,,,,,,,,0.0
+"""Thirteen Days""",2000,2005,"""history""","""drama""",145,,,,,,,,,,,0.0
+"""This Film Is Not Yet Rated""",2006,2018,"""documentary""","""""",98,,,,,,,,,,,0.0
+"""This Is Spinal Tap""",1984,2008,"""comedy""","""music""",82,,,,,,,,,,,0.0
+"""This Is The End""",2013,2014,"""comedy""","""fantasy""",107,,,,,,,,,,,0.0
+"""Three Billboards Outside Ebbing Missouri""",2017,2018,"""drama""","""comedy""",115,,,,,,,,,,,0.0
+"""Tin Cup""",1996,2001,"""drama""","""comedy""",135,,,,,,,,,,,0.0
+"""Tongan Ninja""",2002,2010,"""comedy""","""action""",83,,,,,,,,,,,0.0
+"""Toy Story 1""",1995,1998,"""animated""","""adventure""",81,,,,,,,,,,,0.0
+"""Toy Story 2""",1999,1999,"""animated""","""adventure""",92,,,,,,,,,,,0.0
+"""Toy Story 3""",2010,2011,"""animated""","""adventure""",103,,,,,,,,,,,0.0
+"""Trailer Park Boys-Christmas Special""",2004,2013,"""comedy""","""""",57,,,,,,,,,,,0.0
+"""Trailer Park Boys-Countdown to Liquor Day""",2009,2013,"""comedy""","""""",102,,,,,,,,,,,0.0
+"""Trailer Park Boys-Don't Legalize It""",2014,2016,"""comedy""","""""",95,,,,,,,,,,,0.0
+"""Trailer Park Boys-The Big Dirty""",2006,2013,"""comedy""","""""",95,,,,,,,,,,,0.0
+"""Trailer Park Boys-The Movie""",1999,2013,"""comedy""","""""",67,,,,,,,,,,,0.0
+"""Training Day""",2001,2011,"""crime""","""drama""",122,,,,,,,,,,,0.0
+"""Trainspotting""",1996,2010,"""drama""","""""",94,,,,,,,,,,,0.0
+"""Tremors""",1990,2001,"""comedy""","""horror""",96,,,,,,,,,,,0.0
+"""Tropic Thunder""",2008,2010,"""comedy""","""action""",107,,,,,,,,,,,0.0
+"""Tucker and Dale vs Evil""",2010,2018,"""comedy""","""horror""",89,,,,,,,,,,,0.0
+"""Twilight(1)""",2008,2009,"""fantasy""","""romance""",122,,,,,,,,,,,0.0
+"""Twilight(2)-New Moon""",2009,2011,"""fantasy""","""romance""",130,,,,,,,,,,,0.0
+"""Twilight(3)-Eclipse""",2010,2011,"""fantasy""","""romance""",124,,,,,,,,,,,0.0
+"""Twilight(4)-Breaking Down Pt.1""",2011,2013,"""fantasy""","""romance""",117,,,,,,,,,,,0.0
+"""Twilight(5)-Breaking Dawn Pt. 2""",2012,2013,"""fantasy""","""romance""",115,,,,,,,,,,,0.0
+"""Unbreakable""",2000,2010,"""drama""","""sci-fi""",106,,,,,,,,,,,0.0
+"""Up""",2009,2012,"""animated""","""adventure""",96,,,,,,,,,,,0.0
+"""V for Vendetta""",2005,2008,"""action""","""sci-fi""",132,,,,,,,,,,,0.0
+"""Walk the Line""",2005,2009,"""biography""","""music""",136,,,,,,,,,,,0.0
+"""Wall-E""",2008,2014,"""animated""","""adventure""",98,,,,,,,,,,,0.0
+"""Waterworld""",1995,2007,"""sci-fi""","""action""",135,,,,,,,,,,,0.0
+"""Wayne's World 1""",1992,2005,"""comedy""","""music""",94,,,,,,,,,,,0.0
+"""Wayne's World 2""",1993,2005,"""comedy""","""music""",95,,,,,,,,,,,0.0
+"""Wedding Crashers""",2005,2009,"""comedy""","""""",119,,,,,,,,,,,0.0
+"""Weekend At Bernies 1""",1989,2008,"""comedy""","""adventure""",97,,,,,,,,,,,0.0
+"""Weekend At Bernies 2""",1993,2010,"""comedy""","""adventure""",97,,,,,,,,,,,0.0
+"""Wet Hot American Summer""",2001,2010,"""comedy""","""""",97,,,,,,,,,,,0.0
+"""What We Do In The Shadows""",2014,2016,"""comedy""","""mockumentary""",86,,,,,,,,,,,0.0
+"""White Men Can't Jump""",1992,2019,"""sports""","""comedy""",115,,,,,,,,,,,0.0
+"""Without a Paddle""",2004,2007,"""comedy""","""adventure""",95,,,,,,,,,,,0.0
+"""Wizard People, Dear Reader""",2004,2016,"""comedy""","""""",152,,,,,,,,,,,0.0
+"""Wolf Children""",2012,2016,"""animated""","""drama""",117,,,,,,,,,,,0.0
+"""X-Men(1)(2000)-X-Men""",2000,2010,"""superhero""","""documentary""",104,,,,,,,,,,,0.0
+"""X-Men(10)(2029)-Logan""",2017,2018,"""superhero""","""documentary""",137,,,,,,,,,,,0.0
+"""X-Men(2)(2003)-X2""",2003,2010,"""superhero""","""documentary""",134,,,,,,,,,,,0.0
+"""X-Men(3)(2006)-The Last Stand""",2006,2014,"""superhero""","""documentary""",104,,,,,,,,,,,0.0
+"""X-Men(4)(1981)-Origins Wolverine""",2009,2014,"""superhero""","""documentary""",107,,,,,,,,,,,0.0
+"""X-Men(5)(1962)-First Class""",2011,2014,"""superhero""","""documentary""",131,,,,,,,,,,,0.0
+"""X-Men(6)(2013)-The Wolverine""",2013,2015,"""superhero""","""documentary""",126,,,,,,,,,,,0.0
+"""X-Men(7)(2023)-Days of Future Past""",2014,2016,"""superhero""","""documentary""",132,,,,,,,,,,,0.0
+"""X-Men(8)(1983)-Apocalypse""",2016,2017,"""superhero""","""documentary""",144,,,,,,,,,,,0.0
+"""X-Men(9)(2016)-Deadpool""",2016,2017,"""superhero""","""documentary""",108,,,,,,,,,,,0.0
+"""Your Name""",2016,2016,"""animated""","""drama""",106,,,,,,,,,,,0.0
+"""Youth In Revolt""",2009,2010,"""comedy""","""drama""",90,,,,,,,,,,,0.0
+"""Zack and Miri Make a Porno""",2008,2010,"""comedy""","""romance""",101,,,,,,,,,,,0.0
+"""Zoolander 1""",2001,2003,"""comedy""","""""",90,,,,,,,,,,,0.0
+"""Zoolander 2""",2016,2017,"""comedy""","""""",101,,,,,,,,,,,0.0
