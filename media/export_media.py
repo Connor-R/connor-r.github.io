@@ -28,35 +28,34 @@ def initiate():
 
 def update_grades(media_type):
     print("\t\tgrades")
-    def ifnull(div_val, weight, var, val):
-        if var is None:
-            return div_val, val
+    def ifnull(div_val, ovr_val, weight, val):
+        if val is None:
+            return div_val, ovr_val, val
         else:
             div_val += weight
-            return float(div_val), float(var)
+            ovr_val += weight*val
+            return float(div_val), float(ovr_val), val
 
     qry = "SELECT * FROM %s;" % (media_type)
     res = db.query(qry)
 
     for row in res:
         div_val = 0
+        ovr_val = 0
 
         name = row[0]
 
-        adjustment = row[-2]
+        adjustment = row[len(row)-2]
 
-        div_val, timelessness = ifnull(div_val, 0.5, row[-3], 0)
-        div_val, length = ifnull(div_val, 0.5, row[-4], 0)
-        div_val, wit = ifnull(div_val, 0.5, row[-5], 0)
-        div_val, desired_effects = ifnull(div_val, 0.5, row[-6], 0)
-        div_val, information_gain = ifnull(div_val, 0.5, row[-7], 0)
-        div_val, plot = ifnull(div_val, 0.5, row[-8], 0)
-        div_val, premise = ifnull(div_val, 1, row[-9], 0)
-        div_val, consistency = ifnull(div_val, 1, row[-10], 0)
-        div_val, peak = ifnull(div_val, 1, row[-11], 0)
+        feature_cnt = 3
+        attribute_cnt = 6
+        for feature in range(0, feature_cnt):
+            div_val, ovr_val, feat_val = ifnull(div_val, ovr_val, 1, row[len(row)-2-attribute_cnt-feature_cnt+feature])
 
+        for attribute in range(feature_cnt, feature_cnt+attribute_cnt):
+            div_val, ovr_val, att_val = ifnull(div_val, ovr_val, 0.5, row[len(row)-2-attribute_cnt-feature_cnt+attribute])
 
-        grade = float(timelessness+length+wit+desired_effects+information_gain+plot+premise+consistency+peak) / float(max(div_val, 1.0))
+        grade = float(ovr_val) / float(max(div_val, 1.0))
 
         if adjustment is not None:
             grade = grade + float(adjustment)
