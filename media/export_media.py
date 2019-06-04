@@ -46,15 +46,17 @@ def update_grades(media_type):
         adjustment = row[-2]
 
         div_val, timelessness = ifnull(div_val, 0.5, row[-3], 0)
-        div_val, length = ifnull(div_val, 1, row[-4], 0)
+        div_val, length = ifnull(div_val, 0.5, row[-4], 0)
         div_val, wit = ifnull(div_val, 0.5, row[-5], 0)
-        div_val, desired_effects = ifnull(div_val, 1, row[-6], 0)
-        div_val, plot = ifnull(div_val, 0.5, row[-7], 0)
-        div_val, consistency = ifnull(div_val, 1, row[-8], 0)
-        div_val, peak = ifnull(div_val, 1, row[-9], 0)
+        div_val, desired_effects = ifnull(div_val, 0.5, row[-6], 0)
+        div_val, information_gain = ifnull(div_val, 0.5, row[-7], 0)
+        div_val, plot = ifnull(div_val, 0.5, row[-8], 0)
+        div_val, premise = ifnull(div_val, 1, row[-9], 0)
+        div_val, consistency = ifnull(div_val, 1, row[-10], 0)
+        div_val, peak = ifnull(div_val, 1, row[-11], 0)
 
 
-        grade = float(timelessness+length+wit+desired_effects+plot+consistency+peak) / float(max(div_val, 1.0))
+        grade = float(timelessness+length+wit+desired_effects+information_gain+plot+premise+consistency+peak) / float(max(div_val, 1.0))
 
         if adjustment is not None:
             grade = grade + float(adjustment)
@@ -132,13 +134,13 @@ def update_tv_show_rankings():
         row_query = row_qry % (name)
 
         try:
-            foo, genre, ep_len, runtime_hrs, peak, consistency, plot, fx, wit, lng, timelsns, adj, grade = db.query(row_query)[0]
+            foo, genre, ep_len, runtime_hrs, peak, consistency, premise, plot, information_gain, fx, wit, lng, timelsns, adj, grade = db.query(row_query)[0]
             runtime_hrs = float(episodes*ep_len)/60.0
         except (IndexError, TypeError):
             update_entry = {"name":name}
             db.insertRowDict(update_entry, 'tv_show_grades', insertMany=False, replace=True, rid=0, debug=1)
             db.conn.commit()
-            genre, ep_len, runtime_hrs, peak, consistency, plot, fx, wit, lng, timelsns, adj, grade = 0,0,0,0,0,0,0,0,0,0,0,0
+            genre, ep_len, runtime_hrs, peak, consistency, premise, plot, information_gain, fx, wit, lng, timelsns, adj, grade = 0,0,0,0,0,0,0,0,0,0,0,0,0,0
 
         entry['name'] = name
         entry['genre'] = genre
@@ -146,7 +148,9 @@ def update_tv_show_rankings():
         entry['approx_runtime_hours'] = runtime_hrs
         entry['peak'] = peak
         entry['consistency'] = consistency
+        entry['premise'] = premise
         entry['plot'] = plot
+        entry['information_gain'] = information_gain
         entry['desired_effects'] = fx
         entry['wit'] = wit
         entry['length'] = lng
@@ -163,7 +167,7 @@ def export_tv_show_csv():
     qry = """SELECT
     name, genre, seasons, episodes, 
     episode_length, episodes_per_season, approx_runtime_hours,
-    peak, consistency, plot, desired_effects, wit, length, timelessness, adjustment, overall_grade
+    peak, consistency, premise, plot, information_gain, desired_effects, wit, length, timelessness, adjustment, overall_grade
     FROM (SELECT name FROM tv_show_grades UNION SELECT name FROM tv_show_data) a
     LEFT JOIN tv_show_grades USING (name)
     LEFT JOIN tv_show_data USING (name)
@@ -174,7 +178,7 @@ def export_tv_show_csv():
     csv_title = "/Users/connordog/Dropbox/Desktop_Files/Work_Things/connor-r.github.io/csvs/personal_tvShows.csv"
     csv_file = open(csv_title, "wb")
     append_csv = csv.writer(csv_file)
-    headers = ['name', 'genre', 'seasons', 'episodes', 'episode_length', 'episodes_per_season', 'approx_runtime_hours', 'peak', 'consistency', 'plot', 'desired_effects', 'wit', 'length', 'timelessness', 'adjustment', 'overall_grade']
+    headers = ['name', 'genre', 'seasons', 'episodes', 'episode_length', 'episodes_per_season', 'approx_runtime_hours', 'peak', 'consistency', 'premise', 'plot', 'information_gain', 'desired_effects', 'wit', 'length', 'timelessness', 'adjustment', 'overall_grade']
     append_csv.writerow(headers)
 
     for row in res:

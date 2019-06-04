@@ -24,7 +24,7 @@ categories = [
     ]
 
 for sport in ('MLB', 'NHL', 'NBA', 'NFL'):
-    for desc in ('Coaching and Player Development', 'Gameplay and Analysis', 'General Articles', 'General Sites', 'Metric Descriptions', 'Profiles', 'Sport Science'):
+    for desc in ('Coaching and Player Development', 'Draft and Prospects', 'Gameplay and Analysis', 'General Articles', 'General Sites', 'Metric Descriptions', 'Profiles', 'Sport Science'):
         cat_label = sport + ' ' + desc
         categories.append(cat_label)
 
