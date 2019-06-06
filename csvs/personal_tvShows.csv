@@ -22,9 +22,9 @@ name,genre,seasons,episodes,episode_length,episodes_per_season,approx_runtime_ho
 """Sherlock""","""drama""",4,14,90,3.50,21.00,75,50,,,,,,,,,62.5
 """Fleabag""","""comedy""",1,6,25,6.00,2.50,70,55,,,,,,,,,62.5
 """Mike Tyson Mysteries""","""comedy""",3,30,11,10.00,5.50,65,60,,,,,,,,,62.5
+"""30 Rock""","""comedy""",7,135,22,19.29,49.50,60,60,,,,,,,,,60.0
 """Parks And Recreation""","""comedy""",7,121,22,17.29,44.37,65,55,,,,,,,,,60.0
 """The Boondocks""","""comedy""",4,55,22,13.75,20.17,60,60,,,,,,,,,60.0
-"""30 Rock""","""comedy""",7,135,22,19.29,49.50,60,60,,,,,,,,,60.0
 """Blunt Talk""","""comedy""",2,20,30,10.00,10.00,65,55,,,,,,,,,60.0
 """The League""","""comedy""",7,84,22,12.00,30.80,75,45,,,,,,,,,60.0
 """Children's Hospital""","""comedy""",7,85,11,12.14,15.58,75,45,,,,,,,,,60.0
@@ -51,17 +51,17 @@ name,genre,seasons,episodes,episode_length,episodes_per_season,approx_runtime_ho
 """Blue Mountain State""","""comedy""",3,38,22,12.67,13.93,65,35,,,,,,,,,50.0
 """NHL DocumentarySeries""","""documentary""",5,23,45,4.60,17.25,50,50,,,,,,,,,50.0
 """The IT Crowd""","""comedy""",4,24,22,6.00,8.80,60,40,,,,,,,,,50.0
-"""Kroll Show""","""comedy""",3,30,22,10.00,11.00,60,40,,,,,,,,,50.0
 """Big Mouth""","""comedy""",2,20,26,10.00,8.67,50,50,,,,,,,,,50.0
-"""NTSF SD SUV""","""comedy""",3,37,11,12.33,6.78,55,40,,,,,,,,,47.5
+"""Kroll Show""","""comedy""",3,30,22,10.00,11.00,60,40,,,,,,,,,50.0
 """BBC Frozen Planet""","""documentary""",1,7,48,7.00,5.60,60,35,,,,,,,,,47.5
+"""NTSF SD SUV""","""comedy""",3,37,11,12.33,6.78,55,40,,,,,,,,,47.5
 """Unsupervised""","""comedy""",1,10,22,10.00,3.67,55,40,,,,,,,,,47.5
 """Arrested Development""","""comedy""",5,76,22,15.20,27.87,65,30,,,,,,,,,47.5
-"""Workaholics""","""comedy""",7,86,22,12.29,31.53,45,50,,,,,,,,,47.5
 """Betas""","""comedy""",1,11,28,11.00,5.13,50,45,,,,,,,,,47.5
-"""Wild Wild Country""","""documentary""",1,6,65,6.00,6.50,55,40,,,,,,,,,47.5
+"""Workaholics""","""comedy""",7,86,22,12.29,31.53,45,50,,,,,,,,,47.5
 """Aqua Teen Hunger Force""","""comedy""",12,139,11,11.58,25.48,70,25,,,,,,,,,47.5
 """BBC The Blue Planet""","""documentary""",1,8,48,8.00,6.40,60,35,,,,,,,,,47.5
+"""Wild Wild Country""","""documentary""",1,6,65,6.00,6.50,55,40,,,,,,,,,47.5
 """Da Ali G Show""","""comedy""",2,23,22,11.50,8.43,65,30,,,,,,,,,47.5
 """Community""","""comedy""",6,110,22,18.33,40.33,55,35,,,,,,,,,45.0
 """Man Seeking Woman""","""comedy""",3,30,22,10.00,11.00,45,45,,,,,,,,,45.0
