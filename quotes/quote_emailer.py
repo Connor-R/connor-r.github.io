@@ -26,7 +26,7 @@ def generate_body(author, topic, medium, keyword, count, to_address):
     sub = 'Daily Quotes [%s]' % (str(date.today()))
 
     quote_lookup = """SELECT 
-    estimated_date, author, topic, medium, source, source_location, quote
+    QuoteID, estimated_date, author, topic, medium, source, source_location, quote
     FROM quotes
     WHERE 1
     AND (author LIKE "%%%s%%" AND topic LIKE "%%%s%%" AND medium LIKE "%%%s%%" AND quote LIKE "%%%s%%")
@@ -37,9 +37,9 @@ def generate_body(author, topic, medium, keyword, count, to_address):
 
     mesg = ''
     for i, row in enumerate(res):
-        _date, _author, _topic, _medium, _source, _sourceLocation, _quote = row
+        _id, _date, _author, _topic, _medium, _source, _sourceLocation, _quote = row
 
-        mesg += "\n\t" + "Quote #" + str(i+1) + " of " + str(len(res)) + ":"
+        mesg += "\n\t" + "Quote #" + str(i+1) + "(ID " + str(_id) + ") of " + str(len(res)) + ":"
 
         mesg += "\n\tTopic: " + str(_topic)
 
