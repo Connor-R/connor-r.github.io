@@ -31,13 +31,14 @@ Adam Plutko,Adam,Plutko,PHI,p,0.500,XXX,0,,,N
 Adam Wainwright,Adam,Wainwright,CLE,p,27.000,V,2019,,,Y
 Adam Warren,Adam,Warren,TEX,p,3.700,V,2019,,,Y
 Adbert Alzolay,Adbert,Alzolay,STL,p,0.500,XXX,0,,,N
-Addison Reed,Addison,Reed,NYM,p,5.891,CE,2019,,,Y
+Addison Reed,Addison,Reed,PIT,p,5.891,CE,2019,,,Y
 Addison Russell,Addison,Russell,TEX,if,1.887,4th,0,,,Y
 Adeiny Hechavarria,Adeiny,Hechavarria,SF,if,2.245,4th,0,,,Y
 Adonis Medina,Adonis,Medina,TOR,p,0.500,XXX,0,,,N
 Adonys Cardona,Adonys,Cardona,STL,p,0.500,XXX,0,,,N
 Adrian Beltre,Adrian,Beltre,SEA,if,19.800,V,2019,,,Y
 Adrian Morejon,Adrian,Morejon,ARI,p,0.500,XXX,0,,,N
+AJ Ellis,AJ,Ellis,TEX,c,1.000,V,2019,,,Y
 Akil Baddoo,Akil,Baddoo,MIN,of,0.500,XXX,0,,,N
 Albert Abreu,Albert,Abreu,MIL,p,0.500,XXX,0,,,N
 Albert Almora,Albert,Almora,HOU,of,0.500,XXX,0,,,Y
@@ -94,7 +95,7 @@ Andrew Triggs,Andrew,Triggs,TEX,p,3.980,V,2019,Y,,Y
 Andy Ibanez,Andy,Ibanez,PIT,if,0.500,XXX,0,,,N
 Andy Yerzy,Andy,Yerzy,PIT,c,0.500,XXX,0,,,N
 Anfernee Grier,Anfernee,Grier,ATL,of,0.500,XXX,0,,,N
-Angel Perdomo,Angel,Perdomo,NYM,p,0.500,XXX,0,,,N
+Angel Perdomo,Angel,Perdomo,NYM,p,0.500,XXX,0,,,Y
 Anibal Sanchez,Anibal,Sanchez,STL,p,8.000,V,2020,,Y,Y
 Anthony Alford,Anthony,Alford,CHC,of,0.500,XXX,0,,,Y
 Anthony Banda,Anthony,Banda,LAN,p,0.500,XXX,0,,,Y
@@ -104,7 +105,7 @@ Anthony Kay,Anthony,Kay,ATL,p,0.500,XXX,0,,,N
 Anthony Rendon,Anthony,Rendon,TAM,if,15.025,CE,2021,,Y,Y
 Anthony Rizzo,Anthony,Rizzo,BOS,if,18.896,CE,2019,,,Y
 Anthony Seigler,Anthony,Seigler,OAK,c,0.500,XXX,0,,,N
-Anthony Swarzak,Anthony,Swarzak,SEA,p,4.500,V,2019,Y,,Y
+Anthony Swarzak,Anthony,Swarzak,COL,p,4.500,V,2019,Y,,Y
 Antoni Flores,Antoni,Flores,CHC,if,0.500,XXX,0,,Y,N
 Antonio Senzatela,Antonio,Senzatela,SF,p,0.500,XXX,0,,,Y
 Aramis Ademan,Aramis,Ademan,LAN,if,0.500,XXX,0,,,N
@@ -246,7 +247,7 @@ Carl Edwards Jr.,Carl,Edwards Jr.,CHA,p,0.925,2nd,0,,,Y
 Carlos Asuaje,Carlos,Asuaje,LAA,if,2.000,V,2020,Y,,Y
 Carlos Carrasco,Carlos,Carrasco,COL,p,16.935,CE,2021,,Y,Y
 Carlos Correa,Carlos,Correa,OAK,if,4.797,4th,0,,,Y
-Carlos Estevez,Carlos,Estevez,MIL,p,3.210,V,2019,Y,,Y
+Carlos Estevez,Carlos,Estevez,STL,p,3.210,V,2019,Y,,Y
 Carlos Gomez,Carlos,Gomez,ATL,of,6.000,V,2019,Y,,Y
 Carlos Gonzalez,Carlos,Gonzalez,SEA,of,18.250,V,2020,,,Y
 Carlos Martinez,Carlos,Martinez,LAN,p,13.083,CE,2020,,,Y
@@ -415,7 +416,7 @@ Deivi Garcia,Deivi,Garcia,SF,p,0.500,XXX,0,,,N
 Delino DeShields,Delino,DeShields,ATL,of,3.008,5th,0,,,Y
 Dellin Betances,Dellin,Betances,MIA,p,5.915,5th,0,,,Y
 Delvin Perez,Delvin,Perez,ARI,if,0.500,XXX,0,,,N
-Demi Orimoloye,Demi,Orimoloye,MIL,of,0.500,XXX,0,,,N
+Demi Orimoloye,Demi,Orimoloye,STL,of,0.500,XXX,0,,,N
 Denard Span,Denard,Span,ATL,of,8.760,V,2019,,,Y
 Dennis Santana,Dennis,Santana,ATL,p,0.500,XXX,0,,,Y
 Dereck Rodriguez,Dereck,Rodriguez,MIL,p,7.501,V,2022,Y,Y,Y
@@ -680,7 +681,7 @@ Jared Oliva,Jared,Oliva,COL,of,0.500,XXX,0,,,N
 Jarred Cosart,Jarred,Cosart,BOS,p,0.845,3rd,0,,,N
 Jarred Kelenic,Jarred,Kelenic,CLE,of,0.500,XXX,0,,,N
 Jarrod Dyson,Jarrod,Dyson,NYA,of,6.000,V,2019,,,Y
-Jason Castro,Jason,Castro,TAM,c,1.000,MLI,2019,,,N
+Jason Castro,Jason,Castro,STL,c,1.000,MLI,2019,,,Y
 Jason Heyward,Jason,Heyward,TAM,of,6.750,V,2020,Y,Y,Y
 Jason Hursch,Jason,Hursch,SF,p,0.845,3rd,0,,,Y
 Jason Kipnis,Jason,Kipnis,SEA,if,3.750,V,2020,Y,Y,Y
@@ -844,7 +845,7 @@ Juan De Leon,Juan,De Leon,MIA,of,0.500,XXX,0,,,N
 Juan Hillman,Juan,Hillman,TAM,p,0.500,XXX,0,,,N
 Juan Lagares,Juan,Lagares,ARI,of,2.384,5th,0,,,Y
 Juan Minaya,Juan,Minaya,PHI,p,2.000,V,2021,,Y,Y
-Juan Nicasio,Juan,Nicasio,NYM,p,7.500,V,2019,,,Y
+Juan Nicasio,Juan,Nicasio,TEX,p,7.500,V,2019,,,Y
 Juan Soto,Juan,Soto,ATL,of,0.500,XXX,0,,,Y
 Julio Pablo Martinez,Julio Pablo,Martinez,NYA,of,0.500,XXX,0,,Y,N
 Julio Teheran,Julio,Teheran,BOS,p,11.000,V,2023,,Y,Y
@@ -907,7 +908,7 @@ Khalil Lee,Khalil,Lee,SF,of,0.500,XXX,0,,,N
 Khris Davis,Khris,Davis,CHA,of,18.250,V,2019,Y,,Y
 Kike Hernandez,Kike,Hernandez,TEX,of,2.709,5th,0,,,Y
 Kirby Yates,Kirby,Yates,TOR,p,1.799,V,2020,,,Y
-Kodi Medeiros,Kodi,Medeiros,NYM,p,0.500,XXX,0,,,N
+Kodi Medeiros,Kodi,Medeiros,NYM,p,0.500,XXX,0,,,Y
 Kody Clemens,Kody,Clemens,BOS,if,0.500,XXX,0,,,N
 Kohl Stewart,Kohl,Stewart,MIA,p,0.500,XXX,0,,,N
 Kolby Allard,Kolby,Allard,SF,p,0.500,XXX,0,,,N
@@ -1314,7 +1315,7 @@ Sean Hjelle,Sean,Hjelle,CHC,p,0.500,XXX,0,,,N
 Sean Manaea,Sean,Manaea,PHI,p,1.203,3rd,0,,,Y
 Sean Murphy,Sean,Murphy,CHC,c,0.500,XXX,0,,,N
 Sean Newcomb,Sean,Newcomb,MIN,p,0.500,XXX,0,,,Y
-Sean Reid-Foley,Sean,Reid-Foley,COL,p,0.500,XXX,0,,,N
+Sean Reid-Foley,Sean,Reid-Foley,SEA,p,0.500,XXX,0,,,N
 Sean Rodriguez,Sean,Rodriguez,SF,if,2.270,V,2019,,,Y
 Seranthony Dominguez,Seranthony,Dominguez,PHI,p,0.500,XXX,0,,,Y
 Sergio Alcantara,Sergio,Alcantara,NYM,if,0.500,XXX,0,,,Y
