@@ -33,6 +33,7 @@ name,genre,peak,consistency,premise,plot,information_gain,desired_effects,wit,le
 """Nothing But Nylon""","""Sports(Basketball)""",65,60,65,,65,55,30,55,55,,58.2
 """Off The Charts Football Podcast""","""Sports(Football)""",55,40,50,,55,45,30,40,50,,46.4
 """Pitch Talks""","""Sports(Baseball)""",50,50,55,,55,55,50,50,55,,52.3
+"""Pitcher List Fantasy Baseball Podcast""","""Sports(Baseball)""",50,50,40,,50,40,25,70,30,,45.0
 """Pitching to Contact""","""Sports(Baseball)""",50,50,55,,40,40,30,60,55,,48.6
 """Pro Football Doc Podcast""","""Sports(Football)""",60,35,65,,55,55,30,55,45,,50.9
 """Programming Throwdown""","""Data Science""",65,30,65,,65,65,30,40,60,,52.7
@@ -55,6 +56,7 @@ name,genre,peak,consistency,premise,plot,information_gain,desired_effects,wit,le
 """The Lowe Post""","""Sports(Basketball)""",70,65,70,,70,70,50,65,50,,65.0
 """The Motus Show""","""Sports(Other)""",55,50,50,,55,55,30,50,60,,50.9
 """The PFF Forecast""","""Sports(Football)""",60,60,65,,60,50,40,50,55,,56.8
+"""The Ready State""","""Sports(Other)""",60,30,50,,70,40,20,50,40,,45.5
 """The R^2 Podcast""","""Sports(Basketball)""",65,60,65,,65,55,30,55,55,,58.2
 """The Sports Analytics Department""","""Sports(Other)""",50,50,50,,50,50,30,50,50,,48.2
 """The Spotrac Podcast""","""Sports(Other)""",45,55,50,,40,50,30,50,45,,46.8
