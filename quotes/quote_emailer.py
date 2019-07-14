@@ -39,7 +39,7 @@ def generate_body(author, topic, medium, keyword, count, to_address):
     for i, row in enumerate(res):
         _id, _date, _author, _topic, _medium, _source, _sourceLocation, _quote = row
 
-        mesg += "\n\t" + "Quote #" + str(i+1) + "(ID " + str(_id) + ") of " + str(len(res)) + ":"
+        mesg += "\n\t" + "Quote #" + str(i+1) + " (QuoteID " + str(_id) + ") of " + str(len(res)) + ":"
 
         mesg += "\n\tTopic: " + str(_topic)
 

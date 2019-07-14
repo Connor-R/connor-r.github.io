@@ -47,6 +47,7 @@ def update_grades(media_type):
 
         adjustment = row[len(row)-2]
 
+        # peak, consistency, premise get 1.0 weight, everything else gets 0.5
         feature_cnt = 3
         attribute_cnt = 6
         for feature in range(0, feature_cnt):
@@ -139,7 +140,7 @@ def update_tv_show_rankings():
             update_entry = {"name":name}
             db.insertRowDict(update_entry, 'tv_show_grades', insertMany=False, replace=True, rid=0, debug=1)
             db.conn.commit()
-            genre, ep_len, runtime_hrs, peak, consistency, premise, plot, information_gain, fx, wit, lng, timelsns, adj, grade = 0,0,0,0,0,0,0,0,0,0,0,0,0,0
+            genre, ep_len, runtime_hrs, peak, consistency, premise, plot, information_gain, fx, wit, lng, timelsns, adj, grade = None,None,None,None,None,None,None,None,None,None,None,None,None,None
 
         entry['name'] = name
         entry['genre'] = genre

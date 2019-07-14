@@ -41,11 +41,10 @@ def initiate():
         if show_name[0] == 'z':
             show_name = show_name[1:]
 
-        entry['show_name'] = show_name.replace("_"," ")
+        entry['name'] = show_name.replace("_"," ")
         entry['seasons'] = seasons_cnt
         entry['episodes'] = episodes_cnt
         entry['episodes_per_season'] = avg_eps
-
 
         db.insertRowDict(entry, 'tv_show_data', insertMany=False, replace=True, rid=0, debug=1)
         db.conn.commit()
