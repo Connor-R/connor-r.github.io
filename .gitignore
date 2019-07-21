@@ -2,3 +2,4 @@
 *.xlsx
 un_pw.csv
 ad_hoc/update_fantasy_football*
+ad_hoc/movie_rank.py

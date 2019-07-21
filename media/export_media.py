@@ -47,14 +47,22 @@ def update_grades(media_type):
 
         adjustment = row[len(row)-2]
 
-        # peak, consistency, premise get 1.0 weight, everything else gets 0.5
-        feature_cnt = 3
-        attribute_cnt = 6
-        for feature in range(0, feature_cnt):
-            div_val, ovr_val, feat_val = ifnull(div_val, ovr_val, 1, row[len(row)-2-attribute_cnt-feature_cnt+feature])
+        # "attribute": [weight, index]
+        weight_dict = {
+            "peak": [4.0, 9], 
+            "consistency": [3.0, 8], 
+            "timelessness": [3.0, 1], 
+            "desired_effects": [2.5, 4], 
+            "information_gain": [2.0, 5], 
+            "premise": [2.0, 7], 
+            "plot": [1.5, 6], 
+            "wit": [1.5, 3], 
+            "length": [1.0, 2], 
+        }
 
-        for attribute in range(feature_cnt, feature_cnt+attribute_cnt):
-            div_val, ovr_val, att_val = ifnull(div_val, ovr_val, 0.5, row[len(row)-2-attribute_cnt-feature_cnt+attribute])
+        for k, v in weight_dict.items():
+            wght, indx = v
+            div_val, ovr_val, feat_val = ifnull(div_val, ovr_val, wght, row[len(row)-2-indx])
 
         grade = float(ovr_val) / float(max(div_val, 1.0))
 
