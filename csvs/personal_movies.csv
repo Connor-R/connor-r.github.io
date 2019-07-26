@@ -66,7 +66,7 @@ name,year,est_year_watched,genre,sub_genre,movie_length,peak,consistency,premise
 """Clerks II""",2006,2013,"""comedy""","""""",97,40,30,50,40,40,40,60,60,40,,42.0
 """Click""",2006,2007,"""comedy""","""""",107,30,40,20,20,30,30,30,40,30,,30.2
 """Concussion""",2015,2015,"""biography""","""sports""",123,60,60,70,60,70,50,40,40,50,,56.8
-"""Cool Runnings""",1993,2000,"""comedy""","""sports""",98,80,70,80,70,70,80,70,70,80,,75.6
+"""Cool Runnings""",1993,2000,"""comedy""","""sports""",98,70,70,80,70,70,80,70,70,80,,73.7
 """Crash""",2004,2008,"""crime""","""drama""",112,70,60,60,60,50,70,60,60,70,,63.7
 """D1: The Mighty Ducks""",1992,2000,"""comedy""","""sports""",100,70,60,50,50,50,70,60,70,80,,63.9
 """D2: The Mighty Ducks""",1994,2000,"""comedy""","""sports""",106,60,50,50,50,50,60,60,70,70,,57.8
@@ -120,7 +120,7 @@ name,year,est_year_watched,genre,sub_genre,movie_length,peak,consistency,premise
 """Glass""",2019,2019,"""sci-fi""","""drama""",129,65,40,50,40,30,50,50,40,50,,48.3
 """God Bless America""",2011,2013,"""comedy""","""""",105,70,50,70,50,50,70,60,60,60,,61.0
 """Good Burger""",1997,2011,"""comedy""","""""",95,75,30,40,40,40,50,50,50,50,,49.3
-"""Good Will Hunting""",1997,2007,"""drama""","""""",126,80,70,80,80,70,80,70,60,80,,75.9
+"""Good Will Hunting""",1997,2007,"""drama""","""""",126,60,70,70,70,70,80,70,60,80,,70.2
 """Goon(1)""",2011,2012,"""comedy""","""sports""",92,40,40,30,30,40,40,50,50,30,,38.0
 """Goon(2)-Last of the Enforcers""",2017,2017,"""comedy""","""sports""",101,30,30,30,30,40,30,30,40,30,,31.5
 """Grandma's Boy""",2006,2009,"""comedy""","""""",94,70,60,60,50,50,70,70,70,65,,63.4
@@ -150,7 +150,7 @@ name,year,est_year_watched,genre,sub_genre,movie_length,peak,consistency,premise
 """Hurricane of Fun: The Making of Wet Hot""",2015,2017,"""documentary""","""comedy""",64,70,30,50,50,60,50,60,40,40,,50.7
 """I Love You, Man""",2009,2011,"""comedy""","""""",105,70,40,50,50,40,50,50,50,60,,52.9
 """I, Robot""",2004,2004,"""action""","""""",115,60,50,60,50,50,50,40,40,40,,50.2
-"""Icarus""",2017,2018,"""documentary""","""sports""",121,80,75,80,50,80,80,70,60,70,,73.9
+"""Icarus""",2017,2018,"""documentary""","""sports""",121,80,75,80,70,80,80,70,60,70,,75.4
 """Ice Age(1)""",2002,2006,"""comedy""","""animated""",81,60,50,50,50,40,50,60,60,50,,52.2
 """Ice Age(2): The Meltdown""",2006,2010,"""comedy""","""animated""",91,60,50,50,50,40,50,60,60,50,,52.2
 """Ice Guardians""",2016,2017,"""documentary""","""sports""",108,30,50,40,30,40,20,20,20,30,,32.4
@@ -262,7 +262,7 @@ name,year,est_year_watched,genre,sub_genre,movie_length,peak,consistency,premise
 """Semi-Pro""",2008,2019,"""comedy""","""sports""",91,60,30,30,30,30,60,60,60,40,,44.6
 """Seven Pounds""",2008,2015,"""drama""","""""",123,40,40,65,60,50,40,40,35,50,,46.1
 """Seven Psychopaths""",2012,2012,"""comedy""","""""",110,50,50,60,50,40,50,60,40,50,,50.2
-"""Shaolin Soccer""",2001,2006,"""comedy""","""action""",87,80,80,70,60,60,80,80,80,80,,75.6
+"""Shaolin Soccer""",2001,2006,"""comedy""","""action""",87,80,80,70,60,50,80,80,80,80,,74.6
 """Sharknado(1)""",2013,2014,"""action""","""comedy""",86,60,30,30,30,30,70,60,60,70,,50.2
 """Sharknado(2)-The Second One""",2014,2015,"""action""","""comedy""",95,60,30,30,30,30,70,60,60,70,,50.2
 """Sharknado(3)-Oh Hell No""",2015,2016,"""action""","""comedy""",93,60,30,30,30,30,70,60,60,70,,50.2
@@ -296,7 +296,7 @@ name,year,est_year_watched,genre,sub_genre,movie_length,peak,consistency,premise
 """StudioGhibli-Nausicaa of the Valley of the Wind""",1984,2016,"""animated""","""adventure""",117,70,60,60,60,50,70,50,50,60,,61.0
 """StudioGhibli-Ponyo""",2008,2015,"""animated""","""adventure""",101,60,50,40,40,40,70,55,55,50,,52.3
 """StudioGhibli-Porco Rosso""",1992,2015,"""animated""","""adventure""",94,70,60,70,70,60,70,60,70,70,,66.8
-"""StudioGhibli-Princess Mononoke""",1997,2009,"""animated""","""adventure""",134,75,75,80,80,65,80,60,80,80,,75.4
+"""StudioGhibli-Princess Mononoke""",1997,2009,"""animated""","""adventure""",134,80,75,80,80,60,80,60,80,80,,75.9
 """StudioGhibli-Spirited Away""",2001,2010,"""animated""","""adventure""",125,70,60,70,75,60,75,60,60,70,,67.3
 """StudioGhibli-The Secret World of Arrietty""",2010,2016,"""animated""","""adventure""",94,50,50,30,40,40,50,50,50,40,,44.9
 """StudioGhibli-The Tale of Princess Kaguya""",2013,2016,"""animated""","""adventure""",137,40,40,30,30,50,50,40,30,50,,41.5
@@ -363,7 +363,7 @@ name,year,est_year_watched,genre,sub_genre,movie_length,peak,consistency,premise
 """The Nice Guys""",2016,2016,"""comedy""","""action""",116,70,30,50,40,40,60,60,50,50,,51.2
 """The Notebook""",2004,2012,"""romantic comedy""","""""",123,30,50,40,30,40,30,30,30,40,,36.3
 """The Overnight""",2015,2017,"""comedy""","""""",79,20,20,20,20,20,30,20,30,20,,21.7
-"""The Point""",1971,2006,"""animated""","""adventure""",74,70,80,80,80,60,80,70,80,80,,75.4
+"""The Point""",1971,2006,"""animated""","""adventure""",74,70,80,80,80,65,80,70,80,80,,75.9
 """The Prestige""",2006,2013,"""drama""","""mystery""",130,65,60,60,60,40,70,50,50,60,,59.0
 """The Pursuit of Happyness""",2006,2009,"""drama""","""biography""",117,60,60,70,70,60,70,50,50,60,,61.7
 """The Rookie""",2002,2002,"""drama""","""sports""",127,50,50,50,50,65,40,40,40,50,,49.0
@@ -415,7 +415,7 @@ name,year,est_year_watched,genre,sub_genre,movie_length,peak,consistency,premise
 """Wedding Crashers""",2005,2009,"""comedy""","""""",119,40,50,30,40,40,50,50,40,50,,43.9
 """Weekend At Bernies 1""",1989,2008,"""comedy""","""adventure""",97,70,50,60,40,40,60,60,60,65,,57.8
 """Weekend At Bernies 2""",1993,2010,"""comedy""","""adventure""",97,50,50,40,40,40,30,40,50,30,,41.2
-"""Wet Hot American Summer""",2001,2010,"""comedy""","""""",97,80,80,70,50,50,80,80,80,80,,73.9
+"""Wet Hot American Summer""",2001,2010,"""comedy""","""""",97,80,80,70,60,50,80,80,80,80,,74.6
 """What We Do In The Shadows""",2014,2016,"""comedy""","""mockumentary""",86,70,70,70,50,50,70,70,65,60,,64.9
 """White Men Can't Jump""",1992,2019,"""sports""","""comedy""",115,40,50,40,50,50,50,40,40,60,,47.3
 """Without a Paddle""",2004,2007,"""comedy""","""adventure""",95,30,40,40,40,30,50,50,40,30,,37.6
