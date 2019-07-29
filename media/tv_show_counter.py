@@ -13,6 +13,7 @@ def initiate():
         seasons_cnt = 0
         episodes_cnt = 0
         show_name = os.listdir(base_path)[i]
+        print show_name
         if show_name[0] == 'z':
             show_name = show_name[1:]
         seasons_path = base_path+os.listdir(base_path)[i]
@@ -23,6 +24,7 @@ def initiate():
         for j in range(1, len(os.listdir(seasons_path))):
             if show_name in os.listdir(seasons_path)[j]:
                 seasons_indices.append(j)
+        print seasons_indices
 
         for k in seasons_indices:
             episodes_paths = base_path+os.listdir(base_path)[i]+'/'+os.listdir(seasons_path)[k]
@@ -46,6 +48,7 @@ def initiate():
         entry['episodes'] = episodes_cnt
         entry['episodes_per_season'] = avg_eps
 
+        print entry
         db.insertRowDict(entry, 'tv_show_data', insertMany=False, replace=True, rid=0, debug=1)
         db.conn.commit()
 
