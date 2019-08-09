@@ -91,6 +91,85 @@ name,year,est_year_watched,genre,sub_genre,movie_length,peak,consistency,premise
 """Edward Scissorhands""",1990,2004,"""drama""","""""",105,60,60,60,60,40,60,50,50,70,,58.3
 """Elf""",2003,2004,"""comedy""","""""",97,50,60,50,50,40,60,50,60,60,,53.7
 """Enders Game""",2013,2018,"""action""","""fantasy""",114,30,40,60,40,40,40,30,40,40,,39.3
+"""ESPN 30 For 30 ESPN Films Presents Epsiode 12: 26 Years: The Dewey Bozella Story""",2012,2013,"""documentary""","""sports""",120,60,60,60,70,70,50,30,30,50,,55.4
+"""ESPN 30 For 30 ESPN Films Presents Epsiode 1: Fab Five""",2011,2013,"""documentary""","""sports""",98,60,40,60,60,70,50,30,40,60,,53.7
+"""ESPN 30 For 30 ESPN Films Presents Epsiode 2: Catching Hell""",2011,2013,"""documentary""","""sports""",102,50,50,60,60,60,60,30,30,50,,51.5
+"""ESPN 30 For 30 ESPN Films Presents Epsiode 4: The Dotted Line""",2011,2015,"""documentary""","""sports""",40,40,40,60,50,60,40,30,50,40,,44.4
+"""ESPN 30 For 30 ESPN Films Presents Epsiode 5: Charismatic""",2011,2018,"""documentary""","""sports""",52,60,40,50,50,50,40,30,40,40,,45.9
+"""ESPN 30 For 30 ESPN Films Presents Epsiode 6: The Real Rocky""",2011,2018,"""documentary""","""sports""",58,50,40,50,50,50,50,30,50,40,,45.6
+"""ESPN 30 For 30 ESPN Films Presents Epsiode 7: Unguarded""",2011,2018,"""documentary""","""sports""",51,70,70,60,60,60,70,30,60,50,,61.0
+"""ESPN 30 For 30 ESPN Films Presents Epsiode 8: Roll Tide/War Eagle""",2011,2013,"""documentary""","""sports""",90,60,40,50,50,60,50,50,50,40,,50.0
+"""ESPN 30 For 30 ESPN Films Presents Epsiode 9: The Marinovich Project""",2011,2015,"""documentary""","""sports""",90,70,70,70,60,60,70,40,50,60,,63.7
+"""ESPN 30 For 30 ESPN Films Presents Special: Boys of Fall""",2010,2018,"""documentary""","""sports""",50,40,40,40,40,30,40,30,40,30,,36.8
+"""ESPN 30 For 30 Season 1 Episode 10: No Crossover: The Trial of Allen Iverson""",2010,2013,"""documentary""","""sports""",80,50,50,50,40,40,50,40,40,40,,45.6
+"""ESPN 30 For 30 Season 1 Episode 11: Silly Little Game""",2010,2013,"""documentary""","""sports""",51,60,60,50,50,60,50,40,50,60,,55.1
+"""ESPN 30 For 30 Season 1 Episode 12: Run, Ricky Run""",2010,2013,"""documentary""","""sports""",54,65,50,50,50,60,50,40,50,30,,50.2
+"""ESPN 30 For 30 Season 1 Episode 13: The 16th Man""",2010,2013,"""documentary""","""sports""",52,60,60,65,65,70,60,40,50,70,,61.3
+"""ESPN 30 For 30 Season 1 Episode 14: Straight Outta LA""",2010,2013,"""documentary""","""sports""",51,45,45,50,50,50,40,40,50,40,,44.9
+"""ESPN 30 For 30 Season 1 Episode 15: June 17th, 1994""",2010,2013,"""documentary""","""sports""",53,55,50,50,50,60,40,40,50,60,,51.5
+"""ESPN 30 For 30 Season 1 Episode 16: The Two Escobars""",2010,2013,"""documentary""","""sports""",104,70,70,70,70,70,70,40,50,60,,65.4
+"""ESPN 30 For 30 Season 1 Episode 17: The Birth Of Big Air""",2010,2013,"""documentary""","""sports""",49,50,40,40,40,60,50,40,55,40,,45.9
+"""ESPN 30 For 30 Season 1 Episode 18: Jordan Rides The Bus""",2010,2013,"""documentary""","""sports""",51,55,60,60,60,60,50,40,50,50,,54.4
+"""ESPN 30 For 30 Season 1 Episode 19: Little Big Men""",2010,2013,"""documentary""","""sports""",53,40,40,40,40,45,30,40,50,30,,38.3
+"""ESPN 30 For 30 Season 1 Episode 1: Kings Ransom""",2009,2013,"""documentary""","""sports""",53,50,40,40,40,50,50,40,40,30,,42.7
+"""ESPN 30 For 30 Season 1 Episode 20: One Night In Vegas""",2010,2013,"""documentary""","""sports""",51,40,40,30,30,50,40,30,40,30,,37.1
+"""ESPN 30 For 30 Season 1 Episode 21: Unmatched""",2010,2013,"""documentary""","""sports""",53,40,40,30,30,55,40,40,40,40,,39.8
+"""ESPN 30 For 30 Season 1 Episode 22: The House Of Steinbrenner""",2010,2013,"""documentary""","""sports""",54,50,50,40,40,50,50,40,40,40,,45.6
+"""ESPN 30 For 30 Season 1 Episode 23: Into The Wind""",2010,2013,"""documentary""","""sports""",52,60,60,60,60,70,60,40,50,60,,59.0
+"""ESPN 30 For 30 Season 1 Episode 24: Four Days In October""",2010,2013,"""documentary""","""sports""",53,60,60,65,65,55,50,40,50,60,,57.2
+"""ESPN 30 For 30 Season 1 Episode 25: Once Brothers""",2010,2013,"""documentary""","""sports""",79,70,70,75,75,75,70,40,70,70,,69.1
+"""ESPN 30 For 30 Season 1 Episode 26: Tim Richmond To The Limit""",2010,2013,"""documentary""","""sports""",54,40,40,30,30,50,40,30,40,30,,37.1
+"""ESPN 30 For 30 Season 1 Episode 27: Fernando Nation""",2010,2013,"""documentary""","""sports""",54,55,45,60,50,60,50,40,50,50,,51.5
+"""ESPN 30 For 30 Season 1 Episode 28: Marion Jones Press Pause""",2010,2013,"""documentary""","""sports""",51,40,40,50,50,50,40,40,40,40,,42.7
+"""ESPN 30 For 30 Season 1 Episode 29: The Best That Never Was""",2010,2013,"""documentary""","""sports""",101,60,60,60,60,65,50,40,55,50,,56.1
+"""ESPN 30 For 30 Season 1 Episode 2: The Band That Wouldn't Die""",2009,2013,"""documentary""","""sports""",51,40,50,30,30,50,40,30,40,30,,38.5
+"""ESPN 30 For 30 Season 1 Episode 30: Pony Express""",2010,2013,"""documentary""","""sports""",102,70,70,70,70,70,60,50,60,60,,65.4
+"""ESPN 30 For 30 Season 1 Episode 3: Small Potatoes: Who Killed the USFL""",2009,2013,"""documentary""","""sports""",51,70,60,50,60,70,70,60,60,60,,63.2
+"""ESPN 30 For 30 Season 1 Episode 4: Muhammad and Larry""",2009,2013,"""documentary""","""sports""",51,50,50,50,50,60,60,40,60,65,,54.1
+"""ESPN 30 For 30 Season 1 Episode 5: Without Bias""",2009,2013,"""documentary""","""sports""",52,60,60,70,60,60,60,40,60,55,,58.8
+"""ESPN 30 For 30 Season 1 Episode 6: The Legend of Jimmy the Greek""",2009,2013,"""documentary""","""sports""",51,50,50,50,40,40,40,40,50,40,,44.9
+"""ESPN 30 For 30 Season 1 Episode 7: The U""",2009,2013,"""documentary""","""sports""",106,60,60,60,50,60,60,40,50,50,,55.9
+"""ESPN 30 For 30 Season 1 Episode 8: Winning Time: Reggie Miller vs The New York Knicks""",2010,2013,"""documentary""","""sports""",68,60,60,55,55,60,60,60,60,50,,57.7
+"""ESPN 30 For 30 Season 1 Episode 9: Guru of Go""",2010,2013,"""documentary""","""sports""",51,70,70,70,60,70,70,50,60,50,,64.4
+"""ESPN 30 For 30 Season 2 Episode 10: Free Spirits""",2013,2014,"""documentary""","""sports""",52,65,60,60,60,60,60,40,50,60,,59.0
+"""ESPN 30 For 30 Season 2 Episode 11: No Mas""",2013,2014,"""documentary""","""sports""",77,40,40,40,40,50,40,40,40,40,,41.0
+"""ESPN 30 For 30 Season 2 Episode 12: Big Shot""",2013,2014,"""documentary""","""sports""",79,70,70,80,70,70,60,55,60,60,,66.7
+"""ESPN 30 For 30 Season 2 Episode 13: This Is What They Want""",2013,2014,"""documentary""","""sports""",52,50,50,40,40,50,50,40,40,40,,45.6
+"""ESPN 30 For 30 Season 2 Episode 14: Bernie And Ernie""",2013,2014,"""documentary""","""sports""",52,60,60,60,60,60,60,50,50,60,,58.8
+"""ESPN 30 For 30 Season 2 Episode 15: Youngstown Boys""",2013,2014,"""documentary""","""sports""",103,55,50,60,60,60,50,40,50,60,,54.4
+"""ESPN 30 For 30 Season 2 Episode 16: The Price of Gold""",2014,2017,"""documentary""","""sports""",78,60,50,50,50,60,50,40,40,50,,51.7
+"""ESPN 30 For 30 Season 2 Episode 17: Requiem for the Big East""",2014,2017,"""documentary""","""sports""",104,60,60,50,50,50,50,40,50,50,,52.7
+"""ESPN 30 For 30 Season 2 Episode 18: Bad Boys""",2014,2017,"""documentary""","""sports""",103,70,70,60,60,60,60,40,50,60,,61.5
+"""ESPN 30 For 30 Season 2 Episode 19: Slaying the Badger""",2014,2017,"""documentary""","""sports""",79,60,60,60,60,60,60,50,50,60,,58.8
+"""ESPN 30 For 30 Season 2 Episode 1: Broke""",2012,2014,"""documentary""","""sports""",78,65,50,60,60,60,60,40,50,50,,56.1
+"""ESPN 30 For 30 Season 2 Episode 20: Playing for the Mob""",2014,2017,"""documentary""","""sports""",78,60,60,60,60,60,60,40,60,60,,58.5
+"""ESPN 30 For 30 Season 2 Episode 21:  The Day The Series Stopped""",2014,2017,"""documentary""","""sports""",51,55,55,60,60,60,60,40,50,60,,56.3
+"""ESPN 30 For 30 Season 2 Episode 22: When The Garden Was Eden""",2014,2017,"""documentary""","""sports""",76,50,50,50,50,60,50,40,40,40,,48.3
+"""ESPN 30 For 30 Season 2 Episode 23: Brian and The Boz""",2014,2017,"""documentary""","""sports""",77,70,50,60,60,60,60,50,60,60,,59.8
+"""ESPN 30 For 30 Season 2 Episode 24: Brothers in Exile""",2014,2017,"""documentary""","""sports""",78,70,60,60,60,70,70,50,60,60,,63.4
+"""ESPN 30 For 30 Season 2 Episode 25: Rand University""",2014,2017,"""documentary""","""sports""",51,70,60,70,70,60,60,50,50,60,,62.4
+"""ESPN 30 For 30 Season 2 Episode 26: The U Part 2""",2014,2017,"""documentary""","""sports""",102,75,70,75,60,70,70,60,65,60,,68.3
+"""ESPN 30 For 30 Season 2 Episode 27: Of Miracles and Men""",2015,2017,"""documentary""","""sports""",103,70,70,80,70,70,70,50,50,70,,68.5
+"""ESPN 30 For 30 Season 2 Episode 28: I Hate Christian Laettner""",2015,2017,"""documentary""","""sports""",90,70,60,70,70,60,70,60,50,55,,63.7
+"""ESPN 30 For 30 Season 2 Episode 29: Sole Man""",2015,2017,"""documentary""","""sports""",78,55,50,50,50,50,50,40,40,40,,48.3
+"""ESPN 30 For 30 Season 2 Episode 2: 9.79*""",2012,2014,"""documentary""","""sports""",81,60,60,70,70,60,70,40,60,60,,61.5
+"""ESPN 30 For 30 Season 2 Episode 30: Angry Sky""",2015,2017,"""documentary""","""sports""",77,50,50,50,50,60,40,40,40,40,,47.1
+"""ESPN 30 For 30 Season 2 Episode 3: There's No Place Like Home""",2012,2014,"""documentary""","""sports""",62,30,30,20,20,40,30,30,30,20,,27.8
+"""ESPN 30 For 30 Season 2 Episode 4: Benji""",2012,2014,"""documentary""","""sports""",80,60,60,60,60,60,60,40,50,50,,56.6
+"""ESPN 30 For 30 Season 2 Episode 5: Ghosts of Ole Miss""",2012,2014,"""documentary""","""sports""",52,50,50,40,40,50,40,40,50,40,,44.9
+"""ESPN 30 For 30 Season 2 Episode 6: You Don't Know Bo""",2012,2014,"""documentary""","""sports""",77,80,70,70,70,65,70,40,60,70,,68.8
+"""ESPN 30 For 30 Season 2 Episode 7: Survive and Advance""",2013,2014,"""documentary""","""sports""",102,70,80,70,70,70,60,50,60,65,,67.6
+"""ESPN 30 For 30 Season 2 Episode 8: Elway to Marino""",2013,2014,"""documentary""","""sports""",79,60,60,50,50,50,50,40,50,50,,52.7
+"""ESPN 30 For 30 Season 2 Episode 9: Hawaiian The Legend Of Eddie Aikau""",2013,2014,"""documentary""","""sports""",96,70,60,60,60,70,70,40,60,60,,62.7
+"""ESPN 30 For 30 Season 3 Episode 10: Doc and Darryl""",2016,2018,"""documentary""","""sports""",78,50,50,60,60,60,60,40,60,50,,53.7
+"""ESPN 30 For 30 Season 3 Episode 12: Hit It Hard""",2016,2018,"""documentary""","""sports""",50,40,40,60,40,50,50,45,50,40,,45.0
+"""ESPN 30 For 30 Season 3 Episode 13: Catholics vs Convicts""",2016,2019,"""documentary""","""sports""",102,40,40,50,40,50,30,30,30,40,,39.5
+"""ESPN 30 For 30 Season 3 Episode 14: This Was The XFL""",2017,2019,"""documentary""","""sports""",77,50,50,60,50,60,50,40,50,50,,51.2
+"""ESPN 30 For 30 Season 3 Episode 17: Mike and the Mad Dog""",2017,2019,"""documentary""","""sports""",50,30,30,30,30,40,30,30,50,30,,32.0
+"""ESPN 30 For 30 Season 3 Episode 1: Trojan War""",2015,2018,"""documentary""","""sports""",78,65,65,60,60,50,60,40,60,60,,59.3
+"""ESPN 30 For 30 Season 3 Episode 4: Chasing Tyson""",2015,2018,"""documentary""","""sports""",60,60,60,50,50,50,60,40,60,50,,54.4
+"""ESPN 30 For 30 Season 3 Episode 5: Four Falls of Buffalo""",2015,2018,"""documentary""","""sports""",102,70,70,70,60,60,70,40,50,60,,63.7
+"""ESPN 30 For 30 Season 3 Episode 9: Believeland""",2016,2018,"""documentary""","""sports""",77,50,50,50,50,60,60,40,50,50,,51.5
 """Everything Is Illuminated""",2005,2007,"""comedy""","""drama""",106,70,60,70,70,60,70,70,60,70,,67.1
 """Ex Machina""",2014,2018,"""drama""","""sci-fi""",108,50,40,40,40,30,30,30,40,40,,39.0
 """Fast and Furious(1)(1)-The Fast and the Furious""",2001,2008,"""action""","""""",106,60,60,50,50,40,60,50,60,75,,57.8
