@@ -10,6 +10,7 @@ name,year,est_year_watched,genre,sub_genre,movie_length,peak,consistency,premise
 """50 First Dates""",2004,2007,"""romantic comedy""","""""",99,40,50,30,40,30,50,50,40,40,,41.5
 """50/50""",2011,2012,"""drama""","""comedy""",110,50,30,50,50,40,40,30,40,50,,42.9
 """6 Days to Air-The Making Of South Park""",2011,2011,"""documentary""","""comedy""",42,70,70,70,60,60,70,70,70,70,,68.3
+"""61*""",2001,2005,"""biography""","""drama""",129,60,50,70,70,60,60,40,40,50,,56.3
 """A Beautiful Mind""",2001,2014,"""biography""","""drama""",140,70,60,75,75,65,70,60,50,70,,67.2
 """A Clockwork Orange""",1971,2011,"""crime""","""drama""",136,60,35,60,60,40,50,50,30,50,,49.5
 """A Knight's Tale""",2001,2004,"""adventure""","""action""",132,65,65,65,65,40,65,65,40,60,,60.6
@@ -252,6 +253,7 @@ name,year,est_year_watched,genre,sub_genre,movie_length,peak,consistency,premise
 """Kill Bill: Vol. 1""",2003,2010,"""action""","""""",111,60,50,55,50,50,60,60,50,60,,55.9
 """Kill Bill: Vol. 2""",2004,2010,"""action""","""""",137,50,50,55,50,50,50,60,40,50,,50.7
 """Kitten Bowl-2014""",2014,2014,"""cats""","""sports""",124,70,20,40,40,50,60,40,30,50,,47.3
+"""Knocked Up""",2007,2011,"""comedy""","""""",129,60,50,40,40,40,60,50,40,50,,50.0
 """Kung Fu Panda(1)""",2008,2013,"""adventure""","""animated""",92,60,60,50,40,40,60,60,60,60,,55.6
 """Kung Fu Panda(2)""",2011,2013,"""adventure""","""animated""",90,60,60,50,40,40,60,60,60,60,,55.6
 """Kung Fury""",2015,2015,"""comedy""","""action""",31,80,70,50,40,40,70,70,70,60,,63.4
