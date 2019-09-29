@@ -1,0 +1,1192 @@
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019) (preloaded format=pdflatex 2019.5.8)  29 SEP 2019 00:56
+entering extended mode
+ restricted \write18 enabled.
+ %&-line parsing enabled.
+**League_Documentation.tex
+(./League_Documentation.tex
+LaTeX2e <2018-12-01>
+(/usr/local/texlive/2019/texmf-dist/tex/latex/base/article.cls
+Document Class: article 2018/09/03 v1.4i Standard LaTeX document class
+(/usr/local/texlive/2019/texmf-dist/tex/latex/base/size11.clo
+File: size11.clo 2018/09/03 v1.4i Standard LaTeX file (size option)
+)
+\c@part=\count80
+\c@section=\count81
+\c@subsection=\count82
+\c@subsubsection=\count83
+\c@paragraph=\count84
+\c@subparagraph=\count85
+\c@figure=\count86
+\c@table=\count87
+\abovecaptionskip=\skip41
+\belowcaptionskip=\skip42
+\bibindent=\dimen102
+)
+(/Users/connorreed/Library/texmf/tex/latex/personalcommands.sty
+(/usr/local/texlive/2019/texmf-dist/tex/latex/graphics/color.sty
+Package: color 2016/07/10 v1.1e Standard LaTeX Color (DPC)
+
+(/usr/local/texlive/2019/texmf-dist/tex/latex/graphics-cfg/color.cfg
+File: color.cfg 2016/01/02 v1.6 sample color configuration
+)
+Package color Info: Driver file: pdftex.def on input line 147.
+
+(/usr/local/texlive/2019/texmf-dist/tex/latex/graphics-def/pdftex.def
+File: pdftex.def 2018/01/08 v1.0l Graphics/color driver for pdftex
+))
+\c@Question=\count88
+)
+(/usr/local/texlive/2019/texmf-dist/tex/latex/amsmath/amsmath.sty
+Package: amsmath 2018/12/01 v2.17b AMS math features
+\@mathmargin=\skip43
+
+For additional information on amsmath, use the `?' option.
+(/usr/local/texlive/2019/texmf-dist/tex/latex/amsmath/amstext.sty
+Package: amstext 2000/06/29 v2.01 AMS text
+
+(/usr/local/texlive/2019/texmf-dist/tex/latex/amsmath/amsgen.sty
+File: amsgen.sty 1999/11/30 v2.0 generic functions
+\@emptytoks=\toks14
+\ex@=\dimen103
+))
+(/usr/local/texlive/2019/texmf-dist/tex/latex/amsmath/amsbsy.sty
+Package: amsbsy 1999/11/29 v1.2d Bold Symbols
+\pmbraise@=\dimen104
+)
+(/usr/local/texlive/2019/texmf-dist/tex/latex/amsmath/amsopn.sty
+Package: amsopn 2016/03/08 v2.02 operator names
+)
+\inf@bad=\count89
+LaTeX Info: Redefining \frac on input line 223.
+\uproot@=\count90
+\leftroot@=\count91
+LaTeX Info: Redefining \overline on input line 385.
+\classnum@=\count92
+\DOTSCASE@=\count93
+LaTeX Info: Redefining \ldots on input line 482.
+LaTeX Info: Redefining \dots on input line 485.
+LaTeX Info: Redefining \cdots on input line 606.
+\Mathstrutbox@=\box27
+\strutbox@=\box28
+\big@size=\dimen105
+LaTeX Font Info:    Redeclaring font encoding OML on input line 729.
+LaTeX Font Info:    Redeclaring font encoding OMS on input line 730.
+\macc@depth=\count94
+\c@MaxMatrixCols=\count95
+\dotsspace@=\muskip10
+\c@parentequation=\count96
+\dspbrk@lvl=\count97
+\tag@help=\toks15
+\row@=\count98
+\column@=\count99
+\maxfields@=\count100
+\andhelp@=\toks16
+\eqnshift@=\dimen106
+\alignsep@=\dimen107
+\tagshift@=\dimen108
+\tagwidth@=\dimen109
+\totwidth@=\dimen110
+\lineht@=\dimen111
+\@envbody=\toks17
+\multlinegap=\skip44
+\multlinetaggap=\skip45
+\mathdisplay@stack=\toks18
+LaTeX Info: Redefining \[ on input line 2844.
+LaTeX Info: Redefining \] on input line 2845.
+)
+(/usr/local/texlive/2019/texmf-dist/tex/latex/amscls/amsthm.sty
+Package: amsthm 2017/10/31 v2.20.4
+\thm@style=\toks19
+\thm@bodyfont=\toks20
+\thm@headfont=\toks21
+\thm@notefont=\toks22
+\thm@headpunct=\toks23
+\thm@preskip=\skip46
+\thm@postskip=\skip47
+\thm@headsep=\skip48
+\dth@everypar=\toks24
+)
+(/usr/local/texlive/2019/texmf-dist/tex/latex/amsfonts/amssymb.sty
+Package: amssymb 2013/01/14 v3.01 AMS font symbols
+
+(/usr/local/texlive/2019/texmf-dist/tex/latex/amsfonts/amsfonts.sty
+Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
+\symAMSa=\mathgroup4
+\symAMSb=\mathgroup5
+LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
+(Font)                  U/euf/m/n --> U/euf/b/n on input line 106.
+))
+(/usr/local/texlive/2019/texmf-dist/tex/latex/setspace/setspace.sty
+Package: setspace 2011/12/19 v6.7a set line spacing
+)
+(/usr/local/texlive/2019/texmf-dist/tex/latex/caption/caption.sty
+Package: caption 2018/10/06 v3.3-154 Customizing captions (AR)
+
+(/usr/local/texlive/2019/texmf-dist/tex/latex/caption/caption3.sty
+Package: caption3 2018/09/12 v1.8c caption3 kernel (AR)
+Package caption3 Info: TeX engine: e-TeX on input line 64.
+
+(/usr/local/texlive/2019/texmf-dist/tex/latex/graphics/keyval.sty
+Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
+\KV@toks@=\toks25
+)
+\captionmargin=\dimen112
+\captionmargin@=\dimen113
+\captionwidth=\dimen114
+\caption@tempdima=\dimen115
+\caption@indent=\dimen116
+\caption@parindent=\dimen117
+\caption@hangindent=\dimen118
+)
+\c@caption@flags=\count101
+\c@ContinuedFloat=\count102
+)
+(/usr/local/texlive/2019/texmf-dist/tex/latex/tocbibind/tocbibind.sty
+Package: tocbibind 2010/10/13 v1.5k extra ToC listings
+Package tocbibind Info: The document has section divisions on input line 50.
+
+
+Package tocbibind Note: Using section or other style headings.
+
+) (/usr/local/texlive/2019/texmf-dist/tex/latex/ms/ragged2e.sty
+Package: ragged2e 2009/05/21 v2.1 ragged2e Package (MS)
+
+(/usr/local/texlive/2019/texmf-dist/tex/latex/ms/everysel.sty
+Package: everysel 2011/10/28 v1.2 EverySelectfont Package (MS)
+)
+\CenteringLeftskip=\skip49
+\RaggedLeftLeftskip=\skip50
+\RaggedRightLeftskip=\skip51
+\CenteringRightskip=\skip52
+\RaggedLeftRightskip=\skip53
+\RaggedRightRightskip=\skip54
+\CenteringParfillskip=\skip55
+\RaggedLeftParfillskip=\skip56
+\RaggedRightParfillskip=\skip57
+\JustifyingParfillskip=\skip58
+\CenteringParindent=\skip59
+\RaggedLeftParindent=\skip60
+\RaggedRightParindent=\skip61
+\JustifyingParindent=\skip62
+)
+(/usr/local/texlive/2019/texmf-dist/tex/latex/geometry/geometry.sty
+Package: geometry 2018/04/16 v5.8 Page Geometry
+
+(/usr/local/texlive/2019/texmf-dist/tex/generic/oberdiek/ifpdf.sty
+Package: ifpdf 2018/09/07 v3.3 Provides the ifpdf switch
+)
+(/usr/local/texlive/2019/texmf-dist/tex/generic/oberdiek/ifvtex.sty
+Package: ifvtex 2016/05/16 v1.6 Detect VTeX and its facilities (HO)
+Package ifvtex Info: VTeX not detected.
+)
+(/usr/local/texlive/2019/texmf-dist/tex/generic/ifxetex/ifxetex.sty
+Package: ifxetex 2010/09/12 v0.6 Provides ifxetex conditional
+)
+\Gm@cnth=\count103
+\Gm@cntv=\count104
+\c@Gm@tempcnt=\count105
+\Gm@bindingoffset=\dimen119
+\Gm@wd@mp=\dimen120
+\Gm@odd@mp=\dimen121
+\Gm@even@mp=\dimen122
+\Gm@layoutwidth=\dimen123
+\Gm@layoutheight=\dimen124
+\Gm@layouthoffset=\dimen125
+\Gm@layoutvoffset=\dimen126
+\Gm@dimlist=\toks26
+)
+(/usr/local/texlive/2019/texmf-dist/tex/latex/fancyhdr/fancyhdr.sty
+Package: fancyhdr 2019/01/31 v3.10 Extensive control of page headers and footer
+s
+\f@nch@headwidth=\skip63
+\f@nch@O@elh=\skip64
+\f@nch@O@erh=\skip65
+\f@nch@O@olh=\skip66
+\f@nch@O@orh=\skip67
+\f@nch@O@elf=\skip68
+\f@nch@O@erf=\skip69
+\f@nch@O@olf=\skip70
+\f@nch@O@orf=\skip71
+)
+(/usr/local/texlive/2019/texmf-dist/tex/latex/tools/afterpage.sty
+Package: afterpage 2014/10/28 v1.08 After-Page Package (DPC)
+\AP@output=\toks27
+\AP@partial=\box29
+\AP@footins=\box30
+)
+(/usr/local/texlive/2019/texmf-dist/tex/generic/ulem/ulem.sty
+\UL@box=\box31
+\UL@hyphenbox=\box32
+\UL@skip=\skip72
+\UL@hook=\toks28
+\UL@height=\dimen127
+\UL@pe=\count106
+\UL@pixel=\dimen128
+\ULC@box=\box33
+Package: ulem 2012/05/18
+\ULdepth=\dimen129
+)
+(/usr/local/texlive/2019/texmf-dist/tex/latex/titlesec/titlesec.sty
+Package: titlesec 2016/03/21 v2.10.2 Sectioning titles
+\ttl@box=\box34
+\beforetitleunit=\skip73
+\aftertitleunit=\skip74
+\ttl@plus=\dimen130
+\ttl@minus=\dimen131
+\ttl@toksa=\toks29
+\titlewidth=\dimen132
+\titlewidthlast=\dimen133
+\titlewidthfirst=\dimen134
+)
+(/usr/local/texlive/2019/texmf-dist/tex/latex/tools/enumerate.sty
+Package: enumerate 2015/07/23 v3.00 enumerate extensions (DPC)
+\@enLab=\toks30
+)
+(/usr/local/texlive/2019/texmf-dist/tex/latex/tools/longtable.sty
+Package: longtable 2014/10/28 v4.11 Multi-page Table package (DPC)+ FMi change
+\LTleft=\skip75
+\LTright=\skip76
+\LTpre=\skip77
+\LTpost=\skip78
+\LTchunksize=\count107
+\LTcapwidth=\dimen135
+\LT@head=\box35
+\LT@firsthead=\box36
+\LT@foot=\box37
+\LT@lastfoot=\box38
+\LT@cols=\count108
+\LT@rows=\count109
+\c@LT@tables=\count110
+\c@LT@chunks=\count111
+\LT@p@ftn=\toks31
+)
+(/usr/local/texlive/2019/texmf-dist/tex/latex/graphics/graphicx.sty
+Package: graphicx 2017/06/01 v1.1a Enhanced LaTeX Graphics (DPC,SPQR)
+
+(/usr/local/texlive/2019/texmf-dist/tex/latex/graphics/graphics.sty
+Package: graphics 2017/06/25 v1.2c Standard LaTeX Graphics (DPC,SPQR)
+
+(/usr/local/texlive/2019/texmf-dist/tex/latex/graphics/trig.sty
+Package: trig 2016/01/03 v1.10 sin cos tan (DPC)
+)
+(/usr/local/texlive/2019/texmf-dist/tex/latex/graphics-cfg/graphics.cfg
+File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
+)
+Package graphics Info: Driver file: pdftex.def on input line 99.
+)
+\Gin@req@height=\dimen136
+\Gin@req@width=\dimen137
+)
+(/usr/local/texlive/2019/texmf-dist/tex/latex/wrapfig/wrapfig.sty
+\wrapoverhang=\dimen138
+\WF@size=\dimen139
+\c@WF@wrappedlines=\count112
+\WF@box=\box39
+\WF@everypar=\toks32
+Package: wrapfig 2003/01/31  v 3.6
+)
+(/usr/local/texlive/2019/texmf-dist/tex/latex/base/textcomp.sty
+Package: textcomp 2018/08/11 v2.0j Standard LaTeX package
+Package textcomp Info: Sub-encoding information:
+(textcomp)               5 = only ISO-Adobe without \textcurrency
+(textcomp)               4 = 5 + \texteuro
+(textcomp)               3 = 4 + \textohm
+(textcomp)               2 = 3 + \textestimated + \textcurrency
+(textcomp)               1 = TS1 - \textcircled - \t
+(textcomp)               0 = TS1 (full)
+(textcomp)             Font families with sub-encoding setting implement
+(textcomp)             only a restricted character set as indicated.
+(textcomp)             Family '?' is the default used for unknown fonts.
+(textcomp)             See the documentation for details.
+Package textcomp Info: Setting ? sub-encoding to TS1/1 on input line 79.
+
+(/usr/local/texlive/2019/texmf-dist/tex/latex/base/ts1enc.def
+File: ts1enc.def 2001/06/05 v3.0e (jk/car/fm) Standard LaTeX file
+Now handling font encoding TS1 ...
+... processing UTF-8 mapping file for font encoding TS1
+
+(/usr/local/texlive/2019/texmf-dist/tex/latex/base/ts1enc.dfu
+File: ts1enc.dfu 2018/10/05 v1.2f UTF-8 support for inputenc
+   defining Unicode char U+00A2 (decimal 162)
+   defining Unicode char U+00A3 (decimal 163)
+   defining Unicode char U+00A4 (decimal 164)
+   defining Unicode char U+00A5 (decimal 165)
+   defining Unicode char U+00A6 (decimal 166)
+   defining Unicode char U+00A7 (decimal 167)
+   defining Unicode char U+00A8 (decimal 168)
+   defining Unicode char U+00A9 (decimal 169)
+   defining Unicode char U+00AA (decimal 170)
+   defining Unicode char U+00AC (decimal 172)
+   defining Unicode char U+00AE (decimal 174)
+   defining Unicode char U+00AF (decimal 175)
+   defining Unicode char U+00B0 (decimal 176)
+   defining Unicode char U+00B1 (decimal 177)
+   defining Unicode char U+00B2 (decimal 178)
+   defining Unicode char U+00B3 (decimal 179)
+   defining Unicode char U+00B4 (decimal 180)
+   defining Unicode char U+00B5 (decimal 181)
+   defining Unicode char U+00B6 (decimal 182)
+   defining Unicode char U+00B7 (decimal 183)
+   defining Unicode char U+00B9 (decimal 185)
+   defining Unicode char U+00BA (decimal 186)
+   defining Unicode char U+00BC (decimal 188)
+   defining Unicode char U+00BD (decimal 189)
+   defining Unicode char U+00BE (decimal 190)
+   defining Unicode char U+00D7 (decimal 215)
+   defining Unicode char U+00F7 (decimal 247)
+   defining Unicode char U+0192 (decimal 402)
+   defining Unicode char U+02C7 (decimal 711)
+   defining Unicode char U+02D8 (decimal 728)
+   defining Unicode char U+02DD (decimal 733)
+   defining Unicode char U+0E3F (decimal 3647)
+   defining Unicode char U+2016 (decimal 8214)
+   defining Unicode char U+2020 (decimal 8224)
+   defining Unicode char U+2021 (decimal 8225)
+   defining Unicode char U+2022 (decimal 8226)
+   defining Unicode char U+2030 (decimal 8240)
+   defining Unicode char U+2031 (decimal 8241)
+   defining Unicode char U+203B (decimal 8251)
+   defining Unicode char U+203D (decimal 8253)
+   defining Unicode char U+2044 (decimal 8260)
+   defining Unicode char U+204E (decimal 8270)
+   defining Unicode char U+2052 (decimal 8274)
+   defining Unicode char U+20A1 (decimal 8353)
+   defining Unicode char U+20A4 (decimal 8356)
+   defining Unicode char U+20A6 (decimal 8358)
+   defining Unicode char U+20A9 (decimal 8361)
+   defining Unicode char U+20AB (decimal 8363)
+   defining Unicode char U+20AC (decimal 8364)
+   defining Unicode char U+20B1 (decimal 8369)
+   defining Unicode char U+2103 (decimal 8451)
+   defining Unicode char U+2116 (decimal 8470)
+   defining Unicode char U+2117 (decimal 8471)
+   defining Unicode char U+211E (decimal 8478)
+   defining Unicode char U+2120 (decimal 8480)
+   defining Unicode char U+2122 (decimal 8482)
+   defining Unicode char U+2126 (decimal 8486)
+   defining Unicode char U+2127 (decimal 8487)
+   defining Unicode char U+212E (decimal 8494)
+   defining Unicode char U+2190 (decimal 8592)
+   defining Unicode char U+2191 (decimal 8593)
+   defining Unicode char U+2192 (decimal 8594)
+   defining Unicode char U+2193 (decimal 8595)
+   defining Unicode char U+2329 (decimal 9001)
+   defining Unicode char U+232A (decimal 9002)
+   defining Unicode char U+2422 (decimal 9250)
+   defining Unicode char U+25E6 (decimal 9702)
+   defining Unicode char U+25EF (decimal 9711)
+   defining Unicode char U+266A (decimal 9834)
+   defining Unicode char U+FEFF (decimal 65279)
+))
+LaTeX Info: Redefining \oldstylenums on input line 334.
+Package textcomp Info: Setting cmr sub-encoding to TS1/0 on input line 349.
+Package textcomp Info: Setting cmss sub-encoding to TS1/0 on input line 350.
+Package textcomp Info: Setting cmtt sub-encoding to TS1/0 on input line 351.
+Package textcomp Info: Setting cmvtt sub-encoding to TS1/0 on input line 352.
+Package textcomp Info: Setting cmbr sub-encoding to TS1/0 on input line 353.
+Package textcomp Info: Setting cmtl sub-encoding to TS1/0 on input line 354.
+Package textcomp Info: Setting ccr sub-encoding to TS1/0 on input line 355.
+Package textcomp Info: Setting ptm sub-encoding to TS1/4 on input line 356.
+Package textcomp Info: Setting pcr sub-encoding to TS1/4 on input line 357.
+Package textcomp Info: Setting phv sub-encoding to TS1/4 on input line 358.
+Package textcomp Info: Setting ppl sub-encoding to TS1/3 on input line 359.
+Package textcomp Info: Setting pag sub-encoding to TS1/4 on input line 360.
+Package textcomp Info: Setting pbk sub-encoding to TS1/4 on input line 361.
+Package textcomp Info: Setting pnc sub-encoding to TS1/4 on input line 362.
+Package textcomp Info: Setting pzc sub-encoding to TS1/4 on input line 363.
+Package textcomp Info: Setting bch sub-encoding to TS1/4 on input line 364.
+Package textcomp Info: Setting put sub-encoding to TS1/5 on input line 365.
+Package textcomp Info: Setting uag sub-encoding to TS1/5 on input line 366.
+Package textcomp Info: Setting ugq sub-encoding to TS1/5 on input line 367.
+Package textcomp Info: Setting ul8 sub-encoding to TS1/4 on input line 368.
+Package textcomp Info: Setting ul9 sub-encoding to TS1/4 on input line 369.
+Package textcomp Info: Setting augie sub-encoding to TS1/5 on input line 370.
+Package textcomp Info: Setting dayrom sub-encoding to TS1/3 on input line 371.
+Package textcomp Info: Setting dayroms sub-encoding to TS1/3 on input line 372.
+
+Package textcomp Info: Setting pxr sub-encoding to TS1/0 on input line 373.
+Package textcomp Info: Setting pxss sub-encoding to TS1/0 on input line 374.
+Package textcomp Info: Setting pxtt sub-encoding to TS1/0 on input line 375.
+Package textcomp Info: Setting txr sub-encoding to TS1/0 on input line 376.
+Package textcomp Info: Setting txss sub-encoding to TS1/0 on input line 377.
+Package textcomp Info: Setting txtt sub-encoding to TS1/0 on input line 378.
+Package textcomp Info: Setting lmr sub-encoding to TS1/0 on input line 379.
+Package textcomp Info: Setting lmdh sub-encoding to TS1/0 on input line 380.
+Package textcomp Info: Setting lmss sub-encoding to TS1/0 on input line 381.
+Package textcomp Info: Setting lmssq sub-encoding to TS1/0 on input line 382.
+Package textcomp Info: Setting lmvtt sub-encoding to TS1/0 on input line 383.
+Package textcomp Info: Setting lmtt sub-encoding to TS1/0 on input line 384.
+Package textcomp Info: Setting qhv sub-encoding to TS1/0 on input line 385.
+Package textcomp Info: Setting qag sub-encoding to TS1/0 on input line 386.
+Package textcomp Info: Setting qbk sub-encoding to TS1/0 on input line 387.
+Package textcomp Info: Setting qcr sub-encoding to TS1/0 on input line 388.
+Package textcomp Info: Setting qcs sub-encoding to TS1/0 on input line 389.
+Package textcomp Info: Setting qpl sub-encoding to TS1/0 on input line 390.
+Package textcomp Info: Setting qtm sub-encoding to TS1/0 on input line 391.
+Package textcomp Info: Setting qzc sub-encoding to TS1/0 on input line 392.
+Package textcomp Info: Setting qhvc sub-encoding to TS1/0 on input line 393.
+Package textcomp Info: Setting futs sub-encoding to TS1/4 on input line 394.
+Package textcomp Info: Setting futx sub-encoding to TS1/4 on input line 395.
+Package textcomp Info: Setting futj sub-encoding to TS1/4 on input line 396.
+Package textcomp Info: Setting hlh sub-encoding to TS1/3 on input line 397.
+Package textcomp Info: Setting hls sub-encoding to TS1/3 on input line 398.
+Package textcomp Info: Setting hlst sub-encoding to TS1/3 on input line 399.
+Package textcomp Info: Setting hlct sub-encoding to TS1/5 on input line 400.
+Package textcomp Info: Setting hlx sub-encoding to TS1/5 on input line 401.
+Package textcomp Info: Setting hlce sub-encoding to TS1/5 on input line 402.
+Package textcomp Info: Setting hlcn sub-encoding to TS1/5 on input line 403.
+Package textcomp Info: Setting hlcw sub-encoding to TS1/5 on input line 404.
+Package textcomp Info: Setting hlcf sub-encoding to TS1/5 on input line 405.
+Package textcomp Info: Setting pplx sub-encoding to TS1/3 on input line 406.
+Package textcomp Info: Setting pplj sub-encoding to TS1/3 on input line 407.
+Package textcomp Info: Setting ptmx sub-encoding to TS1/4 on input line 408.
+Package textcomp Info: Setting ptmj sub-encoding to TS1/4 on input line 409.
+)
+(/usr/local/texlive/2019/texmf-dist/tex/latex/etaremune/etaremune.sty
+Package: etaremune 2005/06/01 v1.2 Reversed enumerate (HA)
+
+(/usr/local/texlive/2019/texmf-dist/tex/latex/xkeyval/xkeyval.sty
+Package: xkeyval 2014/12/03 v2.7a package option processing (HA)
+
+(/usr/local/texlive/2019/texmf-dist/tex/generic/xkeyval/xkeyval.tex
+(/usr/local/texlive/2019/texmf-dist/tex/generic/xkeyval/xkvutils.tex
+\XKV@toks=\toks33
+\XKV@tempa@toks=\toks34
+)
+\XKV@depth=\count113
+File: xkeyval.tex 2014/12/03 v2.7a key=value parser (HA)
+))
+\c@EM@itemctr=\count114
+\c@EM@etaremunectr=\count115
+)
+(/usr/local/texlive/2019/texmf-dist/tex/latex/hyperref/hyperref.sty
+Package: hyperref 2018/11/30 v6.88e Hypertext links for LaTeX
+
+(/usr/local/texlive/2019/texmf-dist/tex/generic/oberdiek/hobsub-hyperref.sty
+Package: hobsub-hyperref 2016/05/16 v1.14 Bundle oberdiek, subset hyperref (HO)
+
+
+(/usr/local/texlive/2019/texmf-dist/tex/generic/oberdiek/hobsub-generic.sty
+Package: hobsub-generic 2016/05/16 v1.14 Bundle oberdiek, subset generic (HO)
+Package: hobsub 2016/05/16 v1.14 Construct package bundles (HO)
+Package: infwarerr 2016/05/16 v1.4 Providing info/warning/error messages (HO)
+Package: ltxcmds 2016/05/16 v1.23 LaTeX kernel commands for general use (HO)
+Package: ifluatex 2016/05/16 v1.4 Provides the ifluatex switch (HO)
+Package ifluatex Info: LuaTeX not detected.
+Package hobsub Info: Skipping package `ifvtex' (already loaded).
+Package: intcalc 2016/05/16 v1.2 Expandable calculations with integers (HO)
+Package hobsub Info: Skipping package `ifpdf' (already loaded).
+Package: etexcmds 2016/05/16 v1.6 Avoid name clashes with e-TeX commands (HO)
+Package: kvsetkeys 2016/05/16 v1.17 Key value parser (HO)
+Package: kvdefinekeys 2016/05/16 v1.4 Define keys (HO)
+Package: pdftexcmds 2018/09/10 v0.29 Utility functions of pdfTeX for LuaTeX (HO
+)
+Package pdftexcmds Info: LuaTeX not detected.
+Package pdftexcmds Info: \pdf@primitive is available.
+Package pdftexcmds Info: \pdf@ifprimitive is available.
+Package pdftexcmds Info: \pdfdraftmode found.
+Package: pdfescape 2016/05/16 v1.14 Implements pdfTeX's escape features (HO)
+Package: bigintcalc 2016/05/16 v1.4 Expandable calculations on big integers (HO
+)
+Package: bitset 2016/05/16 v1.2 Handle bit-vector datatype (HO)
+Package: uniquecounter 2016/05/16 v1.3 Provide unlimited unique counter (HO)
+)
+Package hobsub Info: Skipping package `hobsub' (already loaded).
+Package: letltxmacro 2016/05/16 v1.5 Let assignment for LaTeX macros (HO)
+Package: hopatch 2016/05/16 v1.3 Wrapper for package hooks (HO)
+Package: xcolor-patch 2016/05/16 xcolor patch
+Package: atveryend 2016/05/16 v1.9 Hooks at the very end of document (HO)
+Package atveryend Info: \AP@enddocument detected (standard20110627).
+Package: atbegshi 2016/06/09 v1.18 At begin shipout hook (HO)
+Package: refcount 2016/05/16 v3.5 Data extraction from label references (HO)
+Package: hycolor 2016/05/16 v1.8 Color options for hyperref/bookmark (HO)
+)
+(/usr/local/texlive/2019/texmf-dist/tex/latex/oberdiek/auxhook.sty
+Package: auxhook 2016/05/16 v1.4 Hooks for auxiliary files (HO)
+)
+(/usr/local/texlive/2019/texmf-dist/tex/latex/oberdiek/kvoptions.sty
+Package: kvoptions 2016/05/16 v3.12 Key value format for package options (HO)
+)
+\@linkdim=\dimen140
+\Hy@linkcounter=\count116
+\Hy@pagecounter=\count117
+
+(/usr/local/texlive/2019/texmf-dist/tex/latex/hyperref/pd1enc.def
+File: pd1enc.def 2018/11/30 v6.88e Hyperref: PDFDocEncoding definition (HO)
+Now handling font encoding PD1 ...
+... no UTF-8 mapping file for font encoding PD1
+)
+\Hy@SavedSpaceFactor=\count118
+
+(/usr/local/texlive/2019/texmf-dist/tex/latex/latexconfig/hyperref.cfg
+File: hyperref.cfg 2002/06/06 v1.2 hyperref configuration of TeXLive
+)
+Package hyperref Info: Option `colorlinks' set `false' on input line 4393.
+Package hyperref Info: Hyper figures OFF on input line 4519.
+Package hyperref Info: Link nesting OFF on input line 4524.
+Package hyperref Info: Hyper index ON on input line 4527.
+Package hyperref Info: Plain pages OFF on input line 4534.
+Package hyperref Info: Backreferencing OFF on input line 4539.
+Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
+Package hyperref Info: Bookmarks ON on input line 4772.
+\c@Hy@tempcnt=\count119
+
+(/usr/local/texlive/2019/texmf-dist/tex/latex/url/url.sty
+\Urlmuskip=\muskip11
+Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
+)
+LaTeX Info: Redefining \url on input line 5125.
+\XeTeXLinkMargin=\dimen141
+\Fld@menulength=\count120
+\Field@Width=\dimen142
+\Fld@charsize=\dimen143
+Package hyperref Info: Hyper figures OFF on input line 6380.
+Package hyperref Info: Link nesting OFF on input line 6385.
+Package hyperref Info: Hyper index ON on input line 6388.
+Package hyperref Info: backreferencing OFF on input line 6395.
+Package hyperref Info: Link coloring OFF on input line 6400.
+Package hyperref Info: Link coloring with OCG OFF on input line 6405.
+Package hyperref Info: PDF/A mode OFF on input line 6410.
+LaTeX Info: Redefining \ref on input line 6450.
+LaTeX Info: Redefining \pageref on input line 6454.
+\Hy@abspage=\count121
+\c@Item=\count122
+\c@Hfootnote=\count123
+)
+Package hyperref Info: Driver (autodetected): hpdftex.
+
+(/usr/local/texlive/2019/texmf-dist/tex/latex/hyperref/hpdftex.def
+File: hpdftex.def 2018/11/30 v6.88e Hyperref driver for pdfTeX
+\Fld@listcount=\count124
+\c@bookmark@seq@number=\count125
+
+(/usr/local/texlive/2019/texmf-dist/tex/latex/oberdiek/rerunfilecheck.sty
+Package: rerunfilecheck 2016/05/16 v1.8 Rerun checks for auxiliary files (HO)
+Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
+82.
+)
+\Hy@SectionHShift=\skip79
+)
+(./League_Documentation.aux)
+\openout1 = `League_Documentation.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 37.
+LaTeX Font Info:    ... okay on input line 37.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 37.
+LaTeX Font Info:    ... okay on input line 37.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 37.
+LaTeX Font Info:    ... okay on input line 37.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 37.
+LaTeX Font Info:    ... okay on input line 37.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 37.
+LaTeX Font Info:    ... okay on input line 37.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 37.
+LaTeX Font Info:    ... okay on input line 37.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 37.
+LaTeX Font Info:    Try loading font information for TS1+cmr on input line 37.
+
+(/usr/local/texlive/2019/texmf-dist/tex/latex/base/ts1cmr.fd
+File: ts1cmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
+)
+LaTeX Font Info:    ... okay on input line 37.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 37.
+LaTeX Font Info:    ... okay on input line 37.
+
+(/usr/local/texlive/2019/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count126
+\scratchdimen=\dimen144
+\scratchbox=\box40
+\nofMPsegments=\count127
+\nofMParguments=\count128
+\everyMPshowfont=\toks35
+\MPscratchCnt=\count129
+\MPscratchDim=\dimen145
+\MPnumerator=\count130
+\makeMPintoPDFobject=\count131
+\everyMPtoPDFconversion=\toks36
+) (/usr/local/texlive/2019/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
+Package: epstopdf-base 2016/05/15 v2.6 Base part for package epstopdf
+
+(/usr/local/texlive/2019/texmf-dist/tex/latex/oberdiek/grfext.sty
+Package: grfext 2016/05/16 v1.2 Manage graphics extensions (HO)
+)
+Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
+38.
+Package grfext Info: Graphics extension search list:
+(grfext)             [.pdf,.png,.jpg,.mps,.jpeg,.jbig2,.jb2,.PDF,.PNG,.JPG,.JPE
+G,.JBIG2,.JB2,.eps]
+(grfext)             \AppendGraphicsExtensions on input line 456.
+
+(/usr/local/texlive/2019/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
+File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
+e
+))
+Package caption Info: Begin \AtBeginDocument code.
+Package caption Info: hyperref package is loaded.
+Package caption Info: longtable package is loaded.
+
+(/usr/local/texlive/2019/texmf-dist/tex/latex/caption/ltcaption.sty
+Package: ltcaption 2018/08/26 v1.4-95 longtable captions (AR)
+)
+Package caption Info: wrapfig package is loaded.
+Package caption Info: End \AtBeginDocument code.
+
+ABD: EverySelectfont initializing macros
+LaTeX Info: Redefining \selectfont on input line 37.
+
+*geometry* driver: auto-detecting
+*geometry* detected driver: pdftex
+*geometry* verbose mode - [ preamble ] result:
+* driver: pdftex
+* paper: letterpaper
+* layout: <same size as paper>
+* layoutoffset:(h,v)=(0.0pt,0.0pt)
+* modes: 
+* h-part:(L,W,R)=(57.81621pt, 498.66258pt, 57.81621pt)
+* v-part:(T,H,B)=(57.81621pt, 679.33757pt, 57.81621pt)
+* \paperwidth=614.295pt
+* \paperheight=794.96999pt
+* \textwidth=498.66258pt
+* \textheight=679.33757pt
+* \oddsidemargin=-14.45378pt
+* \evensidemargin=-14.45378pt
+* \topmargin=-51.45378pt
+* \headheight=12.0pt
+* \headsep=25.0pt
+* \topskip=11.0pt
+* \footskip=30.0pt
+* \marginparwidth=59.0pt
+* \marginparsep=10.0pt
+* \columnsep=10.0pt
+* \skip\footins=10.0pt plus 4.0pt minus 2.0pt
+* \hoffset=0.0pt
+* \voffset=0.0pt
+* \mag=1000
+* \@twocolumnfalse
+* \@twosidefalse
+* \@mparswitchfalse
+* \@reversemarginfalse
+* (1in=72.27pt=25.4mm, 1cm=28.453pt)
+
+\AtBeginShipoutBox=\box41
+Package hyperref Info: Link coloring OFF on input line 37.
+(/usr/local/texlive/2019/texmf-dist/tex/latex/hyperref/nameref.sty
+Package: nameref 2016/05/21 v2.44 Cross-referencing by name of section
+
+(/usr/local/texlive/2019/texmf-dist/tex/generic/oberdiek/gettitlestring.sty
+Package: gettitlestring 2016/05/16 v1.5 Cleanup title references (HO)
+)
+\c@section@level=\count132
+)
+LaTeX Info: Redefining \ref on input line 37.
+LaTeX Info: Redefining \pageref on input line 37.
+LaTeX Info: Redefining \nameref on input line 37.
+
+(./League_Documentation.out) (./League_Documentation.out)
+\@outlinefile=\write3
+\openout3 = `League_Documentation.out'.
+
+LaTeX Font Info:    Try loading font information for U+msa on input line 48.
+
+(/usr/local/texlive/2019/texmf-dist/tex/latex/amsfonts/umsa.fd
+File: umsa.fd 2013/01/14 v3.01 AMS symbols A
+)
+LaTeX Font Info:    Try loading font information for U+msb on input line 48.
+
+(/usr/local/texlive/2019/texmf-dist/tex/latex/amsfonts/umsb.fd
+File: umsb.fd 2013/01/14 v3.01 AMS symbols B
+) [1
+
+{/usr/local/texlive/2019/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
+(./League_Documentation.toc
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+Make it at least 13.59999pt.
+We now make it that large for the rest of the document.
+This may cause the page layout to be inconsistent, however.
+
+[1] [2] [3]
+
+Package hyperref Warning: Suppressing link with empty target on input line 145.
+
+
+
+Overfull \hbox (2.18996pt too wide) detected at line 169
+ [][]\OT1/cmr/m/n/10.95 A10[]
+ []
+
+)
+\tf@toc=\write4
+\openout4 = `League_Documentation.toc'.
+
+ [4]
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 127.
+
+ (/usr/local/texlive/2019/texmf-dist/tex/latex/base/omscmr.fd
+File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
+)
+LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10.95> not available
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 127.
+pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has 
+been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.152 
+       [1] [2] [3] [4] [5] [6]
+<week1-green.png, id=1193, 560.0925pt x 502.87875pt>
+File: week1-green.png Graphic file (type png)
+<use week1-green.png>
+Package pdftex.def Info: week1-green.png  used on input line 269.
+(pdftex.def)             Requested size: 186.99846pt x 167.8995pt.
+ [7 <./week1-green.png>]
+<week1-lloyd.png, id=1204, 218.8175pt x 484.81125pt>
+File: week1-lloyd.png Graphic file (type png)
+<use week1-lloyd.png>
+Package pdftex.def Info: week1-lloyd.png  used on input line 281.
+(pdftex.def)             Requested size: 162.06381pt x 359.0728pt.
+ [8 <./week1-lloyd.png>]
+<week1-tyler.png, id=1215, 311.1625pt x 567.11874pt>
+File: week1-tyler.png Graphic file (type png)
+<use week1-tyler.png>
+Package pdftex.def Info: week1-tyler.png  used on input line 293.
+(pdftex.def)             Requested size: 224.39664pt x 408.98285pt.
+
+[9 <./week1-tyler.png>]
+<week1-martyB.png, id=1224, 542.025pt x 370.38374pt>
+File: week1-martyB.png Graphic file (type png)
+<use week1-martyB.png>
+Package pdftex.def Info: week1-martyB.png  used on input line 306.
+(pdftex.def)             Requested size: 336.59875pt x 230.01419pt.
+
+Underfull \hbox (badness 5064) in paragraph at lines 310--311
+[]\OT1/cmr/m/n/10.95 Connor needed 20 points
+ []
+
+[10 <./week1-martyB.png>]
+<week1-larry.png, id=1233, 532.99126pt x 279.0425pt>
+File: week1-larry.png Graphic file (type png)
+<use week1-larry.png>
+Package pdftex.def Info: week1-larry.png  used on input line 318.
+(pdftex.def)             Requested size: 411.3951pt x 215.38708pt.
+
+Overfull \hbox (12.4012pt too wide) in paragraph at lines 322--323
+\OT1/cmr/m/n/10.95 Jones away from
+ []
+
+
+Underfull \hbox (badness 7504) in paragraph at lines 322--323
+\OT1/cmr/m/n/10.95 me so he's
+ []
+
+
+Underfull \hbox (badness 4229) in paragraph at lines 322--323
+\OT1/cmr/m/n/10.95 pretty much
+ []
+
+
+Overfull \hbox (0.66037pt too wide) in paragraph at lines 322--323
+\OT1/cmr/m/n/10.95 also picked up
+ []
+
+
+Overfull \hbox (1.20789pt too wide) in paragraph at lines 322--323
+\OT1/cmr/m/n/10.95 Fat Ed-die and
+ []
+
+
+Overfull \hbox (0.59958pt too wide) in paragraph at lines 322--323
+\OT1/cmr/m/n/10.95 Big Ben again
+ []
+
+
+Underfull \hbox (badness 2460) in paragraph at lines 322--323
+\OT1/cmr/m/n/10.95 did well for
+ []
+
+
+Underfull \hbox (badness 1895) in paragraph at lines 322--323
+\OT1/cmr/m/n/10.95 die did well
+ []
+
+
+Overfull \hbox (12.85626pt too wide) in paragraph at lines 322--323
+\OT1/cmr/m/n/10.95 I mean he scored
+ []
+
+[11 <./week1-larry.png>]
+<week1-antonio.png, id=1242, 513.92pt x 454.69875pt>
+File: week1-antonio.png Graphic file (type png)
+<use week1-antonio.png>
+Package pdftex.def Info: week1-antonio.png  used on input line 330.
+(pdftex.def)             Requested size: 324.12762pt x 286.78087pt.
+ [12 <./week1-antonio.png>]
+Overfull \hbox (1.52678pt too wide) in paragraph at lines 343--358
+ [] 
+ []
+
+[13]
+<week2-injuries.png, id=1259, 427.5975pt x 528.97626pt>
+File: week2-injuries.png Graphic file (type png)
+<use week2-injuries.png>
+Package pdftex.def Info: week2-injuries.png  used on input line 372.
+(pdftex.def)             Requested size: 211.9331pt x 262.17902pt.
+ [14 <./week2-injuries.png>]
+<week2-gordon.png, id=1271, 525.965pt x 367.3725pt>
+File: week2-gordon.png Graphic file (type png)
+<use week2-gordon.png>
+Package pdftex.def Info: week2-gordon.png  used on input line 385.
+(pdftex.def)             Requested size: 311.66411pt x 217.69524pt.
+
+Underfull \hbox (badness 1107) in paragraph at lines 389--390
+\OT1/cmr/m/n/10.95 get-ting 32 op-por-tu-ni-ties to roll
+ []
+
+
+Underfull \hbox (badness 1478) in paragraph at lines 389--390
+\OT1/cmr/m/n/10.95 OUT FOR HARAMBE GUYS!
+ []
+
+[15 <./week2-gordon.png>]
+<week2-kanye.png, id=1280, 451.6875pt x 321.2pt>
+File: week2-kanye.png Graphic file (type png)
+<use week2-kanye.png>
+Package pdftex.def Info: week2-kanye.png  used on input line 398.
+(pdftex.def)             Requested size: 261.7948pt x 186.1736pt.
+<week2-cousins.png, id=1281, 480.79625pt x 272.01625pt>
+File: week2-cousins.png Graphic file (type png)
+<use week2-cousins.png>
+Package pdftex.def Info: week2-cousins.png  used on input line 404.
+(pdftex.def)             Requested size: 261.7948pt x 148.11516pt.
+ [16 <./week2-kanye.png> <./week2-cousins.png>]
+<week2-bortles.png, id=1292, 393.47pt x 398.48875pt>
+File: week2-bortles.png Graphic file (type png)
+<use week2-bortles.png>
+Package pdftex.def Info: week2-bortles.png  used on input line 417.
+(pdftex.def)             Requested size: 311.66411pt x 315.63568pt.
+
+[17 <./week2-bortles.png>]
+<week2-brees.png, id=1301, 501.875pt x 499.8675pt>
+File: week2-brees.png Graphic file (type png)
+<use week2-brees.png>
+Package pdftex.def Info: week2-brees.png  used on input line 431.
+(pdftex.def)             Requested size: 261.7948pt x 260.75635pt.
+ [18 <./week2-brees.png>]
+<week2-olsen.png, id=1310, 528.97626pt x 438.63875pt>
+File: week2-olsen.png Graphic file (type png)
+<use week2-olsen.png>
+Package pdftex.def Info: week2-olsen.png  used on input line 444.
+(pdftex.def)             Requested size: 261.7948pt x 217.08334pt.
+ [19 <./week2-olsen.png>]
+[20]
+<week3-barker.png, id=1327, 560.0925pt x 401.5pt>
+File: week3-barker.png Graphic file (type png)
+<use week3-barker.png>
+Package pdftex.def Info: week3-barker.png  used on input line 486.
+(pdftex.def)             Requested size: 186.99846pt x 134.0515pt.
+<week3-trevor.png, id=1328, 183.68625pt x 59.22125pt>
+File: week3-trevor.png Graphic file (type png)
+<use week3-trevor.png>
+Package pdftex.def Info: week3-trevor.png  used on input line 496.
+(pdftex.def)             Requested size: 162.06381pt x 52.254pt.
+ [21 <./week3-barker.png> <./week3-trevor.png>]
+<week3-terry.png, id=1339, 561.09625pt x 315.1775pt>
+File: week3-terry.png Graphic file (type png)
+<use week3-terry.png>
+Package pdftex.def Info: week3-terry.png  used on input line 504.
+(pdftex.def)             Requested size: 311.66411pt x 175.06505pt.
+ [22 <./week3-terry.png>]
+<week3-train.png, id=1348, 450.68375pt x 315.1775pt>
+File: week3-train.png Graphic file (type png)
+<use week3-train.png>
+Package pdftex.def Info: week3-train.png  used on input line 518.
+(pdftex.def)             Requested size: 311.66411pt x 217.96805pt.
+<week3-bear.png, id=1349, 432.61626pt x 329.23pt>
+File: week3-bear.png Graphic file (type png)
+<use week3-bear.png>
+Package pdftex.def Info: week3-bear.png  used on input line 526.
+(pdftex.def)             Requested size: 286.72946pt x 218.21681pt.
+
+[23 <./week3-train.png> <./week3-bear.png>]
+<week3-aussie.png, id=1360, 562.1pt x 404.51125pt>
+File: week3-aussie.png Graphic file (type png)
+<use week3-aussie.png>
+Package pdftex.def Info: week3-aussie.png  used on input line 540.
+(pdftex.def)             Requested size: 162.06381pt x 116.6263pt.
+<week3-sean.png, id=1361, 477.785pt x 484.81125pt>
+File: week3-sean.png Graphic file (type png)
+<use week3-sean.png>
+Package pdftex.def Info: week3-sean.png  used on input line 549.
+(pdftex.def)             Requested size: 117.186pt x 118.90924pt.
+ [24 <./week3-aussie.png> <./week3-sean.png>]
+<week3-lloyd.png, id=1372, 177.66376pt x 151.56625pt>
+File: week3-lloyd.png Graphic file (type png)
+<use week3-lloyd.png>
+Package pdftex.def Info: week3-lloyd.png  used on input line 561.
+(pdftex.def)             Requested size: 137.12917pt x 116.98851pt.
+<week3-giants.png, id=1373, 171.64125pt x 168.63pt>
+File: week3-giants.png Graphic file (type png)
+<use week3-giants.png>
+Package pdftex.def Info: week3-giants.png  used on input line 568.
+(pdftex.def)             Requested size: 137.12917pt x 134.72148pt.
+ [25 <./week3-lloyd.png> <./week3-giants.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 576--580
+
+ []
+
+<week3-bunghole.png, id=1384, 249.93375pt x 154.5775pt>
+File: week3-bunghole.png Graphic file (type png)
+<use week3-bunghole.png>
+Package pdftex.def Info: week3-bunghole.png  used on input line 585.
+(pdftex.def)             Requested size: 286.72946pt x 177.35231pt.
+
+Underfull \hbox (badness 1590) in paragraph at lines 588--589
+[]\OT1/cmr/m/n/10.95 know ev-ery-thing be-cause af-ter a bold
+ []
+
+
+Underfull \hbox (badness 2073) in paragraph at lines 588--589
+\OT1/cmr/m/n/10.95 grab of the 11th draft spot the Hit
+ []
+
+
+Underfull \hbox (badness 1708) in paragraph at lines 588--589
+\OT1/cmr/m/n/10.95 into a first place tie with A Griz-zly
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 588--589
+
+ []
+
+[26 <./week3-bunghole.png>]
+<week3-hawaii.png, id=1394, 324.21124pt x 248.93pt>
+File: week3-hawaii.png Graphic file (type png)
+<use week3-hawaii.png>
+Package pdftex.def Info: week3-hawaii.png  used on input line 598.
+(pdftex.def)             Requested size: 286.72946pt x 220.16438pt.
+<week3-kevin.png, id=1395, 77.088pt x 96.36pt>
+File: week3-kevin.png Graphic file (type png)
+<use week3-kevin.png>
+Package pdftex.def Info: week3-kevin.png  used on input line 606.
+(pdftex.def)             Requested size: 137.12917pt x 171.43199pt.
+ [27 <./week3-hawaii.png> <./week3-kevin.png>]
+[28] [29]
+<week4-rob.png, id=1419, 563.10374pt x 277.035pt>
+File: week4-rob.png Graphic file (type png)
+<use week4-rob.png>
+Package pdftex.def Info: week4-rob.png  used on input line 665.
+(pdftex.def)             Requested size: 221.9085pt x 109.17188pt.
+<week4-terry.png, id=1420, 444.66125pt x 342.27875pt>
+File: week4-terry.png Graphic file (type png)
+<use week4-terry.png>
+Package pdftex.def Info: week4-terry.png  used on input line 673.
+(pdftex.def)             Requested size: 224.39664pt x 172.72665pt.
+ [30 <./week4-rob.png> <./week4-terry.png>]
+<week4-odoyle.png, id=1431, 343.2825pt x 214.8025pt>
+File: week4-odoyle.png Graphic file (type png)
+<use week4-odoyle.png>
+Package pdftex.def Info: week4-odoyle.png  used on input line 686.
+(pdftex.def)             Requested size: 286.72946pt x 179.41353pt.
+<week4-jones.png, id=1432, 269.005pt x 142.5325pt>
+File: week4-jones.png Graphic file (type png)
+<use week4-jones.png>
+Package pdftex.def Info: week4-jones.png  used on input line 692.
+(pdftex.def)             Requested size: 236.86777pt x 125.50508pt.
+ [31 <./week4-odoyle.png> <./week4-jones.png>] [32]
+
+Package wrapfig Warning: wrapfigure used inside a conflicting environment on in
+put line 740.
+
+<week4-nopoints.png, id=1450, 318.18875pt x 223.83624pt>
+File: week4-nopoints.png Graphic file (type png)
+<use week4-nopoints.png>
+Package pdftex.def Info: week4-nopoints.png  used on input line 743.
+(pdftex.def)             Requested size: 186.99846pt x 131.5465pt.
+<week4-onejob.png, id=1451, 437.635pt x 335.2525pt>
+File: week4-onejob.png Graphic file (type png)
+<use week4-onejob.png>
+Package pdftex.def Info: week4-onejob.png  used on input line 750.
+(pdftex.def)             Requested size: 236.86777pt x 181.45313pt.
+
+Underfull \hbox (badness 1082) in paragraph at lines 746--754
+\OT1/cmr/m/n/10.95 ball fans. See you on Sun-day morn-ing for the most
+ []
+
+
+Underfull \hbox (badness 1831) in paragraph at lines 746--754
+\OT1/cmr/m/n/10.95 im-por-tant event of your oth-er-wise piti-ful, mean-ing-les
+s
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 746--754
+
+ []
+
+[33 <./week4-nopoints.png> <./week4-onejob.png>]
+<week4-tannehill.png, id=1462, 325.215pt x 216.81pt>
+File: week4-tannehill.png Graphic file (type png)
+<use week4-tannehill.png>
+Package pdftex.def Info: week4-tannehill.png  used on input line 763.
+(pdftex.def)             Requested size: 236.86777pt x 157.91599pt.
+<week4-bear.png, id=1463, 332.24126pt x 237.88875pt>
+File: week4-bear.png Graphic file (type png)
+<use week4-bear.png>
+Package pdftex.def Info: week4-bear.png  used on input line 769.
+(pdftex.def)             Requested size: 174.53494pt x 124.96968pt.
+<week4-manziel.png, id=1464, 262.9825pt x 201.75375pt>
+File: week4-manziel.png Graphic file (type png)
+<use week4-manziel.png>
+Package pdftex.def Info: week4-manziel.png  used on input line 777.
+(pdftex.def)             Requested size: 186.99846pt x 143.46472pt.
+ [34 <./week4-tannehill.png> <./week4-bear.png> <./week4-manziel.png>]
+<week4-suck.png, id=1477, 198.7425pt x 189.70876pt>
+File: week4-suck.png Graphic file (type png)
+<use week4-suck.png>
+Package pdftex.def Info: week4-suck.png  used on input line 789.
+(pdftex.def)             Requested size: 112.20212pt x 107.10458pt.
+<week4-garbage.png, id=1478, 318.18875pt x 171.64125pt>
+File: week4-garbage.png Graphic file (type png)
+<use week4-garbage.png>
+Package pdftex.def Info: week4-garbage.png  used on input line 796.
+(pdftex.def)             Requested size: 211.9331pt x 114.3233pt.
+<week4-choochoo.png, id=1479, 354.32375pt x 322.20375pt>
+File: week4-choochoo.png Graphic file (type png)
+<use week4-choochoo.png>
+Package pdftex.def Info: week4-choochoo.png  used on input line 805.
+(pdftex.def)             Requested size: 211.9331pt x 192.72392pt.
+ [35 <./week4-suck.png> <./week4-garbage.png> <./week4-choochoo.png>]
+<week4-cowboys.png, id=1492, 251.94125pt x 179.67125pt>
+File: week4-cowboys.png Graphic file (type png)
+<use week4-cowboys.png>
+Package pdftex.def Info: week4-cowboys.png  used on input line 818.
+(pdftex.def)             Requested size: 211.9331pt x 151.13939pt.
+<week4-fantastic.png, id=1493, 125.46875pt x 183.68625pt>
+File: week4-fantastic.png Graphic file (type png)
+<use week4-fantastic.png>
+Package pdftex.def Info: week4-fantastic.png  used on input line 824.
+(pdftex.def)             Requested size: 112.20212pt x 164.27342pt.
+<week4-peyton.png, id=1494, 241.90375pt x 260.975pt>
+File: week4-peyton.png Graphic file (type png)
+<use week4-peyton.png>
+Package pdftex.def Info: week4-peyton.png  used on input line 831.
+(pdftex.def)             Requested size: 177.02307pt x 190.98802pt.
+ [36 <./week4-cowboys.png> <./week4-fantastic.png> <./week4-peyton.png>] [37] [
+38] [39]
+<week5-rainbows.png, id=1525, 508.90125pt x 379.4175pt>
+File: week5-rainbows.png Graphic file (type png)
+<use week5-rainbows.png>
+Package pdftex.def Info: week5-rainbows.png  used on input line 888.
+(pdftex.def)             Requested size: 211.9331pt x 158.01111pt.
+ [40 <./week5-rainbows.png>]
+<week5-blueballs.png, id=1535, 549.05125pt x 299.1175pt>
+File: week5-blueballs.png Graphic file (type png)
+<use week5-blueballs.png>
+Package pdftex.def Info: week5-blueballs.png  used on input line 902.
+(pdftex.def)             Requested size: 311.66411pt x 169.79585pt.
+ [41 <./week5-blueballs.png>]
+<week5-choochoo.png, id=1544, 522.95375pt x 494.84875pt>
+File: week5-choochoo.png Graphic file (type png)
+<use week5-choochoo.png>
+Package pdftex.def Info: week5-choochoo.png  used on input line 916.
+(pdftex.def)             Requested size: 261.7948pt x 247.7258pt.
+ [42 <./week5-choochoo.png>]
+<week5-miracles.png, id=1554, 559.08875pt x 422.57875pt>
+File: week5-miracles.png Graphic file (type png)
+<use week5-miracles.png>
+Package pdftex.def Info: week5-miracles.png  used on input line 931.
+(pdftex.def)             Requested size: 261.7948pt x 197.87695pt.
+ [43 <./week5-miracles.png>]
+<week5-elliot.png, id=1563, 530.98375pt x 282.05376pt>
+File: week5-elliot.png Graphic file (type png)
+<use week5-elliot.png>
+Package pdftex.def Info: week5-elliot.png  used on input line 949.
+(pdftex.def)             Requested size: 261.7948pt x 139.064pt.
+
+[44 <./week5-elliot.png>]
+<week5-lloyd.png, id=1573, 559.08875pt x 334.24875pt>
+File: week5-lloyd.png Graphic file (type png)
+<use week5-lloyd.png>
+Package pdftex.def Info: week5-lloyd.png  used on input line 964.
+(pdftex.def)             Requested size: 361.5334pt x 216.14726pt.
+
+Underfull \hbox (badness 3601) in paragraph at lines 968--969
+\OT1/cmr/m/n/10.95 pro-duc-tion. A team
+ []
+
+
+Underfull \hbox (badness 6592) in paragraph at lines 968--969
+\OT1/cmr/m/n/10.95 sell Wil-son has been
+ []
+
+[45 <./week5-lloyd.png>] [46] [47] [48] [49] [50] [51] [52] [53] [54] [55]
+[56] [57] [58] [59] [60] [61] [62] [63] [64] [65] [66] [67] [68] [69] [70]
+[71] [72] [73] [74] [75] [76] [77] [78] [79] [80] [81] [82] [83] [84] [85]
+[86] [87] [88]
+
+Package hyperref Warning: Suppressing link with empty target on input line 2100
+.
+
+[89] [1] [2] [3] [4] [5] [6]
+Overfull \hbox (12.06674pt too wide) in paragraph at lines 2430--2430
+|[]\OT1/cmr/bx/n/14.4 Fantasy Hockey - 2017/18 [fuck-ing FAN-TASY fuck-ing HOCK
+EY]| 
+ []
+
+[7]
+Overfull \hbox (12.06674pt too wide) in paragraph at lines 2451--2451
+|[]\OT1/cmr/bx/n/14.4 Fantasy Hockey - 2018/19 [fuck-ing FAN-TASY fuck-ing HOCK
+EY]| 
+ []
+
+[8]
+Overfull \hbox (21.08179pt too wide) in paragraph at lines 2472--2472
+|[]\OT1/cmr/bx/n/14.4 Fantasy Bas-ket-ball - 2016/17 [An-other Fan-tasy League!
+! WOOO!!]| 
+ []
+
+[9]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 2909.
+ [10]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 2909.
+ (./League_Documentation.aux)
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 2909.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 2909.
+
+Package rerunfilecheck Info: File `League_Documentation.out' has not changed.
+(rerunfilecheck)             Checksum: 59F96AAAEE40F72EA5B7F8AB2599515A;14131.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 2909.
+ ) 
+Here is how much of TeX's memory you used:
+ 10006 strings out of 492616
+ 151013 string characters out of 6129482
+ 251588 words of memory out of 5000000
+ 13361 multiletter control sequences out of 15000+600000
+ 16191 words of font info for 62 fonts, out of 8000000 for 9000
+ 1141 hyphenation exceptions out of 8191
+ 36i,12n,43p,1978b,462s stack positions out of 5000i,500n,10000p,200000b,80000s
+{/usr/local/texlive/2019/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc
+}</usr/local/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb>
+</usr/local/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb><
+/usr/local/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmbxti10.pfb>
+</usr/local/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmcsc10.pfb>
+</usr/local/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb><
+/usr/local/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></u
+sr/local/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr
+/local/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/lo
+cal/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmr9.pfb></usr/local
+/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/
+texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb></usr/local/te
+xlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/local/texl
+ive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/local/texli
+ve/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb></usr/local/texliv
+e/2019/texmf-dist/fonts/type1/public/amsfonts/symbols/msam10.pfb></usr/local/te
+xlive/2019/texmf-dist/fonts/type1/public/cm-super/sfrm1095.pfb>
+Output written on League_Documentation.pdf (104 pages, 11103418 bytes).
+PDF statistics:
+ 2103 PDF objects out of 2487 (max. 8388607)
+ 1871 compressed objects within 19 object streams
+ 361 named destinations out of 1000 (max. 500000)
+ 1575 words of extra memory for PDF output out of 10000 (max. 10000000)
+
