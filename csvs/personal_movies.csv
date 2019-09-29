@@ -168,11 +168,14 @@ name,year,est_year_watched,genre,sub_genre,movie_length,peak,consistency,premise
 """ESPN 30 For 30 Season 3 Episode 12: Hit It Hard""",2016,2018,"""documentary""","""sports""",50,40,40,60,40,50,50,45,50,40,,45.0
 """ESPN 30 For 30 Season 3 Episode 13: Catholics vs Convicts""",2016,2019,"""documentary""","""sports""",102,40,40,50,40,50,30,30,30,40,,39.5
 """ESPN 30 For 30 Season 3 Episode 14: This Was The XFL""",2017,2019,"""documentary""","""sports""",77,50,50,60,50,60,50,40,50,50,,51.2
+"""ESPN 30 For 30 Season 3 Episode 15: One and Not Done""",2017,2019,"""documentary""","""sports""",102,60,70,60,60,60,50,40,50,60,,58.3
 """ESPN 30 For 30 Season 3 Episode 17: Mike and the Mad Dog""",2017,2019,"""documentary""","""sports""",50,30,30,30,30,40,30,30,50,30,,32.0
 """ESPN 30 For 30 Season 3 Episode 1: Trojan War""",2015,2018,"""documentary""","""sports""",78,65,65,60,60,50,60,40,60,60,,59.3
 """ESPN 30 For 30 Season 3 Episode 2: The Gospel According to Mac""",2015,2019,"""documentary""","""sports""",101,40,30,30,30,50,40,30,40,40,,37.1
 """ESPN 30 For 30 Season 3 Episode 4: Chasing Tyson""",2015,2018,"""documentary""","""sports""",60,60,60,50,50,50,60,40,60,50,,54.4
 """ESPN 30 For 30 Season 3 Episode 5: Four Falls of Buffalo""",2015,2018,"""documentary""","""sports""",102,70,70,70,60,60,70,40,50,60,,63.7
+"""ESPN 30 For 30 Season 3 Episode 6: The '85 Bears""",2016,2019,"""documentary""","""sports""",101,50,50,40,40,40,40,40,30,40,,42.9
+"""ESPN 30 For 30 Season 3 Episode 7: Fantastic Lies""",2016,2019,"""documentary""","""sports""",102,60,70,70,60,60,60,40,60,60,,61.0
 """ESPN 30 For 30 Season 3 Episode 9: Believeland""",2016,2018,"""documentary""","""sports""",77,50,50,50,50,60,60,40,50,50,,51.5
 """Everything Is Illuminated""",2005,2007,"""comedy""","""drama""",106,70,60,70,70,60,70,70,60,70,,67.1
 """Ex Machina""",2014,2018,"""drama""","""sci-fi""",108,50,40,40,40,30,30,30,40,40,,39.0
@@ -255,6 +258,7 @@ name,year,est_year_watched,genre,sub_genre,movie_length,peak,consistency,premise
 """Keanu""",2016,2018,"""comedy""","""action""",100,60,40,40,40,40,40,40,40,30,,42.4
 """Kill Bill: Vol. 1""",2003,2010,"""action""","""""",111,60,50,55,50,50,60,60,50,60,,55.9
 """Kill Bill: Vol. 2""",2004,2010,"""action""","""""",137,50,50,55,50,50,50,60,40,50,,50.7
+"""Kingpin""",1996,2008,"""comedy""","""sports""",114,60,40,50,50,30,50,60,40,40,,47.3
 """Kitten Bowl-2014""",2014,2014,"""cats""","""sports""",124,70,20,40,40,50,60,40,30,50,,47.3
 """Knocked Up""",2007,2011,"""comedy""","""""",129,60,50,40,40,40,60,50,40,50,,50.0
 """Kung Fu Panda(1)""",2008,2013,"""adventure""","""animated""",92,60,60,50,40,40,60,60,60,60,,55.6
