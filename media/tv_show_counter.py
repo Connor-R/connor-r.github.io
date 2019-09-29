@@ -40,8 +40,8 @@ def initiate():
         except ZeroDivisionError:
             avg_eps = 0
 
-        if show_name[0] == 'z':
-            show_name = show_name[1:]
+        # if show_name[0] == 'z':
+            # show_name = show_name[1:]
 
         entry['name'] = show_name.replace("_"," ")
         entry['seasons'] = seasons_cnt
