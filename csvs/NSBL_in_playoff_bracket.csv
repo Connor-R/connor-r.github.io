@@ -7,11 +7,13 @@ ALDS2,Chicago White Sox,Tampa Bay Rays,1,3,0.0%,,,,,
 ALDS2,Tampa Bay Rays,Chicago White Sox,3,1,100.0%,,100.0%,,,
 ALWC,Oakland Athletics,Tampa Bay Rays,0,1,0.0%,,,,,
 ALWC,Tampa Bay Rays,Oakland Athletics,1,0,100.0%,,,,,
-NLCS,Atlanta Braves,Pittsburgh Pirates,3,3,52.0%,,,,,52.0%
-NLCS,Pittsburgh Pirates,Atlanta Braves,3,3,48.0%,,,,,48.0%
+NLCS,Atlanta Braves,Pittsburgh Pirates,3,4,0.0%,,,,,
+NLCS,Pittsburgh Pirates,Atlanta Braves,4,3,100.0%,,,,,100.0%
 NLDS1,Pittsburgh Pirates,San Diego Padres,3,2,100.0%,,,100.0%,,
 NLDS1,San Diego Padres,Pittsburgh Pirates,2,3,0.0%,,,,,
 NLDS2,Atlanta Braves,Colorado Rockies,3,2,100.0%,,,100.0%,,
 NLDS2,Colorado Rockies,Atlanta Braves,2,3,0.0%,,,,,
 NLWC,Colorado Rockies,Miami Marlins,1,0,100.0%,,,,,
 NLWC,Miami Marlins,Colorado Rockies,0,1,0.0%,,,,,
+WS,Pittsburgh Pirates,Tampa Bay Rays,0,0,41.8%,,4.6%,9.8%,13.2%,14.2%
+WS,Tampa Bay Rays,Pittsburgh Pirates,0,0,58.2%,,8.4%,15.5%,17.9%,16.5%
