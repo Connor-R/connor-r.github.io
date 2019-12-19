@@ -35,6 +35,7 @@ name,genre,seasons,episodes,episode_length,episodes_per_season,approx_runtime_ho
 """Fleabag""","""comedy""",2,12,25,6.00,5.00,70,60,50,65,40,60,60,60,50,,57.9
 """Atlanta""","""comedy""",2,32,22,16.00,11.73,60,60,60,60,60,60,50,50,50,,57.3
 """Summer Heights High""","""comedy""",1,8,22,8.00,2.93,60,50,65,60,40,60,60,60,60,,57.1
+"""Metalocalypse""","""comedy""",4,61,13,15.25,13.22,70,50,60,40,30,60,60,70,60,,56.6
 """Wet Hot American Summer""","""comedy""",2,16,28,8.00,7.47,65,65,65,40,30,65,45,50,55,,56.1
 """Arrested Development""","""comedy""",5,76,22,15.20,27.87,65,30,60,60,40,60,65,50,70,,56.0
 """BBC The Blue Planet""","""documentary""",1,8,48,8.00,6.40,60,35,60,,80,60,30,60,60,,55.8
@@ -84,4 +85,3 @@ name,genre,seasons,episodes,episode_length,episodes_per_season,approx_runtime_ho
 """Stella""","""comedy""",1,10,22,10.00,3.67,60,25,40,,30,40,50,60,40,,42.6
 """Human Giant""","""comedy""",3,44,22,14.67,16.13,60,25,50,,30,30,50,30,50,,42.4
 """Entourage""","""drama""",8,96,25,12.00,40.00,50,30,40,40,30,50,40,40,40,,40.7
-"""Metalocalypse""",,4,61,,15.25,,,,,,,,,,,,
