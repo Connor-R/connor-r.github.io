@@ -6,7 +6,7 @@ db = db('personal')
 
 
 def initiate():
-    base_path = "/Volumes/Daddy/NOT_ON_LAPTOP/TV_Shows/"
+    base_path = "/Volumes/TheWretch/NOT_ON_LAPTOP/TV_Shows/"
 
     for i in range (1, len(os.listdir(base_path))):
         entry = {}
