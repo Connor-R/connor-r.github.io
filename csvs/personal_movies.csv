@@ -172,6 +172,7 @@ name,year,est_year_watched,genre,sub_genre,movie_length,peak,consistency,premise
 """ESPN 30 For 30 Season 3 Episode 15: One and Not Done""",2017,2019,"""documentary""","""sports""",102,60,70,60,60,60,50,40,50,60,,58.3
 """ESPN 30 For 30 Season 3 Episode 17: Mike and the Mad Dog""",2017,2019,"""documentary""","""sports""",50,30,30,30,30,40,30,30,50,30,,32.0
 """ESPN 30 For 30 Season 3 Episode 1: Trojan War""",2015,2018,"""documentary""","""sports""",78,65,65,60,60,50,60,40,60,60,,59.3
+"""ESPN 30 For 30 Season 3 Episode 25: Seau""",2018,2019,"""documentary""","""sports""",89,65,50,60,60,65,60,35,50,55,,57.0
 """ESPN 30 For 30 Season 3 Episode 2: The Gospel According to Mac""",2015,2019,"""documentary""","""sports""",101,40,30,30,30,50,40,30,40,40,,37.1
 """ESPN 30 For 30 Season 3 Episode 4: Chasing Tyson""",2015,2018,"""documentary""","""sports""",60,60,60,50,50,50,60,40,60,50,,54.4
 """ESPN 30 For 30 Season 3 Episode 5: Four Falls of Buffalo""",2015,2018,"""documentary""","""sports""",102,70,70,70,60,60,70,40,50,60,,63.7
@@ -267,6 +268,7 @@ name,year,est_year_watched,genre,sub_genre,movie_length,peak,consistency,premise
 """Kung Fury""",2015,2015,"""comedy""","""action""",31,80,70,50,40,40,70,70,70,60,,63.4
 """L.A. Confidential""",1997,2011,"""drama""","""mystery""",138,70,70,70,60,50,60,50,60,65,,63.4
 """Legally Blonde""",2001,2005,"""comedy""","""""",96,40,50,40,40,50,50,50,50,50,,46.3
+"""Let's Go to Prison""",2006,2019,"""comedy""","""crime""",84,60,40,40,40,40,60,60,50,40,,48.3
 """Life Is Beautiful""",1997,2009,"""drama""","""comedy""",116,75,70,80,80,70,70,70,50,70,,71.7
 """Life of Pi""",2012,2014,"""adventure""","""fantasy""",127,30,20,50,30,30,20,20,20,30,,28.0
 """Little Giants""",1994,2013,"""comedy""","""sports""",107,60,40,50,30,30,50,40,40,50,,45.9
@@ -502,6 +504,7 @@ name,year,est_year_watched,genre,sub_genre,movie_length,peak,consistency,premise
 """V for Vendetta""",2005,2008,"""action""","""sci-fi""",132,60,70,70,60,60,60,50,50,70,,62.7
 """Walk the Line""",2005,2009,"""biography""","""music""",136,40,30,40,30,50,30,30,30,40,,36.3
 """Wall-E""",2008,2014,"""animated""","""adventure""",98,60,70,70,60,40,70,50,60,60,,61.0
+"""Wallace and Gromit: A Grand Day Out""",1989,2019,"""animated""","""adventure""",23,70,70,50,50,40,60,60,60,60,,59.8
 """Waterworld""",1995,2007,"""sci-fi""","""action""",135,50,30,60,30,40,50,40,30,50,,43.9
 """Wayne's World 1""",1992,2005,"""comedy""","""music""",94,60,50,60,50,40,60,60,55,60,,55.6
 """Wayne's World 2""",1993,2005,"""comedy""","""music""",95,50,50,50,50,40,50,55,55,50,,49.6
