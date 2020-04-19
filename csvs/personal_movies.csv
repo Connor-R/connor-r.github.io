@@ -23,7 +23,7 @@ name,year,est_year_watched,genre,sub_genre,movie_length,peak,consistency,premise
 """Amelie""",2001,2010,"""romantic comedy""","""french""",129,60,50,50,50,30,50,40,20,50,,47.8
 """American History X""",1998,2010,"""crime""","""drama""",119,60,60,60,70,50,60,50,40,60,,58.0
 """An Inconvenient Truth""",2006,2006,"""documentary""","""""",96,50,50,50,50,70,60,40,40,50,,52.0
-"""Anchorman: The Legend of Ron Burgundy""",2004,2008,"""comedy""","""""",94,60,60,50,30,30,60,60,55,60,,53.7
+"""Anchorman: The Legend of Ron Burgundy""",2004,2008,"""comedy""","""""",94,65,65,50,40,30,60,60,55,60,,56.1
 """Angels & Demons""",2009,2011,"""mystery""","""""",138,30,40,40,30,50,30,20,20,40,,34.6
 """Angels in the Outfield""",1994,2002,"""fantasy""","""sports""",102,60,60,50,50,40,60,40,60,50,,53.4
 """Anger Management""",2003,2007,"""comedy""","""""",106,30,30,30,40,30,40,30,50,40,,34.4
@@ -71,6 +71,7 @@ name,year,est_year_watched,genre,sub_genre,movie_length,peak,consistency,premise
 """Clerks II""",2006,2013,"""comedy""","""""",97,40,30,50,40,40,40,60,60,40,,42.0
 """Click""",2006,2007,"""comedy""","""""",107,30,40,20,20,30,30,30,40,30,,30.2
 """Club Dread""",2004,2014,"""comedy""","""horror""",104,40,30,40,40,30,40,60,40,30,,37.6
+"""Code 8""",2019,2020,"""action""","""drama""",98,30,40,30,30,30,30,20,30,40,,32.2
 """Concussion""",2015,2015,"""biography""","""sports""",123,60,60,70,60,70,50,40,40,50,,56.8
 """Cool Runnings""",1993,2000,"""comedy""","""sports""",98,70,70,80,70,70,80,70,70,80,,73.7
 """Crash""",2004,2008,"""crime""","""drama""",112,70,60,60,60,50,70,60,60,70,,63.7
@@ -217,6 +218,8 @@ name,year,est_year_watched,genre,sub_genre,movie_length,peak,consistency,premise
 """GATTACA""",1997,2019,"""sci-fi""","""drama""",106,65,50,65,60,60,55,40,60,60,,57.9
 """Gentlemen Broncos""",2009,2010,"""comedy""","""sci-fi""",90,80,35,60,50,40,60,70,70,70,,60.2
 """Get Hard""",2015,2017,"""comedy""","""""",100,40,30,40,30,30,40,40,40,30,,35.4
+"""Get Him to the Greek""",2010,2012,"""comedy""","""""",109,70,60,50,50,40,65,50,50,60,,57.7
+"""Ghost Rider""",2007,2020,"""action""","""fantasy""",110,40,60,30,30,30,50,35,30,30,,39.1
 """Ghostbusters""",1984,2019,"""fantasy""","""comedy""",105,60,40,60,60,40,50,60,60,65,,54.6
 """Glass""",2019,2019,"""sci-fi""","""drama""",129,65,40,50,40,30,50,50,40,50,,48.3
 """God Bless America""",2011,2013,"""comedy""","""""",105,70,50,70,50,50,70,60,60,60,,61.0
