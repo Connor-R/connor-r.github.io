@@ -112,6 +112,7 @@ name,year,est_year_watched,genre,sub_genre,movie_length,peak,consistency,premise
 """Enders Game""",2013,2018,"""action""","""fantasy""",114,30,40,60,40,40,40,30,40,40,,39.3
 """Enron: The Smartest Guys in the Room""",2005,2020,"""documentary""","""""",110,60,60,60,60,60,60,40,40,60,,57.6
 """ESPN 30 For 30 ESPN Films Presents Season 1 Episode 10: Goose""",2012,2020,"""documentary""","""sports""",49,50,50,60,60,60,60,40,50,60,,54.6
+"""ESPN 30 For 30 ESPN Films Presents Season 1 Episode 11: The Announcement""",2012,2020,"""documentary""","""sports""",90,60,50,65,50,65,50,40,40,60,,55.1
 """ESPN 30 For 30 ESPN Films Presents Season 1 Episode 12: 26 Years: The Dewey Bozella Story""",2012,2013,"""documentary""","""sports""",120,60,60,60,70,70,50,30,30,50,,55.4
 """ESPN 30 For 30 ESPN Films Presents Season 1 Episode 1: Fab Five""",2011,2013,"""documentary""","""sports""",98,60,40,60,60,70,50,30,40,60,,53.7
 """ESPN 30 For 30 ESPN Films Presents Season 1 Episode 2: Catching Hell""",2011,2013,"""documentary""","""sports""",102,50,50,60,60,60,60,30,30,50,,51.5
@@ -123,6 +124,7 @@ name,year,est_year_watched,genre,sub_genre,movie_length,peak,consistency,premise
 """ESPN 30 For 30 ESPN Films Presents Season 1 Episode 8: Roll Tide/War Eagle""",2011,2013,"""documentary""","""sports""",90,60,40,50,50,60,50,50,50,40,,50.0
 """ESPN 30 For 30 ESPN Films Presents Season 1 Episode 9: The Marinovich Project""",2011,2015,"""documentary""","""sports""",90,70,70,70,60,60,70,40,50,60,,63.7
 """ESPN 30 For 30 ESPN Films Presents Special: Boys of Fall""",2010,2018,"""documentary""","""sports""",50,40,40,40,40,30,40,30,40,30,,36.8
+"""ESPN 30 For 30 ESPN Films Presents Special: The Book of Manning""",2013,2020,"""documentary""","""sports""",75,50,40,60,40,55,40,30,40,55,,46.8
 """ESPN 30 For 30 Season 1 Episode 10: No Crossover: The Trial of Allen Iverson""",2010,2013,"""documentary""","""sports""",80,50,50,50,40,40,50,40,40,40,,45.6
 """ESPN 30 For 30 Season 1 Episode 11: Silly Little Game""",2010,2013,"""documentary""","""sports""",51,60,60,50,50,60,50,40,50,60,,55.1
 """ESPN 30 For 30 Season 1 Episode 12: Run, Ricky Run""",2010,2013,"""documentary""","""sports""",54,65,50,50,50,60,50,40,50,30,,50.2
