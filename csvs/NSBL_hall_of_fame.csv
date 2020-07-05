@@ -1,14 +1,14 @@
-HOF_Class,Player_Name,HOF_Team,Career_Span,Total_Seasons,Position,All_Teams,Age_Span,WAR/ERA_WAR,noDRS_WAR/FIP_WAR,PA,AB,H,HR,SB,AVG,OBP,SLG,OPS,wOBA,OPS+,wRC+,rAA,W,L,SV,G,GS,CG,SHO,K,IP,ERA,FIP,ERA_MINUS,FIP_MINUS
+HOF_Class,Player_Name,HOF_Team,Career_Span,Total_Seasons,Position,All_Teams,Age_Span,WAR/ERA_WAR,noDRS_WAR/FIP_WAR,PA,AB,H,HR,SB,AVG,OBP,SLG,OPS,wOBA,OPS+,wRC+,rAA,W,L,SV,G,GS,CG,SHO,K,IP,ERA,FIP,ERA-,FIP-
 Class of 2018,Alex Rodriguez,Texas Rangers,2006 - 2016,11,3b,SD/OAK/LAD/NYY/TEX,30 - 40,50.9,46.7,6520,5651,1576,314,181,0.279,0.366,0.499,0.865,0.375,130,134,245.8,,,,,,,,,,,,,
 Class of 2011,Barry Bonds,Miami Marlins,2006 - 2009,4,lf,SEA/BOS/OAK/NYM/PIT/CLE/FLA,41 - 44,23.9,23.9,2518,1976,556,149,16,0.281,0.431,0.561,0.992,0.426,160,164,186.2,,,,,,,,,,,,,
 Class of 2013,Billy Wagner,Seattle Mariners,2006 - 2011,6,cl,SEA/PIT/TOR/BOS/WAS/AZ/SF/NYM,34 - 39,9.5,8.8,,,,,,,,,,,,,,32,27,115,383,0,0,0,532,454.0,2.78,2.89,65,67
-Class of 2020,Chase Utley,Miami Marlins,2006 - 2018,13,2b,TB/OAK/MIA/FLA/LAA/CLE/CIN/TAM,27 - 39,44.5,38.8,6537,5783,1589,185,208,0.275,0.352,0.440,0.792,0.349,115,119,142.8,,,,,,,,,,,,,
+Class of 2020,Chase Utley,Miami Marlins,2006 - 2018,13,2b,TB/OAK/MIA/FLA/LAA/CLE/CIN,27 - 39,44.5,38.8,6537,5783,1589,185,208,0.275,0.352,0.440,0.792,0.349,115,119,142.8,,,,,,,,,,,,,
 Class of 2015,Chipper Jones,Baltimore Orioles & Chicago White Sox,2006 - 2013,8,3b,CHC/CHW/BAL/SF/STL,34 - 41,36.7,33.5,5177,4445,1231,186,75,0.277,0.370,0.461,0.831,0.363,121,123,140.8,,,,,,,,,,,,,
 Class of 2018,Cliff Lee,Toronto Blue Jays,2006 - 2016,11,sp,ATL/FLA/SF/PIT/BAL/AZ/CHC/TOR,27 - 37,45.2,39.2,,,,,,,,,,,,,,138,109,1,338,337,46,22,1925,2309.3,3.30,3.48,81,85
 Class of 2019,David Ortiz,Toronto Blue Jays,2006 - 2017,12,dh,OAK/BOS/CLE/DET/BAL/CHW/TOR,30 - 41,31.7,31.8,7923,6833,1772,436,35,0.259,0.352,0.503,0.855,0.368,130,132,286.0,,,,,,,,,,,,,
 Class of 2020,David Wright,Toronto Blue Jays,2006 - 2018,13,3b,ATL/CLE/NYM/WAS/SEA/TOR,23 - 35,66.1,59.1,8157,7271,2099,277,251,0.289,0.360,0.475,0.835,0.364,127,132,287.2,,,,,,,,,,,,,
 Class of 2016,Derek Jeter,New York Yankees,2006 - 2014,9,ss,MIA/BOS/BAL/NYY,32 - 40,45.0,38.7,6067,5403,1654,114,195,0.306,0.368,0.434,0.802,0.352,114,116,109.1,,,,,,,,,,,,,
-Class of 2019,Jhonny Peralta,Los Angeles Angels,2006 - 2017,12,ss,TOR/SD/BAL/NYM/PHI/LAA/ANA/TAM,24 - 35,47.0,37.9,7482,6725,1746,216,30,0.260,0.327,0.418,0.745,0.326,105,106,44.2,,,,,,,,,,,,,
+Class of 2019,Jhonny Peralta,Los Angeles Angels,2006 - 2017,12,ss,TOR/SD/BAL/NYM/PHI/LAA/ANA/TB,24 - 35,47.0,37.9,7482,6725,1746,216,30,0.260,0.327,0.418,0.745,0.326,105,106,44.2,,,,,,,,,,,,,
 Class of 2017,Joe Nathan,Kansas City Royals,2006 - 2015,10,cl,WAS/HOU/KC/ATL,31 - 40,8.3,9.6,,,,,,,,,,,,,,38,54,198,664,1,0,0,865,754.0,3.42,3.29,84,80
 Class of 2016,Johan Santana,Chicago Cubs,2006 - 2014,9,sp,CHW/FLA/CHC/CLE/BAL,27 - 35,41.0,35.6,,,,,,,,,,,,,,121,91,0,290,289,21,9,1847,1886.3,3.24,3.44,77,82
 Class of 2012,John Smoltz,New York Mets,2006 - 2010,5,sp,NYM/SF/TEX/ATL/PIT/TOR,39 - 43,13.7,15.9,,,,,,,,,,,,,,61,51,0,154,153,10,3,793,975.0,3.98,3.78,91,87
