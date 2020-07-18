@@ -5,7 +5,9 @@ name,year_published,year_read,primary_author,secondary_authors,genre,sub_genre,p
 """Big Data Baseball: Math, Miracles, and the End of a 20-Year Losing Streak""",2015,2015,"""Travis Sawchik""","""""","""Baseball""","""""",60,60,60,60,60,50,40,40,50,,54.9
 """Bringing Down The House: The Inside Story of Six M.I.T. Students Who Took Vegas for Millions""",2002,2013,"""Ben Mezrich""","""""","""Biographical""","""Blackjack""",60,60,70,70,50,60,50,60,70,,61.5
 """Catboy""",2017,2019,"""Benji Nate""","""""","""Comedy""","""""",50,50,35,,30,60,60,40,50,,47.9
+"""Grit""",2016,2020,"""Angela Duckworth""","""""","""Psychology""","""""",70,50,70,,70,55,50,40,60,,60.1
 """Hockey Abstract Presents... Stat Shot: The Ultimate Guide to Hockey Analytics""",2016,2017,"""Rob Vollman""","""Tom Awad, Iain Fyffe""","""Hockey""","""""",50,40,50,,50,40,40,30,40,,43.7
+"""How Not to Be Wrong: The Power of Mathematical Thinking""",2014,2020,"""Jordan Ellenberg""","""""","""Mathematics""","""Psychology""",70,60,65,,65,60,60,50,60,,62.6
 """How To Lie With Statistics""",1982,2013,"""Darrell Huff""","""Irving Geis""","""Mathematics""","""Economics""",40,60,55,,70,60,50,70,60,,56.1
 """How We Know What Isn't So: The Fallibility of Human Reason in Everyday Life """,1991,2019,"""Thomas Gilovich""","""""","""Psychology""","""""",40,65,60,,70,60,45,40,50,,53.8
 """Mathletics: A Scientist Explains 100 Amazing Things About the World of Sports""",2012,2015,"""John D. Barrow""","""""","""Sports""","""Mathematics""",30,55,50,,60,40,30,40,60,,45.8
@@ -21,6 +23,7 @@ name,year_published,year_read,primary_author,secondary_authors,genre,sub_genre,p
 """The MVP Machine: How Baseball's New Nonconformists Are Using Data to Build Better Players""",2019,2019,"""Ben Lindbergh""","""Travis Sawchik""","""Baseball""","""""",80,60,70,,70,60,50,60,60,,65.5
 """The Only Rule Is It Has To Work: Our Wild Experiment Building a New Kind of Baseball Team""",2016,2016,"""Ben Lindbergh""","""Sam Miller""","""Baseball""","""""",50,70,60,70,55,50,60,50,70,,59.5
 """The Shift: The Next Evolution In Baseball Thinking""",2018,2020,"""Russell Carleton""","""""","""Sports""","""Pyschology""",70,60,70,,70,65,50,60,60,,64.1
+"""The Signal and the Noise: Why So Many Predictions Fail - But Some Don't""",2012,2020,"""Nate Silver""","""""","""Mathematics""","""Psychology""",55,50,60,,60,50,40,40,55,,52.6
 """The Will To Whatevs: A Guide to Modern Life""",2009,2014,"""Eugene Mirman""","""""","""Comedy""","""""",40,30,50,,30,60,60,50,50,,44.7
 """Thinking Basketball""",2016,2020,"""Ben Taylor""","""""","""Basketball""","""Psychology""",70,50,70,,70,50,50,60,60,,60.5
 """This is a Book""",2011,2013,"""Demetri Martin""","""""","""Comedy""","""""",60,50,40,,30,60,70,60,60,,53.9
