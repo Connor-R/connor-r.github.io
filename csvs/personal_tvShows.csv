@@ -52,8 +52,8 @@ name,genre,seasons,episodes,episode_length,episodes_per_season,approx_runtime_ho
 """Documentary Now""","""comedy""",3,21,22,7.00,7.70,70,40,70,,40,60,70,40,40,,54.5
 """Pitch""","""drama""",1,10,44,10.00,7.33,60,50,70,70,45,70,30,40,40,,53.9
 """Important Things""","""comedy""",2,17,22,8.50,6.23,50,60,50,,50,50,70,50,55,,53.9
-"""Vice Principals""","""comedy""",2,18,30,9.00,9.00,60,50,70,50,30,65,30,65,55,,53.8
 """Tom Goes To The Mayor""","""comedy""",2,30,12,15.00,6.00,65,40,60,,30,65,40,60,60,,53.8
+"""Vice Principals""","""comedy""",2,18,30,9.00,9.00,60,50,70,50,30,65,30,65,55,,53.8
 """Joe Pera Talks With You""","""comedy""",1,9,11,9.00,1.65,55,50,50,,60,60,60,40,50,,53.7
 """Ugly Americans""","""comedy""",2,31,22,15.50,11.37,55,55,60,50,30,60,55,60,55,,53.5
 """Flight of the Conchords""","""comedy""",2,22,25,11.00,9.17,60,30,60,60,40,60,60,50,60,,53.2
@@ -81,8 +81,8 @@ name,genre,seasons,episodes,episode_length,episodes_per_season,approx_runtime_ho
 """ESPN 30 For 30 Soccer Stories""","""documentary""",1,8,35,8.00,4.67,45,40,50,,50,50,30,40,50,,45.3
 """NHL DocumentarySeries""","""documentary""",5,23,45,4.60,17.25,50,50,55,55,50,50,20,40,30,,45.2
 """The Franchise""","""documentary""",1,8,30,8.00,4.00,45,45,60,,40,50,20,60,40,,44.7
-"""Workaholics""","""comedy""",7,86,22,12.29,31.53,45,50,60,30,30,50,30,40,50,,44.6
 """Aqua Teen Hunger Force""","""comedy""",12,139,11,11.58,25.48,70,25,40,40,30,60,60,30,30,,44.6
+"""Workaholics""","""comedy""",7,86,22,12.29,31.53,45,50,60,30,30,50,30,40,50,,44.6
 """Man Seeking Woman""","""comedy""",3,30,22,10.00,11.00,45,45,40,40,30,50,60,50,45,,44.6
 """BBC Human Planet""","""documentary""",1,8,48,8.00,6.40,55,25,40,,70,30,30,60,50,,44.5
 """Stella""","""comedy""",1,10,22,10.00,3.67,60,30,40,,30,45,50,60,40,,44.1
