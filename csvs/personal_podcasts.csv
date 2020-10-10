@@ -4,6 +4,7 @@ name,genre,peak,consistency,premise,plot,information_gain,desired_effects,wit,le
 """Advanced Football Analytics""","""Sports(Football)""",50,50,65,,70,60,20,60,70,,56.3
 """Against the Rules with Michael Lewis""","""Economics/Psychology""",70,60,70,,70,70,40,70,70,,66.1
 """Ahead Of Their Time""","""Sports(Other)""",65,60,70,,50,50,40,70,60,,58.7
+"""Back to Back: An NBA Podcast""","""Sports(Basketball)""",70,35,50,,60,50,30,35,30,,47.4
 """Bauer Bytes""","""Sports(Baseball)""",65,50,60,,50,50,30,40,65,,54.5
 """Bet The Process""","""Sports(Other)""",70,50,70,,70,60,20,50,65,,59.7
 """Biscuits: A Hockey Podcast""","""Sports(Hockey)""",55,40,45,,40,40,50,40,40,,44.5
@@ -13,6 +14,7 @@ name,genre,peak,consistency,premise,plot,information_gain,desired_effects,wit,le
 """Driveline Baseball Podcast""","""Sports(Baseball)""",75,60,75,,75,70,30,50,70,,66.3
 """Dunc'd On Basketball NBA Podcast""","""Sports(Basketball)""",65,45,60,,65,65,30,50,40,,53.8
 """Effectively Wild: A FanGraphs Baseball Podcast""","""Sports(Baseball)""",70,40,60,,50,50,50,40,40,,51.6
+"""Elite Baseball Development Podcast""","""Sports(Baseball)""",60,40,60,,65,55,30,50,65,,54.6
 """ESPN: Behind The Dish with Keith Law""","""Sports(Baseball)""",50,35,50,,50,50,40,50,40,,45.3
 """FanGraphs Baseball""","""Sports(Baseball)""",65,60,70,,60,60,70,60,65,,63.7
 """FanGraphs Fantasy Baseball""","""Sports(Baseball)""",65,40,65,,55,55,35,40,30,,49.5
@@ -22,7 +24,9 @@ name,genre,peak,consistency,premise,plot,information_gain,desired_effects,wit,le
 """Great Teen Podcast""","""Comedy""",65,50,60,,50,65,65,30,40,,54.7
 """Hockey Graphs Podcast""","""Sports(Hockey)""",50,35,60,,60,50,20,50,50,,47.4
 """Hockey PDOcast""","""Sports(Hockey)""",65,65,70,,65,65,45,65,50,,61.6
+"""Hollinger & Duncan NBA Show""","""Sports(Basketball)""",40,35,50,,45,40,30,40,30,,38.4
 """Home Court Vantage Podcast""","""Sports(Basketball)""",50,50,70,,70,70,30,60,55,,56.6
+"""How's Work? With Esther Perel""","""Economics/Psychology""",50,70,70,,70,60,40,50,70,,61.1
 """IEEE Software's \On Computing""with Grady Booch""""""""","""Data Science""",40,40,40,,60,50,20,50,50,,43.9
 """In Play, Pod(cast)""","""Sports(Baseball)""",50,40,60,,60,50,30,40,50,,48.4
 """It Seemed Smart""","""Sports(Other)""",65,40,70,,50,50,50,50,60,,55.3
@@ -36,9 +40,7 @@ name,genre,peak,consistency,premise,plot,information_gain,desired_effects,wit,le
 """Pitch Talks""","""Sports(Baseball)""",50,50,55,,55,55,50,50,55,,52.5
 """Pitcher List Fantasy Baseball Podcast""","""Sports(Baseball)""",50,50,40,,50,40,25,70,30,,43.6
 """Pitching to Contact""","""Sports(Baseball)""",50,30,55,,40,40,30,50,40,,41.8
-"""Pro Football Doc Podcast""","""Sports(Football)""",60,35,65,,55,55,30,55,45,,50.4
 """Programming Throwdown""","""Data Science""",65,30,65,,65,65,30,40,60,,54.6
-"""Puck Pursuit""","""Sports(Hockey)""",50,40,50,,40,40,30,50,50,,44.5
 """R U Talkin' R.E.M. RE: ME?""","""Comedy""",60,40,60,,40,60,60,35,60,,53.4
 """Sharp Football Analysis""","""Sports(Football)""",55,40,50,,50,50,30,50,45,,47.1
 """Spot Starters""","""Sports(Baseball)""",50,50,55,,40,40,30,60,55,,47.9
@@ -52,6 +54,7 @@ name,genre,peak,consistency,premise,plot,information_gain,desired_effects,wit,le
 """The Full 60""","""Sports(Hockey)""",50,55,50,,50,40,30,40,60,,48.9
 """The Habershow""","""Sports(Basketball)""",65,50,60,,55,60,40,60,60,,57.4
 """The Harvard Sports Analytics Podcast""","""Sports(Other)""",40,40,50,,50,40,30,50,50,,43.4
+"""The Keith Law Show""","""Sports(Baseball)""",50,35,50,,50,50,40,50,40,,45.3
 """The Lab""","""Sports(Basketball)""",60,50,60,,60,60,50,60,60,,57.6
 """The Late-Round Podcast""","""Sports(Football)""",65,70,65,,65,70,40,70,40,,60.8
 """The Lowe Post""","""Sports(Basketball)""",70,65,70,,70,70,50,65,50,,64.2
@@ -61,7 +64,7 @@ name,genre,peak,consistency,premise,plot,information_gain,desired_effects,wit,le
 """The R^2 Podcast""","""Sports(Basketball)""",65,60,65,,65,55,30,55,55,,58.0
 """The Sports Analytics Department""","""Sports(Other)""",50,50,50,,50,50,30,50,50,,48.4
 """The Spotrac Podcast""","""Sports(Other)""",45,55,50,,40,50,30,50,45,,46.3
-"""The Taekcast: A (mostly) Sports Podcast""","""Sports(Other)""",65,40,60,,55,55,40,60,55,,54.3
+"""The Taekcast: A (mostly) Sports Podcast""","""Sports(Other)""",55,40,50,,50,40,40,40,40,,45.3
 """The TSN Hockey Bobcast""","""Sports(Hockey)""",55,35,50,,45,50,50,40,40,,46.1
 """The Wharton Moneyball Post Game Podcast""","""Sports(Other)""",70,35,55,,55,55,30,40,60,,53.0
 """The Woj Pod""","""Sports(Basketball)""",55,30,40,,40,60,30,60,40,,44.5

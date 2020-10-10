@@ -52,7 +52,7 @@ def update_boulders():
             SELECT boulder_name, area, sub_area, SUM(est_attempts) AS fail_attempts, SUM(est_minutes) AS fail_minutes FROM boulders_tried WHERE completed = 'FALSE' GROUP BY boulder_name, area, sub_area
         ) bt2 USING (boulder_name, area, sub_area)
     ) fin USING (boulder_name, area, sub_area)
-    WHERE bc.updated != "FALSE"
+    WHERE bc.updated = "FALSE"
     ORDER BY ascent_date DESC, update_sessions DESC;"""
 
     res = db.query(qry)

@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019) (preloaded format=pdflatex 2019.5.8)  29 SEP 2019 00:56
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019) (preloaded format=pdflatex 2019.5.8)  28 SEP 2020 13:05
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -708,7 +708,7 @@ This may cause the page layout to be inconsistent, however.
 
 [1] [2] [3]
 
-Package hyperref Warning: Suppressing link with empty target on input line 145.
+Package hyperref Warning: Suppressing link with empty target on input line 146.
 
 
 
@@ -716,453 +716,490 @@ Overfull \hbox (2.18996pt too wide) detected at line 169
  [][]\OT1/cmr/m/n/10.95 A10[]
  []
 
+
+Overfull \hbox (2.18996pt too wide) detected at line 170
+ [][]\OT1/cmr/m/n/10.95 A10[]
+ []
+
+
+Overfull \hbox (2.18996pt too wide) detected at line 171
+ [][]\OT1/cmr/m/n/10.95 A11[]
+ []
+
+
+Overfull \hbox (2.18996pt too wide) detected at line 172
+ [][]\OT1/cmr/m/n/10.95 A11[]
+ []
+
+
+Overfull \hbox (2.18996pt too wide) detected at line 173
+ [][]\OT1/cmr/m/n/10.95 A12[]
+ []
+
+[4]
+Overfull \hbox (2.18996pt too wide) detected at line 174
+ [][]\OT1/cmr/m/n/10.95 A12[]
+ []
+
 )
 \tf@toc=\write4
 \openout4 = `League_Documentation.toc'.
 
- [4]
-LaTeX Font Info:    Try loading font information for OMS+cmr on input line 127.
+ [5]
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 131.
 
  (/usr/local/texlive/2019/texmf-dist/tex/latex/base/omscmr.fd
 File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10.95> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 127.
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 131.
 pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has 
 been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.152 
-       [1] [2] [3] [4] [5] [6]
-<week1-green.png, id=1193, 560.0925pt x 502.87875pt>
+l.144 \item \textbf
+                   {Eddie Lacy \& Sammy Watkins -- Picks 2.11 (23) \& Pick 3...
+[1] [2] [3] [4] [5] [6] [7]
+<week1-green.png, id=1236, 560.0925pt x 502.87875pt>
 File: week1-green.png Graphic file (type png)
 <use week1-green.png>
-Package pdftex.def Info: week1-green.png  used on input line 269.
+Package pdftex.def Info: week1-green.png  used on input line 273.
 (pdftex.def)             Requested size: 186.99846pt x 167.8995pt.
- [7 <./week1-green.png>]
-<week1-lloyd.png, id=1204, 218.8175pt x 484.81125pt>
+ [8 <./week1-green.png>]
+<week1-lloyd.png, id=1247, 218.8175pt x 484.81125pt>
 File: week1-lloyd.png Graphic file (type png)
 <use week1-lloyd.png>
-Package pdftex.def Info: week1-lloyd.png  used on input line 281.
+Package pdftex.def Info: week1-lloyd.png  used on input line 285.
 (pdftex.def)             Requested size: 162.06381pt x 359.0728pt.
- [8 <./week1-lloyd.png>]
-<week1-tyler.png, id=1215, 311.1625pt x 567.11874pt>
+ [9 <./week1-lloyd.png>]
+<week1-tyler.png, id=1257, 311.1625pt x 567.11874pt>
 File: week1-tyler.png Graphic file (type png)
 <use week1-tyler.png>
-Package pdftex.def Info: week1-tyler.png  used on input line 293.
+Package pdftex.def Info: week1-tyler.png  used on input line 297.
 (pdftex.def)             Requested size: 224.39664pt x 408.98285pt.
 
-[9 <./week1-tyler.png>]
-<week1-martyB.png, id=1224, 542.025pt x 370.38374pt>
+[10 <./week1-tyler.png>]
+<week1-martyB.png, id=1266, 542.025pt x 370.38374pt>
 File: week1-martyB.png Graphic file (type png)
 <use week1-martyB.png>
-Package pdftex.def Info: week1-martyB.png  used on input line 306.
+Package pdftex.def Info: week1-martyB.png  used on input line 310.
 (pdftex.def)             Requested size: 336.59875pt x 230.01419pt.
 
-Underfull \hbox (badness 5064) in paragraph at lines 310--311
+Underfull \hbox (badness 5064) in paragraph at lines 314--315
 []\OT1/cmr/m/n/10.95 Connor needed 20 points
  []
 
-[10 <./week1-martyB.png>]
-<week1-larry.png, id=1233, 532.99126pt x 279.0425pt>
+[11 <./week1-martyB.png>]
+<week1-larry.png, id=1276, 532.99126pt x 279.0425pt>
 File: week1-larry.png Graphic file (type png)
 <use week1-larry.png>
-Package pdftex.def Info: week1-larry.png  used on input line 318.
+Package pdftex.def Info: week1-larry.png  used on input line 322.
 (pdftex.def)             Requested size: 411.3951pt x 215.38708pt.
 
-Overfull \hbox (12.4012pt too wide) in paragraph at lines 322--323
+Overfull \hbox (12.4012pt too wide) in paragraph at lines 326--327
 \OT1/cmr/m/n/10.95 Jones away from
  []
 
 
-Underfull \hbox (badness 7504) in paragraph at lines 322--323
+Underfull \hbox (badness 7504) in paragraph at lines 326--327
 \OT1/cmr/m/n/10.95 me so he's
  []
 
 
-Underfull \hbox (badness 4229) in paragraph at lines 322--323
+Underfull \hbox (badness 4229) in paragraph at lines 326--327
 \OT1/cmr/m/n/10.95 pretty much
  []
 
 
-Overfull \hbox (0.66037pt too wide) in paragraph at lines 322--323
+Overfull \hbox (0.66037pt too wide) in paragraph at lines 326--327
 \OT1/cmr/m/n/10.95 also picked up
  []
 
 
-Overfull \hbox (1.20789pt too wide) in paragraph at lines 322--323
+Overfull \hbox (1.20789pt too wide) in paragraph at lines 326--327
 \OT1/cmr/m/n/10.95 Fat Ed-die and
  []
 
 
-Overfull \hbox (0.59958pt too wide) in paragraph at lines 322--323
+Overfull \hbox (0.59958pt too wide) in paragraph at lines 326--327
 \OT1/cmr/m/n/10.95 Big Ben again
  []
 
 
-Underfull \hbox (badness 2460) in paragraph at lines 322--323
+Underfull \hbox (badness 2460) in paragraph at lines 326--327
 \OT1/cmr/m/n/10.95 did well for
  []
 
 
-Underfull \hbox (badness 1895) in paragraph at lines 322--323
+Underfull \hbox (badness 1895) in paragraph at lines 326--327
 \OT1/cmr/m/n/10.95 die did well
  []
 
 
-Overfull \hbox (12.85626pt too wide) in paragraph at lines 322--323
+Overfull \hbox (12.85626pt too wide) in paragraph at lines 326--327
 \OT1/cmr/m/n/10.95 I mean he scored
  []
 
-[11 <./week1-larry.png>]
-<week1-antonio.png, id=1242, 513.92pt x 454.69875pt>
+[12 <./week1-larry.png>]
+<week1-antonio.png, id=1285, 513.92pt x 454.69875pt>
 File: week1-antonio.png Graphic file (type png)
 <use week1-antonio.png>
-Package pdftex.def Info: week1-antonio.png  used on input line 330.
+Package pdftex.def Info: week1-antonio.png  used on input line 334.
 (pdftex.def)             Requested size: 324.12762pt x 286.78087pt.
- [12 <./week1-antonio.png>]
-Overfull \hbox (1.52678pt too wide) in paragraph at lines 343--358
+ [13 <./week1-antonio.png>]
+Overfull \hbox (1.52678pt too wide) in paragraph at lines 347--362
  [] 
  []
 
-[13]
-<week2-injuries.png, id=1259, 427.5975pt x 528.97626pt>
+[14]
+<week2-injuries.png, id=1303, 427.5975pt x 528.97626pt>
 File: week2-injuries.png Graphic file (type png)
 <use week2-injuries.png>
-Package pdftex.def Info: week2-injuries.png  used on input line 372.
+Package pdftex.def Info: week2-injuries.png  used on input line 376.
 (pdftex.def)             Requested size: 211.9331pt x 262.17902pt.
- [14 <./week2-injuries.png>]
-<week2-gordon.png, id=1271, 525.965pt x 367.3725pt>
+ [15 <./week2-injuries.png>]
+<week2-gordon.png, id=1313, 525.965pt x 367.3725pt>
 File: week2-gordon.png Graphic file (type png)
 <use week2-gordon.png>
-Package pdftex.def Info: week2-gordon.png  used on input line 385.
+Package pdftex.def Info: week2-gordon.png  used on input line 389.
 (pdftex.def)             Requested size: 311.66411pt x 217.69524pt.
 
-Underfull \hbox (badness 1107) in paragraph at lines 389--390
+Underfull \hbox (badness 1107) in paragraph at lines 393--394
 \OT1/cmr/m/n/10.95 get-ting 32 op-por-tu-ni-ties to roll
  []
 
 
-Underfull \hbox (badness 1478) in paragraph at lines 389--390
+Underfull \hbox (badness 1478) in paragraph at lines 393--394
 \OT1/cmr/m/n/10.95 OUT FOR HARAMBE GUYS!
  []
 
-[15 <./week2-gordon.png>]
-<week2-kanye.png, id=1280, 451.6875pt x 321.2pt>
+[16 <./week2-gordon.png>]
+<week2-kanye.png, id=1322, 451.6875pt x 321.2pt>
 File: week2-kanye.png Graphic file (type png)
 <use week2-kanye.png>
-Package pdftex.def Info: week2-kanye.png  used on input line 398.
+Package pdftex.def Info: week2-kanye.png  used on input line 402.
 (pdftex.def)             Requested size: 261.7948pt x 186.1736pt.
-<week2-cousins.png, id=1281, 480.79625pt x 272.01625pt>
+<week2-cousins.png, id=1323, 480.79625pt x 272.01625pt>
 File: week2-cousins.png Graphic file (type png)
 <use week2-cousins.png>
-Package pdftex.def Info: week2-cousins.png  used on input line 404.
+Package pdftex.def Info: week2-cousins.png  used on input line 408.
 (pdftex.def)             Requested size: 261.7948pt x 148.11516pt.
- [16 <./week2-kanye.png> <./week2-cousins.png>]
-<week2-bortles.png, id=1292, 393.47pt x 398.48875pt>
+ [17 <./week2-kanye.png> <./week2-cousins.png>]
+<week2-bortles.png, id=1334, 393.47pt x 398.48875pt>
 File: week2-bortles.png Graphic file (type png)
 <use week2-bortles.png>
-Package pdftex.def Info: week2-bortles.png  used on input line 417.
+Package pdftex.def Info: week2-bortles.png  used on input line 421.
 (pdftex.def)             Requested size: 311.66411pt x 315.63568pt.
 
-[17 <./week2-bortles.png>]
-<week2-brees.png, id=1301, 501.875pt x 499.8675pt>
+[18 <./week2-bortles.png>]
+<week2-brees.png, id=1343, 501.875pt x 499.8675pt>
 File: week2-brees.png Graphic file (type png)
 <use week2-brees.png>
-Package pdftex.def Info: week2-brees.png  used on input line 431.
+Package pdftex.def Info: week2-brees.png  used on input line 435.
 (pdftex.def)             Requested size: 261.7948pt x 260.75635pt.
- [18 <./week2-brees.png>]
-<week2-olsen.png, id=1310, 528.97626pt x 438.63875pt>
+ [19 <./week2-brees.png>]
+<week2-olsen.png, id=1353, 528.97626pt x 438.63875pt>
 File: week2-olsen.png Graphic file (type png)
 <use week2-olsen.png>
-Package pdftex.def Info: week2-olsen.png  used on input line 444.
+Package pdftex.def Info: week2-olsen.png  used on input line 448.
 (pdftex.def)             Requested size: 261.7948pt x 217.08334pt.
- [19 <./week2-olsen.png>]
-[20]
-<week3-barker.png, id=1327, 560.0925pt x 401.5pt>
+ [20 <./week2-olsen.png>]
+[21]
+<week3-barker.png, id=1369, 560.0925pt x 401.5pt>
 File: week3-barker.png Graphic file (type png)
 <use week3-barker.png>
-Package pdftex.def Info: week3-barker.png  used on input line 486.
+Package pdftex.def Info: week3-barker.png  used on input line 490.
 (pdftex.def)             Requested size: 186.99846pt x 134.0515pt.
-<week3-trevor.png, id=1328, 183.68625pt x 59.22125pt>
+<week3-trevor.png, id=1370, 183.68625pt x 59.22125pt>
 File: week3-trevor.png Graphic file (type png)
 <use week3-trevor.png>
-Package pdftex.def Info: week3-trevor.png  used on input line 496.
+Package pdftex.def Info: week3-trevor.png  used on input line 500.
 (pdftex.def)             Requested size: 162.06381pt x 52.254pt.
- [21 <./week3-barker.png> <./week3-trevor.png>]
-<week3-terry.png, id=1339, 561.09625pt x 315.1775pt>
+ [22 <./week3-barker.png> <./week3-trevor.png>]
+<week3-terry.png, id=1381, 561.09625pt x 315.1775pt>
 File: week3-terry.png Graphic file (type png)
 <use week3-terry.png>
-Package pdftex.def Info: week3-terry.png  used on input line 504.
+Package pdftex.def Info: week3-terry.png  used on input line 508.
 (pdftex.def)             Requested size: 311.66411pt x 175.06505pt.
- [22 <./week3-terry.png>]
-<week3-train.png, id=1348, 450.68375pt x 315.1775pt>
+ [23 <./week3-terry.png>]
+<week3-train.png, id=1390, 450.68375pt x 315.1775pt>
 File: week3-train.png Graphic file (type png)
 <use week3-train.png>
-Package pdftex.def Info: week3-train.png  used on input line 518.
+Package pdftex.def Info: week3-train.png  used on input line 522.
 (pdftex.def)             Requested size: 311.66411pt x 217.96805pt.
-<week3-bear.png, id=1349, 432.61626pt x 329.23pt>
+<week3-bear.png, id=1391, 432.61626pt x 329.23pt>
 File: week3-bear.png Graphic file (type png)
 <use week3-bear.png>
-Package pdftex.def Info: week3-bear.png  used on input line 526.
+Package pdftex.def Info: week3-bear.png  used on input line 530.
 (pdftex.def)             Requested size: 286.72946pt x 218.21681pt.
 
-[23 <./week3-train.png> <./week3-bear.png>]
-<week3-aussie.png, id=1360, 562.1pt x 404.51125pt>
+[24 <./week3-train.png> <./week3-bear.png>]
+<week3-aussie.png, id=1402, 562.1pt x 404.51125pt>
 File: week3-aussie.png Graphic file (type png)
 <use week3-aussie.png>
-Package pdftex.def Info: week3-aussie.png  used on input line 540.
+Package pdftex.def Info: week3-aussie.png  used on input line 544.
 (pdftex.def)             Requested size: 162.06381pt x 116.6263pt.
-<week3-sean.png, id=1361, 477.785pt x 484.81125pt>
+<week3-sean.png, id=1403, 477.785pt x 484.81125pt>
 File: week3-sean.png Graphic file (type png)
 <use week3-sean.png>
-Package pdftex.def Info: week3-sean.png  used on input line 549.
+Package pdftex.def Info: week3-sean.png  used on input line 553.
 (pdftex.def)             Requested size: 117.186pt x 118.90924pt.
- [24 <./week3-aussie.png> <./week3-sean.png>]
-<week3-lloyd.png, id=1372, 177.66376pt x 151.56625pt>
+ [25 <./week3-aussie.png> <./week3-sean.png>]
+<week3-lloyd.png, id=1416, 177.66376pt x 151.56625pt>
 File: week3-lloyd.png Graphic file (type png)
 <use week3-lloyd.png>
-Package pdftex.def Info: week3-lloyd.png  used on input line 561.
+Package pdftex.def Info: week3-lloyd.png  used on input line 565.
 (pdftex.def)             Requested size: 137.12917pt x 116.98851pt.
-<week3-giants.png, id=1373, 171.64125pt x 168.63pt>
+<week3-giants.png, id=1417, 171.64125pt x 168.63pt>
 File: week3-giants.png Graphic file (type png)
 <use week3-giants.png>
-Package pdftex.def Info: week3-giants.png  used on input line 568.
+Package pdftex.def Info: week3-giants.png  used on input line 572.
 (pdftex.def)             Requested size: 137.12917pt x 134.72148pt.
- [25 <./week3-lloyd.png> <./week3-giants.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 576--580
+ [26 <./week3-lloyd.png> <./week3-giants.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 580--584
 
  []
 
-<week3-bunghole.png, id=1384, 249.93375pt x 154.5775pt>
+<week3-bunghole.png, id=1428, 249.93375pt x 154.5775pt>
 File: week3-bunghole.png Graphic file (type png)
 <use week3-bunghole.png>
-Package pdftex.def Info: week3-bunghole.png  used on input line 585.
+Package pdftex.def Info: week3-bunghole.png  used on input line 589.
 (pdftex.def)             Requested size: 286.72946pt x 177.35231pt.
 
-Underfull \hbox (badness 1590) in paragraph at lines 588--589
+Underfull \hbox (badness 1590) in paragraph at lines 592--593
 []\OT1/cmr/m/n/10.95 know ev-ery-thing be-cause af-ter a bold
  []
 
 
-Underfull \hbox (badness 2073) in paragraph at lines 588--589
+Underfull \hbox (badness 2073) in paragraph at lines 592--593
 \OT1/cmr/m/n/10.95 grab of the 11th draft spot the Hit
  []
 
 
-Underfull \hbox (badness 1708) in paragraph at lines 588--589
+Underfull \hbox (badness 1708) in paragraph at lines 592--593
 \OT1/cmr/m/n/10.95 into a first place tie with A Griz-zly
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 588--589
+Underfull \hbox (badness 10000) in paragraph at lines 592--593
 
  []
 
-[26 <./week3-bunghole.png>]
-<week3-hawaii.png, id=1394, 324.21124pt x 248.93pt>
+[27 <./week3-bunghole.png>]
+<week3-hawaii.png, id=1437, 324.21124pt x 248.93pt>
 File: week3-hawaii.png Graphic file (type png)
 <use week3-hawaii.png>
-Package pdftex.def Info: week3-hawaii.png  used on input line 598.
+Package pdftex.def Info: week3-hawaii.png  used on input line 602.
 (pdftex.def)             Requested size: 286.72946pt x 220.16438pt.
-<week3-kevin.png, id=1395, 77.088pt x 96.36pt>
+<week3-kevin.png, id=1438, 77.088pt x 96.36pt>
 File: week3-kevin.png Graphic file (type png)
 <use week3-kevin.png>
-Package pdftex.def Info: week3-kevin.png  used on input line 606.
+Package pdftex.def Info: week3-kevin.png  used on input line 610.
 (pdftex.def)             Requested size: 137.12917pt x 171.43199pt.
- [27 <./week3-hawaii.png> <./week3-kevin.png>]
-[28] [29]
-<week4-rob.png, id=1419, 563.10374pt x 277.035pt>
+ [28 <./week3-hawaii.png> <./week3-kevin.png>]
+[29] [30]
+<week4-rob.png, id=1460, 563.10374pt x 277.035pt>
 File: week4-rob.png Graphic file (type png)
 <use week4-rob.png>
-Package pdftex.def Info: week4-rob.png  used on input line 665.
+Package pdftex.def Info: week4-rob.png  used on input line 669.
 (pdftex.def)             Requested size: 221.9085pt x 109.17188pt.
-<week4-terry.png, id=1420, 444.66125pt x 342.27875pt>
+<week4-terry.png, id=1461, 444.66125pt x 342.27875pt>
 File: week4-terry.png Graphic file (type png)
 <use week4-terry.png>
-Package pdftex.def Info: week4-terry.png  used on input line 673.
+Package pdftex.def Info: week4-terry.png  used on input line 677.
 (pdftex.def)             Requested size: 224.39664pt x 172.72665pt.
- [30 <./week4-rob.png> <./week4-terry.png>]
-<week4-odoyle.png, id=1431, 343.2825pt x 214.8025pt>
+ [31 <./week4-rob.png> <./week4-terry.png>]
+<week4-odoyle.png, id=1473, 343.2825pt x 214.8025pt>
 File: week4-odoyle.png Graphic file (type png)
 <use week4-odoyle.png>
-Package pdftex.def Info: week4-odoyle.png  used on input line 686.
+Package pdftex.def Info: week4-odoyle.png  used on input line 690.
 (pdftex.def)             Requested size: 286.72946pt x 179.41353pt.
-<week4-jones.png, id=1432, 269.005pt x 142.5325pt>
+<week4-jones.png, id=1474, 269.005pt x 142.5325pt>
 File: week4-jones.png Graphic file (type png)
 <use week4-jones.png>
-Package pdftex.def Info: week4-jones.png  used on input line 692.
+Package pdftex.def Info: week4-jones.png  used on input line 696.
 (pdftex.def)             Requested size: 236.86777pt x 125.50508pt.
- [31 <./week4-odoyle.png> <./week4-jones.png>] [32]
+ [32 <./week4-odoyle.png> <./week4-jones.png>] [33]
 
 Package wrapfig Warning: wrapfigure used inside a conflicting environment on in
-put line 740.
+put line 744.
 
-<week4-nopoints.png, id=1450, 318.18875pt x 223.83624pt>
+<week4-nopoints.png, id=1491, 318.18875pt x 223.83624pt>
 File: week4-nopoints.png Graphic file (type png)
 <use week4-nopoints.png>
-Package pdftex.def Info: week4-nopoints.png  used on input line 743.
+Package pdftex.def Info: week4-nopoints.png  used on input line 747.
 (pdftex.def)             Requested size: 186.99846pt x 131.5465pt.
-<week4-onejob.png, id=1451, 437.635pt x 335.2525pt>
+<week4-onejob.png, id=1492, 437.635pt x 335.2525pt>
 File: week4-onejob.png Graphic file (type png)
 <use week4-onejob.png>
-Package pdftex.def Info: week4-onejob.png  used on input line 750.
+Package pdftex.def Info: week4-onejob.png  used on input line 754.
 (pdftex.def)             Requested size: 236.86777pt x 181.45313pt.
 
-Underfull \hbox (badness 1082) in paragraph at lines 746--754
+Underfull \hbox (badness 1082) in paragraph at lines 750--758
 \OT1/cmr/m/n/10.95 ball fans. See you on Sun-day morn-ing for the most
  []
 
 
-Underfull \hbox (badness 1831) in paragraph at lines 746--754
+Underfull \hbox (badness 1831) in paragraph at lines 750--758
 \OT1/cmr/m/n/10.95 im-por-tant event of your oth-er-wise piti-ful, mean-ing-les
 s
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 746--754
+Underfull \hbox (badness 10000) in paragraph at lines 750--758
 
  []
 
-[33 <./week4-nopoints.png> <./week4-onejob.png>]
-<week4-tannehill.png, id=1462, 325.215pt x 216.81pt>
+[34 <./week4-nopoints.png> <./week4-onejob.png>]
+<week4-tannehill.png, id=1503, 325.215pt x 216.81pt>
 File: week4-tannehill.png Graphic file (type png)
 <use week4-tannehill.png>
-Package pdftex.def Info: week4-tannehill.png  used on input line 763.
+Package pdftex.def Info: week4-tannehill.png  used on input line 767.
 (pdftex.def)             Requested size: 236.86777pt x 157.91599pt.
-<week4-bear.png, id=1463, 332.24126pt x 237.88875pt>
+<week4-bear.png, id=1504, 332.24126pt x 237.88875pt>
 File: week4-bear.png Graphic file (type png)
 <use week4-bear.png>
-Package pdftex.def Info: week4-bear.png  used on input line 769.
+Package pdftex.def Info: week4-bear.png  used on input line 773.
 (pdftex.def)             Requested size: 174.53494pt x 124.96968pt.
-<week4-manziel.png, id=1464, 262.9825pt x 201.75375pt>
+<week4-manziel.png, id=1505, 262.9825pt x 201.75375pt>
 File: week4-manziel.png Graphic file (type png)
 <use week4-manziel.png>
-Package pdftex.def Info: week4-manziel.png  used on input line 777.
+Package pdftex.def Info: week4-manziel.png  used on input line 781.
 (pdftex.def)             Requested size: 186.99846pt x 143.46472pt.
- [34 <./week4-tannehill.png> <./week4-bear.png> <./week4-manziel.png>]
-<week4-suck.png, id=1477, 198.7425pt x 189.70876pt>
+ [35 <./week4-tannehill.png> <./week4-bear.png> <./week4-manziel.png>]
+<week4-suck.png, id=1518, 198.7425pt x 189.70876pt>
 File: week4-suck.png Graphic file (type png)
 <use week4-suck.png>
-Package pdftex.def Info: week4-suck.png  used on input line 789.
+Package pdftex.def Info: week4-suck.png  used on input line 793.
 (pdftex.def)             Requested size: 112.20212pt x 107.10458pt.
-<week4-garbage.png, id=1478, 318.18875pt x 171.64125pt>
+<week4-garbage.png, id=1519, 318.18875pt x 171.64125pt>
 File: week4-garbage.png Graphic file (type png)
 <use week4-garbage.png>
-Package pdftex.def Info: week4-garbage.png  used on input line 796.
+Package pdftex.def Info: week4-garbage.png  used on input line 800.
 (pdftex.def)             Requested size: 211.9331pt x 114.3233pt.
-<week4-choochoo.png, id=1479, 354.32375pt x 322.20375pt>
+<week4-choochoo.png, id=1520, 354.32375pt x 322.20375pt>
 File: week4-choochoo.png Graphic file (type png)
 <use week4-choochoo.png>
-Package pdftex.def Info: week4-choochoo.png  used on input line 805.
+Package pdftex.def Info: week4-choochoo.png  used on input line 809.
 (pdftex.def)             Requested size: 211.9331pt x 192.72392pt.
- [35 <./week4-suck.png> <./week4-garbage.png> <./week4-choochoo.png>]
-<week4-cowboys.png, id=1492, 251.94125pt x 179.67125pt>
+ [36 <./week4-suck.png> <./week4-garbage.png> <./week4-choochoo.png>]
+<week4-cowboys.png, id=1533, 251.94125pt x 179.67125pt>
 File: week4-cowboys.png Graphic file (type png)
 <use week4-cowboys.png>
-Package pdftex.def Info: week4-cowboys.png  used on input line 818.
+Package pdftex.def Info: week4-cowboys.png  used on input line 822.
 (pdftex.def)             Requested size: 211.9331pt x 151.13939pt.
-<week4-fantastic.png, id=1493, 125.46875pt x 183.68625pt>
+<week4-fantastic.png, id=1534, 125.46875pt x 183.68625pt>
 File: week4-fantastic.png Graphic file (type png)
 <use week4-fantastic.png>
-Package pdftex.def Info: week4-fantastic.png  used on input line 824.
+Package pdftex.def Info: week4-fantastic.png  used on input line 828.
 (pdftex.def)             Requested size: 112.20212pt x 164.27342pt.
-<week4-peyton.png, id=1494, 241.90375pt x 260.975pt>
+<week4-peyton.png, id=1535, 241.90375pt x 260.975pt>
 File: week4-peyton.png Graphic file (type png)
 <use week4-peyton.png>
-Package pdftex.def Info: week4-peyton.png  used on input line 831.
+Package pdftex.def Info: week4-peyton.png  used on input line 835.
 (pdftex.def)             Requested size: 177.02307pt x 190.98802pt.
- [36 <./week4-cowboys.png> <./week4-fantastic.png> <./week4-peyton.png>] [37] [
-38] [39]
-<week5-rainbows.png, id=1525, 508.90125pt x 379.4175pt>
+ [37 <./week4-cowboys.png> <./week4-fantastic.png> <./week4-peyton.png>] [38] [
+39] [40]
+<week5-rainbows.png, id=1567, 508.90125pt x 379.4175pt>
 File: week5-rainbows.png Graphic file (type png)
 <use week5-rainbows.png>
-Package pdftex.def Info: week5-rainbows.png  used on input line 888.
+Package pdftex.def Info: week5-rainbows.png  used on input line 892.
 (pdftex.def)             Requested size: 211.9331pt x 158.01111pt.
- [40 <./week5-rainbows.png>]
-<week5-blueballs.png, id=1535, 549.05125pt x 299.1175pt>
+ [41 <./week5-rainbows.png>]
+<week5-blueballs.png, id=1577, 549.05125pt x 299.1175pt>
 File: week5-blueballs.png Graphic file (type png)
 <use week5-blueballs.png>
-Package pdftex.def Info: week5-blueballs.png  used on input line 902.
+Package pdftex.def Info: week5-blueballs.png  used on input line 906.
 (pdftex.def)             Requested size: 311.66411pt x 169.79585pt.
- [41 <./week5-blueballs.png>]
-<week5-choochoo.png, id=1544, 522.95375pt x 494.84875pt>
+ [42 <./week5-blueballs.png>]
+<week5-choochoo.png, id=1586, 522.95375pt x 494.84875pt>
 File: week5-choochoo.png Graphic file (type png)
 <use week5-choochoo.png>
-Package pdftex.def Info: week5-choochoo.png  used on input line 916.
+Package pdftex.def Info: week5-choochoo.png  used on input line 920.
 (pdftex.def)             Requested size: 261.7948pt x 247.7258pt.
- [42 <./week5-choochoo.png>]
-<week5-miracles.png, id=1554, 559.08875pt x 422.57875pt>
+ [43 <./week5-choochoo.png>]
+<week5-miracles.png, id=1596, 559.08875pt x 422.57875pt>
 File: week5-miracles.png Graphic file (type png)
 <use week5-miracles.png>
-Package pdftex.def Info: week5-miracles.png  used on input line 931.
+Package pdftex.def Info: week5-miracles.png  used on input line 935.
 (pdftex.def)             Requested size: 261.7948pt x 197.87695pt.
- [43 <./week5-miracles.png>]
-<week5-elliot.png, id=1563, 530.98375pt x 282.05376pt>
+ [44 <./week5-miracles.png>]
+<week5-elliot.png, id=1605, 530.98375pt x 282.05376pt>
 File: week5-elliot.png Graphic file (type png)
 <use week5-elliot.png>
-Package pdftex.def Info: week5-elliot.png  used on input line 949.
+Package pdftex.def Info: week5-elliot.png  used on input line 953.
 (pdftex.def)             Requested size: 261.7948pt x 139.064pt.
 
-[44 <./week5-elliot.png>]
-<week5-lloyd.png, id=1573, 559.08875pt x 334.24875pt>
+[45 <./week5-elliot.png>]
+<week5-lloyd.png, id=1614, 559.08875pt x 334.24875pt>
 File: week5-lloyd.png Graphic file (type png)
 <use week5-lloyd.png>
-Package pdftex.def Info: week5-lloyd.png  used on input line 964.
+Package pdftex.def Info: week5-lloyd.png  used on input line 968.
 (pdftex.def)             Requested size: 361.5334pt x 216.14726pt.
 
-Underfull \hbox (badness 3601) in paragraph at lines 968--969
+Underfull \hbox (badness 3601) in paragraph at lines 972--973
 \OT1/cmr/m/n/10.95 pro-duc-tion. A team
  []
 
 
-Underfull \hbox (badness 6592) in paragraph at lines 968--969
+Underfull \hbox (badness 6592) in paragraph at lines 972--973
 \OT1/cmr/m/n/10.95 sell Wil-son has been
  []
 
-[45 <./week5-lloyd.png>] [46] [47] [48] [49] [50] [51] [52] [53] [54] [55]
-[56] [57] [58] [59] [60] [61] [62] [63] [64] [65] [66] [67] [68] [69] [70]
-[71] [72] [73] [74] [75] [76] [77] [78] [79] [80] [81] [82] [83] [84] [85]
-[86] [87] [88]
+[46 <./week5-lloyd.png>] [47] [48] [49] [50] [51] [52] [53] [54] [55] [56]
+[57] [58] [59] [60] [61] [62] [63] [64] [65] [66] [67] [68] [69] [70] [71]
+[72] [73] [74] [75] [76] [77] [78] [79] [80] [81] [82] [83] [84] [85] [86]
+[87] [88] [89]
 
-Package hyperref Warning: Suppressing link with empty target on input line 2100
+Package hyperref Warning: Suppressing link with empty target on input line 2104
 .
 
-[89] [1] [2] [3] [4] [5] [6]
-Overfull \hbox (12.06674pt too wide) in paragraph at lines 2430--2430
+[90] [1] [2]
+Overfull \hbox (10.92659pt too wide) in paragraph at lines 2264--2279
+ [] 
+ []
+
+[3] [4] [5] [6] [7] [8]
+Overfull \hbox (12.06674pt too wide) in paragraph at lines 2477--2477
 |[]\OT1/cmr/bx/n/14.4 Fantasy Hockey - 2017/18 [fuck-ing FAN-TASY fuck-ing HOCK
 EY]| 
  []
 
-[7]
-Overfull \hbox (12.06674pt too wide) in paragraph at lines 2451--2451
+[9]
+Overfull \hbox (12.06674pt too wide) in paragraph at lines 2498--2498
 |[]\OT1/cmr/bx/n/14.4 Fantasy Hockey - 2018/19 [fuck-ing FAN-TASY fuck-ing HOCK
 EY]| 
  []
 
-[8]
-Overfull \hbox (21.08179pt too wide) in paragraph at lines 2472--2472
+
+Overfull \hbox (12.06674pt too wide) in paragraph at lines 2518--2518
+|[]\OT1/cmr/bx/n/14.4 Fantasy Hockey - 2019/20 [fuck-ing FAN-TASY fuck-ing HOCK
+EY]| 
+ []
+
+[10]
+Overfull \hbox (21.08179pt too wide) in paragraph at lines 2540--2540
 |[]\OT1/cmr/bx/n/14.4 Fantasy Bas-ket-ball - 2016/17 [An-other Fan-tasy League!
 ! WOOO!!]| 
  []
 
-[9]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 2909.
- [10]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 2909.
+[11]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 2998.
+ [12]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 2998.
  (./League_Documentation.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 2909.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 2909.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 2998.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 2998.
 
 Package rerunfilecheck Info: File `League_Documentation.out' has not changed.
-(rerunfilecheck)             Checksum: 59F96AAAEE40F72EA5B7F8AB2599515A;14131.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 2909.
+(rerunfilecheck)             Checksum: 4A1813F773ECB0FF7600731E77E16242;14673.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 2998.
  ) 
 Here is how much of TeX's memory you used:
- 10006 strings out of 492616
- 151013 string characters out of 6129482
- 251588 words of memory out of 5000000
- 13361 multiletter control sequences out of 15000+600000
+ 10024 strings out of 492616
+ 151304 string characters out of 6129482
+ 251589 words of memory out of 5000000
+ 13366 multiletter control sequences out of 15000+600000
  16191 words of font info for 62 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  36i,12n,43p,1978b,462s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -1178,15 +1215,16 @@ sr/local/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr
 cal/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmr9.pfb></usr/local
 /texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/
 texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb></usr/local/te
-xlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/local/texl
-ive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/local/texli
-ve/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb></usr/local/texliv
-e/2019/texmf-dist/fonts/type1/public/amsfonts/symbols/msam10.pfb></usr/local/te
-xlive/2019/texmf-dist/fonts/type1/public/cm-super/sfrm1095.pfb>
-Output written on League_Documentation.pdf (104 pages, 11103418 bytes).
+xlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/local/texl
+ive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/local/texliv
+e/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/local/texlive
+/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb></usr/local/texlive/
+2019/texmf-dist/fonts/type1/public/amsfonts/symbols/msam10.pfb></usr/local/texl
+ive/2019/texmf-dist/fonts/type1/public/cm-super/sfrm1095.pfb>
+Output written on League_Documentation.pdf (108 pages, 11115822 bytes).
 PDF statistics:
- 2103 PDF objects out of 2487 (max. 8388607)
- 1871 compressed objects within 19 object streams
- 361 named destinations out of 1000 (max. 500000)
- 1575 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 2164 PDF objects out of 2487 (max. 8388607)
+ 1926 compressed objects within 20 object streams
+ 374 named destinations out of 1000 (max. 500000)
+ 1615 words of extra memory for PDF output out of 10000 (max. 10000000)
 
