@@ -4,7 +4,7 @@ source "/Users/connordog/.bash_profile"
 updateDate=$( date +"%b %d, %Y" )
 
 
-python completed_to_tried.py
+python boulder_cleanup.py
 
 wait
 
