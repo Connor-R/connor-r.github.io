@@ -104,7 +104,7 @@ def process_completed():
         row = list(row)
         for i, val in enumerate(row):
             if type(val) in (str,unicode):
-                row[i] = '"' + "".join([l if ord(l) < 128 else "" for l in val]).replace("<o>","").replace("<P>","").replace("\n"," || ")+ '"'
+                row[i] = '"' + "".join([l if ord(l) < 128 else "" for l in val]).replace("<o>","").replace("<P>","").replace("\n","-----")+ '"'
                 # if i == 16:
                     # print row[i]
                     # print 
