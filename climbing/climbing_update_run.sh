@@ -22,12 +22,7 @@ csvtotable /Users/connordog/Dropbox/Desktop_Files/Work_Things/connor-r.github.io
 python /Users/connordog/Dropbox/Desktop_Files/Work_Things/connor-r.github.io/Tables/google_analytics_appender.py --file_path "/Users/connordog/Dropbox/Desktop_Files/Work_Things/connor-r.github.io/Tables/boulders_yearlyBreakdown.html"
 
 cd /Users/connordog/Dropbox/Desktop_Files/Work_Things/connor-r.github.io
-git add Tables/boulders_completed.html
-git add Tables/boulders_triedLog.html
-git add Tables/boulders_yearlyBreakdown.html
-git add csvs/boulders_completed.csv
-git add csvs/boulders_triedLog.csv
-git add csvs/boulders_returnInterest.csv
-git add csvs/boulders_yearlyBreakdown.csv
+git add Tables/*
+git add csvs/*
 git commit -m "update climbing dataset"
 git push

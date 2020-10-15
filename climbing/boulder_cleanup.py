@@ -232,7 +232,7 @@ def update_flags():
             for row in res:
                 session_num, session_start, boulder_name, area, old_val = row
 
-                print '\t\t\tupdating %s for %s (%s) session #%s starting at %s from %s to NULL' % (flag, boulder_name, area, session_num, session_start, old_val)
+                # print '\t\t\tupdating %s for %s (%s) session #%s starting at %s from %s to NULL' % (flag, boulder_name, area, session_num, session_start, old_val)
 
                 update_qry = """UPDATE boulder_problems
                 SET %s = NULL
@@ -247,7 +247,7 @@ def update_flags():
                 db.query(update_qry)
                 db.conn.commit()
 
-        print '\t\tdone'
+        # print '\t\tdone'
 
 
 if __name__ == "__main__":     
