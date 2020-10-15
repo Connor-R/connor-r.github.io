@@ -104,7 +104,7 @@ def process_completed():
         row = list(row)
         for i, val in enumerate(row):
             if type(val) in (str,unicode):
-                row[i] = '"' + "".join([l if ord(l) < 128 else "" for l in val]).replace("<o>","").replace("<P>","").replace("\n","-----")+ '"'
+                row[i] = '"' + "".join([l if ord(l) < 128 else "" for l in val]).replace("<o>","").replace("<P>","").replace("\n"," ----- ")+ '"'
                 # if i == 16:
                     # print row[i]
                     # print 
@@ -158,7 +158,7 @@ def process_tried():
         row = list(row)
         for i, val in enumerate(row):
             if type(val) in (str,unicode):
-                row[i] = '"' + "".join([l if ord(l) < 128 else "" for l in val]).replace("<o>","").replace("<P>","").replace("\n"," || ")+ '"'
+                row[i] = '"' + "".join([l if ord(l) < 128 else "" for l in val]).replace("<o>","").replace("<P>","").replace("\n"," ----- ")+ '"'
         append_csv.writerow(row)
 
 
@@ -211,7 +211,7 @@ def process_returnInterest():
         row = list(row)
         for i, val in enumerate(row):
             if type(val) in (str,unicode):
-                row[i] = '"' + "".join([l if ord(l) < 128 else "" for l in val]).replace("<o>","").replace("<P>","").replace("\n"," || ")+ '"'
+                row[i] = '"' + "".join([l if ord(l) < 128 else "" for l in val]).replace("<o>","").replace("<P>","").replace("\n"," ----- ")+ '"'
         append_csv.writerow(row)
 
 
@@ -334,7 +334,7 @@ def process_breakdown():
         row = list(row)
         for i, val in enumerate(row):
             if type(val) in (str,unicode):
-                row[i] = '"' + "".join([l if ord(l) < 128 else "" for l in val]).replace("<o>","").replace("<P>","").replace("\n"," || ")+ '"'
+                row[i] = '"' + "".join([l if ord(l) < 128 else "" for l in val]).replace("<o>","").replace("<P>","").replace("\n"," ----- ")+ '"'
         append_csv.writerow(row)
 
 
