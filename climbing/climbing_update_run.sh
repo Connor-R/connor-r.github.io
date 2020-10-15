@@ -8,7 +8,7 @@ python boulder_cleanup.py
 
 wait
 
-python update_climbing_csvs.py
+python export_boulder_csvs.py
 
 wait
 

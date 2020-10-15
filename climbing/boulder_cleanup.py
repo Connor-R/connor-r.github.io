@@ -12,7 +12,7 @@ def initiate():
     update_session_details()
     print '\tdone'
 
-    print "\nupdating total attempts/minutes/sessions on completed boulders"
+    print "\nupdating total attempts/minutes/sessions and flash flag on completed boulders"
     update_completed_boulders()
     print '\tdone'
 
@@ -76,7 +76,7 @@ def update_session_details():
                 db.conn.commit()
 
 def update_completed_boulders():
-    categories = ['total_attempts', 'total_minutes', 'total_sessions', 'details']
+    categories = ['total_attempts', 'total_minutes', 'total_sessions', 'details', 'flash']
     for reset_val in categories:
         db.query("UPDATE boulder_problems SET %s = NULL" % (reset_val))
         db.conn.commit()
@@ -88,6 +88,7 @@ def update_completed_boulders():
     , bp.area
     , bp.sub_area
     , bp.completed
+    , if(bp.completed='COMPLETED' AND bpc.total_attempts=1, 'FLASH', NULL) AS FLASH
     , bpc.total_attempts
     , bpc.total_minutes
     , bpc.total_sessions
@@ -97,7 +98,7 @@ def update_completed_boulders():
                 'DESCRIPTORS:'
                 , IF(bp.athletic IS NULL, '', CONCAT(' ', bp.athletic, ' |'))
                 , IF(bp.cruxy IS NULL, '', CONCAT(' ', bp.cruxy, ' |'))
-                , IF(bp.sloper IS NULL, '', CONCAT(' ', bp.sloper, ' |'))
+                , IF(bp.slopey IS NULL, '', CONCAT(' ', bp.slopey, ' |'))
                 , IF(bp.crimpy IS NULL, '', CONCAT(' ', bp.crimpy, ' |'))
                 , IF(bp.sharp IS NULL, '', CONCAT(' ', bp.sharp, ' |'))
                 , IF(bp.technical IS NULL, '', CONCAT(' ', bp.technical, ' |'))
@@ -112,9 +113,9 @@ def update_completed_boulders():
             , ''
         )
         , bpc.total_attempts
-        , ' Attempts - '
+        , ' Attempts | '
         , bpc.total_minutes
-        , ' Minutes - '
+        , ' Minutes | '
         , bpc.total_sessions
         , ' Sessions\n\n'
         , bpc.details
@@ -140,7 +141,7 @@ def update_completed_boulders():
                 , ' attempts, over '
                 , session_minutes
                 , ' minutes. \n\t'
-                , comment
+                , IFNULL(comment, '')
             )
         ORDER BY session_date, session_start SEPARATOR '\n\n') AS details
         FROM boulder_problems bp
@@ -153,7 +154,7 @@ def update_completed_boulders():
     res = db.query(query)
 
     for row in res:
-        session_date, session_start, boulder_name, area, sub_area, completed, total_attempts, total_minutes, total_sessions, details = row
+        session_date, session_start, boulder_name, area, sub_area, completed, flash, total_attempts, total_minutes, total_sessions, details = row
 
         for cat in categories:
             if cat == 'total_attempts':
@@ -164,9 +165,11 @@ def update_completed_boulders():
                 val = total_sessions
             elif cat == 'details':
                 val = details.replace('"', '\\"')
+            elif cat == 'flash':
+                val = flash
 
             update_qry = """UPDATE boulder_problems
-            SET %s = "%s"
+            SET %s = IF("%s" = "None", NULL, "%s")
             WHERE 1
                 AND IF("%s" = "None", 1, session_date = "%s")
                 AND session_start = "%s"
@@ -175,7 +178,7 @@ def update_completed_boulders():
                 AND sub_area = "%s"
             ;"""
 
-            update_qry = update_qry % (cat, val, session_date, session_date, session_start, boulder_name, area, sub_area)
+            update_qry = update_qry % (cat, val, val, session_date, session_date, session_start, boulder_name, area, sub_area)
             db.query(update_qry)
             db.conn.commit()
 
@@ -187,7 +190,7 @@ def update_flags():
         , 'flash': []
         , 'athletic': []
         , 'cruxy': []
-        , 'sloper': []
+        , 'slopey': []
         , 'crimpy': []
         , 'sharp': []
         , 'technical': []
