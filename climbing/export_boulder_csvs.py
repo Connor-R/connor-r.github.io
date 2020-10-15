@@ -13,12 +13,11 @@ base_path = os.getcwd()
 
 
 def initiate():
-    print "\tupdating csvs"
+    print "\n\n\tupdating csvs\n\n"
     process_completed()
     process_tried()
-    # process_returnInterest()
-    # process_breakdown()
-    # process_grade_breakdown()
+    process_returnInterest()
+    process_breakdown()
 
 def process_completed():
     csv_path = "/Users/connordog/Dropbox/Desktop_Files/Work_Things/connor-r.github.io/csvs/boulders_completed.csv"
@@ -76,7 +75,7 @@ def process_completed():
         + IF(bp.fa = 'FA', 20, 0)
     AS 8a_points
     , bp.final_time
-    , bp.comment
+    , bp.details
     , bp.fa
     , bp.athletic
     , bp.cruxy
@@ -105,9 +104,7 @@ def process_completed():
         row = list(row)
         for i, val in enumerate(row):
             if type(val) in (str,unicode):
-                if ("\t" in val):
-                    print val
-                row[i] = '"' + "".join([l if ord(l) < 128 else "" for l in val]).replace("<o>","").replace("<P>","").replace("\n","<>line break<>")+ '"'
+                row[i] = '"' + "".join([l if ord(l) < 128 else "" for l in val]).replace("<o>","").replace("<P>","").replace("\n"," || ")+ '"'
                 # if i == 16:
                     # print row[i]
                     # print 
@@ -161,7 +158,7 @@ def process_tried():
         row = list(row)
         for i, val in enumerate(row):
             if type(val) in (str,unicode):
-                row[i] = '"' + "".join([l if ord(l) < 128 else "" for l in val]).replace("<o>","").replace("<P>","").replace("\n","<>line break<>")+ '"'
+                row[i] = '"' + "".join([l if ord(l) < 128 else "" for l in val]).replace("<o>","").replace("<P>","").replace("\n"," || ")+ '"'
         append_csv.writerow(row)
 
 
@@ -169,18 +166,44 @@ def process_returnInterest():
     csv_path = "/Users/connordog/Dropbox/Desktop_Files/Work_Things/connor-r.github.io/csvs/boulders_returnInterest.csv"
     csv_file = open(csv_path, "wb")
     append_csv = csv.writer(csv_file)
-    csv_header = ["Estimated Date", "Estimated Time", "Boulder Name", "Area", "Sub Area", "V Grade", "Estimated Attempts", "Estimated Minutes", "Return Interest", "Comment"]
+    csv_header = ["Area"
+    , "Return Interest"
+    , "Boulder Name"
+    , "Sub Area"
+    , "V Grade"
+    , "Total Attempts"
+    , "Total Minutes"
+    , "Total Sessions"
+    , "Details"
+    ]
     append_csv.writerow(csv_header)
     
-    qry = """SELECT 
-    bt.est_date, bt.est_time,
-    bt.boulder_name, bt.area, bt.sub_area,
-    bt.v_grade, bt.est_attempts, bt.est_minutes, bt.return_interest, bt.comment
-    FROM boulders_tried bt
-    LEFT JOIN boulders_completed bc USING (boulder_name, area)
-    JOIN (SELECT boulder_name, area, max(est_date) AS est_date FROM boulders_tried GROUP BY boulder_name, area) md USING (boulder_name, area, est_date)
-    WHERE bc.ascent_date IS NULL
-    ORDER BY est_date DESC, est_time DESC;"""
+    qry = """SELECT bp.area
+    , bp.return_interest
+    , bp.boulder_name
+    , bp.sub_area
+    , bp.v_grade
+    , bp.total_attempts
+    , bp.total_minutes
+    , bp.total_sessions
+    , bp.details
+    FROM boulder_problems bp
+    JOIN(
+        SELECT boulder_name
+        , area
+        , MAX(session_date) AS session_date
+        FROM boulder_problems
+        GROUP BY boulder_name, area
+    ) md USING (boulder_name, area, session_date)
+    LEFT JOIN boulder_problems bpc ON (bp.boulder_name = bpc.boulder_name
+        AND bp.area = bpc.area
+        AND (bp.sub_area IS NULL OR bp.sub_area = bpc.sub_area)
+        AND bpc.completed = 'COMPLETED'
+    )
+    WHERE 1
+        AND bpc.completed IS NULL
+    ORDER BY bp.area, bp.return_interest DESC
+    ;"""
 
     res = db.query(qry)
 
@@ -188,7 +211,7 @@ def process_returnInterest():
         row = list(row)
         for i, val in enumerate(row):
             if type(val) in (str,unicode):
-                row[i] = '"' + "".join([l if ord(l) < 128 else "" for l in val]).replace("<o>","").replace("<P>","").replace("\n","<>line break<>")+ '"'
+                row[i] = '"' + "".join([l if ord(l) < 128 else "" for l in val]).replace("<o>","").replace("<P>","").replace("\n"," || ")+ '"'
         append_csv.writerow(row)
 
 
@@ -196,93 +219,114 @@ def process_breakdown():
     csv_path = "/Users/connordog/Dropbox/Desktop_Files/Work_Things/connor-r.github.io/csvs/boulders_yearlyBreakdown.csv"
     csv_file = open(csv_path, "wb")
     append_csv = csv.writer(csv_file)
-    csv_header = ["Year", "8a Top 10 Points", "Climbing Days", "Completed Problems", "Tried Problems", "Completed per Day", "Tried per Day", "Success Rate"]
+    csv_header = ["Row"
+        , "Year"
+        , "V Grade"
+        , "Days"
+        , "Sessions"
+        , "Distinct Boulders"
+        , "Completed"
+        , "Flashed"
+        , "Total Attempts"
+        , "Total Minutes"
+        , "Completion Rate"
+        , "Flash Rate"
+        , "Avg Attempts/Completion"
+        , "Avg Minutes/Completion"
+    ]
     append_csv.writerow(csv_header)
+
+    db.query("SET @ind := 0;")
     
-    qry = """SELECT 
-    year AS 'Year', pts AS '8a Top 10 Points', 
-    days AS 'Climbing Days', 
-    completed_cnt AS 'Completed Problems', 
-    tried_cnt AS 'Tried Problems', 
-    ROUND(completed_cnt/days, 1) AS 'Completed per Day',
-    ROUND(tried_cnt/days, 1) AS 'Tried per Day',
-    ROUND(completed_cnt/tried_cnt,3) AS 'Success Rate'
-    FROM(
-        SELECT 'All Time' AS 'Year', SUM(8a_pts) AS 'pts'
-        FROM(
-            SELECT *
-            FROM boulders_completed
-            ORDER BY 8a_pts DESC
-            LIMIT 10
-        ) a
+    qry = """SELECT @ind := @ind+1 AS row
+    , Year
+    , V_Grade
+    , Days
+    , Sessions
+    , Distinct_Boulders
+    , Completed
+    , Flashed
+    , Total_Attempts
+    , Total_Minutes
+    , ROUND(Completed/Sessions,3) AS Completion_Rate
+    , ROUND(Flashed/Distinct_Boulders,3) AS Flash_Rate
+    , ROUND(Completed_Attempts/Completed) AS Avg_Attempts_Per_Completion
+    , ROUND(Completed_Minutes/Completed) AS Avg_Minutes_Per_Completion
+    FROM(    
+        SELECT GROUP_CONCAT(DISTINCT YEAR(bp.session_date)) as year
+        , GROUP_CONCAT(DISTINCT bp.v_grade) AS V_Grade
+        , COUNT(DISTINCT bp.session_date) AS DAYS
+        , COUNT(*) AS SESSIONS
+        , COUNT(DISTINCT CONCAT(boulder_name, area, sub_area)) AS Distinct_Boulders
+        , COUNT(DISTINCT IF(completed='COMPLETED', CONCAT(boulder_name, area, sub_area), NULL)) AS COMPLETED
+        , COUNT(DISTINCT IF(flash='FLASH', CONCAT(boulder_name, area, sub_area), NULL)) AS FLASHED
+        , SUM(session_attempts) AS total_attempts
+        , SUM(session_minutes) AS total_minutes
+        , SUM(IF(completed='COMPLETED', total_attempts, 0)) AS completed_attempts
+        , SUM(IF(completed='COMPLETED', total_minutes, 0)) AS completed_minutes
+        
+        FROM boulder_problems bp
+        WHERE 1
+            AND bp.session_date > '0000-00-00'
+        GROUP BY bp.v_grade, YEAR(bp.session_date)
+        
         UNION ALL
-        SELECT 'Last Calendar Year' AS 'Year', SUM(8a_pts) AS 'pts'
-        FROM(
-            SELECT *
-            FROM boulders_completed
-            WHERE ascent_date > DATE_ADD(curdate(), INTERVAL -1 YEAR)
-            ORDER BY 8a_pts DESC
-            LIMIT 10
-        ) b
+        
+        SELECT GROUP_CONCAT(DISTINCT YEAR(bp.session_date)) as year
+        , 'All' AS V_Grade
+        , COUNT(DISTINCT bp.session_date) AS DAYS
+        , COUNT(*) AS SESSIONS
+        , COUNT(DISTINCT CONCAT(boulder_name, area, sub_area)) AS Distinct_Boulders
+        , COUNT(DISTINCT IF(completed='COMPLETED', CONCAT(boulder_name, area, sub_area), NULL)) AS COMPLETED
+        , COUNT(DISTINCT IF(flash='FLASH', CONCAT(boulder_name, area, sub_area), NULL)) AS FLASHED
+        , SUM(session_attempts) AS total_attempts
+        , SUM(session_minutes) AS total_minutes
+        , SUM(IF(completed='COMPLETED', total_attempts, 0)) AS completed_attempts
+        , SUM(IF(completed='COMPLETED', total_minutes, 0)) AS completed_minutes
+        FROM boulder_problems bp
+        WHERE 1
+            AND bp.session_date > '0000-00-00'
+        GROUP BY YEAR(bp.session_date)
+        
         UNION ALL
-        SELECT c_year AS 'Year', SUM(8a_pts) AS 'pts'
-        FROM(
-            SELECT YEAR(ascent_date) AS 'c_year', 8a_pts, @year, @auto,
-            IF(@year=(@year:=YEAR(ascent_date)), @auto:=@auto+1, @auto:=1) indx 
-            FROM boulders_completed, (SELECT @year:=0, @auto:=1) a
-            ORDER BY YEAR(ascent_date), 8a_pts DESC
-        ) c
-        WHERE indx <= 10
-        GROUP BY c_year DESC
-    ) pts
-    JOIN(
-        SELECT 
-        'All Time' AS 'Year', COUNT(DISTINCT est_date) AS days
-        FROM boulders_tried
-        WHERE YEAR (est_date) != 0
+        
+        SELECT 'All-Time' as year
+        , COALESCE(bp.v_grade, 'All') AS V_Grade
+        , COUNT(DISTINCT bp.session_date) AS DAYS
+        , COUNT(*) AS SESSIONS
+        , COUNT(DISTINCT CONCAT(boulder_name, area, sub_area)) AS Distinct_Boulders
+        , COUNT(DISTINCT IF(completed='COMPLETED', CONCAT(boulder_name, area, sub_area), NULL)) AS COMPLETED
+        , COUNT(DISTINCT IF(flash='FLASH', CONCAT(boulder_name, area, sub_area), NULL)) AS FLASHED
+        , SUM(session_attempts) AS total_attempts
+        , SUM(session_minutes) AS total_minutes
+        , SUM(IF(completed='COMPLETED', total_attempts, 0)) AS completed_attempts
+        , SUM(IF(completed='COMPLETED', total_minutes, 0)) AS completed_minutes
+        FROM boulder_problems bp
+        WHERE 1
+            AND bp.session_date > '0000-00-00'
+        GROUP BY bp.v_grade WITH ROLLUP
+        
         UNION ALL
-        SELECT 
-        'Last Calendar Year' AS 'Year', COUNT(DISTINCT est_date) AS days
-        FROM boulders_tried
-        WHERE YEAR (est_date) != 0
-        AND est_date > DATE_ADD(curdate(), INTERVAL -1 YEAR)
-        UNION ALL
-        SELECT 
-        YEAR(est_date) AS 'Year', COUNT(DISTINCT est_date) AS days
-        FROM boulders_tried
-        WHERE YEAR (est_date) != 0
-        GROUP BY YEAR(est_date)
-        ORDER BY YEAR DESC
-    ) days USING (YEAR)
-    JOIN(
-        SELECT 'All Time' AS 'Year', COUNT(*) AS completed_cnt
-        FROM boulders_completed
-        UNION ALL
-        SELECT 'Last Calendar Year' AS 'Year', COUNT(*) AS completed_cnt
-        FROM boulders_completed
-        WHERE ascent_date > DATE_ADD(curdate(), INTERVAL -1 YEAR)
-        UNION ALL
-        SELECT 
-        YEAR(ascent_date) AS 'Year', COUNT(*) AS completed_cnt
-        FROM boulders_completed
-        GROUP BY YEAR(ascent_date)
-        ORDER BY YEAR DESC
-    ) cnt USING (YEAR)
-    JOIN(
-        SELECT 'All Time' AS 'Year', COUNT(*) AS tried_cnt
-        FROM boulders_tried
-        UNION ALL
-        SELECT 'Last Calendar Year' AS 'Year', COUNT(*) AS tried_cnt
-        FROM boulders_tried
-        WHERE est_date > DATE_ADD(curdate(), INTERVAL -1 YEAR)
-        UNION ALL
-        SELECT 
-        YEAR(est_date) AS 'Year', COUNT(*) AS tried_cnt
-        FROM boulders_tried
-        GROUP BY YEAR(est_date)
-        ORDER BY YEAR DESC
-    ) tried USING (YEAR)
-    ORDER BY YEAR='All Time' DESC, YEAR='current' DESC, YEAR DESC;"""
+
+        SELECT 'Last 365' as year
+        , COALESCE(bp.v_grade, 'All') AS V_Grade
+        , COUNT(DISTINCT bp.session_date) AS DAYS
+        , COUNT(*) AS SESSIONS
+        , COUNT(DISTINCT CONCAT(boulder_name, area, sub_area)) AS Distinct_Boulders
+        , COUNT(DISTINCT IF(completed='COMPLETED', CONCAT(boulder_name, area, sub_area), NULL)) AS COMPLETED
+        , COUNT(DISTINCT IF(flash='FLASH', CONCAT(boulder_name, area, sub_area), NULL)) AS FLASHED
+        , SUM(session_attempts) AS total_attempts
+        , SUM(session_minutes) AS total_minutes
+        , SUM(IF(completed='COMPLETED', total_attempts, 0)) AS completed_attempts
+        , SUM(IF(completed='COMPLETED', total_minutes, 0)) AS completed_minutes
+        FROM boulder_problems bp
+        WHERE 1
+            AND bp.session_date > '0000-00-00'
+            AND bp.session_date > DATE_ADD(NOW(), INTERVAL -365 DAY)
+        GROUP BY bp.v_grade WITH ROLLUP
+    ) a
+    ORDER BY IF(year='all-time', 2, IF(year='Last 365', 1, 0)) DESC, CAST(year AS UNSIGNED) DESC, IF(V_Grade='all', 1, 0) DESC, CAST(V_Grade AS UNSIGNED) DESC
+    ;"""
 
     res = db.query(qry)
 
@@ -290,7 +334,7 @@ def process_breakdown():
         row = list(row)
         for i, val in enumerate(row):
             if type(val) in (str,unicode):
-                row[i] = '"' + "".join([l if ord(l) < 128 else "" for l in val]).replace("<o>","").replace("<P>","").replace("\n","<>line break<>")+ '"'
+                row[i] = '"' + "".join([l if ord(l) < 128 else "" for l in val]).replace("<o>","").replace("<P>","").replace("\n"," || ")+ '"'
         append_csv.writerow(row)
 
 
