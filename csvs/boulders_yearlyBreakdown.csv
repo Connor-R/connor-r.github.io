@@ -1,4 +1,4 @@
-Year,V Grade,Days,Sessions,Distinct Boulders,Completed,Flashed,Total Attempts,Total Minutes,Completion Rate,Flash Rate,Avg Attempts/Completion,Avg Minutes/Completion
+Row,Year,V Grade,Days,Sessions,Distinct Boulders,Completed,Flashed,Total Attempts,Total Minutes,Completion Rate,Flash Rate,Avg Attempts/Completion,Avg Minutes/Completion
 1,"""All-Time""","""All""",287,888,746,608,186,6101,26398,0.685,0.249,7,31
 2,"""All-Time""","""11.0""",6,6,4,0,0,62,260,0.000,0.000,,
 3,"""All-Time""","""10.0""",39,46,26,10,0,616,2581,0.217,0.000,34,141
