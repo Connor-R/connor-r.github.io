@@ -230,13 +230,14 @@ def process_breakdown():
         , "Total Attempts"
         , "Total Minutes"
         , "Completion Rate"
+        , "Success Rate"
         , "Flash Rate"
         , "Avg Attempts/Completion"
         , "Avg Minutes/Completion"
     ]
     append_csv.writerow(csv_header)
     
-    qry = """SELECT IF(Year='All-Time' AND V_Grade = 'All', @row := 1, @row := @row+1) AS `row`
+    qry = """SELECT CAST(IF(Year='All-Time' AND V_Grade = 'All', @row := 1, @row := @row+1) AS UNSIGNED) AS `row`
     , Year
     , IF(V_Grade='all'
         , V_Grade
@@ -329,7 +330,7 @@ def process_breakdown():
             AND bp.session_date > DATE_ADD(NOW(), INTERVAL -365 DAY)
         GROUP BY bp.v_grade WITH ROLLUP
     ) a
-    ORDER BY IF(year='all-time', 2, IF(year='Last 365', 1, 0)) DESC, CAST(year AS UNSIGNED) DESC, IF(V_Grade='all', 1, 0) DESC, CAST(V_Grade AS FLOAT) DESC
+    ORDER BY IF(year='all-time', 2, IF(year='Last 365', 1, 0)) DESC, CAST(year AS UNSIGNED) DESC, IF(V_Grade='all', 1, 0) DESC, V_Grade DESC
     ;"""
 
     res = db.query(qry)

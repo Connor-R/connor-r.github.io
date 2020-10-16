@@ -107,7 +107,7 @@ def initiate():
 
     print "\n"
 
-    raw_input(entry)
+    # raw_input(entry)
     db.insertRowDict(entry, 'boulder_problems', insertMany=False, replace=True, rid=0, debug=1)
     db.conn.commit()
 
@@ -145,8 +145,11 @@ def process_basic(i, entry):
         session_start = datetime.strptime(_time,'%H:%M').time()
         val = session_start
 
-    if cat == 'completed' and val.lower() == 'y':
-        val = 'COMPLETED'
+    if cat == 'completed':
+        if val.lower() == 'y':
+            val = 'COMPLETED'
+        else:
+            val = None
 
     return i, [cat], [val]
 
@@ -200,10 +203,16 @@ def process_incomplete(j, entry):
     except TypeError:
         pass
 
-    if (cat == 'return_interest' and (val > 5 or val < 1)):
-        val = cat
-    else:
+    try:
+        val = int(val)
+    except ValueError:
         print '\t\t\t~ERROR~ the answer %s is not a valid value for the field %s, please try again' % (val, cat)
+        return j-1, [None], [None]
+
+    if (cat == 'return_interest' and val < 5 and val > 1):
+        val = val
+    else:
+        print '\t\t\t~ERROR~ the answer %s, %s is not a valid value for the field %s, please try again' % (val, cat)
         return j-1, [None], [None]
 
     return j, [cat], [val]
