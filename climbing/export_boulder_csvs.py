@@ -235,12 +235,15 @@ def process_breakdown():
         , "Avg Minutes/Completion"
     ]
     append_csv.writerow(csv_header)
-
-    db.query("SET @ind := 0;")
     
-    qry = """SELECT @ind := @ind+1 AS row
+    qry = """SELECT IF(Year='All-Time' AND V_Grade = 'All', @row := 1, @row := @row+1) AS `row`
     , Year
-    , V_Grade
+    , IF(V_Grade='all'
+        , V_Grade
+        , IF(RIGHT(V_Grade,1)=0
+            , CONCAT('V',ROUND(V_GRADE))
+            , CONCAT('V',FLOOR(V_Grade),'/',CEILING(V_Grade)))
+    ) AS v_grade
     , Days
     , Sessions
     , Distinct_Boulders
@@ -248,7 +251,8 @@ def process_breakdown():
     , Flashed
     , Total_Attempts
     , Total_Minutes
-    , ROUND(Completed/Sessions,3) AS Completion_Rate
+    , ROUND(Completed/Distinct_Boulders,3) AS Completion_Rate
+    , ROUND(Completed/Sessions,3) AS Success_Rate
     , ROUND(Flashed/Distinct_Boulders,3) AS Flash_Rate
     , ROUND(Completed_Attempts/Completed) AS Avg_Attempts_Per_Completion
     , ROUND(Completed_Minutes/Completed) AS Avg_Minutes_Per_Completion
@@ -325,7 +329,7 @@ def process_breakdown():
             AND bp.session_date > DATE_ADD(NOW(), INTERVAL -365 DAY)
         GROUP BY bp.v_grade WITH ROLLUP
     ) a
-    ORDER BY IF(year='all-time', 2, IF(year='Last 365', 1, 0)) DESC, CAST(year AS UNSIGNED) DESC, IF(V_Grade='all', 1, 0) DESC, CAST(V_Grade AS UNSIGNED) DESC
+    ORDER BY IF(year='all-time', 2, IF(year='Last 365', 1, 0)) DESC, CAST(year AS UNSIGNED) DESC, IF(V_Grade='all', 1, 0) DESC, CAST(V_Grade AS FLOAT) DESC
     ;"""
 
     res = db.query(qry)
