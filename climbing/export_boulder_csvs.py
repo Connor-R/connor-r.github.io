@@ -330,7 +330,7 @@ def process_breakdown():
             AND bp.session_date > DATE_ADD(NOW(), INTERVAL -365 DAY)
         GROUP BY bp.v_grade WITH ROLLUP
     ) a
-    ORDER BY IF(year='all-time', 2, IF(year='Last 365', 1, 0)) DESC, CAST(year AS UNSIGNED) DESC, IF(V_Grade='all', 1, 0) DESC, V_Grade DESC
+    ORDER BY IF(year='all-time', 2, IF(year='Last 365', 1, 0)) DESC, CAST(year AS UNSIGNED) DESC, IF(V_Grade='all', 1, 0) DESC, CAST(V_Grade AS DECIMAL) DESC
     ;"""
 
     res = db.query(qry)
