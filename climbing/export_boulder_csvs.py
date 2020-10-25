@@ -234,6 +234,23 @@ def process_breakdown():
         , "Flash Rate"
         , "Avg Attempts/Completion"
         , "Avg Minutes/Completion"
+        , "Bounty Extra Soft"
+        , "Soft"
+        , "Hard"
+        , "FA"
+        , "ATHLETIC"
+        , "CRUXY"
+        , "SLOPEY"
+        , "CRIMPY"
+        , "SHARP"
+        , "TECHNICAL"
+        , "POWER"
+        , "ENDURANCE"
+        , "OVERHANG"
+        , "VERTICAL"
+        , "SLAB"
+        , "ROOF"
+        , "SCARY"
     ]
     append_csv.writerow(csv_header)
     
@@ -257,6 +274,23 @@ def process_breakdown():
     , ROUND(Flashed/Distinct_Boulders,3) AS Flash_Rate
     , ROUND(Completed_Attempts/Completed) AS Avg_Attempts_Per_Completion
     , ROUND(Completed_Minutes/Completed) AS Avg_Minutes_Per_Completion
+    , BOUNTY AS BOUNTY_EXTRA_SOFT
+    , SOFT
+    , HARD
+    , FA
+    , ATHLETIC
+    , CRUXY
+    , SLOPEY
+    , CRIMPY
+    , SHARP
+    , TECHNICAL
+    , POWER
+    , ENDURANCE
+    , OVERHANG
+    , VERTICAL
+    , SLAB
+    , ROOF
+    , SCARY 
     FROM(    
         SELECT GROUP_CONCAT(DISTINCT YEAR(bp.session_date)) as year
         , GROUP_CONCAT(DISTINCT bp.v_grade) AS V_Grade
@@ -269,6 +303,23 @@ def process_breakdown():
         , SUM(session_minutes) AS total_minutes
         , SUM(IF(completed='COMPLETED', total_attempts, 0)) AS completed_attempts
         , SUM(IF(completed='COMPLETED', total_minutes, 0)) AS completed_minutes
+        , COUNT(DISTINCT IF(completed='COMPLETED' AND soft_hard = 'BOUNTY EXTRA SOFT', CONCAT(boulder_name, area, sub_area), NULL)) AS BOUNTY
+        , COUNT(DISTINCT IF(completed='COMPLETED' AND soft_hard = 'SOFT', CONCAT(boulder_name, area, sub_area), NULL)) AS SOFT
+        , COUNT(DISTINCT IF(completed='COMPLETED' AND soft_hard = 'HARD', CONCAT(boulder_name, area, sub_area), NULL)) AS HARD
+        , COUNT(DISTINCT IF(completed='COMPLETED' AND fa = 'FA', CONCAT(boulder_name, area, sub_area), NULL)) AS FA
+        , COUNT(DISTINCT IF(completed='COMPLETED' AND athletic = 'ATHLETIC', CONCAT(boulder_name, area, sub_area), NULL)) AS ATHLETIC
+        , COUNT(DISTINCT IF(completed='COMPLETED' AND cruxy = 'CRUXY', CONCAT(boulder_name, area, sub_area), NULL)) AS CRUXY
+        , COUNT(DISTINCT IF(completed='COMPLETED' AND slopey = 'SLOPEY', CONCAT(boulder_name, area, sub_area), NULL)) AS SLOPEY
+        , COUNT(DISTINCT IF(completed='COMPLETED' AND crimpy = 'CRIMPY', CONCAT(boulder_name, area, sub_area), NULL)) AS CRIMPY
+        , COUNT(DISTINCT IF(completed='COMPLETED' AND sharp = 'SHARP', CONCAT(boulder_name, area, sub_area), NULL)) AS SHARP
+        , COUNT(DISTINCT IF(completed='COMPLETED' AND technical = 'TECHNICAL', CONCAT(boulder_name, area, sub_area), NULL)) AS TECHNICAL
+        , COUNT(DISTINCT IF(completed='COMPLETED' AND power = 'POWER', CONCAT(boulder_name, area, sub_area), NULL)) AS POWER
+        , COUNT(DISTINCT IF(completed='COMPLETED' AND endurance = 'ENDURANCE', CONCAT(boulder_name, area, sub_area), NULL)) AS ENDURANCE
+        , COUNT(DISTINCT IF(completed='COMPLETED' AND overhang = 'OVERHANG', CONCAT(boulder_name, area, sub_area), NULL)) AS OVERHANG
+        , COUNT(DISTINCT IF(completed='COMPLETED' AND vertical = 'VERTICAL', CONCAT(boulder_name, area, sub_area), NULL)) AS VERTICAL
+        , COUNT(DISTINCT IF(completed='COMPLETED' AND slab = 'SLAB', CONCAT(boulder_name, area, sub_area), NULL)) AS SLAB
+        , COUNT(DISTINCT IF(completed='COMPLETED' AND roof = 'ROOF', CONCAT(boulder_name, area, sub_area), NULL)) AS ROOF
+        , COUNT(DISTINCT IF(completed='COMPLETED' AND scary = 'SCARY', CONCAT(boulder_name, area, sub_area), NULL)) AS SCARY
         
         FROM boulder_problems bp
         WHERE 1
@@ -288,6 +339,23 @@ def process_breakdown():
         , SUM(session_minutes) AS total_minutes
         , SUM(IF(completed='COMPLETED', total_attempts, 0)) AS completed_attempts
         , SUM(IF(completed='COMPLETED', total_minutes, 0)) AS completed_minutes
+        , COUNT(DISTINCT IF(completed='COMPLETED' AND soft_hard = 'BOUNTY EXTRA SOFT', CONCAT(boulder_name, area, sub_area), NULL)) AS BOUNTY
+        , COUNT(DISTINCT IF(completed='COMPLETED' AND soft_hard = 'SOFT', CONCAT(boulder_name, area, sub_area), NULL)) AS SOFT
+        , COUNT(DISTINCT IF(completed='COMPLETED' AND soft_hard = 'HARD', CONCAT(boulder_name, area, sub_area), NULL)) AS HARD
+        , COUNT(DISTINCT IF(completed='COMPLETED' AND fa = 'FA', CONCAT(boulder_name, area, sub_area), NULL)) AS FA
+        , COUNT(DISTINCT IF(completed='COMPLETED' AND athletic = 'ATHLETIC', CONCAT(boulder_name, area, sub_area), NULL)) AS ATHLETIC
+        , COUNT(DISTINCT IF(completed='COMPLETED' AND cruxy = 'CRUXY', CONCAT(boulder_name, area, sub_area), NULL)) AS CRUXY
+        , COUNT(DISTINCT IF(completed='COMPLETED' AND slopey = 'SLOPEY', CONCAT(boulder_name, area, sub_area), NULL)) AS SLOPEY
+        , COUNT(DISTINCT IF(completed='COMPLETED' AND crimpy = 'CRIMPY', CONCAT(boulder_name, area, sub_area), NULL)) AS CRIMPY
+        , COUNT(DISTINCT IF(completed='COMPLETED' AND sharp = 'SHARP', CONCAT(boulder_name, area, sub_area), NULL)) AS SHARP
+        , COUNT(DISTINCT IF(completed='COMPLETED' AND technical = 'TECHNICAL', CONCAT(boulder_name, area, sub_area), NULL)) AS TECHNICAL
+        , COUNT(DISTINCT IF(completed='COMPLETED' AND power = 'POWER', CONCAT(boulder_name, area, sub_area), NULL)) AS POWER
+        , COUNT(DISTINCT IF(completed='COMPLETED' AND endurance = 'ENDURANCE', CONCAT(boulder_name, area, sub_area), NULL)) AS ENDURANCE
+        , COUNT(DISTINCT IF(completed='COMPLETED' AND overhang = 'OVERHANG', CONCAT(boulder_name, area, sub_area), NULL)) AS OVERHANG
+        , COUNT(DISTINCT IF(completed='COMPLETED' AND vertical = 'VERTICAL', CONCAT(boulder_name, area, sub_area), NULL)) AS VERTICAL
+        , COUNT(DISTINCT IF(completed='COMPLETED' AND slab = 'SLAB', CONCAT(boulder_name, area, sub_area), NULL)) AS SLAB
+        , COUNT(DISTINCT IF(completed='COMPLETED' AND roof = 'ROOF', CONCAT(boulder_name, area, sub_area), NULL)) AS ROOF
+        , COUNT(DISTINCT IF(completed='COMPLETED' AND scary = 'SCARY', CONCAT(boulder_name, area, sub_area), NULL)) AS SCARY
         FROM boulder_problems bp
         WHERE 1
             AND bp.session_date > '0000-00-00'
@@ -306,6 +374,23 @@ def process_breakdown():
         , SUM(session_minutes) AS total_minutes
         , SUM(IF(completed='COMPLETED', total_attempts, 0)) AS completed_attempts
         , SUM(IF(completed='COMPLETED', total_minutes, 0)) AS completed_minutes
+        , COUNT(DISTINCT IF(completed='COMPLETED' AND soft_hard = 'BOUNTY EXTRA SOFT', CONCAT(boulder_name, area, sub_area), NULL)) AS BOUNTY
+        , COUNT(DISTINCT IF(completed='COMPLETED' AND soft_hard = 'SOFT', CONCAT(boulder_name, area, sub_area), NULL)) AS SOFT
+        , COUNT(DISTINCT IF(completed='COMPLETED' AND soft_hard = 'HARD', CONCAT(boulder_name, area, sub_area), NULL)) AS HARD
+        , COUNT(DISTINCT IF(completed='COMPLETED' AND fa = 'FA', CONCAT(boulder_name, area, sub_area), NULL)) AS FA
+        , COUNT(DISTINCT IF(completed='COMPLETED' AND athletic = 'ATHLETIC', CONCAT(boulder_name, area, sub_area), NULL)) AS ATHLETIC
+        , COUNT(DISTINCT IF(completed='COMPLETED' AND cruxy = 'CRUXY', CONCAT(boulder_name, area, sub_area), NULL)) AS CRUXY
+        , COUNT(DISTINCT IF(completed='COMPLETED' AND slopey = 'SLOPEY', CONCAT(boulder_name, area, sub_area), NULL)) AS SLOPEY
+        , COUNT(DISTINCT IF(completed='COMPLETED' AND crimpy = 'CRIMPY', CONCAT(boulder_name, area, sub_area), NULL)) AS CRIMPY
+        , COUNT(DISTINCT IF(completed='COMPLETED' AND sharp = 'SHARP', CONCAT(boulder_name, area, sub_area), NULL)) AS SHARP
+        , COUNT(DISTINCT IF(completed='COMPLETED' AND technical = 'TECHNICAL', CONCAT(boulder_name, area, sub_area), NULL)) AS TECHNICAL
+        , COUNT(DISTINCT IF(completed='COMPLETED' AND power = 'POWER', CONCAT(boulder_name, area, sub_area), NULL)) AS POWER
+        , COUNT(DISTINCT IF(completed='COMPLETED' AND endurance = 'ENDURANCE', CONCAT(boulder_name, area, sub_area), NULL)) AS ENDURANCE
+        , COUNT(DISTINCT IF(completed='COMPLETED' AND overhang = 'OVERHANG', CONCAT(boulder_name, area, sub_area), NULL)) AS OVERHANG
+        , COUNT(DISTINCT IF(completed='COMPLETED' AND vertical = 'VERTICAL', CONCAT(boulder_name, area, sub_area), NULL)) AS VERTICAL
+        , COUNT(DISTINCT IF(completed='COMPLETED' AND slab = 'SLAB', CONCAT(boulder_name, area, sub_area), NULL)) AS SLAB
+        , COUNT(DISTINCT IF(completed='COMPLETED' AND roof = 'ROOF', CONCAT(boulder_name, area, sub_area), NULL)) AS ROOF
+        , COUNT(DISTINCT IF(completed='COMPLETED' AND scary = 'SCARY', CONCAT(boulder_name, area, sub_area), NULL)) AS SCARY
         FROM boulder_problems bp
         WHERE 1
             AND bp.session_date > '0000-00-00'
@@ -324,6 +409,23 @@ def process_breakdown():
         , SUM(session_minutes) AS total_minutes
         , SUM(IF(completed='COMPLETED', total_attempts, 0)) AS completed_attempts
         , SUM(IF(completed='COMPLETED', total_minutes, 0)) AS completed_minutes
+        , COUNT(DISTINCT IF(completed='COMPLETED' AND soft_hard = 'BOUNTY EXTRA SOFT', CONCAT(boulder_name, area, sub_area), NULL)) AS BOUNTY
+        , COUNT(DISTINCT IF(completed='COMPLETED' AND soft_hard = 'SOFT', CONCAT(boulder_name, area, sub_area), NULL)) AS SOFT
+        , COUNT(DISTINCT IF(completed='COMPLETED' AND soft_hard = 'HARD', CONCAT(boulder_name, area, sub_area), NULL)) AS HARD
+        , COUNT(DISTINCT IF(completed='COMPLETED' AND fa = 'FA', CONCAT(boulder_name, area, sub_area), NULL)) AS FA
+        , COUNT(DISTINCT IF(completed='COMPLETED' AND athletic = 'ATHLETIC', CONCAT(boulder_name, area, sub_area), NULL)) AS ATHLETIC
+        , COUNT(DISTINCT IF(completed='COMPLETED' AND cruxy = 'CRUXY', CONCAT(boulder_name, area, sub_area), NULL)) AS CRUXY
+        , COUNT(DISTINCT IF(completed='COMPLETED' AND slopey = 'SLOPEY', CONCAT(boulder_name, area, sub_area), NULL)) AS SLOPEY
+        , COUNT(DISTINCT IF(completed='COMPLETED' AND crimpy = 'CRIMPY', CONCAT(boulder_name, area, sub_area), NULL)) AS CRIMPY
+        , COUNT(DISTINCT IF(completed='COMPLETED' AND sharp = 'SHARP', CONCAT(boulder_name, area, sub_area), NULL)) AS SHARP
+        , COUNT(DISTINCT IF(completed='COMPLETED' AND technical = 'TECHNICAL', CONCAT(boulder_name, area, sub_area), NULL)) AS TECHNICAL
+        , COUNT(DISTINCT IF(completed='COMPLETED' AND power = 'POWER', CONCAT(boulder_name, area, sub_area), NULL)) AS POWER
+        , COUNT(DISTINCT IF(completed='COMPLETED' AND endurance = 'ENDURANCE', CONCAT(boulder_name, area, sub_area), NULL)) AS ENDURANCE
+        , COUNT(DISTINCT IF(completed='COMPLETED' AND overhang = 'OVERHANG', CONCAT(boulder_name, area, sub_area), NULL)) AS OVERHANG
+        , COUNT(DISTINCT IF(completed='COMPLETED' AND vertical = 'VERTICAL', CONCAT(boulder_name, area, sub_area), NULL)) AS VERTICAL
+        , COUNT(DISTINCT IF(completed='COMPLETED' AND slab = 'SLAB', CONCAT(boulder_name, area, sub_area), NULL)) AS SLAB
+        , COUNT(DISTINCT IF(completed='COMPLETED' AND roof = 'ROOF', CONCAT(boulder_name, area, sub_area), NULL)) AS ROOF
+        , COUNT(DISTINCT IF(completed='COMPLETED' AND scary = 'SCARY', CONCAT(boulder_name, area, sub_area), NULL)) AS SCARY
         FROM boulder_problems bp
         WHERE 1
             AND bp.session_date > '0000-00-00'
