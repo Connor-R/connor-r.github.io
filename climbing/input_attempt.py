@@ -114,8 +114,53 @@ def initiate():
 def process_basic(i, entry):
     cat, prompt = prompt_dict.get(i)
     last_val = entry.get(cat)
+    last_str = last_val
 
-    user_prompt = "%s %s (last: %s): " % (i, prompt, last_val)
+    if cat == 'sub_area':
+        sub_areas = {}
+
+        sa_qry = """SELECT bp.sub_area
+        FROM boulder_problems bp
+        WHERE bp.area = '%s'
+        GROUP BY bp.sub_area
+        ORDER BY SUM(IF(bp.completed='COMPLETED',1,0)) DESC, COUNT(*) DESC
+        ;""" % (entry.get('area'))
+
+        area_lists = db.query(sa_qry)
+        if area_lists != ():
+            last_str = ''
+            # raw_input(area_lists)
+            for j, sa in enumerate(area_lists):
+                sub_areas[j] = sa[0]
+                # raw_input(sub_areas)
+            for k, v in sub_areas.items():
+                last_str += '\n\t' + str(k) + ' ' + str(v)
+            last_str += '\nCorresponding sub area #: '
+        else:
+            last_str = '(new area!): '
+    elif cat == 'comment':
+        last_str = ':'
+    elif cat == 'v_grade':
+
+        v_qry = """SELECT DISTINCT bp.v_grade
+        FROM boulder_problems bp
+        WHERE 1
+            AND bp.boulder_name = '%s'
+            AND bp.area = '%s'
+            AND bp.sub_area = '%s'
+        ;""" % (entry.get('boulder_name'), entry.get('area'), entry.get('sub_area'))
+
+        prev_v = db.query(v_qry)
+
+        if prev_v != () and len(prev_v) == 1:
+            last_val = prev_v[0][0]
+            last_str = ' (has been recorded as %s previously): ' % (last_val)
+        else:
+            last_str = ' (last: ' + str(last_str) + '): '
+    else:
+        last_str = ' (last: ' + str(last_str) + '): '
+
+    user_prompt = "%s %s%s" % (i, prompt, last_str)
 
     val = raw_input(user_prompt)
 
@@ -131,6 +176,9 @@ def process_basic(i, entry):
         return i, [cat], [last_val]
     except TypeError:
         pass
+
+    if cat == 'sub_area' and val.isdigit() and int(val) in sub_areas:
+        val = sub_areas.get(int(val))
 
     if cat == 'session_date' and val != '':
         cur_date = date.today()
