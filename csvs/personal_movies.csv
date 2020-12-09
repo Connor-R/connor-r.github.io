@@ -124,6 +124,9 @@ name,year,est_year_watched,genre,sub_genre,movie_length,peak,consistency,premise
 """ESPN 30 For 30 ESPN Films Presents Season 1 Episode 8: Roll Tide/War Eagle""",2011,2013,"""documentary""","""sports""",90,60,40,50,50,60,50,50,50,40,,50.0
 """ESPN 30 For 30 ESPN Films Presents Season 1 Episode 9: The Marinovich Project""",2011,2015,"""documentary""","""sports""",90,70,70,70,60,60,70,40,50,60,,63.7
 """ESPN 30 For 30 ESPN Films Presents Season 2 Episode 1: The Little Master""",2015,2020,"""documentary""","""sports""",50,70,60,70,60,65,60,40,50,65,,62.2
+"""ESPN 30 For 30 ESPN Films Presents Season 2 Episode 4: Baltimore Boys""",2017,2020,"""documentary""","""sports""",77,60,60,60,60,60,60,40,40,60,,57.6
+"""ESPN 30 For 30 ESPN Films Presents Season 2 Episode 5: Morningside 5""",2017,2020,"""documentary""","""sports""",74,60,45,50,50,60,50,40,40,50,,51.0
+"""ESPN 30 For 30 ESPN Films Presents Season 2 Episode 6: World Beaters""",2017,2020,"""documentary""","""sports""",50,50,40,40,40,50,45,40,50,50,,45.5
 """ESPN 30 For 30 ESPN Films Presents Special: Boys of Fall""",2010,2018,"""documentary""","""sports""",50,40,40,40,40,30,40,30,40,30,,36.8
 """ESPN 30 For 30 ESPN Films Presents Special: The Book of Manning""",2013,2020,"""documentary""","""sports""",75,50,40,60,40,55,40,30,40,55,,46.8
 """ESPN 30 For 30 Season 1 Episode 10: No Crossover: The Trial of Allen Iverson""",2010,2013,"""documentary""","""sports""",80,50,50,50,40,40,50,40,40,40,,45.6
@@ -366,6 +369,7 @@ name,year,est_year_watched,genre,sub_genre,movie_length,peak,consistency,premise
 """Pitch Perfect""",2012,2012,"""music""","""comedy""",112,40,60,40,50,40,60,60,50,50,,49.5
 """Pocahontas""",1995,2012,"""animated""","""adventure""",81,30,40,40,50,50,30,30,50,40,,38.3
 """Point Break""",1991,2014,"""action""","""""",122,60,40,40,50,40,60,50,40,60,,50.7
+"""Police Academy""",1984,2020,"""comedy""","""""",96,50,50,50,50,30,60,60,55,45,,49.5
 """Pootie Tang""",2001,2007,"""comedy""","""""",81,80,40,50,50,40,70,70,70,70,,61.2
 """Popstar-Never Stop Never Stopping""",2016,2017,"""comedy""","""""",87,50,50,40,40,40,60,60,50,50,,49.3
 """Puddle Cruiser""",1996,2012,"""comedy""","""""",102,70,70,80,60,50,80,80,60,70,,69.8
@@ -500,6 +504,7 @@ name,year,est_year_watched,genre,sub_genre,movie_length,peak,consistency,premise
 """The Matrix(1)""",1999,2001,"""action""","""sci-fi""",136,75,70,75,60,60,70,50,50,80,,68.8
 """The Matrix(2) Reloaded""",2003,2006,"""action""","""sci-fi""",138,60,50,55,50,50,60,50,40,50,,53.2
 """The Matrix(3) Revolutions""",2003,2008,"""action""","""sci-fi""",129,55,50,55,50,50,55,50,40,50,,51.6
+"""The Naked Gun: From the Files of Police Squad""",1988,2020,"""comedy""","""""",85,60,60,60,50,30,65,65,60,55,,56.6
 """The Nice Guys""",2016,2016,"""comedy""","""action""",116,70,30,50,40,40,60,60,50,50,,51.2
 """The Notebook""",2004,2012,"""romantic comedy""","""""",123,30,50,40,30,40,30,30,30,40,,36.3
 """The Other Guys""",2010,2014,"""comedy""","""action""",107,60,50,40,40,40,60,55,45,50,,50.6
