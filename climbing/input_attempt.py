@@ -139,7 +139,7 @@ def process_basic(i, entry):
         else:
             last_str = '(new area!): '
     elif cat == 'comment':
-        last_str = ':'
+        last_str = ': '
     elif cat == 'v_grade':
 
         v_qry = """SELECT DISTINCT bp.v_grade
