@@ -257,10 +257,10 @@ def process_incomplete(j, entry):
         print '\t\t\t~ERROR~ the answer %s is not a valid value for the field %s, please try again' % (val, cat)
         return j-1, [None], [None]
 
-    if (cat == 'return_interest' and val < 5 and val > 1):
+    if (cat == 'return_interest' and val <= 5 and val >= 1):
         val = val
     else:
-        print '\t\t\t~ERROR~ the answer %s, %s is not a valid value for the field %s, please try again' % (val, cat)
+        print '\t\t\t~ERROR~ the answer %s is not a valid value for the field %s, please try again' % (val, cat)
         return j-1, [None], [None]
 
     return j, [cat], [val]
