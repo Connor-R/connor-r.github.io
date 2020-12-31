@@ -155,20 +155,21 @@
 \contentsline {subsubsection}{\numberline {4.1.3}Fantasy Football - 2017/18 [SV Ballers]}{A2}{subsubsection.4.1.3}% 
 \contentsline {subsubsection}{\numberline {4.1.4}Fantasy Football - 2018/19 [SV Ballers]}{A2}{subsubsection.4.1.4}% 
 \contentsline {subsubsection}{\numberline {4.1.5}Fantasy Football - 2019/20 [SV Ballers]}{A3}{subsubsection.4.1.5}% 
-\contentsline {subsubsection}{\numberline {4.1.6}Fantasy Baseball - 2016 [Wish It Was Football Season]}{A4}{subsubsection.4.1.6}% 
-\contentsline {subsubsection}{\numberline {4.1.7}Fantasy Baseball - 2017 [Wish It Was Football Season]}{A4}{subsubsection.4.1.7}% 
-\contentsline {subsubsection}{\numberline {4.1.8}Fantasy Baseball - 2018 [Wish It Was Football Season]}{A5}{subsubsection.4.1.8}% 
-\contentsline {subsubsection}{\numberline {4.1.9}Fantasy Baseball - 2019 [Wish It Was Football Season]}{A5}{subsubsection.4.1.9}% 
-\contentsline {subsubsection}{\numberline {4.1.10}Fantasy Baseball - 2020 [The \#1 Fantasy Game, 100\% Free]}{A6}{subsubsection.4.1.10}% 
-\contentsline {subsubsection}{\numberline {4.1.11}March Madness Bracket - 2016 [SV Ballaz get March Cray]}{A7}{subsubsection.4.1.11}% 
-\contentsline {subsubsection}{\numberline {4.1.12}March Madness Bracket - 2017 [SV Ballaz get March Loco]}{A7}{subsubsection.4.1.12}% 
-\contentsline {subsubsection}{\numberline {4.1.13}March Madness Bracket - 2018 [SV Ballaz get March Loco]}{A7}{subsubsection.4.1.13}% 
-\contentsline {subsubsection}{\numberline {4.1.14}March Madness Bracket - 2019 [SVB Springtime Sanitarium]}{A8}{subsubsection.4.1.14}% 
-\contentsline {subsubsection}{\numberline {4.1.15}Fantasy Hockey - 2016/17 [The League Matt Abraham Will Win]}{A9}{subsubsection.4.1.15}% 
-\contentsline {subsubsection}{\numberline {4.1.16}Fantasy Hockey - 2017/18 [fucking FANTASY fucking HOCKEY]}{A9}{subsubsection.4.1.16}% 
-\contentsline {subsubsection}{\numberline {4.1.17}Fantasy Hockey - 2018/19 [fucking FANTASY fucking HOCKEY]}{A10}{subsubsection.4.1.17}% 
-\contentsline {subsubsection}{\numberline {4.1.18}Fantasy Hockey - 2019/20 [fucking FANTASY fucking HOCKEY]}{A10}{subsubsection.4.1.18}% 
-\contentsline {subsubsection}{\numberline {4.1.19}Fantasy Basketball - 2016/17 [Another Fantasy League!! WOOO!!]}{A11}{subsubsection.4.1.19}% 
-\contentsline {subsubsection}{\numberline {4.1.20}Fantasy Basketball - 2017/18 [fantasy FUCKING basketball]}{A11}{subsubsection.4.1.20}% 
-\contentsline {subsubsection}{\numberline {4.1.21}Fantasy Basketball - 2018/19 [fantasy FUCKING basketball]}{A12}{subsubsection.4.1.21}% 
-\contentsline {subsubsection}{\numberline {4.1.22}Fantasy Basketball - 2019/20 [fantasy FUCKING basketball]}{A12}{subsubsection.4.1.22}% 
+\contentsline {subsubsection}{\numberline {4.1.6}Fantasy Football - 2020/21 [SV Ballers]}{A3}{subsubsection.4.1.6}% 
+\contentsline {subsubsection}{\numberline {4.1.7}Fantasy Baseball - 2016 [Wish It Was Football Season]}{A4}{subsubsection.4.1.7}% 
+\contentsline {subsubsection}{\numberline {4.1.8}Fantasy Baseball - 2017 [Wish It Was Football Season]}{A4}{subsubsection.4.1.8}% 
+\contentsline {subsubsection}{\numberline {4.1.9}Fantasy Baseball - 2018 [Wish It Was Football Season]}{A5}{subsubsection.4.1.9}% 
+\contentsline {subsubsection}{\numberline {4.1.10}Fantasy Baseball - 2019 [Wish It Was Football Season]}{A5}{subsubsection.4.1.10}% 
+\contentsline {subsubsection}{\numberline {4.1.11}Fantasy Baseball - 2020 [The \#1 Fantasy Game, 100\% Free]}{A6}{subsubsection.4.1.11}% 
+\contentsline {subsubsection}{\numberline {4.1.12}March Madness Bracket - 2016 [SV Ballaz get March Cray]}{A7}{subsubsection.4.1.12}% 
+\contentsline {subsubsection}{\numberline {4.1.13}March Madness Bracket - 2017 [SV Ballaz get March Loco]}{A7}{subsubsection.4.1.13}% 
+\contentsline {subsubsection}{\numberline {4.1.14}March Madness Bracket - 2018 [SV Ballaz get March Loco]}{A7}{subsubsection.4.1.14}% 
+\contentsline {subsubsection}{\numberline {4.1.15}March Madness Bracket - 2019 [SVB Springtime Sanitarium]}{A8}{subsubsection.4.1.15}% 
+\contentsline {subsubsection}{\numberline {4.1.16}Fantasy Hockey - 2016/17 [The League Matt Abraham Will Win]}{A9}{subsubsection.4.1.16}% 
+\contentsline {subsubsection}{\numberline {4.1.17}Fantasy Hockey - 2017/18 [fucking FANTASY fucking HOCKEY]}{A9}{subsubsection.4.1.17}% 
+\contentsline {subsubsection}{\numberline {4.1.18}Fantasy Hockey - 2018/19 [fucking FANTASY fucking HOCKEY]}{A10}{subsubsection.4.1.18}% 
+\contentsline {subsubsection}{\numberline {4.1.19}Fantasy Hockey - 2019/20 [fucking FANTASY fucking HOCKEY]}{A10}{subsubsection.4.1.19}% 
+\contentsline {subsubsection}{\numberline {4.1.20}Fantasy Basketball - 2016/17 [Another Fantasy League!! WOOO!!]}{A11}{subsubsection.4.1.20}% 
+\contentsline {subsubsection}{\numberline {4.1.21}Fantasy Basketball - 2017/18 [fantasy FUCKING basketball]}{A11}{subsubsection.4.1.21}% 
+\contentsline {subsubsection}{\numberline {4.1.22}Fantasy Basketball - 2018/19 [fantasy FUCKING basketball]}{A12}{subsubsection.4.1.22}% 
+\contentsline {subsubsection}{\numberline {4.1.23}Fantasy Basketball - 2019/20 [fantasy FUCKING basketball]}{A12}{subsubsection.4.1.23}% 
