@@ -11,7 +11,7 @@ name,genre,peak,consistency,premise,plot,information_gain,desired_effects,wit,le
 """Data Skeptic""","""Data Science""",60,25,60,,75,60,20,60,60,,52.9
 """Defensive Indifference: A 2080 Baseball Podcast""","""Sports(Baseball)""",55,25,50,,50,30,20,30,40,,39.5
 """Dray Day""","""Sports(Basketball)""",50,60,50,,40,60,50,60,40,,50.8
-"""Driveline Baseball Podcast""","""Sports(Baseball)""",75,60,75,,75,70,30,50,70,,66.3
+"""Driveline Baseball Podcast""","""Sports(Baseball)""",65,40,60,,75,50,30,40,50,,53.2
 """Dunc'd On Basketball NBA Podcast""","""Sports(Basketball)""",65,45,60,,65,65,30,50,40,,53.8
 """Effectively Wild: A FanGraphs Baseball Podcast""","""Sports(Baseball)""",70,40,60,,50,50,50,40,40,,51.6
 """Elite Baseball Development Podcast""","""Sports(Baseball)""",60,40,60,,65,55,30,50,65,,54.6
@@ -24,7 +24,7 @@ name,genre,peak,consistency,premise,plot,information_gain,desired_effects,wit,le
 """Great Teen Podcast""","""Comedy""",65,50,60,,50,65,65,30,40,,54.7
 """Hockey Graphs Podcast""","""Sports(Hockey)""",50,35,60,,60,50,20,50,50,,47.4
 """Hockey PDOcast""","""Sports(Hockey)""",65,65,70,,65,65,45,65,50,,61.6
-"""Hollinger & Duncan NBA Show""","""Sports(Basketball)""",40,35,50,,45,40,30,40,30,,38.4
+"""Hollinger & Duncan NBA Show""","""Sports(Basketball)""",50,50,50,,45,40,30,40,30,,42.9
 """Home Court Vantage Podcast""","""Sports(Basketball)""",50,50,70,,70,70,30,60,55,,56.6
 """How's Work? With Esther Perel""","""Economics/Psychology""",50,70,70,,70,60,40,50,70,,61.1
 """IEEE Software's \On Computing""with Grady Booch""""""""","""Data Science""",40,40,40,,60,50,20,50,50,,43.9
