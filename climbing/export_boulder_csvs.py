@@ -94,7 +94,7 @@ def process_completed():
     JOIN boulder_grades bg ON (bp.v_grade = bg.hueco AND bg.8a_points>=250)
     WHERE 1
         AND completed = 'COMPLETED'
-    ORDER BY days_since DESC, session_start DESC
+    ORDER BY days_since, session_start
     ;"""
 
     res = db.query(qry)
@@ -149,7 +149,7 @@ def process_tried():
     WHERE 1
         AND bp.completed IS NULL
         AND bp.session_date > '0000-00-00'
-    ORDER BY days_since ASC, session_start DESC
+    ORDER BY days_since, session_start
     ;"""
 
     res = db.query(qry)
@@ -432,7 +432,7 @@ def process_breakdown():
             AND bp.session_date > DATE_ADD(NOW(), INTERVAL -365 DAY)
         GROUP BY bp.v_grade WITH ROLLUP
     ) a
-    ORDER BY IF(year='all-time', 2, IF(year='Last 365', 1, 0)) DESC, CAST(year AS UNSIGNED) DESC, IF(V_Grade='all', 1, 0) DESC, CAST(V_Grade AS DECIMAL) DESC
+    ORDER BY IF(year='all-time', 2, IF(year='Last 365', 1, 0)) DESC, CAST(year AS UNSIGNED) DESC, IF(V_Grade='all', 1, 0) DESC, CAST(a.v_grade AS DECIMAL(3,1)) DESC
     ;"""
 
     res = db.query(qry)
