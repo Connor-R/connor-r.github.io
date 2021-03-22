@@ -50,7 +50,7 @@ draft_year,overall,round,pick,draft_type,player_name,drafted_by,teams,position,s
 2005,49,2,9,S,Cameron Maybin,Pittsburgh Pirates,COL/MIL/NYY/PIT/CLE/AZ,OF,9,12.4,12.4,0.0,-0.1,3241,2910,776,66,134,0.267,0.334,0.397,0.731,0.326,101,105,15.3,,,,,,,,,,,,,
 2005,50,2,10,S,Anibal Sanchez,New York Mets,NYM/FLA/MIA/BOS/OAK/STL,SP,10,26.1,22.9,7.8,5.9,,,,,,,,,,,,,,98,86,2,320,280,14,8,1469,1768.6,3.51,3.66,89,92
 2005,51,2,11,S,Brian Bannister,Kansas City Royals,CLE/STL,SP,5,0.7,1.6,0.0,0.0,,,,,,,,,,,,,,38,56,1,162,121,0,0,478,752.9,5.09,4.95,117,113
-2005,52,2,12,S,Russell Martin,Tampa Bay Rays,SEA/FLA/NYM/PIT/BOS/TB/OAK/SD/CHW,C,15,31.3,30.9,7.0,7.0,7094,6261,1522,155,162,0.243,0.324,0.364,0.688,0.308,90,91,-72.2,,,,,,,,,,,,,
+2005,52,2,12,S,Russell Martin,Tampa Bay Rays,TB/SEA/FLA/NYM/PIT/BOS/OAK/SD/CHW,C,15,31.3,30.9,7.0,7.0,7094,6261,1522,155,162,0.243,0.324,0.364,0.688,0.308,90,91,-72.2,,,,,,,,,,,,,
 2005,53,2,13,S,Joey Devine,Cincinnati Reds,CIN/MIN,RP,6,1.3,1.6,0.8,1.4,,,,,,,,,,,,,,30,32,61,422,1,0,0,494,480.7,4.15,4.11,100,98
 2005,54,2,14,S,Gaby Hernandez,New York Yankees,,1B,0,,,0.0,0.0,,,,,,,,,,,,,,,,,,,,,,,,,,
 2005,55,2,15,S,Sergio Mitre,Baltimore Orioles,BAL/MIL/SF/DET,SP,5,-2.0,1.4,-0.3,0.0,,,,,,,,,,,,,,21,43,8,157,67,2,1,295,512.7,5.30,4.71,121,107
@@ -62,7 +62,7 @@ draft_year,overall,round,pick,draft_type,player_name,drafted_by,teams,position,s
 2005,61,2,21,S,Ruben Gotay,Los Angeles Angels,DET,2B,3,1.3,1.3,0.0,0.0,799,688,173,13,13,0.251,0.334,0.355,0.689,0.310,81,81,-16.9,,,,,,,,,,,,,
 2005,62,2,22,S,Javier Herrera,New York Yankees,NYY,OF,1,-0.3,-0.3,-0.3,-0.3,65,61,11,1,3,0.180,0.231,0.246,0.477,0.220,25,21,-5.9,,,,,,,,,,,,,
 2005,63,2,23,S,Kelly Johnson,Seattle Mariners,WAS/FLA/NYM/CHW/STL/COL,2B,9,30.2,26.0,0.0,0.0,4749,4243,1134,155,114,0.267,0.340,0.456,0.796,0.346,114,116,85.4,,,,,,,,,,,,,
-2005,64,2,24,S,Jacob Ellsbury,Colorado Rockies,,OF,0,,,0.0,0.0,,,,,,,,,,,,,,,,,,,,,,,,,,
+2005,64,2,24,S,Jacoby Ellsbury,Colorado Rockies,MIL/FLA/MIA/CIN/WAS,OF,12,29.3,27.9,0.0,0.0,7308,6655,1824,112,566,0.274,0.333,0.387,0.721,0.322,98,101,11.6,,,,,,,,,,,,,
 2005,65,2,25,S,Eddy Martinez-Esteve,San Diego Padres,,OF,0,,,0.0,0.0,,,,,,,,,,,,,,,,,,,,,,,,,,
 2005,66,2,26,S,Luke Hochevar,Seattle Mariners,TEX/AZ,SP,7,3.1,2.2,0.0,0.0,,,,,,,,,,,,,,32,33,35,332,35,1,0,492,552.6,4.02,4.13,99,102
 2005,67,2,27,S,Kurt Suzuki,Los Angeles Dodgers,LAD/PHI/WAS/KC/SD/STL,C,12,9.2,8.8,3.1,3.1,5032,4603,1080,74,23,0.235,0.288,0.327,0.615,0.273,71,66,-181.8,,,,,,,,,,,,,
@@ -104,10 +104,10 @@ draft_year,overall,round,pick,draft_type,player_name,drafted_by,teams,position,s
 2006,3,1,3,S,Chris B. Young,Seattle Mariners,FLA/MIA/CHC/SD,OF,10,24.2,21.8,0.0,0.0,4376,3905,958,185,149,0.245,0.320,0.467,0.787,0.341,113,115,70.4,,,,,,,,,,,,,
 2006,4,1,4,S,Nick Adenhart,Toronto Blue Jays,SEA,SP,1,-0.4,-0.3,0.0,0.0,,,,,,,,,,,,,,0,0,0,4,0,0,0,2,5.0,12.60,8.93,295,209
 2006,5,1,5,S,Tom Gorzelanny,Toronto Blue Jays,FLA/TB/TOR/NYY/HOU,SP,8,12.6,6.3,1.8,0.2,,,,,,,,,,,,,,46,63,16,314,140,9,3,948,1050.2,3.67,4.12,92,104
-2006,6,1,6,S,Matt Kemp,Toronto Blue Jays,BOS/SEA/COL/BAL/AZ/MIN/PHI/DET/WAS,OF,14,27.6,26.3,0.0,0.0,7712,7112,1915,253,203,0.269,0.322,0.440,0.761,0.331,107,107,59.2,,,,,,,,,,,,,
+2006,6,1,6,S,Matt Kemp,Toronto Blue Jays,BOS/SEA/COL/AZ/BAL/PHI/MIN/DET/WAS,OF,14,27.6,26.3,0.0,0.0,7712,7112,1915,253,203,0.269,0.322,0.440,0.761,0.331,107,107,59.2,,,,,,,,,,,,,
 2006,7,1,7,S,Cesar Carrillo,Detroit Tigers,DET,SP,1,-1.7,-0.1,-1.7,-0.1,,,,,,,,,,,,,,0,7,0,8,8,0,0,20,31.7,10.64,5.32,244,122
 2006,8,1,8,S,Jarrod Saltamacchia,Houston Astros,,C,0,,,0.0,0.0,,,,,,,,,,,,,,,,,,,,,,,,,,
-2006,9,1,9,S,Kendrys Morales,Cleveland Indians,HOU/TB/CHW/BAL/CLE/KC,1B,11,9.1,8.1,0.0,0.0,6157,5707,1495,209,33,0.262,0.310,0.432,0.742,0.322,105,105,32.2,,,,,,,,,,,,,
+2006,9,1,9,S,Kendrys Morales,Cleveland Indians,HOU/CHW/TB/BAL/CLE/KC,1B,11,9.1,8.1,0.0,0.0,6157,5707,1495,209,33,0.262,0.310,0.432,0.742,0.322,105,105,32.2,,,,,,,,,,,,,
 2006,10,1,10,S,Matt Garza,Oakland Athletics,OAK/CHW/CLE/LAA/CHC/SD/KC,SP,11,19.5,18.3,1.2,3.1,,,,,,,,,,,,,,114,104,1,322,319,13,8,1522,1902.2,3.98,4.00,99,100
 2006,11,1,11,S,Eric Patterson,Milwaukee Brewers,MIL/AZ/MIN,2B,3,0.1,0.1,-0.4,-0.4,138,123,29,3,14,0.236,0.304,0.366,0.670,0.295,78,76,-3.9,,,,,,,,,,,,,
 2006,12,1,12,S,Andre Ethier,Oakland Athletics,OAK/AZ/BOS/LAD/NYY/ATL/HOU/COL/PHI,OF,12,23.9,20.7,1.1,1.1,6521,5843,1587,180,53,0.272,0.340,0.433,0.773,0.336,110,111,73.5,,,,,,,,,,,,,
@@ -120,14 +120,14 @@ draft_year,overall,round,pick,draft_type,player_name,drafted_by,teams,position,s
 2006,19,1,19,S,Andrew Miller,Chicago White Sox,CHW/PIT/MIA/ATL,SP,9,11.9,12.1,-0.3,0.8,,,,,,,,,,,,,,40,30,93,519,21,0,0,855,654.0,2.91,2.83,72,71
 2006,20,1,20,S,Tim Lincecum,Chicago Cubs,CHC,SP,9,19.7,24.2,19.7,24.2,,,,,,,,,,,,,,92,62,7,267,219,6,3,1458,1411.8,3.62,3.36,91,84
 2006,21,1,21,S,Jair Jurrjens,Los Angeles Angels,ANA/LAA/MIL/NYM,SP,6,8.1,6.8,7.8,6.7,,,,,,,,,,,,,,54,56,0,163,160,9,2,591,997.3,4.28,4.37,103,105
-2006,22,1,22,S,Yovanni Gallardo,Arizona Diamondbacks,,SP,0,,,0.0,0.0,,,,,,,,,,,,,,,,,,,,,,,,,,
+2006,22,1,22,S,Yovani Gallardo,Arizona Diamondbacks,TOR/STL/SD/PHI/MIN,SP,11,15.3,19.1,0.0,0.0,,,,,,,,,,,,,,110,112,0,318,317,8,6,1747,1941.6,4.11,3.91,104,99
 2006,23,1,23,S,Evan Longoria,Minnesota Twins,MIN/TOR/STL/OAK/SF,3B,13,52.0,44.5,23.9,21.7,8411,7527,1943,298,102,0.258,0.328,0.443,0.772,0.336,112,114,129.9,,,,,,,,,,,,,
 2006,24,1,24,S,Josh Fields,Miami Marlins,MIL/DET,3B,5,3.5,3.4,0.0,0.0,1254,1118,287,50,20,0.257,0.322,0.455,0.777,0.335,100,97,-3.6,,,,,,,,,,,,,
 2006,25,1,25,S,Willie Aybar,San Diego Padres,,3B,0,,,0.0,0.0,,,,,,,,,,,,,,,,,,,,,,,,,,
 2006,26,1,26,S,Brandon Erbe,Detroit Tigers,,SP,0,,,0.0,0.0,,,,,,,,,,,,,,,,,,,,,,,,,,
 2006,27,1,27,S,Kevin Slowey,Seattle Mariners,PIT/TB/AZ/SD,SP,7,10.9,12.8,0.0,0.0,,,,,,,,,,,,,,54,62,2,186,165,5,1,835,1068.0,4.13,3.97,98,94
 2006,28,1,28,S,Reid Brignac,Los Angeles Dodgers,HOU,2B,3,1.0,0.5,0.0,0.0,318,294,73,3,2,0.248,0.299,0.344,0.642,0.282,79,74,-9.3,,,,,,,,,,,,,
-2006,29,1,29,S,Mike Napoli,New York Mets,FLA/NYM/MIA/WAS/OAK/DET/TOR/CIN,C,11,26.6,24.7,5.1,5.1,6054,5331,1213,298,66,0.228,0.314,0.451,0.765,0.331,111,112,72.8,,,,,,,,,,,,,
+2006,29,1,29,S,Mike Napoli,New York Mets,NYM/FLA/MIA/WAS/OAK/DET/TOR/CIN,C,11,26.6,24.7,5.1,5.1,6054,5331,1213,298,66,0.228,0.314,0.451,0.765,0.331,111,112,72.8,,,,,,,,,,,,,
 2006,30,1,30,S,Enrique Gonzalez,Cincinnati Reds,CIN,SP,4,-1.7,-3.0,-1.7,-3.0,,,,,,,,,,,,,,19,28,3,179,37,1,0,227,389.7,5.18,5.46,119,125
 2006,31,1,31,S,Scott Mathieson,Boston Red Sox,FLA,SP,1,-0.6,0.1,0.0,0.0,,,,,,,,,,,,,,2,1,0,15,2,0,0,31,25.3,5.98,3.64,154,93
 2006,32,1,32,S,Carlos Gonzalez,Houston Astros,HOU/CHC/PIT/SEA,OF,12,29.6,26.6,18.3,16.8,6347,5783,1512,263,202,0.261,0.319,0.465,0.784,0.339,117,120,132.3,,,,,,,,,,,,,
@@ -153,8 +153,8 @@ draft_year,overall,round,pick,draft_type,player_name,drafted_by,teams,position,s
 2006,52,2,11,S,Pat Neshek,Colorado Rockies,LAA/ANA/MIL/LAD/CIN/SD/KC,RP,11,8.8,6.5,0.0,0.0,,,,,,,,,,,,,,48,40,57,617,4,0,0,793,743.4,3.26,3.54,82,88
 2006,53,2,12,S,Drew Stubbs,Oakland Athletics,OAK/HOU,OF,5,8.5,7.2,8.5,7.3,1709,1535,381,57,141,0.248,0.317,0.401,0.718,0.319,101,104,7.7,,,,,,,,,,,,,
 2006,54,2,13,S,Elizardo Ramirez,Miami Marlins,,SP,0,,,0.0,0.0,,,,,,,,,,,,,,,,,,,,,,,,,,
-2006,55,2,14,S,Neil Walker,Cleveland Indians,MIL/BAL/SD/SEA/BOS/AZ/LAA/KC,C,11,36.1,29.0,0.0,0.0,7156,6478,1659,209,68,0.256,0.318,0.417,0.735,0.319,105,104,29.1,,,,,,,,,,,,,
-2006,56,2,15,S,Jay Bruce,Texas Rangers,BAL/TEX/WAS,OF,13,20.0,18.0,20.8,18.0,6736,6138,1540,297,90,0.251,0.311,0.462,0.772,0.332,106,105,38.8,,,,,,,,,,,,,
+2006,55,2,14,S,Neil Walker,Cleveland Indians,MIL/BAL/SD/SEA/AZ/LAA/KC/BOS,C,11,36.1,29.0,0.0,0.0,7156,6478,1659,209,68,0.256,0.318,0.417,0.735,0.319,105,104,29.1,,,,,,,,,,,,,
+2006,56,2,15,S,Jay Bruce,Texas Rangers,BAL/WAS/TEX,OF,13,20.0,18.0,20.8,18.0,6736,6138,1540,297,90,0.251,0.311,0.462,0.772,0.332,106,105,38.8,,,,,,,,,,,,,
 2006,57,2,16,S,Jose Arredondo,Oakland Athletics,BAL/OAK,RP,2,1.7,0.4,1.2,0.2,,,,,,,,,,,,,,11,8,36,97,0,0,0,109,109.4,3.18,4.15,74,97
 2006,58,2,17,S,Daniel Haigwood,Arizona Diamondbacks,AZ,SP,1,0.1,-0.3,0.1,-0.3,,,,,,,,,,,,,,2,4,0,6,6,0,0,29,36.7,4.85,5.82,111,133
 2006,59,2,18,S,Jose Israel Garcia,Kansas City Royals,KC,SP,1,-1.0,-1.4,-1.0,-1.4,,,,,,,,,,,,,,3,10,0,28,14,0,0,82,104.7,5.73,6.11,124,132
@@ -204,7 +204,7 @@ draft_year,overall,round,pick,draft_type,player_name,drafted_by,teams,position,s
 2006,103,3,30,S,Logan Kensing,Boston Red Sox,WAS,SP,2,1.1,0.8,0.0,0.0,,,,,,,,,,,,,,8,10,20,109,0,0,0,129,131.0,3.83,4.04,87,92
 2006,104,3,31,S,Adam Lind,Miami Marlins,TB/COL/PIT/WAS/CLE/MIA/STL/SF/LAD,OF,12,18.4,16.3,0.5,-0.1,6315,5785,1567,219,16,0.271,0.325,0.446,0.772,0.335,110,110,69.9,,,,,,,,,,,,,
 2007,1,1,1,S,David Price,Philadelphia Phillies,PHI/COL/NYY/TEX/WAS/OAK,SP,12,41.8,38.4,6.2,6.6,,,,,,,,,,,,,,141,109,0,364,362,21,14,2246,2289.1,3.36,3.41,84,86
-2007,2,1,2,S,Will Inman,Detroit Tigers,NYM/LAA,SP,2,-0.2,-0.1,0.0,0.0,,,,,,,,,,,,,,5,7,1,61,9,0,0,90,114.4,4.53,4.47,116,114
+2007,2,1,2,S,Will Inman,Detroit Tigers,LAA/NYM,SP,2,-0.2,-0.1,0.0,0.0,,,,,,,,,,,,,,5,7,1,61,9,0,0,90,114.4,4.53,4.47,116,114
 2007,3,1,3,S,Clay Buccholz,Toronto Blue Jays,,SP,0,,,0.0,0.0,,,,,,,,,,,,,,,,,,,,,,,,,,
 2007,4,1,4,S,Carlos Gomez,Chicago White Sox,CHW/MIL/COL/MIN/ATL,OF,10,17.5,13.8,0.6,0.6,4656,4261,1030,147,273,0.242,0.297,0.406,0.703,0.309,94,95,-25.8,,,,,,,,,,,,,
 2007,5,1,5,S,Michael Bowden,San Francisco Giants,SF/WAS,SP,2,2.8,2.0,2.0,1.5,,,,,,,,,,,,,,12,8,3,49,31,0,0,146,214.7,3.82,4.13,91,99
@@ -212,13 +212,13 @@ draft_year,overall,round,pick,draft_type,player_name,drafted_by,teams,position,s
 2007,7,1,7,S,Andrew McCutchen,Washington Nationals,TB/COL,OF,10,43.3,40.5,0.0,0.0,6815,5978,1608,233,157,0.269,0.353,0.454,0.807,0.353,125,130,214.2,,,,,,,,,,,,,
 2007,8,1,8,S,Franklin Morales,Houston Astros,HOU/BOS/TEX,SP,5,-1.7,-2.1,0.3,-0.9,,,,,,,,,,,,,,16,24,2,212,36,0,0,339,372.6,4.98,5.11,120,122
 2007,9,1,9,S,Billy Rowell,Atlanta Braves,,3B,0,,,0.0,0.0,,,,,,,,,,,,,,,,,,,,,,,,,,
-2007,10,1,10,S,Joba Chamberlain,Cincinnati Reds,SD/TB/CIN/BAL,SP,9,4.6,7.0,2.0,5.3,,,,,,,,,,,,,,35,47,69,477,60,4,3,828,786.3,4.12,3.85,100,93
+2007,10,1,10,S,Joba Chamberlain,Cincinnati Reds,CIN/SD/TB/BAL,SP,9,4.6,7.0,2.0,5.3,,,,,,,,,,,,,,35,47,69,477,60,4,3,828,786.3,4.12,3.85,100,93
 2007,11,1,11,S,Brent Lillibridge,Oakland Athletics,OAK/AZ,2B,4,2.0,1.7,1.0,1.0,931,846,210,22,57,0.248,0.302,0.381,0.682,0.302,80,80,-22.0,,,,,,,,,,,,,
 2007,12,1,12,S,Henry Sosa,St. Louis Cardinals,STL,SP,4,0.4,0.2,0.4,0.2,,,,,,,,,,,,,,16,19,3,107,34,0,0,210,284.8,4.78,4.76,111,111
 2007,13,1,13,S,Joe Smith,New York Mets,PIT/BOS/COL/CIN,SP,10,-0.4,4.3,0.0,0.0,,,,,,,,,,,,,,32,39,35,570,0,0,0,566,660.8,4.17,3.63,106,92
 2007,14,1,14,S,Pedro Alvarez,Arizona Diamondbacks,TEX/OAK,3B,9,18.7,14.0,0.0,0.0,4134,3707,893,195,36,0.241,0.311,0.448,0.760,0.329,107,107,30.3,,,,,,,,,,,,,
 2007,15,1,15,S,Asdrubal Cabrera,Pittsburgh Pirates,PIT/CHC/COL/DET/NYM,SS,13,41.3,34.4,27.6,21.4,7721,6977,1882,162,138,0.270,0.329,0.415,0.743,0.324,104,104,27.8,,,,,,,,,,,,,
-2007,16,1,16,S,Matt Wieters,Kansas City Royals,KC/MIA/MIN/SEA/CLE/SD,C,12,7.4,6.4,-0.1,-0.4,5927,5453,1181,110,14,0.217,0.269,0.322,0.591,0.262,66,60,-255.5,,,,,,,,,,,,,
+2007,16,1,16,S,Matt Wieters,Kansas City Royals,KC/MIA/SD/MIN/SEA/CLE,C,12,7.4,6.4,-0.1,-0.4,5927,5453,1181,110,14,0.217,0.269,0.322,0.591,0.262,66,60,-255.5,,,,,,,,,,,,,
 2007,17,1,17,S,Matt Antonelli,Cleveland Indians,COL,2B,1,4.3,4.3,0.0,0.0,742,657,189,37,12,0.288,0.365,0.522,0.887,0.383,117,118,15.5,,,,,,,,,,,,,
 2007,18,1,18,S,Ian Kennedy,Colorado Rockies,COL/LAA/TOR/MIA/NYM/MIN/SD,SP,11,14.8,12.3,1.7,0.8,,,,,,,,,,,,,,83,89,5,322,256,5,3,1439,1610.7,3.91,4.03,100,103
 2007,19,1,19,S,Brooks Brown,San Diego Padres,SD,SP,2,3.0,2.6,3.0,2.6,,,,,,,,,,,,,,14,22,2,62,53,2,2,210,323.3,4.31,4.38,100,102
@@ -228,7 +228,7 @@ draft_year,overall,round,pick,draft_type,player_name,drafted_by,teams,position,s
 2007,23,1,23,S,Matt LaPorta,Atlanta Braves,MIN,3B,2,2.3,1.9,0.0,0.0,1044,944,243,36,0,0.257,0.324,0.430,0.754,0.329,101,101,0.4,,,,,,,,,,,,,
 2007,24,1,24,S,Cla Meredith,New York Yankees,NYY,SP,5,1.0,1.2,1.0,1.2,,,,,,,,,,,,,,24,15,13,268,0,0,0,205,354.7,4.30,4.26,100,98
 2007,25,1,25,S,Wladimir Balentien,Seattle Mariners,TB/PHI,OF,2,-0.4,-0.4,0.0,0.0,434,391,92,13,5,0.235,0.295,0.379,0.673,0.295,78,75,-12.8,,,,,,,,,,,,,
-2007,26,1,26,S,Mike Moustakas,Minnesota Twins,COL/MIL/SD/TOR/KC/CLE,3B,8,18.0,15.0,0.0,0.0,4293,3932,991,150,16,0.252,0.307,0.424,0.731,0.317,100,99,-2.6,,,,,,,,,,,,,
+2007,26,1,26,S,Mike Moustakas,Minnesota Twins,COL/MIL/SD/TOR/CLE/KC,3B,8,18.0,15.0,0.0,0.0,4293,3932,991,150,16,0.252,0.307,0.424,0.731,0.317,100,99,-2.6,,,,,,,,,,,,,
 2007,27,1,27,S,Rick van den Hurk,Miami Marlins,AZ/MIL,SP,2,-1.7,-0.3,0.0,0.0,,,,,,,,,,,,,,5,8,0,30,22,0,0,105,123.6,6.59,5.43,151,125
 2007,28,1,28,S,Carlos Villanueva,Chicago Cubs,CHC/WAS/TEX/PHI,SP,11,6.5,5.5,1.9,0.9,,,,,,,,,,,,,,58,61,13,446,165,2,1,1239,1408.6,4.25,4.32,104,105
 2007,29,1,29,S,Jonathan Meloan,Los Angeles Dodgers,LAD/BOS,RP,2,-0.8,0.3,-0.4,0.2,,,,,,,,,,,,,,6,3,2,66,4,0,0,134,105.4,5.24,4.39,120,100
@@ -238,7 +238,7 @@ draft_year,overall,round,pick,draft_type,player_name,drafted_by,teams,position,s
 2007,33,1,33,S,Alicedes Escobar,Houston Astros,,SS,0,,,0.0,0.0,,,,,,,,,,,,,,,,,,,,,,,,,,
 2007,34,1,34,S,Matt Dominguez,Oakland Athletics,TB/LAA,3B,5,8.4,4.4,0.0,0.0,2683,2524,596,66,3,0.236,0.279,0.357,0.636,0.279,82,79,-57.1,,,,,,,,,,,,,
 2007,35,1,35,S,Josh Vitters,Atlanta Braves,ATL,3B,2,-0.5,-0.8,-0.5,-0.8,309,295,62,6,4,0.210,0.246,0.308,0.554,0.245,58,51,-15.6,,,,,,,,,,,,,
-2007,36,1,36,S,John Jaso,Pittsburgh Pirates,PIT/PHI/NYM/CIN/STL,C,9,11.5,10.5,1.9,1.8,3282,2873,665,59,58,0.231,0.320,0.346,0.665,0.299,89,90,-32.6,,,,,,,,,,,,,
+2007,36,1,36,S,John Jaso,Pittsburgh Pirates,PIT/NYM/PHI/CIN/STL,C,9,11.5,10.5,1.9,1.8,3282,2873,665,59,58,0.231,0.320,0.346,0.665,0.299,89,90,-32.6,,,,,,,,,,,,,
 2007,37,1,37,S,Matt Harrison,Kansas City Royals,KC,SP,6,8.6,3.9,8.6,3.9,,,,,,,,,,,,,,53,65,0,185,181,7,4,640,1037.3,4.11,4.43,103,112
 2007,38,1,38,S,Manny Corpas,Los Angeles Angels,LAA,RP,1,1.7,1.1,1.7,1.1,,,,,,,,,,,,,,1,4,35,65,0,0,0,51,77.7,2.76,3.33,63,76
 2007,39,1,39,S,Joakim Soria,Boston Red Sox,BOS/FLA/MIA/SF/KC/SD/NYY,RP,13,13.7,12.5,6.5,6.5,,,,,,,,,,,,,,57,42,162,783,2,0,0,1060,981.8,3.10,3.18,78,80
@@ -249,20 +249,20 @@ draft_year,overall,round,pick,draft_type,player_name,drafted_by,teams,position,s
 2007,44,1,44,S,Bryan Anderson,Miami Marlins,CHC,C,3,2.1,2.0,0.0,0.0,526,471,112,9,0,0.238,0.314,0.361,0.675,0.299,85,83,-8.9,,,,,,,,,,,,,
 2007,45,1,45,S,Tony Abreu,Chicago Cubs,CHC,2B,5,4.0,3.2,4.0,3.2,886,838,244,15,20,0.291,0.322,0.424,0.745,0.326,97,97,-2.7,,,,,,,,,,,,,
 2007,46,2,1,S,Eulugio De La Cruz,Arizona Diamondbacks,AZ/CHC/LAA,SP,6,-0.3,2.6,1.4,3.7,,,,,,,,,,,,,,19,26,0,82,66,1,0,285,402.3,5.11,4.49,119,105
-2007,47,2,2,S,Kevin Fransden,Detroit Tigers,,2B,0,,,0.0,0.0,,,,,,,,,,,,,,,,,,,,,,,,,,
+2007,47,2,2,S,Kevin Frandsen,Detroit Tigers,DET/LAD/PHI,2B,8,4.1,1.9,-0.2,-0.2,2217,2030,529,15,29,0.261,0.309,0.342,0.652,0.289,79,76,-58.0,,,,,,,,,,,,,
 2007,48,2,3,S,Eduardo Morlan,Arizona Diamondbacks,AZ/BOS,SP,2,-0.8,-0.4,-0.3,-0.3,,,,,,,,,,,,,,0,2,1,21,0,0,0,32,29.3,7.00,6.03,153,132
-2007,49,2,4,S,Yunel Escobar,Baltimore Orioles,BAL/NYY/SEA/TB/HOU,SS,10,28.7,21.4,13.9,11.6,6252,5602,1502,101,71,0.268,0.329,0.371,0.700,0.308,94,92,-55.5,,,,,,,,,,,,,
+2007,49,2,4,S,Yunel Escobar,Baltimore Orioles,NYY/BAL/SEA/TB/HOU,SS,10,28.7,21.4,13.9,11.6,6252,5602,1502,101,71,0.268,0.329,0.371,0.700,0.308,94,92,-55.5,,,,,,,,,,,,,
 2007,50,2,5,S,Deolis Guerra,San Francisco Giants,CHC,SP,1,0.6,0.3,0.0,0.0,,,,,,,,,,,,,,4,1,3,46,0,0,0,57,56.0,3.38,3.89,83,95
 2007,51,2,6,S,Edwar Ramirez,Baltimore Orioles,BAL,SP,3,-0.6,0.0,-0.6,0.0,,,,,,,,,,,,,,10,6,5,73,0,0,0,131,107.3,5.02,4.52,115,104
 2007,52,2,7,S,Garrett Olson,Washington Nationals,WAS/PHI,SP,3,2.6,1.3,0.9,1.2,,,,,,,,,,,,,,11,20,0,41,41,0,0,174,229.7,4.22,4.72,96,107
-2007,53,2,8,S,Johnny Cueto,Toronto Blue Jays,SEA/CHW/TOR/WAS/PIT/CHC/NYY,SP,12,21.5,18.2,-0.4,0.8,,,,,,,,,,,,,,115,134,1,355,349,18,6,1805,2196.0,3.91,4.01,100,102
+2007,53,2,8,S,Johnny Cueto,Toronto Blue Jays,SEA/CHW/TOR/PIT/WAS/CHC/NYY,SP,12,21.5,18.2,-0.4,0.8,,,,,,,,,,,,,,115,134,1,355,349,18,6,1805,2196.0,3.91,4.01,100,102
 2007,54,2,9,S,Chris Marrero,Colorado Rockies,,1B,0,,,0.0,0.0,,,,,,,,,,,,,,,,,,,,,,,,,,
 2007,55,2,10,S,Aaron Laffey,Los Angeles Dodgers,LAD/PHI/CHW,SP,4,-0.1,2.2,0.7,0.6,,,,,,,,,,,,,,25,37,0,87,87,6,2,239,495.0,5.22,4.76,120,109
 2007,56,2,11,S,Chris Mason,Kansas City Royals,,SP,0,,,0.0,0.0,,,,,,,,,,,,,,,,,,,,,,,,,,
 2007,57,2,12,S,Dallas Trahern,St. Louis Cardinals,STL,SP,1,0.2,0.6,0.2,0.6,,,,,,,,,,,,,,6,11,0,28,28,0,0,72,161.7,5.11,4.88,116,111
 2007,58,2,13,S,--skipped--,New York Mets,,,0,,,0.0,0.0,,,,,,,,,,,,,,,,,,,,,,,,,,
 2007,59,2,14,S,Jeff Manship,Arizona Diamondbacks,PIT/TOR,SP,3,-0.1,-0.2,0.0,0.0,,,,,,,,,,,,,,2,4,0,49,3,0,0,66,72.9,4.49,4.35,115,114
-2007,60,2,15,S,Jed Lowrie,Pittsburgh Pirates,PIT/TOR/CIN/LAA/KC/TB/COL,SS,12,27.0,19.6,1.3,1.3,6393,5758,1397,117,23,0.243,0.310,0.372,0.683,0.301,90,89,-71.8,,,,,,,,,,,,,
+2007,60,2,15,S,Jed Lowrie,Pittsburgh Pirates,PIT/TOR/CIN/LAA/KC/COL/TB,SS,12,27.0,19.6,1.3,1.3,6393,5758,1397,117,23,0.243,0.310,0.372,0.683,0.301,90,89,-71.8,,,,,,,,,,,,,
 2007,61,2,16,S,Angel Salome,New York Yankees,NYY,C,4,-1.9,-1.9,-1.9,-1.9,876,832,187,9,5,0.225,0.258,0.302,0.560,0.249,48,40,-59.0,,,,,,,,,,,,,
 2007,62,2,17,S,Desmond Jennings,San Francisco Giants,TOR/DET,OF,7,19.2,16.4,0.0,0.0,4039,3604,879,105,188,0.244,0.316,0.408,0.725,0.319,104,106,25.5,,,,,,,,,,,,,
 2007,63,2,18,S,Eric O'Flaherty,Los Angeles Angels,LAA/ANA/COL/MIL/TOR/NYY,SP,9,4.0,1.9,1.3,0.8,,,,,,,,,,,,,,25,23,25,413,2,0,0,369,454.6,3.53,3.94,88,98
@@ -294,17 +294,17 @@ draft_year,overall,round,pick,draft_type,player_name,drafted_by,teams,position,s
 2007,89,3,13,S,Oswaldo Sosa,New York Mets,,SP,0,,,0.0,0.0,,,,,,,,,,,,,,,,,,,,,,,,,,
 2007,90,3,14,S,Kyle Blanks,Colorado Rockies,TB/HOU,1B,3,2.5,1.9,0.0,0.0,787,689,148,33,2,0.215,0.305,0.418,0.723,0.315,107,108,6.2,,,,,,,,,,,,,
 2007,91,3,15,S,Kason Gabbard,Miami Marlins,FLA/TB,SP,2,1.3,0.0,1.0,0.3,,,,,,,,,,,,,,7,2,0,37,11,0,0,72,102.0,3.62,4.74,82,107
-2007,92,3,16,S,Rafael Perez,Milwaukee Brewers,MIL/LAD/LAA,RP,9,2.1,1.5,2.5,1.7,,,,,,,,,,,,,,37,37,32,469,16,0,0,522,640.9,4.07,4.16,101,102
+2007,92,3,16,S,Rafael Perez,Milwaukee Brewers,MIL/LAA/LAD,RP,9,2.1,1.5,2.5,1.7,,,,,,,,,,,,,,37,37,32,469,16,0,0,522,640.9,4.07,4.16,101,102
 2007,93,3,17,S,Daniel Moskos,Texas Rangers,,SP,0,,,0.0,0.0,,,,,,,,,,,,,,,,,,,,,,,,,,
 2007,94,3,18,S,Curtis Thigpen,Milwaukee Brewers,MIL,C,1,0.9,0.9,0.9,0.9,82,66,27,1,0,0.409,0.512,0.530,1.042,0.455,171,178,7.5,,,,,,,,,,,,,
-2007,95,3,19,S,Steve Pearce,San Diego Padres,SD/TOR/AZ/PHI/LAD/BOS/TB,1B,10,14.9,14.6,4.9,4.9,4437,3962,1020,164,55,0.257,0.330,0.445,0.774,0.335,115,116,76.5,,,,,,,,,,,,,
+2007,95,3,19,S,Steve Pearce,San Diego Padres,SD/AZ/TOR/PHI/LAD/BOS/TB,1B,10,14.9,14.6,4.9,4.9,4437,3962,1020,164,55,0.257,0.330,0.445,0.774,0.335,115,116,76.5,,,,,,,,,,,,,
 2007,96,3,20,S,Ross Detwiler,Minnesota Twins,MIN,SP,5,-1.5,1.8,-1.5,1.8,,,,,,,,,,,,,,24,45,9,174,81,0,0,356,600.0,4.75,4.25,121,109
 2007,97,3,21,S,Jensen Lewis,Milwaukee Brewers,MIL,SP,2,1.2,0.1,1.2,0.1,,,,,,,,,,,,,,10,11,13,150,0,0,0,168,194.7,4.06,4.55,93,104
 2007,98,3,22,S,Delwyn Young,Los Angeles Dodgers,CHC,2B,2,3.0,2.7,0.0,0.0,588,543,157,17,2,0.289,0.337,0.477,0.814,0.351,121,121,13.0,,,,,,,,,,,,,
 2007,99,3,23,S,Brian Barton,Milwaukee Brewers,MIL,OF,1,1.4,1.4,1.4,1.4,240,203,55,6,8,0.271,0.375,0.458,0.833,0.370,112,116,4.8,,,,,,,,,,,,,
 2007,100,3,24,S,Danny Richar,Seattle Mariners,WAS/MIL,2B,2,0.8,0.8,0.0,0.0,132,115,40,1,3,0.348,0.402,0.435,0.836,0.366,119,118,2.8,,,,,,,,,,,,,
 2007,101,3,25,S,Chad Huffman,Boston Red Sox,SF/LAD,OF,3,-0.3,-0.3,0.0,0.0,709,626,130,16,10,0.208,0.291,0.342,0.632,0.283,79,78,-16.1,,,,,,,,,,,,,
-2007,102,3,26,S,Tyler Clippard,New York Yankees,SEA/NYY,RP,11,1.8,0.0,-0.4,-0.8,,,,,,,,,,,,,,33,31,86,570,10,0,0,753,719.4,4.05,4.24,101,106
+2007,102,3,26,S,Tyler Clippard,New York Yankees,NYY/SEA,RP,11,1.8,0.0,-0.4,-0.8,,,,,,,,,,,,,,33,31,86,570,10,0,0,753,719.4,4.05,4.24,101,106
 2007,103,3,27,S,Kyle Kendrick,Milwaukee Brewers,MIL/PHI/CLE/KC/SD,SP,8,-2.1,-0.9,0.2,0.4,,,,,,,,,,,,,,43,64,3,266,125,5,0,469,909.5,4.93,4.81,119,116
 2007,104,3,28,S,Justin Smoak,Colorado Rockies,BAL/LAA,1B,8,7.8,5.0,0.0,0.0,4083,3611,776,159,9,0.215,0.302,0.388,0.690,0.305,97,98,-7.4,,,,,,,,,,,,,
 2007,105,3,29,S,German Duran,Los Angeles Dodgers,LAD,3B,1,-0.1,-0.1,-0.1,-0.1,43,39,10,0,0,0.256,0.279,0.282,0.561,0.246,50,41,-3.0,,,,,,,,,,,,,
@@ -375,7 +375,7 @@ draft_year,overall,round,pick,draft_type,player_name,drafted_by,teams,position,s
 2008,64,2,21,S,Travis Denker,Los Angeles Dodgers,,2B,0,,,0.0,0.0,,,,,,,,,,,,,,,,,,,,,,,,,,
 2008,65,2,22,S,Ben Revere,Colorado Rockies,KC/PIT/HOU/BOS,OF,8,4.7,5.7,0.0,0.0,4433,4204,1164,10,241,0.277,0.306,0.329,0.635,0.283,81,79,-98.6,,,,,,,,,,,,,
 2008,66,2,23,S,Jeremy Jeffress,Seattle Mariners,NYY/OAK,SP,6,7.4,3.6,0.0,0.0,,,,,,,,,,,,,,31,21,42,381,2,0,0,408,489.6,2.90,3.51,75,91
-2008,67,2,24,S,Aaron Hicks,Houston Astros,HOU/PHI/MIN/MIA/AZ,OF,6,15.4,9.5,-0.1,-0.1,2943,2584,619,76,37,0.240,0.328,0.384,0.712,0.315,100,100,0.2,,,,,,,,,,,,,
+2008,67,2,24,S,Aaron Hicks,Houston Astros,HOU/MIN/PHI/MIA/AZ,OF,6,15.4,9.5,-0.1,-0.1,2943,2584,619,76,37,0.240,0.328,0.384,0.712,0.315,100,100,0.2,,,,,,,,,,,,,
 2008,68,2,25,S,Pablo Sandoval,St. Louis Cardinals,STL/PIT/HOU/MIN/SEA,3B,10,32.9,27.4,20.6,17.9,4557,4209,1206,151,32,0.287,0.334,0.461,0.795,0.342,119,119,94.7,,,,,,,,,,,,,
 2008,69,2,26,S,Joshua Fields,Minnesota Twins,,RP,0,,,0.0,0.0,,,,,,,,,,,,,,,,,,,,,,,,,,
 2008,70,2,27,S,Neftali Soto,Philadelphia Phillies,,3B,0,,,0.0,0.0,,,,,,,,,,,,,,,,,,,,,,,,,,
@@ -384,7 +384,7 @@ draft_year,overall,round,pick,draft_type,player_name,drafted_by,teams,position,s
 2008,73,2,30,S,Ivan De Jesus Jr.,Toronto Blue Jays,MIL/COL/SF/NYM/STL,2B,6,1.3,0.4,0.0,0.0,913,827,200,10,6,0.242,0.302,0.342,0.645,0.285,78,75,-24.6,,,,,,,,,,,,,
 2008,74,2,31,S,Brett Gardner,Baltimore Orioles,BAL/NYM/TB/AZ/BOS/COL/SD/MIL,OF,12,9.0,6.1,2.7,1.7,5168,4540,1109,59,293,0.244,0.322,0.352,0.675,0.303,87,89,-65.2,,,,,,,,,,,,,
 2008,75,2,32,S,Gorkys Hernandez,Toronto Blue Jays,,OF,0,,,0.0,0.0,,,,,,,,,,,,,,,,,,,,,,,,,,
-2008,76,3,1,S,Ike Davis,Cleveland Indians,CLE/HOU/TEX/PHI,1B,5,9.3,6.9,5.6,4.4,2495,2201,561,91,19,0.255,0.334,0.434,0.769,0.334,114,114,38.3,,,,,,,,,,,,,
+2008,76,3,1,S,Ike Davis,Cleveland Indians,CLE/HOU/PHI/TEX,1B,5,9.3,6.9,5.6,4.4,2495,2201,561,91,19,0.255,0.334,0.434,0.769,0.334,114,114,38.3,,,,,,,,,,,,,
 2008,77,3,2,S,Jason Castro,Minnesota Twins,MIN/MIL/COL/STL/LAD,C,6,10.6,11.0,3.2,3.2,1896,1671,403,57,4,0.241,0.328,0.408,0.736,0.325,102,105,8.7,,,,,,,,,,,,,
 2008,78,3,3,S,Jason Donald,Arizona Diamondbacks,AZ,2B,1,0.0,0.0,0.0,0.0,100,93,21,5,0,0.226,0.270,0.398,0.668,0.286,71,64,-4.1,,,,,,,,,,,,,
 2008,79,3,4,S,Ryan Kalish,Chicago White Sox,,OF,0,,,0.0,0.0,,,,,,,,,,,,,,,,,,,,,,,,,,
@@ -404,9 +404,9 @@ draft_year,overall,round,pick,draft_type,player_name,drafted_by,teams,position,s
 2008,93,3,18,S,Reese Havens,Oakland Athletics,,SS,0,,,0.0,0.0,,,,,,,,,,,,,,,,,,,,,,,,,,
 2008,94,3,19,S,Clayton Richard,Chicago Cubs,AZ/MIL/COL/CLE,SP,7,1.9,1.9,0.0,0.0,,,,,,,,,,,,,,33,41,12,182,101,2,2,433,672.7,4.50,4.45,114,112
 2008,95,3,20,S,Justin Maxwell,Los Angeles Angels,CHW,OF,4,3.2,2.2,0.0,0.0,1168,1052,221,52,33,0.210,0.286,0.417,0.703,0.307,93,93,-9.0,,,,,,,,,,,,,
-2008,96,3,21,S,Matt Joyce,Tampa Bay Rays,WAS/OAK/PIT/SD/PHI/BAL/KC,OF,10,7.4,6.5,0.0,0.0,2918,2534,583,91,34,0.230,0.326,0.393,0.718,0.318,99,101,3.5,,,,,,,,,,,,,
+2008,96,3,21,S,Matt Joyce,Tampa Bay Rays,WAS/OAK/PIT/PHI/SD/BAL/KC,OF,10,7.4,6.5,0.0,0.0,2918,2534,583,91,34,0.230,0.326,0.393,0.718,0.318,99,101,3.5,,,,,,,,,,,,,
 2008,97,3,22,S,Mat Latos,Colorado Rockies,SEA/ATL,SP,8,18.4,15.8,0.0,0.0,,,,,,,,,,,,,,87,90,0,263,258,4,2,1294,1573.4,3.71,3.82,96,99
-2008,98,3,23,S,Boone Logan,Tampa Bay Rays,CHW/TB/HOU/NYM,RP,9,1.6,1.8,0.0,0.2,,,,,,,,,,,,,,26,23,21,300,0,0,0,309,297.7,3.66,3.58,95,93
+2008,98,3,23,S,Boone Logan,Tampa Bay Rays,CHW/HOU/NYM/TB,RP,9,1.6,1.8,0.0,0.2,,,,,,,,,,,,,,26,23,21,300,0,0,0,309,297.7,3.66,3.58,95,93
 2008,99,3,24,S,Cole Gillespie,Milwaukee Brewers,MIL/OAK/STL,OF,5,1.0,0.9,0.0,0.0,630,565,140,10,15,0.248,0.319,0.407,0.726,0.317,93,91,-6.2,,,,,,,,,,,,,
 2008,100,3,25,S,Jemile Weeks,Oakland Athletics,SF/NYY,2B,2,3.7,2.2,0.0,0.0,896,823,211,9,22,0.256,0.307,0.365,0.671,0.296,89,88,-11.8,,,,,,,,,,,,,
 2008,101,3,26,S,John Bowker,Boston Red Sox,BOS/TB/CHW,OF,4,0.3,0.1,0.3,0.3,417,391,102,11,6,0.261,0.305,0.399,0.704,0.306,91,88,-5.2,,,,,,,,,,,,,
@@ -415,8 +415,8 @@ draft_year,overall,round,pick,draft_type,player_name,drafted_by,teams,position,s
 2008,104,3,29,S,Tyler Flowers,Arizona Diamondbacks,AZ/MIA/TOR/COL/MIL,C,5,4.0,5.1,0.2,0.1,1409,1269,292,33,0,0.230,0.303,0.351,0.655,0.292,84,84,-24.4,,,,,,,,,,,,,
 2008,105,3,30,S,Sean Doolittle,Toronto Blue Jays,CHC/COL/WAS/NYY,RP,8,7.6,8.6,0.0,0.0,,,,,,,,,,,,,,44,41,95,474,0,0,0,684,553.3,3.01,2.88,78,74
 2009,1,1,1,S,Carlos Santana,Seattle Mariners,SEA/MIA/PHI/CHW,C,11,23.8,22.0,14.6,13.4,6577,5611,1281,194,51,0.228,0.336,0.395,0.730,0.324,104,107,47.8,,,,,,,,,,,,,
-2009,2,1,2,S,Michael Stanton,Seattle Mariners,,OF,0,,,0.0,0.0,,,,,,,,,,,,,,,,,,,,,,,,,,
-2009,3,1,3,S,Derek Holland,Pittsburgh Pirates,PIT/SEA/CHW,SP,9,16.2,12.1,-0.6,-0.3,,,,,,,,,,,,,,89,68,8,288,212,6,4,1257,1388.3,3.63,3.85,93,100
+2009,2,1,2,S,Giancarlo Stanton,Seattle Mariners,SEA/BOS/CHC,OF,9,54.5,47.4,29.4,26.6,6081,5318,1370,416,64,0.258,0.346,0.556,0.902,0.384,149,154,345.4,,,,,,,,,,,,,
+2009,3,1,3,S,Derek Holland,Pittsburgh Pirates,PIT/CHW/SEA,SP,9,16.2,12.1,-0.6,-0.3,,,,,,,,,,,,,,89,68,8,288,212,6,4,1257,1388.3,3.63,3.85,93,100
 2009,4,1,4,S,Domonic Brown,Tampa Bay Rays,COL/SEA/MIN,OF,4,3.7,2.5,0.0,0.0,1855,1715,429,57,29,0.250,0.298,0.403,0.702,0.302,96,92,-14.9,,,,,,,,,,,,,
 2009,5,1,5,S,Denard Span,Washington Nationals,OAK/WAS/SEA/SD/NYY/PIT/ATL,OF,10,17.1,17.2,5.5,5.2,5497,4908,1317,50,242,0.268,0.335,0.362,0.697,0.311,96,98,-12.7,,,,,,,,,,,,,
 2009,6,1,6,S,Michael Taylor,Arizona Diamondbacks,,OF,0,,,0.0,0.0,,,,,,,,,,,,,,,,,,,,,,,,,,
@@ -435,7 +435,7 @@ draft_year,overall,round,pick,draft_type,player_name,drafted_by,teams,position,s
 2009,19,1,19,S,Grant Green,Oakland Athletics,FLA/MIA,SS,4,3.5,2.6,0.0,0.0,484,453,135,9,3,0.298,0.335,0.437,0.772,0.335,115,116,7.9,,,,,,,,,,,,,
 2009,20,1,20,S,Tyler Matzek,Atlanta Braves,SEA,SP,1,0.3,1.0,0.0,0.0,,,,,,,,,,,,,,7,4,0,25,17,0,0,87,106.0,4.25,3.71,115,100
 2009,21,1,21,S,Andrew Bailey,Seattle Mariners,SEA,RP,5,5.2,3.4,5.2,3.4,,,,,,,,,,,,,,26,18,49,290,0,0,0,375,379.3,3.07,3.44,78,87
-2009,22,1,22,S,Wilmer Flores,Colorado Rockies,MIA/TB/CLE/SD/MIL,SS,7,20.7,18.7,0.0,0.0,3835,3558,992,107,19,0.279,0.322,0.438,0.760,0.329,113,113,51.8,,,,,,,,,,,,,
+2009,22,1,22,S,Wilmer Flores,Colorado Rockies,MIA/MIL/TB/CLE/SD,SS,7,20.7,18.7,0.0,0.0,3835,3558,992,107,19,0.279,0.322,0.438,0.760,0.329,113,113,51.8,,,,,,,,,,,,,
 2009,23,1,23,S,--skipped--,Houston Astros,,,0,,,0.0,0.0,,,,,,,,,,,,,,,,,,,,,,,,,,
 2009,24,1,24,S,Andrew Lambo,Atlanta Braves,COL,OF,1,1.0,0.7,0.0,0.0,259,239,66,11,2,0.276,0.328,0.452,0.780,0.336,109,108,2.1,,,,,,,,,,,,,
 2009,25,1,25,S,--skipped--,San Diego Padres,,,0,,,0.0,0.0,,,,,,,,,,,,,,,,,,,,,,,,,,
@@ -450,21 +450,21 @@ draft_year,overall,round,pick,draft_type,player_name,drafted_by,teams,position,s
 2009,34,1,34,S,Lonnie Chisenhall,Cleveland Indians,NYM/TB/MIL/TOR/CLE/KC/COL,3B,8,9.0,6.2,1.7,1.6,2869,2629,648,59,24,0.246,0.302,0.377,0.679,0.298,91,90,-30.9,,,,,,,,,,,,,
 2009,35,1,35,S,Jaff Decker,Arizona Diamondbacks,OAK/COL/HOU,OF,3,1.2,1.2,0.0,0.0,274,234,58,7,7,0.248,0.350,0.397,0.748,0.334,111,117,4.7,,,,,,,,,,,,,
 2009,36,1,36,S,Ethan Martin,Los Angeles Angels,,SP,0,,,0.0,0.0,,,,,,,,,,,,,,,,,,,,,,,,,,
-2009,37,1,37,S,Donovan Tate,San Diego Padres,,OF,0,,,0.0,0.0,,,,,,,,,,,,,,,,,,,,,,,,,,
+2009,37,1,37,S,Donavan Tate,San Diego Padres,,OF,0,,,0.0,0.0,,,,,,,,,,,,,,,,,,,,,,,,,,
 2009,38,1,38,S,Brandon Crawford,Cincinnati Reds,DET/WAS,SS,7,17.2,10.4,0.0,0.0,3839,3513,819,85,48,0.233,0.293,0.366,0.659,0.290,85,82,-71.0,,,,,,,,,,,,,
-2009,39,1,39,S,Brett Lawrie,Milwaukee Brewers,NYY/CHW/MIL/OAK,C,7,21.1,16.2,10.3,8.1,3039,2756,747,94,80,0.271,0.331,0.443,0.774,0.336,114,115,48.3,,,,,,,,,,,,,
+2009,39,1,39,S,Brett Lawrie,Milwaukee Brewers,MIL/NYY/CHW/OAK,C,7,21.1,16.2,10.3,8.1,3039,2756,747,94,80,0.271,0.331,0.443,0.774,0.336,114,115,48.3,,,,,,,,,,,,,
 2009,40,1,40,S,Josh Bell,Los Angeles Dodgers,AZ/KC/MIL/NYM,3B,5,10.1,10.5,0.0,0.0,3202,2861,774,97,12,0.271,0.343,0.445,0.788,0.343,118,119,67.0,,,,,,,,,,,,,
 2009,41,2,1,S,Julio Borbon,Philadelphia Phillies,PHI/SD/BOS/SEA,OF,4,3.1,2.4,3.4,2.9,1638,1517,411,13,67,0.271,0.310,0.349,0.658,0.293,80,79,-38.2,,,,,,,,,,,,,
 2009,42,2,2,S,Jacob Turner,Philadelphia Phillies,LAA,SP,1,0.2,-0.1,0.0,0.0,,,,,,,,,,,,,,0,1,0,2,1,0,0,2,7.7,2.21,4.86,58,127
-2009,43,2,3,S,Jeff Samardzija,Pittsburgh Pirates,PIT/CIN/SEA/TOR/BOS,SP,10,2.1,8.5,-0.7,0.8,,,,,,,,,,,,,,65,86,12,269,202,9,2,1168,1296.0,4.45,4.06,116,105
+2009,43,2,3,S,Jeff Samardzija,Pittsburgh Pirates,CIN/PIT/SEA/TOR/BOS,SP,10,2.1,8.5,-0.7,0.8,,,,,,,,,,,,,,65,86,12,269,202,9,2,1168,1296.0,4.45,4.06,116,105
 2009,44,2,4,S,Jordan Danks,San Francisco Giants,SF,OF,2,0.9,0.5,0.9,0.5,431,380,78,8,6,0.205,0.295,0.324,0.618,0.275,79,77,-10.7,,,,,,,,,,,,,
 2009,45,2,5,S,Josh Thole,Toronto Blue Jays,TOR/AZ/NYM,C,4,1.8,1.6,1.8,1.6,495,457,122,3,6,0.267,0.313,0.344,0.657,0.292,84,83,-9.3,,,,,,,,,,,,,
 2009,46,2,6,S,Christian Friedrich,Boston Red Sox,SF,SP,2,-0.2,-0.2,0.0,0.0,,,,,,,,,,,,,,5,11,4,63,14,0,0,112,128.0,4.43,4.42,119,119
-2009,47,2,7,S,Michael Montgomery,New York Yankees,,SP,0,,,0.0,0.0,,,,,,,,,,,,,,,,,,,,,,,,,,
+2009,47,2,7,S,Mike Montgomery,New York Yankees,NYY/SEA/TOR/PIT,SP,5,1.0,0.7,0.1,0.0,,,,,,,,,,,,,,28,24,9,135,64,0,0,353,459.4,4.28,4.33,111,112
 2009,48,2,8,S,Jordan Lyles,Cleveland Indians,MIL,SP,1,0.4,-0.1,0.0,0.0,,,,,,,,,,,,,,0,4,0,8,8,1,0,27,46.3,3.67,4.57,100,125
 2009,49,2,9,S,Nick Weglarz,Tampa Bay Rays,,OF,0,,,0.0,0.0,,,,,,,,,,,,,,,,,,,,,,,,,,
-2009,50,2,10,S,Dan Duffy,St. Louis Cardinals,,SP,0,,,0.0,0.0,,,,,,,,,,,,,,,,,,,,,,,,,,
-2009,51,2,11,S,Andrew Cashner,Cleveland Indians,CLE/KC/ATL/COL/MIA,SP,9,6.3,8.1,0.1,0.1,,,,,,,,,,,,,,66,73,2,296,189,3,3,931,1246.1,4.20,4.07,107,104
+2009,50,2,10,S,Danny Duffy,St. Louis Cardinals,BOS/SEA,SP,7,10.8,9.2,0.0,0.0,,,,,,,,,,,,,,68,64,0,195,194,2,1,1044,1120.4,3.86,3.98,99,103
+2009,51,2,11,S,Andrew Cashner,Cleveland Indians,CLE/ATL/KC/COL/MIA,SP,9,6.3,8.1,0.1,0.1,,,,,,,,,,,,,,66,73,2,296,189,3,3,931,1246.1,4.20,4.07,107,104
 2009,52,2,12,S,Trevor Bell,Los Angeles Dodgers,LAD,SP,2,-1.0,-0.6,-1.0,-0.6,,,,,,,,,,,,,,1,5,1,30,3,0,0,39,48.3,5.55,4.72,150,127
 2009,53,2,13,S,--skipped--,Los Angeles Dodgers,,,0,,,0.0,0.0,,,,,,,,,,,,,,,,,,,,,,,,,,
 2009,54,2,14,S,Freddie Freeman,Chicago Cubs,CHC/COL/ATL,1B,10,33.7,30.9,17.0,14.3,6000,5253,1477,225,78,0.281,0.363,0.479,0.842,0.365,131,135,217.6,,,,,,,,,,,,,
@@ -473,7 +473,7 @@ draft_year,overall,round,pick,draft_type,player_name,drafted_by,teams,position,s
 2009,57,2,17,S,Peter Bourjos,Cleveland Indians,CLE/COL/TB/HOU,OF,6,11.3,8.9,0.8,0.6,3056,2744,651,67,73,0.237,0.294,0.394,0.688,0.298,95,92,-24.3,,,,,,,,,,,,,
 2009,58,2,18,S,Hector Rondon,Milwaukee Brewers,MIA/DET,SP,5,2.6,2.9,0.0,0.0,,,,,,,,,,,,,,28,22,50,370,0,0,0,412,432.0,3.54,3.50,93,92
 2009,59,2,19,S,Daniel Schlereth,Texas Rangers,TEX/LAA,RP,2,-0.7,-1.5,-0.2,-0.8,,,,,,,,,,,,,,5,5,4,69,0,0,0,80,78.0,4.69,5.59,121,144
-2009,60,2,20,S,Jorge Sanchez,San Diego Padres,,C,0,,,0.0,0.0,,,,,,,,,,,,,,,,,,,,,,,,,,
+2009,60,2,20,S,Tony Sanchez,San Diego Padres,SD/KC,C,3,-0.2,-0.3,0.1,0.1,216,204,40,0,0,0.196,0.236,0.275,0.511,0.225,47,35,-14.2,,,,,,,,,,,,,
 2009,61,2,21,S,Daniel Hudson,Toronto Blue Jays,TOR/CHW/TB/WAS/SF,SP,10,7.9,2.7,10.7,4.5,,,,,,,,,,,,,,67,56,16,401,122,7,2,897,1113.5,3.90,4.25,101,110
 2009,62,2,22,S,Wilson Ramos,Colorado Rockies,BAL/CLE/NYM,C,9,10.6,11.3,0.0,0.0,3731,3528,850,117,7,0.241,0.277,0.374,0.651,0.284,82,78,-85.0,,,,,,,,,,,,,
 2009,63,2,23,S,Mark Rzepcynski,Pittsburgh Pirates,,SP,0,,,0.0,0.0,,,,,,,,,,,,,,,,,,,,,,,,,,
@@ -481,10 +481,10 @@ draft_year,overall,round,pick,draft_type,player_name,drafted_by,teams,position,s
 2009,65,2,25,S,Matt Hobgood,San Diego Padres,,SP,0,,,0.0,0.0,,,,,,,,,,,,,,,,,,,,,,,,,,
 2009,66,2,26,S,Jiovanni Mier,Kansas City Royals,CIN,SS,2,0.2,-0.1,0.0,0.0,112,103,22,1,1,0.214,0.268,0.311,0.579,0.245,64,48,-5.9,,,,,,,,,,,,,
 2009,67,2,27,S,Brandon Allen,San Francisco Giants,NYM/SF,1B,2,-0.4,-0.5,-0.1,-0.1,188,171,34,4,3,0.199,0.271,0.310,0.581,0.258,65,60,-8.1,,,,,,,,,,,,,
-2009,68,2,28,S,Zach Wheeler,New York Mets,,SP,0,,,0.0,0.0,,,,,,,,,,,,,,,,,,,,,,,,,,
+2009,68,2,28,S,Zack Wheeler,New York Mets,NYM/SEA/WAS/ATL/STL,SP,7,5.4,8.8,2.6,1.7,,,,,,,,,,,,,,57,60,3,189,152,5,1,882,951.3,4.12,3.83,108,100
 2009,69,2,29,S,Brad Bergesen,Baltimore Orioles,BAL,SP,1,-0.1,0.2,-0.1,0.2,,,,,,,,,,,,,,1,1,0,2,2,0,0,5,11.7,5.18,3.45,133,88
 2009,70,2,30,S,Zach McAllister,Detroit Tigers,DET,SP,4,1.1,2.4,1.1,2.4,,,,,,,,,,,,,,17,18,12,156,20,0,0,282,291.0,4.01,3.58,105,93
-2009,71,2,31,S,Brad Holt,Washington Nationals,,SP,0,,,0.0,0.0,,,,,,,,,,,,,,,,,,,,,,,,,,
+2009,71,2,31,S,Bradley Holt,Washington Nationals,CIN,SP,1,-0.4,-0.4,0.0,0.0,,,,,,,,,,,,,,2,0,1,13,0,0,0,5,11.7,6.66,6.34,170,162
 2009,72,2,32,S,Everth Cabrera,Arizona Diamondbacks,CLE/NYM/OAK/ATL,SS,5,4.5,2.9,0.0,0.0,675,620,166,4,57,0.268,0.313,0.374,0.687,0.306,97,99,-0.5,,,,,,,,,,,,,
 2009,73,3,1,S,Jason Knapp,Tampa Bay Rays,,SP,0,,,0.0,0.0,,,,,,,,,,,,,,,,,,,,,,,,,,
 2009,74,3,2,S,Josh Lindblom,Milwaukee Brewers,MIL/LAD/PHI/DET,SP,6,4.4,1.5,4.3,3.2,,,,,,,,,,,,,,35,35,6,291,75,2,1,579,727.8,4.12,4.45,102,110
@@ -496,7 +496,7 @@ draft_year,overall,round,pick,draft_type,player_name,drafted_by,teams,position,s
 2009,80,3,8,S,Casey Crosby,Oakland Athletics,,SP,0,,,0.0,0.0,,,,,,,,,,,,,,,,,,,,,,,,,,
 2009,81,3,9,S,Jay Jackson,Washington Nationals,CIN/BAL,SP,3,3.8,2.6,0.0,0.0,,,,,,,,,,,,,,25,13,8,160,21,1,1,246,285.7,3.33,3.66,84,92
 2009,82,3,10,S,Alex Liddi,St. Louis Cardinals,WAS,3B,2,0.4,0.4,0.0,0.0,27,24,9,1,0,0.375,0.444,0.583,1.028,0.429,190,186,2.5,,,,,,,,,,,,,
-2009,83,3,11,S,Zach Cozart,Chicago Cubs,,SS,0,,,0.0,0.0,,,,,,,,,,,,,,,,,,,,,,,,,,
+2009,83,3,11,S,Zack Cozart,Chicago Cubs,CHC/MIN/CHW/STL,SS,9,15.5,9.2,9.6,5.4,3347,3069,743,75,33,0.242,0.295,0.373,0.668,0.292,86,83,-59.6,,,,,,,,,,,,,
 2009,84,3,12,S,Zack Britton,Detroit Tigers,COL,SP,6,5.9,4.1,0.0,0.0,,,,,,,,,,,,,,34,25,152,351,0,0,0,359,367.3,2.95,3.34,73,82
 2009,85,3,13,S,Tommy Everidge,Pittsburgh Pirates,,3B,0,,,0.0,0.0,,,,,,,,,,,,,,,,,,,,,,,,,,
 2009,86,3,14,S,Jared Mitchell,Oakland Athletics,,OF,0,,,0.0,0.0,,,,,,,,,,,,,,,,,,,,,,,,,,
@@ -519,7 +519,7 @@ draft_year,overall,round,pick,draft_type,player_name,drafted_by,teams,position,s
 2009,103,3,31,S,Drew Storen,Houston Astros,HOU/MIN/PHI,RP,7,5.5,4.2,4.7,3.9,,,,,,,,,,,,,,33,26,146,489,1,0,0,535,559.3,3.26,3.41,86,90
 2009,104,3,32,S,Matt Purke,San Diego Padres,,SP,0,,,0.0,0.0,,,,,,,,,,,,,,,,,,,,,,,,,,
 2009,105,3,33,S,Kent Matthes,Kansas City Royals,,OF,0,,,0.0,0.0,,,,,,,,,,,,,,,,,,,,,,,,,,
-2009,106,3,34,S,A.J. Pollock,Cleveland Indians,CLE/MIL/NYM,OF,7,19.2,16.5,18.7,15.7,3977,3646,952,88,140,0.261,0.315,0.408,0.723,0.316,105,106,25.5,,,,,,,,,,,,,
+2009,106,3,34,S,A.J. Pollock,Cleveland Indians,CLE/NYM/MIL,OF,7,19.2,16.5,18.7,15.7,3977,3646,952,88,140,0.261,0.315,0.408,0.723,0.316,105,106,25.5,,,,,,,,,,,,,
 2009,107,3,35,S,Chad James,Cincinnati Reds,,SP,0,,,0.0,0.0,,,,,,,,,,,,,,,,,,,,,,,,,,
 2009,108,3,36,S,Shelby Miller,Cleveland Indians,TOR/LAA/CHC/HOU,SP,7,8.7,3.3,0.0,0.0,,,,,,,,,,,,,,39,53,5,213,143,5,2,757,904.3,3.64,4.09,98,110
 2009,109,3,37,S,Chad Jenkins,Atlanta Braves,ATL,SP,1,-0.2,0.1,-0.2,0.1,,,,,,,,,,,,,,1,2,0,23,0,0,0,19,30.0,4.50,3.77,121,101
@@ -529,7 +529,7 @@ draft_year,overall,round,pick,draft_type,player_name,drafted_by,teams,position,s
 2009,3,1,3,W,Brady Shoemaker,New York Yankees,,C,0,,,0.0,0.0,,,,,,,,,,,,,,,,,,,,,,,,,,
 2009,4,1,4,W,Koby Clemens,Pittsburgh Pirates,PIT,OF,1,0.3,0.3,0.3,0.3,63,49,10,1,0,0.204,0.381,0.265,0.646,0.314,78,89,-0.8,,,,,,,,,,,,,
 2009,5,1,5,W,Brett Jackson,St. Louis Cardinals,STL,SS,1,0.8,0.8,0.8,0.8,85,73,18,5,2,0.247,0.353,0.507,0.860,0.376,142,152,4.5,,,,,,,,,,,,,
-2009,6,1,6,W,Starlin Castro,Houston Astros,CLE/TEX/HOU/BAL/STL,SP,10,37.5,30.0,13.9,11.7,6300,5884,1672,129,152,0.284,0.322,0.418,0.740,0.321,107,106,38.2,,,,,,,,,,,,,
+2009,6,1,6,W,Starlin Castro,Houston Astros,HOU/CLE/TEX/BAL/STL,SP,10,37.5,30.0,13.9,11.7,6300,5884,1672,129,152,0.284,0.322,0.418,0.740,0.321,107,106,38.2,,,,,,,,,,,,,
 2009,7,1,7,W,Anthony Ranuado,Los Angeles Dodgers,,SP,0,,,0.0,0.0,,,,,,,,,,,,,,,,,,,,,,,,,,
 2009,8,1,8,W,Chris Withrow,Oakland Athletics,,SS,0,2.2,-0.2,2.2,-0.2,,,,,,,,,,,,,,13,7,13,126,0,0,0,153,145.3,2.83,4.00,76,107
 2009,9,1,9,W,Ian Desmond,San Diego Padres,SD/AZ/MIA/TOR/DET/SEA,OF,11,14.4,9.4,-0.2,-0.2,4387,4053,975,114,132,0.241,0.290,0.387,0.678,0.297,88,87,-60.4,,,,,,,,,,,,,
@@ -544,13 +544,13 @@ draft_year,overall,round,pick,draft_type,player_name,drafted_by,teams,position,s
 2009,18,1,18,W,Simon Castro,Toronto Blue Jays,,C,0,,,0.0,0.0,,,,,,,,,,,,,,,,,,,,,,,,,,
 2009,19,1,19,W,Austin Romine,Chicago White Sox,BOS,3B,4,-0.2,0.0,0.0,0.0,703,653,142,13,5,0.217,0.259,0.314,0.573,0.252,58,51,-37.3,,,,,,,,,,,,,
 2009,20,1,20,W,David Freese,Seattle Mariners,SEA/BOS/MIA/MIN/LAA,OF,10,14.1,10.3,0.8,0.8,4090,3701,933,110,9,0.252,0.317,0.391,0.708,0.312,97,97,-13.3,,,,,,,,,,,,,
-2009,21,1,21,W,Michael Trout,Minnesota Twins,,SP,0,,,0.0,0.0,,,,,,,,,,,,,,,,,,,,,,,,,,
+2009,21,1,21,W,Mike Trout,Minnesota Twins,MIN/SEA/MIA,SP,10,76.8,71.4,13.6,12.0,7004,6000,1713,334,383,0.286,0.380,0.528,0.908,0.394,154,163,456.9,,,,,,,,,,,,,
 2009,22,1,22,W,Aaron Miller,New York Mets,,SS,0,,,0.0,0.0,,,,,,,,,,,,,,,,,,,,,,,,,,
 2009,23,1,23,W,Christian Colon,Milwaukee Brewers,MIL/WAS/AZ,SP,5,2.9,1.5,2.0,1.2,871,794,204,15,19,0.257,0.303,0.361,0.665,0.290,87,83,-15.8,,,,,,,,,,,,,
 2009,24,1,24,W,Zack Stewart,Miami Marlins,,RP,0,,,0.0,0.0,,,,,,,,,,,,,,,,,,,,,,,,,,
 2009,25,1,25,W,Luke Gregorson,Boston Red Sox,,SS,0,,,0.0,0.0,,,,,,,,,,,,,,,,,,,,,,,,,,
 2009,26,1,26,W,Nick Franklin,Texas Rangers,BOS/MIL,SP,5,3.5,3.2,0.0,0.0,1551,1402,326,36,34,0.233,0.299,0.372,0.671,0.296,86,84,-26.3,,,,,,,,,,,,,
-2009,27,1,27,W,Arodys Vizcaino,Colorado Rockies,WAS/MIA/PIT/SEA,RP,7,1.7,2.0,0.0,0.0,,,,,,,,,,,,,,25,29,32,318,15,0,0,453,458.1,3.91,3.85,100,99
+2009,27,1,27,W,Arodys Vizcaino,Colorado Rockies,WAS/MIA/SEA/PIT,RP,7,1.7,2.0,0.0,0.0,,,,,,,,,,,,,,25,29,32,318,15,0,0,453,458.1,3.91,3.85,100,99
 2009,28,1,28,W,Dan Runzler,Baltimore Orioles,BAL/MIA,SP,3,2.6,1.9,1.3,0.7,,,,,,,,,,,,,,13,7,6,117,8,0,0,182,183.0,3.04,3.38,76,85
 2009,29,1,29,W,Eric Arnett,Arizona Diamondbacks,,3B,0,,,0.0,0.0,,,,,,,,,,,,,,,,,,,,,,,,,,
 2009,30,1,30,W,Brent Morel,Cleveland Indians,CLE,3B,2,3.4,2.2,3.4,2.2,675,623,167,16,9,0.268,0.320,0.387,0.707,0.311,96,96,-2.7,,,,,,,,,,,,,
@@ -563,10 +563,10 @@ draft_year,overall,round,pick,draft_type,player_name,drafted_by,teams,position,s
 2010,6,1,6,S,Anthony Rendon,Tampa Bay Rays,TB,3B,7,28.5,22.6,28.5,22.6,4076,3665,950,132,12,0.259,0.328,0.437,0.765,0.333,118,120,86.0,,,,,,,,,,,,,
 2010,7,1,7,S,Randall Delgado,Los Angeles Dodgers,BOS,SP,6,0.8,-0.8,0.0,0.0,,,,,,,,,,,,,,18,21,11,328,16,0,0,476,523.4,4.02,4.29,102,108
 2010,8,1,8,S,Jarred Cosart,Oakland Athletics,BOS,SP,2,0.1,-0.5,0.0,0.0,,,,,,,,,,,,,,7,6,1,38,21,0,0,90,129.0,4.25,4.59,110,118
-2010,9,1,9,S,Barrett Loux,San Diego Padres,,SP,0,,,0.0,0.0,,,,,,,,,,,,,,,,,,,,,,,,,,
+2010,9,1,9,S,Barret Loux,San Diego Padres,,SP,0,,,0.0,0.0,,,,,,,,,,,,,,,,,,,,,,,,,,
 2010,10,1,10,S,Matt Harvey,Houston Astros,KC/SD/ATL/MIN,SP,8,13.7,18.1,0.0,0.0,,,,,,,,,,,,,,66,83,0,256,241,4,0,1201,1395.1,3.76,3.52,99,93
 2010,11,1,11,S,Zack Cox,Kansas City Royals,,3B,0,,,0.0,0.0,,,,,,,,,,,,,,,,,,,,,,,,,,
-2010,12,1,12,S,Michael Pineda,Seattle Mariners,SEA/CHC/SD/MIL,SP,10,8.4,18.2,3.2,4.8,,,,,,,,,,,,,,82,82,0,260,258,0,0,1378,1490.9,4.15,3.63,108,94
+2010,12,1,12,S,Michael Pineda,Seattle Mariners,SEA/SD/CHC/MIL,SP,10,8.4,18.2,3.2,4.8,,,,,,,,,,,,,,82,82,0,260,258,0,0,1378,1490.9,4.15,3.63,108,94
 2010,13,1,13,S,Delino DeShields Jr.,Atlanta Braves,ATL,OF,6,4.5,2.4,4.5,2.4,2410,2151,517,27,207,0.240,0.310,0.330,0.640,0.288,82,83,-43.8,,,,,,,,,,,,,
 2010,14,1,14,S,Yasmani Grandal,Chicago Cubs,CHC/TB/WAS/TOR,C,9,21.6,22.4,4.4,4.2,3887,3321,730,137,9,0.220,0.326,0.387,0.713,0.316,102,105,20.1,,,,,,,,,,,,,
 2010,15,1,15,S,Karsten Whitson,Cincinnati Reds,,SP,0,,,0.0,0.0,,,,,,,,,,,,,,,,,,,,,,,,,,
@@ -577,7 +577,7 @@ draft_year,overall,round,pick,draft_type,player_name,drafted_by,teams,position,s
 2010,20,1,20,S,Dayan Vicideo,Washington Nationals,,1B,0,,,0.0,0.0,,,,,,,,,,,,,,,,,,,,,,,,,,
 2010,21,1,21,S,Michael Choice,Minnesota Twins,COL/LAA,OF,2,1.4,1.2,0.0,0.0,727,647,162,23,0,0.250,0.327,0.405,0.732,0.321,96,95,-3.6,,,,,,,,,,,,,
 2010,22,1,22,S,Alex Colome,New York Mets,DET,SP,4,1.4,3.9,0.0,0.0,,,,,,,,,,,,,,22,27,51,252,17,0,0,334,323.4,3.77,3.22,96,82
-2010,23,1,23,S,Nicholas Castellanos,Toronto Blue Jays,TOR/MIL/PHI/NYM,3B,6,20.7,19.0,4.2,3.1,3488,3230,880,134,23,0.272,0.321,0.474,0.795,0.342,121,122,81.9,,,,,,,,,,,,,
+2010,23,1,23,S,Nick Castellanos,Toronto Blue Jays,TOR/MIL/PHI/NYM,3B,6,20.7,19.0,4.2,3.1,3488,3230,880,134,23,0.272,0.321,0.474,0.795,0.342,121,122,81.9,,,,,,,,,,,,,
 2010,24,1,24,S,Bryan Morris,Miami Marlins,STL/CLE,SP,2,1.0,0.0,0.0,0.0,,,,,,,,,,,,,,0,0,0,42,0,0,0,41,60.0,2.85,3.99,74,104
 2010,25,1,25,S,Drew Cumberland,Boston Red Sox,,SS,0,,,0.0,0.0,,,,,,,,,,,,,,,,,,,,,,,,,,
 2010,26,1,26,S,Kolbrin Vitek,Texas Rangers,,2B,0,,,0.0,0.0,,,,,,,,,,,,,,,,,,,,,,,,,,
@@ -591,14 +591,14 @@ draft_year,overall,round,pick,draft_type,player_name,drafted_by,teams,position,s
 2010,34,2,4,S,Tyler Colvin,Pittsburgh Pirates,PIT,OF,2,1.0,0.5,1.0,0.5,619,580,137,23,1,0.236,0.278,0.419,0.697,0.296,94,87,-8.2,,,,,,,,,,,,,
 2010,35,2,5,S,Tyler Chatwood,St. Louis Cardinals,SF,SP,5,3.1,3.1,0.0,0.0,,,,,,,,,,,,,,35,66,3,173,155,2,1,578,900.1,4.14,4.12,113,113
 2010,36,2,6,S,Jake Skole,Houston Astros,,OF,0,,,0.0,0.0,,,,,,,,,,,,,,,,,,,,,,,,,,
-2010,37,2,7,S,Allen Craig,San Francisco Giants,SF/SEA,OF,5,9.9,7.7,9.7,7.5,2513,2268,599,70,18,0.264,0.327,0.415,0.742,0.324,112,113,35.6,,,,,,,,,,,,,
+2010,37,2,7,S,Allen Craig,San Francisco Giants,SEA/SF,OF,5,9.9,7.7,9.7,7.5,2513,2268,599,70,18,0.264,0.327,0.415,0.742,0.324,112,113,35.6,,,,,,,,,,,,,
 2010,38,2,8,S,Kaleb Cowart,Oakland Athletics,OAK,3B,1,0.4,0.4,0.4,0.4,108,98,26,1,6,0.265,0.315,0.408,0.723,0.319,102,104,0.5,,,,,,,,,,,,,
 2010,39,2,9,S,Hayden Simpson,San Diego Padres,,SP,0,,,0.0,0.0,,,,,,,,,,,,,,,,,,,,,,,,,,
 2010,40,2,10,S,Mauricio Robles,Pittsburgh Pirates,,SP,0,,,0.0,0.0,,,,,,,,,,,,,,,,,,,,,,,,,,
 2010,41,2,11,S,Justin O'Conner,Kansas City Royals,KC,C,1,-0.1,-0.1,-0.1,-0.1,47,46,10,0,2,0.217,0.234,0.261,0.495,0.227,39,33,-3.3,,,,,,,,,,,,,
 2010,42,2,12,S,Jonathan Singleton,Miami Marlins,,1B,0,,,0.0,0.0,,,,,,,,,,,,,,,,,,,,,,,,,,
 2010,43,2,13,S,Mike Foltynewicz,Atlanta Braves,SEA,SP,2,1.3,2.4,0.0,0.0,,,,,,,,,,,,,,20,25,0,65,65,0,0,344,378.3,4.42,4.16,113,106
-2010,44,2,14,S,Nolan Arenado,Chicago Cubs,CHC/BOS/ATL/COL/DET/NYM,3B,8,44.8,31.6,29.9,21.4,4782,4407,1180,238,21,0.268,0.317,0.506,0.822,0.350,126,127,136.9,,,,,,,,,,,,,
+2010,44,2,14,S,Nolan Arenado,Chicago Cubs,CHC/BOS/COL/DET/NYM/ATL,3B,8,44.8,31.6,29.9,21.4,4782,4407,1180,238,21,0.268,0.317,0.506,0.822,0.350,126,127,136.9,,,,,,,,,,,,,
 2010,45,2,15,S,Alex Wimmers,Cincinnati Reds,,SP,0,,,0.0,0.0,,,,,,,,,,,,,,,,,,,,,,,,,,
 2010,46,2,16,S,Craig Kimbrel,San Francisco Giants,SF/NYM/CIN/WAS/BAL/ATL,RP,10,13.0,13.4,3.8,5.0,,,,,,,,,,,,,,45,34,208,649,0,0,0,1059,711.3,2.64,2.57,69,67
 2010,47,2,17,S,Travis d'Arnaud,Los Angeles Angels,LAA/PIT/COL/NYM/ATL,C,8,5.9,6.0,3.6,3.4,2774,2541,556,57,3,0.219,0.276,0.339,0.615,0.271,75,70,-86.2,,,,,,,,,,,,,
@@ -612,7 +612,7 @@ draft_year,overall,round,pick,draft_type,player_name,drafted_by,teams,position,s
 2010,55,2,25,S,Jerry Sands,Seattle Mariners,SEA/WAS,1B,1,1.4,1.2,-0.1,-0.1,266,237,67,10,7,0.283,0.342,0.489,0.832,0.361,125,130,8.7,,,,,,,,,,,,,
 2010,56,2,26,S,Christian Yelich,Texas Rangers,TEX,OF,7,23.5,22.7,23.5,22.7,4362,3832,1059,115,161,0.276,0.358,0.442,0.800,0.353,121,126,116.9,,,,,,,,,,,,,
 2010,57,2,27,S,Tyler Skaggs,Colorado Rockies,TEX/WAS,SP,3,2.1,4.2,0.0,0.0,,,,,,,,,,,,,,20,22,0,74,70,0,0,350,384.0,4.20,3.73,109,97
-2010,58,2,28,S,Jason Ely,San Francisco Giants,,SP,0,,,0.0,0.0,,,,,,,,,,,,,,,,,,,,,,,,,,
+2010,58,2,28,S,John Ely,San Francisco Giants,CHW/LAA,SP,2,1.0,0.8,0.0,0.0,,,,,,,,,,,,,,8,6,1,41,12,1,1,85,117.4,3.80,3.94,98,100
 2010,59,2,29,S,Devin Mesoraco,Arizona Diamondbacks,AZ/STL,C,9,12.0,12.1,11.4,11.0,3584,3229,723,109,8,0.224,0.294,0.379,0.673,0.295,86,84,-59.9,,,,,,,,,,,,,
 2010,60,2,30,S,Jesse Biddle,Cleveland Indians,CLE,SP,1,-0.9,-0.9,-0.9,-0.9,,,,,,,,,,,,,,0,3,2,28,0,0,0,28,26.3,6.78,6.77,169,169
 2010,61,3,1,S,Kellin Deglan,Detroit Tigers,,C,0,,,0.0,0.0,,,,,,,,,,,,,,,,,,,,,,,,,,
@@ -637,9 +637,9 @@ draft_year,overall,round,pick,draft_type,player_name,drafted_by,teams,position,s
 2010,80,3,20,S,Kyle Heckathorn,Tampa Bay Rays,,SP,0,,,0.0,0.0,,,,,,,,,,,,,,,,,,,,,,,,,,
 2010,81,3,21,S,Danny Hultzen,Minnesota Twins,,SP,0,,,0.0,0.0,,,,,,,,,,,,,,,,,,,,,,,,,,
 2010,82,3,22,S,Robbie Erlin,Tampa Bay Rays,TB,SP,2,1.2,-0.7,1.2,-0.7,,,,,,,,,,,,,,8,6,5,110,12,0,0,161,209.0,3.65,4.35,94,112
-2010,83,3,23,S,Sonny Gray,Los Angeles Angels,CHW/CLE/WAS/MIL/TB,SP,7,1.5,8.1,0.0,0.0,,,,,,,,,,,,,,63,79,1,230,225,4,1,1206,1310.4,4.50,4.07,118,107
+2010,83,3,23,S,Sonny Gray,Los Angeles Angels,CLE/CHW/WAS/MIL/TB,SP,7,1.5,8.1,0.0,0.0,,,,,,,,,,,,,,63,79,1,230,225,4,1,1206,1310.4,4.50,4.07,118,107
 2010,84,3,24,S,Brandon Laird,Cincinnati Reds,CIN,3B,4,2.3,1.3,2.3,1.3,656,625,157,17,2,0.251,0.285,0.378,0.663,0.290,85,82,-12.1,,,,,,,,,,,,,
-2010,85,3,25,S,Joseph Gardner,Toronto Blue Jays,,SP,0,,,0.0,0.0,,,,,,,,,,,,,,,,,,,,,,,,,,
+2010,85,3,25,S,Joe Gardner,Toronto Blue Jays,,SP,0,,,0.0,0.0,,,,,,,,,,,,,,,,,,,,,,,,,,
 2010,86,3,26,S,Chevez Clarke,Texas Rangers,,OF,0,,,0.0,0.0,,,,,,,,,,,,,,,,,,,,,,,,,,
 2010,87,3,27,S,Francisco Martinez-Mesa,Colorado Rockies,,SP,0,,,0.0,0.0,,,,,,,,,,,,,,,,,,,,,,,,,,
 2010,88,3,28,S,Ruben Tejada,Baltimore Orioles,TB/BAL/MIL,SS,4,7.2,4.2,3.8,2.1,1208,1094,283,12,19,0.259,0.321,0.348,0.669,0.299,90,90,-12.6,,,,,,,,,,,,,
@@ -676,14 +676,14 @@ draft_year,overall,round,pick,draft_type,player_name,drafted_by,teams,position,s
 2010,28,1,28,W,Matt Packer,Chicago Cubs,,SP,0,,,0.0,0.0,,,,,,,,,,,,,,,,,,,,,,,,,,
 2010,29,1,29,W,Yorman Rodriguez,Toronto Blue Jays,,OF,0,,,0.0,0.0,,,,,,,,,,,,,,,,,,,,,,,,,,
 2010,30,1,30,W,Brett Eibner,Houston Astros,HOU,OF,1,0.1,0.0,0.1,0.0,48,47,9,3,0,0.191,0.208,0.426,0.634,0.269,79,74,-1.3,,,,,,,,,,,,,
-2011,1,1,1,S,Juan Nicasio,Kansas City Royals,KC/TEX/SEA/NYM/BAL,SP,9,2.1,3.3,1.9,0.9,,,,,,,,,,,,,,46,54,22,344,82,1,0,771,832.7,4.15,4.01,108,104
+2011,1,1,1,S,Juan Nicasio,Kansas City Royals,KC/SEA/NYM/TEX/BAL,SP,9,2.1,3.3,1.9,0.9,,,,,,,,,,,,,,46,54,22,344,82,1,0,771,832.7,4.15,4.01,108,104
 2011,2,1,2,S,Dylan Bundy,Oakland Athletics,OAK,SP,6,8.8,7.9,8.8,7.9,,,,,,,,,,,,,,58,49,2,165,156,3,1,824,929.7,3.85,3.91,100,101
 2011,3,1,3,S,Neil Ramirez,Chicago White Sox,CHW/TB,SP,2,-0.2,-0.2,-0.7,-0.7,,,,,,,,,,,,,,9,4,17,124,0,0,0,163,138.7,4.02,4.06,108,109
 2011,4,1,4,S,Rubby de la Rosa,Atlanta Braves,ATL/MIL/TB,SP,5,4.8,4.0,4.3,3.6,,,,,,,,,,,,,,28,46,3,222,74,1,1,601,581.7,3.82,3.92,97,100
 2011,5,1,5,S,Jed Bradley,Chicago White Sox,MIL,SP,1,-1.2,0.1,0.0,0.0,,,,,,,,,,,,,,3,3,1,37,0,0,0,45,50.0,5.76,3.79,157,104
 2011,6,1,6,S,Keyvius Sampson,St. Louis Cardinals,PIT,SP,1,-0.4,-0.1,0.0,0.0,,,,,,,,,,,,,,2,2,0,4,4,0,0,12,19.0,6.63,4.92,171,127
 2011,7,1,7,S,Jeurys Familia,San Diego Padres,BOS,SP,6,3.1,4.9,0.0,0.0,,,,,,,,,,,,,,27,29,103,366,1,0,0,464,441.9,3.57,3.22,92,83
-2011,8,1,8,S,Mark Trumbo,Philadelphia Phillies,PHI/CLE/PIT/SEA,1B,8,14.7,13.8,12.8,10.9,4080,3773,980,193,31,0.260,0.309,0.466,0.775,0.334,116,118,73.5,,,,,,,,,,,,,
+2011,8,1,8,S,Mark Trumbo,Philadelphia Phillies,CLE/PHI/PIT/SEA,1B,8,14.7,13.8,12.8,10.9,4080,3773,980,193,31,0.260,0.309,0.466,0.775,0.334,116,118,73.5,,,,,,,,,,,,,
 2011,9,1,9,S,Paul Goldschmidt,Pittsburgh Pirates,PIT/BOS/SD/CIN/COL/LAA,1B,9,41.7,36.9,19.4,16.3,5990,5200,1413,280,184,0.272,0.361,0.497,0.858,0.372,140,146,290.5,,,,,,,,,,,,,
 2011,10,1,10,S,Bubba Starling,Tampa Bay Rays,,OF,0,,,0.0,0.0,,,,,,,,,,,,,,,,,,,,,,,,,,
 2011,11,1,11,S,Anthony Gose,San Diego Padres,PHI,OF,3,-0.8,-1.7,0.0,0.0,1353,1218,239,15,69,0.196,0.270,0.277,0.546,0.249,57,54,-63.6,,,,,,,,,,,,,
@@ -697,7 +697,7 @@ draft_year,overall,round,pick,draft_type,player_name,drafted_by,teams,position,s
 2011,19,1,19,S,Kolten Wong,Minnesota Twins,MIN/PHI/SD/OAK,2B,8,14.6,9.3,8.2,4.1,4914,4459,1069,79,192,0.240,0.302,0.345,0.647,0.289,83,83,-89.7,,,,,,,,,,,,,
 2011,20,1,20,S,Brad Peacock,Seattle Mariners,SEA/MIA,SP,4,4.8,4.5,0.7,-0.9,,,,,,,,,,,,,,30,28,7,147,81,0,0,569,516.3,3.75,3.80,95,97
 2011,21,1,21,S,Jedd Gyorko,Toronto Blue Jays,TOR/BOS/SEA/WAS/COL/KC,3B,8,12.9,9.8,4.2,3.1,3037,2766,686,118,20,0.248,0.309,0.419,0.728,0.316,99,98,-4.6,,,,,,,,,,,,,
-2011,22,1,22,S,Alex Mayer,Cincinnati Reds,,SP,0,,,0.0,0.0,,,,,,,,,,,,,,,,,,,,,,,,,,
+2011,22,1,22,S,Alex Meyer,Cincinnati Reds,CIN,SP,5,-0.5,1.0,-0.5,1.0,,,,,,,,,,,,,,23,28,1,157,72,0,0,508,494.1,4.40,4.14,117,110
 2011,23,1,23,S,Eric Thames,Boston Red Sox,BOS/BAL,OF,5,4.7,5.9,-0.4,-0.5,2426,2128,486,109,57,0.228,0.318,0.446,0.764,0.332,109,110,25.7,,,,,,,,,,,,,
 2011,24,1,24,S,Brandon Nimmo,Cincinnati Reds,CHW,OF,3,6.5,5.0,0.0,0.0,1469,1246,295,47,17,0.237,0.348,0.407,0.755,0.333,107,108,14.0,,,,,,,,,,,,,
 2011,25,1,25,S,Tim Wheeler,Baltimore Orioles,,OF,0,,,0.0,0.0,,,,,,,,,,,,,,,,,,,,,,,,,,
@@ -724,7 +724,7 @@ draft_year,overall,round,pick,draft_type,player_name,drafted_by,teams,position,s
 2011,46,2,16,S,Jason Adam,San Francisco Giants,,SP,0,,,0.0,0.0,,,,,,,,,,,,,,,,,,,,,,,,,,
 2011,47,2,17,S,Tomas Telis,Milwaukee Brewers,TOR/MIL,C,4,3.0,3.0,1.9,1.8,959,900,237,9,12,0.263,0.302,0.352,0.655,0.290,83,81,-18.8,,,,,,,,,,,,,
 2011,48,2,18,S,Garrett Richards,Boston Red Sox,BOS/SEA/AZ/TOR,SP,6,18.6,14.8,1.5,1.4,,,,,,,,,,,,,,79,51,0,195,195,10,6,1118,1180.9,3.33,3.57,88,94
-2011,49,2,19,S,James Paxton,Arizona Diamondbacks,AZ/NYM/CHW,SP,5,9.8,11.6,8.4,10.1,,,,,,,,,,,,,,60,44,0,163,163,0,0,971,914.0,3.79,3.63,98,94
+2011,49,2,19,S,James Paxton,Arizona Diamondbacks,AZ/CHW/NYM,SP,5,9.8,11.6,8.4,10.1,,,,,,,,,,,,,,60,44,0,163,163,0,0,971,914.0,3.79,3.63,98,94
 2011,50,2,20,S,Alex Cobb,Boston Red Sox,BOS/AZ/LAD,SP,8,6.8,12.7,3.2,9.7,,,,,,,,,,,,,,71,94,0,255,251,3,2,1177,1493.0,4.28,3.93,111,102
 2011,51,2,21,S,Tyrell Jenkins,San Diego Padres,,SP,0,,,0.0,0.0,,,,,,,,,,,,,,,,,,,,,,,,,,
 2011,52,2,22,S,Josh Bell,Detroit Tigers,AZ/KC/MIL/NYM,OF,5,10.1,10.5,0.0,0.0,3202,2861,774,97,12,0.271,0.343,0.445,0.788,0.343,118,119,67.0,,,,,,,,,,,,,
@@ -747,7 +747,7 @@ draft_year,overall,round,pick,draft_type,player_name,drafted_by,teams,position,s
 2011,69,3,9,S,Charlie Furbush,Boston Red Sox,BOS/NYM/BAL,SP,5,3.2,6.8,0.6,4.4,,,,,,,,,,,,,,16,22,18,312,0,0,0,387,300.3,3.25,2.32,84,61
 2011,70,3,10,S,Chad Bettis,Milwaukee Brewers,MIL/TOR,SP,3,-1.8,-0.5,-1.5,-0.3,,,,,,,,,,,,,,7,16,0,37,29,1,0,121,180.4,5.61,4.95,141,125
 2011,71,3,11,S,Edwar Cabrera,Pittsburgh Pirates,PIT,SP,1,0.1,-0.5,0.1,-0.5,,,,,,,,,,,,,,3,1,0,4,4,0,0,19,24.0,4.50,6.65,112,165
-2011,72,3,12,S,Devin Marrero,Minnesota Twins,,SS,0,,,0.0,0.0,,,,,,,,,,,,,,,,,,,,,,,,,,
+2011,72,3,12,S,Deven Marrero,Minnesota Twins,MIN,SS,1,0.1,0.0,0.1,0.0,114,111,28,2,1,0.252,0.272,0.342,0.614,0.268,72,65,-4.2,,,,,,,,,,,,,
 2011,73,3,13,S,Dante Bichette Jr.,New York Yankees,,3B,0,,,0.0,0.0,,,,,,,,,,,,,,,,,,,,,,,,,,
 2011,74,3,14,S,Darwin Barney,Los Angeles Dodgers,LAD/TEX/MIL/AZ,2B,6,3.6,1.0,0.8,0.2,1490,1404,370,10,30,0.264,0.295,0.342,0.637,0.279,76,71,-45.7,,,,,,,,,,,,,
 2011,75,3,15,S,Starling Marte,Pittsburgh Pirates,OAK/STL,OF,9,19.1,10.0,0.0,0.0,4848,4497,1137,121,306,0.253,0.301,0.397,0.698,0.306,95,95,-25.4,,,,,,,,,,,,,
@@ -758,7 +758,7 @@ draft_year,overall,round,pick,draft_type,player_name,drafted_by,teams,position,s
 2011,80,3,20,S,Henderson Alvarez,Seattle Mariners,SF/HOU/ATL,SP,5,3.9,3.8,0.0,0.0,,,,,,,,,,,,,,24,40,0,103,97,5,2,310,586.7,3.98,3.98,106,106
 2011,81,3,21,S,Josh Collmenter,Cleveland Indians,CLE/BOS,SP,7,0.9,2.0,1.3,2.2,,,,,,,,,,,,,,48,69,2,225,153,5,2,769,1052.0,4.41,4.31,117,114
 2011,82,3,22,S,Enny Romero,Detroit Tigers,DET,SP,1,-0.3,-0.7,-0.3,-0.7,,,,,,,,,,,,,,5,6,12,62,0,0,0,90,83.3,4.31,4.69,113,123
-2011,83,3,23,S,Sebastien Valle,Milwaukee Brewers,,C,0,,,0.0,0.0,,,,,,,,,,,,,,,,,,,,,,,,,,
+2011,83,3,23,S,Sebastian Valle,Milwaukee Brewers,ATL,C,1,-0.5,-0.6,0.0,0.0,191,185,34,3,1,0.184,0.204,0.265,0.469,0.203,34,18,-15.9,,,,,,,,,,,,,
 2011,84,3,24,S,Carlos Perez,Detroit Tigers,NYY,SP,4,-0.5,-0.3,0.0,0.0,626,579,110,14,12,0.190,0.241,0.297,0.538,0.240,51,44,-36.4,,,,,,,,,,,,,
 2011,85,3,25,S,Michael Stutes,Cleveland Indians,CLE/HOU,RP,2,0.0,-0.3,0.0,0.0,,,,,,,,,,,,,,0,1,0,10,0,0,0,6,10.4,3.92,5.61,105,151
 2011,86,3,26,S,Drew Hutchison,Colorado Rockies,MIA,SP,1,0.7,1.3,0.0,0.0,,,,,,,,,,,,,,6,3,0,12,12,0,0,69,74.7,3.84,3.27,99,84
@@ -811,7 +811,7 @@ draft_year,overall,round,pick,draft_type,player_name,drafted_by,teams,position,s
 2011,13,1,13,W,Chris Reed,Detroit Tigers,DET,SP,1,-1.4,-1.0,-1.4,-1.0,,,,,,,,,,,,,,1,2,0,17,1,0,0,14,26.3,8.13,6.68,223,183
 2011,14,1,14,W,Adonys Cardona,San Francisco Giants,,SP,0,,,0.0,0.0,,,,,,,,,,,,,,,,,,,,,,,,,,
 2011,15,1,15,W,Eddie Rosario,Miami Marlins,MIA/PHI,2B,4,12.1,7.8,4.8,3.4,2087,1954,541,84,25,0.277,0.313,0.469,0.782,0.334,115,114,31.0,,,,,,,,,,,,,
-2011,16,1,16,W,Marcel Ozuna,Houston Astros,,OF,0,,,0.0,0.0,,,,,,,,,,,,,,,,,,,,,,,,,,
+2011,16,1,16,W,Marcell Ozuna,Houston Astros,PIT/DET/NYM,OF,6,11.5,8.8,0.0,0.0,2936,2705,685,96,33,0.253,0.306,0.420,0.727,0.314,104,102,7.7,,,,,,,,,,,,,
 2011,17,1,17,W,Salvador Perez,New York Yankees,NYY/TOR/TEX/SD,C,9,19.6,18.3,2.8,2.5,4818,4596,1140,165,5,0.248,0.276,0.410,0.687,0.296,91,88,-60.8,,,,,,,,,,,,,
 2011,18,1,18,W,Garin Cecchini,San Diego Padres,SD,3B,2,7.3,5.7,7.3,5.7,928,845,249,8,42,0.295,0.351,0.405,0.756,0.333,120,123,21.9,,,,,,,,,,,,,
 2011,19,1,19,W,Wily Peralta,Arizona Diamondbacks,,SP,0,,,0.0,0.0,,,,,,,,,,,,,,,,,,,,,,,,,,
@@ -838,7 +838,7 @@ draft_year,overall,round,pick,draft_type,player_name,drafted_by,teams,position,s
 2012,10,1,10,S,Lucas Giolito,Boston Red Sox,BOS/PIT,SP,4,1.0,2.3,-0.7,-0.1,,,,,,,,,,,,,,13,18,0,45,45,1,1,303,262.0,4.51,3.98,116,102
 2012,11,1,11,S,Kyle Zimmer,Oakland Athletics,,SP,0,,,0.0,0.0,,,,,,,,,,,,,,,,,,,,,,,,,,
 2012,12,1,12,S,Max Fried,Oakland Athletics,OAK,SP,1,5.4,3.7,5.4,3.7,,,,,,,,,,,,,,13,6,0,33,32,1,1,188,188.7,2.61,3.26,64,80
-2012,13,1,13,S,Kyle Seager,Pittsburgh Pirates,PIT/NYM/DET,3B,9,26.5,21.4,15.4,10.9,4632,4140,1068,118,74,0.258,0.328,0.404,0.732,0.321,108,109,42.7,,,,,,,,,,,,,
+2012,13,1,13,S,Kyle Seager,Pittsburgh Pirates,PIT/DET/NYM,3B,9,26.5,21.4,15.4,10.9,4632,4140,1068,118,74,0.258,0.328,0.404,0.732,0.321,108,109,42.7,,,,,,,,,,,,,
 2012,14,1,14,S,Justin Grimm,Los Angeles Dodgers,LAD,SP,4,-1.7,0.3,-1.7,0.3,,,,,,,,,,,,,,19,31,30,207,26,1,1,304,335.3,4.55,4.05,123,109
 2012,15,1,15,S,Tong Cingrani,Miami Marlins,,SP,0,,,0.0,0.0,,,,,,,,,,,,,,,,,,,,,,,,,,
 2012,16,1,16,S,Albert Almora,Houston Astros,HOU,OF,1,0.1,0.0,0.1,0.0,578,546,131,8,14,0.240,0.273,0.324,0.598,0.263,70,65,-21.4,,,,,,,,,,,,,
@@ -861,7 +861,7 @@ draft_year,overall,round,pick,draft_type,player_name,drafted_by,teams,position,s
 2012,33,2,3,S,Marcus Stroman,Kansas City Royals,ATL/MIL/TOR/CHW,SP,7,11.0,13.1,0.0,0.0,,,,,,,,,,,,,,72,61,6,245,177,5,3,982,1158.1,3.80,3.66,99,95
 2012,34,2,4,S,Luis Heredia,Chicago Cubs,,SP,0,,,0.0,0.0,,,,,,,,,,,,,,,,,,,,,,,,,,
 2012,35,2,5,S,Clayton Blackburn,Colorado Rockies,SEA,SP,2,4.3,3.5,0.0,0.0,,,,,,,,,,,,,,31,14,0,69,69,1,1,343,423.3,3.65,3.78,98,101
-2012,36,2,6,S,Dan Straily,Los Angeles Dodgers,LAD/PIT/WAS,SP,4,-1.7,1.3,-2.0,1.1,,,,,,,,,,,,,,21,31,1,93,82,0,0,416,472.0,4.78,4.25,127,112
+2012,36,2,6,S,Dan Straily,Los Angeles Dodgers,LAD/WAS/PIT,SP,4,-1.7,1.3,-2.0,1.1,,,,,,,,,,,,,,21,31,1,93,82,0,0,416,472.0,4.78,4.25,127,112
 2012,37,2,7,S,Rob Brantly,Chicago White Sox,CHW/TOR/NYY/MIL,C,3,3.7,3.5,0.6,0.5,777,736,195,22,2,0.265,0.295,0.404,0.698,0.304,94,92,-6.5,,,,,,,,,,,,,
 2012,38,2,8,S,Austin Hedges,Colorado Rockies,SF,C,5,4.1,3.4,0.0,0.0,1498,1410,322,37,14,0.228,0.266,0.357,0.622,0.271,78,73,-41.4,,,,,,,,,,,,,
 2012,39,2,9,S,Brad Miller,Toronto Blue Jays,TOR/CIN/TB/LAA,SS,7,14.1,12.5,1.0,0.4,2668,2376,573,79,16,0.241,0.317,0.404,0.721,0.316,106,106,18.4,,,,,,,,,,,,,
@@ -876,13 +876,13 @@ draft_year,overall,round,pick,draft_type,player_name,drafted_by,teams,position,s
 2012,48,2,18,S,Corey Seager,Milwaukee Brewers,LAA,3B,4,10.0,8.3,0.0,0.0,2710,2456,569,63,25,0.232,0.299,0.364,0.663,0.293,88,87,-36.8,,,,,,,,,,,,,
 2012,49,2,19,S,Ryan Wheeler,Miami Marlins,MIA,3B,2,0.2,-0.4,0.2,-0.4,373,349,75,6,2,0.215,0.257,0.318,0.575,0.254,61,54,-18.0,,,,,,,,,,,,,
 2012,50,2,20,S,Ryan Cook,Boston Red Sox,BOS/TOR,RP,3,-2.0,0.9,-3.1,0.6,,,,,,,,,,,,,,17,19,20,176,1,0,0,204,214.3,4.78,3.74,124,97
-2012,51,2,21,S,Lance McCullers Jr.,New York Mets,NYM/CHW,SP,4,5.2,8.1,4.3,6.7,,,,,,,,,,,,,,21,44,0,108,106,0,0,664,607.0,3.92,3.54,102,92
+2012,51,2,21,S,Lance McCullers Jr.,New York Mets,CHW/NYM,SP,4,5.2,8.1,4.3,6.7,,,,,,,,,,,,,,21,44,0,108,106,0,0,664,607.0,3.92,3.54,102,92
 2012,52,2,22,S,Tyler Moore,Boston Red Sox,BOS,1B,2,1.1,0.4,1.1,0.4,775,723,179,24,5,0.248,0.293,0.409,0.702,0.306,93,92,-6.3,,,,,,,,,,,,,
 2012,53,2,23,S,Richie Shaffer,Minnesota Twins,,1B,0,,,0.0,0.0,,,,,,,,,,,,,,,,,,,,,,,,,,
 2012,54,2,24,S,Kelvin Herrera,St. Louis Cardinals,STL/SF/TOR/NYY,RP,7,0.8,5.6,0.1,0.9,,,,,,,,,,,,,,35,35,25,503,0,0,0,628,582.6,3.84,3.24,102,86
 2012,55,2,25,S,Courtney Hawkins,Minnesota Twins,,OF,0,,,0.0,0.0,,,,,,,,,,,,,,,,,,,,,,,,,,
 2012,56,2,26,S,Strker Trahan,Milwaukee Brewers,,C,0,,,0.0,0.0,,,,,,,,,,,,,,,,,,,,,,,,,,
-2012,57,2,27,S,Eugenio Suarez,Toronto Blue Jays,CIN/TOR,SS,6,12.1,11.8,8.8,8.2,2802,2511,585,122,41,0.233,0.304,0.433,0.737,0.318,105,105,14.1,,,,,,,,,,,,,
+2012,57,2,27,S,Eugenio Suarez,Toronto Blue Jays,TOR/CIN,SS,6,12.1,11.8,8.8,8.2,2802,2511,585,122,41,0.233,0.304,0.433,0.737,0.318,105,105,14.1,,,,,,,,,,,,,
 2012,58,2,28,S,Ariel Pena,Washington Nationals,,SP,0,,,0.0,0.0,,,,,,,,,,,,,,,,,,,,,,,,,,
 2012,59,2,29,S,Jose Vinicio,Tampa Bay Rays,,SS,0,,,0.0,0.0,,,,,,,,,,,,,,,,,,,,,,,,,,
 2012,60,2,30,S,Ty Hensley,San Francisco Giants,,SP,0,,,0.0,0.0,,,,,,,,,,,,,,,,,,,,,,,,,,
@@ -910,7 +910,7 @@ draft_year,overall,round,pick,draft_type,player_name,drafted_by,teams,position,s
 2012,82,3,22,S,Tommy La Stella,Chicago White Sox,CHW/MIN/NYY,2B,7,6.4,4.8,7.5,4.9,2993,2706,662,35,33,0.245,0.310,0.340,0.650,0.290,82,81,-61.4,,,,,,,,,,,,,
 2012,83,3,23,S,Lewis Brinson,Cleveland Indians,BAL,OF,1,-0.4,-0.6,0.0,0.0,107,99,17,1,6,0.172,0.215,0.263,0.478,0.215,33,24,-8.5,,,,,,,,,,,,,
 2012,84,3,24,S,Dillon Howard,Cleveland Indians,,SP,0,,,0.0,0.0,,,,,,,,,,,,,,,,,,,,,,,,,,
-2012,85,3,25,S,Joe Kelly,Pittsburgh Pirates,PIT/TOR/MIL/WAS/COL/PHI,SP,8,-1.8,-2.0,-0.6,-0.5,,,,,,,,,,,,,,33,42,15,415,53,1,1,570,725.8,4.39,4.40,115,115
+2012,85,3,25,S,Joe Kelly,Pittsburgh Pirates,TOR/PIT/MIL/WAS/COL/PHI,SP,8,-1.8,-2.0,-0.6,-0.5,,,,,,,,,,,,,,33,42,15,415,53,1,1,570,725.8,4.39,4.40,115,115
 2012,86,3,26,S,Nick Travesio,Cleveland Indians,,SP,0,,,0.0,0.0,,,,,,,,,,,,,,,,,,,,,,,,,,
 2012,87,3,27,S,Adam Conley,Chicago Cubs,CHC/AZ,SP,4,-0.2,-1.1,-0.1,-1.1,,,,,,,,,,,,,,20,21,9,128,38,0,0,205,291.3,4.37,4.62,114,120
 2012,88,3,28,S,Gregory Polanco,Colorado Rockies,NYY,OF,2,2.9,2.4,0.0,0.0,1298,1170,263,51,43,0.225,0.298,0.416,0.714,0.313,95,95,-6.8,,,,,,,,,,,,,
@@ -923,7 +923,7 @@ draft_year,overall,round,pick,draft_type,player_name,drafted_by,teams,position,s
 2012,95,4,5,S,Nick Tropeano,Seattle Mariners,MIL/TOR/WAS,SP,4,-4.4,-1.2,0.0,0.0,,,,,,,,,,,,,,11,21,0,50,44,0,0,220,227.4,6.47,5.11,166,130
 2012,96,4,6,S,Domingo Santana,Boston Red Sox,BOS/AZ/SEA,OF,5,10.3,11.3,2.3,1.7,3038,2681,658,126,12,0.245,0.328,0.446,0.774,0.335,114,115,47.5,,,,,,,,,,,,,
 2012,97,4,7,S,Matt Smoral,Tampa Bay Rays,,SP,0,,,0.0,0.0,,,,,,,,,,,,,,,,,,,,,,,,,,
-2012,98,4,8,S,Jesus Aguilar,Texas Rangers,ATL/MIA/PIT,1B,3,0.9,0.8,0.0,0.0,774,698,158,30,2,0.226,0.293,0.390,0.683,0.299,90,89,-8.7,,,,,,,,,,,,,
+2012,98,4,8,S,Jesus Aguilar,Texas Rangers,MIA/ATL/PIT,1B,3,0.9,0.8,0.0,0.0,774,698,158,30,2,0.226,0.293,0.390,0.683,0.299,90,89,-8.7,,,,,,,,,,,,,
 2012,99,4,9,S,Will Swanner,Washington Nationals,MIA,C,1,-0.2,-0.2,0.0,0.0,32,31,4,1,1,0.129,0.156,0.290,0.447,0.198,24,12,-2.8,,,,,,,,,,,,,
 2012,100,4,10,S,Alfredo Marte,Boston Red Sox,BOS,OF,2,0.9,0.5,0.9,0.5,529,497,133,8,3,0.268,0.308,0.398,0.707,0.303,94,89,-6.1,,,,,,,,,,,,,
 2012,101,4,11,S,Jake Petricka,Cleveland Indians,CLE,SP,4,0.2,-1.0,0.2,-1.0,,,,,,,,,,,,,,14,10,8,213,1,0,0,220,272.6,3.97,4.30,104,111
@@ -947,7 +947,7 @@ draft_year,overall,round,pick,draft_type,player_name,drafted_by,teams,position,s
 2012,119,4,29,S,Jonathan Pettibone,Cleveland Indians,,SP,0,,,0.0,0.0,,,,,,,,,,,,,,,,,,,,,,,,,,
 2012,120,4,30,S,Anthony Garcia,Seattle Mariners,MIA,OF,1,0.1,0.1,0.0,0.0,20,17,4,1,0,0.235,0.350,0.471,0.821,0.358,123,127,0.6,,,,,,,,,,,,,
 2012,1,1,1,W,Victor Sanchez,Boston Red Sox,,SP,0,,,0.0,0.0,,,,,,,,,,,,,,,,,,,,,,,,,,
-2012,2,1,2,W,Carter Capps,St. Louis Cardinals,STL/SD/HOU/CHW,RP,5,0.4,2.5,-0.7,-0.1,,,,,,,,,,,,,,17,24,56,284,0,0,0,401,339.1,3.82,3.39,102,91
+2012,2,1,2,W,Carter Capps,St. Louis Cardinals,STL/HOU/SD/CHW,RP,5,0.4,2.5,-0.7,-0.1,,,,,,,,,,,,,,17,24,56,284,0,0,0,401,339.1,3.82,3.39,102,91
 2012,3,1,3,W,Dorssys Paulino,Los Angeles Angels,NYM,SS,1,-0.5,0.3,0.0,0.0,614,545,117,16,8,0.215,0.295,0.360,0.654,0.288,86,84,-10.4,,,,,,,,,,,,,
 2012,4,1,4,W,Jorge Soler,New York Yankees,NYY/CHW/MIL,OF,6,3.5,6.0,0.7,0.2,2141,1891,449,86,23,0.237,0.321,0.427,0.748,0.327,106,107,16.4,,,,,,,,,,,,,
 2012,5,1,5,W,Bruce Rondon,Cincinnati Reds,CIN,RP,4,0.0,0.7,0.0,0.7,,,,,,,,,,,,,,11,8,8,131,0,0,0,162,143.0,4.00,3.56,106,95
@@ -1029,7 +1029,7 @@ draft_year,overall,round,pick,draft_type,player_name,drafted_by,teams,position,s
 2013,51,2,21,S,Kyle Schwarber,Cleveland Indians,CLE/PIT,C,6,5.9,7.0,5.5,6.8,3020,2669,564,141,32,0.211,0.295,0.410,0.705,0.307,98,98,-5.3,,,,,,,,,,,,,
 2013,52,2,22,S,Joe Terdoslavich,Seattle Mariners,,1B,0,,,0.0,0.0,,,,,,,,,,,,,,,,,,,,,,,,,,
 2013,53,2,23,S,Jordy Mercer,Pittsburgh Pirates,PIT/PHI/ATL,SS,6,6.8,4.4,2.2,1.4,2693,2457,566,39,25,0.230,0.286,0.340,0.626,0.275,77,72,-76.4,,,,,,,,,,,,,
-2013,54,2,24,S,Taylor Lindsay,Cleveland Indians,,2B,0,,,0.0,0.0,,,,,,,,,,,,,,,,,,,,,,,,,,
+2013,54,2,24,S,Taylor Lindsey,Cleveland Indians,LAA,2B,1,0.0,0.0,0.0,0.0,36,33,8,0,1,0.242,0.306,0.242,0.548,0.260,60,62,-1.4,,,,,,,,,,,,,
 2013,55,2,25,S,Alex Bregman,Chicago Cubs,CHC,SS,3,14.1,15.1,14.1,15.1,2085,1836,494,85,51,0.269,0.353,0.483,0.836,0.361,129,132,72.2,,,,,,,,,,,,,
 2013,56,2,26,S,Derek Dietrich,Baltimore Orioles,BAL/TEX/AZ,2B,8,6.1,5.0,4.1,2.5,2507,2231,508,82,11,0.228,0.306,0.403,0.709,0.311,96,96,-11.1,,,,,,,,,,,,,
 2013,57,2,27,S,--skipped--,Los Angeles Dodgers,,,0,,,0.0,0.0,,,,,,,,,,,,,,,,,,,,,,,,,,
@@ -1064,7 +1064,7 @@ draft_year,overall,round,pick,draft_type,player_name,drafted_by,teams,position,s
 2013,86,3,26,S,Kevin Plawecki,Baltimore Orioles,WAS/COL,C,4,4.0,4.4,0.0,0.0,846,748,197,19,0,0.263,0.340,0.401,0.741,0.327,99,99,-1.1,,,,,,,,,,,,,
 2013,87,3,27,S,Ross Stripling,Seattle Mariners,NYY,SP,4,1.1,1.3,0.0,0.0,,,,,,,,,,,,,,30,42,0,113,113,1,0,577,647.7,4.58,4.55,116,115
 2013,88,3,28,S,Blake Snell,Atlanta Braves,ATL,SP,4,13.7,13.8,13.7,13.8,,,,,,,,,,,,,,39,33,1,134,128,1,1,877,717.7,3.15,3.14,81,81
-2013,89,3,29,S,A.J. Jimenez,New York Mets,NYM/CHW,C,2,-0.1,-0.2,0.0,0.0,97,93,21,0,1,0.226,0.247,0.269,0.516,0.222,47,30,-6.9,,,,,,,,,,,,,
+2013,89,3,29,S,A.J. Jimenez,New York Mets,CHW/NYM,C,2,-0.1,-0.2,0.0,0.0,97,93,21,0,1,0.226,0.247,0.269,0.516,0.222,47,30,-6.9,,,,,,,,,,,,,
 2013,90,3,30,S,Rio Ruiz,New York Mets,SF,3B,1,-0.7,-0.7,0.0,0.0,109,98,13,1,0,0.133,0.202,0.204,0.406,0.187,16,7,-11.1,,,,,,,,,,,,,
 2013,91,4,1,S,Jimmy Nelson,Boston Red Sox,BOS,SP,5,2.6,5.5,2.6,5.5,,,,,,,,,,,,,,48,51,2,183,125,2,2,695,804.3,4.31,4.03,111,103
 2013,92,4,2,S,Nomar Mazara,St. Louis Cardinals,BOS/HOU,OF,4,5.6,4.1,0.0,0.0,2105,1917,465,71,15,0.243,0.305,0.397,0.702,0.306,98,97,-6.0,,,,,,,,,,,,,
@@ -1100,7 +1100,7 @@ draft_year,overall,round,pick,draft_type,player_name,drafted_by,teams,position,s
 2013,2,1,2,W,Brett Oberholtzer,Cleveland Indians,PHI,SP,3,0.7,0.9,0.0,0.0,,,,,,,,,,,,,,10,21,0,57,51,0,0,229,297.3,4.30,4.21,115,113
 2013,3,1,3,W,Asher Wojciechowski,Atlanta Braves,ATL,SP,1,-2.1,-2.0,-2.1,-2.0,,,,,,,,,,,,,,5,7,4,71,0,0,0,62,76.0,6.16,6.03,163,159
 2013,4,1,4,W,Burch Smith,Boston Red Sox,BOS,SP,2,-0.5,1.9,-0.5,1.9,,,,,,,,,,,,,,11,11,1,64,23,0,0,180,199.3,4.55,3.62,120,95
-2013,5,1,5,W,Marcus Semien,St. Louis Cardinals,BOS/STL/SEA/MIN,2B,7,16.8,14.9,5.0,3.3,3243,2922,716,99,75,0.245,0.314,0.409,0.723,0.317,101,102,7.7,,,,,,,,,,,,,
+2013,5,1,5,W,Marcus Semien,St. Louis Cardinals,STL/SEA/MIN/BOS,2B,7,16.8,14.9,5.0,3.3,3243,2922,716,99,75,0.245,0.314,0.409,0.723,0.317,101,102,7.7,,,,,,,,,,,,,
 2013,6,1,6,W,Rafael de Paula,Miami Marlins,PIT,SP,2,0.6,0.4,0.0,0.0,,,,,,,,,,,,,,6,6,9,65,2,0,0,116,99.3,3.61,3.71,95,98
 2013,7,1,7,W,Harold Ramirez,San Diego Padres,,OF,0,,,0.0,0.0,,,,,,,,,,,,,,,,,,,,,,,,,,
 2013,8,1,8,W,Seth Mejias-Brean,Minnesota Twins,,3B,0,,,0.0,0.0,,,,,,,,,,,,,,,,,,,,,,,,,,
@@ -1215,7 +1215,7 @@ draft_year,overall,round,pick,draft_type,player_name,drafted_by,teams,position,s
 2014,87,3,27,S,Dylan Cease,Houston Astros,,SP,0,,,0.0,0.0,,,,,,,,,,,,,,,,,,,,,,,,,,
 2014,88,3,28,S,Greg Deichmann,Houston Astros,,SS,0,,,0.0,0.0,,,,,,,,,,,,,,,,,,,,,,,,,,
 2014,89,3,29,S,James Kaprielian,Baltimore Orioles,,SP,0,,,0.0,0.0,,,,,,,,,,,,,,,,,,,,,,,,,,
-2014,90,3,30,S,Jacob deGrom,Washington Nationals,WAS/SD,SP,6,25.4,21.7,1.5,0.7,,,,,,,,,,,,,,74,40,1,180,175,6,4,1255,1175.7,2.90,3.11,77,82
+2014,90,3,30,S,Jacob deGrom,Washington Nationals,SD/WAS,SP,6,25.4,21.7,1.5,0.7,,,,,,,,,,,,,,74,40,1,180,175,6,4,1255,1175.7,2.90,3.11,77,82
 2014,91,4,1,S,Taylor Hill,Los Angeles Angels,LAA,SP,3,-0.1,-1.5,-0.1,-1.5,,,,,,,,,,,,,,7,15,1,80,29,2,0,148,267.7,4.19,4.64,113,125
 2014,92,4,2,S,Charlie Tilson,Atlanta Braves,ATL,OF,3,-1.2,-1.1,-1.2,-1.1,293,266,51,2,9,0.192,0.263,0.252,0.515,0.233,47,40,-18.1,,,,,,,,,,,,,
 2014,93,4,3,S,Jose Rondon,Los Angeles Dodgers,,SS,0,,,0.0,0.0,,,,,,,,,,,,,,,,,,,,,,,,,,
@@ -1308,7 +1308,7 @@ draft_year,overall,round,pick,draft_type,player_name,drafted_by,teams,position,s
 2015,30,1,30,S,Connor Jones,Oakland Athletics,,SP,0,,,0.0,0.0,,,,,,,,,,,,,,,,,,,,,,,,,,
 2015,31,2,1,S,Scott Blewett,St. Louis Cardinals,,SP,0,,,0.0,0.0,,,,,,,,,,,,,,,,,,,,,,,,,,
 2015,32,2,2,S,Matt Boyd,Toronto Blue Jays,ATL,SP,1,2.3,2.5,0.0,0.0,,,,,,,,,,,,,,10,8,0,32,32,1,0,207,187.3,3.80,3.70,94,91
-2015,33,2,3,S,Raisel Iglesias,Chicago White Sox,NYM/CHW,SP,5,2.0,3.3,1.9,2.1,,,,,,,,,,,,,,38,22,46,254,31,2,1,456,461.3,3.95,3.73,103,98
+2015,33,2,3,S,Raisel Iglesias,Chicago White Sox,CHW/NYM,SP,5,2.0,3.3,1.9,2.1,,,,,,,,,,,,,,38,22,46,254,31,2,1,456,461.3,3.95,3.73,103,98
 2015,34,2,4,S,Jalen Miller,Atlanta Braves,,SS,0,,,0.0,0.0,,,,,,,,,,,,,,,,,,,,,,,,,,
 2015,35,2,5,S,Scott Kingery,Philadelphia Phillies,PHI,2B,1,3.6,3.1,3.6,3.1,550,500,137,23,14,0.274,0.331,0.464,0.795,0.339,116,114,8.4,,,,,,,,,,,,,
 2015,36,2,6,S,Alex Verdugo,Texas Rangers,TEX,OF,2,3.4,2.8,3.4,2.8,780,722,201,29,18,0.278,0.324,0.461,0.786,0.340,109,110,8.8,,,,,,,,,,,,,
@@ -1536,7 +1536,7 @@ draft_year,overall,round,pick,draft_type,player_name,drafted_by,teams,position,s
 2016,108,4,18,S,Cole Stobbe,Los Angeles Dodgers,,3B,0,,,0.0,0.0,,,,,,,,,,,,,,,,,,,,,,,,,,
 2016,109,4,19,S,Luis Alejandro Basabe,Colorado Rockies,,2B,0,,,0.0,0.0,,,,,,,,,,,,,,,,,,,,,,,,,,
 2016,110,4,20,S,Felipe Vazquez,Tampa Bay Rays,TB/TEX/NYM,RP,5,4.1,4.8,1.0,0.1,,,,,,,,,,,,,,23,23,74,264,0,0,0,414,332.0,3.17,3.01,81,77
-2016,111,4,21,S,Isaiah White,Detroit Tigers,,OF,0,,,0.0,0.0,,,,,,,,,,,,,,,,,,,,,,,,,,
+2016,111,4,21,S,Zeek White,Detroit Tigers,,OF,0,,,0.0,0.0,,,,,,,,,,,,,,,,,,,,,,,,,,
 2016,112,4,22,S,Josh Sborz,Kansas City Royals,MIL,SP,2,0.5,0.1,0.0,0.0,,,,,,,,,,,,,,4,4,2,70,0,0,0,92,78.7,3.65,3.97,92,100
 2016,113,4,23,S,Dietrich Enns,Pittsburgh Pirates,LAA,SP,1,0.6,0.6,0.0,0.0,,,,,,,,,,,,,,2,4,0,7,7,0,0,26,39.7,3.36,3.23,90,86
 2016,114,4,24,S,Robert Gsellman,Milwaukee Brewers,MIL/MIA,SP,3,2.0,2.1,-0.6,0.1,,,,,,,,,,,,,,16,18,0,65,51,1,1,231,290.4,4.05,3.97,105,103
@@ -1707,7 +1707,7 @@ draft_year,overall,round,pick,draft_type,player_name,drafted_by,teams,position,s
 2017,9,1,9,W,Trevor Oaks,Los Angeles Angels,LAA,SP,2,1.5,1.4,1.5,1.4,,,,,,,,,,,,,,11,14,0,39,39,2,1,140,241.4,4.05,4.07,107,108
 2017,10,1,10,W,Corbin Martin,Minnesota Twins,MIN,SP,1,-2.3,-2.7,-2.3,-2.7,,,,,,,,,,,,,,0,5,2,60,0,0,0,58,80.3,6.37,6.79,164,174
 2017,11,1,11,W,Aramis Ademan,Los Angeles Dodgers,,SS,0,,,0.0,0.0,,,,,,,,,,,,,,,,,,,,,,,,,,
-2017,12,1,12,W,Jesus Luzardo,Milwaukee Brewers,COL/MIL,SP,2,3.8,3.3,3.6,2.9,,,,,,,,,,,,,,15,5,2,58,46,0,0,243,235.7,3.38,3.57,84,88
+2017,12,1,12,W,Jesus Luzardo,Milwaukee Brewers,MIL/COL,SP,2,3.8,3.3,3.6,2.9,,,,,,,,,,,,,,15,5,2,58,46,0,0,243,235.7,3.38,3.57,84,88
 2017,13,1,13,W,Jose Siri,Cleveland Indians,CLE,OF,1,0.0,-0.1,0.0,-0.1,103,94,16,3,7,0.170,0.243,0.340,0.583,0.263,60,61,-4.5,,,,,,,,,,,,,
 2017,14,1,14,W,Tristan Lutz,Boston Red Sox,,OF,0,,,0.0,0.0,,,,,,,,,,,,,,,,,,,,,,,,,,
 2017,15,1,15,W,Wander Javier,Toronto Blue Jays,,SS,0,,,0.0,0.0,,,,,,,,,,,,,,,,,,,,,,,,,,
@@ -1965,7 +1965,7 @@ draft_year,overall,round,pick,draft_type,player_name,drafted_by,teams,position,s
 2019,87,3,27,S,Yunior Severino,Chicago White Sox,,2B,0,,,0.0,0.0,,,,,,,,,,,,,,,,,,,,,,,,,,
 2019,88,3,28,S,Hunter Barco,Milwaukee Brewers,,SP,0,,,0.0,0.0,,,,,,,,,,,,,,,,,,,,,,,,,,
 2019,89,3,29,S,Junior Santos,Atlanta Braves,,SP,0,,,0.0,0.0,,,,,,,,,,,,,,,,,,,,,,,,,,
-2019,90,3,30,S,Jose Urquidy,New York Mets,NYM/MIL,SP,1,-0.4,0.8,0.1,0.9,,,,,,,,,,,,,,3,8,0,23,17,0,0,111,104.4,5.13,4.13,127,102
+2019,90,3,30,S,Jose Urquidy,New York Mets,MIL/NYM,SP,1,-0.4,0.8,0.1,0.9,,,,,,,,,,,,,,3,8,0,23,17,0,0,111,104.4,5.13,4.13,127,102
 2019,91,4,1,S,Davis Wendzel,Minnesota Twins,,3B,0,,,0.0,0.0,,,,,,,,,,,,,,,,,,,,,,,,,,
 2019,92,4,2,S,Tarik Skubal,Colorado Rockies,,SP,0,,,0.0,0.0,,,,,,,,,,,,,,,,,,,,,,,,,,
 2019,93,4,3,S,Cal Raleigh,Milwaukee Brewers,,C,0,,,0.0,0.0,,,,,,,,,,,,,,,,,,,,,,,,,,

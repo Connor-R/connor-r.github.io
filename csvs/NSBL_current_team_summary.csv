@@ -1,31 +1,31 @@
 year,gp,date,team_abb,team_name,league,division,base_cap,prev_reserves,buyout,traded_cash,total_cap,payroll,cap_room,debt_load,active_roster,reserve_roster,IL,Total,GM,GM_email
-2021,0,2021-03-14,ARI,Arizona Diamondbacks,NL,West,153.175,0.626,0.000,0.250,154.051,127.707,26.344,103.787,20,28,0,48,Ian Hall,ian.hobart.hall@gmail.com
-2021,0,2021-03-14,ATL,Atlanta Braves,NL,East,132.900,8.164,0.000,0.000,140.739,96.907,43.832,101.937,6,21,0,27,Pat Padula,ppadula14@gmail.com
-2021,0,2021-03-14,BAL,Baltimore Orioles,AL,East,158.545,-4.292,0.000,-11.750,141.859,136.665,5.194,69.111,24,31,0,55,Ty Duncan,tduncanolb@gmail.com
-2021,0,2021-03-14,BOS,Boston Red Sox,AL,East,122.740,2.244,0.000,0.000,124.984,81.817,43.167,67.290,14,36,0,50,Timothy Farmer,bsml.lp2@gmail.com
-2021,0,2021-03-14,CHC,Chicago Cubs,NL,Central,141.485,0.300,0.000,-48.194,93.591,78.688,14.903,78.500,12,42,0,54,Joe Clark,sirkit76@hotmail.com
-2021,0,2021-03-14,CHW,Chicago White Sox,AL,Central,163.445,-3.143,0.000,0.000,159.831,133.371,26.460,148.978,20,26,0,46,Matt Hopkins,matthoppy92@gmail.com
-2021,0,2021-03-14,CIN,Cincinnati Reds,NL,Central,131.730,0.953,0.000,16.500,149.183,123.371,25.812,233.987,9,29,0,38,Colby Hubbard,hubbardc1@gmail.com
-2021,0,2021-03-14,CLE,Cleveland Indians,AL,Central,122.800,15.660,-2.761,-7.975,126.689,30.367,96.322,0.160,14,32,0,46,Dan Claycomb,dlc254@gmail.com
-2021,0,2021-03-14,COL,Colorado Rockies,NL,West,167.830,0.466,0.000,-6.650,161.646,69.272,92.374,18.609,17,29,0,46,Brian Emark,emark311@yahoo.com
-2021,0,2021-03-14,DET,Detroit Tigers,AL,Central,142.660,0.054,0.000,13.100,155.814,147.157,8.657,55.958,25,21,0,46,Bob Fecca,rsfecca@gmail.com
-2021,0,2021-03-14,HOU,Houston Astros,AL,West,109.225,0.192,0.000,0.000,109.417,75.114,34.303,109.142,13,45,0,58,Mark Nestor,nestorm15@yahoo.com
-2021,0,2021-03-14,KC,Kansas City Royals,AL,Central,138.330,-2.582,0.000,5.000,140.361,111.326,29.035,18.076,16,30,0,46,Nathan Feuerer,nfeuerer@yahoo.com
-2021,0,2021-03-14,LAA,Los Angeles Angels,AL,West,137.785,8.092,0.000,-1.000,144.563,113.414,31.149,41.948,18,30,0,48,John McGee,jm3714@gmail.com
-2021,0,2021-03-14,LAD,Los Angeles Dodgers,NL,West,137.530,4.750,0.000,0.000,142.280,111.352,30.928,63.320,12,35,0,47,Rich Cooper,r_cooper_29@hotmail.com
-2021,0,2021-03-14,MIA,Miami Marlins,NL,East,149.335,3.010,0.000,75.449,227.794,206.126,21.668,358.038,24,24,0,48,Ed Schwabeland,edschwabeland@yahoo.com
-2021,0,2021-03-14,MIL,Milwaukee Brewers,NL,Central,125.800,0.017,0.000,-1.000,124.817,108.693,16.124,196.457,21,30,0,51,Sean Ramsey,quixquazquan@gmail.com
-2021,0,2021-03-14,MIN,Minnesota Twins,AL,Central,112.330,25.461,-23.360,-9.400,105.031,56.860,48.171,173.728,15,27,0,42,Jason Bersani,parkbench@gmail.com
-2021,0,2021-03-14,NYM,New York Mets,NL,East,154.895,1.997,0.000,15.000,171.892,158.976,12.916,9.391,23,32,0,55,Hayes Kern,hayeskern@gmail.com
-2021,0,2021-03-14,NYY,New York Yankees,AL,East,124.610,1.643,0.000,0.000,126.253,106.765,19.488,105.445,24,24,0,48,Shawn Kienast,shawnkienast9@gmail.com
-2021,0,2021-03-14,OAK,Oakland Athletics,AL,West,158.875,0.602,0.000,0.000,159.477,64.969,94.508,15.333,10,37,0,47,Jeff Reese,jr92@comcast.net
-2021,0,2021-03-14,PHI,Philadelphia Phillies,NL,East,115.175,7.510,0.000,0.000,122.459,65.759,56.700,7.275,15,36,0,51,Michael Lucey,ewct05@yahoo.com
-2021,0,2021-03-14,PIT,Pittsburgh Pirates,NL,Central,160.035,-3.752,0.000,0.875,156.595,154.927,1.668,43.398,15,38,0,53,Jim Krug,jameskrug@gmail.com
-2021,0,2021-03-14,SD,San Diego Padres,NL,West,160.955,-0.278,0.000,14.170,174.805,107.315,67.490,34.042,13,16,0,29,Deron Crawford,deroncrawford1@gmail.com
-2021,0,2021-03-14,SEA,Seattle Mariners,AL,West,141.480,0.495,0.000,-15.100,126.875,70.493,56.382,165.455,8,36,0,44,Patrick Haight,patrick_haight@comcast.com or phaight76@yahoo.com
-2021,0,2021-03-14,SF,San Francisco Giants,NL,West,115.855,5.451,-0.165,0.000,121.141,93.469,27.672,35.109,16,32,0,48,Travis Smith,tjsmith7@sbcglobal.net
-2021,0,2021-03-14,STL,St. Louis Cardinals,NL,Central,136.535,19.456,0.000,0.000,153.973,87.508,66.465,86.261,15,36,0,51,Charles Thivierge,charlesbaseballsim@gmail.com
-2021,0,2021-03-14,TB,Tampa Bay Rays,AL,East,176.725,3.492,-0.950,-27.045,152.222,120.851,31.371,48.606,9,36,0,45,Connor Reed,connor.reed.92@gmail.com
-2021,0,2021-03-14,TEX,Texas Rangers,AL,West,156.405,-3.753,0.000,-9.505,142.584,84.289,58.295,29.737,19,27,0,46,Mark Karpinski,karp62@yahoo.com
-2021,0,2021-03-14,TOR,Toronto Blue Jays,AL,East,121.975,15.128,-17.145,7.275,126.930,55.776,71.154,25.966,14,30,0,44,Tracy Kienast,kienast@sccoast.net or tkienast@yahoo.com
-2021,0,2021-03-14,WAS,Washington Nationals,NL,East,118.940,-4.839,0.000,-10.000,103.375,29.724,73.651,17.886,8,23,0,31,David Taylor,dtaylorfd@gmail.com
+2021,0,2021-03-21,ARI,Arizona Diamondbacks,NL,West,153.175,0.626,0.000,-5.750,148.051,110.488,37.563,92.588,21,25,0,46,Ian Hall,ian.hobart.hall@gmail.com
+2021,0,2021-03-21,ATL,Atlanta Braves,NL,East,132.900,8.164,0.000,0.000,140.739,96.907,43.832,101.937,6,21,0,27,Pat Padula,ppadula14@gmail.com
+2021,0,2021-03-21,BAL,Baltimore Orioles,AL,East,158.545,-4.292,0.000,-11.750,141.859,136.665,5.194,69.111,24,31,0,55,Ty Duncan,tduncanolb@gmail.com
+2021,0,2021-03-21,BOS,Boston Red Sox,AL,East,122.740,2.244,0.000,0.000,124.984,81.817,43.167,67.290,14,36,0,50,Timothy Farmer,bsml.lp2@gmail.com
+2021,0,2021-03-21,CHC,Chicago Cubs,NL,Central,141.485,0.300,0.000,-48.194,93.591,86.584,7.007,78.500,23,32,0,55,Joe Clark,sirkit76@hotmail.com
+2021,0,2021-03-21,CHW,Chicago White Sox,AL,Central,163.445,-3.143,0.000,-10.000,149.831,139.390,10.441,170.109,20,26,0,46,Matt Hopkins,matthoppy92@gmail.com
+2021,0,2021-03-21,CIN,Cincinnati Reds,NL,Central,131.730,0.953,0.000,16.500,149.183,123.371,25.812,233.987,9,29,0,38,Colby Hubbard,hubbardc1@gmail.com
+2021,0,2021-03-21,CLE,Cleveland Indians,AL,Central,122.800,15.660,-2.761,-7.975,126.689,53.867,72.822,73.010,15,32,0,47,Dan Claycomb,dlc254@gmail.com
+2021,0,2021-03-21,COL,Colorado Rockies,NL,West,167.830,0.466,0.000,-7.300,160.996,96.122,64.874,74.994,18,29,0,47,Brian Emark,emark311@yahoo.com
+2021,0,2021-03-21,DET,Detroit Tigers,AL,Central,142.660,0.054,0.000,13.100,155.814,157.591,-1.777,66.392,26,20,0,46,Bob Fecca,rsfecca@gmail.com
+2021,0,2021-03-21,HOU,Houston Astros,AL,West,109.225,0.192,0.000,0.000,109.417,75.114,34.303,109.142,13,45,0,58,Mark Nestor,nestorm15@yahoo.com
+2021,0,2021-03-21,KC,Kansas City Royals,AL,Central,138.330,-2.582,0.000,5.000,140.361,111.326,29.035,18.076,16,30,0,46,Nathan Feuerer,nfeuerer@yahoo.com
+2021,0,2021-03-21,LAA,Los Angeles Angels,AL,West,137.785,8.092,0.000,-1.000,144.563,113.414,31.149,41.948,18,30,0,48,John McGee,jm3714@gmail.com
+2021,0,2021-03-21,LAD,Los Angeles Dodgers,NL,West,137.530,4.750,0.000,0.000,142.280,111.352,30.928,63.320,12,35,0,47,Rich Cooper,r_cooper_29@hotmail.com
+2021,0,2021-03-21,MIA,Miami Marlins,NL,East,149.335,3.010,0.000,75.449,227.794,204.861,22.933,358.038,22,26,0,48,Ed Schwabeland,edschwabeland@yahoo.com
+2021,0,2021-03-21,MIL,Milwaukee Brewers,NL,Central,125.800,0.017,0.000,-1.000,124.817,108.693,16.124,196.457,21,30,0,51,Sean Ramsey,quixquazquan@gmail.com
+2021,0,2021-03-21,MIN,Minnesota Twins,AL,Central,112.330,25.461,-23.360,-9.400,105.031,56.860,48.171,173.728,15,27,0,42,Jason Bersani,parkbench@gmail.com
+2021,0,2021-03-21,NYM,New York Mets,NL,East,154.895,1.997,0.000,15.000,171.892,158.976,12.916,9.391,23,32,0,55,Hayes Kern,hayeskern@gmail.com
+2021,0,2021-03-21,NYY,New York Yankees,AL,East,124.610,1.643,0.000,0.000,126.253,106.765,19.488,105.445,24,24,0,48,Shawn Kienast,shawnkienast9@gmail.com
+2021,0,2021-03-21,OAK,Oakland Athletics,AL,West,158.875,0.602,0.000,0.000,159.477,64.969,94.508,15.333,10,37,0,47,Jeff Reese,jr92@comcast.net
+2021,0,2021-03-21,PHI,Philadelphia Phillies,NL,East,115.175,7.510,0.000,0.000,122.459,70.696,51.763,27.545,15,36,0,51,Michael Lucey,ewct05@yahoo.com
+2021,0,2021-03-21,PIT,Pittsburgh Pirates,NL,Central,160.035,-3.752,0.000,-0.334,155.386,150.790,4.596,55.143,14,40,0,54,Jim Krug,jameskrug@gmail.com
+2021,0,2021-03-21,SD,San Diego Padres,NL,West,160.955,-0.278,0.000,14.170,174.805,134.315,40.490,115.042,14,16,0,30,Deron Crawford,deroncrawford1@gmail.com
+2021,0,2021-03-21,SEA,Seattle Mariners,AL,West,141.480,0.495,0.000,-15.100,126.875,93.493,33.382,234.455,9,36,0,45,Patrick Haight,patrick_haight@comcast.com or phaight76@yahoo.com
+2021,0,2021-03-21,SF,San Francisco Giants,NL,West,115.855,5.451,-0.165,0.000,121.141,93.469,27.672,35.109,16,32,0,48,Travis Smith,tjsmith7@sbcglobal.net
+2021,0,2021-03-21,STL,St. Louis Cardinals,NL,Central,136.535,19.456,0.000,0.000,153.973,110.008,43.965,131.261,16,36,0,52,Charles Thivierge,charlesbaseballsim@gmail.com
+2021,0,2021-03-21,TB,Tampa Bay Rays,AL,East,176.725,3.492,-0.950,-27.045,152.222,120.851,31.371,48.606,9,36,0,45,Connor Reed,connor.reed.92@gmail.com
+2021,0,2021-03-21,TEX,Texas Rangers,AL,West,156.405,-3.753,0.000,-9.355,142.734,90.705,52.029,43.107,19,27,0,46,Mark Karpinski,karp62@yahoo.com
+2021,0,2021-03-21,TOR,Toronto Blue Jays,AL,East,121.975,15.128,-17.145,8.484,128.139,90.985,37.154,100.966,16,28,0,44,Tracy Kienast,kienast@sccoast.net or tkienast@yahoo.com
+2021,0,2021-03-21,WAS,Washington Nationals,NL,East,118.940,-4.839,0.000,6.500,119.875,104.329,15.546,283.949,15,19,0,34,David Taylor,dtaylorfd@gmail.com
