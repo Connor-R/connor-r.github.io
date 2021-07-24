@@ -5,7 +5,6 @@ name,genre,peak,consistency,premise,plot,information_gain,desired_effects,wit,le
 """Against the Rules with Michael Lewis""","""Economics/Psychology""",70,60,70,,70,70,40,70,70,,66.1
 """Ahead Of Their Time""","""Sports(Other)""",65,60,70,,50,50,40,70,60,,58.7
 """Back to Back: An NBA Podcast""","""Sports(Basketball)""",70,35,50,,60,50,30,35,30,,47.4
-"""Bauer Bytes""","""Sports(Baseball)""",65,50,60,,50,50,30,40,65,,54.5
 """Bet The Process""","""Sports(Other)""",70,50,70,,70,60,20,50,65,,59.7
 """Biscuits: A Hockey Podcast""","""Sports(Hockey)""",55,40,45,,40,40,50,40,40,,44.5
 """Data Skeptic""","""Data Science""",60,25,60,,75,60,20,60,60,,52.9
