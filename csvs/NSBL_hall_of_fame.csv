@@ -60,7 +60,7 @@ Class of 2015,Manny Ramirez,New York Mets,2006 - 2012,7,lf,BOS/TB/PIT/FLA/NYM,34
 - Career SLG (3) 
 - Career WRC+ (4) 
 - Career OPS+ (4) 
-- Career AVG (5)",,
+- Career AVG (4)",,
 Class of 2016,Chipper Jones,Baltimore Orioles & Chicago White Sox,2006 - 2013,8,3b,CHC/CHW/BAL/SF/STL,34 - 41,36.7,33.5,5177,4445,1231,186,75,0.277,0.370,0.461,0.831,0.363,121,123,140.8,,,,,,,,,,,,,,0,30,40.350,"- 2x Silver Slugger (2007, 2009) 
 - 2x All Star (2007, 2009) 
 - Career OBP (9)",,2 year-$8.200 MM w/CHC in 2013
@@ -170,7 +170,7 @@ Class of 2020,David Ortiz,Toronto Blue Jays,2006 - 2017,12,dh,OAK/BOS/CLE/DET/BA
 - 1x BB Leader (2007) 
 - Career BB (3) 
 - Career HR (4) 
-- Career RBI (7) (tied w/1 others) 
+- Career RBI (8) 
 - Career RAA (9)",,2 year-$29.312 MM w/opt w/CLE in 2015 & 1 year-$12.000 MM w/OAK in 2017
 Class of 2020,Jhonny Peralta,Los Angeles Angels,2006 - 2017,12,ss,TOR/SD/BAL/NYM/PHI/LAA/ANA/TB,24 - 35,47.0,37.9,7482,6725,1746,216,30,0.260,0.327,0.418,0.745,0.326,105,106,44.2,,,,,,,,,,,,,,0,9,49.516,"- 4x All Star (2006, 2013, 2014, 2016) 
 - 3x Silver Slugger (2012, 2013, 2016) 
@@ -200,8 +200,7 @@ Class of 2021,David Wright,Toronto Blue Jays,2006 - 2018,13,3b,ATL/CLE/NYM/SEA/W
 - Career WAR (3) 
 - Career NODRS_WAR (3) 
 - Career RAA (8) 
-- Career 2B (8) 
-- Career R (10)",,5 year-$76.500 MM w/WAS in 2013
+- Career 2B (8)",,5 year-$76.500 MM w/WAS in 2013
 Class of 2021,Jose Reyes,Houston Astros & New York Mets,2006 - 2018,13,ss,SEA/MIL/MIN/HOU/ATL/OAK/FLA/WAS/NYM,23 - 35,48.4,38.9,8640,8006,2203,136,591,0.275,0.320,0.406,0.726,0.320,99,100,4.9,,,,,,,,,,,,,,3,41,124.112,"- 4x All Star (2009, 2010, 2012, 2013) 
 - 2x Silver Slugger (2009, 2010) 
 - 2x Gold Glove (2013, 2015) 
