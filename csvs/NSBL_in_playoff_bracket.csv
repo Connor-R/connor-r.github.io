@@ -1,6 +1,6 @@
 Series ID,Team Name,Opponent Name,Series Wins,Series Losses,Advance Probability,Win in 3,Win in 4,Win in 5,Win in 6,Win in 7
-ALCS,Baltimore Orioles,Chicago White Sox,0,0,35.9%,,3.6%,8.1%,11.4%,12.9%
-ALCS,Chicago White Sox,Baltimore Orioles,0,0,64.1%,,10.2%,17.8%,19.3%,16.8%
+ALCS,Baltimore Orioles,Chicago White Sox,0,1,23.0%,,,3.6%,8.1%,11.4%
+ALCS,Chicago White Sox,Baltimore Orioles,1,0,77.0%,,18.1%,23.6%,20.5%,14.8%
 ALDS1,Baltimore Orioles,Tampa Bay Rays,3,0,100.0%,100.0%,,,,
 ALDS1,Tampa Bay Rays,Baltimore Orioles,0,3,0.0%,,,,,
 ALDS2,Chicago White Sox,Texas Rangers,3,1,100.0%,,100.0%,,,
