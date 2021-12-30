@@ -7,17 +7,18 @@ import datetime
 
 base_path = "/Users/connorreed/Desktop/Images/iPhoto"
 csv_path = os.getcwd()+"/picture_rename.csv"
-csv_file = open(csv_path, "w")
-append_csv = csv.writer(csv_file)
-csv_header = ["parent_dir", "primary_bin", "media_type", "old_name", "created_year", "created_month", "created_day", "created_hour", "created_minute", "created_second", "parsed_year", "parsed_month", "parsed_day", "parsed_counter", "pre_name", "post_name", "descriptor", "day_match", "ext", "new_name", "old_path", "new_path"]
-append_csv.writerow(csv_header)
+# csv_file = open(csv_path, "w")
+# append_csv = csv.writer(csv_file)
+# csv_header = ["parent_dir", "primary_bin", "media_type", "old_name", "created_year", "created_month", "created_day", "created_hour", "created_minute", "created_second", "parsed_year", "parsed_month", "parsed_day", "parsed_counter", "pre_name", "post_name", "descriptor", "day_match", "ext", "new_name", "old_path", "new_path"]
+# append_csv.writerow(csv_header)
 
+filenames = []
 
 def initiate():
 
-    process_dir(base_path,0)
+    # process_dir(base_path,0)
 
-    # update_names() ###
+    # update_names()
 
 
 def process_dir(path, lvl, parent_dir=''):
@@ -128,6 +129,11 @@ def process_file(filename, path, lvl, ext, parent_dir=''):
 
     new_name = f"{primary_bin}-{decided_year:04d}-{decided_month:02d}-{decided_day:02d} {decided_hour:02d}.{decided_min:02d}.{decided_sec:02d}{descriptor_string}{new_ext}"
 
+    if new_name in filenames:
+        new_name = new_name.replace(new_ext,f"-{parsed_counter}{new_ext}")
+
+    filenames.append(new_name)
+
     new_path = path.replace(filename, "")+new_name
 
 
@@ -136,7 +142,21 @@ def process_file(filename, path, lvl, ext, parent_dir=''):
 
 
 def update_names():
-    
+    csv_reader_file = open(csv_path, "r")
+    csv_reader = csv.reader(csv_reader_file)
+
+
+    for row in csv_reader:
+        old_path = row[-2]
+        new_path = row[-1]
+        try:
+            # print(old_path)
+            os.rename(old_path, new_path)
+            # print(new_path)
+            # input('RENAMED')
+        except FileNotFoundError:
+            input(old_path)
+
 
 if __name__ == "__main__":     
     initiate()
