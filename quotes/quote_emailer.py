@@ -89,7 +89,7 @@ if __name__ == "__main__":
     parser.add_argument('--topic',default='')
     parser.add_argument('--medium',default='')
     parser.add_argument('--keyword',default='')
-    parser.add_argument('--count',default=5)
+    parser.add_argument('--count',default=1)
     parser.add_argument('--to_address',default='connor.reed.92@gmail.com')
 
     args = parser.parse_args()
