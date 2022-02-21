@@ -25,19 +25,22 @@ completed_dict = {
     1:["soft_hard", "\tWas the problem bounty extra soft, soft, or hard (hit RETURN for neither)"],
     2:["stars", "\tStars (20-80)"],
     3:["fa", "\tDid you FA this problem? (y/n)"],
-    4:["athletic", "\t\tathletic (y/n)"],
-    5:["cruxy", "\t\tcruxy (y/n)"],
-    6:["slopey", "\t\tslopey (y/n)"],
-    7:["crimpy", "\t\tcrimpy (y/n)"],
-    8:["sharp", "\t\tsharp (y/n)"],
-    9:["technical", "\t\ttechnical (y/n)"],
-    10:["power", "\t\tpower (y/n)"],
-    11:["endurance", "\t\tendurance (y/n)"],
-    12:["overhang", "\t\toverhang (y/n)"],
-    13:["vertical", "\t\tvertical (y/n)"],
-    14:["slab", "\t\tslab (y/n)"],
-    15:["roof", "\t\troof (y/n)"],
-    16:["scary", "\t\tscary (y/n)"],
+}
+
+attributes_dict = {
+    1:["athletic", "athletic"],
+    2:["cruxy", "cruxy"],
+    3:["slopey", "slopey"],
+    4:["crimpy", "crimpy"],
+    5:["sharp", "sharp"],
+    6:["technical", "technical"],
+    7:["power", "power"],
+    8:["endurance", "endurance"],
+    9:["overhang", "overhang"],
+    10:["vertical", "vertical"],
+    11:["slab", "slab"],
+    12:["roof", "roof"],
+    13:["scary", "scary"],
 }
 
 incompleted_dict = {
@@ -90,8 +93,14 @@ def initiate():
 
     if entry["completed"] == "COMPLETED":
         j = 1
-        while j < 17:
+        while j < 4:
             j, cats, entry_vals = process_complete(j, entry)
+            for cat, val in zip(cats, entry_vals):
+                if cat is not None:
+                    entry[cat] = val
+
+        while j == 4:
+            j, cats, entry_vals = process_attributes(j, entry)
             for cat, val in zip(cats, entry_vals):
                 if cat is not None:
                     entry[cat] = val
@@ -232,6 +241,33 @@ def process_complete(j, entry):
         return j-1, [None], [None]
 
     return j, [cat], [val]
+
+
+def process_attributes(j, entry):
+    cats=[]
+    print '\nATTRIBUTES:'
+    for att in range(1,14):
+        cat, prompt = attributes_dict.get(att)
+        print '\t', att, ' ', prompt
+    val = raw_input('Enter relevant indices, separated by spaces: ')
+
+    j += 1
+
+    if val == "":
+        return j, [None], [None]
+
+    try:
+        indices = list(map(int, val.split(' ')))
+    except (ValueError, TypeError):
+        print "\n\t\t\t~ERROR~ the answer '%s' is not a valid value for this question, please try again\n" % (val)
+        return j-1, [None], [None]
+
+    for ind in indices:
+        cat, prompt = attributes_dict.get(ind)
+        cats.append(cat.upper())
+
+    return j, cats, cats
+
 
 
 def process_incomplete(j, entry):
