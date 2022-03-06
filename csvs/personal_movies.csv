@@ -36,6 +36,7 @@ name,year,est_year_watched,genre,sub_genre,movie_length,peak,consistency,premise
 """Back to the Future(3)""",1990,2003,"""adventure""","""sci-fi""",118,50,50,50,40,40,50,40,40,50,,47.1
 """Bad News Bears""",1979,2017,"""comedy""","""sports""",102,45,40,50,50,30,50,50,50,50,,45.6
 """Bad News Bears""",2005,2017,"""comedy""","""sports""",113,40,40,50,50,30,40,40,40,40,,40.7
+"""Bad Trip""",2021,2022,"""comedy""","""""",84,60,40,50,40,30,55,55,60,40,,47.8
 """BASEketball""",1998,2005,"""comedy""","""sports""",103,75,60,70,60,40,70,70,70,70,,65.9
 """Baywatch""",2017,2018,"""comedy""","""action""",116,40,50,30,30,40,30,30,30,30,,35.9
 """Beerfest""",2006,2009,"""comedy""","""""",110,60,60,50,50,40,60,60,50,60,,55.9
