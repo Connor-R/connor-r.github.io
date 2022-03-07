@@ -1,4 +1,4 @@
-HOF_Class,Player_Name,HOF_Team,Career_Span,Total_Seasons,Position,All_Teams,Age_Span,WAR/ERA_WAR,noDRS_WAR/FIP_WAR,PA,AB,H,HR,SB,AVG,OBP,SLG,OPS,wOBA,OPS+,wRC+,rAA,W,L,SV,G,GS,CG,SHO,K,IP,ERA,FIP,ERA-,FIP-,Black_Ink,Gray_Ink,Earnings,Trophy_Details,Draft,FA_History
+HOF_Class,Player_Name,HOF_Franchise,Career_Span,Total_Seasons,Position,All_Teams,Age_Span,WAR/ERA_WAR,noDRS_WAR/FIP_WAR,PA,AB,H,HR,SB,AVG,OBP,SLG,OPS,wOBA,OPS+,wRC+,rAA,W,L,SV,G,GS,CG,SHO,K,IP,ERA,FIP,ERA-,FIP-,Black_Ink,Gray_Ink,Earnings,Trophy_Details,Draft,FA_History
 Class of 2011,Roger Clemens,Houston Astros,2006 - 2008,3,sp,HOU/SD/NYY/TOR/CLE/FLA,43 - 45,10.2,9.2,,,,,,,,,,,,,,34,27,0,90,85,7,5,461,537.7,3.62,3.73,82,84,1,10,,"- 1x World Series (2006) 
 - 1x SHO Leader (2007) 
 ",,
