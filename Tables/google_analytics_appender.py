@@ -12,8 +12,20 @@ import argparse
 #     ga('send', 'pageview');
 # """
 
-comment = "\n//<!-- Global site tag (gtag.js) - Google Analytics -->\n"
-script1 = """\n<script async src="https://www.googletagmanager.com/gtag/js?id=G-8N02F87WCP"></script>"""
+full_script = """
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-8N02F87WCP"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-8N02F87WCP');
+</script>
+"""
+
+comment = "\n<!-- Global site tag (gtag.js) - Google Analytics -->\n"
+script1 = """<script async src="https://www.googletagmanager.com/gtag/js?id=G-8N02F87WCP"></script>"""
 script2 = """\n
       window.dataLayer = window.dataLayer || [];
       function gtag(){dataLayer.push(arguments);}
@@ -30,6 +42,7 @@ def add_google_analytics(file_path):
 
     with open(file_path) as in_file:
         txt = in_file.read()
+        txt = txt.replace("</head>", full_script+"\n</head>")
         soup = bs4.BeautifulSoup(txt,"lxml")
 
         # soup.append("\n")
@@ -38,19 +51,6 @@ def add_google_analytics(file_path):
 
         # last_script = soup.findAll("script")[-1]
         # last_script.insert(0, script)
-
-
-
-        title = soup.find('title')
-        meta1 = soup.new_tag("script")
-        meta1.string = script2
-        title.insert_after(meta1)
-
-        meta2 = soup.new_tag('script')
-        meta2['asycncr src'] = "https://www.googletagmanager.com/gtag/js?id=G-8N02F87WCP"
-        meta2.string = comment
-
-        title.insert_after(meta2)
 
 
 
