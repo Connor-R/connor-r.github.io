@@ -42,7 +42,7 @@ def add_google_analytics(file_path):
 
     with open(file_path) as in_file:
         txt = in_file.read()
-        txt = txt.replace("</head>", full_script+"\n</head>")
+        txt = txt.replace("<head>", "<head>\n"+full_script)
         soup = bs4.BeautifulSoup(txt,"lxml")
 
         # soup.append("\n")
