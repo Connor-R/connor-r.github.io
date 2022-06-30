@@ -11,6 +11,9 @@ HITTERS_3b,75,career,Mike Trout,SD,73,2 to milestone (75)
 HITTERS_3b,50,career,Mookie Betts,TB,49,1 to milestone (50)
 HITTERS_3b,50,career,Starlin Castro,SD,49,1 to milestone (50)
 HITTERS_3b,50,career,Starling Marte,STL,46,4 to milestone (50)
+HITTERS_bb,1000,career,Carlos Santana,LAA,991,9 to milestone (1000)
+HITTERS_bb,1000,career,Mike Trout,SD,983,17 to milestone (1000)
+HITTERS_bb,1247 *NSBL record*,career,Joey Votto,KC,1247,***
 HITTERS_h,1000,career,Carlos Correa,OAK,999,1 to milestone (1000)
 HITTERS_h,1000,career,David Peralta,PHI,964,36 to milestone (1000)
 HITTERS_h,1000,career,Ender Inciarte,SD,998,2 to milestone (1000)
@@ -18,6 +21,92 @@ HITTERS_h,1000,career,Kevin Pillar,CIN,958,42 to milestone (1000)
 HITTERS_h,1500,career,Wil Myers,NYY,1443,57 to milestone (1500)
 HITTERS_h,1000,career,Wilson Ramos,ATL,980,20 to milestone (1000)
 HITTERS_h,2721 *NSBL record*,career,Miguel Cabrera,WAS,2600,121 to NSBL record (2721 - Robinson Cano)
+HITTERS_hr,502 *NSBL record*,career,Nelson Cruz,STL,502,***
+HITTERS_k,1000,career,Brandon Crawford,KC,974,26 to milestone (1000)
+HITTERS_k,1500,career,Bryce Harper,MIN,1450,50 to milestone (1500)
+HITTERS_k,1000,career,David Dahl,LAA,962,38 to milestone (1000)
+HITTERS_k,1000,career,Eugenio Suarez,CIN,957,43 to milestone (1000)
+HITTERS_k,1500,career,George Springer,SEA,1474,26 to milestone (1500)
+HITTERS_k,1000,career,Javier Baez,SF,967,33 to milestone (1000)
+HITTERS_k,1000,career,Jose Abreu,CHC,959,41 to milestone (1000)
+HITTERS_k,1000,career,Kevin Kiermaier,OAK,961,39 to milestone (1000)
+HITTERS_k,1000,career,Nick Castellanos,OAK,968,32 to milestone (1000)
+HITTERS_k,1000,career,Yadier Molina,WAS,975,25 to milestone (1000)
+HITTERS_k,2263 *NSBL record*,career,Nelson Cruz,STL,2263,***
+HITTERS_r,750,career,Christian Yelich,CLG,716,34 to milestone (750)
+HITTERS_r,500,career,David Peralta,PHI,486,14 to milestone (500)
+HITTERS_r,500,career,Ender Inciarte,SD,475,25 to milestone (500)
+HITTERS_r,750,career,Eric Hosmer,NYY,725,25 to milestone (750)
+HITTERS_r,1000,career,Freddie Freeman,ATL,971,29 to milestone (1000)
+HITTERS_r,750,career,George Springer,SEA,738,12 to milestone (750)
+HITTERS_r,500,career,Khris Davis,SD,491,9 to milestone (500)
+HITTERS_r,500,career,Miguel Sano,CHW,493,7 to milestone (500)
+HITTERS_r,500,career,Randal Grichuk,SEA,497,3 to milestone (500)
+HITTERS_r,1361 *NSBL record*,career,Miguel Cabrera,WAS,1322,39 to NSBL record (1361 - Ryan Braun)
+HITTERS_rbi,750,career,Anthony Rizzo,TB,716,34 to milestone (750)
+HITTERS_rbi,500,career,Byron Buxton,CLG,492,8 to milestone (500)
+HITTERS_rbi,500,career,Carlos Correa,OAK,497,3 to milestone (500)
+HITTERS_rbi,500,career,Didi Gregorius,SD,475,25 to milestone (500)
+HITTERS_rbi,750,career,Eric Hosmer,NYY,740,10 to milestone (750)
+HITTERS_rbi,500,career,Francisco Lindor,ATL,490,10 to milestone (500)
+HITTERS_rbi,750,career,Jason Heyward,ATL,728,22 to milestone (750)
+HITTERS_rbi,1000,career,Joey Votto,KC,966,34 to milestone (1000)
+HITTERS_rbi,500,career,Kevin Kiermaier,OAK,490,10 to milestone (500)
+HITTERS_rbi,500,career,Kyle Schwarber,KC,496,4 to milestone (500)
+HITTERS_rbi,750,career,Michael Brantley,COL,715,35 to milestone (750)
+HITTERS_rbi,500,career,Mitch Haniger,MIL,475,25 to milestone (500)
+HITTERS_rbi,1520 *NSBL record*,career,Miguel Cabrera,WAS,1467,53 to NSBL record (1520 - Nelson Cruz)
+HITTERS_rbi,1520 *NSBL record*,career,Nelson Cruz,STL,1520,***
+HITTERS_sb,100,career,Luis Castillo,COL,96,4 to milestone (100)
+HITTERS_sb,100,career,D.J. LeMahieu,PHI,95,5 to milestone (100)
+HITTERS_sb,100,career,Kevin Pillar,CIN,98,2 to milestone (100)
+HITTERS_sb,100,career,Manny Machado,SEA,100,***
+HITTERS_sb,250,career,Michael Brantley,COL,245,5 to milestone (250)
+HITTERS_sb,100,career,Victor Robles,CHW,98,2 to milestone (100)
+HITTERS_sb,100,career,Xander Bogaerts,MIL,95,5 to milestone (100)
+PITCHERS_bb,500,career,Alex Cobb,SD,476,24 to milestone (500)
+PITCHERS_bb,500,career,Chris Sale,MIA,489,11 to milestone (500)
+PITCHERS_bb,750,career,Clayton Kershaw,PIT,719,31 to milestone (750)
+PITCHERS_bb,500,career,Drew Pomeranz,SEA,475,25 to milestone (500)
+PITCHERS_bb,500,career,Wade Miley,ATL,484,16 to milestone (500)
+PITCHERS_bb,919 *NSBL record*,career,Cole Hamels,SD,919,***
+PITCHERS_cg,25,career,Chris Sale,MIA,20,5 to milestone (25)
+PITCHERS_cg,25,career,Corey Kluber,NYM,21,4 to milestone (25)
+PITCHERS_cg,25,career,David Price,SEA,21,4 to milestone (25)
+PITCHERS_cg,25,career,Max Scherzer,OAK,25,***
+PITCHERS_g,500,career,Adam Wainwright,NYY,488,12 to milestone (500)
+PITCHERS_g,500,career,Cole Hamels,SD,492,8 to milestone (500)
+PITCHERS_g,750,career,Craig Kimbrel,ATL,721,29 to milestone (750)
+PITCHERS_g,500,career,Craig Stammen,AZ,492,8 to milestone (500)
+PITCHERS_g,750,career,Darren O'Day,MIN,748,2 to milestone (750)
+PITCHERS_g,500,career,Justin Verlander,CHW,481,19 to milestone (500)
+PITCHERS_g,500,career,Zack Greinke,PIT,478,22 to milestone (500)
+PITCHERS_g,848 *NSBL record*,career,Joakim Soria,NYY,848,***
+PITCHERS_ip,1000,career,Carlos Rodon,KC,951,49 to milestone (1000)
+PITCHERS_ip,1500,career,Dallas Keuchel,COL,1471,29 to milestone (1500)
+PITCHERS_ip,2500,career,David Price,SEA,2477,23 to milestone (2500)
+PITCHERS_ip,1500,career,Gerrit Cole,WAS,1429,71 to milestone (1500)
+PITCHERS_ip,1000,career,Jameson Taillon,NYM,990,10 to milestone (1000)
+PITCHERS_ip,1000,career,Jimmy Nelson,SEA,964,36 to milestone (1000)
+PITCHERS_ip,1000,career,Kenta Maeda,STL,996,4 to milestone (1000)
+PITCHERS_ip,1500,career,Kyle Hendricks,PHI,1439,61 to milestone (1500)
+PITCHERS_ip,1500,career,Lance Lynn,MIN,1464,36 to milestone (1500)
+PITCHERS_ip,1500,career,Sonny Gray,COL,1481,19 to milestone (1500)
+PITCHERS_ip,3188 *NSBL record*,career,Cole Hamels,SD,3129,59 to NSBL record (3188 - Justin Verlander)
+PITCHERS_ip,3188 *NSBL record*,career,Justin Verlander,CHW,3188,***
+PITCHERS_ip,3188 *NSBL record*,career,Zack Greinke,PIT,3039,148 to NSBL record (3188 - Justin Verlander)
+PITCHERS_k,2500,career,Adam Wainwright,NYY,2388,112 to milestone (2500)
+PITCHERS_k,2500,career,David Price,SEA,2422,78 to milestone (2500)
+PITCHERS_k,1000,career,Eduardo Rodriguez,MIA,950,50 to milestone (1000)
+PITCHERS_k,1500,career,Gerrit Cole,WAS,1487,13 to milestone (1500)
+PITCHERS_k,1000,career,Nathan Eovaldi,CIN,957,43 to milestone (1000)
+PITCHERS_k,3298 *NSBL record*,career,Max Scherzer,OAK,3298,***
+PITCHERS_sho,22 *NSBL record*,career,Adam Wainwright,NYY,18,4 to NSBL record (22 - Cliff Lee)
+PITCHERS_sho,22 *NSBL record*,career,Max Scherzer,OAK,18,4 to NSBL record (22 - Cliff Lee)
+PITCHERS_w,150,career,Chris Sale,MIA,150,***
+PITCHERS_w,150,career,David Price,SEA,149,1 to milestone (150)
+PITCHERS_w,100,career,Kyle Hendricks,PHI,95,5 to milestone (100)
+PITCHERS_w,215 *NSBL record*,career,Cole Hamels,SD,215,***
 HITTERS_2b,50,season,Aaron Judge,BAL,"3, on pace for 50",On pace for 50
 HITTERS_2b,50,season,Abraham Toro,COL,"4, on pace for 67",17 over pace for 50
 HITTERS_2b,50,season,Adley Rutschman,MIN,"3, on pace for 50",On pace for 50
@@ -160,6 +249,45 @@ HITTERS_3b,20 *NSBL record*,season,Tim Locastro,MIN,"2, on pace for 33",13 over 
 HITTERS_3b,20 *NSBL record*,season,Trent Grisham,SF,"1, on pace for 17",3 off record pace (20 - Carl Crawford(2011))
 HITTERS_3b,20 *NSBL record*,season,Whit Merrifield,LAD,"1, on pace for 17",3 off record pace (20 - Carl Crawford(2011))
 HITTERS_3b,20 *NSBL record*,season,Wil Myers,NYY,"1, on pace for 17",3 off record pace (20 - Carl Crawford(2011))
+HITTERS_bb,100,season,Akil Baddoo,BOS,"7, on pace for 117",17 over pace for 100
+HITTERS_bb,100,season,Alek Thomas,TOR,"7, on pace for 117",17 over pace for 100
+HITTERS_bb,100,season,Alex Bregman,AZ,"7, on pace for 117",17 over pace for 100
+HITTERS_bb,100,season,Andrew McCutchen,SF,"6, on pace for 100",On pace for 100
+HITTERS_bb,100,season,Anthony Rendon,BOS,"7, on pace for 117",17 over pace for 100
+HITTERS_bb,100,season,Brian Anderson,NYM,"7, on pace for 117",17 over pace for 100
+HITTERS_bb,100,season,Carlos Correa,OAK,"6, on pace for 100",On pace for 100
+HITTERS_bb,100,season,Cavan Biggio,CHC,"7, on pace for 117",17 over pace for 100
+HITTERS_bb,100,season,Christian Yelich,CLG,"8, on pace for 133",33 over pace for 100
+HITTERS_bb,100,season,Cody Bellinger,PIT,"7, on pace for 117",17 over pace for 100
+HITTERS_bb,100,season,D.J. Stewart,LAA,"7, on pace for 117",17 over pace for 100
+HITTERS_bb,100,season,Delino DeShields Jr.,WAS,"10, on pace for 166",66 over pace for 100
+HITTERS_bb,100,season,Freddie Freeman,ATL,"6, on pace for 100",On pace for 100
+HITTERS_bb,100,season,George Springer,SEA,"10, on pace for 166",66 over pace for 100
+HITTERS_bb,100,season,Giancarlo Stanton,CHC,"6, on pace for 100",On pace for 100
+HITTERS_bb,100,season,Jace Peterson,WAS,"6, on pace for 100",On pace for 100
+HITTERS_bb,100,season,Jesus Aguilar,WAS,"8, on pace for 133",33 over pace for 100
+HITTERS_bb,100,season,Joey Gallo,CHC,"7, on pace for 117",17 over pace for 100
+HITTERS_bb,100,season,Joey Votto,KC,"6, on pace for 100",On pace for 100
+HITTERS_bb,100,season,Jordan Luplow,COL,"6, on pace for 100",On pace for 100
+HITTERS_bb,100,season,Juan Soto,ATL,"12, on pace for 200",100 over pace for 100
+HITTERS_bb,100,season,Lane Thomas,MIN,"7, on pace for 117",17 over pace for 100
+HITTERS_bb,100,season,Manny Machado,SEA,"8, on pace for 133",33 over pace for 100
+HITTERS_bb,100,season,Matt Chapman,NYY,"6, on pace for 100",On pace for 100
+HITTERS_bb,100,season,Matt Olson,SF,"6, on pace for 100",On pace for 100
+HITTERS_bb,100,season,Max Muncy,KC,"7, on pace for 117",17 over pace for 100
+HITTERS_bb,100,season,Mike Trout,SD,"10, on pace for 166",66 over pace for 100
+HITTERS_bb,100,season,Nate Lowe,MIL,"7, on pace for 117",17 over pace for 100
+HITTERS_bb,100,season,Ozzie Albies,NYM,"10, on pace for 166",66 over pace for 100
+HITTERS_bb,100,season,Rhys Hoskins,TOR,"7, on pace for 117",17 over pace for 100
+HITTERS_bb,100,season,Riley Greene,CIN,"6, on pace for 100",On pace for 100
+HITTERS_bb,100,season,Spencer Torkelson,CHC,"6, on pace for 100",On pace for 100
+HITTERS_bb,100,season,Trey Mancini,NYM,"8, on pace for 133",33 over pace for 100
+HITTERS_bb,100,season,Xander Bogaerts,MIL,"7, on pace for 117",17 over pace for 100
+HITTERS_bb,151 *NSBL record*,season,Delino DeShields Jr.,WAS,"10, on pace for 166",15 over record pace (151 - Jack Cust(2008))
+HITTERS_bb,151 *NSBL record*,season,George Springer,SEA,"10, on pace for 166",15 over record pace (151 - Jack Cust(2008))
+HITTERS_bb,151 *NSBL record*,season,Juan Soto,ATL,"12, on pace for 200",49 over record pace (151 - Jack Cust(2008))
+HITTERS_bb,151 *NSBL record*,season,Mike Trout,SD,"10, on pace for 166",15 over record pace (151 - Jack Cust(2008))
+HITTERS_bb,151 *NSBL record*,season,Ozzie Albies,NYM,"10, on pace for 166",15 over record pace (151 - Jack Cust(2008))
 HITTERS_h,200,season,Aaron Judge,BAL,"12, on pace for 200",On pace for 200
 HITTERS_h,200,season,Adley Rutschman,MIN,"13, on pace for 216",16 over pace for 200
 HITTERS_h,200,season,Andrew Vaughn,HOU,"12, on pace for 200",On pace for 200
@@ -208,3 +336,739 @@ HITTERS_h,235 *NSBL record*,season,Mitch Haniger,MIL,"16, on pace for 266",31 ov
 HITTERS_h,235 *NSBL record*,season,Nolan Arenado,TOR,"15, on pace for 250",15 over record pace (235 - Ben Revere(2016))
 HITTERS_h,235 *NSBL record*,season,Odubel Herrera,WAS,"17, on pace for 283",48 over record pace (235 - Ben Revere(2016))
 HITTERS_h,235 *NSBL record*,season,Tim Anderson,SEA,"15, on pace for 250",15 over record pace (235 - Ben Revere(2016))
+HITTERS_hr,50,season,Aaron Judge,BAL,"4, on pace for 67",17 over pace for 50
+HITTERS_hr,50,season,Adalberto Mondesi,NYM,"3, on pace for 50",On pace for 50
+HITTERS_hr,50,season,Adam Duvall,AZ,"4, on pace for 67",17 over pace for 50
+HITTERS_hr,50,season,Adolis Garcia,SD,"3, on pace for 50",On pace for 50
+HITTERS_hr,50,season,Andrew McCutchen,SF,"4, on pace for 67",17 over pace for 50
+HITTERS_hr,50,season,Austin Hays,NYY,"3, on pace for 50",On pace for 50
+HITTERS_hr,50,season,Austin Slater,LAD,"3, on pace for 50",On pace for 50
+HITTERS_hr,50,season,Brandon Belt,AZ,"3, on pace for 50",On pace for 50
+HITTERS_hr,50,season,Brandon Nimmo,CHW,"3, on pace for 50",On pace for 50
+HITTERS_hr,50,season,Byron Buxton,CLG,"7, on pace for 117",67 over pace for 50
+HITTERS_hr,50,season,Christian Vazquez,NYY,"3, on pace for 50",On pace for 50
+HITTERS_hr,50,season,Franmil Reyes,LAD,"3, on pace for 50",On pace for 50
+HITTERS_hr,50,season,Freddie Freeman,ATL,"3, on pace for 50",On pace for 50
+HITTERS_hr,50,season,Gavin Sheets,HOU,"3, on pace for 50",On pace for 50
+HITTERS_hr,50,season,Ian Happ,COL,"3, on pace for 50",On pace for 50
+HITTERS_hr,50,season,J.T. Realmuto,TEX,"3, on pace for 50",On pace for 50
+HITTERS_hr,50,season,Joey Gallo,CHC,"5, on pace for 83",33 over pace for 50
+HITTERS_hr,50,season,Kike Hernandez,BOS,"3, on pace for 50",On pace for 50
+HITTERS_hr,50,season,Kris Bryant,BAL,"3, on pace for 50",On pace for 50
+HITTERS_hr,50,season,Kyle Tucker,LAA,"3, on pace for 50",On pace for 50
+HITTERS_hr,50,season,Lane Thomas,MIN,"4, on pace for 67",17 over pace for 50
+HITTERS_hr,50,season,Mark Canha,CLG,"3, on pace for 50",On pace for 50
+HITTERS_hr,50,season,Matt Davidson,LAA,"3, on pace for 50",On pace for 50
+HITTERS_hr,50,season,Matt Olson,SF,"3, on pace for 50",On pace for 50
+HITTERS_hr,50,season,Michael Conforto,CHW,"3, on pace for 50",On pace for 50
+HITTERS_hr,50,season,Miguel Sano,CHW,"3, on pace for 50",On pace for 50
+HITTERS_hr,50,season,Mike Yastrzemski,MIN,"3, on pace for 50",On pace for 50
+HITTERS_hr,50,season,Mitch Garver,SEA,"3, on pace for 50",On pace for 50
+HITTERS_hr,50,season,Mitch Haniger,MIL,"3, on pace for 50",On pace for 50
+HITTERS_hr,50,season,Mookie Betts,TB,"5, on pace for 83",33 over pace for 50
+HITTERS_hr,50,season,Nate Lowe,MIL,"3, on pace for 50",On pace for 50
+HITTERS_hr,50,season,Nelson Cruz,STL,"3, on pace for 50",On pace for 50
+HITTERS_hr,50,season,Nolan Arenado,TOR,"7, on pace for 117",67 over pace for 50
+HITTERS_hr,50,season,Ozzie Albies,NYM,"3, on pace for 50",On pace for 50
+HITTERS_hr,50,season,Patrick Wisdom,OAK,"4, on pace for 67",17 over pace for 50
+HITTERS_hr,50,season,Pete Alonso,TEX,"3, on pace for 50",On pace for 50
+HITTERS_hr,50,season,Randal Grichuk,SEA,"3, on pace for 50",On pace for 50
+HITTERS_hr,50,season,Rhys Hoskins,TOR,"3, on pace for 50",On pace for 50
+HITTERS_hr,50,season,Ronald Acuna Jr.,TB,"5, on pace for 83",33 over pace for 50
+HITTERS_hr,50,season,Ryan Mountcastle,HOU,"3, on pace for 50",On pace for 50
+HITTERS_hr,50,season,Salvador Perez,SD,"3, on pace for 50",On pace for 50
+HITTERS_hr,50,season,Vladimir Guerrero Jr.,KC,"4, on pace for 67",17 over pace for 50
+HITTERS_hr,50,season,Will Smith,PHI,"3, on pace for 50",On pace for 50
+HITTERS_hr,50,season,Yasmani Grandal,TOR,"3, on pace for 50",On pace for 50
+HITTERS_hr,70 *NSBL record*,season,Aaron Judge,BAL,"4, on pace for 67",3 off record pace (70 - Joey Gallo(2020))
+HITTERS_hr,70 *NSBL record*,season,Adam Duvall,AZ,"4, on pace for 67",3 off record pace (70 - Joey Gallo(2020))
+HITTERS_hr,70 *NSBL record*,season,Andrew McCutchen,SF,"4, on pace for 67",3 off record pace (70 - Joey Gallo(2020))
+HITTERS_hr,70 *NSBL record*,season,Byron Buxton,CLG,"7, on pace for 117",47 over record pace (70 - Joey Gallo(2020))
+HITTERS_hr,70 *NSBL record*,season,Joey Gallo,CHC,"5, on pace for 83",13 over record pace (70 - Joey Gallo(2020))
+HITTERS_hr,70 *NSBL record*,season,Lane Thomas,MIN,"4, on pace for 67",3 off record pace (70 - Joey Gallo(2020))
+HITTERS_hr,70 *NSBL record*,season,Mookie Betts,TB,"5, on pace for 83",13 over record pace (70 - Joey Gallo(2020))
+HITTERS_hr,70 *NSBL record*,season,Nolan Arenado,TOR,"7, on pace for 117",47 over record pace (70 - Joey Gallo(2020))
+HITTERS_hr,70 *NSBL record*,season,Patrick Wisdom,OAK,"4, on pace for 67",3 off record pace (70 - Joey Gallo(2020))
+HITTERS_hr,70 *NSBL record*,season,Ronald Acuna Jr.,TB,"5, on pace for 83",13 over record pace (70 - Joey Gallo(2020))
+HITTERS_hr,70 *NSBL record*,season,Vladimir Guerrero Jr.,KC,"4, on pace for 67",3 off record pace (70 - Joey Gallo(2020))
+HITTERS_k,200,season,Aaron Judge,BAL,"12, on pace for 200",On pace for 200
+HITTERS_k,200,season,Adalberto Mondesi,NYM,"14, on pace for 233",33 over pace for 200
+HITTERS_k,200,season,Adolis Garcia,SD,"13, on pace for 216",16 over pace for 200
+HITTERS_k,200,season,Andrew Young,CLG,"13, on pace for 216",16 over pace for 200
+HITTERS_k,200,season,Austin Allen,HOU,"13, on pace for 216",16 over pace for 200
+HITTERS_k,200,season,Brad Miller,TB,"12, on pace for 200",On pace for 200
+HITTERS_k,200,season,Brandon Lowe,PIT,"12, on pace for 200",On pace for 200
+HITTERS_k,200,season,Brandon Marsh,CHC,"12, on pace for 200",On pace for 200
+HITTERS_k,200,season,Brandon Nimmo,CHW,"13, on pace for 216",16 over pace for 200
+HITTERS_k,200,season,Bryan Reynolds,BAL,"13, on pace for 216",16 over pace for 200
+HITTERS_k,200,season,Cavan Biggio,CHC,"13, on pace for 216",16 over pace for 200
+HITTERS_k,200,season,Chas McCormick,ATL,"20, on pace for 333",133 over pace for 200
+HITTERS_k,200,season,D.J. Stewart,LAA,"13, on pace for 216",16 over pace for 200
+HITTERS_k,200,season,Delino DeShields Jr.,WAS,"13, on pace for 216",16 over pace for 200
+HITTERS_k,200,season,Dylan Carlson,AZ,"12, on pace for 200",On pace for 200
+HITTERS_k,200,season,Eduardo Escobar,TEX,"13, on pace for 216",16 over pace for 200
+HITTERS_k,200,season,Eric Hosmer,NYY,"12, on pace for 200",On pace for 200
+HITTERS_k,200,season,Fernando Tatis Jr.,BAL,"14, on pace for 233",33 over pace for 200
+HITTERS_k,200,season,Franchy Cordero,WAS,"15, on pace for 250",50 over pace for 200
+HITTERS_k,200,season,Giancarlo Stanton,CHC,"15, on pace for 250",50 over pace for 200
+HITTERS_k,200,season,Harrison Bader,TB,"14, on pace for 233",33 over pace for 200
+HITTERS_k,200,season,Hunter Renfroe,LAA,"17, on pace for 283",83 over pace for 200
+HITTERS_k,200,season,Ian Happ,COL,"12, on pace for 200",On pace for 200
+HITTERS_k,200,season,Jace Peterson,WAS,"18, on pace for 300",100 over pace for 200
+HITTERS_k,200,season,Jared Walsh,CHC,"15, on pace for 250",50 over pace for 200
+HITTERS_k,200,season,Jason Heyward,ATL,"13, on pace for 216",16 over pace for 200
+HITTERS_k,200,season,Javier Baez,SF,"14, on pace for 233",33 over pace for 200
+HITTERS_k,200,season,Ji-Man Choi,CLG,"12, on pace for 200",On pace for 200
+HITTERS_k,200,season,Joc Pederson,PHI,"13, on pace for 216",16 over pace for 200
+HITTERS_k,200,season,Joey Gallo,CHC,"16, on pace for 266",66 over pace for 200
+HITTERS_k,200,season,Johan Camargo,MIL,"13, on pace for 216",16 over pace for 200
+HITTERS_k,200,season,Jonathan Villar,SD,"13, on pace for 216",16 over pace for 200
+HITTERS_k,200,season,Jorge Soler,OAK,"14, on pace for 233",33 over pace for 200
+HITTERS_k,200,season,Jose Abreu,CHC,"12, on pace for 200",On pace for 200
+HITTERS_k,200,season,Josh Bell,SEA,"12, on pace for 200",On pace for 200
+HITTERS_k,200,season,Josh Donaldson,COL,"15, on pace for 250",50 over pace for 200
+HITTERS_k,200,season,Josh Jung,SF,"12, on pace for 200",On pace for 200
+HITTERS_k,200,season,Juan Yepez,CHW,"13, on pace for 216",16 over pace for 200
+HITTERS_k,200,season,Julio Rodriguez,NYM,"12, on pace for 200",On pace for 200
+HITTERS_k,200,season,Jurickson Profar,MIL,"12, on pace for 200",On pace for 200
+HITTERS_k,200,season,Khris Davis,SD,"14, on pace for 233",33 over pace for 200
+HITTERS_k,200,season,Kyle Lewis,BOS,"14, on pace for 233",33 over pace for 200
+HITTERS_k,200,season,Luke Voit,SD,"16, on pace for 266",66 over pace for 200
+HITTERS_k,200,season,Marcus Semien,MIL,"12, on pace for 200",On pace for 200
+HITTERS_k,200,season,Max Muncy,KC,"12, on pace for 200",On pace for 200
+HITTERS_k,200,season,Michael Conforto,CHW,"12, on pace for 200",On pace for 200
+HITTERS_k,200,season,Mike Yastrzemski,MIN,"13, on pace for 216",16 over pace for 200
+HITTERS_k,200,season,Nick Ahmed,STL,"12, on pace for 200",On pace for 200
+HITTERS_k,200,season,Nick Pratto,NYY,"16, on pace for 266",66 over pace for 200
+HITTERS_k,200,season,Patrick Wisdom,OAK,"16, on pace for 266",66 over pace for 200
+HITTERS_k,200,season,Paul Goldschmidt,MIN,"16, on pace for 266",66 over pace for 200
+HITTERS_k,200,season,Rafael Devers,LAA,"12, on pace for 200",On pace for 200
+HITTERS_k,200,season,Riley Greene,CIN,"19, on pace for 316",116 over pace for 200
+HITTERS_k,200,season,Robbie Grossman,NYM,"13, on pace for 216",16 over pace for 200
+HITTERS_k,200,season,Ronald Acuna Jr.,TB,"12, on pace for 200",On pace for 200
+HITTERS_k,200,season,Rougned Odor,WAS,"19, on pace for 316",116 over pace for 200
+HITTERS_k,200,season,Shohei Ohtani,CIN,"14, on pace for 233",33 over pace for 200
+HITTERS_k,200,season,Starling Marte,STL,"12, on pace for 200",On pace for 200
+HITTERS_k,200,season,Tim Anderson,SEA,"16, on pace for 266",66 over pace for 200
+HITTERS_k,200,season,Tommy Pham,TOR,"12, on pace for 200",On pace for 200
+HITTERS_k,200,season,Tyler O'Neill,STL,"15, on pace for 250",50 over pace for 200
+HITTERS_k,200,season,Wander Franco,MIN,"13, on pace for 216",16 over pace for 200
+HITTERS_k,200,season,Willy Adames,CHW,"14, on pace for 233",33 over pace for 200
+HITTERS_k,200,season,Xander Bogaerts,MIL,"13, on pace for 216",16 over pace for 200
+HITTERS_k,200,season,Yasmani Grandal,TOR,"12, on pace for 200",On pace for 200
+HITTERS_k,200,season,Yoan Moncada,BAL,"13, on pace for 216",16 over pace for 200
+HITTERS_k,200,season,Yordan Alvarez,KC,"12, on pace for 200",On pace for 200
+HITTERS_k,291 *NSBL record*,season,Chas McCormick,ATL,"20, on pace for 333",42 over record pace (291 - Joey Gallo(2021))
+HITTERS_k,291 *NSBL record*,season,Hunter Renfroe,LAA,"17, on pace for 283",8 off record pace (291 - Joey Gallo(2021))
+HITTERS_k,291 *NSBL record*,season,Jace Peterson,WAS,"18, on pace for 300",9 over record pace (291 - Joey Gallo(2021))
+HITTERS_k,291 *NSBL record*,season,Riley Greene,CIN,"19, on pace for 316",25 over record pace (291 - Joey Gallo(2021))
+HITTERS_k,291 *NSBL record*,season,Rougned Odor,WAS,"19, on pace for 316",25 over record pace (291 - Joey Gallo(2021))
+HITTERS_r,100,season,A.J. Pollock,CIN,"6, on pace for 100",On pace for 100
+HITTERS_r,100,season,Aaron Judge,BAL,"7, on pace for 117",17 over pace for 100
+HITTERS_r,100,season,Adam Duvall,AZ,"7, on pace for 117",17 over pace for 100
+HITTERS_r,100,season,Adolis Garcia,SD,"7, on pace for 117",17 over pace for 100
+HITTERS_r,100,season,Akil Baddoo,BOS,"7, on pace for 117",17 over pace for 100
+HITTERS_r,100,season,Aledmys Diaz,TOR,"7, on pace for 117",17 over pace for 100
+HITTERS_r,100,season,Alek Thomas,TOR,"11, on pace for 183",83 over pace for 100
+HITTERS_r,100,season,Alex Verdugo,TEX,"6, on pace for 100",On pace for 100
+HITTERS_r,100,season,Andrew Benintendi,COL,"6, on pace for 100",On pace for 100
+HITTERS_r,100,season,Andrew McCutchen,SF,"10, on pace for 166",66 over pace for 100
+HITTERS_r,100,season,Anthony Rendon,BOS,"6, on pace for 100",On pace for 100
+HITTERS_r,100,season,Austin Slater,LAD,"8, on pace for 133",33 over pace for 100
+HITTERS_r,100,season,Brandon Crawford,KC,"6, on pace for 100",On pace for 100
+HITTERS_r,100,season,Brandon Nimmo,CHW,"7, on pace for 117",17 over pace for 100
+HITTERS_r,100,season,Bryan Reynolds,BAL,"10, on pace for 166",66 over pace for 100
+HITTERS_r,100,season,Byron Buxton,CLG,"9, on pace for 150",50 over pace for 100
+HITTERS_r,100,season,Cedric Mullins,MIL,"7, on pace for 117",17 over pace for 100
+HITTERS_r,100,season,Chas McCormick,ATL,"6, on pace for 100",On pace for 100
+HITTERS_r,100,season,Christian Yelich,CLG,"8, on pace for 133",33 over pace for 100
+HITTERS_r,100,season,Elias Diaz,ATL,"6, on pace for 100",On pace for 100
+HITTERS_r,100,season,Eloy Jimenez,TOR,"8, on pace for 133",33 over pace for 100
+HITTERS_r,100,season,Franchy Cordero,WAS,"6, on pace for 100",On pace for 100
+HITTERS_r,100,season,Francisco Lindor,ATL,"6, on pace for 100",On pace for 100
+HITTERS_r,100,season,Freddie Freeman,ATL,"7, on pace for 117",17 over pace for 100
+HITTERS_r,100,season,Freddy Galvis,MIN,"6, on pace for 100",On pace for 100
+HITTERS_r,100,season,Gavin Lux,CIN,"6, on pace for 100",On pace for 100
+HITTERS_r,100,season,Gavin Sheets,HOU,"6, on pace for 100",On pace for 100
+HITTERS_r,100,season,George Springer,SEA,"9, on pace for 150",50 over pace for 100
+HITTERS_r,100,season,Ian Happ,COL,"8, on pace for 133",33 over pace for 100
+HITTERS_r,100,season,J.T. Realmuto,TEX,"7, on pace for 117",17 over pace for 100
+HITTERS_r,100,season,Jake Meyers,ATL,"6, on pace for 100",On pace for 100
+HITTERS_r,100,season,Jared Walsh,CHC,"7, on pace for 117",17 over pace for 100
+HITTERS_r,100,season,Jazz Chisholm Jr.,STL,"6, on pace for 100",On pace for 100
+HITTERS_r,100,season,Jeff McNeil,CLG,"6, on pace for 100",On pace for 100
+HITTERS_r,100,season,Joey Gallo,CHC,"11, on pace for 183",83 over pace for 100
+HITTERS_r,100,season,Joey Votto,KC,"6, on pace for 100",On pace for 100
+HITTERS_r,100,season,Joey Wendle,DET,"6, on pace for 100",On pace for 100
+HITTERS_r,100,season,Jonathan India,MIL,"7, on pace for 117",17 over pace for 100
+HITTERS_r,100,season,Jordan Luplow,COL,"7, on pace for 117",17 over pace for 100
+HITTERS_r,100,season,Jorge Polanco,HOU,"6, on pace for 100",On pace for 100
+HITTERS_r,100,season,Josh Donaldson,COL,"6, on pace for 100",On pace for 100
+HITTERS_r,100,season,Juan Soto,ATL,"12, on pace for 200",100 over pace for 100
+HITTERS_r,100,season,Justin Turner,ATL,"8, on pace for 133",33 over pace for 100
+HITTERS_r,100,season,Kris Bryant,BAL,"6, on pace for 100",On pace for 100
+HITTERS_r,100,season,Kyle Isbel,PHI,"7, on pace for 117",17 over pace for 100
+HITTERS_r,100,season,Kyle Lewis,BOS,"6, on pace for 100",On pace for 100
+HITTERS_r,100,season,Kyle Tucker,LAA,"7, on pace for 117",17 over pace for 100
+HITTERS_r,100,season,Lane Thomas,MIN,"10, on pace for 166",66 over pace for 100
+HITTERS_r,100,season,Mark Canha,CLG,"7, on pace for 117",17 over pace for 100
+HITTERS_r,100,season,Matt Chapman,NYY,"6, on pace for 100",On pace for 100
+HITTERS_r,100,season,Matt Olson,SF,"6, on pace for 100",On pace for 100
+HITTERS_r,100,season,Mauricio Dubon,WAS,"8, on pace for 133",33 over pace for 100
+HITTERS_r,100,season,Max Muncy,KC,"6, on pace for 100",On pace for 100
+HITTERS_r,100,season,Michael Conforto,CHW,"6, on pace for 100",On pace for 100
+HITTERS_r,100,season,Miguel Rojas,ATL,"6, on pace for 100",On pace for 100
+HITTERS_r,100,season,Miguel Sano,CHW,"8, on pace for 133",33 over pace for 100
+HITTERS_r,100,season,Mike Trout,SD,"8, on pace for 133",33 over pace for 100
+HITTERS_r,100,season,Mitch Haniger,MIL,"9, on pace for 150",50 over pace for 100
+HITTERS_r,100,season,Mookie Betts,TB,"8, on pace for 133",33 over pace for 100
+HITTERS_r,100,season,Nate Lowe,MIL,"8, on pace for 133",33 over pace for 100
+HITTERS_r,100,season,Nelson Cruz,STL,"7, on pace for 117",17 over pace for 100
+HITTERS_r,100,season,Nicky Lopez,TOR,"7, on pace for 117",17 over pace for 100
+HITTERS_r,100,season,Nico Hoerner,CIN,"7, on pace for 117",17 over pace for 100
+HITTERS_r,100,season,Nolan Arenado,TOR,"11, on pace for 183",83 over pace for 100
+HITTERS_r,100,season,Ozzie Albies,NYM,"11, on pace for 183",83 over pace for 100
+HITTERS_r,100,season,Patrick Wisdom,OAK,"6, on pace for 100",On pace for 100
+HITTERS_r,100,season,Ramon Urias,STL,"6, on pace for 100",On pace for 100
+HITTERS_r,100,season,Randy Arozarena,CIN,"6, on pace for 100",On pace for 100
+HITTERS_r,100,season,Rhys Hoskins,TOR,"6, on pace for 100",On pace for 100
+HITTERS_r,100,season,Ronald Acuna Jr.,TB,"6, on pace for 100",On pace for 100
+HITTERS_r,100,season,Ryan Mountcastle,HOU,"7, on pace for 117",17 over pace for 100
+HITTERS_r,100,season,Sean Murphy,CHC,"6, on pace for 100",On pace for 100
+HITTERS_r,100,season,Shohei Ohtani,CIN,"6, on pace for 100",On pace for 100
+HITTERS_r,100,season,Spencer Torkelson,CHC,"7, on pace for 117",17 over pace for 100
+HITTERS_r,100,season,Tim Locastro,MIN,"6, on pace for 100",On pace for 100
+HITTERS_r,100,season,Tommy Pham,TOR,"8, on pace for 133",33 over pace for 100
+HITTERS_r,100,season,Tony Kemp,SF,"7, on pace for 117",17 over pace for 100
+HITTERS_r,100,season,Trent Grisham,SF,"8, on pace for 133",33 over pace for 100
+HITTERS_r,100,season,Tyler O'Neill,STL,"6, on pace for 100",On pace for 100
+HITTERS_r,100,season,Vinnie Pasquantino,PIT,"6, on pace for 100",On pace for 100
+HITTERS_r,100,season,Vladimir Guerrero Jr.,KC,"8, on pace for 133",33 over pace for 100
+HITTERS_r,100,season,Whit Merrifield,LAD,"6, on pace for 100",On pace for 100
+HITTERS_r,100,season,Will Smith,PHI,"6, on pace for 100",On pace for 100
+HITTERS_r,100,season,Wilmer Flores,AZ,"6, on pace for 100",On pace for 100
+HITTERS_r,100,season,Xander Bogaerts,MIL,"7, on pace for 117",17 over pace for 100
+HITTERS_r,161 *NSBL record*,season,Alek Thomas,TOR,"11, on pace for 183",22 over record pace (161 - Carlos Beltran(2009))
+HITTERS_r,161 *NSBL record*,season,Andrew McCutchen,SF,"10, on pace for 166",5 over record pace (161 - Carlos Beltran(2009))
+HITTERS_r,161 *NSBL record*,season,Bryan Reynolds,BAL,"10, on pace for 166",5 over record pace (161 - Carlos Beltran(2009))
+HITTERS_r,161 *NSBL record*,season,Joey Gallo,CHC,"11, on pace for 183",22 over record pace (161 - Carlos Beltran(2009))
+HITTERS_r,161 *NSBL record*,season,Juan Soto,ATL,"12, on pace for 200",39 over record pace (161 - Carlos Beltran(2009))
+HITTERS_r,161 *NSBL record*,season,Lane Thomas,MIN,"10, on pace for 166",5 over record pace (161 - Carlos Beltran(2009))
+HITTERS_r,161 *NSBL record*,season,Nolan Arenado,TOR,"11, on pace for 183",22 over record pace (161 - Carlos Beltran(2009))
+HITTERS_r,161 *NSBL record*,season,Ozzie Albies,NYM,"11, on pace for 183",22 over record pace (161 - Carlos Beltran(2009))
+HITTERS_rbi,100,season,Aaron Judge,BAL,"10, on pace for 166",66 over pace for 100
+HITTERS_rbi,100,season,Adam Duvall,AZ,"10, on pace for 166",66 over pace for 100
+HITTERS_rbi,100,season,Adolis Garcia,SD,"8, on pace for 133",33 over pace for 100
+HITTERS_rbi,100,season,Alec Bohm,STL,"6, on pace for 100",On pace for 100
+HITTERS_rbi,100,season,Alek Thomas,TOR,"7, on pace for 117",17 over pace for 100
+HITTERS_rbi,100,season,Andrew McCutchen,SF,"6, on pace for 100",On pace for 100
+HITTERS_rbi,100,season,Anthony Rendon,BOS,"8, on pace for 133",33 over pace for 100
+HITTERS_rbi,100,season,Anthony Santander,DET,"8, on pace for 133",33 over pace for 100
+HITTERS_rbi,100,season,Austin Allen,HOU,"6, on pace for 100",On pace for 100
+HITTERS_rbi,100,season,Bo Bichette,LAD,"9, on pace for 150",50 over pace for 100
+HITTERS_rbi,100,season,Brandon Belt,AZ,"6, on pace for 100",On pace for 100
+HITTERS_rbi,100,season,Brendan Rodgers,SEA,"11, on pace for 183",83 over pace for 100
+HITTERS_rbi,100,season,Byron Buxton,CLG,"14, on pace for 233",133 over pace for 100
+HITTERS_rbi,100,season,Carlos E. Perez,LAA,"6, on pace for 100",On pace for 100
+HITTERS_rbi,100,season,Cedric Mullins,MIL,"9, on pace for 150",50 over pace for 100
+HITTERS_rbi,100,season,Chas McCormick,ATL,"6, on pace for 100",On pace for 100
+HITTERS_rbi,100,season,Christian Vazquez,NYY,"8, on pace for 133",33 over pace for 100
+HITTERS_rbi,100,season,Danny Jansen,MIA,"7, on pace for 117",17 over pace for 100
+HITTERS_rbi,100,season,Elias Diaz,ATL,"7, on pace for 117",17 over pace for 100
+HITTERS_rbi,100,season,Eloy Jimenez,TOR,"9, on pace for 150",50 over pace for 100
+HITTERS_rbi,100,season,Francisco Lindor,ATL,"7, on pace for 117",17 over pace for 100
+HITTERS_rbi,100,season,Franmil Reyes,LAD,"8, on pace for 133",33 over pace for 100
+HITTERS_rbi,100,season,Freddie Freeman,ATL,"12, on pace for 200",100 over pace for 100
+HITTERS_rbi,100,season,Gavin Sheets,HOU,"8, on pace for 133",33 over pace for 100
+HITTERS_rbi,100,season,Giancarlo Stanton,CHC,"6, on pace for 100",On pace for 100
+HITTERS_rbi,100,season,Hunter Renfroe,LAA,"6, on pace for 100",On pace for 100
+HITTERS_rbi,100,season,Ian Happ,COL,"6, on pace for 100",On pace for 100
+HITTERS_rbi,100,season,J.D. Martinez,COL,"6, on pace for 100",On pace for 100
+HITTERS_rbi,100,season,J.T. Realmuto,TEX,"9, on pace for 150",50 over pace for 100
+HITTERS_rbi,100,season,Jace Peterson,WAS,"6, on pace for 100",On pace for 100
+HITTERS_rbi,100,season,Jake Meyers,ATL,"8, on pace for 133",33 over pace for 100
+HITTERS_rbi,100,season,Jeff McNeil,CLG,"6, on pace for 100",On pace for 100
+HITTERS_rbi,100,season,Joey Gallo,CHC,"10, on pace for 166",66 over pace for 100
+HITTERS_rbi,100,season,Johan Camargo,MIL,"6, on pace for 100",On pace for 100
+HITTERS_rbi,100,season,Jordan Luplow,COL,"7, on pace for 117",17 over pace for 100
+HITTERS_rbi,100,season,Jose Abreu,CHC,"9, on pace for 150",50 over pace for 100
+HITTERS_rbi,100,season,Josh Donaldson,COL,"7, on pace for 117",17 over pace for 100
+HITTERS_rbi,100,season,Josh Jung,SF,"6, on pace for 100",On pace for 100
+HITTERS_rbi,100,season,Juan Soto,ATL,"6, on pace for 100",On pace for 100
+HITTERS_rbi,100,season,Juan Yepez,CHW,"6, on pace for 100",On pace for 100
+HITTERS_rbi,100,season,Justin Turner,ATL,"6, on pace for 100",On pace for 100
+HITTERS_rbi,100,season,Ketel Marte,NYY,"7, on pace for 117",17 over pace for 100
+HITTERS_rbi,100,season,Khris Davis,SD,"6, on pace for 100",On pace for 100
+HITTERS_rbi,100,season,Kris Bryant,BAL,"7, on pace for 117",17 over pace for 100
+HITTERS_rbi,100,season,Kyle Schwarber,KC,"8, on pace for 133",33 over pace for 100
+HITTERS_rbi,100,season,Lane Thomas,MIN,"8, on pace for 133",33 over pace for 100
+HITTERS_rbi,100,season,Luke Voit,SD,"6, on pace for 100",On pace for 100
+HITTERS_rbi,100,season,Marcell Ozuna,MIA,"6, on pace for 100",On pace for 100
+HITTERS_rbi,100,season,Mark Canha,CLG,"6, on pace for 100",On pace for 100
+HITTERS_rbi,100,season,Matt Olson,SF,"9, on pace for 150",50 over pace for 100
+HITTERS_rbi,100,season,Michael Conforto,CHW,"7, on pace for 117",17 over pace for 100
+HITTERS_rbi,100,season,Miguel Rojas,ATL,"7, on pace for 117",17 over pace for 100
+HITTERS_rbi,100,season,Miguel Sano,CHW,"7, on pace for 117",17 over pace for 100
+HITTERS_rbi,100,season,Mitch Haniger,MIL,"15, on pace for 250",150 over pace for 100
+HITTERS_rbi,100,season,Mookie Betts,TB,"8, on pace for 133",33 over pace for 100
+HITTERS_rbi,100,season,Nelson Cruz,STL,"7, on pace for 117",17 over pace for 100
+HITTERS_rbi,100,season,Nick Pratto,NYY,"7, on pace for 117",17 over pace for 100
+HITTERS_rbi,100,season,Nolan Arenado,TOR,"13, on pace for 216",116 over pace for 100
+HITTERS_rbi,100,season,Oneil Cruz,CHC,"6, on pace for 100",On pace for 100
+HITTERS_rbi,100,season,Patrick Wisdom,OAK,"8, on pace for 133",33 over pace for 100
+HITTERS_rbi,100,season,Paul Goldschmidt,MIN,"7, on pace for 117",17 over pace for 100
+HITTERS_rbi,100,season,Pete Alonso,TEX,"7, on pace for 117",17 over pace for 100
+HITTERS_rbi,100,season,Rhys Hoskins,TOR,"7, on pace for 117",17 over pace for 100
+HITTERS_rbi,100,season,Ronald Acuna Jr.,TB,"9, on pace for 150",50 over pace for 100
+HITTERS_rbi,100,season,Salvador Perez,SD,"7, on pace for 117",17 over pace for 100
+HITTERS_rbi,100,season,Shohei Ohtani,CIN,"10, on pace for 166",66 over pace for 100
+HITTERS_rbi,100,season,Steven Kwan,KC,"7, on pace for 117",17 over pace for 100
+HITTERS_rbi,100,season,Teoscar Hernandez,SEA,"7, on pace for 117",17 over pace for 100
+HITTERS_rbi,100,season,Tommy Pham,TOR,"7, on pace for 117",17 over pace for 100
+HITTERS_rbi,100,season,Trey Mancini,NYM,"6, on pace for 100",On pace for 100
+HITTERS_rbi,100,season,Tucker Barnhart,CLG,"6, on pace for 100",On pace for 100
+HITTERS_rbi,100,season,Ty France,CIN,"6, on pace for 100",On pace for 100
+HITTERS_rbi,100,season,Tyler Naquin,TOR,"7, on pace for 117",17 over pace for 100
+HITTERS_rbi,100,season,Tyler O'Neill,STL,"10, on pace for 166",66 over pace for 100
+HITTERS_rbi,100,season,Willy Adames,CHW,"7, on pace for 117",17 over pace for 100
+HITTERS_rbi,100,season,Wilmer Flores,AZ,"8, on pace for 133",33 over pace for 100
+HITTERS_rbi,100,season,Xander Bogaerts,MIL,"8, on pace for 133",33 over pace for 100
+HITTERS_rbi,100,season,Yadier Molina,WAS,"8, on pace for 133",33 over pace for 100
+HITTERS_rbi,100,season,Yasmani Grandal,TOR,"7, on pace for 117",17 over pace for 100
+HITTERS_rbi,152 *NSBL record*,season,Aaron Judge,BAL,"10, on pace for 166",14 over record pace (152 - Nick Johnson(2008))
+HITTERS_rbi,152 *NSBL record*,season,Adam Duvall,AZ,"10, on pace for 166",14 over record pace (152 - Nick Johnson(2008))
+HITTERS_rbi,152 *NSBL record*,season,Bo Bichette,LAD,"9, on pace for 150",2 off record pace (152 - Nick Johnson(2008))
+HITTERS_rbi,152 *NSBL record*,season,Brendan Rodgers,SEA,"11, on pace for 183",31 over record pace (152 - Nick Johnson(2008))
+HITTERS_rbi,152 *NSBL record*,season,Byron Buxton,CLG,"14, on pace for 233",81 over record pace (152 - Nick Johnson(2008))
+HITTERS_rbi,152 *NSBL record*,season,Cedric Mullins,MIL,"9, on pace for 150",2 off record pace (152 - Nick Johnson(2008))
+HITTERS_rbi,152 *NSBL record*,season,Eloy Jimenez,TOR,"9, on pace for 150",2 off record pace (152 - Nick Johnson(2008))
+HITTERS_rbi,152 *NSBL record*,season,Freddie Freeman,ATL,"12, on pace for 200",48 over record pace (152 - Nick Johnson(2008))
+HITTERS_rbi,152 *NSBL record*,season,J.T. Realmuto,TEX,"9, on pace for 150",2 off record pace (152 - Nick Johnson(2008))
+HITTERS_rbi,152 *NSBL record*,season,Joey Gallo,CHC,"10, on pace for 166",14 over record pace (152 - Nick Johnson(2008))
+HITTERS_rbi,152 *NSBL record*,season,Jose Abreu,CHC,"9, on pace for 150",2 off record pace (152 - Nick Johnson(2008))
+HITTERS_rbi,152 *NSBL record*,season,Matt Olson,SF,"9, on pace for 150",2 off record pace (152 - Nick Johnson(2008))
+HITTERS_rbi,152 *NSBL record*,season,Mitch Haniger,MIL,"15, on pace for 250",98 over record pace (152 - Nick Johnson(2008))
+HITTERS_rbi,152 *NSBL record*,season,Nolan Arenado,TOR,"13, on pace for 216",64 over record pace (152 - Nick Johnson(2008))
+HITTERS_rbi,152 *NSBL record*,season,Ronald Acuna Jr.,TB,"9, on pace for 150",2 off record pace (152 - Nick Johnson(2008))
+HITTERS_rbi,152 *NSBL record*,season,Shohei Ohtani,CIN,"10, on pace for 166",14 over record pace (152 - Nick Johnson(2008))
+HITTERS_rbi,152 *NSBL record*,season,Tyler O'Neill,STL,"10, on pace for 166",14 over record pace (152 - Nick Johnson(2008))
+HITTERS_sb,50,season,Aaron Judge,BAL,"3, on pace for 50",On pace for 50
+HITTERS_sb,50,season,Adam Engel,DET,"5, on pace for 83",33 over pace for 50
+HITTERS_sb,50,season,Akil Baddoo,BOS,"4, on pace for 67",17 over pace for 50
+HITTERS_sb,50,season,Alek Thomas,TOR,"5, on pace for 83",33 over pace for 50
+HITTERS_sb,50,season,Amed Rosario,OAK,"3, on pace for 50",On pace for 50
+HITTERS_sb,50,season,Byron Buxton,CLG,"3, on pace for 50",On pace for 50
+HITTERS_sb,50,season,Christian Yelich,CLG,"3, on pace for 50",On pace for 50
+HITTERS_sb,50,season,Fernando Tatis Jr.,BAL,"6, on pace for 100",50 over pace for 50
+HITTERS_sb,50,season,George Springer,SEA,"3, on pace for 50",On pace for 50
+HITTERS_sb,50,season,Jarren Duran,LAD,"3, on pace for 50",On pace for 50
+HITTERS_sb,50,season,Jonathan Villar,SD,"4, on pace for 67",17 over pace for 50
+HITTERS_sb,50,season,Ozzie Albies,NYM,"4, on pace for 67",17 over pace for 50
+HITTERS_sb,50,season,Richie Palacios,HOU,"3, on pace for 50",On pace for 50
+HITTERS_sb,50,season,Starling Marte,STL,"3, on pace for 50",On pace for 50
+HITTERS_sb,50,season,Tim Locastro,MIN,"4, on pace for 67",17 over pace for 50
+HITTERS_sb,50,season,Tommy Pham,TOR,"3, on pace for 50",On pace for 50
+HITTERS_sb,50,season,Whit Merrifield,LAD,"3, on pace for 50",On pace for 50
+HITTERS_sb,101 *NSBL record*,season,Fernando Tatis Jr.,BAL,"6, on pace for 100",1 off record pace (101 - Eric Young Jr.(2010))
+PITCHERS_bb,100,season,Alex Claudio,CLG,"6, on pace for 100",On pace for 100
+PITCHERS_bb,100,season,Brad Keller,NYY,"8, on pace for 133",33 over pace for 100
+PITCHERS_bb,100,season,Brady Singer,NYY,"6, on pace for 100",On pace for 100
+PITCHERS_bb,100,season,Carlos Rodon,KC,"6, on pace for 100",On pace for 100
+PITCHERS_bb,100,season,Clayton Kershaw,PIT,"7, on pace for 117",17 over pace for 100
+PITCHERS_bb,100,season,Dan Winkler,NYY,"6, on pace for 100",On pace for 100
+PITCHERS_bb,100,season,Dylan Cease,HOU,"10, on pace for 166",66 over pace for 100
+PITCHERS_bb,100,season,Framber Valdez,COL,"6, on pace for 100",On pace for 100
+PITCHERS_bb,100,season,Garrett Whitlock,TOR,"6, on pace for 100",On pace for 100
+PITCHERS_bb,100,season,Glenn Otto,DET,"8, on pace for 133",33 over pace for 100
+PITCHERS_bb,100,season,Ian Anderson,MIN,"7, on pace for 117",17 over pace for 100
+PITCHERS_bb,100,season,James Paxton,NYM,"7, on pace for 117",17 over pace for 100
+PITCHERS_bb,100,season,Jeffrey Springs,CHC,"6, on pace for 100",On pace for 100
+PITCHERS_bb,100,season,Jon Gray,TEX,"8, on pace for 133",33 over pace for 100
+PITCHERS_bb,100,season,Kyle McGowin,ATL,"7, on pace for 117",17 over pace for 100
+PITCHERS_bb,100,season,Lance Lynn,MIN,"6, on pace for 100",On pace for 100
+PITCHERS_bb,100,season,Luis Castillo,COL,"6, on pace for 100",On pace for 100
+PITCHERS_bb,100,season,Marcus Stroman,KC,"6, on pace for 100",On pace for 100
+PITCHERS_bb,100,season,Stephen Strasburg,BAL,"6, on pace for 100",On pace for 100
+PITCHERS_bb,100,season,Tejay Antone,BAL,"6, on pace for 100",On pace for 100
+PITCHERS_bb,100,season,Trevor Rogers,PIT,"8, on pace for 133",33 over pace for 100
+PITCHERS_bb,100,season,Tyler Mahle,SF,"7, on pace for 117",17 over pace for 100
+PITCHERS_bb,100,season,Wade Miley,ATL,"6, on pace for 100",On pace for 100
+PITCHERS_bb,100,season,Zac Gallen,HOU,"6, on pace for 100",On pace for 100
+PITCHERS_bb,100,season,Zack Wheeler,STL,"7, on pace for 117",17 over pace for 100
+PITCHERS_bb,126 *NSBL record*,season,Brad Keller,NYY,"8, on pace for 133",7 over record pace (126 - Daniel Cabrera(2007))
+PITCHERS_bb,126 *NSBL record*,season,Dylan Cease,HOU,"10, on pace for 166",40 over record pace (126 - Daniel Cabrera(2007))
+PITCHERS_bb,126 *NSBL record*,season,Glenn Otto,DET,"8, on pace for 133",7 over record pace (126 - Daniel Cabrera(2007))
+PITCHERS_bb,126 *NSBL record*,season,Jon Gray,TEX,"8, on pace for 133",7 over record pace (126 - Daniel Cabrera(2007))
+PITCHERS_bb,126 *NSBL record*,season,Trevor Rogers,PIT,"8, on pace for 133",7 over record pace (126 - Daniel Cabrera(2007))
+PITCHERS_cg,10,season,Chris Bassitt,NYM,"1, on pace for 17",7 over pace for 10
+PITCHERS_cg,10,season,Dallas Keuchel,COL,"1, on pace for 17",7 over pace for 10
+PITCHERS_cg,10,season,Sandy Alcantara,HOU,"1, on pace for 17",7 over pace for 10
+PITCHERS_cg,10,season,Zack Greinke,PIT,"1, on pace for 17",7 over pace for 10
+PITCHERS_cg,10,season,Shohei Ohtani,CIN,"1, on pace for 17",7 over pace for 10
+PITCHERS_cg,17 *NSBL record*,season,Chris Bassitt,NYM,"1, on pace for 17",On record pace (17 - Roy Halladay(2009))
+PITCHERS_cg,17 *NSBL record*,season,Dallas Keuchel,COL,"1, on pace for 17",On record pace (17 - Roy Halladay(2009))
+PITCHERS_cg,17 *NSBL record*,season,Sandy Alcantara,HOU,"1, on pace for 17",On record pace (17 - Roy Halladay(2009))
+PITCHERS_cg,17 *NSBL record*,season,Zack Greinke,PIT,"1, on pace for 17",On record pace (17 - Roy Halladay(2009))
+PITCHERS_cg,17 *NSBL record*,season,Shohei Ohtani,CIN,"1, on pace for 17",On record pace (17 - Roy Halladay(2009))
+PITCHERS_g,80,season,A.J. Minter,NYY,"5, on pace for 83",3 over pace for 80
+PITCHERS_g,80,season,Aaron Bummer,LAD,"5, on pace for 83",3 over pace for 80
+PITCHERS_g,80,season,Adam Ottavino,PHI,"5, on pace for 83",3 over pace for 80
+PITCHERS_g,80,season,Bennett Sousa,DET,"6, on pace for 100",20 over pace for 80
+PITCHERS_g,80,season,Blake Taylor,HOU,"5, on pace for 83",3 over pace for 80
+PITCHERS_g,80,season,Brusdar Graterol,CHW,"5, on pace for 83",3 over pace for 80
+PITCHERS_g,80,season,Chaz Roe,CHC,"5, on pace for 83",3 over pace for 80
+PITCHERS_g,80,season,Cody Stashak,SF,"5, on pace for 83",3 over pace for 80
+PITCHERS_g,80,season,Colby White,AZ,"5, on pace for 83",3 over pace for 80
+PITCHERS_g,80,season,Cole Sulser,MIN,"5, on pace for 83",3 over pace for 80
+PITCHERS_g,80,season,Craig Stammen,AZ,"5, on pace for 83",3 over pace for 80
+PITCHERS_g,80,season,Cristian Javier,PIT,"5, on pace for 83",3 over pace for 80
+PITCHERS_g,80,season,D.J. Johnson,ATL,"7, on pace for 117",37 over pace for 80
+PITCHERS_g,80,season,Daniel Hudson,SEA,"6, on pace for 100",20 over pace for 80
+PITCHERS_g,80,season,Daniel Norris,CHC,"5, on pace for 83",3 over pace for 80
+PITCHERS_g,80,season,Darren O'Day,MIN,"5, on pace for 83",3 over pace for 80
+PITCHERS_g,80,season,David Phelps,TB,"5, on pace for 83",3 over pace for 80
+PITCHERS_g,80,season,Diego Castillo,CHW,"5, on pace for 83",3 over pace for 80
+PITCHERS_g,80,season,Emmanuel Clase,MIL,"7, on pace for 117",37 over pace for 80
+PITCHERS_g,80,season,Greg Holland,MIN,"6, on pace for 100",20 over pace for 80
+PITCHERS_g,80,season,J.B. Wendelken,LAA,"5, on pace for 83",3 over pace for 80
+PITCHERS_g,80,season,Jake Cousins,KC,"7, on pace for 117",37 over pace for 80
+PITCHERS_g,80,season,Jay Jackson,NYM,"5, on pace for 83",3 over pace for 80
+PITCHERS_g,80,season,Jimmy Nelson,SEA,"5, on pace for 83",3 over pace for 80
+PITCHERS_g,80,season,Joakim Soria,NYY,"6, on pace for 100",20 over pace for 80
+PITCHERS_g,80,season,Julian Merryweather,ATL,"5, on pace for 83",3 over pace for 80
+PITCHERS_g,80,season,Kenley Jansen,CIN,"5, on pace for 83",3 over pace for 80
+PITCHERS_g,80,season,Lucas Sims,STL,"5, on pace for 83",3 over pace for 80
+PITCHERS_g,80,season,Matt Barnes,TOR,"5, on pace for 83",3 over pace for 80
+PITCHERS_g,80,season,Michael Lorenzen,MIL,"5, on pace for 83",3 over pace for 80
+PITCHERS_g,80,season,Mike Mayers,CIN,"7, on pace for 117",37 over pace for 80
+PITCHERS_g,80,season,Mitchell Stumpo,CHC,"6, on pace for 100",20 over pace for 80
+PITCHERS_g,80,season,Nestor Cortes Jr.,LAD,"5, on pace for 83",3 over pace for 80
+PITCHERS_g,80,season,Oliver Drake,TB,"5, on pace for 83",3 over pace for 80
+PITCHERS_g,80,season,Phil Maton,LAD,"5, on pace for 83",3 over pace for 80
+PITCHERS_g,80,season,Rafael Montero,MIA,"5, on pace for 83",3 over pace for 80
+PITCHERS_g,80,season,Richard Lovelady,MIL,"5, on pace for 83",3 over pace for 80
+PITCHERS_g,80,season,Robert Suarez,KC,"5, on pace for 83",3 over pace for 80
+PITCHERS_g,80,season,Rowan Wick,PHI,"5, on pace for 83",3 over pace for 80
+PITCHERS_g,80,season,Ryan Brasier,MIL,"6, on pace for 100",20 over pace for 80
+PITCHERS_g,80,season,Ryan Thompson,LAA,"5, on pace for 83",3 over pace for 80
+PITCHERS_g,80,season,Sam Coonrod,TEX,"5, on pace for 83",3 over pace for 80
+PITCHERS_g,80,season,Sammy Long,WAS,"5, on pace for 83",3 over pace for 80
+PITCHERS_g,80,season,Scott Barlow,STL,"5, on pace for 83",3 over pace for 80
+PITCHERS_g,80,season,Taylor Rogers,TEX,"5, on pace for 83",3 over pace for 80
+PITCHERS_g,80,season,Tommy Hunter,BAL,"5, on pace for 83",3 over pace for 80
+PITCHERS_g,80,season,Trevor Richards,CLG,"6, on pace for 100",20 over pace for 80
+PITCHERS_g,80,season,Tyler Clippard,NYY,"5, on pace for 83",3 over pace for 80
+PITCHERS_g,80,season,Tyler Holton,CHC,"5, on pace for 83",3 over pace for 80
+PITCHERS_g,80,season,Tyler Johnson,CLG,"5, on pace for 83",3 over pace for 80
+PITCHERS_g,80,season,Tyler Matzek,NYM,"5, on pace for 83",3 over pace for 80
+PITCHERS_g,80,season,Will Harris,CIN,"6, on pace for 100",20 over pace for 80
+PITCHERS_g,80,season,Will Smith,PHI,"5, on pace for 83",3 over pace for 80
+PITCHERS_g,117 *NSBL record*,season,D.J. Johnson,ATL,"7, on pace for 117",On record pace (117 - Sean Gilmartin(2017))
+PITCHERS_g,117 *NSBL record*,season,Emmanuel Clase,MIL,"7, on pace for 117",On record pace (117 - Sean Gilmartin(2017))
+PITCHERS_g,117 *NSBL record*,season,Jake Cousins,KC,"7, on pace for 117",On record pace (117 - Sean Gilmartin(2017))
+PITCHERS_g,117 *NSBL record*,season,Mike Mayers,CIN,"7, on pace for 117",On record pace (117 - Sean Gilmartin(2017))
+PITCHERS_ip,200,season,Adam Wainwright,NYY,"15, on pace for 255",55 over pace for 200
+PITCHERS_ip,200,season,Adbert Alzolay,STL,"13, on pace for 211",11 over pace for 200
+PITCHERS_ip,200,season,Alek Manoah,TOR,"14, on pace for 238",38 over pace for 200
+PITCHERS_ip,200,season,Alex Wood,TB,"12, on pace for 195",5 off pace for 200
+PITCHERS_ip,200,season,Blake Snell,ATL,"12, on pace for 200",On pace for 200
+PITCHERS_ip,200,season,Brad Keller,NYY,"12, on pace for 195",5 off pace for 200
+PITCHERS_ip,200,season,Brent Suter,AZ,"12, on pace for 205",5 over pace for 200
+PITCHERS_ip,200,season,Carlos Carrasco,NYM,"13, on pace for 216",16 over pace for 200
+PITCHERS_ip,200,season,Chris Bassitt,NYM,"16, on pace for 266",66 over pace for 200
+PITCHERS_ip,200,season,Chris Flexen,BOS,"13, on pace for 216",16 over pace for 200
+PITCHERS_ip,200,season,Chris Sale,MIA,"13, on pace for 216",16 over pace for 200
+PITCHERS_ip,200,season,Cole Hamels,SD,"15, on pace for 245",45 over pace for 200
+PITCHERS_ip,200,season,Dakota Hudson,WAS,"12, on pace for 200",On pace for 200
+PITCHERS_ip,200,season,Dallas Keuchel,COL,"14, on pace for 233",33 over pace for 200
+PITCHERS_ip,200,season,Dylan Cease,HOU,"18, on pace for 295",95 over pace for 200
+PITCHERS_ip,200,season,Eduardo Rodriguez,MIA,"14, on pace for 228",28 over pace for 200
+PITCHERS_ip,200,season,Frankie Montas,MIL,"13, on pace for 216",16 over pace for 200
+PITCHERS_ip,200,season,German Marquez,AZ,"14, on pace for 228",28 over pace for 200
+PITCHERS_ip,200,season,Gerrit Cole,WAS,"18, on pace for 305",105 over pace for 200
+PITCHERS_ip,200,season,Hyun-Jin Ryu,LAA,"14, on pace for 233",33 over pace for 200
+PITCHERS_ip,200,season,Jack Flaherty,ATL,"12, on pace for 195",5 off pace for 200
+PITCHERS_ip,200,season,Jake Odorizzi,DET,"12, on pace for 195",5 off pace for 200
+PITCHERS_ip,200,season,Joe Ryan,BAL,"12, on pace for 200",On pace for 200
+PITCHERS_ip,200,season,John Means,SD,"12, on pace for 200",On pace for 200
+PITCHERS_ip,200,season,Johnny Cueto,MIN,"12, on pace for 200",On pace for 200
+PITCHERS_ip,200,season,Jon Gray,TEX,"12, on pace for 195",5 off pace for 200
+PITCHERS_ip,200,season,Jonathan Loaisiga,AZ,"19, on pace for 316",116 over pace for 200
+PITCHERS_ip,200,season,Jordan Montgomery,KC,"12, on pace for 200",On pace for 200
+PITCHERS_ip,200,season,Jose Berrios,CHW,"13, on pace for 221",21 over pace for 200
+PITCHERS_ip,200,season,Julio Urias,LAA,"13, on pace for 216",16 over pace for 200
+PITCHERS_ip,200,season,Justin Verlander,CHW,"13, on pace for 216",16 over pace for 200
+PITCHERS_ip,200,season,Kenta Maeda,STL,"12, on pace for 200",On pace for 200
+PITCHERS_ip,200,season,Kevin Gausman,CLG,"13, on pace for 216",16 over pace for 200
+PITCHERS_ip,200,season,Kyle Bradish,CLG,"14, on pace for 228",28 over pace for 200
+PITCHERS_ip,200,season,Kyle Freeland,BAL,"12, on pace for 200",On pace for 200
+PITCHERS_ip,200,season,Kyle Hendricks,PHI,"13, on pace for 211",11 over pace for 200
+PITCHERS_ip,200,season,Logan Webb,CHW,"13, on pace for 221",21 over pace for 200
+PITCHERS_ip,200,season,Luis Severino,SD,"18, on pace for 300",100 over pace for 200
+PITCHERS_ip,200,season,Marcus Stroman,KC,"19, on pace for 311",111 over pace for 200
+PITCHERS_ip,200,season,Max Fried,OAK,"15, on pace for 250",50 over pace for 200
+PITCHERS_ip,200,season,Max Scherzer,OAK,"12, on pace for 205",5 over pace for 200
+PITCHERS_ip,200,season,Michael Pineda,MIL,"12, on pace for 200",On pace for 200
+PITCHERS_ip,200,season,Nick Martinez,KC,"12, on pace for 200",On pace for 200
+PITCHERS_ip,200,season,Noah Syndergaard,TOR,"13, on pace for 211",11 over pace for 200
+PITCHERS_ip,200,season,Ranger Suarez,MIL,"19, on pace for 311",111 over pace for 200
+PITCHERS_ip,200,season,Robbie Ray,TEX,"12, on pace for 200",On pace for 200
+PITCHERS_ip,200,season,Ross Stripling,NYY,"12, on pace for 200",On pace for 200
+PITCHERS_ip,200,season,Ryan Weiss,LAA,"12, on pace for 195",5 off pace for 200
+PITCHERS_ip,200,season,Sandy Alcantara,HOU,"16, on pace for 266",66 over pace for 200
+PITCHERS_ip,200,season,Sean Manaea,PHI,"12, on pace for 205",5 over pace for 200
+PITCHERS_ip,200,season,Shane Bieber,TEX,"12, on pace for 200",On pace for 200
+PITCHERS_ip,200,season,Steven Matz,CIN,"14, on pace for 233",33 over pace for 200
+PITCHERS_ip,200,season,Tejay Antone,BAL,"12, on pace for 205",5 over pace for 200
+PITCHERS_ip,200,season,Trevor Bauer,MIL,"14, on pace for 238",38 over pace for 200
+PITCHERS_ip,200,season,Trevor Rogers,PIT,"12, on pace for 195",5 off pace for 200
+PITCHERS_ip,200,season,Tyler Glasnow,OAK,"12, on pace for 200",On pace for 200
+PITCHERS_ip,200,season,Tyler Mahle,SF,"13, on pace for 216",16 over pace for 200
+PITCHERS_ip,200,season,Walker Buehler,TOR,"14, on pace for 228",28 over pace for 200
+PITCHERS_ip,200,season,Yonny Chirinos,PHI,"14, on pace for 238",38 over pace for 200
+PITCHERS_ip,200,season,Yu Darvish,TB,"12, on pace for 195",5 off pace for 200
+PITCHERS_ip,200,season,Zac Gallen,HOU,"13, on pace for 221",21 over pace for 200
+PITCHERS_ip,200,season,Zach Eflin,PHI,"14, on pace for 233",33 over pace for 200
+PITCHERS_ip,200,season,Zach Plesac,BOS,"12, on pace for 200",On pace for 200
+PITCHERS_ip,200,season,Zack Greinke,PIT,"16, on pace for 266",66 over pace for 200
+PITCHERS_ip,200,season,Zack Wheeler,STL,"14, on pace for 233",33 over pace for 200
+PITCHERS_ip,200,season,Shohei Ohtani,CIN,"15, on pace for 245",45 over pace for 200
+PITCHERS_ip,280 *NSBL record*,season,Chris Bassitt,NYM,"16, on pace for 266",13 off record pace (280 - Clayton Kershaw(2014))
+PITCHERS_ip,280 *NSBL record*,season,Dylan Cease,HOU,"18, on pace for 295",15 over record pace (280 - Clayton Kershaw(2014))
+PITCHERS_ip,280 *NSBL record*,season,Gerrit Cole,WAS,"18, on pace for 305",25 over record pace (280 - Clayton Kershaw(2014))
+PITCHERS_ip,280 *NSBL record*,season,Jonathan Loaisiga,AZ,"19, on pace for 316",37 over record pace (280 - Clayton Kershaw(2014))
+PITCHERS_ip,280 *NSBL record*,season,Luis Severino,SD,"18, on pace for 300",20 over record pace (280 - Clayton Kershaw(2014))
+PITCHERS_ip,280 *NSBL record*,season,Marcus Stroman,KC,"19, on pace for 311",32 over record pace (280 - Clayton Kershaw(2014))
+PITCHERS_ip,280 *NSBL record*,season,Ranger Suarez,MIL,"19, on pace for 311",32 over record pace (280 - Clayton Kershaw(2014))
+PITCHERS_ip,280 *NSBL record*,season,Sandy Alcantara,HOU,"16, on pace for 266",13 off record pace (280 - Clayton Kershaw(2014))
+PITCHERS_ip,280 *NSBL record*,season,Zack Greinke,PIT,"16, on pace for 266",13 off record pace (280 - Clayton Kershaw(2014))
+PITCHERS_k,200,season,A.J. Puk,DET,"12, on pace for 200",On pace for 200
+PITCHERS_k,200,season,Aaron Ashby,MIL,"13, on pace for 216",16 over pace for 200
+PITCHERS_k,200,season,Alek Manoah,TOR,"14, on pace for 233",33 over pace for 200
+PITCHERS_k,200,season,Blake Snell,ATL,"17, on pace for 283",83 over pace for 200
+PITCHERS_k,200,season,Brandon Woodruff,CHC,"13, on pace for 216",16 over pace for 200
+PITCHERS_k,200,season,Caleb Ferguson,TB,"16, on pace for 266",66 over pace for 200
+PITCHERS_k,200,season,Chris Bassitt,NYM,"14, on pace for 233",33 over pace for 200
+PITCHERS_k,200,season,Chris Sale,MIA,"14, on pace for 233",33 over pace for 200
+PITCHERS_k,200,season,Clayton Kershaw,PIT,"16, on pace for 266",66 over pace for 200
+PITCHERS_k,200,season,Cody Morris,TB,"12, on pace for 200",On pace for 200
+PITCHERS_k,200,season,D.J. Johnson,ATL,"15, on pace for 250",50 over pace for 200
+PITCHERS_k,200,season,Dakota Hudson,WAS,"13, on pace for 216",16 over pace for 200
+PITCHERS_k,200,season,David Phelps,TB,"12, on pace for 200",On pace for 200
+PITCHERS_k,200,season,Dylan Cease,HOU,"25, on pace for 416",216 over pace for 200
+PITCHERS_k,200,season,Framber Valdez,COL,"13, on pace for 216",16 over pace for 200
+PITCHERS_k,200,season,Freddy Peralta,SEA,"20, on pace for 333",133 over pace for 200
+PITCHERS_k,200,season,Gerrit Cole,WAS,"21, on pace for 350",150 over pace for 200
+PITCHERS_k,200,season,Ian Anderson,MIN,"12, on pace for 200",On pace for 200
+PITCHERS_k,200,season,Jack Flaherty,ATL,"13, on pace for 216",16 over pace for 200
+PITCHERS_k,200,season,Jacob deGrom,PIT,"18, on pace for 300",100 over pace for 200
+PITCHERS_k,200,season,Jake Cousins,KC,"12, on pace for 200",On pace for 200
+PITCHERS_k,200,season,Jake Odorizzi,DET,"13, on pace for 216",16 over pace for 200
+PITCHERS_k,200,season,James Paxton,NYM,"16, on pace for 266",66 over pace for 200
+PITCHERS_k,200,season,Joe Ryan,BAL,"14, on pace for 233",33 over pace for 200
+PITCHERS_k,200,season,John Means,SD,"14, on pace for 233",33 over pace for 200
+PITCHERS_k,200,season,Jonathan Loaisiga,AZ,"14, on pace for 233",33 over pace for 200
+PITCHERS_k,200,season,Jordan Montgomery,KC,"12, on pace for 200",On pace for 200
+PITCHERS_k,200,season,Julio Urias,LAA,"13, on pace for 216",16 over pace for 200
+PITCHERS_k,200,season,Justin Verlander,CHW,"15, on pace for 250",50 over pace for 200
+PITCHERS_k,200,season,Kenta Maeda,STL,"14, on pace for 233",33 over pace for 200
+PITCHERS_k,200,season,Kwang Hyun Kim,NYY,"12, on pace for 200",On pace for 200
+PITCHERS_k,200,season,Kyle Bradish,CLG,"14, on pace for 233",33 over pace for 200
+PITCHERS_k,200,season,Lance McCullers Jr.,CHW,"12, on pace for 200",On pace for 200
+PITCHERS_k,200,season,Logan Webb,CHW,"16, on pace for 266",66 over pace for 200
+PITCHERS_k,200,season,Lucas Giolito,PIT,"14, on pace for 233",33 over pace for 200
+PITCHERS_k,200,season,Luis Severino,SD,"22, on pace for 366",166 over pace for 200
+PITCHERS_k,200,season,Marcus Stroman,KC,"17, on pace for 283",83 over pace for 200
+PITCHERS_k,200,season,Matt Wisler,SEA,"12, on pace for 200",On pace for 200
+PITCHERS_k,200,season,Max Scherzer,OAK,"13, on pace for 216",16 over pace for 200
+PITCHERS_k,200,season,Michael Kopech,WAS,"18, on pace for 300",100 over pace for 200
+PITCHERS_k,200,season,Nathan Eovaldi,CIN,"13, on pace for 216",16 over pace for 200
+PITCHERS_k,200,season,Noah Syndergaard,TOR,"14, on pace for 233",33 over pace for 200
+PITCHERS_k,200,season,Patrick Corbin,LAD,"14, on pace for 233",33 over pace for 200
+PITCHERS_k,200,season,Patrick Sandoval,SEA,"14, on pace for 233",33 over pace for 200
+PITCHERS_k,200,season,Peyton Battenfield,LAA,"12, on pace for 200",On pace for 200
+PITCHERS_k,200,season,Ranger Suarez,MIL,"18, on pace for 300",100 over pace for 200
+PITCHERS_k,200,season,Robbie Ray,TEX,"14, on pace for 233",33 over pace for 200
+PITCHERS_k,200,season,Sean Manaea,PHI,"16, on pace for 266",66 over pace for 200
+PITCHERS_k,200,season,Shane Bieber,TEX,"21, on pace for 350",150 over pace for 200
+PITCHERS_k,200,season,Tejay Antone,BAL,"13, on pace for 216",16 over pace for 200
+PITCHERS_k,200,season,Trevor Bauer,MIL,"25, on pace for 416",216 over pace for 200
+PITCHERS_k,200,season,Tyler Glasnow,OAK,"14, on pace for 233",33 over pace for 200
+PITCHERS_k,200,season,Tyler Mahle,SF,"15, on pace for 250",50 over pace for 200
+PITCHERS_k,200,season,Zac Gallen,HOU,"18, on pace for 300",100 over pace for 200
+PITCHERS_k,200,season,Zack Kelly,CHC,"14, on pace for 233",33 over pace for 200
+PITCHERS_k,200,season,Shohei Ohtani,CIN,"13, on pace for 216",16 over pace for 200
+PITCHERS_k,327 *NSBL record*,season,Dylan Cease,HOU,"25, on pace for 416",89 over record pace (327 - Max Scherzer(2020))
+PITCHERS_k,327 *NSBL record*,season,Freddy Peralta,SEA,"20, on pace for 333",6 over record pace (327 - Max Scherzer(2020))
+PITCHERS_k,327 *NSBL record*,season,Gerrit Cole,WAS,"21, on pace for 350",23 over record pace (327 - Max Scherzer(2020))
+PITCHERS_k,327 *NSBL record*,season,Luis Severino,SD,"22, on pace for 366",39 over record pace (327 - Max Scherzer(2020))
+PITCHERS_k,327 *NSBL record*,season,Shane Bieber,TEX,"21, on pace for 350",23 over record pace (327 - Max Scherzer(2020))
+PITCHERS_k,327 *NSBL record*,season,Trevor Bauer,MIL,"25, on pace for 416",89 over record pace (327 - Max Scherzer(2020))
+PITCHERS_sho,7 *NSBL record*,season,Chris Bassitt,NYM,"1, on pace for 17",10 over record pace (7 - Cliff Lee(2011))
+PITCHERS_sho,7 *NSBL record*,season,Zack Greinke,PIT,"1, on pace for 17",10 over record pace (7 - Cliff Lee(2011))
+PITCHERS_sv,30,season,Adam Ottavino,PHI,"3, on pace for 50",20 over pace for 30
+PITCHERS_sv,30,season,Art Warren,CHC,"3, on pace for 50",20 over pace for 30
+PITCHERS_sv,30,season,Blake Treinen,NYM,"3, on pace for 50",20 over pace for 30
+PITCHERS_sv,30,season,Brusdar Graterol,CHW,"2, on pace for 33",3 over pace for 30
+PITCHERS_sv,30,season,Codi Heuer,LAA,"2, on pace for 33",3 over pace for 30
+PITCHERS_sv,30,season,Daniel Hudson,SEA,"2, on pace for 33",3 over pace for 30
+PITCHERS_sv,30,season,Edwin Diaz,OAK,"3, on pace for 50",20 over pace for 30
+PITCHERS_sv,30,season,Greg Holland,MIN,"3, on pace for 50",20 over pace for 30
+PITCHERS_sv,30,season,Hansel Robles,WAS,"2, on pace for 33",3 over pace for 30
+PITCHERS_sv,30,season,James Karinchak,KC,"2, on pace for 33",3 over pace for 30
+PITCHERS_sv,30,season,Josh Hader,MIA,"2, on pace for 33",3 over pace for 30
+PITCHERS_sv,30,season,Kirby Snead,ATL,"2, on pace for 33",3 over pace for 30
+PITCHERS_sv,30,season,Liam Hendriks,TOR,"3, on pace for 50",20 over pace for 30
+PITCHERS_sv,30,season,Pete Fairbanks,TB,"2, on pace for 33",3 over pace for 30
+PITCHERS_sv,30,season,Richard Lovelady,MIL,"3, on pace for 50",20 over pace for 30
+PITCHERS_sv,30,season,Robert Suarez,KC,"2, on pace for 33",3 over pace for 30
+PITCHERS_sv,42 *NSBL record*,season,Adam Ottavino,PHI,"3, on pace for 50",8 over record pace (42 - Jim Johnson(2014))
+PITCHERS_sv,42 *NSBL record*,season,Art Warren,CHC,"3, on pace for 50",8 over record pace (42 - Jim Johnson(2014))
+PITCHERS_sv,42 *NSBL record*,season,Blake Treinen,NYM,"3, on pace for 50",8 over record pace (42 - Jim Johnson(2014))
+PITCHERS_sv,42 *NSBL record*,season,Edwin Diaz,OAK,"3, on pace for 50",8 over record pace (42 - Jim Johnson(2014))
+PITCHERS_sv,42 *NSBL record*,season,Greg Holland,MIN,"3, on pace for 50",8 over record pace (42 - Jim Johnson(2014))
+PITCHERS_sv,42 *NSBL record*,season,Liam Hendriks,TOR,"3, on pace for 50",8 over record pace (42 - Jim Johnson(2014))
+PITCHERS_sv,42 *NSBL record*,season,Richard Lovelady,MIL,"3, on pace for 50",8 over record pace (42 - Jim Johnson(2014))
+PITCHERS_w,20,season,A.J. Puk,DET,"1, on pace for 17",3 off pace for 20
+PITCHERS_w,20,season,Aaron Ashby,MIL,"1, on pace for 17",3 off pace for 20
+PITCHERS_w,20,season,Adam Cimber,CHC,"1, on pace for 17",3 off pace for 20
+PITCHERS_w,20,season,Alek Manoah,TOR,"1, on pace for 17",3 off pace for 20
+PITCHERS_w,20,season,Alex Colome,CHW,"1, on pace for 17",3 off pace for 20
+PITCHERS_w,20,season,Andrew Chafin,TB,"1, on pace for 17",3 off pace for 20
+PITCHERS_w,20,season,Andrew Heaney,KC,"1, on pace for 17",3 off pace for 20
+PITCHERS_w,20,season,Anthony DeSclafani,CIN,"1, on pace for 17",3 off pace for 20
+PITCHERS_w,20,season,Blake Snell,ATL,"2, on pace for 33",13 over pace for 20
+PITCHERS_w,20,season,Blake Taylor,HOU,"1, on pace for 17",3 off pace for 20
+PITCHERS_w,20,season,Brad Hand,COL,"1, on pace for 17",3 off pace for 20
+PITCHERS_w,20,season,Brandon Woodruff,CHC,"1, on pace for 17",3 off pace for 20
+PITCHERS_w,20,season,Brandon Workman,SF,"1, on pace for 17",3 off pace for 20
+PITCHERS_w,20,season,Brent Suter,AZ,"1, on pace for 17",3 off pace for 20
+PITCHERS_w,20,season,Brusdar Graterol,CHW,"1, on pace for 17",3 off pace for 20
+PITCHERS_w,20,season,Cal Quantrill,CHC,"1, on pace for 17",3 off pace for 20
+PITCHERS_w,20,season,Caleb Ferguson,TB,"1, on pace for 17",3 off pace for 20
+PITCHERS_w,20,season,Carlos Carrasco,NYM,"1, on pace for 17",3 off pace for 20
+PITCHERS_w,20,season,Cesar Valdez,MIN,"2, on pace for 33",13 over pace for 20
+PITCHERS_w,20,season,Chris Archer,MIN,"1, on pace for 17",3 off pace for 20
+PITCHERS_w,20,season,Chris Bassitt,NYM,"2, on pace for 33",13 over pace for 20
+PITCHERS_w,20,season,Chris Flexen,BOS,"1, on pace for 17",3 off pace for 20
+PITCHERS_w,20,season,Clay Holmes,STL,"1, on pace for 17",3 off pace for 20
+PITCHERS_w,20,season,Clayton Kershaw,PIT,"1, on pace for 17",3 off pace for 20
+PITCHERS_w,20,season,Cody Bolton,SF,"1, on pace for 17",3 off pace for 20
+PITCHERS_w,20,season,Cole Hamels,SD,"1, on pace for 17",3 off pace for 20
+PITCHERS_w,20,season,Cole Sulser,MIN,"2, on pace for 33",13 over pace for 20
+PITCHERS_w,20,season,Craig Kimbrel,ATL,"1, on pace for 17",3 off pace for 20
+PITCHERS_w,20,season,Dakota Hudson,WAS,"1, on pace for 17",3 off pace for 20
+PITCHERS_w,20,season,Dane Dunning,TEX,"1, on pace for 17",3 off pace for 20
+PITCHERS_w,20,season,Daniel Hudson,SEA,"1, on pace for 17",3 off pace for 20
+PITCHERS_w,20,season,Daniel Norris,CHC,"1, on pace for 17",3 off pace for 20
+PITCHERS_w,20,season,Darren O'Day,MIN,"1, on pace for 17",3 off pace for 20
+PITCHERS_w,20,season,Daulton Jefferies,HOU,"1, on pace for 17",3 off pace for 20
+PITCHERS_w,20,season,David Peterson,LAD,"1, on pace for 17",3 off pace for 20
+PITCHERS_w,20,season,Daysbel Hernandez,CLG,"1, on pace for 17",3 off pace for 20
+PITCHERS_w,20,season,Dinelson Lamet,CLG,"1, on pace for 17",3 off pace for 20
+PITCHERS_w,20,season,Drew Pomeranz,SEA,"1, on pace for 17",3 off pace for 20
+PITCHERS_w,20,season,Dylan Floro,LAD,"1, on pace for 17",3 off pace for 20
+PITCHERS_w,20,season,Eduardo Rodriguez,MIA,"1, on pace for 17",3 off pace for 20
+PITCHERS_w,20,season,Ethan Small,STL,"1, on pace for 17",3 off pace for 20
+PITCHERS_w,20,season,Framber Valdez,COL,"2, on pace for 33",13 over pace for 20
+PITCHERS_w,20,season,Frankie Montas,MIL,"1, on pace for 17",3 off pace for 20
+PITCHERS_w,20,season,Garrett Hill,LAA,"1, on pace for 17",3 off pace for 20
+PITCHERS_w,20,season,Garrett Whitlock,TOR,"1, on pace for 17",3 off pace for 20
+PITCHERS_w,20,season,Genesis Cabrera,LAD,"1, on pace for 17",3 off pace for 20
+PITCHERS_w,20,season,German Marquez,AZ,"2, on pace for 33",13 over pace for 20
+PITCHERS_w,20,season,Glenn Otto,DET,"1, on pace for 17",3 off pace for 20
+PITCHERS_w,20,season,Huascar Ynoa,SEA,"1, on pace for 17",3 off pace for 20
+PITCHERS_w,20,season,Ian Anderson,MIN,"1, on pace for 17",3 off pace for 20
+PITCHERS_w,20,season,Jack Flaherty,ATL,"1, on pace for 17",3 off pace for 20
+PITCHERS_w,20,season,Jacob deGrom,PIT,"1, on pace for 17",3 off pace for 20
+PITCHERS_w,20,season,Jacob Webb,WAS,"1, on pace for 17",3 off pace for 20
+PITCHERS_w,20,season,Jake Odorizzi,DET,"1, on pace for 17",3 off pace for 20
+PITCHERS_w,20,season,James Paxton,NYM,"1, on pace for 17",3 off pace for 20
+PITCHERS_w,20,season,Jeffrey Springs,CHC,"1, on pace for 17",3 off pace for 20
+PITCHERS_w,20,season,Joe Mantiply,BAL,"2, on pace for 33",13 over pace for 20
+PITCHERS_w,20,season,Joe Ryan,BAL,"1, on pace for 17",3 off pace for 20
+PITCHERS_w,20,season,Joely Rodriguez,TOR,"2, on pace for 33",13 over pace for 20
+PITCHERS_w,20,season,Joey Lucchesi,TEX,"1, on pace for 17",3 off pace for 20
+PITCHERS_w,20,season,John King,ATL,"1, on pace for 17",3 off pace for 20
+PITCHERS_w,20,season,John Means,SD,"1, on pace for 17",3 off pace for 20
+PITCHERS_w,20,season,Jon Gray,TEX,"1, on pace for 17",3 off pace for 20
+PITCHERS_w,20,season,Jonathan Loaisiga,AZ,"3, on pace for 50",30 over pace for 20
+PITCHERS_w,20,season,Jordan Montgomery,KC,"1, on pace for 17",3 off pace for 20
+PITCHERS_w,20,season,Jordan Romano,AZ,"1, on pace for 17",3 off pace for 20
+PITCHERS_w,20,season,Jose Quijada,CLG,"1, on pace for 17",3 off pace for 20
+PITCHERS_w,20,season,Jose Urquidy,WAS,"1, on pace for 17",3 off pace for 20
+PITCHERS_w,20,season,Josh Lindblom,TB,"1, on pace for 17",3 off pace for 20
+PITCHERS_w,20,season,Julio Urias,LAA,"2, on pace for 33",13 over pace for 20
+PITCHERS_w,20,season,Justin Bruihl,TB,"2, on pace for 33",13 over pace for 20
+PITCHERS_w,20,season,Kenta Maeda,STL,"1, on pace for 17",3 off pace for 20
+PITCHERS_w,20,season,Kevin Gausman,CLG,"1, on pace for 17",3 off pace for 20
+PITCHERS_w,20,season,Kirby Snead,ATL,"1, on pace for 17",3 off pace for 20
+PITCHERS_w,20,season,Kyle Bradish,CLG,"1, on pace for 17",3 off pace for 20
+PITCHERS_w,20,season,Kyle Freeland,BAL,"1, on pace for 17",3 off pace for 20
+PITCHERS_w,20,season,Kyle Gibson,SD,"1, on pace for 17",3 off pace for 20
+PITCHERS_w,20,season,Kyle Hendricks,PHI,"1, on pace for 17",3 off pace for 20
+PITCHERS_w,20,season,Lance McCullers Jr.,CHW,"1, on pace for 17",3 off pace for 20
+PITCHERS_w,20,season,Logan Webb,CHW,"1, on pace for 17",3 off pace for 20
+PITCHERS_w,20,season,Lucas Sims,STL,"1, on pace for 17",3 off pace for 20
+PITCHERS_w,20,season,Marcus Stroman,KC,"1, on pace for 17",3 off pace for 20
+PITCHERS_w,20,season,Matt Barnes,TOR,"1, on pace for 17",3 off pace for 20
+PITCHERS_w,20,season,Matt Wisler,SEA,"1, on pace for 17",3 off pace for 20
+PITCHERS_w,20,season,Max Fried,OAK,"2, on pace for 33",13 over pace for 20
+PITCHERS_w,20,season,Max Scherzer,OAK,"1, on pace for 17",3 off pace for 20
+PITCHERS_w,20,season,Michael King,MIL,"1, on pace for 17",3 off pace for 20
+PITCHERS_w,20,season,Michael Kopech,WAS,"1, on pace for 17",3 off pace for 20
+PITCHERS_w,20,season,Michael Pineda,MIL,"1, on pace for 17",3 off pace for 20
+PITCHERS_w,20,season,Mike Clevinger,LAD,"1, on pace for 17",3 off pace for 20
+PITCHERS_w,20,season,Mike Mayers,CIN,"1, on pace for 17",3 off pace for 20
+PITCHERS_w,20,season,Mychal Givens,SD,"1, on pace for 17",3 off pace for 20
+PITCHERS_w,20,season,Nick Anderson,MIA,"1, on pace for 17",3 off pace for 20
+PITCHERS_w,20,season,Nick Martinez,KC,"2, on pace for 33",13 over pace for 20
+PITCHERS_w,20,season,Noah Syndergaard,TOR,"1, on pace for 17",3 off pace for 20
+PITCHERS_w,20,season,Oliver Drake,TB,"1, on pace for 17",3 off pace for 20
+PITCHERS_w,20,season,Patrick Corbin,LAD,"1, on pace for 17",3 off pace for 20
+PITCHERS_w,20,season,Paul Fry,NYY,"1, on pace for 17",3 off pace for 20
+PITCHERS_w,20,season,Pete Fairbanks,TB,"1, on pace for 17",3 off pace for 20
+PITCHERS_w,20,season,Phil Maton,LAD,"1, on pace for 17",3 off pace for 20
+PITCHERS_w,20,season,Robbie Ray,TEX,"1, on pace for 17",3 off pace for 20
+PITCHERS_w,20,season,Rowan Wick,PHI,"1, on pace for 17",3 off pace for 20
+PITCHERS_w,20,season,Ryan Borucki,PHI,"1, on pace for 17",3 off pace for 20
+PITCHERS_w,20,season,Ryan Pressly,STL,"1, on pace for 17",3 off pace for 20
+PITCHERS_w,20,season,Ryan Weiss,LAA,"1, on pace for 17",3 off pace for 20
+PITCHERS_w,20,season,Sandy Alcantara,HOU,"1, on pace for 17",3 off pace for 20
+PITCHERS_w,20,season,Scott Barlow,STL,"1, on pace for 17",3 off pace for 20
+PITCHERS_w,20,season,Seth Lugo,SEA,"1, on pace for 17",3 off pace for 20
+PITCHERS_w,20,season,Shane Bieber,TEX,"2, on pace for 33",13 over pace for 20
+PITCHERS_w,20,season,Sixto Sanchez,SF,"1, on pace for 17",3 off pace for 20
+PITCHERS_w,20,season,Taijuan Walker,OAK,"1, on pace for 17",3 off pace for 20
+PITCHERS_w,20,season,Tim Mayza,KC,"1, on pace for 17",3 off pace for 20
+PITCHERS_w,20,season,Trevor Bauer,MIL,"2, on pace for 33",13 over pace for 20
+PITCHERS_w,20,season,Trevor Rogers,PIT,"1, on pace for 17",3 off pace for 20
+PITCHERS_w,20,season,Tyler Glasnow,OAK,"1, on pace for 17",3 off pace for 20
+PITCHERS_w,20,season,Tyler Mahle,SF,"1, on pace for 17",3 off pace for 20
+PITCHERS_w,20,season,Tyler Matzek,NYM,"1, on pace for 17",3 off pace for 20
+PITCHERS_w,20,season,Victor Gonzalez,MIA,"1, on pace for 17",3 off pace for 20
+PITCHERS_w,20,season,Wade Miley,ATL,"1, on pace for 17",3 off pace for 20
+PITCHERS_w,20,season,Walker Buehler,TOR,"1, on pace for 17",3 off pace for 20
+PITCHERS_w,20,season,Wyatt Mills,CLG,"1, on pace for 17",3 off pace for 20
+PITCHERS_w,20,season,Yonny Chirinos,PHI,"1, on pace for 17",3 off pace for 20
+PITCHERS_w,20,season,Zac Gallen,HOU,"2, on pace for 33",13 over pace for 20
+PITCHERS_w,20,season,Zach Eflin,PHI,"2, on pace for 33",13 over pace for 20
+PITCHERS_w,20,season,Zach Plesac,BOS,"1, on pace for 17",3 off pace for 20
+PITCHERS_w,20,season,Zack Greinke,PIT,"1, on pace for 17",3 off pace for 20
+PITCHERS_w,23 *NSBL record*,season,Blake Snell,ATL,"2, on pace for 33",10 over record pace (23 - Clayton Kershaw(2012)/Madison Bumgarner(2016))
+PITCHERS_w,23 *NSBL record*,season,Cesar Valdez,MIN,"2, on pace for 33",10 over record pace (23 - Clayton Kershaw(2012)/Madison Bumgarner(2016))
+PITCHERS_w,23 *NSBL record*,season,Chris Bassitt,NYM,"2, on pace for 33",10 over record pace (23 - Clayton Kershaw(2012)/Madison Bumgarner(2016))
+PITCHERS_w,23 *NSBL record*,season,Cole Sulser,MIN,"2, on pace for 33",10 over record pace (23 - Clayton Kershaw(2012)/Madison Bumgarner(2016))
+PITCHERS_w,23 *NSBL record*,season,Framber Valdez,COL,"2, on pace for 33",10 over record pace (23 - Clayton Kershaw(2012)/Madison Bumgarner(2016))
+PITCHERS_w,23 *NSBL record*,season,German Marquez,AZ,"2, on pace for 33",10 over record pace (23 - Clayton Kershaw(2012)/Madison Bumgarner(2016))
+PITCHERS_w,23 *NSBL record*,season,Joe Mantiply,BAL,"2, on pace for 33",10 over record pace (23 - Clayton Kershaw(2012)/Madison Bumgarner(2016))
+PITCHERS_w,23 *NSBL record*,season,Joely Rodriguez,TOR,"2, on pace for 33",10 over record pace (23 - Clayton Kershaw(2012)/Madison Bumgarner(2016))
+PITCHERS_w,23 *NSBL record*,season,Jonathan Loaisiga,AZ,"3, on pace for 50",27 over record pace (23 - Clayton Kershaw(2012)/Madison Bumgarner(2016))
+PITCHERS_w,23 *NSBL record*,season,Julio Urias,LAA,"2, on pace for 33",10 over record pace (23 - Clayton Kershaw(2012)/Madison Bumgarner(2016))
+PITCHERS_w,23 *NSBL record*,season,Justin Bruihl,TB,"2, on pace for 33",10 over record pace (23 - Clayton Kershaw(2012)/Madison Bumgarner(2016))
+PITCHERS_w,23 *NSBL record*,season,Max Fried,OAK,"2, on pace for 33",10 over record pace (23 - Clayton Kershaw(2012)/Madison Bumgarner(2016))
+PITCHERS_w,23 *NSBL record*,season,Nick Martinez,KC,"2, on pace for 33",10 over record pace (23 - Clayton Kershaw(2012)/Madison Bumgarner(2016))
+PITCHERS_w,23 *NSBL record*,season,Shane Bieber,TEX,"2, on pace for 33",10 over record pace (23 - Clayton Kershaw(2012)/Madison Bumgarner(2016))
+PITCHERS_w,23 *NSBL record*,season,Trevor Bauer,MIL,"2, on pace for 33",10 over record pace (23 - Clayton Kershaw(2012)/Madison Bumgarner(2016))
+PITCHERS_w,23 *NSBL record*,season,Zac Gallen,HOU,"2, on pace for 33",10 over record pace (23 - Clayton Kershaw(2012)/Madison Bumgarner(2016))
+PITCHERS_w,23 *NSBL record*,season,Zach Eflin,PHI,"2, on pace for 33",10 over record pace (23 - Clayton Kershaw(2012)/Madison Bumgarner(2016))
