@@ -1,199 +1,199 @@
-row,name,instances,type,locations,cr_done,grade,details
-1,Shelter,3,Boulder,Grand Wall,,13,"Versions 2,3,4 - V13"
-2,The Method,3,Boulder,Apron,,12->13,"Versions 2,4 - V12 -> Versions 3 - V13"
-3,Agoraphobia,3,Boulder,Grand Wall,,11,"Versions 2,3,4 - V11"
-4,Encore Une Fois,3,Boulder,Grand Wall,,11,"Versions 2,3,4 - V11"
-5,The Egg,3,Boulder,Grand Wall,,11,"Versions 2,3,4 - V11"
-6,The Serpent,3,Boulder,Apron,,10,"Versions 2,3,4 - V10"
-7,World Of Hurt,3,Highball,Grand Wall,,10,"Versions 2,3,4 - V10 (Highball)"
-8,No Troublems,3,Boulder,Grand Wall,,10->9,"Versions 2,3 - V10 -> Versions 4 - V9"
-9,Straight Outta' Squampton,3,Highball,Grand Wall,,9->10,"Versions 2 - V9 (Highball) -> Versions 3,4 - V10 (Highball)"
-10,Physics Hyperbole,3,Boulder,Grand Wall,,9,"Versions 2,3,4 - V9"
-11,Resurrection,3,Highball->Boulder,North Walls,y,9,"Versions 2,3 - V9 (Highball) -> Versions 4 - V9"
-12,Mantra,3,Boulder,Grand Wall,y,8,"Versions 2,3,4 - V8"
-13,Ride the Lightning,3,Highball,Grand Wall,,8,"Versions 2,3,4 - V8 (Highball)"
-14,Sharma's Arete,3,Boulder,Grand Wall,,8,"Versions 2,3,4 - V8"
-15,Corner Relief,3,Boulder,North Walls,,8,"Versions 2,3,4 - V8"
-16,Storm Troopers,3,Boulder,Paradise Valley,y,8,"Versions 2,3,4 - V8"
-17,Ramen Raw,3,Boulder,Apron,y,7,"Versions 2,3,4 - V7"
-18,This Monkey's Gone to Heaven,3,Boulder,Apron,,7,"Versions 2,3,4 - V7"
-19,A.T.D.,3,Boulder,Grand Wall,y,7,"Versions 2,3,4 - V7"
-20,Black Slabbath,3,Highball,Grand Wall,,7,"Versions 2,3,4 - V7 (Highball)"
-21,Feed Us a Fetus,3,Boulder,Grand Wall,,7,"Versions 2,3,4 - V7"
-22,The Fuzz,3,Boulder,Grand Wall,y,7,"Versions 2,3,4 - V7"
-23,Undertow,3,Boulder,Grand Wall,y,7,"Versions 2,3,4 - V7"
-24,The Fridge,3,Boulder,Paradise Valley,,7,"Versions 2,3,4 - V7"
-25,Teenage Lobotomy,3,Highball,Apron,,6->7,"Versions 2,3 - V6 (Highball) -> Versions 4 - V7 (Highball)"
-26,Dynamite,3,Boulder->Highball,Apron,,6,"Versions 2 - V6 -> Versions 3,4 - V6 (Highball)"
-27,Palm Meat,3,Boulder->Highball,Grand Wall,,6,"Versions 2,3 - V6 -> Versions 4 - V6 (Highball)"
-28,Sunshine and Lollipops,3,Boulder,Grand Wall,y,6,"Versions 2,3,4 - V6"
-29,Phantom Menace,3,Boulder,Paradise Valley,,6,"Versions 2,3,4 - V6"
-30,Funeral Arrangements,3,Highball,Apron,,5->6,"Versions 2,3 - V5 (Highball) -> Versions 4 - V6 (Highball)"
-31,Swank Stretch,3,Boulder,Grand Wall,y,5,"Versions 2,3,4 - V5"
-32,The Hoop Wrangler,3,Boulder,Grand Wall,y,5,"Versions 2,3,4 - V5"
-33,Tim's Sloper Problem,3,Boulder,Grand Wall,y,5,"Versions 2,3,4 - V5"
-34,Timeless,3,Boulder,Grand Wall,y,5,"Versions 2,3,4 - V5"
-35,Viper,3,Boulder,Grand Wall,y,5,"Versions 2,3,4 - V5"
-36,Space Monkey,3,Boulder,North Walls,y,5,"Versions 2,3,4 - V5"
-37,The Crystal Method,3,Boulder,Paradise Valley,y,5,"Versions 2,3,4 - V5"
-38,Vigilante,3,Boulder,Smoke Bluffs,,5,"Versions 2,3,4 - V5"
-39,No Excuse for Porn Hair,3,Highball,Apron,y,5->4,"Versions 2 - V5 (Highball) -> Versions 3,4 - V4 (Highball)"
-40,Five Star Pillar,3,Boulder,Murrin Park,y,5->4,"Versions 2 - V5 -> Versions 3,4 - V4"
-41,Kung Fu Fighter,3,Boulder->Highball,North Walls,,4->5,Versions 2 - V4 -> Versions 3 - V4 (Highball) -> Versions 4 - V5 (Highball)
-42,Shots Fired,3,Boulder,Apron,y,4,"Versions 2,3,4 - V4"
-43,Child Abuse,3,Boulder,Grand Wall,y,4,"Versions 2,3,4 - V4"
-44,Easy In An Easy Chair,3,Boulder,Grand Wall,y,4,"Versions 2,3,4 - V4"
-45,Practical Horseman,3,Boulder,Grand Wall,y,4,"Versions 2,3,4 - V4"
-46,Skin Graft,3,Boulder,Grand Wall,,4,"Versions 2,3,4 - V4"
-47,Sloppy Poppy,3,Boulder,Grand Wall,y,4,"Versions 2,3,4 - V4"
-48,Superfly,3,Boulder,Grand Wall,y,4,"Versions 2,3,4 - V4"
-49,Trad Killer,3,Boulder,Grand Wall,y,4,"Versions 2,3,4 - V4"
-50,Enchanted,3,Highball,Paradise Valley,,4,"Versions 2,3,4 - V4 (Highball)"
-51,Tai Fighter,3,Boulder,Paradise Valley,y,4,"Versions 2,3,4 - V4"
-52,Shadows,3,Boulder,Powerline,y,4,"Versions 2,3,4 - V4"
-53,Crackhead,3,Boulder,Grand Wall,y,3,"Versions 2,3,4 - V3"
-54,Double Decker,3,Boulder,Grand Wall,y,3,"Versions 2,3,4 - V3"
-55,Superdyke,3,Boulder,Grand Wall,,3,"Versions 2,3,4 - V3"
-56,Titanic,3,Boulder,Grand Wall,y,3,"Versions 2,3,4 - V3"
-57,Tyler's Dihedral,3,Boulder,North Walls,y,3,"Versions 2,3,4 - V3"
-58,Wild Kingdom,3,Boulder,North Walls,,3,"Versions 2,3,4 - V3"
-59,Heartbreak Hotel,3,Boulder,Grand Wall,y,2,"Versions 2,3,4 - V2"
-60,Slingshot,3,Boulder,Grand Wall,y,2,"Versions 2,3,4 - V2"
-61,The Singularity,2,Boulder,Grand Wall,,14,"Versions 2,4 - V14"
-62,Black Magic,2,Boulder,Apron,,13->12,Versions 2 - V13 -> Versions 4 - V12
-63,Frontside,2,Boulder,Apron,,12,"Versions 2,4 - V12"
-64,Summoning Sit,2,Boulder,Murrin Park,,12,"Versions 3,4 - V12"
-65,The Drowning Grip,2,Highball,Grand Wall,,12->11,Versions 2 - V12 (Highball) -> Versions 4 - V11 (Highball)
-66,The Perfect Cave,2,Boulder,North Walls,,11,"Versions 2,3 - V11"
-67,Send the Pain Below,2,Boulder,Grand Wall,,10,"Versions 2,3 - V10"
-68,The Broom,2,Highball,Grand Wall,,10,"Versions 2,3 - V10 (Highball)"
-69,Worm World Cave Low,2,Boulder,Grand Wall,,10,"Versions 2,4 - V10"
-70,Defender of the Faith,2,Boulder,Apron,,9,"Versions 2,4 - V9"
-71,Worm World Cave,2,Boulder,Grand Wall,y,9,"Versions 2,3 - V9"
-72,Phantom Power,2,Boulder,Grand Wall,y,8,"Versions 2,3 - V8"
-73,The Bulb,2,Boulder,Grand Wall,,8,"Versions 2,3 - V8"
-74,The Weasel,2,Boulder,Grand Wall,,8,"Versions 2,4 - V8"
-75,Connect Four,2,Boulder,North Walls,,8,"Versions 2,4 - V8"
-76,Second Story,2,Boulder,North Walls,,8,"Versions 2,3 - V8"
-77,Amazing Direct,2,Boulder,Brohm Lake,y,7,"Versions 3,4 - V7"
-78,Be On Four,2,Highball,Grand Wall,,7,"Versions 2,3 - V7 (Highball)"
-79,Pavelini,2,Boulder,Grand Wall,,7,"Versions 3,4 - V7"
-80,Astroman,2,Boulder,North Walls,,7,"Versions 2,3 - V7"
-81,Ghost Rider,2,Boulder,Apron,,6,"Versions 2,3 - V6"
-82,Killing Me Softly,2,Boulder,Apron,,6,"Versions 2,3 - V6"
-83,Israel's Cave,2,Boulder,Murrin Park,,6,"Versions 3,4 - V6"
-84,Spring Fling,2,Boulder,Paradise Valley,,6,"Versions 2,3 - V6"
-85,It's About Time,2,Boulder,Grand Wall,y,5,"Versions 2,3 - V5"
-86,Phat Slab,2,Boulder,Grand Wall,,5,"Versions 3,4 - V5"
-87,King for a Day,2,Boulder,North Walls,,5,"Versions 3,4 - V5"
-88,Into The Light,2,Boulder,Pemberton,,5,"Versions 2,3 - V5"
-89,Racing Ra,2,Boulder,Powerline,y,5,"Versions 2,3 - V5"
-90,Butterfly Effect,2,Boulder,Grand Wall,y,4,"Versions 2,3 - V4"
-91,Squamish Special,2,Boulder,Grand Wall,y,4,"Versions 2,3 - V4"
-92,Zero to Hero,2,Highball,Powerline,,4,"Versions 3,4 - V4 (Highball)"
-93,For The Birds,2,Highball,Cat Lake,,3,"Versions 3,4 - V3 (Highball)"
-94,American Gigolo,2,Boulder,Grand Wall,y,3,"Versions 2,3 - V3"
-95,Old And Serious,2,Boulder,Grand Wall,y,3,"Versions 2,3 - V3"
-96,In Your Face,2,Boulder,Pemberton,,3,"Versions 2,3 - V3"
-97,"Tall, Dark, and Handsome",2,Highball,Apron,,2,"Versions 3,4 - V2 (Highball)"
-98,Panda Milk,2,Boulder,Furry Creek,,2,"Versions 2,3 - V2"
-99,Hulkster's Humpfest,2,Boulder,Grand Wall,y,2,"Versions 2,3 - V2"
-100,Paperboy,2,Boulder,Grand Wall,y,2,"Versions 2,3 - V2"
-101,Prime Time,2,Boulder,Murrin Park,y,2,"Versions 2,3 - V2"
-102,Is It Pure?,2,Highball,North Walls,y,2,"Versions 3,4 - V2 (Highball)"
-103,Detached Flake,2,Boulder,North Walls,y,1,"Versions 3,4 - V1"
-104,Fried Ant,2,Boulder,Grand Wall,y,0,"Versions 2,3 - V0"
-105,Summer Vacation,2,Boulder->Highball,Grand Wall,y,0,Versions 2 - V0 -> Versions 3 - V0 (Highball)
-106,The Reckoning,1,Boulder,North Walls,,14,Versions 3 - V14
-107,The Summoning,1,Boulder,Murrin Park,,12,Versions 2 - V12
-108,The Silk Road,1,Boulder,Shannon Falls,,12,Versions 3 - V12
-109,Black Hole,1,Boulder,Apron,,11,Versions 4 - V11
-110,The Black Council,1,Boulder,Grand Wall,,11,Versions 4 - V11
-111,The Existential Detective,1,Boulder,North Walls,,11,Versions 2 - V11
-112,White Lion Low,1,Boulder,Cat Lake,,10,Versions 4 - V10
-113,Snakes of Shoalin,1,Highball,Grand Wall,,10,Versions 3 - V10 (Highball)
-114,Stalling Tim,1,Boulder,Grand Wall,,10,Versions 2 - V10
-115,The Physics,1,Boulder,Grand Wall,,10,Versions 2 - V10
-116,Velcro,1,Boulder,Grand Wall,,10,Versions 2 - V10
-117,No Honour Among Thieves,1,Boulder,North Walls,,10,Versions 2 - V10
-118,On Again Off Again,1,Boulder,Shannon Falls,,10,Versions 4 - V10
-119,Tatonka,1,Boulder,Apron,,9,Versions 4 - V9
-120,Ivory Tower,1,Boulder,British Columbia,,9,Versions 4 - V9
-121,Peter and the Wolf,1,Boulder,British Columbia,,9,Versions 4 - V9
-122,Sesame Street,1,Boulder,Grand Wall,y,9,Versions 4 - V9
-123,The Rookie Low,1,Boulder,Grand Wall,,9,Versions 3 - V9
-124,Chanterelle,1,Boulder,North Walls,,9,Versions 3 - V9
-125,Detention Arete,1,Boulder,North Walls,,9,Versions 2 - V9
-126,Krishna Cave,1,Boulder,North Walls,,9,Versions 4 - V9
-127,Tim's Arete,1,Boulder,North Walls,,9,Versions 4 - V9
-128,Invincible,1,Boulder,Porteau Cove,,9,Versions 3 - V9
-129,Gibb's Cave,1,Boulder,Apron,y,8,Versions 2 - V8
-130,White Lion,1,Boulder,Cat Lake,,8,Versions 3 - V8
-131,The Rookie,1,Boulder,Grand Wall,y,8,Versions 2 - V8
-132,Houdini,1,Boulder,North Walls,,8,Versions 4 - V8
-133,Planet of the Apes,1,Boulder,North Walls,,8,Versions 4 - V8
-134,Sheriff's Badge Arete,1,Boulder,North Walls,,8,Versions 4 - V8
-135,The Roof Crack,1,Boulder,North Walls,,8,Versions 3 - V8
-136,Monkey In The Know,1,Boulder,Pemberton,,8,Versions 2 - V8
-137,As Good As It Gets,1,Boulder,Smoke Bluffs,,8,Versions 2 - V8
-138,Snake Taint,1,Boulder,Smoke Bluffs,,8,Versions 4 - V8
-139,The Ladies Man,1,Boulder,Apron,,7,Versions 2 - V7
-140,Golden Boy,1,Boulder,Grand Wall,y,7,Versions 4 - V7
-141,Immunity Challenge,1,Boulder,Grand Wall,,7,Versions 2 - V7
-142,Loose Change,1,Highball,Grand Wall,,7,Versions 4 - V7 (Highball)
-143,Mindbender,1,Boulder,Grand Wall,y,7,Versions 2 - V7
-144,Styx,1,Boulder,Grand Wall,y,7,Versions 2 - V7
-145,The Snail,1,Highball,Grand Wall,,7,Versions 3 - V7 (Highball)
-146,Arm Your Thoughts,1,Highball,North Walls,,7,Versions 2 - V7 (Highball)
-147,Raging Rapids,1,Highball,North Walls,,7,Versions 3 - V7 (Highball)
-148,The Guppy,1,Boulder,Paradise Valley,,7,Versions 4 - V7
-149,Giver Her The Chickens,1,Boulder,Pemberton,,7,Versions 2 - V7
-150,Fantastic Mr. Fox,1,Boulder,Shannon Falls,,7,Versions 3 - V7
-151,Slippery When Wet,1,Boulder,Shannon Falls,,7,Versions 3 - V7
-152,Majestic,1,Boulder,British Columbia,,6,Versions 4 - V6
-153,Stomach Acid,1,Boulder,Garibaldi,,6,Versions 4 - V6
-154,Minor Threat,1,Boulder,Grand Wall,y,6,Versions 4 - V6
-155,No Holds Barred,1,Boulder,Grand Wall,,6,Versions 3 - V6
-156,Worm World,1,Boulder,Grand Wall,y,6,Versions 4 - V6
-157,Princesses Don't Whine,1,Boulder,Murrin Park,,6,Versions 3 - V6
-158,Bar Exam,1,Boulder,North Walls,y,6,Versions 4 - V6
-159,Chicken Lips and Assholes,1,Boulder,North Walls,y,6,Versions 4 - V6
-160,Lost and Found,1,Highball,North Walls,,6,Versions 4 - V6 (Highball)
-161,Second Blood,1,Boulder,North Walls,y,6,Versions 3 - V6
-162,The Land That Time Forgot,1,Boulder,North Walls,,6,Versions 4 - V6
-163,The Tugger,1,Boulder,North Walls,y,6,Versions 3 - V6
-164,The Pit,1,Boulder,Powerline,y,6,Versions 4 - V6
-165,Disproving God,1,Boulder,Shannon Falls,,6,Versions 3 - V6
-166,Whispering Waters,1,Highball,Shannon Falls,,6,Versions 4 - V6 (Highball)
-167,Doubt,1,Boulder,Grand Wall,,5,Versions 4 - V5
-168,Prime Time Sit Down,1,Boulder,Murrin Park,y,5,Versions 4 - V5
-169,Welcome to the Jungle,1,Highball,Murrin Park,,5,Versions 4 - V5 (Highball)
-170,Japanese Cowboy,1,Boulder,North Walls,y,5,Versions 4 - V5
-171,The Alpine Ridge,1,Highball,North Walls,,5,Versions 3 - V5 (Highball)
-172,Thunderballs,1,Boulder,North Walls,y,5,Versions 2 - V5
-173,Arch Enemy,1,Boulder,Smoke Bluffs,,5,Versions 3 - V5
-174,Ain't No Grave,1,Highball,Crumpit Woods,,4,Versions 4 - V4 (Highball)
-175,Flow Stone,1,Boulder,North Walls,,4,Versions 3 - V4
-176,Zylon,1,Boulder,Paradise Valley,y,4,Versions 4 - V4
-177,The Reincarnation of Tim Doyle,1,Boulder,Porteau Cove,,4,Versions 3 - V4
-178,Moroccan Blonde,1,Boulder,Shannon Falls,,4,Versions 4 - V4
-179,The Mastodon,1,Highball,Shannon Falls,,4,Versions 4 - V4 (Highball)
-180,Dig Up Her Bones,1,Highball,Smoke Bluffs,,4,Versions 3 - V4 (Highball)
-181,Can't Do It In Shoes,1,Boulder,Whistler,,4,Versions 2 - V4
-182,Walk the Line,1,Highball,Crumpit Woods,,3,Versions 4 - V3 (Highball)
-183,21st Century Digital Boy,1,Boulder,Grand Wall,,3,Versions 4 - V3
-184,Dirty Bird,1,Boulder,Murrin Park,,3,Versions 3 - V3
-185,911,1,Highball,North Walls,,3,Versions 4 - V3 (Highball)
-186,FAROUK!,1,Boulder,North Walls,,3,Versions 4 - V3
-187,Rhino Face,1,Boulder,North Walls,y,3,Versions 3 - V3
-188,The Wing,1,Boulder,North Walls,,3,Versions 4 - V3
-189,Voltage,1,Highball,North Walls,,3,Versions 3 - V3 (Highball)
-190,Lost World Overhang,1,Boulder,North Walls,,2,Versions 4 - V2
-191,Mutiny in the Friendship Brigade,1,Highball,North Walls,,2,Versions 4 - V2 (Highball)
-192,Dilaudid,1,Boulder,Shannon Falls,,2,Versions 4 - V2
-193,Nefarious,1,Boulder,Grand Wall,,1,Versions 4 - V1
-194,By Fair Means,1,Highball,North Walls,,1,Versions 3 - V1 (Highball)
-195,Dealer,1,Boulder,Grand Wall,y,0,Versions 4 - V0
-196,Dyke Surfer,1,Boulder,Grand Wall,y,0,Versions 3 - V0
-197,Nick's Adventure,1,Boulder,North Walls,,0,Versions 4 - V0
-198,Winding Down,1,Boulder,Smoke Bluffs,,0,Versions 3 - V0
+row,name,instances,type,location,grade,completed,tried,details
+1,Resurrection,3,Highball->Boulder,North Walls,9,1,1,"Version 2, V9 - Highball | Version 3, V9 - Highball | Version 4, V9 - Boulder"
+2,Worm World Cave,2,Boulder,Grand Wall,9,1,1,"Version 2, V9 - Boulder | Version 3, V9 - Boulder"
+3,Sesame Street,1,Boulder,Grand Wall,9,1,1,"Version 4, V9 - Boulder"
+4,Mantra,3,Boulder,Grand Wall,8,1,1,"Version 2, V8 - Boulder | Version 3, V8 - Boulder | Version 4, V8 - Boulder"
+5,Storm Troopers,3,Boulder,Paradise Valley,8,1,1,"Version 2, V8 - Boulder | Version 3, V8 - Boulder | Version 4, V8 - Boulder"
+6,Phantom Power,2,Boulder,Grand Wall,8,1,1,"Version 2, V8 - Boulder | Version 3, V8 - Boulder"
+7,Gibb's Cave,1,Boulder,Apron,8,1,1,"Version 2, V8 - Boulder"
+8,The Rookie,1,Boulder,Grand Wall,8,1,1,"Version 2, V8 - Boulder"
+9,A.T.D.,3,Boulder,Grand Wall,7,1,1,"Version 2, V7 - Boulder | Version 3, V7 - Boulder | Version 4, V7 - Boulder"
+10,Ramen Raw,3,Boulder,Apron,7,1,1,"Version 2, V7 - Boulder | Version 3, V7 - Boulder | Version 4, V7 - Boulder"
+11,The Fuzz,3,Boulder,Grand Wall,7,1,1,"Version 2, V7 - Boulder | Version 3, V7 - Boulder | Version 4, V7 - Boulder"
+12,Undertow,3,Boulder,Grand Wall,7,1,1,"Version 2, V7 - Boulder | Version 3, V7 - Boulder | Version 4, V7 - Boulder"
+13,Amazing Direct,2,Boulder,Cat Lake,7,1,1,"Version 3, V7 - Boulder | Version 4, V7 - Boulder"
+14,Golden Boy,1,Boulder,Grand Wall,7,1,1,"Version 4, V7 - Boulder"
+15,Immunity Challenge,1,Boulder,Grand Wall,7,1,1,"Version 2, V7 - Boulder"
+16,Mindbender,1,Boulder,Grand Wall,7,1,1,"Version 2, V7 - Boulder"
+17,Styx,1,Boulder,Grand Wall,7,1,1,"Version 2, V7 - Boulder"
+18,Sunshine and Lollipops,3,Boulder,Grand Wall,6,1,1,"Version 2, V6 - Boulder | Version 3, V6 - Boulder | Version 4, V6 - Boulder"
+19,Bar Exam,1,Boulder,North Walls,6,1,1,"Version 4, V6 - Boulder"
+20,Chicken Lips and Assholes,1,Boulder,North Walls,6,1,1,"Version 4, V6 - Boulder"
+21,Minor Threat,1,Boulder,Grand Wall,6,1,1,"Version 4, V6 - Boulder"
+22,No Holds Barred,1,Boulder,Grand Wall,6,1,1,"Version 3, V6 - Boulder"
+23,Second Blood,1,Boulder,North Walls,6,1,1,"Version 3, V6 - Boulder"
+24,The Pit,1,Boulder,Powerline,6,1,1,"Version 4, V6 - Boulder"
+25,The Tugger,1,Boulder,North Walls,6,1,1,"Version 3, V6 - Boulder"
+26,Space Monkey,3,Boulder,North Walls,5,1,1,"Version 2, V5 - Boulder | Version 3, V5 - Boulder | Version 4, V5 - Boulder"
+27,Swank Stretch,3,Boulder,Grand Wall,5,1,1,"Version 2, V5 - Boulder | Version 3, V5 - Boulder | Version 4, V5 - Boulder"
+28,The Crystal Method,3,Boulder,Paradise Valley,5,1,1,"Version 2, V5 - Boulder | Version 3, V5 - Boulder | Version 4, V5 - Boulder"
+29,The Hoop Wrangler,3,Boulder,Grand Wall,5,1,1,"Version 2, V5 - Boulder | Version 3, V5 - Boulder | Version 4, V5 - Boulder"
+30,Tim's Sloper Problem,3,Boulder,Grand Wall,5,1,1,"Version 2, V5 - Boulder | Version 3, V5 - Boulder | Version 4, V5 - Boulder"
+31,Timeless,3,Boulder,Grand Wall,5,1,1,"Version 2, V5 - Boulder | Version 3, V5 - Boulder | Version 4, V5 - Boulder"
+32,Viper,3,Boulder,Grand Wall,5,1,1,"Version 2, V5 - Boulder | Version 3, V5 - Boulder | Version 4, V5 - Boulder"
+33,It's About Time,2,Boulder,Grand Wall,5,1,1,"Version 2, V5 - Boulder | Version 3, V5 - Boulder"
+34,King for a Day,2,Boulder,North Walls,5,1,1,"Version 3, V5 - Boulder | Version 4, V5 - Boulder"
+35,Racing Ra,2,Boulder,Powerline,5,1,1,"Version 2, V5 - Boulder | Version 3, V5 - Boulder"
+36,Japanese Cowboy,1,Boulder,North Walls,5,1,1,"Version 4, V5 - Boulder"
+37,Prime Time Sit Down,1,Boulder,Murrin Park,5,1,1,"Version 4, V5 - Boulder"
+38,Thunderballs,1,Boulder,North Walls,5,1,1,"Version 2, V5 - Boulder"
+39,Five Star Pillar,3,Boulder,Murrin Park,4.3,1,1,"Version 2, V5 - Boulder | Version 3, V4 - Boulder | Version 4, V4 - Boulder"
+40,No Excuse for Porn Hair,3,Highball,Apron,4.3,1,1,"Version 2, V5 - Highball | Version 3, V4 - Highball | Version 4, V4 - Highball"
+41,Child Abuse,3,Boulder,Grand Wall,4,1,1,"Version 2, V4 - Boulder | Version 3, V4 - Boulder | Version 4, V4 - Boulder"
+42,Easy In An Easy Chair,3,Boulder,Grand Wall,4,1,1,"Version 2, V4 - Boulder | Version 3, V4 - Boulder | Version 4, V4 - Boulder"
+43,Practical Horseman,3,Boulder,Grand Wall,4,1,1,"Version 2, V4 - Boulder | Version 3, V4 - Boulder | Version 4, V4 - Boulder"
+44,Shadows,3,Boulder,Powerline,4,1,1,"Version 2, V4 - Boulder | Version 3, V4 - Boulder | Version 4, V4 - Boulder"
+45,Shots Fired,3,Boulder,Apron,4,1,1,"Version 2, V4 - Boulder | Version 3, V4 - Boulder | Version 4, V4 - Boulder"
+46,Sloppy Poppy,3,Boulder,Grand Wall,4,1,1,"Version 2, V4 - Boulder | Version 3, V4 - Boulder | Version 4, V4 - Boulder"
+47,Superfly,3,Boulder,Grand Wall,4,1,1,"Version 2, V4 - Boulder | Version 3, V4 - Boulder | Version 4, V4 - Boulder"
+48,Tai Fighter,3,Boulder,Paradise Valley,4,1,1,"Version 2, V4 - Boulder | Version 3, V4 - Boulder | Version 4, V4 - Boulder"
+49,Trad Killer,3,Boulder,Grand Wall,4,1,1,"Version 2, V4 - Boulder | Version 3, V4 - Boulder | Version 4, V4 - Boulder"
+50,Butterfly Effect,2,Boulder,Grand Wall,4,1,1,"Version 2, V4 - Boulder | Version 3, V4 - Boulder"
+51,Squamish Special,2,Boulder,Grand Wall,4,1,1,"Version 2, V4 - Boulder | Version 3, V4 - Boulder"
+52,Zylon,1,Boulder,Paradise Valley,4,1,1,"Version 4, V4 - Boulder"
+53,Crackhead,3,Boulder,Grand Wall,3,1,1,"Version 2, V3 - Boulder | Version 3, V3 - Boulder | Version 4, V3 - Boulder"
+54,Double Decker,3,Boulder,Grand Wall,3,1,1,"Version 2, V3 - Boulder | Version 3, V3 - Boulder | Version 4, V3 - Boulder"
+55,Titanic,3,Boulder,Grand Wall,3,1,1,"Version 2, V3 - Boulder | Version 3, V3 - Boulder | Version 4, V3 - Boulder"
+56,Tyler's Dihedral,3,Boulder,North Walls,3,1,1,"Version 2, V3 - Boulder | Version 3, V3 - Boulder | Version 4, V3 - Boulder"
+57,American Gigolo,2,Boulder,Grand Wall,3,1,1,"Version 2, V3 - Boulder | Version 3, V3 - Boulder"
+58,Old And Serious,2,Boulder,Grand Wall,3,1,1,"Version 2, V3 - Boulder | Version 3, V3 - Boulder"
+59,911,1,Highball,North Walls,3,1,1,"Version 4, V3 - Highball"
+60,FAROUK!,1,Boulder,North Walls,3,1,1,"Version 4, V3 - Boulder"
+61,Rhino Face,1,Boulder,North Walls,3,1,1,"Version 3, V3 - Boulder"
+62,Heartbreak Hotel,3,Boulder,Grand Wall,2,1,1,"Version 2, V2 - Boulder | Version 3, V2 - Boulder | Version 4, V2 - Boulder"
+63,Slingshot,3,Boulder,Grand Wall,2,1,1,"Version 2, V2 - Boulder | Version 3, V2 - Boulder | Version 4, V2 - Boulder"
+64,Hulkster's Humpfest,2,Boulder,Grand Wall,2,1,1,"Version 2, V2 - Boulder | Version 3, V2 - Boulder"
+65,Is It Pure?,2,Highball,North Walls,2,1,1,"Version 3, V2 - Highball | Version 4, V2 - Highball"
+66,Paperboy,2,Boulder,Grand Wall,2,1,1,"Version 2, V2 - Boulder | Version 3, V2 - Boulder"
+67,Prime Time,2,Boulder,Murrin Park,2,1,1,"Version 2, V2 - Boulder | Version 3, V2 - Boulder"
+68,Detached Flake,2,Boulder,North Walls,1,1,1,"Version 3, V1 - Boulder | Version 4, V1 - Boulder"
+69,Fried Ant,2,Boulder,Grand Wall,0,1,1,"Version 2, V0 - Boulder | Version 3, V0 - Boulder"
+70,Summer Vacation,2,Boulder->Highball,Grand Wall,0,1,1,"Version 2, V0 - Boulder | Version 3, V0 - Highball"
+71,Dealer,1,Boulder,Grand Wall,0,1,1,"Version 4, V0 - Boulder"
+72,Dyke Surfer,1,Boulder,Grand Wall,0,1,1,"Version 3, V0 - Boulder"
+73,Phantom Menace,3,Boulder,Paradise Valley,6,0,4,"Version 2, V6 - Boulder | Version 3, V6 - Boulder | Version 4, V6 - Boulder"
+74,This Monkey's Gone to Heaven,3,Boulder,Apron,7,0,2,"Version 2, V7 - Boulder | Version 3, V7 - Boulder | Version 4, V7 - Boulder"
+75,The Land That Time Forgot,1,Boulder,North Walls,6,0,2,"Version 4, V6 - Boulder"
+76,Tatonka,1,Boulder,Apron,9,0,1,"Version 4, V9 - Boulder"
+77,The Bulb,2,Boulder,Grand Wall,8,0,1,"Version 2, V8 - Boulder | Version 3, V8 - Boulder"
+78,Planet of the Apes,1,Boulder,North Walls,8,0,1,"Version 4, V8 - Boulder"
+79,Astroman,2,Boulder,North Walls,7,0,1,"Version 2, V7 - Boulder | Version 3, V7 - Boulder"
+80,Superdyke,3,Boulder,Grand Wall,3,0,1,"Version 2, V3 - Boulder | Version 3, V3 - Boulder | Version 4, V3 - Boulder"
+81,The Singularity,2,Boulder,Grand Wall,14,0,0,"Version 2, V14 - Boulder | Version 4, V14 - Boulder"
+82,The Reckoning,1,Boulder,North Walls,14,0,0,"Version 3, V14 - Boulder"
+83,Shelter,3,Boulder,Grand Wall,13,0,0,"Version 2, V13 - Boulder | Version 3, V13 - Boulder | Version 4, V13 - Boulder"
+84,Black Magic,2,Boulder,Apron,12.5,0,0,"Version 2, V13 - Boulder | Version 4, V12 - Boulder"
+85,The Method,3,Boulder,Apron,12.3,0,0,"Version 2, V12 - Boulder | Version 3, V13 - Boulder | Version 4, V12 - Boulder"
+86,Frontside,2,Boulder,Apron,12,0,0,"Version 2, V12 - Boulder | Version 4, V12 - Boulder"
+87,Summoning Sit,2,Boulder,Murrin Park,12,0,0,"Version 3, V12 - Boulder | Version 4, V12 - Boulder"
+88,The Silk Road,1,Boulder,Shannon Falls,12,0,0,"Version 3, V12 - Boulder"
+89,The Summoning,1,Boulder,Murrin Park,12,0,0,"Version 2, V12 - Boulder"
+90,The Drowning Grip,2,Highball,Grand Wall,11.5,0,0,"Version 2, V12 - Highball | Version 4, V11 - Highball"
+91,Agoraphobia,3,Boulder,Grand Wall,11,0,0,"Version 2, V11 - Boulder | Version 3, V11 - Boulder | Version 4, V11 - Boulder"
+92,Encore Une Fois,3,Boulder,Grand Wall,11,0,0,"Version 2, V11 - Boulder | Version 3, V11 - Boulder | Version 4, V11 - Boulder"
+93,The Egg,3,Boulder,Grand Wall,11,0,0,"Version 2, V11 - Boulder | Version 3, V11 - Boulder | Version 4, V11 - Boulder"
+94,The Perfect Cave,2,Boulder,North Walls,11,0,0,"Version 2, V11 - Boulder | Version 3, V11 - Boulder"
+95,Black Hole,1,Boulder,Apron,11,0,0,"Version 4, V11 - Boulder"
+96,The Black Council,1,Boulder,Grand Wall,11,0,0,"Version 4, V11 - Boulder"
+97,The Existential Detective,1,Boulder,North Walls,11,0,0,"Version 2, V11 - Boulder"
+98,The Serpent,3,Boulder,Apron,10,0,0,"Version 2, V10 - Boulder | Version 3, V10 - Boulder | Version 4, V10 - Boulder"
+99,World of Hurt,3,Highball,Grand Wall,10,0,0,"Version 2, V10 - Highball | Version 3, V10 - Highball | Version 4, V10 - Highball"
+100,Send the Pain Below,2,Boulder,Grand Wall,10,0,0,"Version 2, V10 - Boulder | Version 3, V10 - Boulder"
+101,The Broom,2,Highball,Grand Wall,10,0,0,"Version 2, V10 - Highball | Version 3, V10 - Highball"
+102,Worm World Cave Low,2,Boulder,Grand Wall,10,0,0,"Version 2, V10 - Boulder | Version 4, V10 - Boulder"
+103,No Honour Among Thieves,1,Boulder,North Walls,10,0,0,"Version 2, V10 - Boulder"
+104,On Again Off Again,1,Boulder,Shannon Falls,10,0,0,"Version 4, V10 - Boulder"
+105,Snakes of Shoalin,1,Highball,Grand Wall,10,0,0,"Version 3, V10 - Highball"
+106,Stalling Tim,1,Boulder,Grand Wall,10,0,0,"Version 2, V10 - Boulder"
+107,The Physics,1,Boulder,Grand Wall,10,0,0,"Version 2, V10 - Boulder"
+108,Velcro,1,Boulder,Grand Wall,10,0,0,"Version 2, V10 - Boulder"
+109,White Lion Low,1,Boulder,Cat Lake,10,0,0,"Version 4, V10 - Boulder"
+110,No Troublems,3,Boulder,Grand Wall,9.7,0,0,"Version 2, V10 - Boulder | Version 3, V10 - Boulder | Version 4, V9 - Boulder"
+111,Straight Outta' Squampton,3,Highball,Grand Wall,9.7,0,0,"Version 2, V9 - Highball | Version 3, V10 - Highball | Version 4, V10 - Highball"
+112,Physics Hyperbole,3,Boulder,Grand Wall,9,0,0,"Version 2, V9 - Boulder | Version 3, V9 - Boulder | Version 4, V9 - Boulder"
+113,Defender of the Faith,2,Boulder,Apron,9,0,0,"Version 2, V9 - Boulder | Version 4, V9 - Boulder"
+114,Chanterelle,1,Boulder,North Walls,9,0,0,"Version 3, V9 - Boulder"
+115,Detention Arete,1,Boulder,North Walls,9,0,0,"Version 2, V9 - Boulder"
+116,Invincible,1,Boulder,Porteau Cove,9,0,0,"Version 3, V9 - Boulder"
+117,Ivory Tower,1,Boulder,British Columbia,9,0,0,"Version 4, V9 - Boulder"
+118,Krishna Cave,1,Boulder,North Walls,9,0,0,"Version 4, V9 - Boulder"
+119,Peter and the Wolf,1,Boulder,British Columbia,9,0,0,"Version 4, V9 - Boulder"
+120,The Rookie Low,1,Boulder,Grand Wall,9,0,0,"Version 3, V9 - Boulder"
+121,Tim's Arete,1,Boulder,North Walls,9,0,0,"Version 4, V9 - Boulder"
+122,Corner Relief,3,Boulder,North Walls,8,0,0,"Version 2, V8 - Boulder | Version 3, V8 - Boulder | Version 4, V8 - Boulder"
+123,Ride the Lightning,3,Highball,Grand Wall,8,0,0,"Version 2, V8 - Highball | Version 3, V8 - Highball | Version 4, V8 - Highball"
+124,Sharma's Arete,3,Boulder,Grand Wall,8,0,0,"Version 2, V8 - Boulder | Version 3, V8 - Boulder | Version 4, V8 - Boulder"
+125,Connect Four,2,Boulder,North Walls,8,0,0,"Version 2, V8 - Boulder | Version 4, V8 - Boulder"
+126,Second Story,2,Boulder,North Walls,8,0,0,"Version 2, V8 - Boulder | Version 3, V8 - Boulder"
+127,The Weasel,2,Boulder,Grand Wall,8,0,0,"Version 2, V8 - Boulder | Version 4, V8 - Boulder"
+128,As Good As It Gets,1,Boulder,Smoke Bluffs,8,0,0,"Version 2, V8 - Boulder"
+129,Houdini,1,Boulder,North Walls,8,0,0,"Version 4, V8 - Boulder"
+130,Monkey In The Know,1,Boulder,Pemberton,8,0,0,"Version 2, V8 - Boulder"
+131,Sheriff's Badge Arete,1,Boulder,North Walls,8,0,0,"Version 4, V8 - Boulder"
+132,Snake Taint,1,Boulder,Smoke Bluffs,8,0,0,"Version 4, V8 - Boulder"
+133,The Roof Crack,1,Boulder,North Walls,8,0,0,"Version 3, V8 - Boulder"
+134,White Lion,1,Boulder,Cat Lake,8,0,0,"Version 3, V8 - Boulder"
+135,Black Slabbath,3,Highball,Grand Wall,7,0,0,"Version 2, V7 - Highball | Version 3, V7 - Highball | Version 4, V7 - Highball"
+136,Feed Us a Fetus,3,Boulder,Grand Wall,7,0,0,"Version 2, V7 - Boulder | Version 3, V7 - Boulder | Version 4, V7 - Boulder"
+137,The Fridge,3,Boulder,Paradise Valley,7,0,0,"Version 2, V7 - Boulder | Version 3, V7 - Boulder | Version 4, V7 - Boulder"
+138,Be On Four,2,Highball,Grand Wall,7,0,0,"Version 2, V7 - Highball | Version 3, V7 - Highball"
+139,Pavelini,2,Boulder,Grand Wall,7,0,0,"Version 3, V7 - Boulder | Version 4, V7 - Boulder"
+140,Arm Your Thoughts,1,Highball,North Walls,7,0,0,"Version 2, V7 - Highball"
+141,Fantastic Mr. Fox,1,Boulder,Shannon Falls,7,0,0,"Version 3, V7 - Boulder"
+142,Give Her The Chickens,1,Boulder,Pemberton,7,0,0,"Version 2, V7 - Boulder"
+143,Loose Change,1,Highball,Grand Wall,7,0,0,"Version 4, V7 - Highball"
+144,Raging Rapids,1,Highball,North Walls,7,0,0,"Version 3, V7 - Highball"
+145,Slippery When Wet,1,Boulder,Shannon Falls,7,0,0,"Version 3, V7 - Boulder"
+146,The Guppy,1,Boulder,Paradise Valley,7,0,0,"Version 4, V7 - Boulder"
+147,The Ladies Man,1,Boulder,Apron,7,0,0,"Version 2, V7 - Boulder"
+148,The Snail,1,Highball,Grand Wall,7,0,0,"Version 3, V7 - Highball"
+149,Teenage Lobotomy,3,Highball,Apron,6.3,0,0,"Version 2, V6 - Highball | Version 3, V6 - Highball | Version 4, V7 - Highball"
+150,Dynamite,3,Boulder->Highball,Apron,6,0,0,"Version 2, V6 - Boulder | Version 3, V6 - Highball | Version 4, V6 - Highball"
+151,Palm Meat,3,Boulder->Highball,Grand Wall,6,0,0,"Version 2, V6 - Boulder | Version 3, V6 - Boulder | Version 4, V6 - Highball"
+152,Ghost Rider,2,Boulder,Apron,6,0,0,"Version 2, V6 - Boulder | Version 3, V6 - Boulder"
+153,Israel's Cave,2,Boulder,Murrin Park,6,0,0,"Version 3, V6 - Boulder | Version 4, V6 - Boulder"
+154,Killing Me Softly,2,Boulder,Apron,6,0,0,"Version 2, V6 - Boulder | Version 3, V6 - Boulder"
+155,Spring Fling,2,Boulder,Paradise Valley,6,0,0,"Version 2, V6 - Boulder | Version 3, V6 - Boulder"
+156,Disproving God,1,Boulder,Shannon Falls,6,0,0,"Version 3, V6 - Boulder"
+157,Lost and Found,1,Highball,North Walls,6,0,0,"Version 4, V6 - Highball"
+158,Majestic,1,Boulder,British Columbia,6,0,0,"Version 4, V6 - Boulder"
+159,Princesses Don't Whine,1,Boulder,Murrin Park,6,0,0,"Version 3, V6 - Boulder"
+160,Stomach Acid,1,Boulder,Garibaldi,6,0,0,"Version 4, V6 - Boulder"
+161,Whispering Waters,1,Highball,Shannon Falls,6,0,0,"Version 4, V6 - Highball"
+162,Worm World,1,Boulder,Grand Wall,6,0,0,"Version 4, V6 - Boulder"
+163,Funeral Arrangements,3,Highball,Apron,5.3,0,0,"Version 2, V5 - Highball | Version 3, V5 - Highball | Version 4, V6 - Highball"
+164,Vigilante,3,Boulder,Smoke Bluffs,5,0,0,"Version 2, V5 - Boulder | Version 3, V5 - Boulder | Version 4, V5 - Boulder"
+165,Into The Light,2,Boulder,Pemberton,5,0,0,"Version 2, V5 - Boulder | Version 3, V5 - Boulder"
+166,Phat Slab,2,Boulder,Grand Wall,5,0,0,"Version 3, V5 - Boulder | Version 4, V5 - Boulder"
+167,Arch Enemy,1,Boulder,Smoke Bluffs,5,0,0,"Version 3, V5 - Boulder"
+168,Doubt,1,Boulder,Grand Wall,5,0,0,"Version 4, V5 - Boulder"
+169,The Alpine Ridge,1,Highball,North Walls,5,0,0,"Version 3, V5 - Highball"
+170,Welcome to the Jungle,1,Highball,Murrin Park,5,0,0,"Version 4, V5 - Highball"
+171,Kung Fu Fighter,3,Boulder->Highball,North Walls,4.3,0,0,"Version 2, V4 - Boulder | Version 3, V4 - Highball | Version 4, V5 - Highball"
+172,Enchanted,3,Highball,Paradise Valley,4,0,0,"Version 2, V4 - Highball | Version 3, V4 - Highball | Version 4, V4 - Highball"
+173,Skin Graft,3,Boulder,Grand Wall,4,0,0,"Version 2, V4 - Boulder | Version 3, V4 - Boulder | Version 4, V4 - Boulder"
+174,Zero to Hero,2,Highball,Powerline,4,0,0,"Version 3, V4 - Highball | Version 4, V4 - Highball"
+175,Ain't No Grave,1,Highball,Crumpit Woods,4,0,0,"Version 4, V4 - Highball"
+176,Can't Do It In Shoes,1,Boulder,Whistler,4,0,0,"Version 2, V4 - Boulder"
+177,Dig Up Her Bones,1,Highball,Smoke Bluffs,4,0,0,"Version 3, V4 - Highball"
+178,Flow Stone,1,Boulder,North Walls,4,0,0,"Version 3, V4 - Boulder"
+179,Moroccan Blonde,1,Boulder,Shannon Falls,4,0,0,"Version 4, V4 - Boulder"
+180,The Mastodon,1,Highball,Shannon Falls,4,0,0,"Version 4, V4 - Highball"
+181,The Reincarnation of Tim Doyle,1,Boulder,Porteau Cove,4,0,0,"Version 3, V4 - Boulder"
+182,Wild Kingdom,3,Boulder,North Walls,3,0,0,"Version 2, V3 - Boulder | Version 3, V3 - Boulder | Version 4, V3 - Boulder"
+183,For The Birds,2,Highball,Cat Lake,3,0,0,"Version 3, V3 - Highball | Version 4, V3 - Highball"
+184,In Your Face,2,Boulder,Pemberton,3,0,0,"Version 2, V3 - Boulder | Version 3, V3 - Boulder"
+185,21st Century Digital Boy,1,Boulder,Grand Wall,3,0,0,"Version 4, V3 - Boulder"
+186,Dirty Bird,1,Boulder,Murrin Park,3,0,0,"Version 3, V3 - Boulder"
+187,The Wing,1,Boulder,North Walls,3,0,0,"Version 4, V3 - Boulder"
+188,Voltage,1,Highball,North Walls,3,0,0,"Version 3, V3 - Highball"
+189,Walk the Line,1,Highball,Crumpit Woods,3,0,0,"Version 4, V3 - Highball"
+190,Panda Milk,2,Boulder,Furry Creek,2,0,0,"Version 2, V2 - Boulder | Version 3, V2 - Boulder"
+191,"Tall, Dark, and Handsome",2,Highball,Apron,2,0,0,"Version 3, V2 - Highball | Version 4, V2 - Highball"
+192,Dilaudid,1,Boulder,Shannon Falls,2,0,0,"Version 4, V2 - Boulder"
+193,Lost World Overhang,1,Boulder,North Walls,2,0,0,"Version 4, V2 - Boulder"
+194,Mutiny in the Friendship Brigade,1,Highball,North Walls,2,0,0,"Version 4, V2 - Highball"
+195,By Fair Means,1,Highball,North Walls,1,0,0,"Version 3, V1 - Highball"
+196,Nefarious,1,Boulder,Grand Wall,1,0,0,"Version 4, V1 - Boulder"
+197,Nick's Adventure,1,Boulder,North Walls,0,0,0,"Version 4, V0 - Boulder"
+198,Winding Down,1,Boulder,Smoke Bluffs,0,0,0,"Version 3, V0 - Boulder"
