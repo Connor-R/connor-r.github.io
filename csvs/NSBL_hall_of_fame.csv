@@ -58,8 +58,8 @@ Class of 2015,Manny Ramirez,New York Mets,2006 - 2012,7,lf,BOS/TB/PIT/FLA/NYM,34
 - 1x HR Leader (2008) 
 - Career OBP (2) 
 - Career SLG (3) 
+- Career OPS+ (3) (tied w/1 others) 
 - Career WRC+ (4) (tied w/1 others) 
-- Career OPS+ (4) 
 - Career AVG (4)",,
 Class of 2016,Chipper Jones,Baltimore Orioles & Chicago White Sox,2006 - 2013,8,3b,CHC/CHW/BAL/SF/STL,34 - 41,30.5,33.5,5177,4445,1231,186,75,0.277,0.370,0.461,0.831,0.363,121,123,140.8,,,,,,,,,,,,,,0,30,40.350,"- 2x Silver Slugger (2007, 2009) 
 - 2x All Star (2007, 2009) 
@@ -104,7 +104,7 @@ Class of 2017,Johan Santana,Chicago Cubs,2006 - 2014,9,sp,CHC/FLA/CLE/CHW/BAL,27
 Class of 2017,Mariano Rivera,Atlanta Braves,2006 - 2014,9,cl,ATL/CLE/BAL/CHC/MIN/TOR,36 - 44,13.6,12.2,,,,,,,,,,,,,,56,40,223,584,0,0,0,615,687.3,2.78,2.94,67,70,1,7,49.334,"- 4x All Star (2006, 2007, 2009, 2010) 
 - 2x Reliever of the Year (2007, 2009) 
 - 1x SV Leader (2009) 
-- Career SV (4)",,2 year-$4.000 MM w/BAL in 2014
+- Career SV (4) (tied w/1 others)",,2 year-$4.000 MM w/BAL in 2014
 Class of 2017,Roy Halladay,Baltimore Orioles,2006 - 2014,9,sp,BAL/CIN/CHC/HOU/CLE/COL/TEX/AZ,29 - 37,42.1,35.5,,,,,,,,,,,,,,124,81,0,265,265,57,15,1556,1987.0,3.31,3.55,78,84,24,81,100.450,"- 2x World Series (2011, 2012) 
 - 5x All Star (2007, 2009, 2010, 2011, 2013) 
 - 2x Cy Young (2010, 2013) 
@@ -151,7 +151,6 @@ Class of 2019,Cliff Lee,Toronto Blue Jays,2006 - 2016,11,sp,TOR/ATL/FLA/SF/PIT/B
 - Career SHO Record 
 - Career CG (3) 
 - Career ERA_WAR (9) 
-- Career FIP_WAR (10) 
 - All-Time Single Season SHO Record",,3 year-$75.000 MM w/ATL in 2014
 Class of 2020,David Ortiz,Toronto Blue Jays,2006 - 2017,12,dh,OAK/BOS/CLE/DET/BAL/CHW/TOR,30 - 41,31.9,31.9,7923,6833,1772,436,35,0.259,0.352,0.503,0.855,0.368,130,132,286.0,,,,,,,,,,,,,,7,59,103.968,"- 3x World Series (2006, 2007, 2011) 
 - 3x All Star (2008, 2009, 2014) 
@@ -206,7 +205,7 @@ Class of 2021,Jose Reyes,New York Mets,2006 - 2018,13,ss,SEA/MIL/MIN/HOU/ATL/OAK
 - Career 3B Record 
 - Career R (6) 
 - Career H (7) 
-- Career K% (9)",,2 year-$4.000 MM w/opt w/SEA in 2018
+- Career K% (8)",,2 year-$4.000 MM w/opt w/SEA in 2018
 Class of 2022,Adrian Beltre,Seattle Mariners,2006 - 2019,14,3b,SEA/COL/CHC/NYY,27 - 40,53.7,32.9,9156,8451,2209,294,90,0.261,0.311,0.424,0.735,0.319,100,99,-13.7,,,,,,,,,,,,,,2,29,158.949,"- 1x World Series (2012) 
 - 4x Gold Glove (2013, 2014, 2017, 2018) 
 - 3x All Star (2011, 2013, 2014) 
