@@ -30,6 +30,7 @@ def initiate():
 def update_session_details():
     db.query("SET @cnt:=0;")
     db.query("SET @prob:='';")
+    db.query("SET SESSION group_concat_max_len = @@max_allowed_packet;")
 
     query = """SELECT a.session_date
     , a.session_start
