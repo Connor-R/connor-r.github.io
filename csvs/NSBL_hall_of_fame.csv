@@ -1,7 +1,6 @@
 HOF_Class,Player_Name,HOF_Franchise,Career_Span,Total_Seasons,Position,All_Teams,Age_Span,WAR/ERA_WAR,noDRS_WAR/FIP_WAR,PA,AB,H,HR,SB,AVG,OBP,SLG,OPS,wOBA,OPS+,wRC+,rAA,W,L,SV,G,GS,CG,SHO,K,IP,ERA,FIP,ERA-,FIP-,Black_Ink,Gray_Ink,Earnings,Trophy_Details,Draft,FA_History
 Class of 2011,Roger Clemens,Houston Astros,2006 - 2008,3,sp,HOU/SD/NYY/TOR/CLE/FLA,43 - 45,10.2,9.2,,,,,,,,,,,,,,34,27,0,90,85,7,5,461,537.7,3.62,3.73,82,84,1,10,,"- 1x World Series (2006) 
-- 1x SHO Leader (2007) 
-",,
+- 1x SHO Leader (2007)",,
 Class of 2012,Barry Bonds,Miami Marlins,2006 - 2009,4,lf,SEA/BOS/OAK/NYM/PIT/CLE/FLA,41 - 44,23.9,23.9,2518,1976,556,149,16,0.281,0.431,0.561,0.992,0.426,160,164,186.2,,,,,,,,,,,,,,17,27,,"- 3x Most Valuable Player (2004, 2005, 2006) 
 - 2x Silver Slugger (2006, 2009) 
 - 2x Hank Aaron (2004, 2006) 
@@ -28,25 +27,21 @@ Class of 2012,Barry Bonds,Miami Marlins,2006 - 2009,4,lf,SEA/BOS/OAK/NYM/PIT/CLE
 - All-Time Single Season NODRS_WAR Record",,
 Class of 2013,John Smoltz,New York Mets,2006 - 2010,5,sp,NYM/SF/TEX/ATL/PIT/TOR,39 - 43,13.7,15.9,,,,,,,,,,,,,,61,51,0,154,153,10,3,793,975.0,3.98,3.78,91,87,1,21,6.810,"- 1x World Series (2006) 
 - 1x All Star (2007) 
-- 1x W Leader (2007) 
-",,
+- 1x W Leader (2007)",,
 Class of 2013,Pedro Martinez,New York Yankees,2006 - 2010,5,sp,MIN/NYY/SF/AZ,34 - 38,10.9,16.5,,,,,,,,,,,,,,63,55,0,161,161,7,5,989,996.3,4.30,3.82,98,87,5,25,7.510,"- 1x Cy Young (2004) 
 - 1x All Star (2006) 
 - 1x SHO Leader (2006) 
 - 1x FIP_WAR Leader (2006) 
 - 1x FIP- Leader (2006) 
 - 1x FIP Leader (2006) 
-- 1x ERA- Leader (2006) 
-",,
+- 1x ERA- Leader (2006)",,
 Class of 2013,Randy Johnson,Miami Marlins & Cincinnati Reds,2006 - 2010,5,sp,CIN/FLA/BOS/AZ/SF/BAL/TOR,42 - 46,12.6,14.9,,,,,,,,,,,,,,50,38,1,156,124,9,5,823,813.3,3.83,3.63,87,82,3,25,2.000,"- 1x World Series (2007) 
 - 1x All Star (2009) 
 - 1x SHO Leader (2006) 
 - 1x K/BB Leader (2009) 
-- 1x CG Leader (2006) 
-",,
+- 1x CG Leader (2006)",,
 Class of 2014,Billy Wagner,Seattle Mariners,2006 - 2011,6,cl,SEA/NYM/PIT/TOR/BOS/WAS/SF/AZ,34 - 39,9.5,8.8,,,,,,,,,,,,,,32,27,115,383,0,0,0,532,454.0,2.78,2.89,65,67,0,3,5.000,"- 1x Reliever of the Year (2006) 
-- 1x All Star (2010) 
-",,
+- 1x All Star (2010)",,
 Class of 2015,Manny Ramirez,New York Mets,2006 - 2012,7,lf,BOS/TB/PIT/FLA/NYM,34 - 40,31.6,31.6,4191,3634,1091,227,21,0.300,0.386,0.542,0.928,0.399,145,149,238.2,,,,,,,,,,,,,,9,44,58.200,"- 5x All Star (2006, 2007, 2008, 2009, 2010) 
 - 2x Silver Slugger (2008, 2010) 
 - 2x Hank Aaron (2008, 2010) 
@@ -69,8 +64,8 @@ Class of 2016,Roy Oswalt,Houston Astros,2006 - 2013,8,sp,HOU/CHC/LAD/NYM/TB/ATL/
 - 2x HR/9 Leader (2012, 2013) 
 - 1x SHO Leader (2008) 
 - Career HR/9 (3) 
-- Career FIP- (5) (tied w/3 others) 
-- Career ERA- (5) (tied w/3 others)",,2 year-$8.500 MM w/opt w/PIT in 2013
+- Career FIP- (6) (tied w/2 others) 
+- Career ERA- (6) (tied w/2 others)",,2 year-$8.500 MM w/opt w/PIT in 2013
 Class of 2016,Travis Hafner,Oakland Athletics,2006 - 2013,7,dh,OAK,29 - 36,17.4,17.4,4246,3615,1020,169,14,0.282,0.380,0.485,0.865,0.376,129,131,155.9,,,,,,,,,,,,,,9,29,65.847,"- 2x Silver Slugger (2006, 2007) 
 - 2x WRC+ Leader (2006, 2007) 
 - 2x RAA Leader (2006, 2007) 
@@ -99,8 +94,7 @@ Class of 2017,Johan Santana,Chicago Cubs,2006 - 2014,9,sp,CHC/FLA/CLE/CHW/BAL,27
 - 1x ERA_WAR Leader (2010) 
 - 1x ERA- Leader (2006) 
 - 1x ERA Leader (2014) 
-- 1x CG Leader (2011) 
-",,
+- 1x CG Leader (2011)",,
 Class of 2017,Mariano Rivera,Atlanta Braves,2006 - 2014,9,cl,ATL/CLE/BAL/CHC/MIN/TOR,36 - 44,13.6,12.2,,,,,,,,,,,,,,56,40,223,584,0,0,0,615,687.3,2.78,2.94,67,70,1,7,49.334,"- 4x All Star (2006, 2007, 2009, 2010) 
 - 2x Reliever of the Year (2007, 2009) 
 - 1x SV Leader (2009) 
@@ -167,8 +161,7 @@ Class of 2020,David Ortiz,Toronto Blue Jays,2006 - 2017,12,dh,OAK/BOS/CLE/DET/BA
 - Career RBI (8) 
 - Career RAA (10)",,2 year-$29.312 MM w/opt w/CLE in 2015 & 1 year-$12.000 MM w/OAK in 2017
 Class of 2020,Jhonny Peralta,Los Angeles Angels,2006 - 2017,12,ss,TOR/SD/BAL/NYM/PHI/LAA/ANA/TB,24 - 35,42.2,37.9,7482,6725,1746,216,30,0.260,0.327,0.418,0.745,0.326,105,106,44.2,,,,,,,,,,,,,,0,8,49.516,"- 3x Silver Slugger (2012, 2013, 2016) 
-- 3x All Star (2013, 2014, 2016) 
-",,4 year-$22.802 MM w/NYM in 2013 & 2 year-$17.000 MM w/TOR in 2017
+- 3x All Star (2013, 2014, 2016)",,4 year-$22.802 MM w/NYM in 2013 & 2 year-$17.000 MM w/TOR in 2017
 Class of 2020,Jonathan Papelbon,Cleveland Guardians,2006 - 2017,12,sp,CLE/STL/TEX/TB/PHI/COL/NYM,25 - 36,12.0,10.1,,,,,,,,,,,,,,69,69,228,639,57,1,0,1052,1009.7,3.59,3.75,87,90,5,20,76.622,"- 1x World Series (2009) 
 - 4x All Star (2007, 2008, 2010, 2011) 
 - 2x Reliever of the Year (2010, 2011) 
@@ -185,8 +178,7 @@ Class of 2021,Chase Utley,Miami Marlins,2006 - 2018,13,2b,OAK/MIA/FLA/LAA/CLE/CI
 - 1x Most Valuable Player (2010) 
 - 1x WRC+ Leader (2010) 
 - 1x WAR Leader (2010) 
-- 1x NODRS_WAR Leader (2010) 
-",,2 year-$16.850 MM w/OAK in 2015 & 2 year-$6.000 MM w/TB in 2017
+- 1x NODRS_WAR Leader (2010)",,2 year-$16.850 MM w/OAK in 2015 & 2 year-$6.000 MM w/TB in 2017
 Class of 2021,David Wright,Toronto Blue Jays,2006 - 2018,13,3b,ATL/CLE/NYM/SEA/WAS/TOR,23 - 35,55.4,59.3,8157,7271,2099,277,251,0.289,0.360,0.475,0.835,0.364,127,132,287.2,,,,,,,,,,,,,,1,51,174.070,"- 3x World Series (2006, 2007, 2013) 
 - 6x All Star (2006, 2007, 2008, 2009, 2010, 2014) 
 - 1x Silver Slugger (2006) 
