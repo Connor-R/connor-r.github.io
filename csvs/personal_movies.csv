@@ -30,6 +30,7 @@ name,year,est_year_watched,genre,sub_genre,movie_length,peak,consistency,premise
 """Angels & Demons""",2009,2011,"""mystery""","""""",138,30,40,40,30,50,30,20,20,40,,34.6
 """Angels in the Outfield""",1994,2002,"""fantasy""","""sports""",102,60,60,50,50,40,60,40,60,50,,53.4
 """Anger Management""",2003,2007,"""comedy""","""""",106,30,30,30,40,30,40,30,50,40,,34.4
+"""Any Given Sunday""",1999,2022,"""drama""","""sports""",162,40,60,45,50,40,55,40,30,50,,47.0
 """Baby Driver""",2017,2018,"""action""","""""",113,60,50,50,60,40,60,40,50,50,,52.2
 """Back to the Future(1)""",1985,2003,"""adventure""","""sci-fi""",116,65,60,70,60,50,70,60,60,60,,62.2
 """Back to the Future(2)""",1985,2003,"""adventure""","""sci-fi""",108,60,50,60,50,40,60,50,50,50,,53.2
@@ -211,15 +212,23 @@ name,year,est_year_watched,genre,sub_genre,movie_length,peak,consistency,premise
 """ESPN 30 For 30 Season 3 Episode 23: The Two Bills""",2018,2020,"""documentary""","""sports""",77,65,65,60,60,60,60,40,60,60,,60.2
 """ESPN 30 For 30 Season 3 Episode 25: Seau""",2018,2019,"""documentary""","""sports""",89,65,50,60,60,65,60,35,50,55,,57.0
 """ESPN 30 For 30 Season 3 Episode 27: Deion's Double Play""",2019,2020,"""documentary""","""sports""",60,65,65,50,50,50,65,60,65,65,,60.6
-"""ESPN 30 For 30 Season 3 Episode 2: The Gospel According to Mac""",2015,2019,"""documentary""","""sports""",101,40,30,30,30,50,40,30,40,40,,37.1
+"""ESPN 30 For 30 Season 3 Episode 2: The Prince of Pennsylvania""",2015,2022,"""documentary""","""sports""",50,60,60,60,50,60,50,30,60,50,,54.4
+"""ESPN 30 For 30 Season 3 Episode 3: The Gospel According to Mac""",2015,2019,"""documentary""","""sports""",101,40,30,30,30,50,40,30,40,40,,37.1
 """ESPN 30 For 30 Season 3 Episode 4: Chasing Tyson""",2015,2018,"""documentary""","""sports""",60,60,60,50,50,50,60,40,60,50,,54.4
 """ESPN 30 For 30 Season 3 Episode 5: Four Falls of Buffalo""",2015,2018,"""documentary""","""sports""",102,70,70,70,60,60,70,40,50,60,,63.7
 """ESPN 30 For 30 Season 3 Episode 6: The '85 Bears""",2016,2019,"""documentary""","""sports""",101,50,50,40,40,40,40,40,30,40,,42.9
 """ESPN 30 For 30 Season 3 Episode 7: Fantastic Lies""",2016,2019,"""documentary""","""sports""",102,60,70,70,60,60,60,40,60,60,,61.0
 """ESPN 30 For 30 Season 3 Episode 9: Believeland""",2016,2018,"""documentary""","""sports""",77,50,50,50,50,60,60,40,50,50,,51.5
+"""ESPN 30 For 30 Season 4 Episode 1: Rodman for Better or Worse""",2019,2022,"""documentary""","""sports""",102,60,70,70,50,60,70,40,70,50,,60.5
+"""ESPN 30 For 30 Season 4 Episode 3A: Vick Part 1""",2020,2022,"""documentary""","""sports""",107,55,50,50,50,50,55,40,40,50,,50.4
+"""ESPN 30 For 30 Season 4 Episode 3B: Vick Part 2""",2020,2022,"""documentary""","""sports""",99,55,50,50,50,50,55,40,40,50,,50.4
+"""ESPN 30 For 30 Season 4 Episode 4A: Lance Part 1""",2020,2022,"""documentary""","""sports""",95,50,50,50,50,50,50,40,40,55,,49.5
+"""ESPN 30 For 30 Season 4 Episode 4B: Lance Part 2""",2020,2022,"""documentary""","""sports""",107,50,50,50,50,50,50,40,40,55,,49.5
+"""ESPN 30 For 30 Season 4 Episode 5: Be Water""",2020,2022,"""documentary""","""sports""",97,55,55,55,50,50,55,40,40,55,,52.3
 """Everything Is Illuminated""",2005,2007,"""comedy""","""drama""",106,70,60,70,70,60,70,70,60,70,,67.1
 """Ex Machina""",2014,2018,"""drama""","""sci-fi""",108,50,40,40,40,30,30,30,40,40,,39.0
 """Fast and Furious(1)(1)-The Fast and the Furious""",2001,2008,"""action""","""""",106,60,60,50,50,40,60,50,60,75,,57.8
+"""Fast and Furious(10)(10)-F9: The Fast Saga""",2021,2022,"""action""","""""",143,65,50,50,50,40,60,50,40,60,,54.1
 """Fast and Furious(2)(2)-2 Fast 2 Furious""",2003,2009,"""action""","""""",107,60,60,50,50,40,60,50,60,70,,57.1
 """Fast and Furious(3)(6)-Tokyo Drift""",2006,2016,"""action""","""""",106,60,60,50,50,40,60,50,60,75,,57.8
 """Fast and Furious(4)(3)-Fast and Furious""",2009,2016,"""action""","""""",107,60,60,50,50,40,60,50,60,70,,57.1
@@ -270,6 +279,7 @@ name,year,est_year_watched,genre,sub_genre,movie_length,peak,consistency,premise
 """Harry Potter(6) and the Half-Blood Prince""",2009,2010,"""fantasy""","""""",153,60,50,80,70,50,70,60,50,70,,62.4
 """Harry Potter(7) and the Deathly Hallows Pt.1""",2010,2011,"""fantasy""","""""",146,60,60,80,70,50,60,50,35,50,,58.3
 """Harry Potter(8) and the Deathly Hallows Pt.2""",2011,2012,"""fantasy""","""""",130,60,60,80,70,50,60,50,35,50,,58.3
+"""He Got Game""",1998,2022,"""drama""","""sports""",136,50,50,65,60,40,60,40,40,50,,51.2
 """Heavy Weights""",1995,2009,"""comedy""","""""",100,70,40,60,50,50,60,70,50,50,,56.1
 """Holes""",2003,2006,"""adventure""","""comedy""",117,40,60,60,50,50,40,40,30,50,,47.6
 """Holy Rollers-The True Story of Card Counting Christians""",2011,2015,"""documentary""","""""",92,60,50,70,50,70,70,50,60,60,,60.2
@@ -280,6 +290,7 @@ name,year,est_year_watched,genre,sub_genre,movie_length,peak,consistency,premise
 """Hot Tub Time Machine(1)""",2010,2012,"""comedy""","""sci-fi""",101,50,50,40,50,40,60,60,40,50,,49.5
 """Hot Tub Time Machine(2)""",2015,2016,"""comedy""","""sci-fi""",93,70,60,40,50,40,70,60,60,60,,58.5
 """Hurricane of Fun: The Making of Wet Hot""",2015,2017,"""documentary""","""comedy""",64,70,30,50,50,60,50,60,40,40,,50.7
+"""Hustle""",2022,2022,"""drama""","""sports""",117,65,40,70,50,50,45,50,40,50,,52.3
 """I Love You, Man""",2009,2011,"""comedy""","""""",105,70,40,50,50,40,50,50,50,60,,52.9
 """I, Robot""",2004,2004,"""action""","""""",115,60,50,60,50,50,50,40,40,40,,50.2
 """Icarus""",2017,2018,"""documentary""","""sports""",121,80,75,80,70,80,80,70,60,70,,75.4
@@ -297,6 +308,7 @@ name,year,est_year_watched,genre,sub_genre,movie_length,peak,consistency,premise
 """Island of Lemurs: Madagascar""",2014,2014,"""documentary""","""wilderness""",39,70,70,70,70,80,80,50,50,65,,69.0
 """Jay and Silent Bob Strike Back""",2001,2009,"""comedy""","""""",104,50,50,50,50,40,50,50,40,50,,48.5
 """Jeff Who Lives at Home""",2011,2013,"""comedy""","""drama""",83,60,60,40,40,40,60,60,50,50,,52.7
+"""Jerry Maguire""",1996,2022,"""comedy""","""drama""",139,45,60,60,60,60,50,50,40,60,,54.1
 """Joe Dirt""",2001,2006,"""comedy""","""""",91,50,50,60,40,40,60,50,60,60,,52.4
 """John Dies at The End""",2012,2016,"""comedy""","""horror""",99,50,50,60,40,30,60,60,50,50,,50.2
 """Jumanji: Welcome To The Jungle""",2017,2018,"""comedy""","""adventure""",119,60,70,50,50,40,60,60,40,60,,56.8
@@ -581,6 +593,7 @@ name,year,est_year_watched,genre,sub_genre,movie_length,peak,consistency,premise
 """Wet Hot American Summer""",2001,2010,"""comedy""","""""",97,80,80,70,60,50,80,80,80,80,,74.6
 """What We Do In The Shadows""",2014,2016,"""comedy""","""mockumentary""",86,70,70,70,50,50,70,70,65,60,,64.9
 """White Men Can't Jump""",1992,2019,"""sports""","""comedy""",115,40,50,40,50,50,50,40,40,60,,47.3
+"""Wild Wild West""",1999,2022,"""comedy""","""sci-fi""",106,40,50,40,50,30,60,55,60,40,,45.7
 """Without a Paddle""",2004,2007,"""comedy""","""adventure""",95,30,40,40,40,30,50,50,40,30,,37.6
 """Wizard People, Dear Reader""",2004,2016,"""comedy""","""""",152,80,60,80,50,50,80,80,50,80,,70.5
 """Wolf Children""",2012,2016,"""animated""","""drama""",117,40,50,40,50,40,40,40,40,50,,43.7
