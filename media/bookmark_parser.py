@@ -21,11 +21,17 @@ categories = [
     'Bash', 'General Programming', 'Git', 'LaTeX', 'Python', 'SQL', 'Ubuntu',
     'Bayesian Articles', 'Data Science Articles', 'Data Science Documentation', 
     'Decision Making and Psychology', 'Individual Profiles', 'Lifestyle and Self-Improvement',
+    '2021','2022'
     ]
 
 for sport in ('MLB', 'NHL', 'NBA', 'NFL'):
     for desc in ('Coaching and Player Development', 'Draft and Prospects', 'Gameplay and Analysis', 'General Articles', 'General Sites', 'Metric Descriptions', 'Profiles', 'Sport Science'):
         cat_label = sport + ' ' + desc
+        categories.append(cat_label)
+
+for yr in range(2022, datetime.date.today().year+1):
+    for mth in range(1,13):
+        cat_label = str(yr)+'_'+str(mth)
         categories.append(cat_label)
 
 
