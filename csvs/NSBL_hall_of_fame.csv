@@ -53,8 +53,8 @@ Class of 2015,Manny Ramirez,New York Mets,2006 - 2012,7,lf,BOS/TB/PIT/FLA/NYM,34
 - 1x HR Leader (2008) 
 - Career OBP (2) 
 - Career SLG (3) 
+- Career OPS+ (3) (tied w/1 others) 
 - Career WRC+ (4) 
-- Career OPS+ (4) 
 - Career AVG (4)",,
 Class of 2016,Chipper Jones,Baltimore Orioles & Chicago White Sox,2006 - 2013,8,3b,CHC/CHW/BAL/SF/STL,34 - 41,30.5,33.5,5177,4445,1231,186,75,0.277,0.370,0.461,0.831,0.363,121,123,140.8,,,,,,,,,,,,,,0,30,40.350,"- 2x Silver Slugger (2007, 2009) 
 - 2x All Star (2007, 2009) 
@@ -118,8 +118,8 @@ Class of 2017,Roy Halladay,Baltimore Orioles,2006 - 2014,9,sp,BAL/CIN/CHC/HOU/CL
 Class of 2018,Joe Nathan,Kansas City Royals,2006 - 2015,10,cl,KC/WAS/HOU/ATL,31 - 40,8.3,9.6,,,,,,,,,,,,,,38,54,198,664,1,0,0,865,754.0,3.42,3.29,84,80,0,7,28.418,"- 1x World Series (2013) 
 - 3x All Star (2006, 2008, 2009) 
 - Career SV (6) 
-- Career FIP- (9) (tied w/2 others) 
-- Career ERA- (9) (tied w/2 others)",,2 year-$9.000 MM w/WAS in 2014
+- Career FIP- (9) (tied w/1 others) 
+- Career ERA- (9) (tied w/1 others)",,2 year-$9.000 MM w/WAS in 2014
 Class of 2019,Alex Rodriguez,Texas Rangers,2006 - 2016,11,3b,SD/OAK/LAD/NYY/TEX,30 - 40,45.5,46.7,6520,5651,1576,314,181,0.279,0.366,0.499,0.865,0.375,130,134,245.8,,,,,,,,,,,,,,3,50,127.054,"- 1x World Series (2014) 
 - 6x All Star (2006, 2007, 2008, 2010, 2011, 2012) 
 - 3x Silver Slugger (2007, 2010, 2011) 
@@ -185,8 +185,7 @@ Class of 2021,David Wright,Toronto Blue Jays,2006 - 2018,13,3b,ATL/CLE/NYM/SEA/W
 - 1x R Leader (2007) 
 - Career NODRS_WAR (3) 
 - Career RAA (9) 
-- Career 2B (9) 
-- Career WAR (10)",,5 year-$76.500 MM w/WAS in 2013
+- Career 2B (9)",,5 year-$76.500 MM w/WAS in 2013
 Class of 2021,Jose Reyes,New York Mets,2006 - 2018,13,ss,SEA/MIL/MIN/HOU/ATL/OAK/FLA/WAS/NYM,23 - 35,36.2,39.4,8640,8006,2203,136,591,0.275,0.320,0.406,0.726,0.320,99,100,4.9,,,,,,,,,,,,,,3,39,124.112,"- 4x All Star (2009, 2010, 2012, 2013) 
 - 2x Silver Slugger (2009, 2010) 
 - 2x Gold Glove (2013, 2015) 
