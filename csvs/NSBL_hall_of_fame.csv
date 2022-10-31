@@ -118,8 +118,8 @@ Class of 2017,Roy Halladay,Baltimore Orioles,2006 - 2014,9,sp,BAL/CIN/CHC/HOU/CL
 Class of 2018,Joe Nathan,Kansas City Royals,2006 - 2015,10,cl,KC/WAS/HOU/ATL,31 - 40,8.3,9.6,,,,,,,,,,,,,,38,54,198,664,1,0,0,865,754.0,3.42,3.29,84,80,0,7,28.418,"- 1x World Series (2013) 
 - 3x All Star (2006, 2008, 2009) 
 - Career SV (6) 
-- Career FIP- (9) (tied w/1 others) 
-- Career ERA- (9) (tied w/1 others)",,2 year-$9.000 MM w/WAS in 2014
+- Career FIP- (9) (tied w/2 others) 
+- Career ERA- (9) (tied w/2 others)",,2 year-$9.000 MM w/WAS in 2014
 Class of 2019,Alex Rodriguez,Texas Rangers,2006 - 2016,11,3b,SD/OAK/LAD/NYY/TEX,30 - 40,45.5,46.7,6520,5651,1576,314,181,0.279,0.366,0.499,0.865,0.375,130,134,245.8,,,,,,,,,,,,,,3,50,127.054,"- 1x World Series (2014) 
 - 6x All Star (2006, 2007, 2008, 2010, 2011, 2012) 
 - 3x Silver Slugger (2007, 2010, 2011) 
@@ -144,7 +144,7 @@ Class of 2019,Cliff Lee,Toronto Blue Jays,2006 - 2016,11,sp,TOR/ATL/FLA/SF/PIT/B
 - 1x ERA- Leader (2011) 
 - Career SHO Record 
 - Career CG (3) 
-- Career ERA_WAR (9) 
+- Career ERA_WAR (9) (tied w/1 others) 
 - All-Time Single Season SHO Record",,3 year-$75.000 MM w/ATL in 2014
 Class of 2020,David Ortiz,Toronto Blue Jays,2006 - 2017,12,dh,OAK/BOS/CLE/DET/BAL/CHW/TOR,30 - 41,31.9,31.9,7923,6833,1772,436,35,0.259,0.352,0.503,0.855,0.368,130,132,286.0,,,,,,,,,,,,,,7,59,103.968,"- 3x World Series (2006, 2007, 2011) 
 - 3x All Star (2008, 2009, 2014) 
@@ -158,8 +158,7 @@ Class of 2020,David Ortiz,Toronto Blue Jays,2006 - 2017,12,dh,OAK/BOS/CLE/DET/BA
 - 1x BB Leader (2007) 
 - Career HR (4) 
 - Career BB (5) 
-- Career RBI (8) 
-- Career RAA (10)",,2 year-$29.312 MM w/opt w/CLE in 2015 & 1 year-$12.000 MM w/OAK in 2017
+- Career RBI (9)",,2 year-$29.312 MM w/opt w/CLE in 2015 & 1 year-$12.000 MM w/OAK in 2017
 Class of 2020,Jhonny Peralta,Los Angeles Angels,2006 - 2017,12,ss,TOR/SD/BAL/NYM/PHI/LAA/ANA/TB,24 - 35,42.2,37.9,7482,6725,1746,216,30,0.260,0.327,0.418,0.745,0.326,105,106,44.2,,,,,,,,,,,,,,0,8,49.516,"- 3x Silver Slugger (2012, 2013, 2016) 
 - 3x All Star (2013, 2014, 2016)",,4 year-$22.802 MM w/NYM in 2013 & 2 year-$17.000 MM w/TOR in 2017
 Class of 2020,Jonathan Papelbon,Cleveland Guardians,2006 - 2017,12,sp,CLE/STL/TEX/TB/PHI/COL/NYM,25 - 36,12.0,10.1,,,,,,,,,,,,,,69,69,228,639,57,1,0,1052,1009.7,3.59,3.75,87,90,5,20,76.622,"- 1x World Series (2009) 
@@ -184,8 +183,8 @@ Class of 2021,David Wright,Toronto Blue Jays,2006 - 2018,13,3b,ATL/CLE/NYM/SEA/W
 - 1x Silver Slugger (2006) 
 - 1x R Leader (2007) 
 - Career NODRS_WAR (3) 
-- Career RAA (9) 
-- Career 2B (9)",,5 year-$76.500 MM w/WAS in 2013
+- Career 2B (9) 
+- Career RAA (10)",,5 year-$76.500 MM w/WAS in 2013
 Class of 2021,Jose Reyes,New York Mets,2006 - 2018,13,ss,SEA/MIL/MIN/HOU/ATL/OAK/FLA/WAS/NYM,23 - 35,36.2,39.4,8640,8006,2203,136,591,0.275,0.320,0.406,0.726,0.320,99,100,4.9,,,,,,,,,,,,,,3,39,124.112,"- 4x All Star (2009, 2010, 2012, 2013) 
 - 2x Silver Slugger (2009, 2010) 
 - 2x Gold Glove (2013, 2015) 
