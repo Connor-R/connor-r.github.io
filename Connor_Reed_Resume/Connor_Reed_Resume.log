@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019) (preloaded format=pdflatex 2019.5.8)  1 DEC 2020 12:26
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019) (preloaded format=pdflatex 2019.5.8)  9 JAN 2023 11:09
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -282,11 +282,11 @@ Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 211.
 Here is how much of TeX's memory you used:
  5395 strings out of 492616
  78794 string characters out of 6129482
- 169609 words of memory out of 5000000
+ 170609 words of memory out of 5000000
  9297 multiletter control sequences out of 15000+600000
  6094 words of font info for 22 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 29i,8n,25p,630b,396s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 29i,8n,25p,630b,368s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/local/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb
 ></usr/local/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb>
 </usr/local/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></
@@ -295,7 +295,7 @@ usr/local/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr
 local/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/l
 ocal/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb></usr/lo
 cal/texlive/2019/texmf-dist/fonts/type1/public/marvosym/marvosym.pfb>
-Output written on Connor_Reed_Resume.pdf (2 pages, 136021 bytes).
+Output written on Connor_Reed_Resume.pdf (2 pages, 136049 bytes).
 PDF statistics:
  66 PDF objects out of 1000 (max. 8388607)
  49 compressed objects within 1 object stream
