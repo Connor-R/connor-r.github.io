@@ -31,8 +31,9 @@ for sport in ('MLB', 'NHL', 'NBA', 'NFL'):
 
 for yr in range(2022, datetime.date.today().year+1):
     for mth in range(1,13):
-        cat_label = str(yr)+'_'+str(mth)
+        cat_label = str(yr)+'_'+str(mth).rjust(2, '0')
         categories.append(cat_label)
+        print(cat_label)
 
 
 csv_path = '/Users/connordog/Dropbox/Desktop_Files/Work_Things/connor-r.github.io/csvs/personal_relevant_bookmarks.csv'
