@@ -29,6 +29,7 @@ name,genre,seasons,episodes,episode_length,episodes_per_season,approx_runtime_ho
 """Children's Hospital""","""comedy""",7,85,11,12.14,15.58,75,45,80,50,30,70,70,35,65,,60.5
 """Parks And Recreation""","""comedy""",7,121,22,17.29,44.37,70,60,70,60,40,60,60,50,60,,60.5
 """BBC Planet Earth""","""documentary""",2,17,48,8.50,13.60,70,50,60,,80,60,30,60,60,,60.3
+"""Metalocalypse""","""comedy""",4,61,13,15.25,13.22,70,55,65,40,30,70,60,70,65,,59.8
 """ESPN 30 For 30 OJ-Made In America""","""documentary""",1,5,90,5.00,7.50,65,65,60,,60,60,30,60,60,,59.5
 """Mike Tyson Mysteries""","""comedy""",4,40,11,10.00,7.33,65,60,70,40,30,70,40,70,70,,59.3
 """The League""","""comedy""",7,84,22,12.00,30.80,75,45,75,60,30,60,60,60,60,,59.3
@@ -39,7 +40,6 @@ name,genre,seasons,episodes,episode_length,episodes_per_season,approx_runtime_ho
 """Fleabag""","""comedy""",2,12,25,6.00,5.00,70,60,50,65,40,60,60,60,50,,57.9
 """Summer Heights High""","""comedy""",1,8,22,8.00,2.93,60,50,65,60,40,60,60,60,60,,57.1
 """The Real Bros of Simi Valley""","""comedy""",2,14,13,7.00,3.03,75,50,70,40,30,65,60,70,45,,57.0
-"""Metalocalypse""","""comedy""",4,61,13,15.25,13.22,70,50,60,40,30,60,60,70,60,,56.6
 """Check It Out With Dr. Steve Brule""","""comedy""",4,20,11,5.00,3.67,75,35,65,30,30,70,60,60,65,,56.6
 """Wet Hot American Summer""","""comedy""",2,16,28,8.00,7.47,65,65,65,40,30,65,45,50,55,,56.1
 """Freaks And Geeks""","""comedy""",1,18,22,18.00,6.60,65,50,50,50,40,50,65,65,65,,56.0
