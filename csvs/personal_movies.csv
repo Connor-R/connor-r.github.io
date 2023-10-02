@@ -58,6 +58,7 @@ name,year,est_year_watched,genre,sub_genre,movie_length,peak,consistency,premise
 """Bolt""",2008,2014,"""adventure""","""animated""",96,50,40,40,40,30,50,40,50,40,,42.7
 """Borat: Cultural Learnings of America for Make Benefit Glorius Nation of Kazakhstan""",2006,2007,"""comedy""","""mockumentary""",84,60,40,60,40,40,60,60,60,30,,49.3
 """Bottle Rocket""",1996,2012,"""comedy""","""crime""",91,60,60,60,50,40,50,60,60,50,,54.6
+"""Bottoms""",2023,2023,"""comedy""","""""",91,45,65,50,40,30,60,60,60,50,,51.0
 """Bourne(1): The Bourne Identity""",2002,2003,"""action""","""thriller""",119,70,60,60,60,50,60,50,40,60,,59.3
 """Bourne(2): The Bourne Supremacy""",2004,2005,"""action""","""thriller""",108,70,60,60,60,50,60,50,50,50,,58.3
 """Bourne(3): The Bourne Ultimatum""",2007,2008,"""action""","""thriller""",115,50,60,50,50,50,50,40,40,40,,48.8
