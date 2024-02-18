@@ -31,6 +31,7 @@ name,year,est_year_watched,genre,sub_genre,movie_length,peak,consistency,premise
 """Angels in the Outfield""",1994,2002,"""fantasy""","""sports""",102,60,60,50,50,40,60,40,60,50,,53.4
 """Anger Management""",2003,2007,"""comedy""","""""",106,30,30,30,40,30,40,30,50,40,,34.4
 """Any Given Sunday""",1999,2022,"""drama""","""sports""",162,40,60,45,50,40,55,40,30,50,,47.0
+"""Argylle""",2024,2024,"""action""","""""",139,60,50,45,45,30,65,55,40,60,,52.3
 """Avatar(2): The Way of Water [3D]""",2022,2022,"""action""","""fantasy""",192,60,50,50,60,30,60,40,40,40,,49.3
 """Baby Driver""",2017,2018,"""action""","""""",113,60,50,50,60,40,60,40,50,50,,52.2
 """Back to the Future(1)""",1985,2003,"""adventure""","""sci-fi""",116,65,60,70,60,50,70,60,60,60,,62.2
@@ -245,6 +246,7 @@ name,year,est_year_watched,genre,sub_genre,movie_length,peak,consistency,premise
 """Fast and Furious(8)(8)-The Fate of the Furious""",2017,2019,"""action""","""""",136,50,50,50,50,40,60,50,40,60,,51.2
 """Fast and Furious(9) Fast & Furious Presents: Hobbs & Shaw""",2019,2020,"""action""","""""",137,70,50,60,60,40,65,50,40,60,,57.4
 """Fast Times at Ridgement High""",1982,2013,"""comedy""","""""",90,70,70,60,60,50,70,70,70,80,,67.8
+"""Ferrari""",2023,2023,"""drama""","""""",130,40,50,60,50,55,50,30,50,55,,48.8
 """Ferris Bueller's Day Off""",1986,2003,"""comedy""","""""",103,60,70,70,60,50,70,70,70,75,,66.1
 """Fever Pitch""",2005,2008,"""sports""","""comedy""",104,50,50,40,50,50,60,60,40,60,,52.0
 """Field of Dreams""",1989,2002,"""drama""","""fantasy""",107,50,60,40,50,40,60,40,45,50,,49.8
@@ -300,6 +302,7 @@ name,year,est_year_watched,genre,sub_genre,movie_length,peak,consistency,premise
 """Hurricane of Fun: The Making of Wet Hot""",2015,2017,"""documentary""","""comedy""",64,70,30,50,50,60,50,60,40,40,,50.7
 """Hustle""",2022,2022,"""drama""","""sports""",117,65,40,70,50,50,45,50,40,50,,52.3
 """I Love You, Man""",2009,2011,"""comedy""","""""",105,70,40,50,50,40,50,50,50,60,,52.9
+"""I Want You Back""",2022,2023,"""comedy""","""romance""",116,45,45,55,50,30,55,50,50,50,,47.4
 """I, Robot""",2004,2004,"""action""","""""",115,60,50,60,50,50,50,40,40,40,,50.2
 """Icarus""",2017,2018,"""documentary""","""sports""",121,80,75,80,70,80,80,70,60,70,,75.4
 """Ice Age(1)""",2002,2006,"""comedy""","""animated""",81,60,50,50,50,40,50,60,60,50,,52.2
@@ -445,6 +448,7 @@ name,year,est_year_watched,genre,sub_genre,movie_length,peak,consistency,premise
 """Spaceballs""",1987,2005,"""comedy""","""sci-fi""",96,70,70,70,50,50,70,70,70,70,,66.6
 """Split""",2016,2017,"""thriller""","""""",117,60,40,60,50,40,50,50,50,50,,50.5
 """Spotlight""",2015,2017,"""crime""","""history""",128,60,80,80,70,75,75,55,60,70,,70.0
+"""Spy""",2015,2023,"""comedy""","""action""",120,55,55,40,40,30,60,50,50,50,,49.3
 """St. Vincent""",2014,2018,"""comedy""","""drama""",102,60,50,60,70,50,60,50,60,60,,57.6
 """Stand and Deliver""",1988,2006,"""drama""","""""",103,70,70,70,80,70,70,60,60,70,,69.5
 """Starsky and Hutch""",2004,2005,"""comedy""","""""",101,60,50,40,40,40,70,50,50,50,,51.7
