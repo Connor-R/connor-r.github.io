@@ -334,6 +334,7 @@ name,year,est_year_watched,genre,sub_genre,movie_length,peak,consistency,premise
 """Kung Fu Panda(2)""",2011,2013,"""adventure""","""animated""",90,60,60,50,40,40,60,60,60,60,,55.6
 """Kung Fury""",2015,2015,"""comedy""","""action""",31,80,70,50,40,40,70,70,70,60,,63.4
 """L.A. Confidential""",1997,2011,"""drama""","""mystery""",138,70,70,70,60,50,60,50,60,65,,63.4
+"""Last Goal Wins""",2023,2024,"""comedy""","""sports""",104,65,55,50,50,40,60,60,50,60,,56.1
 """Legally Blonde""",2001,2005,"""comedy""","""""",96,40,50,40,40,50,50,50,50,50,,46.3
 """Let's Go to Prison""",2006,2019,"""comedy""","""crime""",84,60,40,40,40,40,60,60,50,40,,48.3
 """Life Is Beautiful""",1997,2009,"""drama""","""comedy""",116,75,70,80,80,70,70,70,50,70,,71.7
