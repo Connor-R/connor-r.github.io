@@ -583,7 +583,7 @@ year,gp,date,player_name,fname,lname,team_abb,position,salary,contract_year,expi
 2024,0,2024-03-17,Jimmy Herget,Jimmy,Herget,SEA,p,0.715,2nd,0,,,N,"Herget, Jimmy",Reserve
 2024,0,2024-03-17,Darell Hernaiz,Darell,Hernaiz,NYM,if,0.700,XXX,0,,,N,"Hernaiz, Darell",Reserve
 2024,0,2024-03-17,Cesar Hernandez,Cesar,Hernandez,BOS,if,3.500,V,2024,,,Y,"Hernandez, Cesar",Active
-2024,0,2024-03-17,Cristian Hernandez (2003),Cristian,Hernandez (2003),HOU,if,0.700,XXX,0,,,N,"Hernandez, Cristian (12/13/2003)",Reserve
+2024,0,2024-03-17,Cristian D. Hernandez,Cristian,D. Hernandez,HOU,if,0.700,XXX,0,,,N,"Hernandez, Cristian (12/13/2003)",Reserve
 2024,0,2024-03-17,Elieser Hernandez,Elieser,Hernandez,TEX,p,3.250,V,2024,Yes,,Y,"Hernandez, Elieser",Active
 2024,0,2024-03-17,Kike Hernandez,Kike,Hernandez,PHI,of,5.250,V,2024,,,Y,"Hernandez, Enrique ""Kike""",Active
 2024,0,2024-03-17,Heriberto Hernandez,Heriberto,Hernandez,ARI,of,0.700,XXX,0,,,N,"Hernandez, Heriberto",Reserve
@@ -771,7 +771,7 @@ year,gp,date,player_name,fname,lname,team_abb,position,salary,contract_year,expi
 2024,0,2024-03-17,Royce Lewis,Royce,Lewis,COL,if,0.700,XXX,0,,,N,"Lewis, Royce",Reserve
 2024,0,2024-03-17,Domingo Leyba,Domingo,Leyba,ATL,if,0.930,3rd,0,,,N,"Leyba, Domingo",Reserve
 2024,0,2024-03-17,Matthew Liberatore,Matthew,Liberatore,COL,p,0.700,1st,0,,,N,"Liberatore, Matthew",Reserve
-2024,0,2024-03-17,Yu Min Lin,Yu,Min Lin,STL,p,0.700,XXX,0,,,N,"Lin, Yu Min",Reserve
+2024,0,2024-03-17,Yu-Min Lin,Yu-Min,Lin,STL,p,0.700,XXX,0,,,N,"Lin, Yu Min",Reserve
 2024,0,2024-03-17,Resly Linares,Resly,Linares,CIN,p,0.700,XXX,0,,,N,"Linares, Resly",Reserve
 2024,0,2024-03-17,Francisco Lindor,Francisco,Lindor,NYY,if,35.000,V,2029,,,Y,"Lindor, Francisco",Active
 2024,0,2024-03-17,Trey Lipscomb,Trey,Lipscomb,SD,if,0.700,XXX,0,,,N,"Lipscomb, Trey",Reserve
@@ -843,7 +843,7 @@ year,gp,date,player_name,fname,lname,team_abb,position,salary,contract_year,expi
 2024,0,2024-03-17,Jason Martin,Jason,Martin,LAD,of,0.700,1st,0,,,N,"Martin, Jason",Active
 2024,0,2024-03-17,Payton Martin,Payton,Martin,MIN,p,0.700,XXX,0,,,N,"Martin, Payton",Reserve
 2024,0,2024-03-17,Walker Martin,Walker,Martin,BAL,if,0.700,XXX,0,,,N,"Martin, Walker",Reserve
-2024,0,2024-03-17,Angel (1/27/02) Martinez,Angel,(1/27/02) Martinez,BOS,if,0.700,XXX,0,,,N,"Martinez, Angel (1/27/02)",Reserve
+2024,0,2024-03-17,Angel Martinez (2002),Angel,Martinez (2002),BOS,if,0.700,XXX,0,,,N,"Martinez, Angel (1/27/02)",Reserve
 2024,0,2024-03-17,Gabriel Martinez,Gabriel,Martinez,MIL,of,0.700,XXX,0,,,N,"Martinez, Gabriel",Reserve
 2024,0,2024-03-17,Jeter Martinez,Jeter,Martinez,BOS,p,0.700,XXX,0,,Y,N,"Martinez, Jeter",Reserve
 2024,0,2024-03-17,Julio Pablo Martinez,Julio Pablo,Martinez,NYY,of,0.700,XXX,0,,,N,"Martinez, Julio Pablo",Reserve
@@ -982,7 +982,7 @@ year,gp,date,player_name,fname,lname,team_abb,position,salary,contract_year,expi
 2024,0,2024-03-17,Kyle Muller,Kyle,Muller,WAS,p,0.700,1st,0,,,N,"Muller, Kyle",Reserve
 2024,0,2024-03-17,Cedric Mullins,Cedric,Mullins,MIA,of,2.564,4th,0,,,Y,"Mullins, Cedric",Active
 2024,0,2024-03-17,Max Muncy,Max,Muncy,SD,if,18.000,V,2025,,,Y,"Muncy, Max (8/25/1990)",Active
-2024,0,2024-03-17,Max Muncy (2002),Max,Muncy (2002),NYY,if,0.700,XXX,0,,,N,"Muncy, Max (8/25/2002)",Reserve
+2024,0,2024-03-17,Max P. Muncy,Max,P. Muncy,NYY,if,0.700,XXX,0,,,N,"Muncy, Max (8/25/2002)",Reserve
 2024,0,2024-03-17,Andres Munoz,Andres,Munoz,SF,p,1.999,4th,0,,,Y,"Munoz, Andres",Active
 2024,0,2024-03-17,Yairo Munoz,Yairo,Munoz,MIA,if,1.900,V,2024,,,Y,"Munoz, Yairo",Active
 2024,0,2024-03-17,Penn Murfee,Penn,Murfee,TB,p,2.200,V,2025,Yes,,Y,"Murfee, Penn",Active
@@ -1154,7 +1154,7 @@ year,gp,date,player_name,fname,lname,team_abb,position,salary,contract_year,expi
 2024,0,2024-03-17,Alan Roden,Alan,Roden,BOS,of,0.700,XXX,0,,,N,"Roden, Alan",Reserve
 2024,0,2024-03-17,Brendan Rodgers,Brendan,Rodgers,SEA,if,1.911,3rd,0,,,N,"Rodgers, Brendan",Active
 2024,0,2024-03-17,Carlos Rodon,Carlos,Rodon,BAL,p,36.000,V,2025,Yes,,Y,"Rodon, Carlos",Active
-2024,0,2024-03-17,Carlos F. Rodriguez,Carlos F.,Rodriguez,ATL,p,0.700,XXX,0,,,N,"Rodriguez, Carlos (11/27/01)",Reserve
+2024,0,2024-03-17,Carlos F. Rodriguez,Carlos,F. Rodriguez,ATL,p,0.700,XXX,0,,,N,"Rodriguez, Carlos (11/27/01)",Reserve
 2024,0,2024-03-17,Chris Rodriguez,Chris,Rodriguez,CHW,p,0.910,2nd,0,,,N,"Rodriguez, Chris",Reserve
 2024,0,2024-03-17,Eduardo Rodriguez,Eduardo,Rodriguez,ARI,p,8.500,V,2024,Yes,,Y,"Rodriguez, Eduardo",Active
 2024,0,2024-03-17,Emmanuel Rodriguez,Emmanuel,Rodriguez,CLE,of,0.700,XXX,0,,,N,"Rodriguez, Emmanuel",Reserve
@@ -1201,7 +1201,7 @@ year,gp,date,player_name,fname,lname,team_abb,position,salary,contract_year,expi
 2024,0,2024-03-17,Ethan Salas,Ethan,Salas,CHC,c,0.700,XXX,0,,,N,"Salas, Ethan",Reserve
 2024,0,2024-03-17,Jose Salas,Jose,Salas,NYM,if,0.700,XXX,0,,,N,"Salas, Jose",Reserve
 2024,0,2024-03-17,Royber Salinas,Royber,Salinas,SF,p,0.700,XXX,0,,,N,"Salinas, Royber",Reserve
-2024,0,2024-03-17,Carlos (1/12/05) Sanchez,Carlos,(1/12/05) Sanchez,SF,if,0.700,XXX,0,,Y,N,"Sanchez, Carlos (1/12/05)",Reserve
+2024,0,2024-03-17,Carlos J. Sanchez,Carlos,J. Sanchez,SF,if,0.700,XXX,0,,Y,N,"Sanchez, Carlos (1/12/05)",Reserve
 2024,0,2024-03-17,Jesus Sanchez,Jesus,Sanchez,CLE,of,1.085,2nd,0,,,N,"Sanchez, Jesus",Active
 2024,0,2024-03-17,Lolo Sanchez,Lolo,Sanchez,NYM,of,0.700,XXX,0,,,N,"Sanchez, Lolo",Reserve
 2024,0,2024-03-17,Luis Mario Sanchez,Luis,Mario Sanchez,SD,p,0.700,XXX,0,,,N,"Sanchez, Luis Mario",Reserve
@@ -1239,7 +1239,7 @@ year,gp,date,player_name,fname,lname,team_abb,position,salary,contract_year,expi
 2024,0,2024-03-17,Spencer Schwellenbach,Spencer,Schwellenbach,MIL,p,0.700,XXX,0,,,N,"Schwellenbach, Spencer",Reserve
 2024,0,2024-03-17,Frank Schwindel,Frank,Schwindel,MIA,if,3.033,V,2025,Yes,,Y,"Schwindel, Frank",Reserve
 2024,0,2024-03-17,Christian Scott,Christian,Scott,PHI,p,0.700,XXX,0,,,N,"Scott, Christian",Reserve
-2024,0,2024-03-17,Victor II Scott,Victor,II Scott,PIT,of,0.700,XXX,0,,,N,"Scott, Victor II",Reserve
+2024,0,2024-03-17,Victor Scott II,Victor,Scott II,PIT,of,0.700,XXX,0,,,N,"Scott, Victor II",Reserve
 2024,0,2024-03-17,Corey Seager,Corey,Seager,PIT,if,33.750,V,2027,,Y,Y,"Seager, Corey",Active
 2024,0,2024-03-17,J.P. Sears,J.P.,Sears,MIL,p,3.500,V,2025,,,Y,"Sears, JP",Active
 2024,0,2024-03-17,Jean Segura,Jean,Segura,SD,if,8.000,V,2024,Yes,,Y,"Segura, Jean",Active
@@ -1258,7 +1258,7 @@ year,gp,date,player_name,fname,lname,team_abb,position,salary,contract_year,expi
 2024,0,2024-03-17,Emmet Sheehan,Emmet,Sheehan,ARI,p,0.700,XXX,0,,,N,"Sheehan, Emmet",Reserve
 2024,0,2024-03-17,Gavin Sheets,Gavin,Sheets,HOU,if,1.411,3rd,0,,,N,"Sheets, Gavin",Active
 2024,0,2024-03-17,Braden Shewmake,Braden,Shewmake,MIL,if,1.295,2nd,0,,,N,"Shewmake, Braden",Active
-2024,0,2024-03-17,Jun Seok Shim,Jun,Seok Shim,COL,p,0.700,XXX,0,,,N,"Shim, Jun Seok",Reserve
+2024,0,2024-03-17,Jun-Seok Shim,Jun-Seok,Shim,COL,p,0.700,XXX,0,,,N,"Shim, Jun Seok",Reserve
 2024,0,2024-03-17,Braden Shipley,Braden,Shipley,LAA,p,0.700,1st,0,,,N,"Shipley, Braden",Reserve
 2024,0,2024-03-17,Chase Shores,Chase,Shores,LAD,p,0.700,XXX,0,,,N,"Shores, Chase",Reserve
 2024,0,2024-03-17,Jared Shuster,Jared,Shuster,STL,p,0.700,XXX,0,,,N,"Shuster, Jared",Reserve
