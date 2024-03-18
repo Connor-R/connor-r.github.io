@@ -495,6 +495,7 @@ name,year,est_year_watched,genre,sub_genre,movie_length,peak,consistency,premise
 """The Benchwarmers""",2006,2007,"""comedy""","""sports""",80,30,50,40,30,40,40,50,50,50,,41.5
 """The BFG""",2016,2018,"""fantasy""","""adventure""",117,30,30,40,40,30,20,30,30,20,,29.0
 """The Big Lebowski""",1998,2008,"""comedy""","""""",117,80,65,65,65,40,80,80,70,80,,70.9
+"""The Big Short""",2015,2024,"""biography""","""""",130,60,60,60,50,60,60,40,40,50,,55.4
 """The Blind Side""",2009,2011,"""biography""","""sports""",129,30,50,50,30,60,30,40,30,40,,40.0
 """The Blues Brothers""",1980,2003,"""comedy""","""action""",133,80,60,80,70,60,70,80,50,80,,71.7
 """The Blues Brothers(2) 2000""",1998,2003,"""comedy""","""action""",123,70,40,60,60,50,50,60,40,40,,52.9
@@ -589,6 +590,7 @@ name,year,est_year_watched,genre,sub_genre,movie_length,peak,consistency,premise
 """Twilight(4)-Breaking Down Pt.1""",2011,2013,"""fantasy""","""romance""",117,40,40,50,40,30,40,40,40,40,,40.0
 """Twilight(5)-Breaking Dawn Pt. 2""",2012,2013,"""fantasy""","""romance""",115,50,40,50,40,30,50,40,40,40,,43.2
 """Unbreakable""",2000,2010,"""drama""","""sci-fi""",106,70,60,70,60,40,70,50,60,70,,62.9
+"""Uncut Gems""",2019,2024,"""crime""","""drama""",135,60,40,40,50,30,55,40,40,55,,47.7
 """Up""",2009,2012,"""animated""","""adventure""",96,70,70,70,70,40,60,60,70,70,,65.1
 """V for Vendetta""",2005,2008,"""action""","""sci-fi""",132,60,70,70,60,60,60,50,50,70,,62.7
 """Walk Hard: The Dewey Cox Story""",2007,2012,"""comedy""","""music""",96,60,40,40,40,40,50,50,55,40,,46.6
@@ -613,16 +615,17 @@ name,year,est_year_watched,genre,sub_genre,movie_length,peak,consistency,premise
 """Without a Paddle""",2004,2007,"""comedy""","""adventure""",95,30,40,40,40,30,50,50,40,30,,37.6
 """Wizard People, Dear Reader""",2004,2016,"""comedy""","""""",152,80,60,80,50,50,80,80,50,80,,70.5
 """Wolf Children""",2012,2016,"""animated""","""drama""",117,40,50,40,50,40,40,40,40,50,,43.7
-"""X-Men(1)(2000)-X-Men""",2000,2010,"""superhero""","""documentary""",104,40,50,55,50,50,50,40,50,60,,49.3
-"""X-Men(10)(2029)-Logan""",2017,2018,"""superhero""","""documentary""",137,30,40,40,40,30,30,30,30,30,,33.2
-"""X-Men(2)(2003)-X2""",2003,2010,"""superhero""","""documentary""",134,50,50,55,50,50,50,40,40,60,,50.7
-"""X-Men(3)(2006)-The Last Stand""",2006,2014,"""superhero""","""documentary""",104,65,60,55,50,50,60,40,60,70,,58.8
-"""X-Men(4)(1981)-Origins Wolverine""",2009,2014,"""superhero""","""documentary""",107,55,40,55,50,50,40,40,50,40,,46.6
-"""X-Men(5)(1962)-First Class""",2011,2014,"""superhero""","""documentary""",131,70,65,55,50,50,70,40,40,60,,59.3
-"""X-Men(6)(2013)-The Wolverine""",2013,2015,"""superhero""","""documentary""",126,55,40,55,50,50,40,40,50,40,,46.6
-"""X-Men(7)(2023)-Days of Future Past""",2014,2016,"""superhero""","""documentary""",132,70,65,55,50,50,70,40,40,60,,59.3
-"""X-Men(8)(1983)-Apocalypse""",2016,2017,"""superhero""","""documentary""",144,70,65,55,50,50,70,40,40,60,,59.3
-"""X-Men(9)(2016)-Deadpool""",2016,2017,"""superhero""","""documentary""",108,50,50,55,50,50,60,50,50,50,,51.7
+"""X-Men(1)(2000)-X-Men""",2000,2010,"""superhero""","""action""",104,40,50,55,50,50,50,40,50,60,,49.3
+"""X-Men(10)(2029)-Logan""",2017,2018,"""superhero""","""action""",137,30,40,40,40,30,30,30,30,30,,33.2
+"""X-Men(11)(1992)-Dark Phoenix""",2019,2024,"""superhero""","""action""",113,40,50,50,50,30,55,40,45,50,,45.7
+"""X-Men(2)(2003)-X2""",2003,2010,"""superhero""","""action""",134,50,50,55,50,50,50,40,40,60,,50.7
+"""X-Men(3)(2006)-The Last Stand""",2006,2014,"""superhero""","""action""",104,65,60,55,50,50,60,40,60,70,,58.8
+"""X-Men(4)(1981)-Origins Wolverine""",2009,2014,"""superhero""","""action""",107,55,40,55,50,50,40,40,50,40,,46.6
+"""X-Men(5)(1962)-First Class""",2011,2014,"""superhero""","""action""",131,70,65,55,50,50,70,40,40,60,,59.3
+"""X-Men(6)(2013)-The Wolverine""",2013,2015,"""superhero""","""action""",126,55,40,55,50,50,40,40,50,40,,46.6
+"""X-Men(7)(2023)-Days of Future Past""",2014,2016,"""superhero""","""action""",132,70,65,55,50,50,70,40,40,60,,59.3
+"""X-Men(8)(1983)-Apocalypse""",2016,2017,"""superhero""","""action""",144,70,65,55,50,50,70,40,40,60,,59.3
+"""X-Men(9)(2016)-Deadpool""",2016,2017,"""superhero""","""action""",108,50,50,55,50,50,60,50,50,50,,51.7
 """Your Name""",2016,2016,"""animated""","""drama""",106,75,60,70,70,50,70,60,65,70,,66.6
 """Youth In Revolt""",2009,2010,"""comedy""","""drama""",90,60,60,60,60,40,60,60,65,50,,56.8
 """Zack and Miri Make a Porno""",2008,2010,"""comedy""","""romance""",101,30,40,40,30,30,40,30,30,40,,35.1
