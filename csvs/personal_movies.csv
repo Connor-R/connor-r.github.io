@@ -31,7 +31,7 @@ name,year,est_year_watched,genre,sub_genre,movie_length,peak,consistency,premise
 """Angels in the Outfield""",1994,2002,"""fantasy""","""sports""",102,60,60,50,50,40,60,40,60,50,,53.4
 """Anger Management""",2003,2007,"""comedy""","""""",106,30,30,30,40,30,40,30,50,40,,34.4
 """Any Given Sunday""",1999,2022,"""drama""","""sports""",162,40,60,45,50,40,55,40,30,50,,47.0
-"""Argylle""",2024,2024,"""action""","""""",139,60,50,45,45,30,65,55,40,60,,52.3
+"""Argylle""",2024,2024,"""action""","""""",139,60,50,45,45,30,60,55,40,60,,51.7
 """Avatar(2): The Way of Water [3D]""",2022,2022,"""action""","""fantasy""",192,60,50,50,60,30,60,40,40,40,,49.3
 """Baby Driver""",2017,2018,"""action""","""""",113,60,50,50,60,40,60,40,50,50,,52.2
 """Back to the Future(1)""",1985,2003,"""adventure""","""sci-fi""",116,65,60,70,60,50,70,60,60,60,,62.2
@@ -87,6 +87,7 @@ name,year,est_year_watched,genre,sub_genre,movie_length,peak,consistency,premise
 """Coach Carter""",2005,2009,"""sports""","""drama""",136,50,60,60,60,50,60,40,45,50,,53.4
 """Code 8""",2019,2020,"""action""","""drama""",98,30,40,30,30,30,30,20,30,40,,32.2
 """Concussion""",2015,2015,"""biography""","""sports""",123,60,60,70,60,70,50,40,40,50,,56.8
+"""Confess, Fletch""",2022,2024,"""comedy""","""crime""",98,65,60,50,50,30,60,65,60,60,,56.7
 """Cool Runnings""",1993,2000,"""comedy""","""sports""",98,70,70,80,70,70,80,70,70,80,,73.7
 """Crash""",2004,2008,"""crime""","""drama""",112,70,60,60,60,50,70,60,60,70,,63.7
 """D1: The Mighty Ducks""",1992,2000,"""comedy""","""sports""",100,70,60,50,50,50,70,60,70,80,,63.9
