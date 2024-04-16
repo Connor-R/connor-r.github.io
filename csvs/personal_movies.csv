@@ -255,6 +255,7 @@ name,year,est_year_watched,genre,sub_genre,movie_length,peak,consistency,premise
 """Fight Club""",1999,2010,"""drama""","""""",139,70,50,60,60,50,70,60,50,70,,61.7
 """Finding Dory""",2016,2018,"""comedy""","""animated""",97,40,60,50,50,40,50,50,60,50,,49.0
 """Finding Nemo""",2003,2004,"""comedy""","""animated""",100,60,60,50,50,40,60,60,60,70,,57.8
+"""Fletch""",1985,2024,"""comedy""","""crime""",98,50,60,50,50,30,55,60,60,55,,52.1
 """Forgetting Sarah Marshall""",2008,2010,"""comedy""","""""",111,70,50,60,60,40,70,70,50,65,,60.7
 """Forrest Gump""",1994,2006,"""comedy""","""drama""",142,70,60,80,70,60,70,70,40,80,,68.5
 """Foxcatcher""",2014,2020,"""biography""","""sports""",134,55,40,50,50,55,40,40,30,55,,47.8
