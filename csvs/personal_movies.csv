@@ -25,6 +25,7 @@ name,year,est_year_watched,genre,sub_genre,movie_length,peak,consistency,premise
 """AlphaGo""",2017,2018,"""documentary""","""""",90,70,70,70,50,70,70,50,70,50,,64.1
 """Amelie""",2001,2010,"""romantic comedy""","""french""",129,60,50,50,50,30,50,40,20,50,,47.8
 """American History X""",1998,2010,"""crime""","""drama""",119,60,60,60,70,50,60,50,40,60,,58.0
+"""American Movie""",1999,2024,"""documentary""","""comedy""",107,40,50,55,45,40,50,45,55,50,,47.1
 """An Inconvenient Truth""",2006,2006,"""documentary""","""""",96,50,50,50,50,70,60,40,40,50,,52.0
 """Anchorman: The Legend of Ron Burgundy""",2004,2008,"""comedy""","""""",94,65,65,50,40,30,60,60,55,60,,56.1
 """Angels & Demons""",2009,2011,"""mystery""","""""",138,30,40,40,30,50,30,20,20,40,,34.6
