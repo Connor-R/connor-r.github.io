@@ -515,6 +515,7 @@ name,year,est_year_watched,genre,sub_genre,movie_length,peak,consistency,premise
 """The Breakfast Club""",1985,2006,"""comedy""","""drama""",97,60,60,70,70,30,70,60,65,80,,63.2
 """The Brothers Bloom""",2008,2011,"""comedy""","""drama""",114,50,40,60,70,40,60,50,50,50,,51.2
 """The Bucket List""",2007,2011,"""adventure""","""comedy""",97,40,40,30,40,40,50,40,50,40,,40.7
+"""The Cell""",2000,2024,"""crime""","""sci-fi""",107,40,60,60,50,30,55,40,50,55,,49.1
 """The Da Vinci Code""",2006,2008,"""mystery""","""""",149,30,30,60,40,50,30,30,30,40,,37.1
 """The Darjeeling Limited""",2007,2018,"""comedy""","""adventure""",91,40,60,60,50,40,50,50,50,50,,49.5
 """The Day After Tomorrow""",2004,2008,"""adventure""","""action""",124,30,40,30,30,30,30,30,20,30,,31.0
