@@ -579,6 +579,7 @@ name,year,est_year_watched,genre,sub_genre,movie_length,peak,consistency,premise
 """The Usual Suspects""",1995,2001,"""crime""","""mystery""",106,80,70,80,80,50,70,50,70,80,,71.7
 """The Waterboy""",1998,1999,"""comedy""","""sports""",90,60,60,60,50,40,60,50,60,60,,56.6
 """The Yellow Submarine""",1968,1998,"""music""","""animated""",85,80,70,70,60,60,70,60,70,80,,71.0
+"""Theater Camp""",2023,2024,"""mockumentary""","""comedy""",92,55,55,45,40,30,60,60,55,50,,50.7
 """They Came Together""",2014,2017,"""comedy""","""""",83,30,20,30,30,20,20,30,40,20,,25.4
 """They Cloned Tyrone""",2023,2024,"""mystery""","""sci-fi""",122,55,60,60,60,45,65,50,45,65,,57.4
 """Thirteen Days""",2000,2005,"""history""","""drama""",145,60,70,70,50,60,60,40,40,60,,59.3
