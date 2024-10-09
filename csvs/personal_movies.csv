@@ -407,6 +407,7 @@ name,year,est_year_watched,genre,sub_genre,movie_length,peak,consistency,premise
 """Pirates of the Caribbean(2): Dead Man's Chest""",2006,2024,"""action""","""fantasy""",151,55,35,50,40,40,50,50,30,50,,46.1
 """Pirates of the Caribbean(3): At World's End""",2007,2024,"""action""","""fantasy""",169,55,35,40,40,40,50,50,20,50,,44.6
 """Pirates of the Caribbean(4): On Stranger Tides""",2011,2024,"""action""","""fantasy""",136,55,35,50,40,40,50,50,30,50,,46.1
+"""Pirates of the Caribbean(5): Dead Men Tell No Tales""",2017,2024,"""action""","""fantasy""",129,40,40,50,40,40,45,45,40,40,,42.0
 """Pitch Perfect""",2012,2012,"""music""","""comedy""",112,40,60,40,50,40,60,60,50,50,,49.5
 """Pocahontas""",1995,2012,"""animated""","""adventure""",81,30,40,40,50,50,30,30,50,40,,38.3
 """Point Break""",1991,2014,"""action""","""""",122,60,40,40,50,40,60,50,40,60,,50.7
