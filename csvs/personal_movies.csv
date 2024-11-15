@@ -470,6 +470,7 @@ name,year,est_year_watched,genre,sub_genre,movie_length,peak,consistency,premise
 """Starsky and Hutch""",2004,2005,"""comedy""","""""",101,60,50,40,40,40,70,50,50,50,,51.7
 """Step Brothers""",2008,2009,"""comedy""","""""",98,70,60,60,40,40,60,60,60,60,,58.5
 """Straight Outta Compton""",2015,2017,"""biography""","""music""",147,60,70,70,70,60,50,60,40,60,,61.0
+"""Strange Brew""",1983,2024,"""comedy""","""""",90,35,45,40,40,30,35,30,60,30,,37.0
 """Stranger Than Fiction""",2006,2007,"""comedy""","""""",113,50,70,80,60,50,70,60,50,60,,61.2
 """StudioGhibli-Castle in the Sky""",1986,2011,"""animated""","""adventure""",125,75,70,65,65,50,70,50,50,70,,65.7
 """StudioGhibli-Castle Of Cagliostro""",1979,2010,"""animated""","""adventure""",102,70,70,60,60,55,70,55,65,70,,65.5
