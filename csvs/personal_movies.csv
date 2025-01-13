@@ -66,6 +66,7 @@ name,year,est_year_watched,genre,sub_genre,movie_length,peak,consistency,premise
 """Bourne(1): The Bourne Identity""",2002,2003,"""action""","""thriller""",119,70,60,60,60,50,60,50,40,60,,59.3
 """Bourne(2): The Bourne Supremacy""",2004,2005,"""action""","""thriller""",108,70,60,60,60,50,60,50,50,50,,58.3
 """Bourne(3): The Bourne Ultimatum""",2007,2008,"""action""","""thriller""",115,50,60,50,50,50,50,40,40,40,,48.8
+"""Breaking News""",2004,2025,"""action""","""crime""",90,45,45,60,60,30,55,40,50,50,,47.9
 """Brick""",2005,2012,"""mystery""","""""",110,70,60,60,70,50,60,40,40,50,,57.8
 """Bruce Almighty""",2003,2005,"""comedy""","""fantasy""",101,40,60,50,50,50,50,50,50,50,,49.5
 """Bruno""",2009,2016,"""comedy""","""mockumentary""",82,40,30,40,20,40,40,40,60,40,,38.0
@@ -268,7 +269,7 @@ name,year,est_year_watched,genre,sub_genre,movie_length,peak,consistency,premise
 """Freedom Writers""",2007,2011,"""drama""","""biography""",123,60,50,60,60,60,50,50,40,50,,54.1
 """Freeloaders""",2012,2013,"""comedy""","""""",77,30,20,30,30,30,30,50,50,20,,29.5
 """Friday Night Lights""",2004,2004,"""drama""","""sports""",118,50,60,60,60,50,70,50,60,60,,57.6
-"""Game Over, Man!""",2018,2014,"""comedy""","""action""",101,35,40,35,30,30,30,40,40,30,,34.1
+"""Game Over, Man!""",2018,2024,"""comedy""","""action""",101,35,40,35,30,30,30,40,40,30,,34.1
 """Garden State""",2004,2008,"""comedy""","""drama""",102,50,60,50,60,50,50,60,60,50,,53.4
 """GATTACA""",1997,2019,"""sci-fi""","""drama""",106,65,50,65,60,60,55,40,60,60,,57.9
 """Gentlemen Broncos""",2009,2010,"""comedy""","""sci-fi""",90,80,35,60,50,40,60,70,70,70,,60.2
@@ -343,6 +344,7 @@ name,year,est_year_watched,genre,sub_genre,movie_length,peak,consistency,premise
 """Kingpin""",1996,2008,"""comedy""","""sports""",114,60,40,50,50,30,50,60,40,40,,47.3
 """Kitten Bowl-2014""",2014,2014,"""cats""","""sports""",124,70,20,40,40,50,60,40,30,50,,47.3
 """Knocked Up""",2007,2011,"""comedy""","""""",129,60,50,40,40,40,60,50,40,50,,50.0
+"""Kung Fu Hustle""",2004,2025,"""kung fu""","""comedy""",99,40,40,50,60,30,55,55,50,45,,45.6
 """Kung Fu Panda(1)""",2008,2013,"""adventure""","""animated""",92,60,60,50,40,40,60,60,60,60,,55.6
 """Kung Fu Panda(2)""",2011,2013,"""adventure""","""animated""",90,60,60,50,40,40,60,60,60,60,,55.6
 """Kung Fury""",2015,2015,"""comedy""","""action""",31,80,70,50,40,40,70,70,70,60,,63.4
