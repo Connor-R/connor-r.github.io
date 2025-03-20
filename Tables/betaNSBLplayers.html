@@ -375,6 +375,7 @@
             const [page, setPage] = React.useState(1);
             const [filters, setFilters] = React.useState({});
             const [sort, setSort] = React.useState({ field: null, direction: "asc" });
+            const [globalSearch, setGlobalSearch] = React.useState('');
             
             const columns = React.useMemo(() => 
                 initialData.length > 0 ? Object.keys(initialData[0]) : [], 
@@ -428,15 +429,30 @@
                     return String(value || '').toLowerCase().includes(filterValue.toLowerCase());
                 }, []);
 
-            // Memoized filtering with expression support
+            // Global search function
+            const matchesGlobalSearch = React.useCallback((row) => {
+                if (!globalSearch) return true;
+                const searchTerm = globalSearch.toLowerCase();
+                
+                // Check if any field in the row contains the search term
+                return Object.values(row).some(value => {
+                    if (value === null || value === undefined) return false;
+                    return String(value).toLowerCase().includes(searchTerm);
+                });
+            }, [globalSearch]);
+            
+            // Memoized filtering with expression support and global search
             const filteredData = React.useMemo(() => {
                 return initialData.filter(row =>
+                    // Apply column filters
                     Object.entries(filters).every(([column, filterValue]) => {
                         const cellValue = row[column];
                         return evaluateExpression(cellValue, filterValue);
-                    })
+                    }) && 
+                    // Apply global search
+                    matchesGlobalSearch(row)
                 );
-            }, [filters, evaluateExpression]);
+            }, [filters, evaluateExpression, matchesGlobalSearch]);
 
             // Calculate column widths for sticky columns
             React.useEffect(() => {
@@ -517,6 +533,29 @@
                 <div className="max-w-7xl mx-auto">
                     <div className="bg-white rounded-lg shadow-lg p-6">
                         <h1 className="text-2xl font-bold text-gray-800 mb-6">{pageTitle}</h1>
+                        
+                        <div className="mb-4 flex items-center">
+                            <div className="flex-1 mr-4">
+                                <input
+                                    type="text"
+                                    placeholder="Search all data..."
+                                    className="w-full px-4 py-2 border rounded-md text-sm"
+                                    value={globalSearch}
+                                    onChange={e => {
+                                        setGlobalSearch(e.target.value);
+                                        setPage(1); // Reset to first page on search
+                                    }}
+                                />
+                            </div>
+                            {globalSearch && (
+                                <button
+                                    onClick={() => setGlobalSearch('')}
+                                    className="text-sm text-gray-600 hover:text-gray-800"
+                                >
+                                    Clear
+                                </button>
+                            )}
+                        </div>
                         
                         <Filter 
                             columns={columns}
