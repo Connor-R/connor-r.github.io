@@ -463,6 +463,7 @@ name,year,est_year_watched,genre,sub_genre,movie_length,peak,consistency,premise
 """Shrek""",2001,2004,"""animated""","""comedy""",90,30,50,40,50,40,50,50,50,50,,44.1
 """Shutter Island""",2010,2019,"""mystery""","""thriller""",138,70,60,70,60,50,70,50,40,60,,61.5
 """Silver Linings Playbook""",2012,2014,"""comedy""","""drama""",122,40,40,40,40,40,50,40,30,50,,42.2
+"""Sing Street""",2016,2025,"""music""","""comedy""",106,65,60,50,50,30,65,60,50,65,,57.2
 """Sister Act""",1992,2003,"""comedy""","""crime""",100,50,50,60,50,40,50,50,40,50,,49.5
 """Slumdog Millionaire""",2008,2009,"""drama""","""""",120,60,70,70,70,60,60,60,60,70,,64.6
 """Sonic the Hedgehog""",2020,2024,"""comedy""","""""",99,50,50,50,50,30,55,50,55,50,,48.9
