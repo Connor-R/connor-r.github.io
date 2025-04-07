@@ -409,6 +409,7 @@ year,gp,date,player_name,fname,lname,team_abb,position,salary,contract_year,expi
 2025,0,2025-04-06,Camilo Doval,Camilo,Doval,CHW,p,1.411,3rd,0,,,N,"Doval, Camilo",Active
 2025,0,2025-04-06,Brenton Doyle,Brenton,Doyle,PIT,of,0.910,2nd,0,,,N,"Doyle, Brenton",Active
 2025,0,2025-04-06,Kohl Drake,Kohl,Drake,SF,p,0.700,XXX,0,,,N,"Drake, Kohl",Reserve
+2025,0,2025-04-06,Dylan Dreiling,Dylan,Dreiling,ARI,of,0.700,XXX,0,,,N,"Dreiling, Dylan",Reserve
 2025,0,2025-04-06,Shane Drohan,Shane,Drohan,TEX,p,0.700,XXX,0,,,N,"Drohan, Shane",Reserve
 2025,0,2025-04-06,Brandon Drury,Brandon,Drury,SD,if,7.000,V,2025,,,Y,"Drury, Brandon",Active
 2025,0,2025-04-06,Mauricio Dubon,Mauricio,Dubon,MIN,if,4.500,V,2025,Yes,,Y,"Dubon, Mauricio",Active
@@ -1192,6 +1193,7 @@ year,gp,date,player_name,fname,lname,team_abb,position,salary,contract_year,expi
 2025,0,2025-04-06,Evan Phillips,Evan,Phillips,PIT,p,8.250,V,2025,,,Y,"Phillips, Evan",Active
 2025,0,2025-04-06,Pedro Pineda,Pedro,Pineda,TOR,of,0.700,XXX,0,,,N,"Pineda, Pedro",Reserve
 2025,0,2025-04-06,REne Pinto,REne,Pinto,STL,c,3.000,V,2025,Yes,,Y,"Pinto, REne",Active
+2025,0,2025-04-06,Emilien Pitre,Emilien,Pitre,ARI,if,0.700,XXX,0,,,N,"Pitre, Emilien",Reserve
 2025,0,2025-04-06,Nick Pivetta,Nick,Pivetta,TB,p,1.183,3rd,0,,,N,"Pivetta, Nick",Active
 2025,0,2025-04-06,Zach Plesac,Zach,Plesac,BOS,p,2.608,5th,0,,,Y,"Plesac, Zach",Active
 2025,0,2025-04-06,Adam Plutko,Adam,Plutko,PHI,p,0.910,2nd,0,,,N,"Plutko, Adam",Reserve
