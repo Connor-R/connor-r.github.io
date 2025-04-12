@@ -84,6 +84,7 @@ name,year,est_year_watched,genre,sub_genre,movie_length,peak,consistency,premise
 """Chasing Mavericks""",2012,2015,"""drama""","""biography""",116,40,50,40,40,30,50,40,50,40,,42.2
 """Children Who Chase Lost Voices""",2011,2017,"""animated""","""adventure""",116,80,70,80,80,50,80,50,70,70,,71.5
 """CHiPs""",2017,2018,"""comedy""","""crime""",100,50,60,30,30,30,60,60,60,40,,47.1
+"""Chongqing Hot Pot""",2016,2025,"""crime""","""thriller""",94,45,40,50,50,30,45,40,50,45,,43.5
 """City Of God""",2002,2018,"""crime""","""drama""",130,80,70,70,70,70,70,50,50,70,,69.5
 """Clerks""",1994,2013,"""comedy""","""""",92,60,60,50,60,40,60,70,70,60,,58.3
 """Clerks II""",2006,2013,"""comedy""","""""",97,40,30,50,40,40,40,60,60,40,,42.0
@@ -609,6 +610,7 @@ name,year,est_year_watched,genre,sub_genre,movie_length,peak,consistency,premise
 """This Is The End""",2013,2014,"""comedy""","""fantasy""",107,40,20,30,30,30,40,30,30,30,,31.7
 """Three Billboards Outside Ebbing Missouri""",2017,2018,"""drama""","""comedy""",115,65,40,60,50,40,50,50,50,60,,52.9
 """Tin Cup""",1996,2001,"""drama""","""comedy""",135,60,50,50,50,40,50,50,40,60,,52.0
+"""Tokyo Godfathers""",2003,2024,"""animation""","""adventure""",92,50,55,55,55,30,50,50,55,60,,51.3
 """Tongan Ninja""",2002,2010,"""comedy""","""action""",83,65,20,40,50,30,50,40,50,30,,42.0
 """Tootsie""",1982,2025,"""comedy""","""""",116,40,50,55,55,30,45,45,45,40,,44.3
 """Toy Story 1""",1995,1998,"""animated""","""adventure""",81,65,60,60,60,50,60,50,65,80,,62.4
