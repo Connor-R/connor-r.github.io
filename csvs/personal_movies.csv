@@ -26,7 +26,7 @@ name,year,est_year_watched,genre,sub_genre,movie_length,peak,consistency,premise
 """AlphaGo""",2017,2018,"""documentary""","""""",90,70,70,70,50,70,70,50,70,50,,64.1
 """Amelie""",2001,2010,"""romantic comedy""","""french""",129,60,50,50,50,30,50,40,20,50,,47.8
 """American History X""",1998,2010,"""crime""","""drama""",119,60,60,60,70,50,60,50,40,60,,58.0
-"""American Movie""",1999,2024,"""documentary""","""comedy""",107,40,50,55,45,40,50,45,55,50,,47.1
+"""American Movie""",1999,2024,"""documentary""","""comedy""",107,40,50,55,45,40,50,45,55,55,,47.8
 """An Inconvenient Truth""",2006,2006,"""documentary""","""""",96,50,50,50,50,70,60,40,40,50,,52.0
 """Anchorman: The Legend of Ron Burgundy""",2004,2008,"""comedy""","""""",94,65,65,50,40,30,60,60,55,60,,56.1
 """Angels & Demons""",2009,2011,"""mystery""","""""",138,30,40,40,30,50,30,20,20,40,,34.6
@@ -45,6 +45,7 @@ name,year,est_year_watched,genre,sub_genre,movie_length,peak,consistency,premise
 """Bad Trip""",2021,2022,"""comedy""","""""",84,60,40,50,40,30,55,55,60,40,,47.8
 """BASEketball""",1998,2005,"""comedy""","""sports""",103,75,60,70,60,40,70,70,70,70,,65.9
 """Baywatch""",2017,2018,"""comedy""","""action""",116,40,50,30,30,40,30,30,30,30,,35.9
+"""Beavis and Butt-Head Do the Universe""",2022,2025,"""comedy""","""animation""",87,55,55,55,50,30,60,55,60,55,,53.0
 """Beerfest""",2006,2009,"""comedy""","""""",110,60,60,50,50,40,60,60,50,60,,55.9
 """Beetlejuice""",2018,2019,"""broadway play""","""musical""",150,65,40,40,40,30,50,60,30,50,,47.6
 """Behind The Curve""",2018,2019,"""documentary""","""""",96,50,50,60,40,60,45,40,60,40,,48.9
@@ -64,7 +65,7 @@ name,year,est_year_watched,genre,sub_genre,movie_length,peak,consistency,premise
 """Bolt""",2008,2014,"""adventure""","""animated""",96,50,40,40,40,30,50,40,50,40,,42.7
 """Borat: Cultural Learnings of America for Make Benefit Glorius Nation of Kazakhstan""",2006,2007,"""comedy""","""mockumentary""",84,60,40,60,40,40,60,60,60,30,,49.3
 """Bottle Rocket""",1996,2012,"""comedy""","""crime""",91,60,60,60,50,40,50,60,60,50,,54.6
-"""Bottoms""",2023,2023,"""comedy""","""""",91,45,65,50,40,30,60,60,60,50,,51.0
+"""Bottoms""",2023,2023,"""comedy""","""""",91,55,65,50,40,30,60,60,60,55,,53.7
 """Bourne(1): The Bourne Identity""",2002,2003,"""action""","""thriller""",119,70,60,60,60,50,60,50,40,60,,59.3
 """Bourne(2): The Bourne Supremacy""",2004,2005,"""action""","""thriller""",108,70,60,60,60,50,60,50,50,50,,58.3
 """Bourne(3): The Bourne Ultimatum""",2007,2008,"""action""","""thriller""",115,50,60,50,50,50,50,40,40,40,,48.8
@@ -94,7 +95,7 @@ name,year,est_year_watched,genre,sub_genre,movie_length,peak,consistency,premise
 """Coach Carter""",2005,2009,"""sports""","""drama""",136,50,60,60,60,50,60,40,45,50,,53.4
 """Code 8""",2019,2020,"""action""","""drama""",98,30,40,30,30,30,30,20,30,40,,32.2
 """Concussion""",2015,2015,"""biography""","""sports""",123,60,60,70,60,70,50,40,40,50,,56.8
-"""Confess, Fletch""",2022,2024,"""comedy""","""crime""",98,65,65,55,55,30,65,70,60,65,,60.0
+"""Confess, Fletch""",2022,2024,"""comedy""","""crime""",98,65,65,60,55,30,65,70,60,65,,60.5
 """Cool Runnings""",1993,2000,"""comedy""","""sports""",98,70,70,80,70,70,80,70,70,80,,73.7
 """Crash""",2004,2008,"""crime""","""drama""",112,70,60,60,60,50,70,60,60,70,,63.7
 """D1: The Mighty Ducks""",1992,2000,"""comedy""","""sports""",100,70,60,50,50,50,70,60,70,80,,63.9
@@ -244,7 +245,7 @@ name,year,est_year_watched,genre,sub_genre,movie_length,peak,consistency,premise
 """ESPN 30 For 30 Season 4 Episode 5: Be Water""",2020,2022,"""documentary""","""sports""",97,55,55,55,50,50,55,40,40,55,,52.3
 """Everything Is Illuminated""",2005,2007,"""comedy""","""drama""",106,70,60,70,70,60,70,70,60,70,,67.1
 """Ex Machina""",2014,2018,"""drama""","""sci-fi""",108,50,40,40,40,30,30,30,40,40,,39.0
-"""Extreme Job""",2019,2024,"""comedy""","""crime""",111,60,65,70,65,30,65,65,55,60,,59.9
+"""Extreme Job""",2019,2024,"""comedy""","""crime""",111,65,65,70,65,30,70,65,60,65,,62.4
 """Fast and Furious(1)(1)-The Fast and the Furious""",2001,2008,"""action""","""""",106,60,60,50,50,40,60,50,60,75,,57.8
 """Fast and Furious(10)(10)-F9: The Fast Saga""",2021,2022,"""action""","""""",143,65,50,50,50,40,60,50,40,60,,54.1
 """Fast and Furious(11)(11)-Fast X""",2023,2023,"""action""","""""",141,60,50,50,50,30,60,40,35,55,,50.5
@@ -346,7 +347,7 @@ name,year,est_year_watched,genre,sub_genre,movie_length,peak,consistency,premise
 """Kill Bill: Vol. 2""",2004,2010,"""action""","""""",137,50,50,55,50,50,50,60,40,50,,50.7
 """Kingpin""",1996,2008,"""comedy""","""sports""",114,60,40,50,50,30,50,60,40,40,,47.3
 """Kitten Bowl-2014""",2014,2014,"""cats""","""sports""",124,70,20,40,40,50,60,40,30,50,,47.3
-"""Kneecap""",2024,2025,"""comedy""","""""",105,50,65,60,60,50,60,60,50,50,,55.9
+"""Kneecap""",2024,2025,"""comedy""","""""",105,60,65,65,60,55,65,60,50,50,,59.4
 """Knocked Up""",2007,2011,"""comedy""","""""",129,60,50,40,40,40,60,50,40,50,,50.0
 """Kung Fu Hustle""",2004,2025,"""kung fu""","""comedy""",99,40,40,50,60,30,60,55,55,50,,47.2
 """Kung Fu Panda(1)""",2008,2013,"""adventure""","""animated""",92,60,60,50,40,40,60,60,60,60,,55.6
@@ -409,7 +410,7 @@ name,year,est_year_watched,genre,sub_genre,movie_length,peak,consistency,premise
 """One Crazy Summer""",1986,2014,"""comedy""","""""",93,50,30,30,40,30,40,40,40,40,,38.5
 """One Flew Over The Cuckoos Nest""",1975,2009,"""drama""","""""",133,60,60,70,70,50,60,60,50,60,,60.2
 """Orgazmo""",1997,2011,"""comedy""","""""",94,80,60,60,50,50,70,70,60,70,,65.6
-"""Over The Garden Wall""",2014,2024,"""fantasy""","""comedy""",110,60,60,55,50,30,60,60,60,60,,55.9
+"""Over The Garden Wall""",2014,2024,"""fantasy""","""comedy""",110,60,60,55,50,30,60,65,60,65,,57.0
 """Palm Springs""",2020,2023,"""comedy""","""sci-fi""",90,65,40,50,50,30,55,50,60,50,,50.6
 """Pelotero-Ballplayer""",2011,2011,"""documentary""","""sports""",77,60,60,80,60,70,70,40,60,60,,62.7
 """People's Republic of Desire""",2018,2020,"""documentary""","""""",95,50,60,65,50,60,55,40,50,50,,53.8
@@ -603,7 +604,7 @@ name,year,est_year_watched,genre,sub_genre,movie_length,peak,consistency,premise
 """The Yellow Submarine""",1968,1998,"""music""","""animated""",85,80,70,70,60,60,70,60,70,80,,71.0
 """Theater Camp""",2023,2024,"""mockumentary""","""comedy""",92,55,55,45,40,30,60,60,55,50,,50.7
 """They Came Together""",2014,2017,"""comedy""","""""",83,30,20,30,30,20,20,30,40,20,,25.4
-"""They Cloned Tyrone""",2023,2024,"""mystery""","""sci-fi""",122,55,60,60,60,45,65,50,45,65,,57.4
+"""They Cloned Tyrone""",2023,2024,"""mystery""","""sci-fi""",122,60,60,60,60,45,65,55,50,65,,59.0
 """Thirteen Days""",2000,2005,"""history""","""drama""",145,60,70,70,50,60,60,40,40,60,,59.3
 """This Film Is Not Yet Rated""",2006,2018,"""documentary""","""""",98,70,60,75,50,75,50,50,50,50,,60.2
 """This Is Spinal Tap""",1984,2008,"""comedy""","""music""",82,80,60,75,50,40,70,70,75,70,,66.8
