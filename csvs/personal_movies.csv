@@ -612,6 +612,7 @@ name,year,est_year_watched,genre,sub_genre,movie_length,peak,consistency,premise
 """This Is The End""",2013,2014,"""comedy""","""fantasy""",107,40,20,30,30,30,40,30,30,30,,31.7
 """Three Billboards Outside Ebbing Missouri""",2017,2018,"""drama""","""comedy""",115,65,40,60,50,40,50,50,50,60,,52.9
 """Tin Cup""",1996,2001,"""drama""","""comedy""",135,60,50,50,50,40,50,50,40,60,,52.0
+"""To Live and Die in L.A.""",1985,2025,"""thriller""","""action""",116,45,40,50,40,30,50,45,40,50,,44.0
 """Tokyo Godfathers""",2003,2024,"""animation""","""adventure""",92,50,55,55,55,30,50,50,55,60,,51.3
 """Tongan Ninja""",2002,2010,"""comedy""","""action""",83,65,20,40,50,30,50,40,50,30,,42.0
 """Tootsie""",1982,2025,"""comedy""","""""",116,40,50,55,55,30,45,45,45,40,,44.3
