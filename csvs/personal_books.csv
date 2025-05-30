@@ -31,8 +31,10 @@ name,year_published,year_read,primary_author,secondary_authors,genre,sub_genre,p
 """The Big Short: Inside the Doomsday Machine""",2015,2021,"""Michael Lewis""","""""","""Economics""","""""",60,50,65,55,65,50,30,40,60,,54.8
 """The Black Swan: The Impact of the Highly Improbable""",2007,2021,"""Nassim Nicholas Taleb""","""""","""Psychology""","""""",50,40,65,,55,45,40,40,50,,48.6
 """The Extra 2%: How Wall Street Strategies Took a Major League Baseball Team from Worst to First """,2011,2013,"""Jonah Keri""","""""","""Baseball""","""Economics""",70,70,70,70,60,60,50,50,60,,63.9
+"""The Inner Game of Tennis: The Classic Guide to the Mental Side of Peak Performance""",1974,2025,"""W. Timothy Gallwey""","""""","""Psychology""","""Sports""",50,50,70,,65,60,30,55,65,,56.1
 """The Logic of Sports Betting""",2019,2022,"""Ed Miller""","""Matthew Davidow""","""Sports""","""""",50,55,60,,60,50,45,40,60,,53.6
 """The MVP Machine: How Baseball's New Nonconformists Are Using Data to Build Better Players""",2019,2019,"""Ben Lindbergh""","""Travis Sawchik""","""Baseball""","""""",80,60,70,,70,60,50,60,60,,65.5
+"""The Mythical Man-Month: Essays on Software Engineering""",1975,2025,"""Frederick P. Brooks Jr.""","""""","""Computer Science""","""""",55,45,70,,70,60,30,45,60,,55.5
 """The Only Rule Is It Has To Work: Our Wild Experiment Building a New Kind of Baseball Team""",2016,2016,"""Ben Lindbergh""","""Sam Miller""","""Baseball""","""""",50,70,60,70,55,50,60,50,70,,59.5
 """The Shift: The Next Evolution In Baseball Thinking""",2018,2020,"""Russell Carleton""","""""","""Sports""","""Pyschology""",70,60,70,,70,65,50,60,60,,64.1
 """The Signal and the Noise: Why So Many Predictions Fail - But Some Don't""",2012,2020,"""Nate Silver""","""""","""Mathematics""","""Psychology""",55,50,60,,60,50,40,40,55,,52.6
