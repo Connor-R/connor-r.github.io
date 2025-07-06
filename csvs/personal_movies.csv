@@ -35,6 +35,7 @@ name,year,est_year_watched,genre,sub_genre,movie_length,peak,consistency,premise
 """Any Given Sunday""",1999,2022,"""drama""","""sports""",162,40,60,45,50,40,55,40,30,50,,47.0
 """Anyone But You""",2023,2025,"""romantic comedy""","""""",103,40,40,40,40,30,55,50,50,45,,42.8
 """Argylle""",2024,2024,"""action""","""""",139,60,50,45,45,30,60,55,40,60,,51.7
+"""Armageddon""",1998,2025,"""action""","""sci-fi""",151,50,50,60,50,35,60,45,40,60,,51.3
 """Asteroid City""",2023,2024,"""comedy""","""""",105,40,50,45,45,30,60,55,50,45,,46.1
 """Avatar(2): The Way of Water [3D]""",2022,2022,"""action""","""fantasy""",192,60,50,50,60,30,60,40,40,40,,49.3
 """Baby Driver""",2017,2018,"""action""","""""",113,60,50,50,60,40,60,40,50,50,,52.2
