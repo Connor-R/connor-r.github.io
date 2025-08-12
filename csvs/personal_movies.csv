@@ -13,6 +13,7 @@ name,year,est_year_watched,genre,sub_genre,movie_length,peak,consistency,premise
 """61*""",2001,2005,"""biography""","""drama""",129,60,50,70,70,60,60,40,40,50,,56.3
 """A Beautiful Mind""",2001,2014,"""biography""","""drama""",140,70,60,75,75,65,70,60,50,70,,67.2
 """A Clockwork Orange""",1971,2011,"""crime""","""drama""",136,60,35,60,60,40,50,50,30,50,,49.5
+"""A Fistful of Dollars""",1964,2025,"""spaghetti western""","""""",99,40,45,50,50,30,60,40,60,60,,47.8
 """A Knight's Tale""",2001,2004,"""adventure""","""action""",132,65,65,65,65,40,65,65,40,60,,60.6
 """A League of Their Own""",1992,2020,"""sports""","""drama""",128,50,65,70,60,60,55,55,40,60,,57.8
 """A Night at the Roxbury""",1998,2020,"""comedy""","""""",82,70,60,40,40,40,65,60,60,60,,57.2
@@ -441,8 +442,10 @@ name,year,est_year_watched,genre,sub_genre,movie_length,peak,consistency,premise
 """Pulp Fiction""",1994,2007,"""drama""","""""",154,70,70,80,70,60,70,70,50,80,,70.5
 """Race""",2016,2019,"""biography""","""sports""",134,40,50,60,60,60,40,40,35,60,,49.5
 """Rain Man""",1988,2010,"""drama""","""""",133,60,60,80,80,70,70,70,50,80,,68.8
+"""Rams""",2015,2025,"""drama""","""""",93,55,60,55,55,30,55,40,45,50,,51.0
 """Ready Player One""",2018,2018,"""action""","""sci-fi""",140,60,40,50,50,50,40,40,30,30,,44.6
 """Real Genius""",1985,2008,"""comedy""","""sci-fi""",108,70,70,60,70,60,70,70,60,70,,67.6
+"""Red Rooms""",2023,2025,"""psychological horror""","""crime""",118,65,65,60,65,30,65,30,45,55,-10,46.1
 """Remember the Titans""",2000,2005,"""biography""","""sports""",113,60,70,70,70,70,70,70,60,60,,66.1
 """Requiem For a Dream""",2000,2010,"""drama""","""""",102,70,70,70,80,70,70,60,60,70,,69.5
 """Reservoir Dogs""",1992,2014,"""crime""","""drama""",99,65,65,70,70,60,60,50,60,70,,64.1
