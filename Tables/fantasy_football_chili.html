@@ -1,0 +1,638 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>fantasy_football_chili</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/react/18.2.0/umd/react.production.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/react-dom/18.2.0/umd/react-dom.production.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/babel-standalone/7.23.5/babel.min.js"></script>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        .truncate-text {
+            color: #2563eb;
+            cursor: pointer;
+            text-decoration: underline;
+        }
+        .text-modal {
+            position: fixed;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background: rgba(0, 0, 0, 0.5);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            z-index: 1000;
+        }
+        .modal-content {
+            background: white;
+            padding: 20px;
+            border-radius: 8px;
+            max-width: 80%;
+            max-height: 80vh;
+            overflow-y: auto;
+        }
+        .close-button {
+            position: absolute;
+            top: 10px;
+            right: 10px;
+            border: none;
+            background: none;
+            font-size: 20px;
+            cursor: pointer;
+        }
+        .virtual-table {
+            height: 600px;
+            overflow-y: auto;
+        }
+        .overflow-x-auto {
+            overflow-x: auto;
+            max-height: 80vh; /* Limit height and enable scrolling */
+            position: relative; /* Required for sticky positioning context */
+        }
+        /* Sticky column styles */
+        .sticky-column {
+            position: sticky;
+            left: 0;
+            z-index: 15;
+            background-color: white;
+            box-shadow: 2px 0 5px -2px rgba(0,0,0,0.1);
+        }
+        /* Multiple sticky columns */
+        .sticky-column-0 { left: 0; z-index: 20; }
+        .sticky-column-1 { left: var(--sticky-width-0, 150px); z-index: 19; }
+        .sticky-column-2 { left: calc(var(--sticky-width-0, 150px) + var(--sticky-width-1, 150px)); z-index: 18; }
+        .sticky-column-3 { left: calc(var(--sticky-width-0, 150px) + var(--sticky-width-1, 150px) + var(--sticky-width-2, 150px)); z-index: 17; }
+        /* Intersection of sticky row and column */
+        th.sticky-column {
+            z-index: 30;
+            background-color: #f9fafb;
+        }
+        /* Sticky header styles */
+        thead {
+            position: sticky;
+            top: 0;
+            z-index: 10;
+            background-color: #f9fafb; /* bg-gray-50 */
+        }
+        th {
+            position: sticky;
+            top: 0;
+            z-index: 10;
+            background-color: #f9fafb; /* bg-gray-50 */
+            box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.05);
+        }
+    </style>
+</head>
+<body class="bg-gray-100 p-8">
+    <div id="root"></div>
+
+    <script type="text/babel">
+        // Configuration
+        const initialData = [{"year": "Total", "owner": "Erik Bagley", "finish": 3.7, "pick": 8.3, "W": 8.7, "L": 5.3, "W%": 0.619, "PF": 1578.6, "PA": 1479.9, "PF_PLUS": 101.5, "PA_PLUS": 95.4, "avg_PF/G": 112.8, "xPA": 4669.1, "PA_DIFF": -229.5, "seasons": "3 (2022 - 2024)", "std_finish": 2.5, "std_PF+": 6.8, "std_PA+": 6.9, "total_W": 26.0, "total_L": 16.0, "total_PF": 4735.82, "total_PA": 4439.58, "Playoffs": 2.0, "Podiums": 2.0, "Titles": 1.0, "Sackos": 0.0, "Details": "#1 (2024, pick #12, 11-3, 105 PF+) \n\n #7 (2023, pick #8, 5-9, 92 PF+) \n\n #3 (2022, pick #5, 10-4, 107 PF+)"}, {"year": "Total", "owner": "Kyle McReynolds", "finish": 4.3, "pick": 4.7, "W": 7.7, "L": 6.3, "W%": 0.548, "PF": 1642.3, "PA": 1557.3, "PF_PLUS": 105.7, "PA_PLUS": 100.6, "avg_PF/G": 117.3, "xPA": 4651.7, "PA_DIFF": 20.4, "seasons": "3 (2022 - 2024)", "std_finish": 1.7, "std_PF+": 6.5, "std_PA+": 4.0, "total_W": 23.0, "total_L": 19.0, "total_PF": 4926.76, "total_PA": 4672.04, "Playoffs": 3.0, "Podiums": 1.0, "Titles": 0.0, "Sackos": 0.0, "Details": "#2 (2024, pick #4, 8-6, 106 PF+) \n\n #6 (2023, pick #9, 8-6, 98 PF+) \n\n #5 (2022, pick #1, 7-7, 113 PF+)"}, {"year": "Total", "owner": "Bryan Jones", "finish": 5.0, "pick": 4.0, "W": 9.3, "L": 4.7, "W%": 0.667, "PF": 1652.7, "PA": 1580.7, "PF_PLUS": 106.1, "PA_PLUS": 102.2, "avg_PF/G": 118.0, "xPA": 4648.9, "PA_DIFF": 93.2, "seasons": "3 (2022 - 2024)", "std_finish": 1.4, "std_PF+": 3.3, "std_PA+": 4.3, "total_W": 28.0, "total_L": 14.0, "total_PF": 4957.96, "total_PA": 4742.12, "Playoffs": 3.0, "Podiums": 1.0, "Titles": 0.0, "Sackos": 0.0, "Details": "#6 (2024, pick #5, 10-4, 102 PF+) \n\n #3 (2023, pick #4, 11-3, 109 PF+) \n\n #6 (2022, pick #3, 7-7, 107 PF+)"}, {"year": "Total", "owner": "Scott Dreier", "finish": 5.0, "pick": 9.3, "W": 6.0, "L": 8.0, "W%": 0.429, "PF": 1513.0, "PA": 1590.1, "PF_PLUS": 97.1, "PA_PLUS": 101.3, "avg_PF/G": 108.1, "xPA": 4687.0, "PA_DIFF": 83.4, "seasons": "3 (2022 - 2024)", "std_finish": 2.4, "std_PF+": 7.3, "std_PA+": 7.3, "total_W": 18.0, "total_L": 24.0, "total_PF": 4538.98, "total_PA": 4770.36, "Playoffs": 2.0, "Podiums": 1.0, "Titles": 0.0, "Sackos": 0.0, "Details": "#8 (2024, pick #9, 2-12, 88 PF+) \n\n #5 (2023, pick #7, 7-7, 106 PF+) \n\n #2 (2022, pick #12, 9-5, 97 PF+)"}, {"year": "Total", "owner": "Connor Reed", "finish": 5.7, "pick": 4.0, "W": 8.7, "L": 5.3, "W%": 0.619, "PF": 1616.3, "PA": 1531.6, "PF_PLUS": 103.9, "PA_PLUS": 98.7, "avg_PF/G": 115.5, "xPA": 4658.9, "PA_DIFF": -64.2, "seasons": "3 (2022 - 2024)", "std_finish": 2.4, "std_PF+": 8.0, "std_PA+": 1.1, "total_W": 26.0, "total_L": 16.0, "total_PF": 4849.02, "total_PA": 4594.78, "Playoffs": 2.0, "Podiums": 0.0, "Titles": 0.0, "Sackos": 0.0, "Details": "#4 (2024, pick #7, 10-4, 109 PF+) \n\n #9 (2023, pick #1, 7-7, 93 PF+) \n\n #4 (2022, pick #4, 9-5, 110 PF+)"}, {"year": "Total", "owner": "Erik Foster", "finish": 6.0, "pick": 8.0, "W": 6.7, "L": 7.3, "W%": 0.476, "PF": 1636.7, "PA": 1559.7, "PF_PLUS": 104.8, "PA_PLUS": 100.3, "avg_PF/G": 116.9, "xPA": 4653.3, "PA_DIFF": 25.8, "seasons": "3 (2022 - 2024)", "std_finish": 3.6, "std_PF+": 9.9, "std_PA+": 5.4, "total_W": 20.0, "total_L": 22.0, "total_PF": 4909.96, "total_PA": 4679.14, "Playoffs": 1.0, "Podiums": 1.0, "Titles": 1.0, "Sackos": 0.0, "Details": "#9 (2024, pick #3, 3-11, 98 PF+) \n\n #1 (2023, pick #10, 10-4, 119 PF+) \n\n #8 (2022, pick #11, 7-7, 98 PF+)"}, {"year": "Total", "owner": "Russell Smith", "finish": 6.3, "pick": 3.7, "W": 7.0, "L": 7.0, "W%": 0.5, "PF": 1585.7, "PA": 1580.1, "PF_PLUS": 102.3, "PA_PLUS": 101.5, "avg_PF/G": 113.3, "xPA": 4667.2, "PA_DIFF": 73.1, "seasons": "3 (2022 - 2024)", "std_finish": 3.9, "std_PF+": 8.7, "std_PA+": 0.8, "total_W": 21.0, "total_L": 21.0, "total_PF": 4757.0, "total_PA": 4740.28, "Playoffs": 1.0, "Podiums": 1.0, "Titles": 1.0, "Sackos": 0.0, "Details": "#10 (2024, pick #2, 5-9, 94 PF+) \n\n #8 (2023, pick #3, 7-7, 99 PF+) \n\n #1 (2022, pick #6, 9-5, 114 PF+)"}, {"year": "Total", "owner": "Daniel Bolanos", "finish": 7.0, "pick": 7.7, "W": 8.0, "L": 6.0, "W%": 0.571, "PF": 1578.1, "PA": 1482.4, "PF_PLUS": 101.2, "PA_PLUS": 95.4, "avg_PF/G": 112.7, "xPA": 4669.3, "PA_DIFF": -222.1, "seasons": "3 (2022 - 2024)", "std_finish": 4.1, "std_PF+": 2.2, "std_PA+": 2.0, "total_W": 24.0, "total_L": 18.0, "total_PF": 4734.42, "total_PA": 4447.2, "Playoffs": 1.0, "Podiums": 1.0, "Titles": 0.0, "Sackos": 1.0, "Details": "#12 (2024, pick #8, 8-6, 101 PF+) \n\n #2 (2023, pick #5, 9-5, 104 PF+) \n\n #7 (2022, pick #10, 7-7, 99 PF+)"}, {"year": "Total", "owner": "Ben Lalor", "finish": 8.0, "pick": 8.7, "W": 5.7, "L": 8.3, "W%": 0.405, "PF": 1432.7, "PA": 1582.6, "PF_PLUS": 91.8, "PA_PLUS": 100.9, "avg_PF/G": 102.3, "xPA": 4708.9, "PA_DIFF": 38.9, "seasons": "3 (2022 - 2024)", "std_finish": 2.2, "std_PF+": 6.5, "std_PA+": 4.3, "total_W": 17.0, "total_L": 25.0, "total_PF": 4298.04, "total_PA": 4747.72, "Playoffs": 1.0, "Podiums": 0.0, "Titles": 0.0, "Sackos": 0.0, "Details": "#5 (2024, pick #11, 9-5, 100 PF+) \n\n #10 (2023, pick #6, 2-12, 85 PF+) \n\n #9 (2022, pick #9, 6-8, 90 PF+)"}, {"year": "Total", "owner": "Scott Masik", "finish": 8.3, "pick": 9.0, "W": 7.0, "L": 7.0, "W%": 0.5, "PF": 1535.9, "PA": 1550.7, "PF_PLUS": 98.3, "PA_PLUS": 99.5, "avg_PF/G": 109.7, "xPA": 4680.8, "PA_DIFF": -28.8, "seasons": "3 (2022 - 2024)", "std_finish": 3.9, "std_PF+": 5.1, "std_PA+": 5.5, "total_W": 21.0, "total_L": 21.0, "total_PF": 4607.72, "total_PA": 4652.02, "Playoffs": 1.0, "Podiums": 1.0, "Titles": 0.0, "Sackos": 1.0, "Details": "#3 (2024, pick #6, 9-5, 105 PF+) \n\n #12 (2023, pick #11, 6-8, 96 PF+) \n\n #10 (2022, pick #10, 6-8, 93 PF+)"}, {"year": "Total", "owner": "Troy Kato", "finish": 8.7, "pick": 6.7, "W": 5.3, "L": 8.7, "W%": 0.381, "PF": 1457.5, "PA": 1565.1, "PF_PLUS": 93.1, "PA_PLUS": 99.7, "avg_PF/G": 104.1, "xPA": 4702.2, "PA_DIFF": -7.0, "seasons": "3 (2022 - 2024)", "std_finish": 3.3, "std_PF+": 9.3, "std_PA+": 4.5, "total_W": 16.0, "total_L": 26.0, "total_PF": 4372.46, "total_PA": 4695.2, "Playoffs": 1.0, "Podiums": 0.0, "Titles": 0.0, "Sackos": 0.0, "Details": "#11 (2024, pick #10, 4-10, 94 PF+) \n\n #4 (2023, pick #2, 9-5, 104 PF+) \n\n #11 (2022, pick #8, 3-11, 81 PF+)"}, {"year": "Total", "owner": "Chris Bolanos", "finish": 10.0, "pick": 6.7, "W": 4.0, "L": 10.0, "W%": 0.286, "PF": 1469.3, "PA": 1638.6, "PF_PLUS": 94.1, "PA_PLUS": 104.5, "avg_PF/G": 105.0, "xPA": 4698.9, "PA_DIFF": 216.8, "seasons": "3 (2022 - 2024)", "std_finish": 2.2, "std_PF+": 3.6, "std_PA+": 2.9, "total_W": 12.0, "total_L": 30.0, "total_PF": 4407.96, "total_PA": 4915.66, "Playoffs": 0.0, "Podiums": 0.0, "Titles": 0.0, "Sackos": 1.0, "Details": "#7 (2024, pick #1, 5-9, 98 PF+) \n\n #11 (2023, pick #12, 3-11, 95 PF+) \n\n #12 (2022, pick #7, 4-10, 89 PF+)"}, {"year": "2024", "owner": "Erik Bagley", "finish": 1.0, "pick": 12.0, "W": 11.0, "L": 3.0, "W%": 0.786, "PF": 1720.04, "PA": 1396.62, "PF_PLUS": 105.2, "PA_PLUS": 85.8, "avg_PF/G": 122.9, "xPA": 1627.9, "PA_DIFF": -231.3, "seasons": "", "std_finish": "", "std_PF+": "", "std_PA+": "", "total_W": "", "total_L": "", "total_PF": "", "total_PA": "", "Playoffs": "", "Podiums": "", "Titles": "", "Sackos": "", "Details": ""}, {"year": "2024", "owner": "Kyle McReynolds", "finish": 2.0, "pick": 4.0, "W": 8.0, "L": 6.0, "W%": 0.571, "PF": 1736.42, "PA": 1641.38, "PF_PLUS": 106.2, "PA_PLUS": 100.9, "avg_PF/G": 124.0, "xPA": 1626.4, "PA_DIFF": 15.0, "seasons": "", "std_finish": "", "std_PF+": "", "std_PA+": "", "total_W": "", "total_L": "", "total_PF": "", "total_PA": "", "Playoffs": "", "Podiums": "", "Titles": "", "Sackos": "", "Details": ""}, {"year": "2024", "owner": "Scott Masik", "finish": 3.0, "pick": 6.0, "W": 9.0, "L": 5.0, "W%": 0.643, "PF": 1723.92, "PA": 1494.92, "PF_PLUS": 105.4, "PA_PLUS": 91.8, "avg_PF/G": 123.1, "xPA": 1627.6, "PA_DIFF": -132.7, "seasons": "", "std_finish": "", "std_PF+": "", "std_PA+": "", "total_W": "", "total_L": "", "total_PF": "", "total_PA": "", "Playoffs": "", "Podiums": "", "Titles": "", "Sackos": "", "Details": ""}, {"year": "2024", "owner": "Connor Reed", "finish": 4.0, "pick": 7.0, "W": 10.0, "L": 4.0, "W%": 0.714, "PF": 1781.68, "PA": 1584.42, "PF_PLUS": 108.9, "PA_PLUS": 97.7, "avg_PF/G": 127.3, "xPA": 1622.3, "PA_DIFF": -37.9, "seasons": "", "std_finish": "", "std_PF+": "", "std_PA+": "", "total_W": "", "total_L": "", "total_PF": "", "total_PA": "", "Playoffs": "", "Podiums": "", "Titles": "", "Sackos": "", "Details": ""}, {"year": "2024", "owner": "Ben Lalor", "finish": 5.0, "pick": 11.0, "W": 9.0, "L": 5.0, "W%": 0.643, "PF": 1643.08, "PA": 1554.16, "PF_PLUS": 100.5, "PA_PLUS": 95.1, "avg_PF/G": 117.4, "xPA": 1634.9, "PA_DIFF": -80.7, "seasons": "", "std_finish": "", "std_PF+": "", "std_PA+": "", "total_W": "", "total_L": "", "total_PF": "", "total_PA": "", "Playoffs": "", "Podiums": "", "Titles": "", "Sackos": "", "Details": ""}, {"year": "2024", "owner": "Bryan Jones", "finish": 6.0, "pick": 5.0, "W": 10.0, "L": 4.0, "W%": 0.714, "PF": 1661.88, "PA": 1684.54, "PF_PLUS": 101.6, "PA_PLUS": 103.1, "avg_PF/G": 118.7, "xPA": 1633.2, "PA_DIFF": 51.3, "seasons": "", "std_finish": "", "std_PF+": "", "std_PA+": "", "total_W": "", "total_L": "", "total_PF": "", "total_PA": "", "Playoffs": "", "Podiums": "", "Titles": "", "Sackos": "", "Details": ""}, {"year": "2024", "owner": "Chris Bolanos", "finish": 7.0, "pick": 1.0, "W": 5.0, "L": 9.0, "W%": 0.357, "PF": 1602.16, "PA": 1727.16, "PF_PLUS": 98.0, "PA_PLUS": 105.4, "avg_PF/G": 114.4, "xPA": 1638.6, "PA_DIFF": 88.6, "seasons": "", "std_finish": "", "std_PF+": "", "std_PA+": "", "total_W": "", "total_L": "", "total_PF": "", "total_PA": "", "Playoffs": "", "Podiums": "", "Titles": "", "Sackos": "", "Details": ""}, {"year": "2024", "owner": "Scott Dreier", "finish": 8.0, "pick": 9.0, "W": 2.0, "L": 12.0, "W%": 0.143, "PF": 1446.14, "PA": 1797.32, "PF_PLUS": 88.4, "PA_PLUS": 108.7, "avg_PF/G": 103.3, "xPA": 1652.8, "PA_DIFF": 144.5, "seasons": "", "std_finish": "", "std_PF+": "", "std_PA+": "", "total_W": "", "total_L": "", "total_PF": "", "total_PA": "", "Playoffs": "", "Podiums": "", "Titles": "", "Sackos": "", "Details": ""}, {"year": "2024", "owner": "Erik Foster", "finish": 9.0, "pick": 3.0, "W": 3.0, "L": 11.0, "W%": 0.214, "PF": 1600.28, "PA": 1761.82, "PF_PLUS": 97.8, "PA_PLUS": 107.5, "avg_PF/G": 114.3, "xPA": 1638.8, "PA_DIFF": 123.0, "seasons": "", "std_finish": "", "std_PF+": "", "std_PA+": "", "total_W": "", "total_L": "", "total_PF": "", "total_PA": "", "Playoffs": "", "Podiums": "", "Titles": "", "Sackos": "", "Details": ""}, {"year": "2024", "owner": "Russell Smith", "finish": 10.0, "pick": 2.0, "W": 5.0, "L": 9.0, "W%": 0.357, "PF": 1531.34, "PA": 1684.74, "PF_PLUS": 93.6, "PA_PLUS": 102.4, "avg_PF/G": 109.4, "xPA": 1645.1, "PA_DIFF": 39.6, "seasons": "", "std_finish": "", "std_PF+": "", "std_PA+": "", "total_W": "", "total_L": "", "total_PF": "", "total_PA": "", "Playoffs": "", "Podiums": "", "Titles": "", "Sackos": "", "Details": ""}, {"year": "2024", "owner": "Troy Kato", "finish": 11.0, "pick": 10.0, "W": 4.0, "L": 10.0, "W%": 0.286, "PF": 1532.44, "PA": 1744.4, "PF_PLUS": 93.7, "PA_PLUS": 106.0, "avg_PF/G": 109.5, "xPA": 1645.0, "PA_DIFF": 99.4, "seasons": "", "std_finish": "", "std_PF+": "", "std_PA+": "", "total_W": "", "total_L": "", "total_PF": "", "total_PA": "", "Playoffs": "", "Podiums": "", "Titles": "", "Sackos": "", "Details": ""}, {"year": "2024", "owner": "Daniel Bolanos", "finish": 12.0, "pick": 8.0, "W": 8.0, "L": 6.0, "W%": 0.571, "PF": 1647.8, "PA": 1555.7, "PF_PLUS": 100.7, "PA_PLUS": 95.2, "avg_PF/G": 117.7, "xPA": 1634.5, "PA_DIFF": -78.8, "seasons": "", "std_finish": "", "std_PF+": "", "std_PA+": "", "total_W": "", "total_L": "", "total_PF": "", "total_PA": "", "Playoffs": "", "Podiums": "", "Titles": "", "Sackos": "", "Details": ""}, {"year": "2023", "owner": "Erik Foster", "finish": 1.0, "pick": 10.0, "W": 10.0, "L": 4.0, "W%": 0.714, "PF": 1913.82, "PA": 1564.72, "PF_PLUS": 118.8, "PA_PLUS": 98.8, "avg_PF/G": 136.7, "xPA": 1583.2, "PA_DIFF": -18.5, "seasons": "", "std_finish": "", "std_PF+": "", "std_PA+": "", "total_W": "", "total_L": "", "total_PF": "", "total_PA": "", "Playoffs": "", "Podiums": "", "Titles": "", "Sackos": "", "Details": ""}, {"year": "2023", "owner": "Daniel Bolanos", "finish": 2.0, "pick": 5.0, "W": 9.0, "L": 5.0, "W%": 0.643, "PF": 1676.5, "PA": 1492.12, "PF_PLUS": 104.1, "PA_PLUS": 93.0, "avg_PF/G": 119.8, "xPA": 1604.8, "PA_DIFF": -112.7, "seasons": "", "std_finish": "", "std_PF+": "", "std_PA+": "", "total_W": "", "total_L": "", "total_PF": "", "total_PA": "", "Playoffs": "", "Podiums": "", "Titles": "", "Sackos": "", "Details": ""}, {"year": "2023", "owner": "Bryan Jones", "finish": 3.0, "pick": 4.0, "W": 11.0, "L": 3.0, "W%": 0.786, "PF": 1762.14, "PA": 1540.38, "PF_PLUS": 109.4, "PA_PLUS": 96.5, "avg_PF/G": 125.9, "xPA": 1597.0, "PA_DIFF": -56.6, "seasons": "", "std_finish": "", "std_PF+": "", "std_PA+": "", "total_W": "", "total_L": "", "total_PF": "", "total_PA": "", "Playoffs": "", "Podiums": "", "Titles": "", "Sackos": "", "Details": ""}, {"year": "2023", "owner": "Troy Kato", "finish": 4.0, "pick": 2.0, "W": 9.0, "L": 5.0, "W%": 0.643, "PF": 1677.64, "PA": 1559.84, "PF_PLUS": 104.2, "PA_PLUS": 97.2, "avg_PF/G": 119.8, "xPA": 1604.7, "PA_DIFF": -44.9, "seasons": "", "std_finish": "", "std_PF+": "", "std_PA+": "", "total_W": "", "total_L": "", "total_PF": "", "total_PA": "", "Playoffs": "", "Podiums": "", "Titles": "", "Sackos": "", "Details": ""}, {"year": "2023", "owner": "Scott Dreier", "finish": 5.0, "pick": 7.0, "W": 7.0, "L": 7.0, "W%": 0.5, "PF": 1710.46, "PA": 1664.58, "PF_PLUS": 106.2, "PA_PLUS": 103.9, "avg_PF/G": 122.2, "xPA": 1601.7, "PA_DIFF": 62.9, "seasons": "", "std_finish": "", "std_PF+": "", "std_PA+": "", "total_W": "", "total_L": "", "total_PF": "", "total_PA": "", "Playoffs": "", "Podiums": "", "Titles": "", "Sackos": "", "Details": ""}, {"year": "2023", "owner": "Kyle McReynolds", "finish": 6.0, "pick": 9.0, "W": 8.0, "L": 6.0, "W%": 0.571, "PF": 1570.56, "PA": 1543.38, "PF_PLUS": 97.5, "PA_PLUS": 95.6, "avg_PF/G": 112.2, "xPA": 1614.4, "PA_DIFF": -71.0, "seasons": "", "std_finish": "", "std_PF+": "", "std_PA+": "", "total_W": "", "total_L": "", "total_PF": "", "total_PA": "", "Playoffs": "", "Podiums": "", "Titles": "", "Sackos": "", "Details": ""}, {"year": "2023", "owner": "Erik Bagley", "finish": 7.0, "pick": 8.0, "W": 5.0, "L": 9.0, "W%": 0.357, "PF": 1482.6, "PA": 1597.48, "PF_PLUS": 92.0, "PA_PLUS": 98.5, "avg_PF/G": 105.9, "xPA": 1622.4, "PA_DIFF": -24.9, "seasons": "", "std_finish": "", "std_PF+": "", "std_PA+": "", "total_W": "", "total_L": "", "total_PF": "", "total_PA": "", "Playoffs": "", "Podiums": "", "Titles": "", "Sackos": "", "Details": ""}, {"year": "2023", "owner": "Russell Smith", "finish": 8.0, "pick": 3.0, "W": 7.0, "L": 7.0, "W%": 0.5, "PF": 1595.58, "PA": 1639.88, "PF_PLUS": 99.1, "PA_PLUS": 101.7, "avg_PF/G": 114.0, "xPA": 1612.1, "PA_DIFF": 27.8, "seasons": "", "std_finish": "", "std_PF+": "", "std_PA+": "", "total_W": "", "total_L": "", "total_PF": "", "total_PA": "", "Playoffs": "", "Podiums": "", "Titles": "", "Sackos": "", "Details": ""}, {"year": "2023", "owner": "Connor Reed", "finish": 9.0, "pick": 1.0, "W": 7.0, "L": 7.0, "W%": 0.5, "PF": 1491.82, "PA": 1590.52, "PF_PLUS": 92.6, "PA_PLUS": 98.1, "avg_PF/G": 106.6, "xPA": 1621.6, "PA_DIFF": -31.1, "seasons": "", "std_finish": "", "std_PF+": "", "std_PA+": "", "total_W": "", "total_L": "", "total_PF": "", "total_PA": "", "Playoffs": "", "Podiums": "", "Titles": "", "Sackos": "", "Details": ""}, {"year": "2023", "owner": "Ben Lalor", "finish": 10.0, "pick": 6.0, "W": 2.0, "L": 12.0, "W%": 0.143, "PF": 1367.38, "PA": 1724.86, "PF_PLUS": 84.9, "PA_PLUS": 105.6, "avg_PF/G": 97.7, "xPA": 1632.9, "PA_DIFF": 92.0, "seasons": "", "std_finish": "", "std_PF+": "", "std_PA+": "", "total_W": "", "total_L": "", "total_PF": "", "total_PA": "", "Playoffs": "", "Podiums": "", "Titles": "", "Sackos": "", "Details": ""}, {"year": "2023", "owner": "Chris Bolanos", "finish": 11.0, "pick": 12.0, "W": 3.0, "L": 11.0, "W%": 0.214, "PF": 1529.92, "PA": 1738.16, "PF_PLUS": 95.0, "PA_PLUS": 107.4, "avg_PF/G": 109.3, "xPA": 1618.1, "PA_DIFF": 120.1, "seasons": "", "std_finish": "", "std_PF+": "", "std_PA+": "", "total_W": "", "total_L": "", "total_PF": "", "total_PA": "", "Playoffs": "", "Podiums": "", "Titles": "", "Sackos": "", "Details": ""}, {"year": "2023", "owner": "Scott Masik", "finish": 12.0, "pick": 11.0, "W": 6.0, "L": 8.0, "W%": 0.429, "PF": 1550.5, "PA": 1673.0, "PF_PLUS": 96.3, "PA_PLUS": 103.5, "avg_PF/G": 110.8, "xPA": 1616.2, "PA_DIFF": 56.8, "seasons": "", "std_finish": "", "std_PF+": "", "std_PA+": "", "total_W": "", "total_L": "", "total_PF": "", "total_PA": "", "Playoffs": "", "Podiums": "", "Titles": "", "Sackos": "", "Details": ""}, {"year": "2022", "owner": "Russell Smith", "finish": 1.0, "pick": 6.0, "W": 9.0, "L": 5.0, "W%": 0.643, "PF": 1630.08, "PA": 1415.66, "PF_PLUS": 114.1, "PA_PLUS": 100.4, "avg_PF/G": 116.4, "xPA": 1410.0, "PA_DIFF": 5.7, "seasons": "", "std_finish": "", "std_PF+": "", "std_PA+": "", "total_W": "", "total_L": "", "total_PF": "", "total_PA": "", "Playoffs": "", "Podiums": "", "Titles": "", "Sackos": "", "Details": ""}, {"year": "2022", "owner": "Scott Dreier", "finish": 2.0, "pick": 12.0, "W": 9.0, "L": 5.0, "W%": 0.643, "PF": 1382.38, "PA": 1308.46, "PF_PLUS": 96.8, "PA_PLUS": 91.3, "avg_PF/G": 98.7, "xPA": 1432.5, "PA_DIFF": -124.0, "seasons": "", "std_finish": "", "std_PF+": "", "std_PA+": "", "total_W": "", "total_L": "", "total_PF": "", "total_PA": "", "Playoffs": "", "Podiums": "", "Titles": "", "Sackos": "", "Details": ""}, {"year": "2022", "owner": "Erik Bagley", "finish": 3.0, "pick": 5.0, "W": 10.0, "L": 4.0, "W%": 0.714, "PF": 1533.18, "PA": 1445.48, "PF_PLUS": 107.3, "PA_PLUS": 101.9, "avg_PF/G": 109.5, "xPA": 1418.8, "PA_DIFF": 26.7, "seasons": "", "std_finish": "", "std_PF+": "", "std_PA+": "", "total_W": "", "total_L": "", "total_PF": "", "total_PA": "", "Playoffs": "", "Podiums": "", "Titles": "", "Sackos": "", "Details": ""}, {"year": "2022", "owner": "Connor Reed", "finish": 4.0, "pick": 4.0, "W": 9.0, "L": 5.0, "W%": 0.643, "PF": 1575.52, "PA": 1419.84, "PF_PLUS": 110.3, "PA_PLUS": 100.3, "avg_PF/G": 112.5, "xPA": 1415.0, "PA_DIFF": 4.8, "seasons": "", "std_finish": "", "std_PF+": "", "std_PA+": "", "total_W": "", "total_L": "", "total_PF": "", "total_PA": "", "Playoffs": "", "Podiums": "", "Titles": "", "Sackos": "", "Details": ""}, {"year": "2022", "owner": "Kyle McReynolds", "finish": 5.0, "pick": 1.0, "W": 7.0, "L": 7.0, "W%": 0.5, "PF": 1619.78, "PA": 1487.28, "PF_PLUS": 113.4, "PA_PLUS": 105.4, "avg_PF/G": 115.7, "xPA": 1410.9, "PA_DIFF": 76.4, "seasons": "", "std_finish": "", "std_PF+": "", "std_PA+": "", "total_W": "", "total_L": "", "total_PF": "", "total_PA": "", "Playoffs": "", "Podiums": "", "Titles": "", "Sackos": "", "Details": ""}, {"year": "2022", "owner": "Bryan Jones", "finish": 6.0, "pick": 3.0, "W": 7.0, "L": 7.0, "W%": 0.5, "PF": 1533.94, "PA": 1517.2, "PF_PLUS": 107.4, "PA_PLUS": 106.9, "avg_PF/G": 109.6, "xPA": 1418.7, "PA_DIFF": 98.5, "seasons": "", "std_finish": "", "std_PF+": "", "std_PA+": "", "total_W": "", "total_L": "", "total_PF": "", "total_PA": "", "Playoffs": "", "Podiums": "", "Titles": "", "Sackos": "", "Details": ""}, {"year": "2022", "owner": "Daniel Bolanos", "finish": 7.0, "pick": 10.0, "W": 7.0, "L": 7.0, "W%": 0.5, "PF": 1410.12, "PA": 1399.38, "PF_PLUS": 98.7, "PA_PLUS": 97.9, "avg_PF/G": 100.7, "xPA": 1430.0, "PA_DIFF": -30.6, "seasons": "", "std_finish": "", "std_PF+": "", "std_PA+": "", "total_W": "", "total_L": "", "total_PF": "", "total_PA": "", "Playoffs": "", "Podiums": "", "Titles": "", "Sackos": "", "Details": ""}, {"year": "2022", "owner": "Erik Foster", "finish": 8.0, "pick": 11.0, "W": 7.0, "L": 7.0, "W%": 0.5, "PF": 1395.86, "PA": 1352.6, "PF_PLUS": 97.7, "PA_PLUS": 94.5, "avg_PF/G": 99.7, "xPA": 1431.3, "PA_DIFF": -78.7, "seasons": "", "std_finish": "", "std_PF+": "", "std_PA+": "", "total_W": "", "total_L": "", "total_PF": "", "total_PA": "", "Playoffs": "", "Podiums": "", "Titles": "", "Sackos": "", "Details": ""}, {"year": "2022", "owner": "Ben Lalor", "finish": 9.0, "pick": 9.0, "W": 6.0, "L": 8.0, "W%": 0.429, "PF": 1287.58, "PA": 1468.7, "PF_PLUS": 90.1, "PA_PLUS": 101.9, "avg_PF/G": 92.0, "xPA": 1441.1, "PA_DIFF": 27.6, "seasons": "", "std_finish": "", "std_PF+": "", "std_PA+": "", "total_W": "", "total_L": "", "total_PF": "", "total_PA": "", "Playoffs": "", "Podiums": "", "Titles": "", "Sackos": "", "Details": ""}, {"year": "2022", "owner": "Scott Masik", "finish": 10.0, "pick": 10.0, "W": 6.0, "L": 8.0, "W%": 0.429, "PF": 1333.3, "PA": 1484.1, "PF_PLUS": 93.3, "PA_PLUS": 103.3, "avg_PF/G": 95.2, "xPA": 1437.0, "PA_DIFF": 47.1, "seasons": "", "std_finish": "", "std_PF+": "", "std_PA+": "", "total_W": "", "total_L": "", "total_PF": "", "total_PA": "", "Playoffs": "", "Podiums": "", "Titles": "", "Sackos": "", "Details": ""}, {"year": "2022", "owner": "Troy Kato", "finish": 11.0, "pick": 8.0, "W": 3.0, "L": 11.0, "W%": 0.214, "PF": 1162.38, "PA": 1390.96, "PF_PLUS": 81.4, "PA_PLUS": 95.8, "avg_PF/G": 83.0, "xPA": 1452.5, "PA_DIFF": -61.5, "seasons": "", "std_finish": "", "std_PF+": "", "std_PA+": "", "total_W": "", "total_L": "", "total_PF": "", "total_PA": "", "Playoffs": "", "Podiums": "", "Titles": "", "Sackos": "", "Details": ""}, {"year": "2022", "owner": "Chris Bolanos", "finish": 12.0, "pick": 7.0, "W": 4.0, "L": 10.0, "W%": 0.286, "PF": 1275.88, "PA": 1450.34, "PF_PLUS": 89.3, "PA_PLUS": 100.6, "avg_PF/G": 91.1, "xPA": 1442.2, "PA_DIFF": 8.1, "seasons": "", "std_finish": "", "std_PF+": "", "std_PA+": "", "total_W": "", "total_L": "", "total_PF": "", "total_PA": "", "Playoffs": "", "Podiums": "", "Titles": "", "Sackos": "", "Details": ""}];
+        const pageTitle = "fantasy_football_chili";
+        const longTextColumns = ["Details"];
+        const maxTextLength = 50;
+        const pageSize = 50;
+        const stickyColumns = ["year", "owner"];
+
+        // Check if text is a URL
+        const isUrl = (text) => {
+            if (!text || typeof text !== 'string') return false;
+            return /^https?:\/\/\S+$/.test(text);
+        };
+
+        // Memoized Text Cell Component
+        const TextCell = React.memo(function TextCell({ text }) {
+            const [isOpen, setIsOpen] = React.useState(false);
+            
+            // Handle URL links
+            if (isUrl(text)) {
+                return (
+                    <a 
+                        href={text} 
+                        target="_blank" 
+                        rel="noopener noreferrer"
+                        className="text-blue-600 hover:underline"
+                    >
+                        {text}
+                    </a>
+                );
+            }
+            
+            if (!text || text.length <= maxTextLength) {
+                return <span>{text || ""}</span>;
+            }
+
+            return (
+                <>
+                    <span 
+                        className="truncate-text"
+                        onClick={() => setIsOpen(true)}
+                    >
+                        {text.substring(0, maxTextLength)}&hellip;
+                    </span>
+                    
+                    {isOpen && (
+                        <div 
+                            className="text-modal"
+                            onClick={() => setIsOpen(false)}
+                        >
+                            <div 
+                                className="modal-content relative"
+                                onClick={e => e.stopPropagation()}
+                            >
+                                <button 
+                                    className="close-button"
+                                    onClick={() => setIsOpen(false)}
+                                >
+                                    ×
+                                </button>
+                                <div className="mt-4 whitespace-pre-wrap">
+                                    {isUrl(text) ? (
+                                        <a 
+                                            href={text} 
+                                            target="_blank" 
+                                            rel="noopener noreferrer"
+                                            className="text-blue-600 hover:underline"
+                                        >
+                                            {text}
+                                        </a>
+                                    ) : (
+                                        text
+                                    )}
+                                </div>
+                            </div>
+                        </div>
+                    )}
+                </>
+            );
+        });
+
+        // Virtual Table Row Component
+        const TableRow = React.memo(function TableRow({ row, columns, longTextColumns }) {
+            return (
+                <tr className="hover:bg-gray-50">
+                    {columns.map((column, colIndex) => (
+                        <td 
+                            key={column} 
+                            className={`px-6 py-4 whitespace-normal text-sm text-gray-500 ${
+                                stickyColumns && stickyColumns.includes(column) 
+                                    ? `sticky-column sticky-column-${stickyColumns.indexOf(column)}` 
+                                    : ''
+                            }`}
+                        >
+                            {longTextColumns.includes(column) ? (
+                                <TextCell text={String(row[column])} />
+                            ) : (
+                                isUrl(String(row[column])) ? (
+                                    <a 
+                                        href={String(row[column])} 
+                                        target="_blank" 
+                                        rel="noopener noreferrer"
+                                        className="text-blue-600 hover:underline"
+                                    >
+                                        {String(row[column])}
+                                    </a>
+                                ) : (
+                                    String(row[column] || "")
+                                )
+                            )}
+                        </td>
+                    ))}
+                </tr>
+            );
+        });
+
+        // Filter Component
+        const Filter = React.memo(function Filter({ columns, filters, onFilterChange }) {
+            const [activeColumn, setActiveColumn] = React.useState(null);
+            const [searchTerm, setSearchTerm] = React.useState('');
+            
+            // Filter columns based on search term
+            const filteredColumns = React.useMemo(() => {
+                if (!searchTerm) return columns;
+                return columns.filter(col => 
+                    col.toLowerCase().includes(searchTerm.toLowerCase())
+                );
+            }, [columns, searchTerm]);
+            
+            // Count active filters
+            const filterCount = Object.keys(filters).length;
+            
+            return (
+                <div className="mb-4 flex flex-wrap items-end gap-4">
+                    {/* Active filters display */}
+                    <div className="flex-1">
+                        <div className="flex flex-wrap gap-2 mb-2">
+                            {Object.entries(filters).map(([column, value]) => (
+                                <div 
+                                    key={column} 
+                                    className="bg-blue-100 text-blue-800 px-3 py-1 rounded-full text-sm flex items-center"
+                                >
+                                    <span className="font-medium mr-1">{column.replace(/_/g, ' ')}</span>
+                                    <span>{value || '<empty>'}</span>
+                                    <button 
+                                        onClick={() => onFilterChange(column, '')}
+                                        className="ml-2 text-blue-600 hover:text-blue-800"
+                                    >
+                                        ×
+                                    </button>
+                                </div>
+                            ))}
+                            {filterCount > 0 && (
+                                <button 
+                                    onClick={() => {
+                                        Object.keys(filters).forEach(column => {
+                                            onFilterChange(column, '');
+                                        });
+                                    }}
+                                    className="text-sm text-red-600 hover:text-red-800 ml-2"
+                                >
+                                    Clear all
+                                </button>
+                            )}
+                        </div>
+                        
+                        {/* Dropdown for filter selection */}
+                        <div className="relative inline-block text-left">
+                            <div>
+                                <button 
+                                    type="button" 
+                                    className="inline-flex justify-center w-full rounded-md border border-gray-300 shadow-sm px-4 py-2 bg-white text-sm font-medium text-gray-700 hover:bg-gray-50 focus:outline-none"
+                                    onClick={() => setActiveColumn(activeColumn ? null : '')}
+                                >
+                                    Add Filter {filterCount > 0 ? "(" + filterCount + ")" : ""}
+                                </button>
+                            </div>
+                            
+                            {activeColumn !== null && activeColumn === '' && (
+                                <div className="origin-top-left absolute left-0 mt-2 rounded-md shadow-lg bg-white ring-1 ring-black ring-opacity-5 focus:outline-none z-50" style={{width: '320px'}}>
+                                    <div className="py-1">
+                                        {/* Search input for columns */}
+                                        <div className="px-4 py-2">
+                                            <input
+                                                type="text"
+                                                className="w-full px-3 py-2 border rounded-md text-sm"
+                                                placeholder="Search columns..."
+                                                value={searchTerm}
+                                                onChange={e => setSearchTerm(e.target.value)}
+                                            />
+                                        </div>
+                                        
+                                        {/* Scrollable column list */}
+                                        <div style={{maxHeight: '200px', overflowY: 'auto'}}>
+                                            {filteredColumns.map(column => (
+                                                <button
+                                                    key={column}
+                                                    className={`block w-full text-left px-4 py-2 text-sm hover:bg-gray-100 ${filters[column] ? 'bg-blue-50' : ''}`}
+                                                    onClick={() => {
+                                                        setActiveColumn(column);
+                                                        setSearchTerm('');
+                                                    }}
+                                                >
+                                                    {column.replace(/_/g, ' ')}
+                                                    {filters[column] && (
+                                                        <span className="ml-2 text-blue-600">✓</span>
+                                                    )}
+                                                </button>
+                                            ))}
+                                            {filteredColumns.length === 0 && (
+                                                <div className="px-4 py-2 text-sm text-gray-500">
+                                                    No columns found
+                                                </div>
+                                            )}
+                                        </div>
+                                    </div>
+                                </div>
+                            )}
+                        </div>
+                        
+                        {/* Filter value input */}
+                        {activeColumn && activeColumn !== '' && (
+                            <div className="mt-2 flex">
+                                <div className="relative bg-white p-4 border rounded-md shadow-lg z-50 ml-4" style={{width: '320px'}}>
+                                    <div className="text-sm font-medium text-gray-700 mb-1">
+                                        {activeColumn.replace(/_/g, ' ')}
+                                    </div>
+                                    <div className="flex">
+                                        <input
+                                            type="text"
+                                            value={filters[activeColumn] || ''}
+                                            onChange={e => onFilterChange(activeColumn, e.target.value)}
+                                            className="flex-1 px-3 py-2 border rounded-l-md text-sm"
+                                            placeholder="Enter filter value..."
+                                        />
+                                        <button
+                                            onClick={() => {
+                                                if (filters[activeColumn] || filters[activeColumn] === '') {
+                                                    setActiveColumn(null);
+                                                } else {
+                                                    onFilterChange(activeColumn, '');
+                                                    setActiveColumn(null);
+                                                }
+                                            }}
+                                            className="px-3 py-2 border border-l-0 rounded-r-md bg-gray-100 hover:bg-gray-200"
+                                        >
+                                            Apply
+                                        </button>
+                                    </div>
+                                    <div className="text-xs text-gray-500 mt-1">
+                                        Supports: &gt;, &lt;, &gt;=, &lt;=, =, != (e.g. "&gt;100" or "=exact match")
+                                    </div>
+                                    <div className="flex gap-2 mt-2">
+                                        <button
+                                            onClick={() => {
+                                                onFilterChange(activeColumn, '=empty');
+                                                setActiveColumn(null);
+                                            }}
+                                            className="text-xs bg-gray-100 hover:bg-gray-200 px-2 py-1 rounded"
+                                        >
+                                            Is Empty
+                                        </button>
+                                        <button
+                                            onClick={() => {
+                                                onFilterChange(activeColumn, '!=empty');
+                                                setActiveColumn(null);
+                                            }}
+                                            className="text-xs bg-gray-100 hover:bg-gray-200 px-2 py-1 rounded"
+                                        >
+                                            Not Empty
+                                        </button>
+                                    </div>
+                                </div>
+                            </div>
+                        )}
+                    </div>
+                </div>
+            );
+        });
+
+        // Main Table Component
+        function DataTable() {
+            const [page, setPage] = React.useState(1);
+            const [filters, setFilters] = React.useState({});
+            const [sort, setSort] = React.useState({ field: null, direction: "asc" });
+            const [globalSearch, setGlobalSearch] = React.useState('');
+            
+            const columns = React.useMemo(() => 
+                initialData.length > 0 ? Object.keys(initialData[0]) : [], 
+                []
+            );
+
+// Expression filtering logic
+                const evaluateExpression = React.useCallback((value, filterValue) => {
+                    // Handle empty cases
+                    if (!filterValue) return true;
+                    filterValue = filterValue.trim();
+                    if (!filterValue) return true;
+
+                    // Convert value to string for comparison, handling null/undefined
+                    const strValue = value === null || value === undefined ? '' : String(value);
+                    
+                    // Special case for empty values
+                    if (filterValue === '=empty') {
+                        return strValue === '' || value === null || value === undefined;
+                    }
+                    if (filterValue === '!=empty') {
+                        return strValue !== '' && value !== null && value !== undefined;
+                    }
+
+                    // Handle numeric comparisons
+                    const numericOperators = {
+                        '>=': (a, b) => parseFloat(a) >= parseFloat(b),
+                        '<=': (a, b) => parseFloat(a) <= parseFloat(b),
+                        '>': (a, b) => parseFloat(a) > parseFloat(b),
+                        '<': (a, b) => parseFloat(a) < parseFloat(b),
+                        '!=': (a, b) => parseFloat(a) !== parseFloat(b),
+                        '=': (a, b) => parseFloat(a) === parseFloat(b)
+                    };
+
+                    // Check for numeric operators
+                    for (const [op, fn] of Object.entries(numericOperators)) {
+                        if (filterValue.startsWith(op)) {
+                            const numValue = filterValue.slice(op.length).trim();
+                            if (!isNaN(numValue) && !isNaN(value)) {
+                                return fn(value, numValue);
+                            }
+                        }
+                    }
+
+                    // Handle exact text match
+                    if (filterValue.startsWith('=')) {
+                        return String(value || '').toLowerCase() === filterValue.slice(1).trim().toLowerCase();
+                    }
+
+                    // Default to partial text match
+                    return String(value || '').toLowerCase().includes(filterValue.toLowerCase());
+                }, []);
+
+            // Global search function
+            const matchesGlobalSearch = React.useCallback((row) => {
+                if (!globalSearch) return true;
+                const searchTerm = globalSearch.toLowerCase();
+                
+                // Check if any field in the row contains the search term
+                return Object.values(row).some(value => {
+                    if (value === null || value === undefined) return false;
+                    return String(value).toLowerCase().includes(searchTerm);
+                });
+            }, [globalSearch]);
+            
+            // Memoized filtering with expression support and global search
+            const filteredData = React.useMemo(() => {
+                return initialData.filter(row =>
+                    // Apply column filters
+                    Object.entries(filters).every(([column, filterValue]) => {
+                        const cellValue = row[column];
+                        return evaluateExpression(cellValue, filterValue);
+                    }) && 
+                    // Apply global search
+                    matchesGlobalSearch(row)
+                );
+            }, [filters, evaluateExpression, matchesGlobalSearch]);
+
+            // Calculate column widths for sticky columns
+            React.useEffect(() => {
+                if (stickyColumns && stickyColumns.length > 0) {
+                    // Wait for the table to render
+                    setTimeout(() => {
+                        const table = document.querySelector('table');
+                        if (table) {
+                            stickyColumns.forEach((column, index) => {
+                                const columnIndex = columns.indexOf(column);
+                                if (columnIndex !== -1) {
+                                    // Find all cells in this column
+                                    const cells = table.querySelectorAll(`tr > *:nth-child(${columnIndex + 1})`);
+                                    if (cells.length > 0) {
+                                        // Find the widest cell
+                                        let maxWidth = 0;
+                                        cells.forEach(cell => {
+                                            const width = cell.offsetWidth;
+                                            if (width > maxWidth) maxWidth = width;
+                                        });
+                                        // Set the CSS variable for this column's width
+                                        document.documentElement.style.setProperty(`--sticky-width-${index}`, `${maxWidth}px`);
+                                    }
+                                }
+                            });
+                        }
+                    }, 100);
+                }
+            }, [columns, stickyColumns, filteredData.length]);
+
+            // Memoized sorting
+            const sortedData = React.useMemo(() => {
+                if (!sort.field) return filteredData;
+
+                return [...filteredData].sort((a, b) => {
+                    let aVal = a[sort.field];
+                    let bVal = b[sort.field];
+
+                    if (longTextColumns.includes(sort.field)) {
+                        aVal = String(aVal || '').toLowerCase();
+                        bVal = String(bVal || '').toLowerCase();
+                    }
+
+                    if (aVal === bVal) return 0;
+                    if (!aVal) return 1;
+                    if (!bVal) return -1;
+
+                    const result = aVal < bVal ? -1 : 1;
+                    return sort.direction === "asc" ? result : -result;
+                });
+            }, [filteredData, sort]);
+
+            // Pagination
+            const totalPages = Math.ceil(sortedData.length / pageSize);
+            const currentPageData = sortedData.slice(
+                (page - 1) * pageSize,
+                page * pageSize
+            );
+
+            const handleSort = React.useCallback((field) => {
+                setSort(current => ({
+                    field,
+                    direction: current.field === field && current.direction === "asc" 
+                        ? "desc" 
+                        : "asc"
+                }));
+            }, []);
+
+            const handleFilterChange = React.useCallback((column, value) => {
+                setFilters(prev => ({
+                    ...prev,
+                    [column]: value
+                }));
+                setPage(1);
+            }, []);
+
+            return (
+                <div className="max-w-7xl mx-auto">
+                    <div className="bg-white rounded-lg shadow-lg p-6">
+                        <h1 className="text-2xl font-bold text-gray-800 mb-6">{pageTitle}</h1>
+                        
+                        <div className="mb-4 flex items-center">
+                            <div className="flex-1 mr-4">
+                                <input
+                                    type="text"
+                                    placeholder="Search all data..."
+                                    className="w-full px-4 py-2 border rounded-md text-sm"
+                                    value={globalSearch}
+                                    onChange={e => {
+                                        setGlobalSearch(e.target.value);
+                                        setPage(1); // Reset to first page on search
+                                    }}
+                                />
+                            </div>
+                            {globalSearch && (
+                                <button
+                                    onClick={() => setGlobalSearch('')}
+                                    className="text-sm text-gray-600 hover:text-gray-800"
+                                >
+                                    Clear
+                                </button>
+                            )}
+                        </div>
+                        
+                        <Filter 
+                            columns={columns}
+                            filters={filters}
+                            onFilterChange={handleFilterChange}
+                        />
+
+                        <div className="mb-4">
+                            <span className="text-sm text-gray-600">
+                                Showing {currentPageData.length} of {sortedData.length} results
+                            </span>
+                        </div>
+
+                        <div className="overflow-x-auto">
+                            <table className="min-w-full divide-y divide-gray-200">
+                                <thead className="bg-gray-50">
+                                    <tr>
+                                        {columns.map((column, colIndex) => (
+                                            <th
+                                                key={column}
+                                                onClick={() => handleSort(column)}
+                                                className={`px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider cursor-pointer hover:bg-gray-100 ${
+                                                    stickyColumns && stickyColumns.includes(column) 
+                                                        ? `sticky-column sticky-column-${stickyColumns.indexOf(column)}` 
+                                                        : ''
+                                                }`}
+                                            >
+                                                {column.replace(/_/g, ' ')}
+                                                {sort.field === column && (
+                                                    <span className="ml-2">
+                                                        {sort.direction === "asc" ? "↑" : "↓"}
+                                                    </span>
+                                                )}
+                                            </th>
+                                        ))}
+                                    </tr>
+                                </thead>
+                                <tbody className="bg-white divide-y divide-gray-200">
+                                    {currentPageData.map((row, index) => (
+                                        <TableRow
+                                            key={index}
+                                            row={row}
+                                            columns={columns}
+                                            longTextColumns={longTextColumns}
+                                        />
+                                    ))}
+                                </tbody>
+                            </table>
+                        </div>
+
+                        {totalPages > 1 && (
+                            <div className="mt-4 flex justify-between items-center">
+                                <button
+                                    onClick={() => setPage(p => Math.max(1, p - 1))}
+                                    disabled={page === 1}
+                                    className="px-4 py-2 border rounded-md disabled:opacity-50"
+                                >
+                                    Previous
+                                </button>
+                                <span className="text-sm text-gray-600">
+                                    Page {page} of {totalPages}
+                                </span>
+                                <button
+                                    onClick={() => setPage(p => Math.min(totalPages, p + 1))}
+                                    disabled={page === totalPages}
+                                    className="px-4 py-2 border rounded-md disabled:opacity-50"
+                                >
+                                    Next
+                                </button>
+                            </div>
+                        )}
+                    </div>
+                </div>
+            );
+        }
+
+        ReactDOM.render(<DataTable />, document.getElementById('root'));
+    </script>
+</body>
+</html>
