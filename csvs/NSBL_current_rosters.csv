@@ -56,9 +56,10 @@ year,gp,date,player_name,fname,lname,team_abb,position,salary,contract_year,expi
 2025,0,2025-09-01,Tyler Anderson,Tyler,Anderson,WAS,p,5.025,V,2024,Yes,,Y,"Anderson, Tyler",Active
 2025,0,2025-09-01,Miguel Andujar,Miguel,Andujar,TOR,if,2.201,V,2025,Yes,,Y,"Andujar, Miguel",Active
 2025,0,2025-09-01,Roman Anthony,Roman,Anthony,BAL,of,0.700,XXX,0,,,N,"Anthony, Roman",Reserve
-2025,0,2025-09-01,Cameron Appenzeller,Cameron,Appenzeller,WAS,p,0.700,XXX,0,,Yes,N,"Appenzeller, Cameron",Reserve
+2025,0,2025-09-01,Cam Appenzeller,Cam,Appenzeller,WAS,p,0.700,XXX,0,,Yes,N,"Appenzeller, Cameron",Reserve
+2025,0,2025-09-01,Wellington Aracena,Wellington,Aracena,BOS,p,0.700,XXX,0,,Yes,N,"Aracena, Wellington",Reserve
 2025,0,2025-09-01,Jonathan Aranda,Jonathan,Aranda,MIA,if,1.085,2nd-G,0,,,Y,"Aranda, Jonathan",Active
-2025,0,2025-09-01,Wellington Arcana,Wellington,Arcana,BOS,p,0.700,XXX,0,,Yes,N,"Arcana, Wellington",Reserve
+2025,0,2025-09-01,Wellington Aracena,Wellington,Aracena,BOS,p,0.700,XXX,0,,Yes,N,"Arcana, Wellington",Reserve
 2025,0,2025-09-01,Orlando Arcia,Orlando,Arcia,HOU,if,6.763,CE,2026,,,Y,"Arcia, Orlando",Active
 2025,0,2025-09-01,Nolan Arenado,Nolan,Arenado,BAL,if,20.000,V,2027,Yes,Yes,Y,"Arenado, Nolan",Active
 2025,0,2025-09-01,Franklin Arias,Franklin,Arias,COL,if,0.700,XXX,0,,,N,"Arias, Franklin",Reserve
@@ -164,7 +165,8 @@ year,gp,date,player_name,fname,lname,team_abb,position,salary,contract_year,expi
 2025,0,2025-09-01,Tyler Black,Tyler,Black,STL,if,0.700,XXX-G,0,,,Y,"Black, Tyler",Active
 2025,0,2025-09-01,Werner Blakely,Werner,Blakely,PIT,if,0.700,XXX,0,,,N,"Blakely, Werner",Reserve
 2025,0,2025-09-01,Bradley Blalock,Bradley,Blalock,CHW,p,0.700,XXX,0,,,N,"Blalock, Bradley",Reserve
-2025,0,2025-09-01,Tony Blanco Jr,Tony,Blanco Jr,CHW,if,0.700,XXX,0,,Yes,N,"Blanco Jr, Tony",Reserve
+2025,0,2025-09-01,Tony Blanco Jr.,Tony,Blanco Jr.,CHW,if,0.700,XXX,0,,Yes,N,"Blanco Jr, Tony",Reserve
+2025,0,2025-09-01,Tony Blanco Jr.,Tony,Blanco Jr.,CHW,if,0.700,XXX,0,,Yes,N,"Blanco Jr., Tony",Reserve
 2025,0,2025-09-01,Dairon Blanco,Dairon,Blanco,BOS,of,3.750,V,2026,,,Y,"Blanco, Dairon",Active
 2025,0,2025-09-01,Ronel Blanco,Ronel,Blanco,PIT,p,1.460,V,2025,,,Y,"Blanco, Ronel",Active
 2025,0,2025-09-01,Alex Blandino,Alex,Blandino,MIA,if,0.700,XXX,0,,,N,"Blandino, Alex",Reserve
@@ -380,8 +382,9 @@ year,gp,date,player_name,fname,lname,team_abb,position,salary,contract_year,expi
 2025,0,2025-09-01,Davis Daniel,Davis,Daniel,SD,p,1.753,4th,0,,,Y,"Daniel, Davis",Active
 2025,0,2025-09-01,Yu Darvish,Yu,Darvish,CHW,p,15.420,V,2026,Yes,Yes,Y,"Darvish, Yu",Active
 2025,0,2025-09-01,Charles Davalan,Charles,Davalan,KC,of,0.700,XXX,0,,Yes,N,"Davalan, Charles",Reserve
+2025,0,2025-09-01,David Davalillo,David,Davalillo,STL,p,0.700,XXX,0,,Yes,N,"Davalillo, David",Reserve
 2025,0,2025-09-01,Bo Davidson,Bo,Davidson,SEA,of,0.700,XXX,0,,Yes,N,"Davidson, Bo",Reserve
-2025,0,2025-09-01,David Davillo,David,Davillo,STL,p,0.700,XXX,0,,Yes,N,"Davillo, David",Reserve
+2025,0,2025-09-01,David Davalillo,David,Davalillo,STL,p,0.700,XXX,0,,Yes,N,"Davillo, David",Reserve
 2025,0,2025-09-01,Brennen Davis,Brennen,Davis,LAA,of,0.700,XXX,0,,,N,"Davis, Brennen",Reserve
 2025,0,2025-09-01,Chase Davis,Chase,Davis,OAK,of,0.700,XXX,0,,,N,"Davis, Chase",Reserve
 2025,0,2025-09-01,Henry Davis,Henry,Davis,NYY,c,0.700,XXX,0,,,N,"Davis, Henry",Reserve
@@ -467,7 +470,8 @@ year,gp,date,player_name,fname,lname,team_abb,position,salary,contract_year,expi
 2025,0,2025-09-01,Aroon Escobar,Aroon,Escobar,CLE,if,0.700,XXX,0,,Yes,N,"Escobar, Aroon",Reserve
 2025,0,2025-09-01,Santiago Espinal,Santiago,Espinal,MIN,if,7.500,V,2025,,,Y,"Espinal, Santiago",Active
 2025,0,2025-09-01,Daniel Espino,Daniel,Espino,PIT,p,1.470,2nd-G,0,,,Y,"Espino, Daniel",Active
-2025,0,2025-09-01,Conor Essenberg,Conor,Essenberg,MIL,of,0.700,XXX,0,,Yes,N,"Essenberg, Conor",Reserve
+2025,0,2025-09-01,Conor Essenburg,Conor,Essenburg,MIL,of,0.700,XXX,0,,Yes,N,"Essenberg, Conor",Reserve
+2025,0,2025-09-01,Conor Essenburg,Conor,Essenburg,MIL,of,0.700,XXX,0,,Yes,N,"Essenburg, Conor",Reserve
 2025,0,2025-09-01,Joey Estes,Joey,Estes,WAS,p,0.700,XXX,0,,,N,"Estes, Joey",Reserve
 2025,0,2025-09-01,Carlos Estevez,Carlos,Estevez,STL,p,10.500,V,2026,Yes,Yes,Y,"Estevez, Carlos",Active
 2025,0,2025-09-01,Aron Estrada,Aron,Estrada,MIA,if,0.700,XXX,0,,Yes,N,"Estrada, Aron",Reserve
@@ -500,7 +504,8 @@ year,gp,date,player_name,fname,lname,team_abb,position,salary,contract_year,expi
 2025,0,2025-09-01,Andrew Fischer,Andrew,Fischer,WAS,if,0.700,XXX,0,,Yes,N,"Fischer, Andrew",Reserve
 2025,0,2025-09-01,Matthew Fisher,Matthew,Fisher,MIL,p,0.700,XXX,0,,Yes,N,"Fisher, Matthew",Reserve
 2025,0,2025-09-01,Richard Fitts,Richard,Fitts,LAA,p,0.700,XXX,0,,,N,"Fitts, Richard",Reserve
-2025,0,2025-09-01,Devin Fitzgerald,Devin,Fitzgerald,ARI,if,0.700,XXX,0,,Yes,N,"Fitzgerald, Devin",Reserve
+2025,0,2025-09-01,Devin Fitz-Gerald,Devin,Fitz-Gerald,ARI,if,0.700,XXX,0,,Yes,N,"Fitz-Gerald, Devin",Reserve
+2025,0,2025-09-01,Devin Fitz-Gerald,Devin,Fitz-Gerald,ARI,if,0.700,XXX,0,,Yes,N,"Fitzgerald, Devin",Reserve
 2025,0,2025-09-01,Tyler Fitzgerald,Tyler,Fitzgerald,CLE,if,15.750,V,2026,Yes,Yes,Y,"Fitzgerald, Tyler",Active
 2025,0,2025-09-01,Jack Flaherty,Jack,Flaherty,CIN,p,27.800,V,2028,Yes,Yes,Y,"Flaherty, Jack",Active
 2025,0,2025-09-01,David Fletcher,David,Fletcher,STL,if,1.900,V,2025,Yes,,Y,"Fletcher, David",Active
@@ -923,6 +928,7 @@ year,gp,date,player_name,fname,lname,team_abb,position,salary,contract_year,expi
 2025,0,2025-09-01,George Lombard Jr.,George,Lombard Jr.,MIN,if,0.700,XXX,0,,,N,"Lombard Jr., George",Reserve
 2025,0,2025-09-01,Michael Lombardi,Michael,Lombardi,CIN,p,0.700,XXX,0,,Yes,N,"Lombardi, Michael",Reserve
 2025,0,2025-09-01,Jonathan Long,Jonathan,Long,MIA,if,0.700,XXX,0,,Yes,N,"Long, Jonathan",Reserve
+2025,0,2025-09-01,Jonathon Long,Jonathon,Long,MIA,if,0.700,XXX,0,,Yes,N,"Long, Jonathon",Reserve
 2025,0,2025-09-01,Shed Long Jr.,Shed,Long Jr.,ARI,if,0.700,XXX,0,,,N,"Long, Shed",Reserve
 2025,0,2025-09-01,Joey Loperfido,Joey,Loperfido,MIN,of,0.910,2nd,0,,,N,"Loperfido, Joey",Reserve
 2025,0,2025-09-01,Jacob Lopez,Jacob,Lopez,MIA,p,0.910,2nd,0,,,N,"Lopez, Jacob",Reserve
@@ -1185,6 +1191,7 @@ year,gp,date,player_name,fname,lname,team_abb,position,salary,contract_year,expi
 2025,0,2025-09-01,Tyler O'Neill,Tyler,O'Neill,HOU,of,10.000,V,2027,,,Y,"O'Neill, Tyler",Active
 2025,0,2025-09-01,Joey Oakie,Joey,Oakie,HOU,p,0.700,XXX,0,,,N,"Oakie, Joey",Reserve
 2025,0,2025-09-01,Bailey Ober,Bailey,Ober,NYM,p,5.000,V,2025,Yes,,Y,"Ober, Bailey",Active
+2025,0,2025-09-01,Cade Obermueller,Cade,Obermueller,CLE,p,0.700,XXX,0,,Yes,N,"Obermueller, Cade",Reserve
 2025,0,2025-09-01,Cade Obermuller,Cade,Obermuller,CLE,p,0.700,XXX,0,,Yes,N,"Obermuller, Cade",Reserve
 2025,0,2025-09-01,Shohei Ohtani,Shohei,Ohtani,LAA,p,48.200,V,2025,,,Y,"Ohtani, Shohei",Active
 2025,0,2025-09-01,Steven Okert,Steven,Okert,NYY,p,1.400,V,2025,Yes,,Y,"Okert, Steven",Reserve
@@ -1350,12 +1357,12 @@ year,gp,date,player_name,fname,lname,team_abb,position,salary,contract_year,expi
 2025,0,2025-09-01,Brendan Rodgers,Brendan,Rodgers,SEA,if,2.595,4th,0,,,Y,"Rodgers, Brendan",Reserve
 2025,0,2025-09-01,Carlos Rodon,Carlos,Rodon,BAL,p,36.000,V,2025,Yes,,Y,"Rodon, Carlos",Active
 2025,0,2025-09-01,Bradgley Rodriguez,Bradgley,Rodriguez,TEX,p,0.700,XXX,0,,Yes,N,"Rodriguez, Bradgley",Reserve
-2025,0,2025-09-01,Carlos F. Rodriguez,Carlos,F. Rodriguez,WAS,p,0.700,XXX,0,,,N,"Rodriguez, Carlos (11/27/01)",Reserve
+2025,0,2025-09-01,Carlos F. Rodriguez,Carlos F.,Rodriguez,WAS,p,0.700,XXX,0,,,N,"Rodriguez, Carlos (11/27/01)",Reserve
 2025,0,2025-09-01,Chris Rodriguez,Chris,Rodriguez,CHW,p,0.910,2nd,0,,,N,"Rodriguez, Chris",Reserve
 2025,0,2025-09-01,Eduardo Rodriguez,Eduardo,Rodriguez,ARI,p,8.500,V,2025,,,Y,"Rodriguez, Eduardo",Active
 2025,0,2025-09-01,Emmanuel Rodriguez,Emmanuel,Rodriguez,KC,of,0.700,XXX,0,,,N,"Rodriguez, Emmanuel",Reserve
 2025,0,2025-09-01,Endy Rodriguez,Endy,Rodriguez,KC,c,0.700,XXX-G,0,,,Y,"Rodriguez, Endy",Active
-2025,0,2025-09-01,Gabriel (5/3/07) Rodriguez,Gabriel,(5/3/07) Rodriguez,SF,if,0.700,XXX,0,,Yes,N,"Rodriguez, Gabriel (5/3/07)",Reserve
+2025,0,2025-09-01,Gabriel J. Rodriguez,Gabriel J.,Rodriguez,SF,if,0.700,XXX,0,,Yes,N,"Rodriguez, Gabriel (5/3/07)",Reserve
 2025,0,2025-09-01,Grayson Rodriguez,Grayson,Rodriguez,ARI,p,1.470,2nd-G,0,,,Y,"Rodriguez, Grayson",Active
 2025,0,2025-09-01,Hector Rodriguez,Hector,Rodriguez,NYY,of,0.700,XXX,0,,Yes,N,"Rodriguez, Hector",Reserve
 2025,0,2025-09-01,Jeremy Rodriguez,Jeremy,Rodriguez,DET,if,0.700,XXX,0,,,N,"Rodriguez, Jeremy",Reserve
@@ -1566,7 +1573,7 @@ year,gp,date,player_name,fname,lname,team_abb,position,salary,contract_year,expi
 2025,0,2025-09-01,Robert Suarez,Robert,Suarez,SEA,p,1.950,V,2025,Yes,,Y,"Suarez, Robert",Active
 2025,0,2025-09-01,Santiago Suarez,Santiago,Suarez,TEX,p,0.700,XXX,0,,,N,"Suarez, Santiago",Reserve
 2025,0,2025-09-01,Tomoyuki Sugano,Tomoyuki,Sugano,LAD,p,2.225,V,2026,,Yes,Y,"Sugano, Tomoyuki",Active
-2025,0,2025-09-01,Sean (2002) Sullivan,Sean,(2002) Sullivan,KC,p,0.700,XXX,0,,,N,"Sullivan, Sean (2002)",Reserve
+2025,0,2025-09-01,Sean J. Sullivan,Sean J.,Sullivan,KC,p,0.700,XXX,0,,,N,"Sullivan, Sean (2002)",Reserve
 2025,0,2025-09-01,Brendan Summerhill,Brendan,Summerhill,WAS,of,0.700,XXX,0,,Yes,N,"Summerhill, Brendan",Reserve
 2025,0,2025-09-01,Daniel Susac,Daniel,Susac,OAK,c,0.700,XXX,0,,,N,"Susac, Daniel",Reserve
 2025,0,2025-09-01,Jarlin Susana,Jarlin,Susana,CHC,p,0.700,XXX,0,,,N,"Susana, Jarlin",Reserve
