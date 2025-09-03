@@ -1,0 +1,564 @@
+year,owner,league_name,team_name,finish,pick,W,L,T,W%,PF,PA,PF+,PA+,avg_PF/G,xPA,PA_DIFF,xStrength,xRank,RankDiff,xTitles,xSackos,seasons,std_finish,std_PF+,std_PA+,total_W,total_L,total_PF,total_PA,Playoffs,Podiums,Titles,Sackos,Details
+Total,Connor Reed,SV-nfl,"Wu Tang Financial
+A Grizzly Bear
+Ryan Edwards
+The ANTZ
+Nature Pics
+stephen root
+Shel Oilstein
+Microsoft Powerpoint
+rinvoq
+got time for a quick chat",4.8,7.4,6.9,6.5,0.0,0.515,1451.1,1433.7,104.6,103.6,108.3,1383.9,498.2,56.3,5.2,-0.5,1.379,0.566,b'10 (2015 - 2024)',3.3,8.8,6.0,69.0,65.0,14511.13,14336.81,6 (0.60),6 (0.60),"1.5 (0.1 over expected, avg 0.15)","0.0 (-0.6 under expected, avg 0.00)","Connor Reed - SV
+
+#7 (2024, pick #10, 6-8, 104 PF+, 54.1 xStrength, 5.5 xRank, 0.08 xTitles, 0.04 xSackos)
+	-got time for a quick chat 
+
+ #11 (2023, pick #12, 3-11, 87 PF+, 17.6 xStrength, 9.9 xRank, 0.01 xTitles, 0.22 xSackos)
+	-rinvoq 
+
+ #1.5 (2022, pick #6, 8-6, 111 PF+, 70.5 xStrength, 3.5 xRank, 0.20 xTitles, 0.02 xSackos)
+	-Microsoft Powerpoint 
+
+ #7 (2021, pick #6, 3-11, 93 PF+, 29.8 xStrength, 8.4 xRank, 0.02 xTitles, 0.13 xSackos)
+	-Shel Oilstein 
+
+ #3 (2020, pick #1, 8-5, 104 PF+, 56.0 xStrength, 5.3 xRank, 0.09 xTitles, 0.04 xSackos)
+	-stephen root 
+
+ #2 (2019, pick #7, 10-3, 111 PF+, 70.5 xStrength, 3.6 xRank, 0.20 xTitles, 0.02 xSackos)
+	-Nature Pics 
+
+ #3 (2018, pick #12, 10-3, 119 PF+, 87.9 xStrength, 1.5 xRank, 0.43 xTitles, 0.01 xSackos)
+	-The ANTZ 
+
+ #3 (2017, pick #7, 7-6, 102 PF+, 50.8 xStrength, 5.9 xRank, 0.07 xTitles, 0.05 xSackos)
+	-Ryan Edwards 
+
+ #1 (2016, pick #12, 9-4, 109 PF+, 65.2 xStrength, 4.2 xRank, 0.15 xTitles, 0.02 xSackos)
+	-A Grizzly Bear 
+
+ #9 (2015, pick #1, 5-8, 107 PF+, 60.8 xStrength, 4.7 xRank, 0.12 xTitles, 0.03 xSackos)
+	-Wu Tang Financial"
+Total,Donovan Sheridan,SV-nfl,"Kill or Be killed
+Tickle Me ELMO
+Cummin for your ASS
+Oahu Hippity Hopkins
+Oahu Can u digg it
+Kupp my balls
+Kelce You in the Finals
+Better Business Burrow",5.2,5.8,7.5,5.9,0.0,0.56,1428.8,1359.5,103.0,98.2,106.6,1385.9,-264.3,52.7,5.7,-0.5,0.919,0.517,b'10 (2015 - 2024)',2.6,5.6,3.4,75.0,59.0,14288.1,13594.62,7 (0.70),2 (0.20),"1.0 (0.1 over expected, avg 0.10)","0.0 (-0.5 under expected, avg 0.00)","Donovan Sheridan - SV
+
+#11 (2024, pick #12, 7-7, 95 PF+, 34.3 xStrength, 7.9 xRank, 0.03 xTitles, 0.11 xSackos)
+	-Better Business Burrow 
+
+ #3 (2023, pick #7, 9-5, 110 PF+, 69.0 xStrength, 3.7 xRank, 0.19 xTitles, 0.02 xSackos)
+	-Kelce You in the Finals 
+
+ #7 (2022, pick #3, 6-8, 100 PF+, 46.1 xStrength, 6.5 xRank, 0.05 xTitles, 0.06 xSackos)
+	-Kupp my balls 
+
+ #4 (2021, pick #9, 9-5, 105 PF+, 58.0 xStrength, 5.0 xRank, 0.10 xTitles, 0.03 xSackos)
+	-Oahu Can u digg it 
+
+ #1 (2020, pick #6, 9-4, 105 PF+, 56.9 xStrength, 5.2 xRank, 0.10 xTitles, 0.03 xSackos)
+	-Oahu Hippity Hopkins 
+
+ #5 (2019, pick #3, 9-4, 101 PF+, 49.3 xStrength, 6.1 xRank, 0.06 xTitles, 0.05 xSackos)
+	-Cummin for your ASS 
+
+ #7 (2018, pick #9, 5-8, 92 PF+, 29.0 xStrength, 8.5 xRank, 0.02 xTitles, 0.14 xSackos)
+	-Tickle Me ELMO 
+
+ #4 (2017, pick #3, 7-6, 108 PF+, 63.1 xStrength, 4.4 xRank, 0.14 xTitles, 0.02 xSackos)
+	-Tickle Me ELMO 
+
+ #5 (2016, pick #2, 8-5, 106 PF+, 60.4 xStrength, 4.8 xRank, 0.12 xTitles, 0.03 xSackos)
+	-Kill or Be killed 
+
+ #5 (2015, pick #4, 6-7, 107 PF+, 60.9 xStrength, 4.7 xRank, 0.12 xTitles, 0.03 xSackos)
+	-Kill or Be killed"
+Total,Kyle McNulty,SV-nfl,"The Great Cornjulio
+Remember the Titans
+Flash... AAHHHHHH!!
+Big Nick Chubb
+I AM CHUBB
+Team 2020
+Detroit Lions 2020
+Small TDs
+Off Constantly",5.7,4.6,7.5,5.9,0.0,0.56,1398.0,1330.7,100.7,96.0,104.3,1388.7,-579.8,47.8,6.3,-0.6,1.189,0.996,b'10 (2015 - 2024)',3.8,11.5,6.7,75.0,59.0,13979.8,13306.88,6 (0.60),4 (0.40),"1.0 (-0.2 under expected, avg 0.10)","1.0 (0.0 over expected, avg 0.10)","Kyle McNulty - SV
+
+#2 (2024, pick #5, 8-6, 108 PF+, 64.0 xStrength, 4.3 xRank, 0.14 xTitles, 0.02 xSackos)
+	-Off Constantly 
+
+ #4 (2023, pick #6, 12-2, 117 PF+, 82.8 xStrength, 2.1 xRank, 0.36 xTitles, 0.01 xSackos)
+	-Off Constantly 
+
+ #9 (2022, pick #2, 6-8, 92 PF+, 28.5 xStrength, 8.6 xRank, 0.02 xTitles, 0.14 xSackos)
+	-Small TDs 
+
+ #6 (2021, pick #7, 7-7, 99 PF+, 43.8 xStrength, 6.8 xRank, 0.04 xTitles, 0.07 xSackos)
+	-Detroit Lions 2020 
+
+ #12 (2020, pick #7, 5-8, 78 PF+, -1.1 xStrength, 12.1 xRank, 0.00 xTitles, 0.44 xSackos)
+	-Team 2020 
+
+ #9 (2019, pick #10, 4-9, 92 PF+, 28.7 xStrength, 8.6 xRank, 0.02 xTitles, 0.14 xSackos)
+	-I AM CHUBB 
+
+ #1 (2018, pick #3, 10-3, 104 PF+, 55.2 xStrength, 5.4 xRank, 0.09 xTitles, 0.04 xSackos)
+	-Big Nick Chubb 
+
+ #10 (2017, pick #1, 6-7, 95 PF+, 34.4 xStrength, 7.9 xRank, 0.03 xTitles, 0.10 xSackos)
+	-Flash... AAHHHHHH!! 
+
+ #2 (2016, pick #3, 5-8, 104 PF+, 55.3 xStrength, 5.4 xRank, 0.09 xTitles, 0.04 xSackos)
+	-Remember the Titans 
+
+ #2 (2015, pick #2, 12-1, 118 PF+, 86.3 xStrength, 1.7 xRank, 0.41 xTitles, 0.01 xSackos)
+	-The Great Cornjulio"
+Total,Gregory Ebert,SV-nfl,"GREGADELPHIA GREG'S
+Life is Impermanent
+Stand-Up Comedians
+TOO MANY COOKS
+rawr XD
+KPOP SUPRSTRS
+BEAUTIFUL BOYS
+LOVER BOYS
+Love Laugh Loid
+Academic Weapons",6.3,5.9,6.8,6.6,0.0,0.507,1370.5,1353.1,98.5,97.2,102.3,1391.2,-380.4,42.9,6.8,-0.5,0.553,0.827,b'10 (2015 - 2024)',3.7,5.9,5.2,68.0,66.0,13705.47,13531.4,6 (0.60),3 (0.30),"0.0 (-0.6 under expected, avg 0.00)","2.0 (1.2 over expected, avg 0.20)","Gregory Ebert - SV
+
+#4 (2024, pick #9, 11-3, 102 PF+, 50.9 xStrength, 5.9 xRank, 0.07 xTitles, 0.05 xSackos)
+	-Academic Weapons 
+
+ #2 (2023, pick #1, 8-6, 106 PF+, 58.6 xStrength, 5.0 xRank, 0.11 xTitles, 0.03 xSackos)
+	-Love Laugh Loid 
+
+ #10 (2022, pick #1, 3-11, 89 PF+, 21.1 xStrength, 9.5 xRank, 0.01 xTitles, 0.19 xSackos)
+	-LOVER BOYS 
+
+ #5 (2021, pick #4, 7-7, 101 PF+, 49.4 xStrength, 6.1 xRank, 0.06 xTitles, 0.05 xSackos)
+	-BEAUTIFUL BOYS 
+
+ #6 (2020, pick #8, 8-5, 108 PF+, 63.5 xStrength, 4.4 xRank, 0.14 xTitles, 0.02 xSackos)
+	-KPOP SUPRSTRS 
+
+ #7 (2019, pick #12, 5-8, 94 PF+, 33.3 xStrength, 8.0 xRank, 0.02 xTitles, 0.11 xSackos)
+	-rawr XD 
+
+ #2 (2018, pick #7, 8-5, 102 PF+, 50.7 xStrength, 5.9 xRank, 0.07 xTitles, 0.05 xSackos)
+	-TOO MANY COOKS 
+
+ #12 (2017, pick #6, 4-9, 96 PF+, 36.6 xStrength, 7.6 xRank, 0.03 xTitles, 0.09 xSackos)
+	-Stand-Up Comedians 
+
+ #12 (2016, pick #8, 7-6, 92 PF+, 29.6 xStrength, 8.5 xRank, 0.02 xTitles, 0.13 xSackos)
+	-Life is Impermanent 
+
+ #3 (2015, pick #3, 7-6, 95 PF+, 35.8 xStrength, 7.7 xRank, 0.03 xTitles, 0.10 xSackos)
+	-GREGADELPHIA GREG'S"
+Total,Trevor Carney,SV-nfl,"Hot Fuzz
+TOADAL DOMINATION
+The Hall Monitor",6.3,7.1,7.2,6.2,0.0,0.537,1427.2,1426.9,101.1,100.9,106.2,1412.5,129.6,48.6,6.2,0.2,0.699,0.65,b'9 (2016 - 2024)',3.9,7.0,6.1,65.0,56.0,12845.2,12841.86,4 (0.44),3 (0.33),"1.0 (0.3 over expected, avg 0.11)","2.0 (1.3 over expected, avg 0.22)","Trevor Carney - SV
+
+#3 (2024, pick #2, 10-4, 109 PF+, 65.6 xStrength, 4.1 xRank, 0.16 xTitles, 0.02 xSackos)
+	-The Hall Monitor 
+
+ #12 (2023, pick #8, 2-12, 84 PF+, 10.8 xStrength, 10.7 xRank, 0.01 xTitles, 0.29 xSackos)
+	-The Hall Monitor 
+
+ #4 (2022, pick #12, 11-3, 104 PF+, 55.6 xStrength, 5.3 xRank, 0.09 xTitles, 0.04 xSackos)
+	-TOADAL DOMINATION 
+
+ #9 (2021, pick #2, 6-8, 98 PF+, 40.8 xStrength, 7.1 xRank, 0.04 xTitles, 0.08 xSackos)
+	-The Hall Monitor 
+
+ #7 (2020, pick #12, 7-6, 105 PF+, 56.3 xStrength, 5.2 xRank, 0.09 xTitles, 0.04 xSackos)
+	-The Hall Monitor 
+
+ #1 (2019, pick #11, 7-6, 102 PF+, 50.8 xStrength, 5.9 xRank, 0.07 xTitles, 0.05 xSackos)
+	-Hot Fuzz 
+
+ #12 (2018, pick #5, 6-7, 98 PF+, 40.8 xStrength, 7.1 xRank, 0.04 xTitles, 0.08 xSackos)
+	-Hot Fuzz 
+
+ #2 (2017, pick #2, 11-2, 107 PF+, 61.7 xStrength, 4.6 xRank, 0.13 xTitles, 0.03 xSackos)
+	-Hot Fuzz 
+
+ #7 (2016, pick #10, 5-8, 104 PF+, 54.7 xStrength, 5.4 xRank, 0.09 xTitles, 0.04 xSackos)
+	-Hot Fuzz"
+Total,Tyler Edwards,SV-nfl,"Wu Tang Liquidation
+TOADAL DOMINATION
+The Hall Monitor",6.4,6.1,6.3,7.1,0.0,0.47,1379.1,1408.7,99.1,101.3,102.9,1390.4,182.7,44.1,6.7,-0.3,1.043,1.118,b'10 (2015 - 2024)',3.6,11.4,2.5,63.0,71.0,13790.68,14086.81,4 (0.40),3 (0.30),"1.0 (0.0 under expected, avg 0.10)","1.0 (-0.1 under expected, avg 0.10)","Tyler Edwards - SV
+
+#8 (2024, pick #1, 4-10, 82 PF+, 6.3 xStrength, 11.2 xRank, 0.00 xTitles, 0.34 xSackos)
+	-TOADAL DOMINATION 
+
+ #7 (2023, pick #10, 7-7, 97 PF+, 39.6 xStrength, 7.3 xRank, 0.03 xTitles, 0.08 xSackos)
+	-TOADAL DOMINATION 
+
+ #3 (2022, pick #11, 9-5, 109 PF+, 64.9 xStrength, 4.2 xRank, 0.15 xTitles, 0.02 xSackos)
+	-The Hall Monitor 
+
+ #1 (2021, pick #3, 10-4, 118 PF+, 84.7 xStrength, 1.8 xRank, 0.38 xTitles, 0.01 xSackos)
+	-TOADAL DOMINATION 
+
+ #2 (2020, pick #5, 8-5, 115 PF+, 79.2 xStrength, 2.5 xRank, 0.30 xTitles, 0.01 xSackos)
+	-TOADAL DOMINATION 
+
+ #8 (2019, pick #6, 5-8, 94 PF+, 32.4 xStrength, 8.1 xRank, 0.02 xTitles, 0.12 xSackos)
+	-TOADAL DOMINATION 
+
+ #4 (2018, pick #4, 5-8, 104 PF+, 55.4 xStrength, 5.4 xRank, 0.09 xTitles, 0.04 xSackos)
+	-TOADAL DOMINATION 
+
+ #11 (2017, pick #5, 6-7, 96 PF+, 36.9 xStrength, 7.6 xRank, 0.03 xTitles, 0.09 xSackos)
+	-TOADAL DOMINATION 
+
+ #8 (2016, pick #6, 3-10, 85 PF+, 12.2 xStrength, 10.5 xRank, 0.01 xTitles, 0.28 xSackos)
+	-TOADAL DOMINATION 
+
+ #12 (2015, pick #10, 6-7, 93 PF+, 29.8 xStrength, 8.4 xRank, 0.02 xTitles, 0.13 xSackos)
+	-Wu Tang Liquidation"
+Total,Matt Abraham,SV-nfl,"Gold Team Rules!!
+The Golden Gods
+The Blair Walsh Project
+Restroom Fireworks
+Bush did 7/11
+Shaquille O'atmeal
+ToadQuille Frogmeal
+The sh1t out of Miles",6.7,6.9,6.9,6.5,0.0,0.515,1427.7,1377.0,102.7,99.3,106.5,1386.0,-89.6,52.2,5.7,0.9,1.042,0.545,b'10 (2015 - 2024)',3.4,6.9,5.2,69.0,65.0,14277.12,13770.18,5 (0.50),3 (0.30),"1.0 (0.0 under expected, avg 0.10)","0.5 (0.0 under expected, avg 0.05)","Matt Abraham - SV
+
+#10 (2024, pick #4, 5-9, 92 PF+, 28.7 xStrength, 8.6 xRank, 0.02 xTitles, 0.14 xSackos)
+	-The sh1t out of Miles 
+
+ #6 (2023, pick #5, 7-7, 105 PF+, 56.4 xStrength, 5.2 xRank, 0.09 xTitles, 0.04 xSackos)
+	-ToadQuille Frogmeal 
+
+ #11.5 (2022, pick #5, 6-8, 97 PF+, 39.9 xStrength, 7.2 xRank, 0.04 xTitles, 0.08 xSackos)
+	-Shaquille O'atmeal 
+
+ #3 (2021, pick #12, 9-5, 106 PF+, 59.7 xStrength, 4.8 xRank, 0.11 xTitles, 0.03 xSackos)
+	-Shaquille O'atmeal 
+
+ #10 (2020, pick #3, 6-7, 99 PF+, 45.0 xStrength, 6.6 xRank, 0.05 xTitles, 0.06 xSackos)
+	-Bush did 7/11 
+
+ #3 (2019, pick #9, 10-3, 119 PF+, 88.2 xStrength, 1.4 xRank, 0.44 xTitles, 0.01 xSackos)
+	-Restroom Fireworks 
+
+ #5 (2018, pick #10, 7-6, 107 PF+, 61.1 xStrength, 4.7 xRank, 0.12 xTitles, 0.03 xSackos)
+	-The Blair Walsh Project 
+
+ #8 (2017, pick #11, 7-6, 100 PF+, 46.5 xStrength, 6.4 xRank, 0.05 xTitles, 0.06 xSackos)
+	-The Golden Gods 
+
+ #9 (2016, pick #5, 5-8, 103 PF+, 53.3 xStrength, 5.6 xRank, 0.08 xTitles, 0.04 xSackos)
+	-Gold Team Rules!! 
+
+ #1 (2015, pick #5, 7-6, 99 PF+, 43.6 xStrength, 6.8 xRank, 0.04 xTitles, 0.07 xSackos)
+	-Gold Team Rules!!"
+Total,Sean Musser,SV-nfl,"Lloyds' Failures
+The Miami Dolphins
+Give Em The Ol Razzle Dazzle
+Yipee Ki Yay Justin Tucker
+DON’T TAKE WR'S IN THE 1ST RND
+The Chicago Lloyds
+Lloyds Junkyard
+Live Laugh Loiyd",6.7,6.1,6.6,6.8,0.0,0.493,1372.6,1381.5,98.7,99.1,102.4,1391.0,-94.7,43.4,6.8,-0.1,0.608,0.818,b'10 (2015 - 2024)',2.9,6.4,6.2,66.0,68.0,13726.43,13815.46,5 (0.50),1 (0.10),"1.0 (0.4 over expected, avg 0.10)","0.0 (-0.8 under expected, avg 0.00)","Sean Musser - SV
+
+#6 (2024, pick #3, 8-6, 108 PF+, 64.2 xStrength, 4.3 xRank, 0.15 xTitles, 0.02 xSackos)
+	-Live Laugh Loiyd 
+
+ #1 (2023, pick #2, 7-7, 110 PF+, 67.2 xStrength, 3.9 xRank, 0.17 xTitles, 0.02 xSackos)
+	-Live Laugh Loiyd 
+
+ #8 (2022, pick #8, 5-9, 92 PF+, 28.4 xStrength, 8.6 xRank, 0.02 xTitles, 0.14 xSackos)
+	-Lloyds Junkyard 
+
+ #8 (2021, pick #8, 7-7, 95 PF+, 34.4 xStrength, 7.9 xRank, 0.03 xTitles, 0.10 xSackos)
+	-Lloyds Junkyard 
+
+ #5 (2020, pick #11, 8-5, 98 PF+, 42.6 xStrength, 6.9 xRank, 0.04 xTitles, 0.07 xSackos)
+	-The Chicago Lloyds 
+
+ #11 (2019, pick #5, 5-8, 92 PF+, 29.7 xStrength, 8.4 xRank, 0.02 xTitles, 0.13 xSackos)
+	-DON’T TAKE WR'S IN THE 1ST RND 
+
+ #6 (2018, pick #2, 8-5, 103 PF+, 53.7 xStrength, 5.6 xRank, 0.08 xTitles, 0.04 xSackos)
+	-Yipee Ki Yay Justin Tucker 
+
+ #7 (2017, pick #10, 5-8, 95 PF+, 34.5 xStrength, 7.9 xRank, 0.03 xTitles, 0.10 xSackos)
+	-Give Em The Ol Razzle Dazzle 
+
+ #11 (2016, pick #4, 5-8, 92 PF+, 28.7 xStrength, 8.6 xRank, 0.02 xTitles, 0.14 xSackos)
+	-The Miami Dolphins 
+
+ #4 (2015, pick #8, 8-5, 102 PF+, 50.4 xStrength, 6.0 xRank, 0.07 xTitles, 0.05 xSackos)
+	-Lloyds' Failures"
+Total,Casey Mangan,SV-nfl,"Precious McNutty
+Casetrain 4th Place!!!!
+Casetrain Spicetrain
+Casey and the Trainspotters
+Here Comes The Hurricase
+Ambulance Chasers
+Pink Men
+Case Train
+TANK Engine",6.9,8.6,6.5,6.9,0.0,0.485,1377.8,1386.9,99.0,99.8,102.8,1390.5,-35.7,44.1,6.7,0.2,0.73,0.916,b'10 (2015 - 2024)',2.9,8.3,2.9,65.0,69.0,13777.93,13869.46,5 (0.50),1 (0.10),"0.0 (-0.7 under expected, avg 0.00)","1.0 (0.1 over expected, avg 0.10)","Casey Mangan - SV
+
+#9 (2024, pick #8, 5-9, 94 PF+, 33.8 xStrength, 7.9 xRank, 0.02 xTitles, 0.11 xSackos)
+	-TANK Engine 
+
+ #9 (2023, pick #11, 7-7, 102 PF+, 50.2 xStrength, 6.0 xRank, 0.07 xTitles, 0.05 xSackos)
+	-Case Train 
+
+ #6 (2022, pick #9, 9-5, 106 PF+, 58.7 xStrength, 5.0 xRank, 0.11 xTitles, 0.03 xSackos)
+	-Case Train 
+
+ #2 (2021, pick #5, 9-5, 108 PF+, 64.1 xStrength, 4.3 xRank, 0.14 xTitles, 0.02 xSackos)
+	-Pink Men 
+
+ #4 (2020, pick #9, 7-6, 112 PF+, 72.7 xStrength, 3.3 xRank, 0.23 xTitles, 0.02 xSackos)
+	-Ambulance Chasers 
+
+ #12 (2019, pick #8, 5-8, 89 PF+, 21.1 xStrength, 9.5 xRank, 0.01 xTitles, 0.19 xSackos)
+	-Here Comes The Hurricase 
+
+ #8 (2018, pick #11, 4-9, 90 PF+, 25.3 xStrength, 9.0 xRank, 0.01 xTitles, 0.16 xSackos)
+	-Casey and the Trainspotters 
+
+ #9 (2017, pick #12, 4-9, 86 PF+, 16.4 xStrength, 10.0 xRank, 0.01 xTitles, 0.23 xSackos)
+	-Casetrain Spicetrain 
+
+ #4 (2016, pick #1, 8-5, 104 PF+, 55.0 xStrength, 5.4 xRank, 0.09 xTitles, 0.04 xSackos)
+	-Casetrain 4th Place!!!! 
+
+ #6 (2015, pick #12, 7-6, 99 PF+, 43.5 xStrength, 6.8 xRank, 0.04 xTitles, 0.07 xSackos)
+	-Precious McNutty"
+Total,Kevin Mangan,SV-nfl,"Kirkshire Mang All Day FC
+LloydGreg EbertMusser
+Return of the Macdaddy McKevn
+Kevin and the Jellyspotters
+The Racist Dragons
+Les Sacs du Douches
+The Kevbots
+Mutha Uckas
+Cheeky Bruvs Innit
+Truck Nutz",7.0,7.6,6.5,6.9,0.0,0.485,1393.6,1432.1,100.2,103.1,104.0,1389.1,430.4,46.6,6.4,0.6,0.968,0.847,b'10 (2015 - 2024)',3.7,9.3,5.6,65.0,69.0,13936.48,14321.13,4 (0.40),2 (0.20),"2.0 (1.0 over expected, avg 0.20)","0.0 (-0.8 under expected, avg 0.00)","Kevin Mangan - SV
+
+#1 (2024, pick #11, 8-6, 113 PF+, 74.3 xStrength, 3.1 xRank, 0.24 xTitles, 0.01 xSackos)
+	-Truck Nutz 
+
+ #8 (2023, pick #3, 7-7, 91 PF+, 27.4 xStrength, 8.7 xRank, 0.02 xTitles, 0.15 xSackos)
+	-Cheeky Bruvs Innit 
+
+ #5 (2022, pick #7, 7-7, 106 PF+, 60.4 xStrength, 4.8 xRank, 0.12 xTitles, 0.03 xSackos)
+	-Mutha Uckas 
+
+ #10 (2021, pick #11, 6-8, 97 PF+, 40.5 xStrength, 7.1 xRank, 0.04 xTitles, 0.08 xSackos)
+	-The Kevbots 
+
+ #11 (2020, pick #10, 4-9, 95 PF+, 34.3 xStrength, 7.9 xRank, 0.02 xTitles, 0.11 xSackos)
+	-Les Sacs du Douches 
+
+ #4 (2019, pick #2, 9-4, 116 PF+, 80.5 xStrength, 2.3 xRank, 0.32 xTitles, 0.01 xSackos)
+	-The Racist Dragons 
+
+ #9 (2018, pick #6, 3-10, 95 PF+, 35.7 xStrength, 7.7 xRank, 0.03 xTitles, 0.10 xSackos)
+	-Kevin and the Jellyspotters 
+
+ #1 (2017, pick #8, 10-3, 109 PF+, 65.0 xStrength, 4.2 xRank, 0.15 xTitles, 0.02 xSackos)
+	-Return of the Macdaddy McKevn 
+
+ #10 (2016, pick #9, 6-7, 87 PF+, 18.4 xStrength, 9.8 xRank, 0.01 xTitles, 0.22 xSackos)
+	-LloydGreg EbertMusser 
+
+ #11 (2015, pick #9, 5-8, 93 PF+, 30.0 xStrength, 8.4 xRank, 0.02 xTitles, 0.13 xSackos)
+	-Kirkshire Mang All Day FC"
+Total,James McKenna,SV-nfl,"Hit Squad
+Hotgod Squad",7.6,6.8,6.7,6.7,0.0,0.5,1379.5,1387.0,99.4,99.8,102.9,1390.4,-33.7,44.9,6.6,0.9,0.603,0.737,b'10 (2015 - 2024)',2.4,5.5,1.8,67.0,67.0,13794.55,13870.19,5 (0.50),0 (0.00),"0.0 (-0.6 under expected, avg 0.00)","0.5 (-0.2 under expected, avg 0.05)","James McKenna - SV
+
+#5 (2024, pick #6, 7-7, 106 PF+, 59.2 xStrength, 4.9 xRank, 0.11 xTitles, 0.03 xSackos)
+	-Hit Squad 
+
+ #5 (2023, pick #9, 8-6, 97 PF+, 40.0 xStrength, 7.2 xRank, 0.04 xTitles, 0.08 xSackos)
+	-Hit Squad 
+
+ #11.5 (2022, pick #10, 7-7, 93 PF+, 30.2 xStrength, 8.4 xRank, 0.02 xTitles, 0.13 xSackos)
+	-Hit Squad 
+
+ #11 (2021, pick #10, 7-7, 96 PF+, 37.2 xStrength, 7.5 xRank, 0.03 xTitles, 0.09 xSackos)
+	-Hit Squad 
+
+ #8 (2020, pick #4, 7-6, 100 PF+, 45.4 xStrength, 6.6 xRank, 0.05 xTitles, 0.06 xSackos)
+	-Hit Squad 
+
+ #6 (2019, pick #1, 4-9, 97 PF+, 39.4 xStrength, 7.3 xRank, 0.03 xTitles, 0.08 xSackos)
+	-Hit Squad 
+
+ #10 (2018, pick #1, 6-7, 90 PF+, 25.1 xStrength, 9.0 xRank, 0.01 xTitles, 0.16 xSackos)
+	-Hotgod Squad 
+
+ #5 (2017, pick #9, 7-6, 107 PF+, 61.8 xStrength, 4.6 xRank, 0.13 xTitles, 0.03 xSackos)
+	-Hit Squad 
+
+ #6 (2016, pick #11, 8-5, 106 PF+, 59.9 xStrength, 4.8 xRank, 0.11 xTitles, 0.03 xSackos)
+	-Hit Squad 
+
+ #8 (2015, pick #7, 6-7, 102 PF+, 51.1 xStrength, 5.9 xRank, 0.07 xTitles, 0.05 xSackos)
+	-Hit Squad"
+Total,Danny Noonan,SV-nfl,"Fantastisch Mensch
+Fantastic Men",8.2,4.7,5.4,8.0,0.0,0.403,1313.9,1412.4,94.8,101.2,98.1,1396.3,160.3,34.8,7.8,0.3,0.423,1.365,b'10 (2015 - 2024)',3.5,8.2,5.2,54.0,80.0,13139.25,14123.65,3 (0.30),2 (0.20),"0.5 (0.1 over expected, avg 0.05)","2.0 (0.6 over expected, avg 0.20)","Danny Noonan - SV
+
+#12 (2024, pick #7, 5-9, 88 PF+, 19.1 xStrength, 9.7 xRank, 0.01 xTitles, 0.21 xSackos)
+	-Fantastic Men 
+
+ #10 (2023, pick #4, 7-7, 95 PF+, 34.7 xStrength, 7.8 xRank, 0.03 xTitles, 0.10 xSackos)
+	-Fantastic Men 
+
+ #1.5 (2022, pick #4, 7-7, 102 PF+, 50.2 xStrength, 6.0 xRank, 0.07 xTitles, 0.05 xSackos)
+	-Fantastic Men 
+
+ #12 (2021, pick #1, 4-10, 84 PF+, 11.9 xStrength, 10.6 xRank, 0.01 xTitles, 0.28 xSackos)
+	-Fantastic Men 
+
+ #9 (2020, pick #2, 1-12, 81 PF+, 3.6 xStrength, 11.6 xRank, 0.00 xTitles, 0.38 xSackos)
+	-Fantastic Men 
+
+ #10 (2019, pick #4, 5-8, 93 PF+, 30.7 xStrength, 8.3 xRank, 0.02 xTitles, 0.12 xSackos)
+	-Fantastic Men 
+
+ #11 (2018, pick #8, 6-7, 95 PF+, 34.7 xStrength, 7.8 xRank, 0.03 xTitles, 0.10 xSackos)
+	-Fantastisch Mensch 
+
+ #6 (2017, pick #4, 4-9, 100 PF+, 46.8 xStrength, 6.4 xRank, 0.05 xTitles, 0.06 xSackos)
+	-Fantastisch Mensch 
+
+ #3 (2016, pick #7, 9-4, 107 PF+, 61.7 xStrength, 4.6 xRank, 0.13 xTitles, 0.03 xSackos)
+	-Fantastic Men 
+
+ #7 (2015, pick #6, 6-7, 104 PF+, 55.1 xStrength, 5.4 xRank, 0.09 xTitles, 0.04 xSackos)
+	-Fantastic Men"
+Total,Mitchell Vierhus,SV-nfl,"U can run, but you can't Hyde",10.0,11.0,3.0,10.0,0.0,0.231,963.8,1267.1,82.3,106.5,74.1,1190.0,77.1,7.3,11.1,-1.1,0.005,0.331,b'1 (2015 - 2015)',0.0,0.0,0.0,3.0,10.0,963.8,1267.1,0 (0.00),0 (0.00),"0.0 (0.0 under expected, avg 0.00)","0.0 (-0.3 under expected, avg 0.00)","Mitchell Vierhus - SV
+
+#10 (2015, pick #11, 3-10, 82 PF+, 7.3 xStrength, 11.1 xRank, 0.00 xTitles, 0.33 xSackos)
+	-U can run, but you can't Hyde"
+2024,Kevin Mangan,SV-nfl,Truck Nutz,1.0,11.0,8.0,6.0,0.0,0.571,1669.28,1539.35,112.8,105.2,119.2,1463.1,76.3,74.3,3.1,-2.1,0.243,0.014,,,,,,,,,,,,,
+2024,Kyle McNulty,SV-nfl,Off Constantly,2.0,5.0,8.0,6.0,0.0,0.571,1599.95,1521.29,108.1,103.5,114.3,1469.4,51.9,64.0,4.3,-2.3,0.143,0.024,,,,,,,,,,,,,
+2024,Trevor Carney,SV-nfl,The Hall Monitor,3.0,2.0,10.0,4.0,0.0,0.714,1610.91,1481.75,108.8,100.9,115.1,1468.4,13.4,65.6,4.1,-1.1,0.156,0.022,,,,,,,,,,,,,
+2024,Gregory Ebert,SV-nfl,Academic Weapons,4.0,9.0,11.0,3.0,0.0,0.786,1511.74,1264.9,102.1,85.6,108.0,1477.5,-212.6,50.9,5.9,-1.9,0.068,0.047,,,,,,,,,,,,,
+2024,James McKenna,SV-nfl,Hit Squad,5.0,6.0,7.0,7.0,0.0,0.5,1567.94,1483.28,105.9,100.7,112.0,1472.3,11.0,59.2,4.9,0.1,0.11,0.03,,,,,,,,,,,,,
+2024,Sean Musser,SV-nfl,Live Laugh Loiyd,6.0,3.0,8.0,6.0,0.0,0.571,1601.49,1428.34,108.2,97.2,114.4,1469.3,-41.0,64.2,4.3,1.7,0.145,0.024,,,,,,,,,,,,,
+2024,Connor Reed,SV-nfl,got time for a quick chat,7.0,10.0,6.0,8.0,0.0,0.429,1533.79,1504.49,103.6,102.0,109.6,1475.5,29.0,54.1,5.5,1.5,0.082,0.04,,,,,,,,,,,,,
+2024,Tyler Edwards,SV-nfl,TOADAL DOMINATION,8.0,1.0,4.0,10.0,0.0,0.286,1211.71,1509.82,81.9,100.3,86.6,1504.7,5.1,6.3,11.2,-3.2,0.004,0.342,,,,,,,,,,,,,
+2024,Casey Mangan,SV-nfl,TANK Engine,9.0,8.0,5.0,9.0,0.0,0.357,1396.71,1489.5,94.4,100.1,99.8,1487.9,1.6,33.8,7.9,1.1,0.024,0.108,,,,,,,,,,,,,
+2024,Matt Abraham,SV-nfl,The sh1t out of Miles,10.0,4.0,5.0,9.0,0.0,0.357,1362.32,1532.02,92.0,102.7,97.3,1491.0,41.0,28.7,8.6,1.4,0.018,0.137,,,,,,,,,,,,,
+2024,Donovan Sheridan,SV-nfl,Better Business Burrow,11.0,12.0,7.0,7.0,0.0,0.5,1400.35,1454.32,94.6,97.8,100.0,1487.6,-33.3,34.3,7.9,3.1,0.025,0.105,,,,,,,,,,,,,
+2024,Danny Noonan,SV-nfl,Fantastic Men,12.0,7.0,5.0,9.0,0.0,0.357,1297.59,1554.72,87.7,103.9,92.7,1496.9,57.8,19.1,9.7,2.3,0.01,0.209,,,,,,,,,,,,,
+2023,Sean Musser,SV-nfl,Live Laugh Loiyd,1.0,2.0,7.0,7.0,0.0,0.5,1609.51,1666.2,109.6,114.4,115.0,1456.1,210.1,67.2,3.9,-2.9,0.171,0.02,,,,,,,,,,,,,
+2023,Gregory Ebert,SV-nfl,Love Laugh Loid,2.0,1.0,8.0,6.0,0.0,0.571,1551.77,1462.36,105.6,100.1,110.8,1461.3,1.1,58.6,5.0,-3.0,0.107,0.031,,,,,,,,,,,,,
+2023,Donovan Sheridan,SV-nfl,Kelce You in the Finals,3.0,7.0,9.0,5.0,0.0,0.643,1621.49,1383.32,110.4,95.1,115.8,1455.0,-71.7,69.0,3.7,-0.7,0.188,0.018,,,,,,,,,,,,,
+2023,Kyle McNulty,SV-nfl,Off Constantly,4.0,6.0,12.0,2.0,0.0,0.857,1713.3,1209.68,116.6,83.6,122.4,1446.6,-236.9,82.8,2.1,1.9,0.355,0.009,,,,,,,,,,,,,
+2023,James McKenna,SV-nfl,Hit Squad,5.0,9.0,8.0,6.0,0.0,0.571,1427.67,1457.45,97.2,99.0,102.0,1472.6,-15.2,40.0,7.2,-2.2,0.036,0.08,,,,,,,,,,,,,
+2023,Matt Abraham,SV-nfl,ToadQuille Frogmeal,6.0,5.0,7.0,7.0,0.0,0.5,1537.15,1457.1,104.7,99.6,109.8,1462.6,-5.5,56.4,5.2,0.8,0.094,0.035,,,,,,,,,,,,,
+2023,Tyler Edwards,SV-nfl,TOADAL DOMINATION,7.0,10.0,7.0,7.0,0.0,0.5,1424.42,1413.09,97.0,95.9,101.7,1472.9,-59.8,39.6,7.3,-0.3,0.035,0.082,,,,,,,,,,,,,
+2023,Kevin Mangan,SV-nfl,Cheeky Bruvs Innit,8.0,3.0,7.0,7.0,0.0,0.5,1342.88,1458.36,91.4,98.5,95.9,1480.3,-21.9,27.4,8.7,-0.7,0.016,0.146,,,,,,,,,,,,,
+2023,Casey Mangan,SV-nfl,Case Train,9.0,11.0,7.0,7.0,0.0,0.5,1495.86,1480.03,101.8,100.9,106.8,1466.4,13.6,50.2,6.0,3.0,0.066,0.048,,,,,,,,,,,,,
+2023,Danny Noonan,SV-nfl,Fantastic Men,10.0,4.0,7.0,7.0,0.0,0.5,1392.09,1441.71,94.8,97.7,99.4,1475.8,-34.1,34.7,7.8,2.2,0.026,0.103,,,,,,,,,,,,,
+2023,Connor Reed,SV-nfl,rinvoq,11.0,12.0,3.0,11.0,0.0,0.214,1277.64,1540.05,87.0,103.6,91.3,1486.2,53.9,17.6,9.9,1.1,0.009,0.222,,,,,,,,,,,,,
+2023,Trevor Carney,SV-nfl,The Hall Monitor,12.0,8.0,2.0,12.0,0.0,0.143,1232.4,1656.83,83.9,111.2,88.0,1490.3,166.5,10.8,10.7,1.3,0.006,0.291,,,,,,,,,,,,,
+2022,Danny Noonan,SV-nfl,Fantastic Men,1.5,4.0,7.0,7.0,0.0,0.5,1475.12,1444.61,101.8,99.9,105.4,1446.7,-2.1,50.2,6.0,-4.5,0.065,0.048,,,,,,,,,,,,,
+2022,Connor Reed,SV-nfl,Microsoft Powerpoint,1.5,6.0,8.0,6.0,0.0,0.571,1609.3,1470.13,111.1,102.5,115.0,1434.5,35.6,70.5,3.5,-2.0,0.202,0.017,,,,,,,,,,,,,
+2022,Tyler Edwards,SV-nfl,The Hall Monitor,3.0,11.0,9.0,5.0,0.0,0.643,1572.61,1428.37,108.5,99.3,112.3,1437.8,-9.4,64.9,4.2,-1.2,0.151,0.023,,,,,,,,,,,,,
+2022,Trevor Carney,SV-nfl,TOADAL DOMINATION,4.0,12.0,11.0,3.0,0.0,0.786,1511.31,1335.84,104.3,92.5,108.0,1443.4,-107.6,55.6,5.3,-1.3,0.09,0.037,,,,,,,,,,,,,
+2022,Kevin Mangan,SV-nfl,Mutha Uckas,5.0,7.0,7.0,7.0,0.0,0.5,1542.62,1518.24,106.5,105.4,110.2,1440.5,77.7,60.4,4.8,0.3,0.118,0.029,,,,,,,,,,,,,
+2022,Casey Mangan,SV-nfl,Case Train,6.0,9.0,9.0,5.0,0.0,0.643,1531.6,1407.91,105.7,97.7,109.4,1441.5,-33.6,58.7,5.0,1.1,0.107,0.031,,,,,,,,,,,,,
+2022,Donovan Sheridan,SV-nfl,Kupp my balls,7.0,3.0,6.0,8.0,0.0,0.429,1448.09,1422.96,99.9,98.2,103.4,1449.1,-26.1,46.1,6.5,0.5,0.051,0.059,,,,,,,,,,,,,
+2022,Sean Musser,SV-nfl,Lloyds Junkyard,8.0,8.0,5.0,9.0,0.0,0.357,1331.37,1463.4,91.9,100.2,95.1,1459.8,3.6,28.4,8.6,-0.6,0.017,0.139,,,,,,,,,,,,,
+2022,Kyle McNulty,SV-nfl,Small TDs,9.0,2.0,6.0,8.0,0.0,0.429,1332.55,1361.92,92.0,93.3,95.2,1459.6,-97.7,28.5,8.6,0.4,0.018,0.138,,,,,,,,,,,,,
+2022,Gregory Ebert,SV-nfl,LOVER BOYS,10.0,1.0,3.0,11.0,0.0,0.214,1283.25,1519.43,88.6,103.8,91.7,1464.1,55.3,21.1,9.5,0.5,0.011,0.192,,,,,,,,,,,,,
+2022,Matt Abraham,SV-nfl,Shaquille O'atmeal,11.5,5.0,6.0,8.0,0.0,0.429,1407.49,1565.4,97.1,107.7,100.5,1452.8,112.6,39.9,7.2,4.3,0.035,0.081,,,,,,,,,,,,,
+2022,James McKenna,SV-nfl,Hit Squad,11.5,10.0,7.0,7.0,0.0,0.5,1343.32,1450.43,92.7,99.4,96.0,1458.7,-8.3,30.2,8.4,3.1,0.019,0.128,,,,,,,,,,,,,
+2021,Tyler Edwards,SV-nfl,TOADAL DOMINATION,1.0,3.0,10.0,4.0,0.0,0.714,1747.63,1535.01,117.5,104.9,124.8,1463.2,71.8,84.7,1.8,-0.8,0.384,0.008,,,,,,,,,,,,,
+2021,Casey Mangan,SV-nfl,Pink Men,2.0,5.0,9.0,5.0,0.0,0.643,1607.78,1405.08,108.1,95.2,114.8,1475.9,-70.8,64.1,4.3,-2.3,0.144,0.024,,,,,,,,,,,,,
+2021,Matt Abraham,SV-nfl,Shaquille O'atmeal,3.0,12.0,9.0,5.0,0.0,0.643,1578.01,1414.48,106.1,95.7,112.7,1478.6,-64.1,59.7,4.8,-1.8,0.113,0.03,,,,,,,,,,,,,
+2021,Donovan Sheridan,SV-nfl,Oahu Can u digg it,4.0,9.0,9.0,5.0,0.0,0.643,1567.09,1425.19,105.4,96.3,111.9,1479.6,-54.4,58.0,5.0,-1.0,0.103,0.032,,,,,,,,,,,,,
+2021,Gregory Ebert,SV-nfl,BEAUTIFUL BOYS,5.0,4.0,7.0,7.0,0.0,0.5,1508.82,1443.55,101.5,97.2,107.8,1484.9,-41.4,49.4,6.1,-1.1,0.063,0.05,,,,,,,,,,,,,
+2021,Kyle McNulty,SV-nfl,Detroit Lions 2020,6.0,7.0,7.0,7.0,0.0,0.5,1470.61,1390.92,98.9,93.5,105.0,1488.4,-97.5,43.8,6.8,-0.8,0.045,0.067,,,,,,,,,,,,,
+2021,Connor Reed,SV-nfl,Shel Oilstein,7.0,6.0,3.0,11.0,0.0,0.214,1375.69,1755.81,92.5,117.3,98.3,1497.0,258.8,29.8,8.4,-1.4,0.019,0.13,,,,,,,,,,,,,
+2021,Sean Musser,SV-nfl,Lloyds Junkyard,8.0,8.0,7.0,7.0,0.0,0.5,1407.31,1512.19,94.6,101.2,100.5,1494.2,18.0,34.4,7.9,0.1,0.025,0.105,,,,,,,,,,,,,
+2021,Trevor Carney,SV-nfl,The Hall Monitor,9.0,2.0,6.0,8.0,0.0,0.429,1450.54,1461.48,97.6,98.1,103.6,1490.2,-28.7,40.8,7.1,1.9,0.037,0.077,,,,,,,,,,,,,
+2021,Kevin Mangan,SV-nfl,The Kevbots,10.0,11.0,6.0,8.0,0.0,0.429,1448.56,1472.18,97.4,98.8,103.5,1490.4,-18.2,40.5,7.1,2.9,0.037,0.078,,,,,,,,,,,,,
+2021,James McKenna,SV-nfl,Hit Squad,11.0,10.0,7.0,7.0,0.0,0.5,1426.09,1497.12,95.9,100.3,101.9,1492.5,4.6,37.2,7.5,3.5,0.03,0.092,,,,,,,,,,,,,
+2021,Danny Noonan,SV-nfl,Fantastic Men,12.0,1.0,4.0,10.0,0.0,0.286,1254.99,1530.11,84.4,101.5,89.6,1508.0,22.1,11.9,10.6,1.4,0.006,0.279,,,,,,,,,,,,,
+2020,Donovan Sheridan,SV-nfl,Oahu Hippity Hopkins,1.0,6.0,9.0,4.0,0.0,0.692,1439.38,1351.43,104.9,98.9,110.7,1366.5,-15.1,56.9,5.2,-4.2,0.097,0.034,,,,,,,,,,,,,
+2020,Tyler Edwards,SV-nfl,TOADAL DOMINATION,2.0,5.0,8.0,5.0,0.0,0.615,1578.41,1365.92,115.0,100.9,121.4,1353.9,12.0,79.2,2.5,-0.5,0.305,0.011,,,,,,,,,,,,,
+2020,Connor Reed,SV-nfl,stephen root,3.0,1.0,8.0,5.0,0.0,0.615,1433.61,1308.13,104.4,95.7,110.3,1367.0,-58.9,56.0,5.3,-2.3,0.092,0.036,,,,,,,,,,,,,
+2020,Casey Mangan,SV-nfl,Ambulance Chasers,4.0,9.0,7.0,6.0,0.0,0.538,1538.28,1350.44,112.1,99.5,118.3,1357.5,-7.1,72.7,3.3,0.7,0.226,0.015,,,,,,,,,,,,,
+2020,Sean Musser,SV-nfl,The Chicago Lloyds,5.0,11.0,8.0,5.0,0.0,0.615,1350.05,1331.93,98.4,96.9,103.9,1374.6,-42.7,42.6,6.9,-1.9,0.042,0.071,,,,,,,,,,,,,
+2020,Gregory Ebert,SV-nfl,KPOP SUPRSTRS,6.0,8.0,8.0,5.0,0.0,0.615,1480.69,1372.86,107.9,100.7,113.9,1362.7,10.2,63.5,4.4,1.6,0.14,0.024,,,,,,,,,,,,,
+2020,Trevor Carney,SV-nfl,The Hall Monitor,7.0,12.0,7.0,6.0,0.0,0.538,1435.64,1395.36,104.6,102.1,110.4,1366.8,28.6,56.3,5.2,1.8,0.093,0.035,,,,,,,,,,,,,
+2020,James McKenna,SV-nfl,Hit Squad,8.0,4.0,7.0,6.0,0.0,0.538,1367.53,1346.61,99.6,98.1,105.2,1373.0,-26.4,45.4,6.6,1.5,0.049,0.061,,,,,,,,,,,,,
+2020,Danny Noonan,SV-nfl,Fantastic Men,9.0,2.0,1.0,12.0,0.0,0.077,1106.56,1540.2,80.6,110.3,85.1,1396.8,143.4,3.6,11.6,-2.6,0.004,0.375,,,,,,,,,,,,,
+2020,Matt Abraham,SV-nfl,Bush did 7/11,10.0,3.0,6.0,7.0,0.0,0.462,1365.35,1228.68,99.5,89.5,105.0,1373.2,-144.5,45.0,6.6,3.4,0.048,0.062,,,,,,,,,,,,,
+2020,Kevin Mangan,SV-nfl,Les Sacs du Douches,11.0,10.0,4.0,9.0,0.0,0.308,1298.04,1560.2,94.6,113.1,99.8,1379.3,180.9,34.3,7.9,3.1,0.025,0.106,,,,,,,,,,,,,
+2020,Kyle McNulty,SV-nfl,Team 2020,12.0,7.0,5.0,8.0,0.0,0.385,1077.29,1319.07,78.5,94.3,82.9,1399.4,-80.3,-1.1,12.1,-0.1,0.003,0.435,,,,,,,,,,,,,
+2019,Trevor Carney,SV-nfl,Hot Fuzz,1.0,11.0,7.0,6.0,0.0,0.538,1395.5,1349.1,102.1,98.9,107.3,1364.5,-15.4,50.8,5.9,-4.9,0.068,0.047,,,,,,,,,,,,,
+2019,Connor Reed,SV-nfl,Nature Pics,2.0,7.0,10.0,3.0,0.0,0.769,1518.0,1448.3,111.0,107.0,116.8,1353.4,94.9,70.5,3.6,-1.6,0.202,0.017,,,,,,,,,,,,,
+2019,Matt Abraham,SV-nfl,Restroom Fireworks,3.0,9.0,10.0,3.0,0.0,0.769,1628.3,1418.7,119.1,105.6,125.3,1343.4,75.3,88.2,1.4,1.6,0.437,0.007,,,,,,,,,,,,,
+2019,Kevin Mangan,SV-nfl,The Racist Dragons,4.0,2.0,9.0,4.0,0.0,0.692,1580.3,1364.7,115.6,101.3,121.6,1347.7,17.0,80.5,2.3,1.7,0.322,0.01,,,,,,,,,,,,,
+2019,Donovan Sheridan,SV-nfl,Cummin for your ASS,5.0,3.0,9.0,4.0,0.0,0.692,1386.3,1287.2,101.4,94.3,106.6,1365.4,-78.2,49.3,6.1,-1.1,0.062,0.051,,,,,,,,,,,,,
+2019,James McKenna,SV-nfl,Hit Squad,6.0,1.0,4.0,9.0,0.0,0.308,1324.6,1340.5,96.9,97.8,101.9,1371.0,-30.5,39.4,7.3,-1.3,0.034,0.083,,,,,,,,,,,,,
+2019,Gregory Ebert,SV-nfl,rawr XD,7.0,12.0,5.0,8.0,0.0,0.385,1286.8,1342.7,94.1,97.7,99.0,1374.4,-31.7,33.3,8.0,-1.0,0.023,0.111,,,,,,,,,,,,,
+2019,Tyler Edwards,SV-nfl,TOADAL DOMINATION,8.0,6.0,5.0,8.0,0.0,0.385,1281.0,1387.8,93.7,100.9,98.5,1374.9,12.9,32.4,8.1,-0.1,0.022,0.116,,,,,,,,,,,,,
+2019,Kyle McNulty,SV-nfl,I AM CHUBB,9.0,10.0,4.0,9.0,0.0,0.308,1258.2,1373.5,92.0,99.7,96.8,1377.0,-3.5,28.7,8.6,0.4,0.018,0.137,,,,,,,,,,,,,
+2019,Danny Noonan,SV-nfl,Fantastic Men,10.0,4.0,5.0,8.0,0.0,0.385,1270.9,1317.2,93.0,95.7,97.8,1375.9,-58.7,30.7,8.3,1.7,0.02,0.125,,,,,,,,,,,,,
+2019,Sean Musser,SV-nfl,DON’T TAKE WR'S IN THE 1ST RND,11.0,5.0,5.0,8.0,0.0,0.385,1264.3,1312.8,92.5,95.4,97.3,1376.5,-63.7,29.7,8.4,2.6,0.019,0.131,,,,,,,,,,,,,
+2019,Casey Mangan,SV-nfl,Here Comes The Hurricase,12.0,8.0,5.0,8.0,0.0,0.385,1211.2,1462.9,88.6,105.9,93.2,1381.3,81.6,21.1,9.5,2.5,0.011,0.192,,,,,,,,,,,,,
+2018,Kyle McNulty,SV-nfl,Big Nick Chubb,1.0,3.0,10.0,3.0,0.0,0.769,1482.6,1236.9,104.1,87.2,114.0,1419.2,-182.3,55.2,5.4,-4.4,0.088,0.037,,,,,,,,,,,,,
+2018,Gregory Ebert,SV-nfl,TOO MANY COOKS,2.0,7.0,8.0,5.0,0.0,0.615,1453.3,1422.7,102.0,100.1,111.8,1421.8,0.9,50.7,5.9,-3.9,0.067,0.047,,,,,,,,,,,,,
+2018,Connor Reed,SV-nfl,The ANTZ,3.0,12.0,10.0,3.0,0.0,0.769,1694.6,1331.7,119.0,95.1,130.4,1399.9,-68.2,87.9,1.5,1.5,0.432,0.007,,,,,,,,,,,,,
+2018,Tyler Edwards,SV-nfl,TOADAL DOMINATION,4.0,4.0,5.0,8.0,0.0,0.385,1483.9,1494.8,104.2,105.3,114.1,1419.1,75.7,55.4,5.4,-1.4,0.089,0.037,,,,,,,,,,,,,
+2018,Matt Abraham,SV-nfl,The Blair Walsh Project,5.0,10.0,7.0,6.0,0.0,0.538,1521.1,1399.9,106.8,98.9,117.0,1415.7,-15.8,61.1,4.7,0.3,0.123,0.028,,,,,,,,,,,,,
+2018,Sean Musser,SV-nfl,Yipee Ki Yay Justin Tucker,6.0,2.0,8.0,5.0,0.0,0.615,1473.0,1430.2,103.4,100.7,113.3,1420.1,10.1,53.7,5.6,0.4,0.08,0.04,,,,,,,,,,,,,
+2018,Donovan Sheridan,SV-nfl,Tickle Me ELMO,7.0,9.0,5.0,8.0,0.0,0.385,1312.7,1447.4,92.2,100.9,101.0,1434.6,12.8,29.0,8.5,-1.5,0.018,0.135,,,,,,,,,,,,,
+2018,Casey Mangan,SV-nfl,Casey and the Trainspotters,8.0,11.0,4.0,9.0,0.0,0.308,1288.8,1471.2,90.5,102.4,99.1,1436.8,34.4,25.3,9.0,-1.0,0.014,0.16,,,,,,,,,,,,,
+2018,Kevin Mangan,SV-nfl,Kevin and the Jellyspotters,9.0,6.0,3.0,10.0,0.0,0.231,1356.2,1599.2,95.2,111.8,104.3,1430.7,168.5,35.7,7.7,1.3,0.027,0.099,,,,,,,,,,,,,
+2018,James McKenna,SV-nfl,Hotgod Squad,10.0,1.0,6.0,7.0,0.0,0.462,1287.9,1393.2,90.4,97.0,99.1,1436.9,-43.7,25.1,9.0,1.0,0.014,0.161,,,,,,,,,,,,,
+2018,Danny Noonan,SV-nfl,Fantastisch Mensch,11.0,8.0,6.0,7.0,0.0,0.462,1349.8,1350.0,94.8,94.3,103.8,1431.3,-81.3,34.7,7.8,3.2,0.026,0.104,,,,,,,,,,,,,
+2018,Trevor Carney,SV-nfl,Hot Fuzz,12.0,5.0,6.0,7.0,0.0,0.462,1389.7,1516.4,97.6,106.2,106.9,1427.6,88.8,40.8,7.1,4.9,0.037,0.077,,,,,,,,,,,,,
+2017,Kevin Mangan,SV-nfl,Return of the Macdaddy McKevn,1.0,8.0,10.0,3.0,0.0,0.769,1422.3,1320.6,108.6,101.6,109.4,1300.1,20.5,65.0,4.2,-3.2,0.152,0.023,,,,,,,,,,,,,
+2017,Trevor Carney,SV-nfl,Hot Fuzz,2.0,2.0,11.0,2.0,0.0,0.846,1402.7,1194.5,107.1,91.8,107.9,1301.9,-107.4,61.7,4.6,-2.6,0.127,0.027,,,,,,,,,,,,,
+2017,Connor Reed,SV-nfl,Ryan Edwards,3.0,7.0,7.0,6.0,0.0,0.538,1337.4,1353.6,102.1,103.5,102.9,1307.8,45.8,50.8,5.9,-2.9,0.068,0.047,,,,,,,,,,,,,
+2017,Donovan Sheridan,SV-nfl,Tickle Me ELMO,4.0,3.0,7.0,6.0,0.0,0.538,1411.2,1233.2,107.7,94.8,108.6,1301.1,-67.9,63.1,4.4,-0.4,0.137,0.025,,,,,,,,,,,,,
+2017,James McKenna,SV-nfl,Hit Squad,5.0,9.0,7.0,6.0,0.0,0.538,1403.3,1311.2,107.1,100.7,107.9,1301.8,9.4,61.8,4.6,0.4,0.127,0.027,,,,,,,,,,,,,
+2017,Danny Noonan,SV-nfl,Fantastisch Mensch,6.0,4.0,4.0,9.0,0.0,0.308,1313.8,1442.4,100.3,110.1,101.1,1309.9,132.5,46.8,6.4,-0.4,0.053,0.057,,,,,,,,,,,,,
+2017,Sean Musser,SV-nfl,Give Em The Ol Razzle Dazzle,7.0,10.0,5.0,8.0,0.0,0.385,1240.5,1308.9,94.7,99.4,95.4,1316.6,-7.7,34.5,7.9,-0.9,0.025,0.104,,,,,,,,,,,,,
+2017,Matt Abraham,SV-nfl,The Golden Gods,8.0,11.0,7.0,6.0,0.0,0.538,1311.8,1220.4,100.1,93.2,100.9,1310.1,-89.7,46.5,6.4,1.6,0.052,0.058,,,,,,,,,,,,,
+2017,Casey Mangan,SV-nfl,Casetrain Spicetrain,9.0,12.0,4.0,9.0,0.0,0.308,1132.7,1308.8,86.4,98.7,87.1,1326.4,-17.6,16.4,10.0,-1.0,0.008,0.233,,,,,,,,,,,,,
+2017,Kyle McNulty,SV-nfl,Flash... AAHHHHHH!!,10.0,1.0,6.0,7.0,0.0,0.462,1240.0,1359.7,94.6,103.3,95.4,1316.6,43.1,34.4,7.9,2.1,0.025,0.105,,,,,,,,,,,,,
+2017,Tyler Edwards,SV-nfl,TOADAL DOMINATION,11.0,5.0,6.0,7.0,0.0,0.462,1254.6,1341.7,95.8,102.0,96.5,1315.3,26.4,36.9,7.6,3.4,0.029,0.093,,,,,,,,,,,,,
+2017,Gregory Ebert,SV-nfl,Stand-Up Comedians,12.0,6.0,4.0,9.0,0.0,0.308,1252.8,1327.9,95.6,100.9,96.4,1315.5,12.4,36.6,7.6,4.4,0.029,0.095,,,,,,,,,,,,,
+2016,Connor Reed,SV-nfl,A Grizzly Bear,1.0,12.0,9.0,4.0,0.0,0.692,1482.2,1375.2,108.7,101.6,114.0,1353.2,22.0,65.2,4.2,-3.2,0.154,0.022,,,,,,,,,,,,,
+2016,Kyle McNulty,SV-nfl,Remember the Titans,2.0,3.0,5.0,8.0,0.0,0.385,1420.6,1425.4,104.2,104.9,109.3,1358.8,66.6,55.3,5.4,-3.4,0.088,0.037,,,,,,,,,,,,,
+2016,Danny Noonan,SV-nfl,Fantastic Men,3.0,7.0,9.0,4.0,0.0,0.692,1460.1,1323.2,107.0,97.6,112.3,1355.2,-32.0,61.7,4.6,-1.6,0.127,0.027,,,,,,,,,,,,,
+2016,Casey Mangan,SV-nfl,Casetrain 4th Place!!!!,4.0,1.0,8.0,5.0,0.0,0.615,1418.4,1311.4,104.0,96.5,109.1,1359.0,-47.6,55.0,5.4,-1.4,0.087,0.038,,,,,,,,,,,,,
+2016,Donovan Sheridan,SV-nfl,Kill or Be killed,5.0,2.0,8.0,5.0,0.0,0.615,1452.3,1354.9,106.5,99.9,111.7,1356.0,-1.1,60.4,4.8,0.3,0.118,0.029,,,,,,,,,,,,,
+2016,James McKenna,SV-nfl,Hit Squad,6.0,11.0,8.0,5.0,0.0,0.615,1449.2,1391.0,106.2,102.6,111.5,1356.2,34.8,59.9,4.8,1.2,0.115,0.029,,,,,,,,,,,,,
+2016,Trevor Carney,SV-nfl,Hot Fuzz,7.0,10.0,5.0,8.0,0.0,0.385,1416.5,1450.6,103.9,106.7,109.0,1359.2,91.4,54.7,5.4,1.6,0.085,0.038,,,,,,,,,,,,,
+2016,Tyler Edwards,SV-nfl,TOADAL DOMINATION,8.0,6.0,3.0,10.0,0.0,0.231,1152.7,1415.0,84.5,102.3,88.7,1383.2,31.8,12.2,10.5,-2.5,0.006,0.276,,,,,,,,,,,,,
+2016,Matt Abraham,SV-nfl,Gold Team Rules!!,9.0,5.0,5.0,8.0,0.0,0.385,1408.1,1380.7,103.2,101.5,108.3,1360.0,20.7,53.3,5.6,3.4,0.079,0.041,,,,,,,,,,,,,
+2016,Kevin Mangan,SV-nfl,LloydGreg EbertMusser,10.0,9.0,6.0,7.0,0.0,0.462,1191.5,1307.6,87.4,94.8,91.7,1379.7,-72.1,18.4,9.8,0.2,0.009,0.215,,,,,,,,,,,,,
+2016,Sean Musser,SV-nfl,The Miami Dolphins,11.0,4.0,5.0,8.0,0.0,0.385,1255.5,1325.7,92.0,96.5,96.6,1373.8,-48.1,28.7,8.6,2.5,0.018,0.137,,,,,,,,,,,,,
+2016,Gregory Ebert,SV-nfl,Life is Impermanent,12.0,8.0,7.0,6.0,0.0,0.538,1260.7,1306.9,92.4,95.2,97.0,1373.4,-66.5,29.6,8.5,3.6,0.019,0.132,,,,,,,,,,,,,
+2015,Matt Abraham,SV-nfl,Gold Team Rules!!,1.0,5.0,7.0,6.0,0.0,0.538,1157.5,1152.8,98.8,98.3,89.0,1172.4,-19.6,43.6,6.8,-5.8,0.044,0.067,,,,,,,,,,,,,
+2015,Kyle McNulty,SV-nfl,The Great Cornjulio,2.0,2.0,12.0,1.0,0.0,0.923,1384.7,1108.5,118.2,96.2,106.5,1151.7,-43.2,86.3,1.7,0.4,0.407,0.007,,,,,,,,,,,,,
+2015,Gregory Ebert,SV-nfl,GREGADELPHIA GREG'S,3.0,3.0,7.0,6.0,0.0,0.538,1115.6,1068.1,95.3,90.8,85.8,1176.2,-108.1,35.8,7.7,-4.7,0.027,0.098,,,,,,,,,,,,,
+2015,Sean Musser,SV-nfl,Lloyds' Failures,4.0,8.0,8.0,5.0,0.0,0.615,1193.4,1035.8,101.9,88.6,91.8,1169.1,-133.3,50.4,6.0,-2.0,0.066,0.048,,,,,,,,,,,,,
+2015,Donovan Sheridan,SV-nfl,Kill or Be killed,5.0,4.0,6.0,7.0,0.0,0.462,1249.2,1234.7,106.7,106.1,96.1,1164.0,70.7,60.9,4.7,0.3,0.121,0.028,,,,,,,,,,,,,
+2015,Casey Mangan,SV-nfl,Precious McNutty,6.0,12.0,7.0,6.0,0.0,0.538,1156.6,1182.2,98.8,100.8,89.0,1172.4,9.8,43.5,6.8,-0.8,0.044,0.068,,,,,,,,,,,,,
+2015,Danny Noonan,SV-nfl,Fantastic Men,7.0,6.0,6.0,7.0,0.0,0.462,1218.3,1179.5,104.0,101.1,93.7,1166.8,12.7,55.1,5.4,1.6,0.087,0.038,,,,,,,,,,,,,
+2015,James McKenna,SV-nfl,Hit Squad,8.0,7.0,6.0,7.0,0.0,0.462,1197.0,1199.4,102.2,102.6,92.1,1168.8,30.6,51.1,5.9,2.1,0.069,0.046,,,,,,,,,,,,,
+2015,Connor Reed,SV-nfl,Wu Tang Financial,9.0,1.0,5.0,8.0,0.0,0.385,1248.9,1249.4,106.6,107.3,96.1,1164.1,85.3,60.8,4.7,4.3,0.12,0.028,,,,,,,,,,,,,
+2015,Mitchell Vierhus,SV-nfl,"U can run, but you can't Hyde",10.0,11.0,3.0,10.0,0.0,0.231,963.8,1267.1,82.3,106.5,74.1,1190.0,77.1,7.3,11.1,-1.1,0.005,0.331,,,,,,,,,,,,,
+2015,Kevin Mangan,SV-nfl,Kirkshire Mang All Day FC,11.0,9.0,5.0,8.0,0.0,0.385,1084.8,1180.7,92.6,100.1,83.4,1179.0,1.7,30.0,8.4,2.6,0.019,0.129,,,,,,,,,,,,,
+2015,Tyler Edwards,SV-nfl,Wu Tang Liquidation,12.0,10.0,6.0,7.0,0.0,0.462,1083.7,1195.3,92.5,101.4,83.4,1179.1,16.2,29.8,8.4,3.6,0.019,0.13,,,,,,,,,,,,,
