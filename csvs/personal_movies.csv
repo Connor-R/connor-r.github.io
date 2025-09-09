@@ -78,6 +78,7 @@ name,year,est_year_watched,genre,sub_genre,movie_length,peak,consistency,premise
 """Bruce Almighty""",2003,2005,"""comedy""","""fantasy""",101,40,60,50,50,50,50,50,50,50,,49.5
 """Bruno""",2009,2016,"""comedy""","""mockumentary""",82,40,30,40,20,40,40,40,60,40,,38.0
 """Bubble Boy""",2001,2019,"""comedy""","""adventure""",84,50,50,40,40,30,50,40,60,40,,44.6
+"""Bullitt""",1968,2025,"""action""","""drama""",116,60,55,50,50,35,60,35,50,55,,52.1
 """Burn After Reading""",2008,2009,"""comedy""","""crime""",96,40,50,40,40,40,40,40,50,40,,42.0
 """Butter""",2011,2013,"""comedy""","""""",90,60,50,60,50,50,60,50,60,50,,54.6
 """Caddyshack""",1980,2011,"""comedy""","""sports""",98,60,60,50,50,40,60,60,60,65,,57.1
