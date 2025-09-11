@@ -1,5 +1,7 @@
-year,owner,league_name,Details,finish,pick,W,L,T,PF,PA,PtsPct,xTitles,xSackos,PF_z,zStrength,xRank,RankDiff,xPtsPct,PtsPctDiff,PA_z,PA_zStrength,xPA,PA_DIFF,PF+,PA+,seasons,Playoffs,Podiums,Titles,Sackos,std_finish,total_W,total_L,total_PF,total_PA,team_name
-Total,Brian Martinez,ChiliStew-mlb,"brian martinez - ChiliStew (mlb)
+year,owner,league_name,team_name,finish,pick,W,L,T,PF,PA,PtsPct,xTitles,xSackos,PF_z,zStrength,xRank,RankDiff,xPtsPct,PtsPctDiff,PA_z,PA_zStrength,xPA,PA_DIFF,PF+,PA+,seasons,Playoffs,Podiums,Titles,Sackos,std_finish,total_W,total_L,total_PF,total_PA,Details
+Total,brian martinez,ChiliStew-mlb,"BAM SLAMS
+Morning Woodruff
+Ragans set to Stun",3.4,,113.4,97.2,12.6,652.5,,0.536,0.6,0.3,0.36,64.0,5.2,-1.8,0.543,0.009,,,,,108.0,,5 (2019 - 2024),4.0,4.0,1.0,0.0,2.4,567.0,486.0,3262.5,,"brian martinez - ChiliStew (mlb)
 
 #1 (2024, 148-81-11, 0.82 PF_z, 79 zStrength, 124 PF+, 4.3 xRank, 0.15 xTitles, 0.00 xSackos)
 	-Ragans set to Stun 
@@ -14,10 +16,8 @@ Total,Brian Martinez,ChiliStew-mlb,"brian martinez - ChiliStew (mlb)
 	-BAM SLAMS 
 
  #8 (2019, 78-134-16, -1.42 PF_z, 8 zStrength, 58 PF+, 9.6 xRank, 0.01 xTitles, 0.29 xSackos)
-	-BAM SLAMS",3.4,,113.4,97.2,12.6,652.5,,0.536,0.6,0.3,0.36,64.0,5.2,-1.8,0.543,0.009,,,,,108.0,,5 (2019 - 2024),4.0,4.0,1.0,0.0,2.4,567.0,486.0,3262.5,,"BAM SLAMS
-Morning Woodruff
-Ragans set to Stun"
-Total,Scott Dreier,ChiliStew-mlb,"Scott Dreier - ChiliStew (mlb)
+	-BAM SLAMS"
+Total,Scott Dreier,ChiliStew-mlb,Team Dreier,3.6,,120.0,99.4,12.0,783.06,,0.544,1.44,0.01,1.06,84.0,3.3,0.3,0.627,0.085,,,,,130.0,,7 (2017 - 2024),6.0,4.0,2.0,0.0,2.3,840.0,696.0,5481.45,,"Scott Dreier - ChiliStew (mlb)
 
 #3 (2024, 124-106-10, 1.27 PF_z, 90 zStrength, 136 PF+, 3.0 xRank, 0.25 xTitles, 0.00 xSackos)
 	-Team Dreier 
@@ -38,8 +38,13 @@ Total,Scott Dreier,ChiliStew-mlb,"Scott Dreier - ChiliStew (mlb)
 	-Team Dreier 
 
  #1 (2017, 139-101-12, 1.40 PF_z, 92 zStrength, 147 PF+, 2.3 xRank, 0.29 xTitles, 0.00 xSackos)
-	-Team Dreier",3.6,,120.0,99.4,12.0,783.06,,0.544,1.44,0.01,1.06,84.0,3.3,0.3,0.627,0.085,,,,,130.0,,7 (2017 - 2024),6.0,4.0,2.0,0.0,2.3,840.0,696.0,5481.45,,Team Dreier
-Total,Erik Foster,ChiliStew-mlb,"Erik Foster - ChiliStew (mlb)
+	-Team Dreier"
+Total,Erik Foster,ChiliStew-mlb,"A Ray of K's
+Yeli For MVP
+OpBo Tacos
+Ya Like Jazz?
+Greene Eggs And Slams
+In My Anti-Closer Era",3.9,,117.6,105.3,8.7,656.8,,0.527,0.6,0.06,0.32,62.0,5.2,-1.3,0.539,0.011,,,,,109.0,,7 (2017 - 2024),6.0,3.0,1.0,0.0,2.2,823.0,737.0,4597.63,,"Erik Foster - ChiliStew (mlb)
 
 #8 (2024, 94-139-7, -0.58 PF_z, 28 zStrength, 83 PF+, 8.1 xRank, 0.02 xTitles, 0.04 xSackos)
 	-In My Anti-Closer Era 
@@ -60,17 +65,16 @@ Total,Erik Foster,ChiliStew-mlb,"Erik Foster - ChiliStew (mlb)
 	-Yeli For MVP 
 
  #2 (2017, 128-118-6, 0.30 PF_z, 62 zStrength, 110 PF+, 4.8 xRank, 0.07 xTitles, 0.00 xSackos)
-	-A Ray of K's",3.9,,117.6,105.3,8.7,656.8,,0.527,0.6,0.06,0.32,62.0,5.2,-1.3,0.539,0.011,,,,,109.0,,7 (2017 - 2024),6.0,3.0,1.0,0.0,2.2,823.0,737.0,4597.63,,"A Ray of K's
-Yeli For MVP
-OpBo Tacos
-Ya Like Jazz?
-Greene Eggs And Slams
-In My Anti-Closer Era"
-Total,Geoffrey Wolken,ChiliStew-mlb,"Geoffrey Wolken - ChiliStew (mlb)
+	-A Ray of K's"
+Total,Geoffrey Wolken,ChiliStew-mlb,Junior! Western Bacon Chee,4.0,,125.0,103.0,12.0,580.0,,0.546,0.04,0.01,-0.19,43.0,7.1,-3.1,0.477,-0.069,,,,,95.0,,1 (2024 - 2024),1.0,0.0,0.0,0.0,0.0,125.0,103.0,580.0,,"Geoffrey Wolken - ChiliStew (mlb)
 
 #4 (2024, 125-103-12, -0.19 PF_z, 43 zStrength, 95 PF+, 7.1 xRank, 0.04 xTitles, 0.01 xSackos)
-	-Junior! Western Bacon Chee",4.0,,125.0,103.0,12.0,580.0,,0.546,0.04,0.01,-0.19,43.0,7.1,-3.1,0.477,-0.069,,,,,95.0,,1 (2024 - 2024),1.0,0.0,0.0,0.0,0.0,125.0,103.0,580.0,,Junior! Western Bacon Chee
-Total,Erik Bagley,ChiliStew-mlb,"Erik Bagley - ChiliStew (mlb)
+	-Junior! Western Bacon Chee"
+Total,Erik Bagley,ChiliStew-mlb,"The Dirty Sanchez
+All Betts on Davis
+Dicks in Hand
+O'Doyle Rules
+Moustache Striders",4.6,,121.0,98.9,9.9,694.93,,0.548,0.85,0.03,0.51,67.0,4.7,-0.2,0.561,0.013,,,,,115.0,,7 (2017 - 2024),4.0,4.0,1.0,0.0,2.8,847.0,692.0,4864.51,,"Erik Bagley - ChiliStew (mlb)
 
 #7 (2024, 109-119-12, 0.33 PF_z, 63 zStrength, 109 PF+, 5.6 xRank, 0.07 xTitles, 0.00 xSackos)
 	-Moustache Striders 
@@ -91,12 +95,11 @@ Total,Erik Bagley,ChiliStew-mlb,"Erik Bagley - ChiliStew (mlb)
 	-The Dirty Sanchez 
 
  #3 (2017, 147-100-5, 1.59 PF_z, 94 zStrength, 153 PF+, 1.8 xRank, 0.35 xTitles, 0.00 xSackos)
-	-The Dirty Sanchez",4.6,,121.0,98.9,9.9,694.93,,0.548,0.85,0.03,0.51,67.0,4.7,-0.2,0.561,0.013,,,,,115.0,,7 (2017 - 2024),4.0,4.0,1.0,0.0,2.8,847.0,692.0,4864.51,,"The Dirty Sanchez
-All Betts on Davis
-Dicks in Hand
-O'Doyle Rules
-Moustache Striders"
-Total,Troy Kato,ChiliStew-mlb,"Troy Kato - ChiliStew (mlb)
+	-The Dirty Sanchez"
+Total,Troy Kato,ChiliStew-mlb,"Team Kato
+Buehler's Day Off
+Droppin' Bohm's
+Tity Witty",5.4,,110.9,106.0,12.9,611.27,,0.511,0.83,0.62,0.05,51.0,6.0,-0.6,0.506,-0.005,,,,,102.0,,7 (2017 - 2024),4.0,2.0,1.0,0.0,2.8,776.0,742.0,4278.92,,"Troy Kato - ChiliStew (mlb)
 
 #9 (2024, 94-132-14, -1.82 PF_z, 3 zStrength, 48 PF+, 11.5 xRank, 0.00 xTitles, 0.55 xSackos)
 	-Tity Witty 
@@ -117,19 +120,21 @@ Total,Troy Kato,ChiliStew-mlb,"Troy Kato - ChiliStew (mlb)
 	-Team Kato 
 
  #7 (2017, 121-116-15, -0.03 PF_z, 49 zStrength, 99 PF+, 5.5 xRank, 0.04 xTitles, 0.01 xSackos)
-	-Team Kato",5.4,,110.9,106.0,12.9,611.27,,0.511,0.83,0.62,0.05,51.0,6.0,-0.6,0.506,-0.005,,,,,102.0,,7 (2017 - 2024),4.0,2.0,1.0,0.0,2.8,776.0,742.0,4278.92,,"Team Kato
-Buehler's Day Off
-Droppin' Bohm's
-Tity Witty"
-Total,Connor Reed,ChiliStew-mlb,"Connor Reed - ChiliStew (mlb)
+	-Team Kato"
+Total,Connor Reed,ChiliStew-mlb,"Hungry Grab A Snickers
+JG Wentworth (877-CASH-NOW)",5.5,,120.5,107.5,6.0,810.33,,0.528,0.46,0.0,1.18,89.0,3.3,2.2,0.643,0.115,,,,,134.0,,2 (2023 - 2024),2.0,0.0,0.0,0.0,0.5,241.0,215.0,1620.65,,"Connor Reed - ChiliStew (mlb)
 
 #5 (2024, 121-112-7, 1.26 PF_z, 90 zStrength, 136 PF+, 3.1 xRank, 0.25 xTitles, 0.00 xSackos)
 	-JG Wentworth (877-CASH-NOW) 
 
  #6 (2023, 120-103-5, 1.11 PF_z, 87 zStrength, 131 PF+, 3.5 xRank, 0.21 xTitles, 0.00 xSackos)
-	-Hungry Grab A Snickers",5.5,,120.5,107.5,6.0,810.33,,0.528,0.46,0.0,1.18,89.0,3.3,2.2,0.643,0.115,,,,,134.0,,2 (2023 - 2024),2.0,0.0,0.0,0.0,0.5,241.0,215.0,1620.65,,"Hungry Grab A Snickers
-JG Wentworth (877-CASH-NOW)"
-Total,Bryan Jones,ChiliStew-mlb,"Bryan Jones - ChiliStew (mlb)
+	-Hungry Grab A Snickers"
+Total,Bryan Jones,ChiliStew-mlb,"Team Jones
+Put it in the Bumgarner
+Lucroy's La Croix
+Magical Harp
+Coles BBQ
+Guerrero Warfare",5.7,,115.3,107.0,9.1,616.37,,0.518,0.6,0.71,0.07,56.0,5.8,-0.1,0.508,-0.007,,,,,102.0,,7 (2017 - 2024),4.0,2.0,0.0,1.0,2.8,807.0,749.0,4314.58,,"Bryan Jones - ChiliStew (mlb)
 
 #6 (2024, 119-110-11, 0.10 PF_z, 54 zStrength, 103 PF+, 6.3 xRank, 0.05 xTitles, 0.01 xSackos)
 	-Guerrero Warfare 
@@ -150,13 +155,11 @@ Total,Bryan Jones,ChiliStew-mlb,"Bryan Jones - ChiliStew (mlb)
 	-Put it in the Bumgarner 
 
  #4 (2017, 139-104-9, 1.03 PF_z, 85 zStrength, 134 PF+, 3.1 xRank, 0.19 xTitles, 0.00 xSackos)
-	-Team Jones",5.7,,115.3,107.0,9.1,616.37,,0.518,0.6,0.71,0.07,56.0,5.8,-0.1,0.508,-0.007,,,,,102.0,,7 (2017 - 2024),4.0,2.0,0.0,1.0,2.8,807.0,749.0,4314.58,,"Team Jones
-Put it in the Bumgarner
-Lucroy's La Croix
-Magical Harp
-Coles BBQ
-Guerrero Warfare"
-Total,Kyle Shipe,ChiliStew-mlb,"Kyle Shipe - ChiliStew (mlb)
+	-Team Jones"
+Total,Kyle Shipe,ChiliStew-mlb,"Boner Jamz
+Pham's High Rollers
+Auto Drafters
+Pham's PIMP Hand",6.4,,104.4,106.2,10.2,553.31,,0.496,0.32,0.9,-0.39,42.0,7.2,-0.8,0.453,-0.045,,,,,92.0,,5 (2019 - 2024),2.0,1.0,0.0,0.0,3.0,522.0,531.0,2766.54,,"Kyle Shipe - ChiliStew (mlb)
 
 #2 (2024, 133-94-13, 0.72 PF_z, 76 zStrength, 121 PF+, 4.6 xRank, 0.13 xTitles, 0.00 xSackos)
 	-Pham's PIMP Hand 
@@ -171,11 +174,11 @@ Total,Kyle Shipe,ChiliStew-mlb,"Kyle Shipe - ChiliStew (mlb)
 	-Boner Jamz 
 
  #7 (2019, 101-105-10, -0.35 PF_z, 36 zStrength, 90 PF+, 6.9 xRank, 0.03 xTitles, 0.02 xSackos)
-	-Boner Jamz",6.4,,104.4,106.2,10.2,553.31,,0.496,0.32,0.9,-0.39,42.0,7.2,-0.8,0.453,-0.045,,,,,92.0,,5 (2019 - 2024),2.0,1.0,0.0,0.0,3.0,522.0,531.0,2766.54,,"Boner Jamz
-Pham's High Rollers
-Auto Drafters
-Pham's PIMP Hand"
-Total,Ryan Rumney,ChiliStew-mlb,"Ryan Rumney - ChiliStew (mlb)
+	-Boner Jamz"
+Total,Ryan Rumney,ChiliStew-mlb,"StandUpTriple Rumz
+Stoner Belli Mon
+Rumz Team
+Freddy Got Jazzed",6.8,,104.0,106.3,8.8,652.03,,0.495,0.39,0.05,0.26,58.0,5.5,1.3,0.531,0.035,,,,,109.0,,4 (2019 - 2023),1.0,0.0,0.0,0.0,1.8,416.0,425.0,2608.12,,"Ryan Rumney - ChiliStew (mlb)
 
 #4 (2023, 117-100-11, 0.32 PF_z, 62 zStrength, 109 PF+, 5.7 xRank, 0.07 xTitles, 0.00 xSackos)
 	-Freddy Got Jazzed 
@@ -187,11 +190,10 @@ Total,Ryan Rumney,ChiliStew-mlb,"Ryan Rumney - ChiliStew (mlb)
 	-Stoner Belli Mon 
 
  #9 (2019, 102-108-6, 1.25 PF_z, 89 zStrength, 137 PF+, 2.8 xRank, 0.24 xTitles, 0.00 xSackos)
-	-StandUpTriple Rumz",6.8,,104.0,106.3,8.8,652.03,,0.495,0.39,0.05,0.26,58.0,5.5,1.3,0.531,0.035,,,,,109.0,,4 (2019 - 2023),1.0,0.0,0.0,0.0,1.8,416.0,425.0,2608.12,,"StandUpTriple Rumz
-Stoner Belli Mon
-Rumz Team
-Freddy Got Jazzed"
-Total,Russell Smith,ChiliStew-mlb,"Russell Smith - ChiliStew (mlb)
+	-StandUpTriple Rumz"
+Total,Russell Smith,ChiliStew-mlb,"Team Smith
+Frig off Lahey RUS
+Frig off Lahey",7.0,,102.5,117.3,10.2,512.08,,0.468,0.23,0.75,-0.51,35.0,7.2,-0.2,0.438,-0.027,,,,,85.0,,6 (2017 - 2023),4.0,0.0,0.0,0.0,2.6,615.0,704.0,3072.47,,"Russell Smith - ChiliStew (mlb)
 
 #11 (2023, 85-130-13, -1.23 PF_z, 11 zStrength, 65 PF+, 9.9 xRank, 0.01 xTitles, 0.19 xSackos)
 	-Frig off Lahey 
@@ -209,10 +211,9 @@ Total,Russell Smith,ChiliStew-mlb,"Russell Smith - ChiliStew (mlb)
 	-Frig off Lahey RUS 
 
  #5 (2017, 120-125-7, -0.57 PF_z, 28 zStrength, 81 PF+, 6.8 xRank, 0.02 xTitles, 0.04 xSackos)
-	-Team Smith",7.0,,102.5,117.3,10.2,512.08,,0.468,0.23,0.75,-0.51,35.0,7.2,-0.2,0.438,-0.027,,,,,85.0,,6 (2017 - 2023),4.0,0.0,0.0,0.0,2.6,615.0,704.0,3072.47,,"Team Smith
-Frig off Lahey RUS
-Frig off Lahey"
-Total,Kyle McReynolds,ChiliStew-mlb,"Kyle McReynolds - ChiliStew (mlb)
+	-Team Smith"
+Total,Kyle McReynolds,ChiliStew-mlb,"Ballsdeep Inpoon
+CeaseAndDesist DeezNutz",7.4,,104.4,115.0,12.0,524.42,,0.477,0.39,0.97,-0.48,36.0,7.2,0.2,0.442,-0.036,,,,,87.0,,7 (2017 - 2024),4.0,1.0,1.0,2.0,3.7,731.0,805.0,3670.93,,"Kyle McReynolds - ChiliStew (mlb)
 
 #11 (2024, 111-113-16, -0.36 PF_z, 36 zStrength, 90 PF+, 7.5 xRank, 0.03 xTitles, 0.02 xSackos)
 	-CeaseAndDesist DeezNutz 
@@ -233,23 +234,27 @@ Total,Kyle McReynolds,ChiliStew-mlb,"Kyle McReynolds - ChiliStew (mlb)
 	-Ballsdeep Inpoon 
 
  #6 (2017, 119-128-5, -0.79 PF_z, 21 zStrength, 73 PF+, 7.3 xRank, 0.01 xTitles, 0.07 xSackos)
-	-Ballsdeep Inpoon",7.4,,104.4,115.0,12.0,524.42,,0.477,0.39,0.97,-0.48,36.0,7.2,0.2,0.442,-0.036,,,,,87.0,,7 (2017 - 2024),4.0,1.0,1.0,2.0,3.7,731.0,805.0,3670.93,,"Ballsdeep Inpoon
-CeaseAndDesist DeezNutz"
-Total,Nick Mannina,ChiliStew-mlb,"Nick Mannina - ChiliStew (mlb)
+	-Ballsdeep Inpoon"
+Total,Nick Mannina,ChiliStew-mlb,Team Holy Machado,8.0,,100.5,143.5,8.0,361.48,,0.415,0.01,0.49,-1.33,10.0,8.5,-0.5,0.34,-0.075,,,,,60.0,,2 (2017 - 2018),0.0,0.0,0.0,0.0,0.0,201.0,287.0,722.95,,"Nick Mannina - ChiliStew (mlb)
 
 #8 (2018, 102-143-7, -1.44 PF_z, 8 zStrength, 61 PF+, 8.7 xRank, 0.01 xTitles, 0.30 xSackos)
 	-Team Holy Machado 
 
  #8 (2017, 99-144-9, -1.22 PF_z, 11 zStrength, 59 PF+, 8.2 xRank, 0.01 xTitles, 0.19 xSackos)
-	-Team Holy Machado",8.0,,100.5,143.5,8.0,361.48,,0.415,0.01,0.49,-1.33,10.0,8.5,-0.5,0.34,-0.075,,,,,60.0,,2 (2017 - 2018),0.0,0.0,0.0,0.0,0.0,201.0,287.0,722.95,,Team Holy Machado
-Total,Daniel Bolanos,ChiliStew-mlb,"Daniel Bolanos - ChiliStew (mlb)
+	-Team Holy Machado"
+Total,Daniel Bolanos,ChiliStew-mlb,Dingers And Stingers,9.5,,113.0,127.0,12.0,554.25,,0.472,0.07,0.03,-0.25,40.0,6.0,3.5,0.469,-0.003,,,,,92.0,,2 (2017 - 2018),0.0,0.0,0.0,1.0,0.5,226.0,254.0,1108.5,,"Daniel Bolanos - ChiliStew (mlb)
 
 #9 (2018, 114-123-15, -0.16 PF_z, 44 zStrength, 96 PF+, 5.8 xRank, 0.04 xTitles, 0.01 xSackos)
 	-Dingers And Stingers 
 
  #10 (2017, 112-131-9, -0.35 PF_z, 36 zStrength, 88 PF+, 6.2 xRank, 0.03 xTitles, 0.02 xSackos)
-	-Dingers And Stingers",9.5,,113.0,127.0,12.0,554.25,,0.472,0.07,0.03,-0.25,40.0,6.0,3.5,0.469,-0.003,,,,,92.0,,2 (2017 - 2018),0.0,0.0,0.0,1.0,0.5,226.0,254.0,1108.5,,Dingers And Stingers
-Total,Ben Lalor,ChiliStew-mlb,"Ben Lalor - ChiliStew (mlb)
+	-Dingers And Stingers"
+Total,Ben Lalor,ChiliStew-mlb,"I did it all for the Mookie
+Right in the Posey
+Bustiner Posey
+Snell Ya Later
+Rodon your Mom
+Just The FIP",9.7,,87.7,132.3,9.7,402.7,,0.403,0.13,2.1,-1.12,20.0,8.8,0.9,0.365,-0.041,,,,,67.0,,7 (2017 - 2024),0.0,0.0,0.0,2.0,1.2,614.0,926.0,2818.89,,"Ben Lalor - ChiliStew (mlb)
 
 #12 (2024, 79-149-12, -1.89 PF_z, 3 zStrength, 46 PF+, 11.7 xRank, 0.00 xTitles, 0.60 xSackos)
 	-Just The FIP 
@@ -270,90 +275,85 @@ Total,Ben Lalor,ChiliStew-mlb,"Ben Lalor - ChiliStew (mlb)
 	-Right in the Posey 
 
  #9 (2017, 93-150-9, -1.36 PF_z, 9 zStrength, 54 PF+, 8.5 xRank, 0.01 xTitles, 0.26 xSackos)
-	-I did it all for the Mookie",9.7,,87.7,132.3,9.7,402.7,,0.403,0.13,2.1,-1.12,20.0,8.8,0.9,0.365,-0.041,,,,,67.0,,7 (2017 - 2024),0.0,0.0,0.0,2.0,1.2,614.0,926.0,2818.89,,"I did it all for the Mookie
-Right in the Posey
-Bustiner Posey
-Snell Ya Later
-Rodon your Mom
-Just The FIP"
-Total,Kevin Bagley,ChiliStew-mlb,"Kevin Bagley - ChiliStew (mlb)
+	-I did it all for the Mookie"
+Total,Kevin Bagley,ChiliStew-mlb,I am the Trout,10.0,,113.0,112.0,15.0,673.35,,0.502,0.08,0.0,0.34,63.0,5.6,4.4,0.541,0.039,,,,,110.0,,1 (2024 - 2024),0.0,0.0,0.0,0.0,0.0,113.0,112.0,673.35,,"Kevin Bagley - ChiliStew (mlb)
 
 #10 (2024, 113-112-15, 0.34 PF_z, 63 zStrength, 110 PF+, 5.6 xRank, 0.08 xTitles, 0.00 xSackos)
-	-I am the Trout",10.0,,113.0,112.0,15.0,673.35,,0.502,0.08,0.0,0.34,63.0,5.6,4.4,0.541,0.039,,,,,110.0,,1 (2024 - 2024),0.0,0.0,0.0,0.0,0.0,113.0,112.0,673.35,,I am the Trout
-2024,Brian Martinez,ChiliStew-mlb,,1.0,,148.0,81.0,11.0,757.69,,0.64,0.15,0.0,0.82,79.0,4.3,-3.3,0.599,-0.04,,,,,124.0,,,1.0,1.0,1.0,0.0,,,,,,Ragans set to Stun
-2024,Kyle Shipe,ChiliStew-mlb,,2.0,,133.0,94.0,13.0,739.12,,0.581,0.13,0.0,0.72,76.0,4.6,-2.6,0.586,0.005,,,,,121.0,,,1.0,1.0,0.0,0.0,,,,,,Pham's PIMP Hand
-2024,Scott Dreier,ChiliStew-mlb,,3.0,,124.0,106.0,10.0,836.52,,0.538,0.25,0.0,1.27,90.0,3.0,0.0,0.653,0.116,,,,,136.0,,,1.0,1.0,0.0,0.0,,,,,,Team Dreier
-2024,Geoffrey Wolken,ChiliStew-mlb,,4.0,,125.0,103.0,12.0,580.0,,0.546,0.04,0.01,-0.19,43.0,7.1,-3.1,0.477,-0.069,,,,,95.0,,,1.0,0.0,0.0,0.0,,,,,,Junior! Western Bacon Chee
-2024,Connor Reed,ChiliStew-mlb,,5.0,,121.0,112.0,7.0,834.42,,0.519,0.25,0.0,1.26,90.0,3.1,1.9,0.652,0.133,,,,,136.0,,,1.0,0.0,0.0,0.0,,,,,,JG Wentworth (877-CASH-NOW)
-2024,Bryan Jones,ChiliStew-mlb,,6.0,,119.0,110.0,11.0,630.34,,0.519,0.05,0.01,0.1,54.0,6.3,-0.3,0.512,-0.007,,,,,103.0,,,1.0,0.0,0.0,0.0,,,,,,Guerrero Warfare
-2024,Erik Bagley,ChiliStew-mlb,,7.0,,109.0,119.0,12.0,670.5,,0.479,0.07,0.0,0.33,63.0,5.6,1.4,0.539,0.06,,,,,109.0,,,0.0,0.0,0.0,0.0,,,,,,Moustache Striders
-2024,Erik Foster,ChiliStew-mlb,,8.0,,94.0,139.0,7.0,511.92,,0.406,0.02,0.04,-0.58,28.0,8.1,-0.1,0.431,0.024,,,,,84.0,,,0.0,0.0,0.0,0.0,,,,,,In My Anti-Closer Era
-2024,Troy Kato,ChiliStew-mlb,,9.0,,94.0,132.0,14.0,292.85,,0.421,0.0,0.55,-1.82,3.0,11.5,-2.5,0.28,-0.141,,,,,48.0,,,0.0,0.0,0.0,0.0,,,,,,Tity Witty
-2024,Kevin Bagley,ChiliStew-mlb,,10.0,,113.0,112.0,15.0,673.35,,0.502,0.08,0.0,0.34,63.0,5.6,4.4,0.541,0.039,,,,,110.0,,,0.0,0.0,0.0,0.0,,,,,,I am the Trout
-2024,Kyle McReynolds,ChiliStew-mlb,,11.0,,111.0,113.0,16.0,550.62,,0.496,0.03,0.02,-0.36,36.0,7.5,3.5,0.457,-0.039,,,,,90.0,,,0.0,0.0,0.0,0.0,,,,,,CeaseAndDesist DeezNutz
-2024,Ben Lalor,ChiliStew-mlb,,12.0,,79.0,149.0,12.0,280.23,,0.354,0.0,0.6,-1.89,3.0,11.7,0.3,0.272,-0.083,,,,,46.0,,,0.0,0.0,0.0,1.0,,,,,,Just The FIP
-2023,Erik Bagley,ChiliStew-mlb,,1.0,,135.0,87.0,6.0,744.31,,0.605,0.15,0.0,0.86,81.0,4.2,-3.2,0.604,-0.001,,,,,124.0,,,1.0,1.0,1.0,0.0,,,,,,Moustache Striders
-2023,Erik Foster,ChiliStew-mlb,,2.0,,126.0,94.0,8.0,728.55,,0.57,0.14,0.0,0.77,78.0,4.4,-2.4,0.593,0.023,,,,,122.0,,,1.0,1.0,0.0,0.0,,,,,,Greene Eggs And Slams
-2023,Brian Martinez,ChiliStew-mlb,,3.0,,130.0,89.0,9.0,670.54,,0.59,0.09,0.0,0.43,67.0,5.4,-2.4,0.552,-0.038,,,,,112.0,,,1.0,1.0,0.0,0.0,,,,,,Morning Woodruff
-2023,Ryan Rumney,ChiliStew-mlb,,4.0,,117.0,100.0,11.0,651.89,,0.537,0.07,0.0,0.32,62.0,5.7,-1.7,0.538,0.001,,,,,109.0,,,1.0,0.0,0.0,0.0,,,,,,Freddy Got Jazzed
-2023,Scott Dreier,ChiliStew-mlb,,5.0,,118.0,101.0,9.0,836.65,,0.537,0.29,0.0,1.41,92.0,2.7,2.3,0.67,0.133,,,,,140.0,,,1.0,0.0,0.0,0.0,,,,,,Team Dreier
-2023,Connor Reed,ChiliStew-mlb,,6.0,,120.0,103.0,5.0,786.23,,0.537,0.21,0.0,1.11,87.0,3.5,2.5,0.634,0.097,,,,,131.0,,,1.0,0.0,0.0,0.0,,,,,,Hungry Grab A Snickers
-2023,Bryan Jones,ChiliStew-mlb,,7.0,,115.0,101.0,12.0,686.18,,0.531,0.1,0.0,0.52,70.0,5.1,1.9,0.563,0.032,,,,,115.0,,,0.0,0.0,0.0,0.0,,,,,,Coles BBQ
-2023,Troy Kato,ChiliStew-mlb,,8.0,,100.0,117.0,11.0,511.95,,0.463,0.02,0.03,-0.51,30.0,7.9,0.1,0.438,-0.024,,,,,86.0,,,0.0,0.0,0.0,0.0,,,,,,Tity Witty
-2023,Kyle Shipe,ChiliStew-mlb,,9.0,,89.0,127.0,12.0,432.03,,0.417,0.01,0.11,-0.98,16.0,9.2,-0.2,0.381,-0.035,,,,,72.0,,,0.0,0.0,0.0,0.0,,,,,,Auto Drafters
-2023,Ben Lalor,ChiliStew-mlb,,10.0,,88.0,128.0,12.0,459.2,,0.412,0.01,0.07,-0.82,21.0,8.8,1.2,0.401,-0.012,,,,,77.0,,,0.0,0.0,0.0,0.0,,,,,,Rodon your Mom
-2023,Russell Smith,ChiliStew-mlb,,11.0,,85.0,130.0,13.0,390.74,,0.401,0.01,0.19,-1.23,11.0,9.9,1.1,0.352,-0.049,,,,,65.0,,,0.0,0.0,0.0,0.0,,,,,,Frig off Lahey
-2023,Kyle McReynolds,ChiliStew-mlb,,12.0,,84.0,130.0,14.0,281.85,,0.399,0.0,0.58,-1.87,3.0,11.7,0.3,0.274,-0.125,,,,,47.0,,,0.0,0.0,0.0,1.0,,,,,,CeaseAndDesist DeezNutz
-2022,Kyle McReynolds,ChiliStew-mlb,,1.0,,104.0,89.0,11.0,813.99,,0.537,0.27,0.0,1.32,91.0,2.7,-1.7,0.66,0.123,,,,,136.0,,,1.0,1.0,1.0,0.0,,,,,,Ballsdeep Inpoon
-2022,Erik Bagley,ChiliStew-mlb,,2.0,,113.0,71.0,8.0,709.3,,0.609,0.12,0.0,0.68,75.0,4.3,-2.3,0.582,-0.028,,,,,118.0,,,1.0,1.0,0.0,0.0,,,,,,O'Doyle Rules
-2022,Brian Martinez,ChiliStew-mlb,,3.0,,93.0,86.0,13.0,725.67,,0.518,0.14,0.0,0.78,78.0,4.0,-1.0,0.594,0.076,,,,,121.0,,,1.0,1.0,0.0,0.0,,,,,,BAM SLAMS
-2022,Kyle Shipe,ChiliStew-mlb,,4.0,,108.0,75.0,9.0,735.65,,0.586,0.15,0.0,0.84,80.0,3.9,0.1,0.601,0.015,,,,,123.0,,,1.0,0.0,0.0,0.0,,,,,,Pham's High Rollers
-2022,Erik Foster,ChiliStew-mlb,,5.0,,105.0,94.0,6.0,623.26,,0.527,0.06,0.01,0.14,56.0,5.6,-0.6,0.517,-0.009,,,,,104.0,,,1.0,0.0,0.0,0.0,,,,,,Ya Like Jazz?
-2022,Troy Kato,ChiliStew-mlb,,6.0,,93.0,87.0,12.0,581.64,,0.516,0.04,0.01,-0.11,45.0,6.3,-0.3,0.486,-0.029,,,,,97.0,,,1.0,0.0,0.0,0.0,,,,,,Tity Witty
-2022,Ryan Rumney,ChiliStew-mlb,,7.0,,92.0,91.0,9.0,604.25,,0.503,0.05,0.01,0.03,51.0,5.9,1.1,0.503,0.001,,,,,101.0,,,0.0,0.0,0.0,0.0,,,,,,Rumz Team
-2022,Scott Dreier,ChiliStew-mlb,,8.0,,91.0,102.0,11.0,669.08,,0.473,0.09,0.0,0.43,67.0,4.9,3.1,0.552,0.079,,,,,112.0,,,0.0,0.0,0.0,0.0,,,,,,Team Dreier
-2022,Ben Lalor,ChiliStew-mlb,,9.0,,82.0,101.0,9.0,545.94,,0.451,0.03,0.02,-0.33,37.0,6.8,2.2,0.46,0.009,,,,,91.0,,,0.0,0.0,0.0,0.0,,,,,,Rodon your Mom
-2022,Russell Smith,ChiliStew-mlb,,10.0,,71.0,112.0,9.0,319.41,,0.393,0.0,0.49,-1.74,4.0,10.4,-0.4,0.291,-0.103,,,,,53.0,,,0.0,0.0,0.0,0.0,,,,,,Frig off Lahey
-2022,Bryan Jones,ChiliStew-mlb,,11.0,,77.0,121.0,6.0,271.01,,0.392,0.0,0.69,-2.04,2.0,11.1,-0.1,0.254,-0.138,,,,,45.0,,,0.0,0.0,0.0,1.0,,,,,,Coles BBQ
-2021,Erik Foster,ChiliStew-mlb,,1.0,,113.0,104.0,11.0,638.55,,0.52,0.07,0.0,0.25,60.0,5.4,-4.4,0.53,0.011,,,,,105.0,,,1.0,1.0,1.0,0.0,,,,,,OpBo Tacos
-2021,Brian Martinez,ChiliStew-mlb,,2.0,,118.0,96.0,14.0,760.89,,0.548,0.23,0.0,1.2,88.0,3.0,-1.0,0.644,0.096,,,,,126.0,,,1.0,1.0,0.0,0.0,,,,,,BAM SLAMS
-2021,Bryan Jones,ChiliStew-mlb,,3.0,,116.0,104.0,8.0,727.54,,0.526,0.17,0.0,0.94,83.0,3.6,-0.6,0.613,0.087,,,,,120.0,,,1.0,1.0,0.0,0.0,,,,,,Magical Harp
-2021,Scott Dreier,ChiliStew-mlb,,4.0,,123.0,90.0,15.0,751.58,,0.572,0.21,0.0,1.12,87.0,3.2,0.8,0.636,0.063,,,,,124.0,,,1.0,0.0,0.0,0.0,,,,,,Team Dreier
-2021,Troy Kato,ChiliStew-mlb,,5.0,,105.0,110.0,13.0,574.97,,0.489,0.03,0.02,-0.24,41.0,6.6,-1.6,0.471,-0.018,,,,,95.0,,,1.0,0.0,0.0,0.0,,,,,,Droppin' Bohm's
-2021,Russell Smith,ChiliStew-mlb,,6.0,,113.0,106.0,9.0,661.26,,0.515,0.09,0.0,0.43,66.0,4.9,1.1,0.551,0.036,,,,,109.0,,,1.0,0.0,0.0,0.0,,,,,,Frig off Lahey
-2021,Ryan Rumney,ChiliStew-mlb,,7.0,,105.0,126.0,9.0,532.83,,0.456,0.02,0.04,-0.57,29.0,7.4,-0.4,0.432,-0.025,,,,,88.0,,,0.0,0.0,0.0,0.0,,,,,,Stoner Belli Mon
-2021,Ben Lalor,ChiliStew-mlb,,8.0,,109.0,112.0,7.0,643.99,,0.493,0.07,0.0,0.29,62.0,5.3,2.8,0.535,0.042,,,,,106.0,,,0.0,0.0,0.0,0.0,,,,,,Snell Ya Later
-2021,Erik Bagley,ChiliStew-mlb,,9.0,,104.0,108.0,16.0,625.86,,0.491,0.06,0.01,0.15,56.0,5.6,3.4,0.518,0.027,,,,,103.0,,,0.0,0.0,0.0,0.0,,,,,,Dicks in Hand
-2021,Kyle Shipe,ChiliStew-mlb,,10.0,,91.0,130.0,7.0,322.71,,0.414,0.0,0.77,-2.19,1.0,11.5,-1.5,0.236,-0.179,,,,,53.0,,,0.0,0.0,0.0,0.0,,,,,,Boner Jamz
-2021,Kyle McReynolds,ChiliStew-mlb,,11.0,,100.0,111.0,17.0,426.92,,0.476,0.01,0.27,-1.38,8.0,9.5,1.5,0.333,-0.143,,,,,70.0,,,0.0,0.0,0.0,1.0,,,,,,Ballsdeep Inpoon
-2019,Troy Kato,ChiliStew-mlb,,1.0,,128.0,79.0,9.0,813.04,,0.613,0.24,0.0,1.22,89.0,2.9,-1.9,0.647,0.033,,,,,136.0,,,1.0,1.0,1.0,0.0,,,,,,Buehler's Day Off
-2019,Bryan Jones,ChiliStew-mlb,,2.0,,115.0,95.0,6.0,582.09,,0.546,0.04,0.01,-0.09,46.0,6.2,-4.2,0.489,-0.058,,,,,97.0,,,1.0,1.0,0.0,0.0,,,,,,Lucroy's La Croix
-2019,Scott Dreier,ChiliStew-mlb,,3.0,,106.0,95.0,15.0,757.12,,0.525,0.16,0.0,0.9,82.0,3.7,-0.7,0.608,0.083,,,,,127.0,,,1.0,1.0,0.0,0.0,,,,,,Team Dreier
-2019,Erik Foster,ChiliStew-mlb,,4.0,,123.0,78.0,15.0,687.2,,0.604,0.09,0.0,0.5,69.0,4.7,-0.7,0.561,-0.044,,,,,115.0,,,1.0,0.0,0.0,0.0,,,,,,A Ray of K's
-2019,Kyle McReynolds,ChiliStew-mlb,,5.0,,103.0,103.0,10.0,592.16,,0.5,0.04,0.01,-0.04,49.0,6.1,-1.1,0.496,-0.004,,,,,99.0,,,1.0,0.0,0.0,0.0,,,,,,Ballsdeep Inpoon
-2019,Russell Smith,ChiliStew-mlb,,6.0,,107.0,109.0,12.0,676.98,,0.496,0.09,0.0,0.44,67.0,4.9,1.1,0.554,0.058,,,,,113.0,,,1.0,0.0,0.0,0.0,,,,,,Frig off Lahey RUS
-2019,Erik Bagley,ChiliStew-mlb,,7.0,,100.0,109.0,7.0,546.6,,0.479,0.03,0.02,-0.29,38.0,6.7,0.3,0.465,-0.015,,,,,91.0,,,0.0,0.0,0.0,0.0,,,,,,All Betts on Davis
-2019,Kyle Shipe,ChiliStew-mlb,,7.0,,101.0,105.0,10.0,537.03,,0.491,0.03,0.02,-0.35,36.0,6.9,0.1,0.458,-0.033,,,,,90.0,,,0.0,0.0,0.0,0.0,,,,,,Boner Jamz
-2019,Brian Martinez,ChiliStew-mlb,,8.0,,78.0,134.0,16.0,347.71,,0.377,0.01,0.29,-1.42,8.0,9.6,-1.6,0.329,-0.049,,,,,58.0,,,0.0,0.0,0.0,0.0,,,,,,BAM SLAMS
-2019,Ryan Rumney,ChiliStew-mlb,,9.0,,102.0,108.0,6.0,819.15,,0.486,0.24,0.0,1.25,89.0,2.8,6.2,0.651,0.165,,,,,137.0,,,0.0,0.0,0.0,0.0,,,,,,StandUpTriple Rumz
-2019,Ben Lalor,ChiliStew-mlb,,10.0,,79.0,127.0,10.0,225.08,,0.389,0.0,0.73,-2.12,2.0,11.3,-1.3,0.245,-0.144,,,,,38.0,,,0.0,0.0,0.0,0.0,,,,,,Bustiner Posey
-2018,Scott Dreier,ChiliStew-mlb,,1.0,,139.0,101.0,12.0,741.14,,0.575,0.15,0.0,0.87,81.0,3.5,-2.5,0.604,0.029,,,,,124.0,,,1.0,1.0,1.0,0.0,,,,,,Team Dreier
-2018,Troy Kato,ChiliStew-mlb,,2.0,,135.0,101.0,16.0,904.46,,0.567,0.45,0.0,1.87,97.0,1.2,0.8,0.725,0.158,,,,,151.0,,,1.0,1.0,0.0,0.0,,,,,,Team Kato
-2018,Erik Bagley,ChiliStew-mlb,,3.0,,139.0,98.0,15.0,639.43,,0.581,0.07,0.0,0.24,60.0,4.9,-1.9,0.529,-0.052,,,,,107.0,,,1.0,1.0,0.0,0.0,,,,,,The Dirty Sanchez
-2018,Russell Smith,ChiliStew-mlb,,4.0,,119.0,122.0,11.0,534.83,,0.494,0.03,0.02,-0.4,35.0,6.4,-2.4,0.452,-0.042,,,,,89.0,,,1.0,0.0,0.0,0.0,,,,,,Frig off Lahey RUS
-2018,Erik Foster,ChiliStew-mlb,,5.0,,134.0,110.0,8.0,741.88,,0.548,0.15,0.0,0.87,81.0,3.5,1.6,0.605,0.057,,,,,124.0,,,1.0,0.0,0.0,0.0,,,,,,Yeli For MVP
-2018,Kyle McReynolds,ChiliStew-mlb,,6.0,,110.0,131.0,11.0,560.92,,0.458,0.03,0.02,-0.24,41.0,6.0,0.0,0.471,0.013,,,,,94.0,,,1.0,0.0,0.0,0.0,,,,,,Ballsdeep Inpoon
-2018,Bryan Jones,ChiliStew-mlb,,7.0,,126.0,114.0,12.0,603.56,,0.524,0.05,0.01,0.02,51.0,5.4,1.6,0.503,-0.021,,,,,101.0,,,0.0,0.0,0.0,0.0,,,,,,Put it in the Bumgarner
-2018,Nick Mannina,ChiliStew-mlb,,8.0,,102.0,143.0,7.0,364.99,,0.419,0.01,0.3,-1.44,8.0,8.7,-0.7,0.326,-0.092,,,,,61.0,,,0.0,0.0,0.0,0.0,,,,,,Team Holy Machado
-2018,Daniel Bolanos,ChiliStew-mlb,,9.0,,114.0,123.0,15.0,573.32,,0.482,0.04,0.01,-0.16,44.0,5.8,3.2,0.48,-0.002,,,,,96.0,,,0.0,0.0,0.0,0.0,,,,,,Dingers And Stingers
-2018,Ben Lalor,ChiliStew-mlb,,10.0,,84.0,159.0,9.0,334.74,,0.351,0.0,0.42,-1.63,5.0,9.2,0.8,0.304,-0.047,,,,,56.0,,,0.0,0.0,0.0,1.0,,,,,,Right in the Posey
-2017,Scott Dreier,ChiliStew-mlb,,1.0,,139.0,101.0,12.0,889.36,,0.575,0.29,0.0,1.4,92.0,2.3,-1.3,0.669,0.093,,,,,147.0,,,1.0,1.0,1.0,0.0,,,,,,Team Dreier
-2017,Erik Foster,ChiliStew-mlb,,2.0,,128.0,118.0,6.0,666.27,,0.52,0.07,0.0,0.3,62.0,4.8,-2.8,0.536,0.016,,,,,110.0,,,1.0,1.0,0.0,0.0,,,,,,A Ray of K's
-2017,Erik Bagley,ChiliStew-mlb,,3.0,,147.0,100.0,5.0,928.51,,0.593,0.35,0.0,1.59,94.0,1.8,1.2,0.692,0.098,,,,,153.0,,,1.0,1.0,0.0,0.0,,,,,,The Dirty Sanchez
-2017,Bryan Jones,ChiliStew-mlb,,4.0,,139.0,104.0,9.0,813.86,,0.569,0.19,0.0,1.03,85.0,3.1,0.9,0.624,0.054,,,,,134.0,,,1.0,0.0,0.0,0.0,,,,,,Team Jones
-2017,Russell Smith,ChiliStew-mlb,,5.0,,120.0,125.0,7.0,489.25,,0.49,0.02,0.04,-0.57,28.0,6.8,-1.8,0.431,-0.059,,,,,81.0,,,1.0,0.0,0.0,0.0,,,,,,Team Smith
-2017,Kyle McReynolds,ChiliStew-mlb,,6.0,,119.0,128.0,5.0,444.47,,0.482,0.01,0.07,-0.79,21.0,7.3,-1.3,0.405,-0.078,,,,,73.0,,,1.0,0.0,0.0,0.0,,,,,,Ballsdeep Inpoon
-2017,Troy Kato,ChiliStew-mlb,,7.0,,121.0,116.0,15.0,600.01,,0.51,0.04,0.01,-0.03,49.0,5.5,1.5,0.497,-0.013,,,,,99.0,,,0.0,0.0,0.0,0.0,,,,,,Team Kato
-2017,Nick Mannina,ChiliStew-mlb,,8.0,,99.0,144.0,9.0,357.96,,0.411,0.01,0.19,-1.22,11.0,8.2,-0.2,0.353,-0.058,,,,,59.0,,,0.0,0.0,0.0,0.0,,,,,,Team Holy Machado
-2017,Ben Lalor,ChiliStew-mlb,,9.0,,93.0,150.0,9.0,329.71,,0.387,0.01,0.26,-1.36,9.0,8.5,0.5,0.336,-0.051,,,,,55.0,,,0.0,0.0,0.0,0.0,,,,,,I did it all for the Mookie
-2017,Daniel Bolanos,ChiliStew-mlb,,10.0,,112.0,131.0,9.0,535.18,,0.462,0.03,0.02,-0.35,36.0,6.2,3.8,0.458,-0.004,,,,,88.0,,,0.0,0.0,0.0,1.0,,,,,,Dingers And Stingers
+	-I am the Trout"
+2024,brian martinez,ChiliStew-mlb,Ragans set to Stun,1.0,,148.0,81.0,11.0,757.69,,0.64,0.15,0.0,0.82,79.0,4.3,-3.3,0.599,-0.04,,,,,124.0,,,1.0,1.0,1.0,0.0,,,,,,
+2024,Kyle Shipe,ChiliStew-mlb,Pham's PIMP Hand,2.0,,133.0,94.0,13.0,739.12,,0.581,0.13,0.0,0.72,76.0,4.6,-2.6,0.586,0.005,,,,,121.0,,,1.0,1.0,0.0,0.0,,,,,,
+2024,Scott Dreier,ChiliStew-mlb,Team Dreier,3.0,,124.0,106.0,10.0,836.52,,0.538,0.25,0.0,1.27,90.0,3.0,0.0,0.653,0.116,,,,,136.0,,,1.0,1.0,0.0,0.0,,,,,,
+2024,Geoffrey Wolken,ChiliStew-mlb,Junior! Western Bacon Chee,4.0,,125.0,103.0,12.0,580.0,,0.546,0.04,0.01,-0.19,43.0,7.1,-3.1,0.477,-0.069,,,,,95.0,,,1.0,0.0,0.0,0.0,,,,,,
+2024,Connor Reed,ChiliStew-mlb,JG Wentworth (877-CASH-NOW),5.0,,121.0,112.0,7.0,834.42,,0.519,0.25,0.0,1.26,90.0,3.1,1.9,0.652,0.133,,,,,136.0,,,1.0,0.0,0.0,0.0,,,,,,
+2024,Bryan Jones,ChiliStew-mlb,Guerrero Warfare,6.0,,119.0,110.0,11.0,630.34,,0.519,0.05,0.01,0.1,54.0,6.3,-0.3,0.512,-0.007,,,,,103.0,,,1.0,0.0,0.0,0.0,,,,,,
+2024,Erik Bagley,ChiliStew-mlb,Moustache Striders,7.0,,109.0,119.0,12.0,670.5,,0.479,0.07,0.0,0.33,63.0,5.6,1.4,0.539,0.06,,,,,109.0,,,0.0,0.0,0.0,0.0,,,,,,
+2024,Erik Foster,ChiliStew-mlb,In My Anti-Closer Era,8.0,,94.0,139.0,7.0,511.92,,0.406,0.02,0.04,-0.58,28.0,8.1,-0.1,0.431,0.024,,,,,84.0,,,0.0,0.0,0.0,0.0,,,,,,
+2024,Troy Kato,ChiliStew-mlb,Tity Witty,9.0,,94.0,132.0,14.0,292.85,,0.421,0.0,0.55,-1.82,3.0,11.5,-2.5,0.28,-0.141,,,,,48.0,,,0.0,0.0,0.0,0.0,,,,,,
+2024,Kevin Bagley,ChiliStew-mlb,I am the Trout,10.0,,113.0,112.0,15.0,673.35,,0.502,0.08,0.0,0.34,63.0,5.6,4.4,0.541,0.039,,,,,110.0,,,0.0,0.0,0.0,0.0,,,,,,
+2024,Kyle McReynolds,ChiliStew-mlb,CeaseAndDesist DeezNutz,11.0,,111.0,113.0,16.0,550.62,,0.496,0.03,0.02,-0.36,36.0,7.5,3.5,0.457,-0.039,,,,,90.0,,,0.0,0.0,0.0,0.0,,,,,,
+2024,Ben Lalor,ChiliStew-mlb,Just The FIP,12.0,,79.0,149.0,12.0,280.23,,0.354,0.0,0.6,-1.89,3.0,11.7,0.3,0.272,-0.083,,,,,46.0,,,0.0,0.0,0.0,1.0,,,,,,
+2023,Erik Bagley,ChiliStew-mlb,Moustache Striders,1.0,,135.0,87.0,6.0,744.31,,0.605,0.15,0.0,0.86,81.0,4.2,-3.2,0.604,-0.001,,,,,124.0,,,1.0,1.0,1.0,0.0,,,,,,
+2023,Erik Foster,ChiliStew-mlb,Greene Eggs And Slams,2.0,,126.0,94.0,8.0,728.55,,0.57,0.14,0.0,0.77,78.0,4.4,-2.4,0.593,0.023,,,,,122.0,,,1.0,1.0,0.0,0.0,,,,,,
+2023,brian martinez,ChiliStew-mlb,Morning Woodruff,3.0,,130.0,89.0,9.0,670.54,,0.59,0.09,0.0,0.43,67.0,5.4,-2.4,0.552,-0.038,,,,,112.0,,,1.0,1.0,0.0,0.0,,,,,,
+2023,Ryan Rumney,ChiliStew-mlb,Freddy Got Jazzed,4.0,,117.0,100.0,11.0,651.89,,0.537,0.07,0.0,0.32,62.0,5.7,-1.7,0.538,0.001,,,,,109.0,,,1.0,0.0,0.0,0.0,,,,,,
+2023,Scott Dreier,ChiliStew-mlb,Team Dreier,5.0,,118.0,101.0,9.0,836.65,,0.537,0.29,0.0,1.41,92.0,2.7,2.3,0.67,0.133,,,,,140.0,,,1.0,0.0,0.0,0.0,,,,,,
+2023,Connor Reed,ChiliStew-mlb,Hungry Grab A Snickers,6.0,,120.0,103.0,5.0,786.23,,0.537,0.21,0.0,1.11,87.0,3.5,2.5,0.634,0.097,,,,,131.0,,,1.0,0.0,0.0,0.0,,,,,,
+2023,Bryan Jones,ChiliStew-mlb,Coles BBQ,7.0,,115.0,101.0,12.0,686.18,,0.531,0.1,0.0,0.52,70.0,5.1,1.9,0.563,0.032,,,,,115.0,,,0.0,0.0,0.0,0.0,,,,,,
+2023,Troy Kato,ChiliStew-mlb,Tity Witty,8.0,,100.0,117.0,11.0,511.95,,0.463,0.02,0.03,-0.51,30.0,7.9,0.1,0.438,-0.024,,,,,86.0,,,0.0,0.0,0.0,0.0,,,,,,
+2023,Kyle Shipe,ChiliStew-mlb,Auto Drafters,9.0,,89.0,127.0,12.0,432.03,,0.417,0.01,0.11,-0.98,16.0,9.2,-0.2,0.381,-0.035,,,,,72.0,,,0.0,0.0,0.0,0.0,,,,,,
+2023,Ben Lalor,ChiliStew-mlb,Rodon your Mom,10.0,,88.0,128.0,12.0,459.2,,0.412,0.01,0.07,-0.82,21.0,8.8,1.2,0.401,-0.012,,,,,77.0,,,0.0,0.0,0.0,0.0,,,,,,
+2023,Russell Smith,ChiliStew-mlb,Frig off Lahey,11.0,,85.0,130.0,13.0,390.74,,0.401,0.01,0.19,-1.23,11.0,9.9,1.1,0.352,-0.049,,,,,65.0,,,0.0,0.0,0.0,0.0,,,,,,
+2023,Kyle McReynolds,ChiliStew-mlb,CeaseAndDesist DeezNutz,12.0,,84.0,130.0,14.0,281.85,,0.399,0.0,0.58,-1.87,3.0,11.7,0.3,0.274,-0.125,,,,,47.0,,,0.0,0.0,0.0,1.0,,,,,,
+2022,Kyle McReynolds,ChiliStew-mlb,Ballsdeep Inpoon,1.0,,104.0,89.0,11.0,813.99,,0.537,0.27,0.0,1.32,91.0,2.7,-1.7,0.66,0.123,,,,,136.0,,,1.0,1.0,1.0,0.0,,,,,,
+2022,Erik Bagley,ChiliStew-mlb,O'Doyle Rules,2.0,,113.0,71.0,8.0,709.3,,0.609,0.12,0.0,0.68,75.0,4.3,-2.3,0.582,-0.028,,,,,118.0,,,1.0,1.0,0.0,0.0,,,,,,
+2022,brian martinez,ChiliStew-mlb,BAM SLAMS,3.0,,93.0,86.0,13.0,725.67,,0.518,0.14,0.0,0.78,78.0,4.0,-1.0,0.594,0.076,,,,,121.0,,,1.0,1.0,0.0,0.0,,,,,,
+2022,Kyle Shipe,ChiliStew-mlb,Pham's High Rollers,4.0,,108.0,75.0,9.0,735.65,,0.586,0.15,0.0,0.84,80.0,3.9,0.1,0.601,0.015,,,,,123.0,,,1.0,0.0,0.0,0.0,,,,,,
+2022,Erik Foster,ChiliStew-mlb,Ya Like Jazz?,5.0,,105.0,94.0,6.0,623.26,,0.527,0.06,0.01,0.14,56.0,5.6,-0.6,0.517,-0.009,,,,,104.0,,,1.0,0.0,0.0,0.0,,,,,,
+2022,Troy Kato,ChiliStew-mlb,Tity Witty,6.0,,93.0,87.0,12.0,581.64,,0.516,0.04,0.01,-0.11,45.0,6.3,-0.3,0.486,-0.029,,,,,97.0,,,1.0,0.0,0.0,0.0,,,,,,
+2022,Ryan Rumney,ChiliStew-mlb,Rumz Team,7.0,,92.0,91.0,9.0,604.25,,0.503,0.05,0.01,0.03,51.0,5.9,1.1,0.503,0.001,,,,,101.0,,,0.0,0.0,0.0,0.0,,,,,,
+2022,Scott Dreier,ChiliStew-mlb,Team Dreier,8.0,,91.0,102.0,11.0,669.08,,0.473,0.09,0.0,0.43,67.0,4.9,3.1,0.552,0.079,,,,,112.0,,,0.0,0.0,0.0,0.0,,,,,,
+2022,Ben Lalor,ChiliStew-mlb,Rodon your Mom,9.0,,82.0,101.0,9.0,545.94,,0.451,0.03,0.02,-0.33,37.0,6.8,2.2,0.46,0.009,,,,,91.0,,,0.0,0.0,0.0,0.0,,,,,,
+2022,Russell Smith,ChiliStew-mlb,Frig off Lahey,10.0,,71.0,112.0,9.0,319.41,,0.393,0.0,0.49,-1.74,4.0,10.4,-0.4,0.291,-0.103,,,,,53.0,,,0.0,0.0,0.0,0.0,,,,,,
+2022,Bryan Jones,ChiliStew-mlb,Coles BBQ,11.0,,77.0,121.0,6.0,271.01,,0.392,0.0,0.69,-2.04,2.0,11.1,-0.1,0.254,-0.138,,,,,45.0,,,0.0,0.0,0.0,1.0,,,,,,
+2021,Erik Foster,ChiliStew-mlb,OpBo Tacos,1.0,,113.0,104.0,11.0,638.55,,0.52,0.07,0.0,0.25,60.0,5.4,-4.4,0.53,0.011,,,,,105.0,,,1.0,1.0,1.0,0.0,,,,,,
+2021,brian martinez,ChiliStew-mlb,BAM SLAMS,2.0,,118.0,96.0,14.0,760.89,,0.548,0.23,0.0,1.2,88.0,3.0,-1.0,0.644,0.096,,,,,126.0,,,1.0,1.0,0.0,0.0,,,,,,
+2021,Bryan Jones,ChiliStew-mlb,Magical Harp,3.0,,116.0,104.0,8.0,727.54,,0.526,0.17,0.0,0.94,83.0,3.6,-0.6,0.613,0.087,,,,,120.0,,,1.0,1.0,0.0,0.0,,,,,,
+2021,Scott Dreier,ChiliStew-mlb,Team Dreier,4.0,,123.0,90.0,15.0,751.58,,0.572,0.21,0.0,1.12,87.0,3.2,0.8,0.636,0.063,,,,,124.0,,,1.0,0.0,0.0,0.0,,,,,,
+2021,Troy Kato,ChiliStew-mlb,Droppin' Bohm's,5.0,,105.0,110.0,13.0,574.97,,0.489,0.03,0.02,-0.24,41.0,6.6,-1.6,0.471,-0.018,,,,,95.0,,,1.0,0.0,0.0,0.0,,,,,,
+2021,Russell Smith,ChiliStew-mlb,Frig off Lahey,6.0,,113.0,106.0,9.0,661.26,,0.515,0.09,0.0,0.43,66.0,4.9,1.1,0.551,0.036,,,,,109.0,,,1.0,0.0,0.0,0.0,,,,,,
+2021,Ryan Rumney,ChiliStew-mlb,Stoner Belli Mon,7.0,,105.0,126.0,9.0,532.83,,0.456,0.02,0.04,-0.57,29.0,7.4,-0.4,0.432,-0.025,,,,,88.0,,,0.0,0.0,0.0,0.0,,,,,,
+2021,Ben Lalor,ChiliStew-mlb,Snell Ya Later,8.0,,109.0,112.0,7.0,643.99,,0.493,0.07,0.0,0.29,62.0,5.3,2.8,0.535,0.042,,,,,106.0,,,0.0,0.0,0.0,0.0,,,,,,
+2021,Erik Bagley,ChiliStew-mlb,Dicks in Hand,9.0,,104.0,108.0,16.0,625.86,,0.491,0.06,0.01,0.15,56.0,5.6,3.4,0.518,0.027,,,,,103.0,,,0.0,0.0,0.0,0.0,,,,,,
+2021,Kyle Shipe,ChiliStew-mlb,Boner Jamz,10.0,,91.0,130.0,7.0,322.71,,0.414,0.0,0.77,-2.19,1.0,11.5,-1.5,0.236,-0.179,,,,,53.0,,,0.0,0.0,0.0,0.0,,,,,,
+2021,Kyle McReynolds,ChiliStew-mlb,Ballsdeep Inpoon,11.0,,100.0,111.0,17.0,426.92,,0.476,0.01,0.27,-1.38,8.0,9.5,1.5,0.333,-0.143,,,,,70.0,,,0.0,0.0,0.0,1.0,,,,,,
+2019,Troy Kato,ChiliStew-mlb,Buehler's Day Off,1.0,,128.0,79.0,9.0,813.04,,0.613,0.24,0.0,1.22,89.0,2.9,-1.9,0.647,0.033,,,,,136.0,,,1.0,1.0,1.0,0.0,,,,,,
+2019,Bryan Jones,ChiliStew-mlb,Lucroy's La Croix,2.0,,115.0,95.0,6.0,582.09,,0.546,0.04,0.01,-0.09,46.0,6.2,-4.2,0.489,-0.058,,,,,97.0,,,1.0,1.0,0.0,0.0,,,,,,
+2019,Scott Dreier,ChiliStew-mlb,Team Dreier,3.0,,106.0,95.0,15.0,757.12,,0.525,0.16,0.0,0.9,82.0,3.7,-0.7,0.608,0.083,,,,,127.0,,,1.0,1.0,0.0,0.0,,,,,,
+2019,Erik Foster,ChiliStew-mlb,A Ray of K's,4.0,,123.0,78.0,15.0,687.2,,0.604,0.09,0.0,0.5,69.0,4.7,-0.7,0.561,-0.044,,,,,115.0,,,1.0,0.0,0.0,0.0,,,,,,
+2019,Kyle McReynolds,ChiliStew-mlb,Ballsdeep Inpoon,5.0,,103.0,103.0,10.0,592.16,,0.5,0.04,0.01,-0.04,49.0,6.1,-1.1,0.496,-0.004,,,,,99.0,,,1.0,0.0,0.0,0.0,,,,,,
+2019,Russell Smith,ChiliStew-mlb,Frig off Lahey RUS,6.0,,107.0,109.0,12.0,676.98,,0.496,0.09,0.0,0.44,67.0,4.9,1.1,0.554,0.058,,,,,113.0,,,1.0,0.0,0.0,0.0,,,,,,
+2019,Erik Bagley,ChiliStew-mlb,All Betts on Davis,7.0,,100.0,109.0,7.0,546.6,,0.479,0.03,0.02,-0.29,38.0,6.7,0.3,0.465,-0.015,,,,,91.0,,,0.0,0.0,0.0,0.0,,,,,,
+2019,Kyle Shipe,ChiliStew-mlb,Boner Jamz,7.0,,101.0,105.0,10.0,537.03,,0.491,0.03,0.02,-0.35,36.0,6.9,0.1,0.458,-0.033,,,,,90.0,,,0.0,0.0,0.0,0.0,,,,,,
+2019,brian martinez,ChiliStew-mlb,BAM SLAMS,8.0,,78.0,134.0,16.0,347.71,,0.377,0.01,0.29,-1.42,8.0,9.6,-1.6,0.329,-0.049,,,,,58.0,,,0.0,0.0,0.0,0.0,,,,,,
+2019,Ryan Rumney,ChiliStew-mlb,StandUpTriple Rumz,9.0,,102.0,108.0,6.0,819.15,,0.486,0.24,0.0,1.25,89.0,2.8,6.2,0.651,0.165,,,,,137.0,,,0.0,0.0,0.0,0.0,,,,,,
+2019,Ben Lalor,ChiliStew-mlb,Bustiner Posey,10.0,,79.0,127.0,10.0,225.08,,0.389,0.0,0.73,-2.12,2.0,11.3,-1.3,0.245,-0.144,,,,,38.0,,,0.0,0.0,0.0,0.0,,,,,,
+2018,Scott Dreier,ChiliStew-mlb,Team Dreier,1.0,,139.0,101.0,12.0,741.14,,0.575,0.15,0.0,0.87,81.0,3.5,-2.5,0.604,0.029,,,,,124.0,,,1.0,1.0,1.0,0.0,,,,,,
+2018,Troy Kato,ChiliStew-mlb,Team Kato,2.0,,135.0,101.0,16.0,904.46,,0.567,0.45,0.0,1.87,97.0,1.2,0.8,0.725,0.158,,,,,151.0,,,1.0,1.0,0.0,0.0,,,,,,
+2018,Erik Bagley,ChiliStew-mlb,The Dirty Sanchez,3.0,,139.0,98.0,15.0,639.43,,0.581,0.07,0.0,0.24,60.0,4.9,-1.9,0.529,-0.052,,,,,107.0,,,1.0,1.0,0.0,0.0,,,,,,
+2018,Russell Smith,ChiliStew-mlb,Frig off Lahey RUS,4.0,,119.0,122.0,11.0,534.83,,0.494,0.03,0.02,-0.4,35.0,6.4,-2.4,0.452,-0.042,,,,,89.0,,,1.0,0.0,0.0,0.0,,,,,,
+2018,Erik Foster,ChiliStew-mlb,Yeli For MVP,5.0,,134.0,110.0,8.0,741.88,,0.548,0.15,0.0,0.87,81.0,3.5,1.6,0.605,0.057,,,,,124.0,,,1.0,0.0,0.0,0.0,,,,,,
+2018,Kyle McReynolds,ChiliStew-mlb,Ballsdeep Inpoon,6.0,,110.0,131.0,11.0,560.92,,0.458,0.03,0.02,-0.24,41.0,6.0,0.0,0.471,0.013,,,,,94.0,,,1.0,0.0,0.0,0.0,,,,,,
+2018,Bryan Jones,ChiliStew-mlb,Put it in the Bumgarner,7.0,,126.0,114.0,12.0,603.56,,0.524,0.05,0.01,0.02,51.0,5.4,1.6,0.503,-0.021,,,,,101.0,,,0.0,0.0,0.0,0.0,,,,,,
+2018,Nick Mannina,ChiliStew-mlb,Team Holy Machado,8.0,,102.0,143.0,7.0,364.99,,0.419,0.01,0.3,-1.44,8.0,8.7,-0.7,0.326,-0.092,,,,,61.0,,,0.0,0.0,0.0,0.0,,,,,,
+2018,Daniel Bolanos,ChiliStew-mlb,Dingers And Stingers,9.0,,114.0,123.0,15.0,573.32,,0.482,0.04,0.01,-0.16,44.0,5.8,3.2,0.48,-0.002,,,,,96.0,,,0.0,0.0,0.0,0.0,,,,,,
+2018,Ben Lalor,ChiliStew-mlb,Right in the Posey,10.0,,84.0,159.0,9.0,334.74,,0.351,0.0,0.42,-1.63,5.0,9.2,0.8,0.304,-0.047,,,,,56.0,,,0.0,0.0,0.0,1.0,,,,,,
+2017,Scott Dreier,ChiliStew-mlb,Team Dreier,1.0,,139.0,101.0,12.0,889.36,,0.575,0.29,0.0,1.4,92.0,2.3,-1.3,0.669,0.093,,,,,147.0,,,1.0,1.0,1.0,0.0,,,,,,
+2017,Erik Foster,ChiliStew-mlb,A Ray of K's,2.0,,128.0,118.0,6.0,666.27,,0.52,0.07,0.0,0.3,62.0,4.8,-2.8,0.536,0.016,,,,,110.0,,,1.0,1.0,0.0,0.0,,,,,,
+2017,Erik Bagley,ChiliStew-mlb,The Dirty Sanchez,3.0,,147.0,100.0,5.0,928.51,,0.593,0.35,0.0,1.59,94.0,1.8,1.2,0.692,0.098,,,,,153.0,,,1.0,1.0,0.0,0.0,,,,,,
+2017,Bryan Jones,ChiliStew-mlb,Team Jones,4.0,,139.0,104.0,9.0,813.86,,0.569,0.19,0.0,1.03,85.0,3.1,0.9,0.624,0.054,,,,,134.0,,,1.0,0.0,0.0,0.0,,,,,,
+2017,Russell Smith,ChiliStew-mlb,Team Smith,5.0,,120.0,125.0,7.0,489.25,,0.49,0.02,0.04,-0.57,28.0,6.8,-1.8,0.431,-0.059,,,,,81.0,,,1.0,0.0,0.0,0.0,,,,,,
+2017,Kyle McReynolds,ChiliStew-mlb,Ballsdeep Inpoon,6.0,,119.0,128.0,5.0,444.47,,0.482,0.01,0.07,-0.79,21.0,7.3,-1.3,0.405,-0.078,,,,,73.0,,,1.0,0.0,0.0,0.0,,,,,,
+2017,Troy Kato,ChiliStew-mlb,Team Kato,7.0,,121.0,116.0,15.0,600.01,,0.51,0.04,0.01,-0.03,49.0,5.5,1.5,0.497,-0.013,,,,,99.0,,,0.0,0.0,0.0,0.0,,,,,,
+2017,Nick Mannina,ChiliStew-mlb,Team Holy Machado,8.0,,99.0,144.0,9.0,357.96,,0.411,0.01,0.19,-1.22,11.0,8.2,-0.2,0.353,-0.058,,,,,59.0,,,0.0,0.0,0.0,0.0,,,,,,
+2017,Ben Lalor,ChiliStew-mlb,I did it all for the Mookie,9.0,,93.0,150.0,9.0,329.71,,0.387,0.01,0.26,-1.36,9.0,8.5,0.5,0.336,-0.051,,,,,55.0,,,0.0,0.0,0.0,0.0,,,,,,
+2017,Daniel Bolanos,ChiliStew-mlb,Dingers And Stingers,10.0,,112.0,131.0,9.0,535.18,,0.462,0.03,0.02,-0.35,36.0,6.2,3.8,0.458,-0.004,,,,,88.0,,,0.0,0.0,0.0,1.0,,,,,,
