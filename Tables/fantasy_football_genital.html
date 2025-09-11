@@ -197,7 +197,7 @@
                                         {String(row[column])}
                                     </a>
                                 ) : (
-                                    String(row[column] || "")
+                                    String(row[column] ?? "")
                                 )
                             )}
                         </td>
