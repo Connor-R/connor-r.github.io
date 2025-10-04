@@ -595,6 +595,7 @@ name,year,est_year_watched,genre,sub_genre,movie_length,peak,consistency,premise
 """The Matrix(1)""",1999,2001,"""action""","""sci-fi""",136,75,70,75,60,60,70,50,50,80,,68.8
 """The Matrix(2) Reloaded""",2003,2006,"""action""","""sci-fi""",138,60,50,55,50,50,60,50,40,50,,53.2
 """The Matrix(3) Revolutions""",2003,2008,"""action""","""sci-fi""",129,55,50,55,50,50,55,50,40,50,,51.6
+"""The Naked Gun""",2025,2025,"""comedy""","""""",85,60,50,50,40,30,60,65,60,50,,52.1
 """The Naked Gun: From the Files of Police Squad""",1988,2020,"""comedy""","""""",85,60,60,60,50,30,65,65,60,55,,56.6
 """The Nice Guys""",2016,2016,"""comedy""","""action""",116,70,30,50,40,40,60,60,50,50,,51.2
 """The Notebook""",2004,2012,"""romantic comedy""","""""",123,30,50,40,30,40,30,30,30,40,,36.3
