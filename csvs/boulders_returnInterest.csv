@@ -1,13 +1,9 @@
-Area,Return Interest,Boulder Name,Sub Area,V Grade,Total Attempts,Total Minutes,Total Sessions,Details
-"""Berkeley""",2,"""Impossible Wall""","""Mortar Rock""",8.0,10,30,1,"""10 Attempts | 30 Minutes | 1 Sessions
+area,return_interest,boulder_name,sub_area,v_grade,total_attempts,total_minutes,total_sessions,details
+Berkeley,2,Impossible Wall,Mortar Rock,8.0,10,30,1,"10 Attempts | 30 Minutes | 1 Sessions
 
 Session #1 on 2010-07-01 at 14:00:00. 10 attempts, over 30 minutes. 
-	Solo mission"""
-"""Bishop""",5,"""Fly Boy Sit""","""Buttermilks""",8.0,5,20,1,"""5 Attempts | 20 Minutes | 1 Sessions
-
-Session #1 on 2016-02-20 at 10:00:00. 5 attempts, over 20 minutes. 
-	Mackenzie sent; New Best Friend Greg was there"""
-"""Bishop""",5,"""Seven Spanish Angels""","""Buttermilks""",6.0,27,120,3,"""27 Attempts | 120 Minutes | 3 Sessions
+	Solo mission"
+Bishop,5,Seven Spanish Angels,Buttermilks,6.0,27,120,3,"27 Attempts | 120 Minutes | 3 Sessions
 
 Session #1 on 2010-03-01 at 11:00:00. 20 attempts, over 90 minutes. 
 	With LA guys with zipper butt pockets.
@@ -16,104 +12,108 @@ Session #2 on 2015-11-24 at 15:00:00. 2 attempts, over 20 minutes.
 	Very cold; had a cold
 
 Session #3 on 2017-12-27 at 14:00:00. 5 attempts, over 10 minutes. 
-	It was HAWT"""
-"""Bishop""",4,"""Atari""","""Happy Boulders""",6.0,10,75,1,"""10 Attempts | 75 Minutes | 1 Sessions
+	It was HAWT"
+Bishop,5,Fly Boy Sit,Buttermilks,8.0,5,20,1,"5 Attempts | 20 Minutes | 1 Sessions
 
-Session #1 on 2016-02-05 at 16:00:00. 10 attempts, over 75 minutes. 
-	With ~20 people included Oregon people and Matisyahue looking guy"""
-"""Bishop""",4,"""Finders Fee""","""Buttermilks""",9.0,35,150,2,"""35 Attempts | 150 Minutes | 2 Sessions
-
-Session #1 on 2017-12-28 at 14:00:00. 15 attempts, over 60 minutes. 
-	Figured out the moves up until the lip
-
-Session #2 on 2017-12-30 at 11:00:00. 20 attempts, over 90 minutes. 
-	In the heat with a ton of people at the boulder before bailing to Red Rocks"""
-"""Bishop""",4,"""Jedi Mind Tricks""","""Buttermilks""",4.0,2,15,1,"""2 Attempts | 15 Minutes | 1 Sessions
+Session #1 on 2016-02-20 at 10:00:00. 5 attempts, over 20 minutes. 
+	Mackenzie sent; New Best Friend Greg was there"
+Bishop,4,Strength in Numbers,Sad Boulders,5.0,,,,
+Bishop,4,Jedi Mind Tricks,Buttermilks,4.0,2,15,1,"2 Attempts | 15 Minutes | 1 Sessions
 
 Session #1 on 2016-02-07 at 15:00:00. 2 attempts, over 15 minutes. 
-	Very hot; with Ryan and Mackenzie"""
-"""Bishop""",4,"""Solitaire""","""Buttermilks""",8.0,35,150,2,"""35 Attempts | 150 Minutes | 2 Sessions
+	Very hot; with Ryan and Mackenzie"
+Bishop,4,Toxic Avenger,Happy Boulders,9.0,30,90,1,"30 Attempts | 90 Minutes | 1 Sessions
+
+Session #1 on 2017-12-29 at 11:00:00. 30 attempts, over 90 minutes. 
+	The day there were ~125 cars at the Happies"
+Bishop,4,Solitaire,Buttermilks,8.0,35,150,2,"35 Attempts | 150 Minutes | 2 Sessions
 
 Session #1 on 2016-01-17 at 14:00:00. 15 attempts, over 60 minutes. 
 	With Ryan Bauer
 
 Session #2 on 2016-02-20 at 14:00:00. 20 attempts, over 90 minutes. 
-	With Kyra Condie"""
-"""Bishop""",4,"""Strength in Numbers""","""Sad Boulders""",5.0,,,,
-"""Bishop""",4,"""Toxic Avenger""","""Happy Boulders""",9.0,30,90,1,"""30 Attempts | 90 Minutes | 1 Sessions
+	With Kyra Condie"
+Bishop,4,Finders Fee,Buttermilks,9.0,35,150,2,"35 Attempts | 150 Minutes | 2 Sessions
 
-Session #1 on 2017-12-29 at 11:00:00. 30 attempts, over 90 minutes. 
-	The day there were ~125 cars at the Happies"""
-"""Bishop""",3,"""High Plains Drifter""","""Buttermilks""",7.0,10,75,2,"""10 Attempts | 75 Minutes | 2 Sessions
+Session #1 on 2017-12-28 at 14:00:00. 15 attempts, over 60 minutes. 
+	Figured out the moves up until the lip
+
+Session #2 on 2017-12-30 at 11:00:00. 20 attempts, over 90 minutes. 
+	In the heat with a ton of people at the boulder before bailing to Red Rocks"
+Bishop,4,Atari,Happy Boulders,6.0,10,75,1,"10 Attempts | 75 Minutes | 1 Sessions
+
+Session #1 on 2016-02-05 at 16:00:00. 10 attempts, over 75 minutes. 
+	With ~20 people included Oregon people and Matisyahue looking guy"
+Bishop,3,High Plains Drifter,Buttermilks,7.0,10,75,2,"10 Attempts | 75 Minutes | 2 Sessions
 
 Session #1 on 2015-11-24 at 15:00:00. 5 attempts, over 30 minutes. 
 	Very cold; had a cold
 
 Session #2 on 2017-12-28 at 11:00:00. 5 attempts, over 45 minutes. 
-	With 30 of my closest friends (and LKV9)"""
-"""Bishop""",2,"""Disco Diva""","""Happy Boulders""",8.0,,,,
-"""Bishop""",2,"""Saigon""","""Buttermilks""",6.0,5,30,1,"""5 Attempts | 30 Minutes | 1 Sessions
+	With 30 of my closest friends (and LKV9)"
+Bishop,2,Saigon,Buttermilks,6.0,5,30,1,"5 Attempts | 30 Minutes | 1 Sessions
 
 Session #1 on 2015-11-24 at 15:00:00. 5 attempts, over 30 minutes. 
-	Very cold; had a cold"""
-"""Bishop""",2,"""Soul Slinger""","""Buttermilks""",9.0,5,20,1,"""5 Attempts | 20 Minutes | 1 Sessions
+	Very cold; had a cold"
+Bishop,2,Soul Slinger,Buttermilks,9.0,5,20,1,"5 Attempts | 20 Minutes | 1 Sessions
 
 Session #1 on 2015-11-24 at 10:00:00. 5 attempts, over 20 minutes. 
-	Very cold; had a cold"""
-"""Bishop""",1,"""Anti Hero""","""Sad Boulders""",5.0,3,15,1,"""3 Attempts | 15 Minutes | 1 Sessions
-
-Session #1 on 2016-01-19 at 11:00:00. 3 attempts, over 15 minutes. 
-	In the rain with Mackenzie/Ryan; after hurting ankle on the Hulk"""
-"""Bishop""",1,"""Brian's Project""","""Buttermilks""",8.0,5,20,1,"""5 Attempts | 20 Minutes | 1 Sessions
-
-Session #1 on 2016-02-20 at 17:00:00. 5 attempts, over 20 minutes. 
-	Brief attempt in the cold (too cold)"""
-"""Bishop""",1,"""Leary Bard Arete""","""Buttermilks""",5.0,5,20,1,"""5 Attempts | 20 Minutes | 1 Sessions
+	Very cold; had a cold"
+Bishop,2,Disco Diva,Happy Boulders,8.0,,,,
+Bishop,1,Leary Bard Arete,Buttermilks,5.0,5,20,1,"5 Attempts | 20 Minutes | 1 Sessions
 
 Session #1 on 2016-01-16 at 16:00:00. 5 attempts, over 20 minutes. 
-	Suuuuper Cold"""
-"""Bishop""",1,"""Painted Cave""","""Buttermilks""",6.0,10,45,1,"""10 Attempts | 45 Minutes | 1 Sessions
+	Suuuuper Cold"
+Bishop,1,Painted Cave,Buttermilks,6.0,10,45,1,"10 Attempts | 45 Minutes | 1 Sessions
 
 Session #1 on 2016-01-17 at 16:00:00. 10 attempts, over 45 minutes. 
-	Couldn't figure it out"""
-"""Bishop""",1,"""Rave""","""Happy Boulders""",7.0,10,30,1,"""10 Attempts | 30 Minutes | 1 Sessions
+	Couldn't figure it out"
+Bishop,1,Brian's Project,Buttermilks,8.0,5,20,1,"5 Attempts | 20 Minutes | 1 Sessions
 
-Session #1 on 2016-02-21 at 17:00:00. 10 attempts, over 30 minutes. 
-	Couldn't figure it out"""
-"""Bishop""",1,"""The Upside""","""Buttermilks""",8.0,10,60,1,"""10 Attempts | 60 Minutes | 1 Sessions
+Session #1 on 2016-02-20 at 17:00:00. 5 attempts, over 20 minutes. 
+	Brief attempt in the cold (too cold)"
+Bishop,1,Wheel of Beef,Sad Boulders,11.0,,,,
+Bishop,1,Anti Hero,Sad Boulders,5.0,3,15,1,"3 Attempts | 15 Minutes | 1 Sessions
+
+Session #1 on 2016-01-19 at 11:00:00. 3 attempts, over 15 minutes. 
+	In the rain with Mackenzie/Ryan; after hurting ankle on the Hulk"
+Bishop,1,The Upside,Buttermilks,8.0,10,60,1,"10 Attempts | 60 Minutes | 1 Sessions
 
 Session #1 on 2016-02-20 at 10:00:00. 10 attempts, over 60 minutes. 
-	With funny British guys who like climbing naked"""
-"""Bishop""",1,"""Wheel of Beef""","""Sad Boulders""",11.0,,,,
-"""Bow Valley""",1,"""Concrete Crack""","""Old Goat""",4.0,1,1,1,"""1 Attempts | 1 Minutes | 1 Sessions
+	With funny British guys who like climbing naked"
+Bishop,1,Rave,Happy Boulders,7.0,10,30,1,"10 Attempts | 30 Minutes | 1 Sessions
+
+Session #1 on 2016-02-21 at 17:00:00. 10 attempts, over 30 minutes. 
+	Couldn't figure it out"
+Bow Valley,1,Concrete Crack,Old Goat,4.0,1,1,1,"1 Attempts | 1 Minutes | 1 Sessions
 
 Session #1 on 2025-09-27 at 17:30:00. 1 attempts, over 1 minutes. 
-	Got scared 2/3 of the way up without a pad and feeling off balance so I climbed down."""
-"""Brione""",4,"""Dosage Jump""","""Dosage Jump""",5.5,2,5,1,"""2 Attempts | 5 Minutes | 1 Sessions
-
-Session #1 on 2024-05-12 at 10:00:00. 2 attempts, over 5 minutes. 
-	Whoa. Hit the jug and flew up and over Conor. Great spotting from him and soft dirt prevented an injury after one of the most exciting falls I've ever taken and somehow Caitlin got it on video. I left a nice human sized crater in the dirt. Maybe one day I'll go back and try again."""
-"""Brione""",4,"""Molunk""","""Molunk""",9.0,10,60,1,"""10 Attempts | 60 Minutes | 1 Sessions
+	Got scared 2/3 of the way up without a pad and feeling off balance so I climbed down."
+Brione,4,Molunk,Molunk,9.0,10,60,1,"10 Attempts | 60 Minutes | 1 Sessions
 
 Session #1 on 2024-05-10 at 16:30:00. 10 attempts, over 60 minutes. 
-	Felt too hard to do in a single session, but pretty cool! And Conor did it, in a way I would imagine I would not do, but it did look cool."""
-"""Brione""",3,"""Atlantis""","""Atlantis""",9.0,5,20,1,"""5 Attempts | 20 Minutes | 1 Sessions
+	Felt too hard to do in a single session, but pretty cool! And Conor did it, in a way I would imagine I would not do, but it did look cool."
+Brione,4,Dosage Jump,Dosage Jump,5.5,2,5,1,"2 Attempts | 5 Minutes | 1 Sessions
 
-Session #1 on 2024-05-10 at 18:00:00. 5 attempts, over 20 minutes. 
-	Caitlin believed this would be really easy. It was not. Maybe on another day it would be doable, but certainly not today."""
-"""Brione""",3,"""Black Pearl""","""Black Pearl""",10.0,20,120,1,"""20 Attempts | 120 Minutes | 1 Sessions
-
-Session #1 on 2024-05-14 at 11:00:00. 20 attempts, over 120 minutes. 
-	Couldn't do the first move or the move bringing your right hand to the lip, but given the weather it was a relief to just have something dry, and Conor did it to boot. Overall a success."""
-"""Brione""",3,"""There Is No Spoon""","""Wie im Urlaub""",7.5,20,90,1,"""20 Attempts | 90 Minutes | 1 Sessions
+Session #1 on 2024-05-12 at 10:00:00. 2 attempts, over 5 minutes. 
+	Whoa. Hit the jug and flew up and over Conor. Great spotting from him and soft dirt prevented an injury after one of the most exciting falls I've ever taken and somehow Caitlin got it on video. I left a nice human sized crater in the dirt. Maybe one day I'll go back and try again."
+Brione,3,There Is No Spoon,Wie im Urlaub,7.5,20,90,1,"20 Attempts | 90 Minutes | 1 Sessions
 
 Session #1 on 2024-05-11 at 16:30:00. 20 attempts, over 90 minutes. 
-	Such a cool feature, bummed I am not enough of a slab master to finish (must be hard though, Conor also did not finish)."""
-"""Brione""",2,"""Sunny Slab""","""Frogger""",5.0,10,30,1,"""10 Attempts | 30 Minutes | 1 Sessions
+	Such a cool feature, bummed I am not enough of a slab master to finish (must be hard though, Conor also did not finish)."
+Brione,3,Atlantis,Atlantis,9.0,5,20,1,"5 Attempts | 20 Minutes | 1 Sessions
+
+Session #1 on 2024-05-10 at 18:00:00. 5 attempts, over 20 minutes. 
+	Caitlin believed this would be really easy. It was not. Maybe on another day it would be doable, but certainly not today."
+Brione,3,Black Pearl,Black Pearl,10.0,20,120,1,"20 Attempts | 120 Minutes | 1 Sessions
+
+Session #1 on 2024-05-14 at 11:00:00. 20 attempts, over 120 minutes. 
+	Couldn't do the first move or the move bringing your right hand to the lip, but given the weather it was a relief to just have something dry, and Conor did it to boot. Overall a success."
+Brione,2,Sunny Slab,Frogger,5.0,10,30,1,"10 Attempts | 30 Minutes | 1 Sessions
 
 Session #1 on 2024-05-12 at 16:30:00. 10 attempts, over 30 minutes. 
-	Damn I want to be better at slab. They always look so fun, but they're always so damn hard."""
-"""Castle Rock""",4,"""Groundation""","""Cave Rock""",7.0,30,70,3,"""30 Attempts | 70 Minutes | 3 Sessions
+	Damn I want to be better at slab. They always look so fun, but they're always so damn hard."
+Castle Rock,4,Groundation,Cave Rock,7.0,30,70,3,"30 Attempts | 70 Minutes | 3 Sessions
 
 Session #1 on 2010-06-15 at 16:00:00. 10 attempts, over 20 minutes. 
 	Couldn't figure out the first move. Kneebars are hard
@@ -122,22 +122,19 @@ Session #2 on 2012-08-01 at 16:00:00. 10 attempts, over 20 minutes.
 	Couldn't figure out the first move. Kneebars are hard
 
 Session #3 on 2021-02-04 at 12:30:00. 10 attempts, over 30 minutes. 
-	Did the first move! Then was too scared to really do anything else. I have become even more of a pansy than I was in the past."""
-"""Castle Rock""",4,"""Sharma Arete""","""Indian Rock""",9.0,5,20,1,"""5 Attempts | 20 Minutes | 1 Sessions
+	Did the first move! Then was too scared to really do anything else. I have become even more of a pansy than I was in the past."
+Castle Rock,4,Sharma Arete,Indian Rock,9.0,5,20,1,"5 Attempts | 20 Minutes | 1 Sessions
 
 Session #1 on 2012-02-25 at 13:00:00. 5 attempts, over 20 minutes. 
-	With Conor and Nicky"""
-"""Castle Rock""",3,"""Collins Problem""","""Parking Lot Rock""",10.0,35,120,3,"""35 Attempts | 120 Minutes | 3 Sessions
+	With Conor and Nicky"
+Castle Rock,3,Right Hand Indian Man,Indian Rock,7.0,15,45,2,"15 Attempts | 45 Minutes | 2 Sessions
 
-Session #1 on 2021-04-21 at 12:00:00. 15 attempts, over 30 minutes. 
-	Slapped the hold once surprisingly. Had taken a couple months off climbing but surprisingly felt okay on crimps and skin didn't hurt too bad. Who knows why.
+Session #1 on 2020-09-18 at 16:30:00. 5 attempts, over 15 minutes. 
+	Very spanny, not sure if my beta was great either.
 
-Session #2 on 2021-05-03 at 11:30:00. 10 attempts, over 60 minutes. 
-	Slapped the hold a couple times before busting off and opening my knuckle. I don't think I can do this in the hot weather.
-
-Session #3 on 2021-05-19 at 11:30:00. 10 attempts, over 30 minutes. 
-	Felt really slippery even though it was super cold. Also realized it's not over after the first move, matching or getting your foot up to go left is going to be hard as well."""
-"""Castle Rock""",3,"""Deforestation""","""Parking Lot Rock""",9.0,50,210,4,"""50 Attempts | 210 Minutes | 4 Sessions
+Session #2 on 2021-02-01 at 12:30:00. 10 attempts, over 30 minutes. 
+	Still don't really know how the hell to do this...At least I did *one* move this time. No idea how to get out of the full span after the first move."
+Castle Rock,3,Deforestation,Parking Lot Rock,9.0,50,210,4,"50 Attempts | 210 Minutes | 4 Sessions
 
 Session #1 on 2014-07-01 at 12:00:00. 10 attempts, over 60 minutes. 
 	Solo mission. Made no progress
@@ -149,62 +146,65 @@ Session #3 on 2015-08-01 at 12:00:00. 20 attempts, over 60 minutes.
 	Solo Mission. Made no progress.
 
 Session #4 on 2021-01-12 at 10:00:00. 10 attempts, over 30 minutes. 
-	Felt surprisingly okay for not having climbed in a while. Def need some more finger strength/skin."""
-"""Castle Rock""",3,"""Right Hand Indian Man""","""Indian Rock""",7.0,15,45,2,"""15 Attempts | 45 Minutes | 2 Sessions
+	Felt surprisingly okay for not having climbed in a while. Def need some more finger strength/skin."
+Castle Rock,3,Collins Problem,Parking Lot Rock,10.0,35,120,3,"35 Attempts | 120 Minutes | 3 Sessions
 
-Session #1 on 2020-09-18 at 16:30:00. 5 attempts, over 15 minutes. 
-	Very spanny, not sure if my beta was great either.
+Session #1 on 2021-04-21 at 12:00:00. 15 attempts, over 30 minutes. 
+	Slapped the hold once surprisingly. Had taken a couple months off climbing but surprisingly felt okay on crimps and skin didn't hurt too bad. Who knows why.
 
-Session #2 on 2021-02-01 at 12:30:00. 10 attempts, over 30 minutes. 
-	Still don't really know how the hell to do this...At least I did *one* move this time. No idea how to get out of the full span after the first move."""
-"""Castle Rock""",2,"""Ecoterrorist""","""The Graveyard""",10.0,10,60,1,"""10 Attempts | 60 Minutes | 1 Sessions
+Session #2 on 2021-05-03 at 11:30:00. 10 attempts, over 60 minutes. 
+	Slapped the hold a couple times before busting off and opening my knuckle. I don't think I can do this in the hot weather.
 
-Session #1 on 2021-02-04 at 14:00:00. 10 attempts, over 60 minutes. 
-	Man...I didn't expect this to be as spooky as it was. I don't know if the new landing zone makes it better or worse, but the tree is  really bothersome to me. I did the first move a couple times, but haven't quite figured out the match. I tried starting from both hands on the lip off the tree, but couldn't commit to doing any moves even with the tree padded up. Maybe this one will have to wait until I'm waaaay stronger or something."""
-"""Castle Rock""",2,"""Kauk Roof""","""Magoos""",7.0,15,60,1,"""15 Attempts | 60 Minutes | 1 Sessions
-
-Session #1 on 2021-01-14 at 13:30:00. 15 attempts, over 60 minutes. 
-	Maybe not the best solo boulder? Kept falling and ending up on the ground. Plus I couldn't really figure out wtf to do after getting the crimp."""
-"""Castle Rock""",2,"""Waimea Arete""","""Castle Rock""",6.0,13,80,2,"""13 Attempts | 80 Minutes | 2 Sessions
+Session #3 on 2021-05-19 at 11:30:00. 10 attempts, over 30 minutes. 
+	Felt really slippery even though it was super cold. Also realized it's not over after the first move, matching or getting your foot up to go left is going to be hard as well."
+Castle Rock,2,Waimea Arete,Castle Rock,6.0,13,80,2,"13 Attempts | 80 Minutes | 2 Sessions
 
 Session #1 on 2011-07-01 at 14:00:00. 10 attempts, over 60 minutes. 
 	With Sage and Alvaro.
 
 Session #2 on 2016-07-01 at 12:00:00. 3 attempts, over 20 minutes. 
-	Scared trying the last move"""
-"""Castle Rock""",1,"""Static Reach Sit""","""Indian Rock""",10.0,10,20,1,"""10 Attempts | 20 Minutes | 1 Sessions
+	Scared trying the last move"
+Castle Rock,2,Kauk Roof,Magoos,7.0,15,60,1,"15 Attempts | 60 Minutes | 1 Sessions
 
-Session #1 on 2021-02-01 at 11:00:00. 10 attempts, over 20 minutes. 
-	Super spanny...not sure if I have the reach, or if I just need to be real strong. Also I tried the normal start a couple times and have 0 idea how I did it whenever that was."""
-"""Castle Rock""",1,"""Swinger""","""Aquarian Valley""",5.0,5,5,1,"""5 Attempts | 5 Minutes | 1 Sessions
+Session #1 on 2021-01-14 at 13:30:00. 15 attempts, over 60 minutes. 
+	Maybe not the best solo boulder? Kept falling and ending up on the ground. Plus I couldn't really figure out wtf to do after getting the crimp."
+Castle Rock,2,Ecoterrorist,The Graveyard,10.0,10,60,1,"10 Attempts | 60 Minutes | 1 Sessions
+
+Session #1 on 2021-02-04 at 14:00:00. 10 attempts, over 60 minutes. 
+	Man...I didn't expect this to be as spooky as it was. I don't know if the new landing zone makes it better or worse, but the tree is  really bothersome to me. I did the first move a couple times, but haven't quite figured out the match. I tried starting from both hands on the lip off the tree, but couldn't commit to doing any moves even with the tree padded up. Maybe this one will have to wait until I'm waaaay stronger or something."
+Castle Rock,1,Swinger,Aquarian Valley,5.0,5,5,1,"5 Attempts | 5 Minutes | 1 Sessions
 
 Session #1 on 2020-12-21 at 13:05:00. 5 attempts, over 5 minutes. 
-	Very confusing, not sure how the hell to levitate off the ground."""
-"""Chironico""",3,"""Made in Norway""","""Made in Norway""",7.5,3,15,1,"""3 Attempts | 15 Minutes | 1 Sessions
+	Very confusing, not sure how the hell to levitate off the ground."
+Castle Rock,1,Static Reach Sit,Indian Rock,10.0,10,20,1,"10 Attempts | 20 Minutes | 1 Sessions
+
+Session #1 on 2021-02-01 at 11:00:00. 10 attempts, over 20 minutes. 
+	Super spanny...not sure if I have the reach, or if I just need to be real strong. Also I tried the normal start a couple times and have 0 idea how I did it whenever that was."
+Chironico,3,Made in Norway,Made in Norway,7.5,3,15,1,"3 Attempts | 15 Minutes | 1 Sessions
 
 Session #1 on 2024-05-19 at 10:00:00. 3 attempts, over 15 minutes. 
-	Felt pretty scared on a left hand bump move. Maybe would feel better with more pads."""
-"""Columbia College""",5,"""Triple Cracks""","""Lower Arboretum""",6.0,20,120,1,"""20 Attempts | 120 Minutes | 1 Sessions
+	Felt pretty scared on a left hand bump move. Maybe would feel better with more pads."
+Columbia College,5,Triple Cracks,Lower Arboretum,6.0,20,120,1,"20 Attempts | 120 Minutes | 1 Sessions
 
 Session #1 on 2023-11-26 at 12:00:00. 20 attempts, over 120 minutes. 
-	I suck at climbing"""
-"""Columbia College""",4,"""The Minotaur""","""The Labyrinth""",5.0,10,60,1,"""10 Attempts | 60 Minutes | 1 Sessions
+	I suck at climbing"
+Columbia College,4,The Minotaur,The Labyrinth,5.0,10,60,1,"10 Attempts | 60 Minutes | 1 Sessions
 
 Session #1 on 2023-11-25 at 16:00:00. 10 attempts, over 60 minutes. 
-	Too scared"""
-"""Doolin""",3,"""Solid Works""","""Small Cave""",6.0,10,60,1,"""10 Attempts | 60 Minutes | 1 Sessions
+	Too scared"
+Doolin,3,Solid Works,Small Cave,6.0,10,60,1,"10 Attempts | 60 Minutes | 1 Sessions
 
 Session #1 on 2024-03-07 at 13:15:00. 10 attempts, over 60 minutes. 
-	Never figured out how to safely do the top without a pad. Climbing to the lip encounter wasn't too hard."""
-"""Duncan""",4,"""Vince's Project""","""Middle Level""",9.0,5,20,1,"""5 Attempts | 20 Minutes | 1 Sessions
+	Never figured out how to safely do the top without a pad. Climbing to the lip encounter wasn't too hard."
+Duncan,4,Vince's Project,Middle Level,9.0,5,20,1,"5 Attempts | 20 Minutes | 1 Sessions
 
 Session #1 on 2024-07-28 at 14:45:00. 5 attempts, over 20 minutes. 
-	Fell a couple times on the bump, but felt doable if fresher. Top felt like it might be sort of hard."""
-"""Duncan""",2,"""Noah's Arete""","""Middle Level""",7.0,5,15,1,"""5 Attempts | 15 Minutes | 1 Sessions
+	Fell a couple times on the bump, but felt doable if fresher. Top felt like it might be sort of hard."
+Duncan,2,Noah's Arete,Middle Level,7.0,5,15,1,"5 Attempts | 15 Minutes | 1 Sessions
 
 Session #1 on 2024-07-28 at 15:15:00. 5 attempts, over 15 minutes. 
-	Was absolutely toasted and this felt really hard."""
-"""Fort Ross""",2,"""Living a Dream""","""Fort Ross""",6.0,12,80,4,"""12 Attempts | 80 Minutes | 4 Sessions
+	Was absolutely toasted and this felt really hard."
+Fort Ross,2,Living La Vida Loca,Fort Ross,8.0,12,80,4,"12 Attempts | 80 Minutes | 4 Sessions
 
 Session #1 on 2012-08-19 at 12:00:00. 3 attempts, over 20 minutes. 
 	Got distracted and just did Fort Ross again
@@ -216,8 +216,8 @@ Session #3 on 2015-07-02 at 12:00:00. 3 attempts, over 20 minutes.
 	Got distracted and just did Fort Ross again
 
 Session #4 on 2016-07-09 at 12:00:00. 3 attempts, over 20 minutes. 
-	Got distracted and just did Fort Ross again"""
-"""Fort Ross""",2,"""Living La Vida Loca""","""Fort Ross""",8.0,12,80,4,"""12 Attempts | 80 Minutes | 4 Sessions
+	Got distracted and just did Fort Ross again"
+Fort Ross,2,Living a Dream,Fort Ross,6.0,12,80,4,"12 Attempts | 80 Minutes | 4 Sessions
 
 Session #1 on 2012-08-19 at 12:00:00. 3 attempts, over 20 minutes. 
 	Got distracted and just did Fort Ross again
@@ -229,8 +229,8 @@ Session #3 on 2015-07-02 at 12:00:00. 3 attempts, over 20 minutes.
 	Got distracted and just did Fort Ross again
 
 Session #4 on 2016-07-09 at 12:00:00. 3 attempts, over 20 minutes. 
-	Got distracted and just did Fort Ross again"""
-"""Fort Ross""",2,"""The Shazinky""","""Fort Ross""",8.0,12,80,4,"""12 Attempts | 80 Minutes | 4 Sessions
+	Got distracted and just did Fort Ross again"
+Fort Ross,2,The Shazinky,Fort Ross,8.0,12,80,4,"12 Attempts | 80 Minutes | 4 Sessions
 
 Session #1 on 2012-08-19 at 12:00:00. 3 attempts, over 20 minutes. 
 	Got distracted and just did Fort Ross again
@@ -242,15 +242,15 @@ Session #3 on 2015-07-02 at 12:00:00. 3 attempts, over 20 minutes.
 	Got distracted and just did Fort Ross again
 
 Session #4 on 2016-07-09 at 12:00:00. 3 attempts, over 20 minutes. 
-	Got distracted and just did Fort Ross again"""
-"""Hueco Tanks""",5,"""Girls of Juarez""","""North Mountain""",4.0,2,2,2,"""2 Attempts | 2 Minutes | 2 Sessions
+	Got distracted and just did Fort Ross again"
+Hueco Tanks,5,Girls of Juarez,North Mountain,4.0,2,2,2,"2 Attempts | 2 Minutes | 2 Sessions
 
 Session #1 on 2018-01-28 at 16:00:00. 1 attempts, over 1 minutes. 
 	Streetshoe Failure #1
 
 Session #2 on 2018-01-31 at 10:00:00. 1 attempts, over 1 minutes. 
-	Streetshoe Failure #2"""
-"""Hueco Tanks""",5,"""William's Jump""","""East Mountain""",3.0,45,80,3,"""45 Attempts | 80 Minutes | 3 Sessions
+	Streetshoe Failure #2"
+Hueco Tanks,5,William's Jump,East Mountain,3.0,45,80,3,"45 Attempts | 80 Minutes | 3 Sessions
 
 Session #1 on 2018-01-29 at 15:30:00. 20 attempts, over 30 minutes. 
 	I think I once slapped within ~3 feet of the lip, so that's something.
@@ -259,26 +259,19 @@ Session #2 on 2022-02-13 at 14:20:00. 20 attempts, over 40 minutes.
 	I GOT CLOSE! Very exciting! Beta: One step runup (accuracy more important than power), jump off right foot.
 
 Session #3 on 2022-12-20 at 14:00:00. 5 attempts, over 10 minutes. 
-	Did not feel good on the knee."""
-"""Hueco Tanks""",4,"""Bloody Flapper""","""North Mountain""",4.0,10,25,2,"""10 Attempts | 25 Minutes | 2 Sessions
+	Did not feel good on the knee."
+Hueco Tanks,4,Bloody Flapper,North Mountain,4.0,10,25,2,"10 Attempts | 25 Minutes | 2 Sessions
 
 Session #1 on 2022-02-05 at 17:30:00. 5 attempts, over 10 minutes. 
 	Really did not want to dyno, kept trying a myriad of other/worse options. Next time I should just jump.
 
 Session #2 on 2022-12-21 at 16:00:00. 5 attempts, over 15 minutes. 
-	Doesn't feel good on the knee but I'd like to do it. I'm bad at jumping."""
-"""Hueco Tanks""",4,"""Mojo""","""East Mountain""",10.0,10,45,2,"""10 Attempts | 45 Minutes | 2 Sessions
-
-Session #1 on 2022-01-29 at 11:00:00. 5 attempts, over 30 minutes. 
-	Would have liked to feel how the 2nd and 3rd holds feel without tape on my critical fingers. Still may be too hard for my current strength level.
-
-Session #2 on 2024-02-01 at 17:15:00. 5 attempts, over 15 minutes. 
-	Did most of the moves...individually. Hoping it feels better not in the sun next time."""
-"""Hueco Tanks""",4,"""Power of Landjager""","""East Mountain""",11.0,5,15,1,"""5 Attempts | 15 Minutes | 1 Sessions
+	Doesn't feel good on the knee but I'd like to do it. I'm bad at jumping."
+Hueco Tanks,4,Power of Landjager,East Mountain,11.0,5,15,1,"5 Attempts | 15 Minutes | 1 Sessions
 
 Session #1 on 2023-12-29 at 16:00:00. 5 attempts, over 15 minutes. 
-	Wow that move to the pocket crimp is long and hard...and pogoing after would be hard too. Very cool though!"""
-"""Hueco Tanks""",4,"""Smooth Move""","""North Mountain""",5.5,45,135,3,"""45 Attempts | 135 Minutes | 3 Sessions
+	Wow that move to the pocket crimp is long and hard...and pogoing after would be hard too. Very cool though!"
+Hueco Tanks,4,Smooth Move,North Mountain,5.5,45,135,3,"45 Attempts | 135 Minutes | 3 Sessions
 
 Session #1 on 2022-02-01 at 14:30:00. 10 attempts, over 30 minutes. 
 	Fuck I want to be able to dyno so bad. Why are the most fun looking climbs dynos and flatwalls, two things I suck at? Slapped ~3 inches before the jug once. Key beta, wear tennis shoes (easier to jump in/more comfortable to land on).
@@ -287,8 +280,15 @@ Session #2 on 2022-02-22 at 15:00:00. 25 attempts, over 75 minutes.
 	I WANT TO DO THIS SO BAD. WHY IS JUMPING SO HARD.
 
 Session #3 on 2022-02-28 at 12:00:00. 10 attempts, over 30 minutes. 
-	Damn. Thought today was the day but wasn't meant to be. Even tried a basketball shoe for extra jumping, but that just made it harder. Maybe I was never as close as I thought..."""
-"""Hueco Tanks""",4,"""The Bear""","""East Mountain""",4.0,20,75,3,"""20 Attempts | 75 Minutes | 3 Sessions
+	Damn. Thought today was the day but wasn't meant to be. Even tried a basketball shoe for extra jumping, but that just made it harder. Maybe I was never as close as I thought..."
+Hueco Tanks,4,Mojo,East Mountain,10.0,10,45,2,"10 Attempts | 45 Minutes | 2 Sessions
+
+Session #1 on 2022-01-29 at 11:00:00. 5 attempts, over 30 minutes. 
+	Would have liked to feel how the 2nd and 3rd holds feel without tape on my critical fingers. Still may be too hard for my current strength level.
+
+Session #2 on 2024-02-01 at 17:15:00. 5 attempts, over 15 minutes. 
+	Did most of the moves...individually. Hoping it feels better not in the sun next time."
+Hueco Tanks,4,The Bear,East Mountain,4.0,20,75,3,"20 Attempts | 75 Minutes | 3 Sessions
 
 Session #1 on 2022-01-29 at 17:00:00. 10 attempts, over 30 minutes. 
 	Juuuuuust spanny enough to make that second move blind and quite hard. Tried Casey's right method once but the foot felt even higher and balancey.
@@ -297,53 +297,12 @@ Session #2 on 2022-02-13 at 14:00:00. 5 attempts, over 30 minutes.
 	The second move is the hardest single move in all of rock climbing.
 
 Session #3 on 2022-12-20 at 15:00:00. 5 attempts, over 15 minutes. 
-	Couldn't figure out how to get off the ground. After watching Louie's video it turned out we were starting in the wrong place."""
-"""Hueco Tanks""",3,"""Both Barrels""","""North Mountain""",9.0,10,60,1,"""10 Attempts | 60 Minutes | 1 Sessions
-
-Session #1 on 2022-02-20 at 16:15:00. 10 attempts, over 60 minutes. 
-	It's a 3 move problem and I've done 0 moves (maybe am close on the first 2?), but it's kind of fun and interesting!"""
-"""Hueco Tanks""",3,"""Coffee Achiever""","""North Mountain""",5.0,7,20,2,"""7 Attempts | 20 Minutes | 2 Sessions
-
-Session #1 on 2022-02-01 at 17:30:00. 5 attempts, over 15 minutes. 
-	What in the fuck?! This feels so hard. Got absolutely no where. According to Stupid Strong Southern Sean, this thing is just super hard.
-
-Session #2 on 2023-12-22 at 11:30:00. 2 attempts, over 5 minutes. 
-	Tried the campus method and felt closer, but it really hurt my scapula so I stopped. Teddy and Conor did it."""
-"""Hueco Tanks""",3,"""Eurydice""","""North Mountain""",9.0,15,60,2,"""15 Attempts | 60 Minutes | 2 Sessions
-
-Session #1 on 2022-02-22 at 12:30:00. 5 attempts, over 15 minutes. 
-	Did not make a lot of progress, but did crumble a foothold.
-
-Session #2 on 2022-02-28 at 13:00:00. 10 attempts, over 45 minutes. 
-	Well I did what I thought was the crux, and then had no idea what to do after so I guess that's something. Maybe wearing shoes that had a more precise heel could have been helpful, but who knows."""
-"""Hueco Tanks""",3,"""Full Service""","""East Mountain""",10.0,10,60,1,"""10 Attempts | 60 Minutes | 1 Sessions
-
-Session #1 on 2022-01-23 at 13:00:00. 10 attempts, over 60 minutes. 
-	Upon returning home I was informed that matching the loaf was bad beta by the stupidly strong man with questionable sequencing. Instead, you should flip the J."""
-"""Hueco Tanks""",3,"""Hedgehog""","""North Mountain""",9.0,8,45,1,"""8 Attempts | 45 Minutes | 1 Sessions
+	Couldn't figure out how to get off the ground. After watching Louie's video it turned out we were starting in the wrong place."
+Hueco Tanks,3,Hedgehog,North Mountain,9.0,8,45,1,"8 Attempts | 45 Minutes | 1 Sessions
 
 Session #1 on 2024-02-06 at 15:00:00. 8 attempts, over 45 minutes. 
-	Had a kink in my neck and couldn't really move my head, but still did most of the moves."""
-"""Hueco Tanks""",3,"""Man Gum""","""East Mountain""",9.0,15,60,1,"""15 Attempts | 60 Minutes | 1 Sessions
-
-Session #1 on 2022-12-31 at 15:00:00. 15 attempts, over 60 minutes. 
-	Never did the first move, but did it (to a safe drop off point) from a move in. This is VERY crimpy and sharp. Caitlin could do the first move but not the 3rd(?) move, so combined we had a team send. Conor gave up, but then got bored and gritted his teeth and did it. It still looked hard.
-
-In lighter news, Casey took my first witnessed Hueco dump. We collected all the plastic bags we could find and off he went, only to return after relieving himself alerting us to the fact that he couldn't find any of the bags other than the bag that the toilet paper was in. He took C^2's saucy sandwich bag for a second layer, and made the (smart) decision to sacrifice his tupperware for extra protection.
-
-When we left the area he realized the bags were in his jacket pocket which he had removed prior to pooping. A comedy in three parts."""
-"""Hueco Tanks""",3,"""Predator""","""North Mountain""",10.0,20,90,2,"""20 Attempts | 90 Minutes | 2 Sessions
-
-Session #1 on 2022-02-20 at 12:00:00. 10 attempts, over 30 minutes. 
-	Couldn't figure out how to do the punchy undercling move, felt really far.
-
-Session #2 on 2022-02-24 at 12:00:00. 10 attempts, over 60 minutes. 
-	I thought this innovative heel beta I saw a video on was going to be the difference. It wasn't. Underclings are still way too hard. My down jacket did blow away in a strong gust of wind though so that added some excitement. I think a gust whipped through the cave and rocketed out; my jacket flew up and out of the cave, probably like 40-70 feet up in the air. I thought I was going to have to spend the rest of the day looking for it, but luckily I found it after maybe 25 (stressful) minutes. It had blown maybe ~250 feet east and I audibly shrieked when I found it. Probably happier to find the jacket than to do any climb, so I'll take it."""
-"""Hueco Tanks""",3,"""Slim Pickins""","""East Spur""",5.0,2,5,1,"""2 Attempts | 5 Minutes | 1 Sessions
-
-Session #1 on 2022-12-23 at 10:30:00. 2 attempts, over 5 minutes. 
-	Sooooo cold. Friction felt great, but every time I fell I'd kick the wall and it would hurt super bad. Conor repeated and Casey did it!"""
-"""Hueco Tanks""",3,"""The Egg""","""East Spur""",8.0,30,150,3,"""30 Attempts | 150 Minutes | 3 Sessions
+	Had a kink in my neck and couldn't really move my head, but still did most of the moves."
+Hueco Tanks,3,The Egg,East Spur,8.0,30,150,3,"30 Attempts | 150 Minutes | 3 Sessions
 
 Session #1 on 2022-12-25 at 16:00:00. 10 attempts, over 60 minutes. 
 	Couldn't do the knee bar to pull off the ground but did the rest of the problem. The top is super cool.
@@ -352,425 +311,470 @@ Session #2 on 2024-01-28 at 13:00:00. 10 attempts, over 60 minutes.
 	Still cannot do the first move! But Joaquin did!!
 
 Session #3 on 2024-02-04 at 15:00:00. 10 attempts, over 30 minutes. 
-	Did Thegg again! Still cannot do the first move for the life of me...maybe one day."""
-"""Hueco Tanks""",2,"""Choir Boys""","""North Mountain""",7.0,10,40,2,"""10 Attempts | 40 Minutes | 2 Sessions
+	Did Thegg again! Still cannot do the first move for the life of me...maybe one day."
+Hueco Tanks,3,Man Gum,East Mountain,9.0,15,60,1,"15 Attempts | 60 Minutes | 1 Sessions
 
-Session #1 on 2018-01-28 at 12:00:00. 5 attempts, over 20 minutes. 
-	Not my favorite problem. All weird and thrutchy and awkward falls.
+Session #1 on 2022-12-31 at 15:00:00. 15 attempts, over 60 minutes. 
+	Never did the first move, but did it (to a safe drop off point) from a move in. This is VERY crimpy and sharp. Caitlin could do the first move but not the 3rd(?) move, so combined we had a team send. Conor gave up, but then got bored and gritted his teeth and did it. It still looked hard.
 
-Session #2 on 2022-12-21 at 14:00:00. 5 attempts, over 20 minutes. 
-	Still really hard. Mostly tried out of boredom and to give some sick support to Caitlin."""
-"""Hueco Tanks""",2,"""El Techo De Los Tres B""","""North Mountain""",11.0,12,35,2,"""12 Attempts | 35 Minutes | 2 Sessions
+In lighter news, Casey took my first witnessed Hueco dump. We collected all the plastic bags we could find and off he went, only to return after relieving himself alerting us to the fact that he couldn't find any of the bags other than the bag that the toilet paper was in. He took C^2's saucy sandwich bag for a second layer, and made the (smart) decision to sacrifice his tupperware for extra protection.
+
+When we left the area he realized the bags were in his jacket pocket which he had removed prior to pooping. A comedy in three parts."
+Hueco Tanks,3,Full Service,East Mountain,10.0,10,60,1,"10 Attempts | 60 Minutes | 1 Sessions
+
+Session #1 on 2022-01-23 at 13:00:00. 10 attempts, over 60 minutes. 
+	Upon returning home I was informed that matching the loaf was bad beta by the stupidly strong man with questionable sequencing. Instead, you should flip the J."
+Hueco Tanks,3,Coffee Achiever,North Mountain,5.0,7,20,2,"7 Attempts | 20 Minutes | 2 Sessions
+
+Session #1 on 2022-02-01 at 17:30:00. 5 attempts, over 15 minutes. 
+	What in the fuck?! This feels so hard. Got absolutely no where. According to Stupid Strong Southern Sean, this thing is just super hard.
+
+Session #2 on 2023-12-22 at 11:30:00. 2 attempts, over 5 minutes. 
+	Tried the campus method and felt closer, but it really hurt my scapula so I stopped. Teddy and Conor did it."
+Hueco Tanks,3,Slim Pickins,East Spur,5.0,2,5,1,"2 Attempts | 5 Minutes | 1 Sessions
+
+Session #1 on 2022-12-23 at 10:30:00. 2 attempts, over 5 minutes. 
+	Sooooo cold. Friction felt great, but every time I fell I'd kick the wall and it would hurt super bad. Conor repeated and Casey did it!"
+Hueco Tanks,3,Predator,North Mountain,10.0,20,90,2,"20 Attempts | 90 Minutes | 2 Sessions
+
+Session #1 on 2022-02-20 at 12:00:00. 10 attempts, over 30 minutes. 
+	Couldn't figure out how to do the punchy undercling move, felt really far.
+
+Session #2 on 2022-02-24 at 12:00:00. 10 attempts, over 60 minutes. 
+	I thought this innovative heel beta I saw a video on was going to be the difference. It wasn't. Underclings are still way too hard. My down jacket did blow away in a strong gust of wind though so that added some excitement. I think a gust whipped through the cave and rocketed out; my jacket flew up and out of the cave, probably like 40-70 feet up in the air. I thought I was going to have to spend the rest of the day looking for it, but luckily I found it after maybe 25 (stressful) minutes. It had blown maybe ~250 feet east and I audibly shrieked when I found it. Probably happier to find the jacket than to do any climb, so I'll take it."
+Hueco Tanks,3,Eurydice,North Mountain,9.0,15,60,2,"15 Attempts | 60 Minutes | 2 Sessions
+
+Session #1 on 2022-02-22 at 12:30:00. 5 attempts, over 15 minutes. 
+	Did not make a lot of progress, but did crumble a foothold.
+
+Session #2 on 2022-02-28 at 13:00:00. 10 attempts, over 45 minutes. 
+	Well I did what I thought was the crux, and then had no idea what to do after so I guess that's something. Maybe wearing shoes that had a more precise heel could have been helpful, but who knows."
+Hueco Tanks,3,Both Barrels,North Mountain,9.0,10,60,1,"10 Attempts | 60 Minutes | 1 Sessions
+
+Session #1 on 2022-02-20 at 16:15:00. 10 attempts, over 60 minutes. 
+	It's a 3 move problem and I've done 0 moves (maybe am close on the first 2?), but it's kind of fun and interesting!"
+Hueco Tanks,2,The Dwindles,North Mountain,9.0,15,60,1,"15 Attempts | 60 Minutes | 1 Sessions
+
+Session #1 on 2022-12-25 at 14:00:00. 15 attempts, over 60 minutes. 
+	I bet this would be WAY easier with a kneebar. Too bad we didn't have a kneebar pad, nor am I able to competently kneebar."
+Hueco Tanks,2,Mr. Serious,East Spur,8.0,5,15,1,"5 Attempts | 15 Minutes | 1 Sessions
+
+Session #1 on 2023-12-20 at 14:00:00. 5 attempts, over 15 minutes. 
+	Felt impossible and unpleasant"
+Hueco Tanks,2,Meddle Detector,West Mountain,6.0,5,20,1,"5 Attempts | 20 Minutes | 1 Sessions
+
+Session #1 on 2023-12-29 at 16:20:00. 5 attempts, over 20 minutes. 
+	One day I will learn how to kneebar! Sage did it and it was really really cool!"
+Hueco Tanks,2,Shamu,North Mountain,9.0,5,15,1,"5 Attempts | 15 Minutes | 1 Sessions
+
+Session #1 on 2022-02-07 at 13:30:00. 5 attempts, over 15 minutes. 
+	Have no idea how to go right hand to the crimp ¯\_(?)_/¯"
+Hueco Tanks,2,Governator,North Mountain,10.0,10,30,1,"10 Attempts | 30 Minutes | 1 Sessions
+
+Session #1 on 2022-02-20 at 12:45:00. 10 attempts, over 30 minutes. 
+	Sunny and lot, the first crimp (not very sharp) started to give me a split. Also felt pretty hard."
+Hueco Tanks,2,El Techo De Los Tres B,North Mountain,11.0,12,35,2,"12 Attempts | 35 Minutes | 2 Sessions
 
 Session #1 on 2022-02-22 at 16:30:00. 10 attempts, over 30 minutes. 
 	Tried out some of the moves, but realized I had neither the skin nor the energy to do much more than that.
 
 Session #2 on 2023-12-22 at 11:00:00. 2 attempts, over 5 minutes. 
-	This is...still too hard!!"""
-"""Hueco Tanks""",2,"""Governator""","""North Mountain""",10.0,10,30,1,"""10 Attempts | 30 Minutes | 1 Sessions
-
-Session #1 on 2022-02-20 at 12:45:00. 10 attempts, over 30 minutes. 
-	Sunny and lot, the first crimp (not very sharp) started to give me a split. Also felt pretty hard."""
-"""Hueco Tanks""",2,"""Meddle Detector""","""West Mountain""",6.0,5,20,1,"""5 Attempts | 20 Minutes | 1 Sessions
-
-Session #1 on 2023-12-29 at 16:20:00. 5 attempts, over 20 minutes. 
-	One day I will learn how to kneebar! Sage did it and it was really really cool!"""
-"""Hueco Tanks""",2,"""Mr. Serious""","""East Spur""",8.0,5,15,1,"""5 Attempts | 15 Minutes | 1 Sessions
-
-Session #1 on 2023-12-20 at 14:00:00. 5 attempts, over 15 minutes. 
-	Felt impossible and unpleasant"""
-"""Hueco Tanks""",2,"""Shamu""","""North Mountain""",9.0,5,15,1,"""5 Attempts | 15 Minutes | 1 Sessions
-
-Session #1 on 2022-02-07 at 13:30:00. 5 attempts, over 15 minutes. 
-	Have no idea how to go right hand to the crimp \_(?)_/"""
-"""Hueco Tanks""",2,"""The Dwindles""","""North Mountain""",9.0,15,60,1,"""15 Attempts | 60 Minutes | 1 Sessions
-
-Session #1 on 2022-12-25 at 14:00:00. 15 attempts, over 60 minutes. 
-	I bet this would be WAY easier with a kneebar. Too bad we didn't have a kneebar pad, nor am I able to competently kneebar."""
-"""Hueco Tanks""",2,"""The Notorious D.I.G.""","""East Mountain""",9.0,15,90,2,"""15 Attempts | 90 Minutes | 2 Sessions
+	This is...still too hard!!"
+Hueco Tanks,2,The Notorious D.I.G.,East Mountain,9.0,15,90,2,"15 Attempts | 90 Minutes | 2 Sessions
 
 Session #1 on 2022-01-23 at 15:00:00. 10 attempts, over 60 minutes. 
 	Very sharp, made me not want to try to hold the pocket, but at least it was a little separated from the rest of the tour.
 
 Session #2 on 2022-01-29 at 15:30:00. 5 attempts, over 30 minutes. 
-	Didn't make any more progress, and I still don't want to hold that sharp hold. Probably out of my league for now."""
-"""Hueco Tanks""",1,"""Diaphanous Sea""","""North Mountain""",11.0,10,45,1,"""10 Attempts | 45 Minutes | 1 Sessions
+	Didn't make any more progress, and I still don't want to hold that sharp hold. Probably out of my league for now."
+Hueco Tanks,2,Choir Boys,North Mountain,7.0,10,40,2,"10 Attempts | 40 Minutes | 2 Sessions
 
-Session #1 on 2022-02-17 at 16:45:00. 10 attempts, over 45 minutes. 
-	Maaaaybe would be doable with good skin and a lot of work, but probably best to wait. Tried the top finishing V4 problem briefly too and it was a bit sharp/stabby/not super fun; I feel bad for anybody who falls there after doing the bottom."""
-"""Hueco Tanks""",1,"""Julio and Me""","""East Mountain""",9.0,3,5,1,"""3 Attempts | 5 Minutes | 1 Sessions
+Session #1 on 2018-01-28 at 12:00:00. 5 attempts, over 20 minutes. 
+	Not my favorite problem. All weird and thrutchy and awkward falls.
 
-Session #1 on 2023-12-30 at 10:30:00. 3 attempts, over 5 minutes. 
-	Sharp, probably not that good"""
-"""Hueco Tanks""",1,"""Power of Silence""","""North Mountain""",10.0,5,30,1,"""5 Attempts | 30 Minutes | 1 Sessions
+Session #2 on 2022-12-21 at 14:00:00. 5 attempts, over 20 minutes. 
+	Still really hard. Mostly tried out of boredom and to give some sick support to Caitlin."
+Hueco Tanks,1,Power of Silence,North Mountain,10.0,5,30,1,"5 Attempts | 30 Minutes | 1 Sessions
 
 Session #1 on 2022-02-17 at 16:00:00. 5 attempts, over 30 minutes. 
-	Out of my league for sure."""
-"""Hueco Tanks""",1,"""Squid Pro Roe""","""East Mountain""",9.0,10,30,1,"""10 Attempts | 30 Minutes | 1 Sessions
+	Out of my league for sure."
+Hueco Tanks,1,Squid Pro Roe,East Mountain,9.0,10,30,1,"10 Attempts | 30 Minutes | 1 Sessions
 
 Session #1 on 2023-12-30 at 15:15:00. 10 attempts, over 30 minutes. 
-	Couldnt figure out how to move out right"""
-"""Joe's Valley""",4,"""Maxipad""","""Right Fork""",6.0,10,45,1,"""10 Attempts | 45 Minutes | 1 Sessions
+	Couldnt figure out how to move out right"
+Hueco Tanks,1,Julio and Me,East Mountain,9.0,3,5,1,"3 Attempts | 5 Minutes | 1 Sessions
+
+Session #1 on 2023-12-30 at 10:30:00. 3 attempts, over 5 minutes. 
+	Sharp, probably not that good"
+Hueco Tanks,1,Diaphanous Sea,North Mountain,11.0,10,45,1,"10 Attempts | 45 Minutes | 1 Sessions
+
+Session #1 on 2022-02-17 at 16:45:00. 10 attempts, over 45 minutes. 
+	Maaaaybe would be doable with good skin and a lot of work, but probably best to wait. Tried the top finishing V4 problem briefly too and it was a bit sharp/stabby/not super fun; I feel bad for anybody who falls there after doing the bottom."
+Joe's Valley,4,Maxipad,Right Fork,6.0,10,45,1,"10 Attempts | 45 Minutes | 1 Sessions
 
 Session #1 on 2017-10-21 at 10:00:00. 10 attempts, over 45 minutes. 
-	On the Joe's Valley Climbing Fest day; with remember when I flashed Saigon? guy"""
-"""Joe's Valley""",3,"""No Substance""","""Right Fork""",8.0,5,20,1,"""5 Attempts | 20 Minutes | 1 Sessions
+	On the Joe's Valley Climbing Fest day; with remember when I flashed Saigon? guy"
+Joe's Valley,3,No Substance,Right Fork,8.0,5,20,1,"5 Attempts | 20 Minutes | 1 Sessions
 
 Session #1 on 2016-03-28 at 17:00:00. 5 attempts, over 20 minutes. 
-	Got scared with 2.5 pads"""
-"""Joe's Valley""",3,"""Pandemic""","""Right Fork""",7.0,2,5,1,"""2 Attempts | 5 Minutes | 1 Sessions
+	Got scared with 2.5 pads"
+Joe's Valley,3,Trent's Mom,Left Fork,10.0,,,,
+Joe's Valley,3,The Flu,Right Fork,8.0,2,5,1,"2 Attempts | 5 Minutes | 1 Sessions
 
 Session #1 on 2017-10-19 at 16:00:00. 2 attempts, over 5 minutes. 
-	Couldn't top out"""
-"""Joe's Valley""",3,"""The Flu""","""Right Fork""",8.0,2,5,1,"""2 Attempts | 5 Minutes | 1 Sessions
+	Couldn't top out"
+Joe's Valley,3,Pandemic,Right Fork,7.0,2,5,1,"2 Attempts | 5 Minutes | 1 Sessions
 
 Session #1 on 2017-10-19 at 16:00:00. 2 attempts, over 5 minutes. 
-	Couldn't top out"""
-"""Joe's Valley""",3,"""Trent's Mom""","""Left Fork""",10.0,,,,
-"""Joe's Valley""",2,"""Black Dahlia""","""Left Fork""",10.0,,,,
-"""Joe's Valley""",2,"""Dirty Harry""","""Right Fork""",7.0,1,1,1,"""1 Attempts | 1 Minutes | 1 Sessions
-
-Session #1 on 2016-03-27 at 10:00:00. 1 attempts, over 1 minutes. 
-	Tried once and ankle hurt"""
-"""Joe's Valley""",2,"""Electric Fence""","""Right Fork""",7.0,15,90,1,"""15 Attempts | 90 Minutes | 1 Sessions
-
-Session #1 on 2017-10-17 at 15:00:00. 15 attempts, over 90 minutes. 
-	Punted off the top and couldn't get back"""
-"""Joe's Valley""",2,"""They Call Him Jordan""","""Left Fork""",8.0,2,10,1,"""2 Attempts | 10 Minutes | 1 Sessions
+	Couldn't top out"
+Joe's Valley,2,They Call Him Jordan,Left Fork,8.0,2,10,1,"2 Attempts | 10 Minutes | 1 Sessions
 
 Session #1 on 2017-10-16 at 16:00:00. 2 attempts, over 10 minutes. 
-	Felt improbable"""
-"""Joe's Valley""",2,"""Worst Case Scenario""","""Left Fork""",9.0,,,,
-"""Joe's Valley""",1,"""Finger Hut""","""Right Fork""",10.0,5,20,1,"""5 Attempts | 20 Minutes | 1 Sessions
+	Felt improbable"
+Joe's Valley,2,Worst Case Scenario,Left Fork,9.0,,,,
+Joe's Valley,2,Dirty Harry,Right Fork,7.0,1,1,1,"1 Attempts | 1 Minutes | 1 Sessions
+
+Session #1 on 2016-03-27 at 10:00:00. 1 attempts, over 1 minutes. 
+	Tried once and ankle hurt"
+Joe's Valley,2,Black Dahlia,Left Fork,10.0,,,,
+Joe's Valley,2,Electric Fence,Right Fork,7.0,15,90,1,"15 Attempts | 90 Minutes | 1 Sessions
+
+Session #1 on 2017-10-17 at 15:00:00. 15 attempts, over 90 minutes. 
+	Punted off the top and couldn't get back"
+Joe's Valley,1,Finger Hut,Right Fork,10.0,5,20,1,"5 Attempts | 20 Minutes | 1 Sessions
 
 Session #1 on 2016-03-30 at 17:00:00. 5 attempts, over 20 minutes. 
-	Super cold; saw girl who took 45 minute rests in between attempts"""
-"""Joe's Valley""",1,"""Worm Turns""","""Left Fork""",11.0,10,30,1,"""10 Attempts | 30 Minutes | 1 Sessions
+	Super cold; saw girl who took 45 minute rests in between attempts"
+Joe's Valley,1,Worm Turns,Left Fork,11.0,10,30,1,"10 Attempts | 30 Minutes | 1 Sessions
 
 Session #1 on 2017-10-16 at 14:00:00. 10 attempts, over 30 minutes. 
-	Got bombarded by 8 Coloradians"""
-"""Leavenworth""",4,"""Resurrection""","""Icicle Canyon""",8.0,20,90,1,"""20 Attempts | 90 Minutes | 1 Sessions
+	Got bombarded by 8 Coloradians"
+Leavenworth,4,Resurrection,Icicle Canyon,8.0,20,90,1,"20 Attempts | 90 Minutes | 1 Sessions
 
 Session #1 on 2018-04-24 at 17:00:00. 20 attempts, over 90 minutes. 
-	Couldn't do the first move; flashed from 1 move in"""
-"""Leavenworth""",4,"""The Lion's Den""","""Icicle Canyon""",8.0,15,60,1,"""15 Attempts | 60 Minutes | 1 Sessions
-
-Session #1 on 2018-04-18 at 17:00:00. 15 attempts, over 60 minutes. 
-	Couldn't link"""
-"""Leavenworth""",4,"""The Shield""","""Icicle Canyon""",7.0,10,30,1,"""10 Attempts | 30 Minutes | 1 Sessions
+	Couldn't do the first move; flashed from 1 move in"
+Leavenworth,4,The Shield,Icicle Canyon,7.0,10,30,1,"10 Attempts | 30 Minutes | 1 Sessions
 
 Session #1 on 2018-04-18 at 11:00:00. 10 attempts, over 30 minutes. 
-	Couldn't latch the hold"""
-"""Leavenworth""",3,"""Bootin Dookie""","""Icicle Canyon""",6.0,5,60,1,"""5 Attempts | 60 Minutes | 1 Sessions
+	Couldn't latch the hold"
+Leavenworth,4,The Lion's Den,Icicle Canyon,8.0,15,60,1,"15 Attempts | 60 Minutes | 1 Sessions
 
-Session #1 on 2018-04-24 at 16:00:00. 5 attempts, over 60 minutes. 
-	Mantle hurt my wrist"""
-"""Leavenworth""",3,"""Pimpsqueak""","""Icicle Canyon""",8.0,5,45,1,"""5 Attempts | 45 Minutes | 1 Sessions
+Session #1 on 2018-04-18 at 17:00:00. 15 attempts, over 60 minutes. 
+	Couldn't link"
+Leavenworth,3,Pimpsqueak,Icicle Canyon,8.0,5,45,1,"5 Attempts | 45 Minutes | 1 Sessions
 
 Session #1 on 2018-04-18 at 14:00:00. 5 attempts, over 45 minutes. 
-	Hurt my wrist doing the pistol grip"""
-"""Leavenworth""",3,"""The Coffee Cup""","""Icicle Canyon""",8.0,5,20,1,"""5 Attempts | 20 Minutes | 1 Sessions
+	Hurt my wrist doing the pistol grip"
+Leavenworth,3,The Coffee Cup,Icicle Canyon,8.0,5,20,1,"5 Attempts | 20 Minutes | 1 Sessions
 
 Session #1 on 2018-04-23 at 12:00:00. 5 attempts, over 20 minutes. 
-	Second move hurt my wrist"""
-"""Leavenworth""",3,"""Twisted""","""Icicle Canyon""",7.0,15,90,1,"""15 Attempts | 90 Minutes | 1 Sessions
+	Second move hurt my wrist"
+Leavenworth,3,Bootin Dookie,Icicle Canyon,6.0,5,60,1,"5 Attempts | 60 Minutes | 1 Sessions
+
+Session #1 on 2018-04-24 at 16:00:00. 5 attempts, over 60 minutes. 
+	Mantle hurt my wrist"
+Leavenworth,3,Twisted,Icicle Canyon,7.0,15,90,1,"15 Attempts | 90 Minutes | 1 Sessions
 
 Session #1 on 2018-04-24 at 12:00:00. 15 attempts, over 90 minutes. 
-	With Jacob and Teddy, couldn't link"""
-"""Leavenworth""",2,"""Mad Max""","""Icicle Canyon""",8.0,5,20,1,"""5 Attempts | 20 Minutes | 1 Sessions
+	With Jacob and Teddy, couldn't link"
+Leavenworth,2,Mad Max,Icicle Canyon,8.0,5,20,1,"5 Attempts | 20 Minutes | 1 Sessions
 
 Session #1 on 2018-04-25 at 11:00:00. 5 attempts, over 20 minutes. 
-	Day of Failure #2"""
-"""Leavenworth""",2,"""The Nine Iron""","""Tumwater Canyon""",10.0,10,45,1,"""10 Attempts | 45 Minutes | 1 Sessions
-
-Session #1 on 2018-04-22 at 14:00:00. 10 attempts, over 45 minutes. 
-	Couldn't do the crux"""
-"""Leavenworth""",2,"""The White Arete""","""Icicle Canyon""",5.0,3,15,1,"""3 Attempts | 15 Minutes | 1 Sessions
-
-Session #1 on 2018-04-25 at 12:30:00. 3 attempts, over 15 minutes. 
-	Day of Failure #4"""
-"""Leavenworth""",2,"""Thunderdome""","""Icicle Canyon""",9.0,5,20,1,"""5 Attempts | 20 Minutes | 1 Sessions
+	Day of Failure #2"
+Leavenworth,2,Thunderdome,Icicle Canyon,9.0,5,20,1,"5 Attempts | 20 Minutes | 1 Sessions
 
 Session #1 on 2018-04-25 at 11:30:00. 5 attempts, over 20 minutes. 
-	Day of Failure #3"""
-"""Leavenworth""",1,"""One Summer""","""Icicle Canyon""",5.0,5,10,1,"""5 Attempts | 10 Minutes | 1 Sessions
+	Day of Failure #3"
+Leavenworth,2,The Nine Iron,Tumwater Canyon,10.0,10,45,1,"10 Attempts | 45 Minutes | 1 Sessions
 
-Session #1 on 2018-04-24 at 11:00:00. 5 attempts, over 10 minutes. 
-	Couldn't do the crimp dyno"""
-"""Leavenworth""",1,"""Right Angles""","""Icicle Canyon""",8.0,10,45,1,"""10 Attempts | 45 Minutes | 1 Sessions
+Session #1 on 2018-04-22 at 14:00:00. 10 attempts, over 45 minutes. 
+	Couldn't do the crux"
+Leavenworth,2,The White Arete,Icicle Canyon,5.0,3,15,1,"3 Attempts | 15 Minutes | 1 Sessions
+
+Session #1 on 2018-04-25 at 12:30:00. 3 attempts, over 15 minutes. 
+	Day of Failure #4"
+Leavenworth,1,Right Angles,Icicle Canyon,8.0,10,45,1,"10 Attempts | 45 Minutes | 1 Sessions
 
 Session #1 on 2018-04-25 at 10:30:00. 10 attempts, over 45 minutes. 
-	Day of Failure #1"""
-"""Leavenworth""",1,"""The Cotton Pony""","""Icicle Canyon""",10.0,10,60,1,"""10 Attempts | 60 Minutes | 1 Sessions
+	Day of Failure #1"
+Leavenworth,1,One Summer,Icicle Canyon,5.0,5,10,1,"5 Attempts | 10 Minutes | 1 Sessions
+
+Session #1 on 2018-04-24 at 11:00:00. 5 attempts, over 10 minutes. 
+	Couldn't do the crimp dyno"
+Leavenworth,1,The Cotton Pony,Icicle Canyon,10.0,10,60,1,"10 Attempts | 60 Minutes | 1 Sessions
 
 Session #1 on 2018-04-26 at 13:00:00. 10 attempts, over 60 minutes. 
-	Roughly 5 feet from sticking the dyno"""
-"""Magic Wood""",4,"""Intermezzo""","""Intermezzo""",9.0,10,120,1,"""10 Attempts | 120 Minutes | 1 Sessions
+	Roughly 5 feet from sticking the dyno"
+Magic Wood,4,Intermezzo,Intermezzo,9.0,10,120,1,"10 Attempts | 120 Minutes | 1 Sessions
 
 Session #1 on 2024-05-18 at 11:15:00. 10 attempts, over 120 minutes. 
-	Soooo many people. Maybe like 20 people at the tiny boulder, and maybe 8-10 people trying? Not my favorite experience, but wasn't too bad."""
-"""Magic Wood""",4,"""Wonderboy""","""Wonderboy""",0.0,3,10,1,"""3 Attempts | 10 Minutes | 1 Sessions
+	Soooo many people. Maybe like 20 people at the tiny boulder, and maybe 8-10 people trying? Not my favorite experience, but wasn't too bad."
+Magic Wood,4,Wonderboy,Wonderboy,0.0,3,10,1,"3 Attempts | 10 Minutes | 1 Sessions
 
 Session #1 on 2024-05-18 at 10:30:00. 3 attempts, over 10 minutes. 
-	Great warmup to a spooky and weird mantle. Got too spooked!"""
-"""Magic Wood""",3,"""Mummy""","""Morgenlatte""",7.5,20,120,1,"""20 Attempts | 120 Minutes | 1 Sessions
+	Great warmup to a spooky and weird mantle. Got too spooked!"
+Magic Wood,3,Mummy,Morgenlatte,7.5,20,120,1,"20 Attempts | 120 Minutes | 1 Sessions
 
 Session #1 on 2024-05-18 at 16:00:00. 20 attempts, over 120 minutes. 
-	So hard! Should have capitalized the time I did the first move."""
-"""Magic Wood""",2,"""Bosna Something""","""Bosna""",8.0,5,15,1,"""5 Attempts | 15 Minutes | 1 Sessions
+	So hard! Should have capitalized the time I did the first move."
+Magic Wood,2,Bosna Something,Bosna,8.0,5,15,1,"5 Attempts | 15 Minutes | 1 Sessions
 
 Session #1 on 2024-05-18 at 15:00:00. 5 attempts, over 15 minutes. 
-	Some unknown problem involving grabbing an undercling over your head and pulling it down to your chest. Of course Conor was good at it."""
-"""Moe's Valley""",4,"""Gription""","""Upper""",9.0,,,,
-"""Moe's Valley""",3,"""Show of Hands""","""South End""",10.0,,,,
-"""Moe's Valley""",1,"""Lindner's Roof""","""TeePee Boulder""",9.0,10,20,1,"""10 Attempts | 20 Minutes | 1 Sessions
+	Some unknown problem involving grabbing an undercling over your head and pulling it down to your chest. Of course Conor was good at it."
+Moe's Valley,4,Gription,Upper,9.0,,,,
+Moe's Valley,3,Show of Hands,South End,10.0,,,,
+Moe's Valley,1,Lindner's Roof,TeePee Boulder,9.0,10,20,1,"10 Attempts | 20 Minutes | 1 Sessions
 
 Session #1 on 2017-10-21 at 17:00:00. 10 attempts, over 20 minutes. 
-	Couldn't do the crux"""
-"""Red Rocks""",3,"""Mr. Moran""","""Gateway Canyon""",7.0,20,120,2,"""20 Attempts | 120 Minutes | 2 Sessions
+	Couldn't do the crux"
+Red Rocks,3,Mr. Moran,Gateway Canyon,7.0,20,120,2,"20 Attempts | 120 Minutes | 2 Sessions
 
 Session #1 on 2016-03-25 at 17:00:00. 10 attempts, over 60 minutes. 
 	Didn't have the juice to mantle
 
 Session #2 on 2018-01-04 at 15:00:00. 10 attempts, over 60 minutes. 
-	Didn't have the juice to mantle"""
-"""Red Rocks""",3,"""UltraViolet""","""Red Springs""",8.5,30,150,1,"""30 Attempts | 150 Minutes | 1 Sessions
-
-Session #1 on 2018-01-04 at 11:00:00. 30 attempts, over 150 minutes. 
-	Couldn't link"""
-"""Red Rocks""",3,"""Up the Line""","""Willow Springs""",6.0,10,90,1,"""10 Attempts | 90 Minutes | 1 Sessions
+	Didn't have the juice to mantle"
+Red Rocks,3,Up the Line,Willow Springs,6.0,10,90,1,"10 Attempts | 90 Minutes | 1 Sessions
 
 Session #1 on 2018-01-01 at 11:00:00. 10 attempts, over 90 minutes. 
-	Couldn't link"""
-"""Red Rocks""",1,"""Ode to the Modern Mayor""","""Stampede""",9.0,10,45,1,"""10 Attempts | 45 Minutes | 1 Sessions
+	Couldn't link"
+Red Rocks,3,UltraViolet,Red Springs,8.5,30,150,1,"30 Attempts | 150 Minutes | 1 Sessions
+
+Session #1 on 2018-01-04 at 11:00:00. 30 attempts, over 150 minutes. 
+	Couldn't link"
+Red Rocks,1,Ode to the Modern Mayor,Stampede,9.0,10,45,1,"10 Attempts | 45 Minutes | 1 Sessions
 
 Session #1 on 2018-01-01 at 16:00:00. 10 attempts, over 45 minutes. 
-	Stuck the first move twice!"""
-"""Rocklands""",5,"""Roadside Slab""","""The Pass - Roadside""",7.5,15,75,2,"""15 Attempts | 75 Minutes | 2 Sessions
+	Stuck the first move twice!"
+Rocklands,5,Roadside Slab,The Pass - Roadside,7.5,15,75,2,"15 Attempts | 75 Minutes | 2 Sessions
 
 Session #1 on 2014-08-30 at 15:00:00. 10 attempts, over 45 minutes. 
 	Working on my slab skills!
 
 Session #2 on 2018-08-03 at 18:00:00. 5 attempts, over 30 minutes. 
-	""The trick with slab is to take lots of small steps."" Made it to the bailout point 2/3 of the way up, top feels hard."""
-"""Rocklands""",3,"""Barracuda""","""8 Day Rain""",11.0,25,75,2,"""25 Attempts | 75 Minutes | 2 Sessions
+	""The trick with slab is to take lots of small steps."" Made it to the bailout point 2/3 of the way up, top feels hard."
+Rocklands,3,Sunset Arete,The Pass - Roadside,9.0,1,1,1,"1 Attempts | 1 Minutes | 1 Sessions
 
-Session #1 on 2018-07-05 at 16:00:00. 10 attempts, over 30 minutes. 
-	Tried the initial move
-
-Session #2 on 2018-08-08 at 11:00:00. 15 attempts, over 45 minutes. 
-	Did the first move...twice! Couldn't do any other move though :/."""
-"""Rocklands""",3,"""Eddy Would Go""","""de Pakhuys - Plateau""",10.0,6,16,2,"""6 Attempts | 16 Minutes | 2 Sessions
-
-Session #1 on 2018-07-04 at 16:00:00. 1 attempts, over 1 minutes. 
-	Wtf, that move is huuuuge
-
-Session #2 on 2018-07-14 at 16:00:00. 5 attempts, over 15 minutes. 
-	Tried after Conor did it. Went better this better by just jumping very hard."""
-"""Rocklands""",3,"""Elefant im Porzellanladen""","""The Pass - Roadside""",6.0,10,45,1,"""10 Attempts | 45 Minutes | 1 Sessions
+Session #1 on 2014-08-30 at 14:00:00. 1 attempts, over 1 minutes. 
+	Tried the first move once and it felt sharp"
+Rocklands,3,Elefant im Porzellanladen,The Pass - Roadside,6.0,10,45,1,"10 Attempts | 45 Minutes | 1 Sessions
 
 Session #1 on 2018-08-12 at 14:30:00. 10 attempts, over 45 minutes. 
-	GOD DAMN MANTLES ARE HARD!!!"""
-"""Rocklands""",3,"""Hole in One""","""de Pakhuys - Plateau""",10.0,40,120,1,"""40 Attempts | 120 Minutes | 1 Sessions
-
-Session #1 on 2018-08-09 at 13:30:00. 40 attempts, over 120 minutes. 
-	Got high enough once, but was too far to the right. Couldn't figure out how to get that high again."""
-"""Rocklands""",3,"""Royksopp""","""The Pass - Roadcrew""",11.0,17,65,2,"""17 Attempts | 65 Minutes | 2 Sessions
+	GOD DAMN MANTLES ARE HARD!!!"
+Rocklands,3,Royksopp,The Pass - Roadcrew,11.0,17,65,2,"17 Attempts | 65 Minutes | 2 Sessions
 
 Session #1 on 2014-08-29 at 14:00:00. 2 attempts, over 5 minutes. 
 	Tried the first moves a couple times
 
 Session #2 on 2018-07-20 at 15:00:00. 15 attempts, over 60 minutes. 
-	Couldn't do the heel move to get the RH crimp"""
-"""Rocklands""",3,"""Sunset Arete""","""The Pass - Roadside""",9.0,1,1,1,"""1 Attempts | 1 Minutes | 1 Sessions
+	Couldn't do the heel move to get the RH crimp"
+Rocklands,3,Barracuda,8 Day Rain,11.0,25,75,2,"25 Attempts | 75 Minutes | 2 Sessions
 
-Session #1 on 2014-08-30 at 14:00:00. 1 attempts, over 1 minutes. 
-	Tried the first move once and it felt sharp"""
-"""Rocklands""",3,"""The Hatchling""","""Kleinfontein""",11.0,10,90,1,"""10 Attempts | 90 Minutes | 1 Sessions
+Session #1 on 2018-07-05 at 16:00:00. 10 attempts, over 30 minutes. 
+	Tried the initial move
+
+Session #2 on 2018-08-08 at 11:00:00. 15 attempts, over 45 minutes. 
+	Did the first move...twice! Couldn't do any other move though :/."
+Rocklands,3,Hole in One,de Pakhuys - Plateau,10.0,40,120,1,"40 Attempts | 120 Minutes | 1 Sessions
+
+Session #1 on 2018-08-09 at 13:30:00. 40 attempts, over 120 minutes. 
+	Got high enough once, but was too far to the right. Couldn't figure out how to get that high again."
+Rocklands,3,The Hatchling,Kleinfontein,11.0,10,90,1,"10 Attempts | 90 Minutes | 1 Sessions
 
 Session #1 on 2018-07-26 at 10:00:00. 10 attempts, over 90 minutes. 
-	Really nice looking, but not the most fun I've had trying a problem. Cruxy heel did not really agree with my knee, so maybe that played a role."""
-"""Rocklands""",2,"""Baboon Sumo""","""Kliphuis Campground - Campground""",7.5,10,30,1,"""10 Attempts | 30 Minutes | 1 Sessions
+	Really nice looking, but not the most fun I've had trying a problem. Cruxy heel did not really agree with my knee, so maybe that played a role."
+Rocklands,3,Eddy Would Go,de Pakhuys - Plateau,10.0,6,16,2,"6 Attempts | 16 Minutes | 2 Sessions
 
-Session #1 on 2018-08-18 at 14:00:00. 10 attempts, over 30 minutes. 
-	Got really good at hitting just below the jug, but not getting the extra 2 inches to actually latch."""
-"""Rocklands""",2,"""Bengie Black""","""de Pakhuys - Plateau""",7.0,10,30,1,"""10 Attempts | 30 Minutes | 1 Sessions
+Session #1 on 2018-07-04 at 16:00:00. 1 attempts, over 1 minutes. 
+	Wtf, that move is huuuuge
+
+Session #2 on 2018-07-14 at 16:00:00. 5 attempts, over 15 minutes. 
+	Tried after Conor did it. Went better this better by just jumping very hard."
+Rocklands,2,Ulan Bator,The Pass - Roadcrew,8.0,5,30,1,"5 Attempts | 30 Minutes | 1 Sessions
+
+Session #1 on 2014-08-29 at 18:00:00. 5 attempts, over 30 minutes. 
+	Felt really really hard"
+Rocklands,2,Bengie Black,de Pakhuys - Plateau,7.0,10,30,1,"10 Attempts | 30 Minutes | 1 Sessions
 
 Session #1 on 2018-08-18 at 15:30:00. 10 attempts, over 30 minutes. 
-	Slapped the lip a couple times, but never got back to the actual hold. High feet dynos are hard."""
-"""Rocklands""",2,"""Cedar Spine""","""The Pass - Roadcrew""",9.0,10,60,1,"""10 Attempts | 60 Minutes | 1 Sessions
+	Slapped the lip a couple times, but never got back to the actual hold. High feet dynos are hard."
+Rocklands,2,Un pincon d'herbes arete,The Pass - Roadside,9.0,5,30,1,"5 Attempts | 30 Minutes | 1 Sessions
 
-Session #1 on 2018-07-20 at 13:00:00. 10 attempts, over 60 minutes. 
-	Made some progress up to the last RH hold on the arete. Was less pleasant climbing than I had hoped :/"""
-"""Rocklands""",2,"""Kingdom in the Sky""","""Lower Pakhuis - Champsite""",9.0,10,45,1,"""10 Attempts | 45 Minutes | 1 Sessions
+Session #1 on 2014-08-30 at 17:00:00. 5 attempts, over 30 minutes. 
+	Topout is confusing"
+Rocklands,2,Tomorrow I Will Be Gone,The Pass - Roadcrew,9.0,4,10,1,"4 Attempts | 10 Minutes | 1 Sessions
 
-Session #1 on 2018-07-10 at 11:00:00. 10 attempts, over 45 minutes. 
-	Couldn't move my feet after getting the LH gaston"""
-"""Rocklands""",2,"""Olifanthuis""","""The Sassies""",8.0,8,30,1,"""8 Attempts | 30 Minutes | 1 Sessions
-
-Session #1 on 2018-07-12 at 14:00:00. 8 attempts, over 30 minutes. 
-	Felt really hard. Two really hard moves in a row. Could only do the first one in isolation, and couldn't do the second at all."""
-"""Rocklands""",2,"""Pinotage Sit""","""The Sassies""",10.0,10,30,1,"""10 Attempts | 30 Minutes | 1 Sessions
-
-Session #1 on 2018-07-03 at 16:00:00. 10 attempts, over 30 minutes. 
-	Tried briefly and couldn't get my heel up"""
-"""Rocklands""",2,"""Ron Ron Ultramel""","""Kliphuis Campground - Campground""",7.0,5,15,1,"""5 Attempts | 15 Minutes | 1 Sessions
-
-Session #1 on 2018-06-29 at 14:00:00. 5 attempts, over 15 minutes. 
-	Couldn't figure out the first move"""
-"""Rocklands""",2,"""Rooi Klavier""","""The Pass - Roadcrew""",9.0,25,120,2,"""25 Attempts | 120 Minutes | 2 Sessions
+Session #1 on 2018-07-20 at 16:00:00. 4 attempts, over 10 minutes. 
+	Couldn't do anything. Felt very warm."
+Rocklands,2,Rooi Klavier,The Pass - Roadcrew,9.0,25,120,2,"25 Attempts | 120 Minutes | 2 Sessions
 
 Session #1 on 2018-06-28 at 16:00:00. 10 attempts, over 60 minutes. 
 	With 5 British? People
 
 Session #2 on 2018-08-12 at 13:00:00. 15 attempts, over 60 minutes. 
-	Shiiit. Thought I was gonna do it when I quickly highpointed, then it turned out that the last move was/is stopper for me :(. At least I don't have to go back."""
-"""Rocklands""",2,"""Slab Race""","""8 Day Rain""",3.0,6,30,1,"""6 Attempts | 30 Minutes | 1 Sessions
+	Shiiit. Thought I was gonna do it when I quickly highpointed, then it turned out that the last move was/is stopper for me :(. At least I don't have to go back."
+Rocklands,2,Baboon Sumo,Kliphuis Campground - Campground,7.5,10,30,1,"10 Attempts | 30 Minutes | 1 Sessions
 
-Session #1 on 2018-08-07 at 15:00:00. 6 attempts, over 30 minutes. 
-	Fuck slab is so hard. Tried to complete the whole boulder but this one stymied me. Right before the rain came."""
-"""Rocklands""",2,"""The Potato Problem""","""Kliphuis Campground - Upper Campground""",7.5,10,90,1,"""10 Attempts | 90 Minutes | 1 Sessions
+Session #1 on 2018-08-18 at 14:00:00. 10 attempts, over 30 minutes. 
+	Got really good at hitting just below the jug, but not getting the extra 2 inches to actually latch."
+Rocklands,2,The Potato Problem,Kliphuis Campground - Upper Campground,7.5,10,90,1,"10 Attempts | 90 Minutes | 1 Sessions
 
 Session #1 on 2018-08-16 at 13:30:00. 10 attempts, over 90 minutes. 
-	Busted off the last move and fell on my face/head on my last attempt. This whole problem felt hard, and a little tweakyy on trmy right knee. Direct was easier, and maybe better?"""
-"""Rocklands""",2,"""Tomorrow I Will Be Gone""","""The Pass - Roadcrew""",9.0,4,10,1,"""4 Attempts | 10 Minutes | 1 Sessions
+	Busted off the last move and fell on my face/head on my last attempt. This whole problem felt hard, and a little tweakyy on trmy right knee. Direct was easier, and maybe better?"
+Rocklands,2,Olifanthuis,The Sassies,8.0,8,30,1,"8 Attempts | 30 Minutes | 1 Sessions
 
-Session #1 on 2018-07-20 at 16:00:00. 4 attempts, over 10 minutes. 
-	Couldn't do anything. Felt very warm."""
-"""Rocklands""",2,"""Ulan Bator""","""The Pass - Roadcrew""",8.0,5,30,1,"""5 Attempts | 30 Minutes | 1 Sessions
+Session #1 on 2018-07-12 at 14:00:00. 8 attempts, over 30 minutes. 
+	Felt really hard. Two really hard moves in a row. Could only do the first one in isolation, and couldn't do the second at all."
+Rocklands,2,Pinotage Sit,The Sassies,10.0,10,30,1,"10 Attempts | 30 Minutes | 1 Sessions
 
-Session #1 on 2014-08-29 at 18:00:00. 5 attempts, over 30 minutes. 
-	Felt really really hard"""
-"""Rocklands""",2,"""Un pincon d'herbes arete""","""The Pass - Roadside""",9.0,5,30,1,"""5 Attempts | 30 Minutes | 1 Sessions
+Session #1 on 2018-07-03 at 16:00:00. 10 attempts, over 30 minutes. 
+	Tried briefly and couldn't get my heel up"
+Rocklands,2,Ron Ron Ultramel,Kliphuis Campground - Campground,7.0,5,15,1,"5 Attempts | 15 Minutes | 1 Sessions
 
-Session #1 on 2014-08-30 at 17:00:00. 5 attempts, over 30 minutes. 
-	Topout is confusing"""
-"""Rocklands""",1,"""Black Mango Chutney""","""8 Day Rain""",10.0,5,45,1,"""5 Attempts | 45 Minutes | 1 Sessions
+Session #1 on 2018-06-29 at 14:00:00. 5 attempts, over 15 minutes. 
+	Couldn't figure out the first move"
+Rocklands,2,Kingdom in the Sky,Lower Pakhuis - Champsite,9.0,10,45,1,"10 Attempts | 45 Minutes | 1 Sessions
 
-Session #1 on 2014-08-21 at 16:00:00. 5 attempts, over 45 minutes. 
-	Out of my league"""
-"""Rocklands""",1,"""Fire of Love""","""de Pakhuys - Roadkill Cafe""",8.0,10,30,1,"""10 Attempts | 30 Minutes | 1 Sessions
+Session #1 on 2018-07-10 at 11:00:00. 10 attempts, over 45 minutes. 
+	Couldn't move my feet after getting the LH gaston"
+Rocklands,2,Slab Race,8 Day Rain,3.0,6,30,1,"6 Attempts | 30 Minutes | 1 Sessions
+
+Session #1 on 2018-08-07 at 15:00:00. 6 attempts, over 30 minutes. 
+	Fuck slab is so hard. Tried to complete the whole boulder but this one stymied me. Right before the rain came."
+Rocklands,2,Cedar Spine,The Pass - Roadcrew,9.0,10,60,1,"10 Attempts | 60 Minutes | 1 Sessions
+
+Session #1 on 2018-07-20 at 13:00:00. 10 attempts, over 60 minutes. 
+	Made some progress up to the last RH hold on the arete. Was less pleasant climbing than I had hoped :/"
+Rocklands,1,Fire of Love,de Pakhuys - Roadkill Cafe,8.0,10,30,1,"10 Attempts | 30 Minutes | 1 Sessions
 
 Session #1 on 2018-08-02 at 18:00:00. 10 attempts, over 30 minutes. 
-	Part 2! Way harder than it looks. Couldn't do the first move."""
-"""Rocklands""",1,"""Fruchtzwerg""","""de Pakhuys - Plateau""",9.0,13,35,2,"""13 Attempts | 35 Minutes | 2 Sessions
+	Part 2! Way harder than it looks. Couldn't do the first move."
+Rocklands,1,Throw Yourself Away,de Pakhuys - Plateau,10.0,5,10,1,"5 Attempts | 10 Minutes | 1 Sessions
 
-Session #1 on 2018-07-14 at 10:00:00. 3 attempts, over 5 minutes. 
-	The ""mini-hatching"" boulder facing Weichei. Tried a couple times in my street shoes
+Session #1 on 2018-08-14 at 12:00:00. 5 attempts, over 10 minutes. 
+	Finally did the first move and then tried to chimney into the rock and scratched my arm and got very over it."
+Rocklands,1,Push the Tempo,de Pakhuys - Plateau,7.5,5,10,1,"5 Attempts | 10 Minutes | 1 Sessions
 
-Session #2 on 2018-07-24 at 10:00:00. 10 attempts, over 30 minutes. 
-	Tried hard this time and still made no progress. Strained my back as well trying to lie back off the toehook."""
-"""Rocklands""",1,"""Gladiator""","""Lower Pakhuis - The Colosseum""",8.0,2,2,1,"""2 Attempts | 2 Minutes | 1 Sessions
+Session #1 on 2018-08-18 at 16:15:00. 5 attempts, over 10 minutes. 
+	Never really generated in the right direction at all. High feet dynos are...still hard."
+Rocklands,1,Gladiator,Lower Pakhuis - The Colosseum,8.0,2,2,1,"2 Attempts | 2 Minutes | 1 Sessions
 
 Session #1 on 2018-08-17 at 14:45:00. 2 attempts, over 2 minutes. 
-	This problem REALLY smells like dassie poop."""
-"""Rocklands""",1,"""Golden Wave""","""Powerlines""",3.0,2,2,1,"""2 Attempts | 2 Minutes | 1 Sessions
-
-Session #1 on 2018-08-17 at 17:45:00. 2 attempts, over 2 minutes. 
-	Reminds me a little of Lidja's Mouth in Bishop...minus the chossiness. Broke a sizeable foot pulling on the second time and then n d decided to be done."""
-"""Rocklands""",1,"""I Believe I Can Fly""","""de Pakhuys - Arch Valley""",9.0,25,45,2,"""25 Attempts | 45 Minutes | 2 Sessions
+	This problem REALLY smells like dassie poop."
+Rocklands,1,I Believe I Can Fly,de Pakhuys - Arch Valley,9.0,25,45,2,"25 Attempts | 45 Minutes | 2 Sessions
 
 Session #1 on 2014-08-31 at 14:00:00. 15 attempts, over 30 minutes. 
 	Close to hitting the jug
 
 Session #2 on 2018-07-30 at 16:00:00. 10 attempts, over 15 minutes. 
-	Jesus Christ...could barely do the first move this time."""
-"""Rocklands""",1,"""Night Sesh""","""de Pakhuys - Roadkill Cafe""",8.0,10,30,1,"""10 Attempts | 30 Minutes | 1 Sessions
+	Jesus Christ...could barely do the first move this time."
+Rocklands,1,Golden Wave,Powerlines,3.0,2,2,1,"2 Attempts | 2 Minutes | 1 Sessions
 
-Session #1 on 2018-08-02 at 17:00:00. 10 attempts, over 30 minutes. 
-	Way harder than it looks. Couldn't do the first move."""
-"""Rocklands""",1,"""Push the Tempo""","""de Pakhuys - Plateau""",7.5,5,10,1,"""5 Attempts | 10 Minutes | 1 Sessions
+Session #1 on 2018-08-17 at 17:45:00. 2 attempts, over 2 minutes. 
+	Reminds me a little of Lidja's Mouth in Bishop...minus the chossiness. Broke a sizeable foot pulling on the second time and then n d decided to be done."
+Rocklands,1,Fruchtzwerg,de Pakhuys - Plateau,9.0,13,35,2,"13 Attempts | 35 Minutes | 2 Sessions
 
-Session #1 on 2018-08-18 at 16:15:00. 5 attempts, over 10 minutes. 
-	Never really generated in the right direction at all. High feet dynos are...still hard."""
-"""Rocklands""",1,"""The Dirty German""","""de Pakhuys - Plateau""",9.0,5,30,1,"""5 Attempts | 30 Minutes | 1 Sessions
+Session #1 on 2018-07-14 at 10:00:00. 3 attempts, over 5 minutes. 
+	The ""mini-hatching"" boulder facing Weichei. Tried a couple times in my street shoes
 
-Session #1 on 2014-08-18 at 17:00:00. 5 attempts, over 30 minutes. 
-	Extremely shouldery"""
-"""Rocklands""",1,"""The Good Seed""","""de Pakhuys - Plateau""",8.0,2,5,1,"""2 Attempts | 5 Minutes | 1 Sessions
+Session #2 on 2018-07-24 at 10:00:00. 10 attempts, over 30 minutes. 
+	Tried hard this time and still made no progress. Strained my back as well trying to lie back off the toehook."
+Rocklands,1,The Good Seed,de Pakhuys - Plateau,8.0,2,5,1,"2 Attempts | 5 Minutes | 1 Sessions
 
 Session #1 on 2018-07-04 at 16:00:00. 2 attempts, over 5 minutes. 
-	Did the initial campus move, but then was stuck"""
-"""Rocklands""",1,"""Throw Yourself Away""","""de Pakhuys - Plateau""",10.0,5,10,1,"""5 Attempts | 10 Minutes | 1 Sessions
+	Did the initial campus move, but then was stuck"
+Rocklands,1,Night Sesh,de Pakhuys - Roadkill Cafe,8.0,10,30,1,"10 Attempts | 30 Minutes | 1 Sessions
 
-Session #1 on 2018-08-14 at 12:00:00. 5 attempts, over 10 minutes. 
-	Finally did the first move and then tried to chimney into the rock and scratched my arm and got very over it."""
-"""Roy""",4,"""Best of Friends""","""Best of Friends""",8.0,15,120,1,"""15 Attempts | 120 Minutes | 1 Sessions
+Session #1 on 2018-08-02 at 17:00:00. 10 attempts, over 30 minutes. 
+	Way harder than it looks. Couldn't do the first move."
+Rocklands,1,The Dirty German,de Pakhuys - Plateau,9.0,5,30,1,"5 Attempts | 30 Minutes | 1 Sessions
 
-Session #1 on 2018-02-05 at 13:00:00. 15 attempts, over 120 minutes. 
-	Couldn't do top section"""
-"""Roy""",4,"""Golden Casket""","""Middle Mesteno""",9.0,20,120,1,"""20 Attempts | 120 Minutes | 1 Sessions
+Session #1 on 2014-08-18 at 17:00:00. 5 attempts, over 30 minutes. 
+	Extremely shouldery"
+Rocklands,1,Black Mango Chutney,8 Day Rain,10.0,5,45,1,"5 Attempts | 45 Minutes | 1 Sessions
 
-Session #1 on 2018-02-04 at 13:00:00. 20 attempts, over 120 minutes. 
-	Couldn't stick the last move"""
-"""Roy""",4,"""ROYGBIV""","""Middle Mesteno""",10.0,10,45,1,"""10 Attempts | 45 Minutes | 1 Sessions
-
-Session #1 on 2018-02-07 at 15:00:00. 10 attempts, over 45 minutes. 
-	Couldn't do crux"""
-"""Roy""",4,"""Try Angular""","""Middle Mesteno""",6.0,3,30,1,"""3 Attempts | 30 Minutes | 1 Sessions
+Session #1 on 2014-08-21 at 16:00:00. 5 attempts, over 45 minutes. 
+	Out of my league"
+Roy,4,Try Angular,Middle Mesteno,6.0,3,30,1,"3 Attempts | 30 Minutes | 1 Sessions
 
 Session #1 on 2018-02-04 at 10:30:00. 3 attempts, over 30 minutes. 
-	Hamstring hurt on crux mantle"""
-"""Roy""",3,"""Sock Hands""","""Upper Mesteno""",7.0,3,20,1,"""3 Attempts | 20 Minutes | 1 Sessions
+	Hamstring hurt on crux mantle"
+Roy,4,Golden Casket,Middle Mesteno,9.0,20,120,1,"20 Attempts | 120 Minutes | 1 Sessions
+
+Session #1 on 2018-02-04 at 13:00:00. 20 attempts, over 120 minutes. 
+	Couldn't stick the last move"
+Roy,4,Best of Friends,Best of Friends,8.0,15,120,1,"15 Attempts | 120 Minutes | 1 Sessions
+
+Session #1 on 2018-02-05 at 13:00:00. 15 attempts, over 120 minutes. 
+	Couldn't do top section"
+Roy,4,ROYGBIV,Middle Mesteno,10.0,10,45,1,"10 Attempts | 45 Minutes | 1 Sessions
+
+Session #1 on 2018-02-07 at 15:00:00. 10 attempts, over 45 minutes. 
+	Couldn't do crux"
+Roy,3,Sock Hands,Upper Mesteno,7.0,3,20,1,"3 Attempts | 20 Minutes | 1 Sessions
 
 Session #1 on 2018-02-08 at 14:00:00. 3 attempts, over 20 minutes. 
-	Got scared up high"""
-"""Roy""",2,"""Destroy the Castle""","""Middle Mesteno""",7.0,5,30,1,"""5 Attempts | 30 Minutes | 1 Sessions
+	Got scared up high"
+Roy,2,Destroy the Castle,Middle Mesteno,7.0,5,30,1,"5 Attempts | 30 Minutes | 1 Sessions
 
 Session #1 on 2018-02-07 at 13:00:00. 5 attempts, over 30 minutes. 
-	Couldn't figure it out"""
-"""Roy""",2,"""Moss Niesley""","""Upper Mesteno""",5.0,2,15,1,"""2 Attempts | 15 Minutes | 1 Sessions
+	Couldn't figure it out"
+Roy,2,Moss Niesley,Upper Mesteno,5.0,2,15,1,"2 Attempts | 15 Minutes | 1 Sessions
 
 Session #1 on 2018-02-08 at 16:00:00. 2 attempts, over 15 minutes. 
-	Hurt my shoulder on the flash attempt."""
-"""Roy""",1,"""Desert Spring""","""Middle Mesteno""",8.0,5,15,1,"""5 Attempts | 15 Minutes | 1 Sessions
-
-Session #1 on 2018-02-04 at 11:00:00. 5 attempts, over 15 minutes. 
-	Couldn't dyno"""
-"""Roy""",1,"""Puddle Jumper""","""Middle Mesteno""",6.0,15,90,1,"""15 Attempts | 90 Minutes | 1 Sessions
+	Hurt my shoulder on the flash attempt."
+Roy,1,Puddle Jumper,Middle Mesteno,6.0,15,90,1,"15 Attempts | 90 Minutes | 1 Sessions
 
 Session #1 on 2018-02-04 at 17:00:00. 15 attempts, over 90 minutes. 
-	Couldn't deal with the sloper match"""
-"""Santa Barbara""",4,"""Dancing Outlaw""","""The Brickyard""",8.0,10,60,1,"""10 Attempts | 60 Minutes | 1 Sessions
+	Couldn't deal with the sloper match"
+Roy,1,Desert Spring,Middle Mesteno,8.0,5,15,1,"5 Attempts | 15 Minutes | 1 Sessions
 
-Session #1 on 2021-01-20 at 15:15:00. 10 attempts, over 60 minutes. 
-	Once again, too scared to do the topout section without a spotter or way more pads. Made it to the first sloper on the lip (supposedly crux), but getting to the second sloper seemed like it had higher backsplat-on-to-rock potential than what I was hoping for."""
-"""Santa Barbara""",4,"""Grotesque Old Woman Sit""","""The Brickyard""",10.0,5,10,1,"""5 Attempts | 10 Minutes | 1 Sessions
-
-Session #1 on 2021-01-20 at 17:00:00. 5 attempts, over 10 minutes. 
-	Tried pulling on a few times and slapped the first move but couldn't keep my feet. Then realized that my skin hurt real bad and didn't want to grab more crimps."""
-"""Santa Barbara""",4,"""Steve's Traverse""","""Painted Cave""",9.0,10,60,1,"""10 Attempts | 60 Minutes | 1 Sessions
-
-Session #1 on 2021-01-21 at 12:30:00. 10 attempts, over 60 minutes. 
-	Got all the moves up until the upper section of Big Deal (felt lazy, didn't want to set up pads), despite feeling very sore and my skin hurting from not climbing, so that was a very pleasant surprise! Maybe I'm not as weak as I thought (though I'm sure linking them all together and then doing the upper part of Big Deal is going to be harder than I anticipate)."""
-"""Santa Barbara""",4,"""The Brute""","""Potter's Point""",9.0,15,90,1,"""15 Attempts | 90 Minutes | 1 Sessions
-
-Session #1 on 2021-02-17 at 12:10:00. 15 attempts, over 90 minutes. 
-	Need to work on that crimp lock-off strength. Slapped the second hold a number of times, but never with enough control to stay on."""
-"""Santa Barbara""",4,"""Trojan Arete""","""Painted Cave""",8.0,10,45,1,"""10 Attempts | 45 Minutes | 1 Sessions
+Session #1 on 2018-02-04 at 11:00:00. 5 attempts, over 15 minutes. 
+	Couldn't dyno"
+Santa Barbara,4,Trojan Arete,Painted Cave,8.0,10,45,1,"10 Attempts | 45 Minutes | 1 Sessions
 
 Session #1 on 2021-01-21 at 11:30:00. 10 attempts, over 45 minutes. 
-	Got basically to the rock scar, and then decided it was not an ideal time to try due to traffic/0 spotters. I was pleasantly surprised how nicely the bottom section climbs."""
-"""Santa Barbara""",3,"""Sasquatch""","""The Brickyard""",5.0,2,5,1,"""2 Attempts | 5 Minutes | 1 Sessions
+	Got basically to the rock scar, and then decided it was not an ideal time to try due to traffic/0 spotters. I was pleasantly surprised how nicely the bottom section climbs."
+Santa Barbara,4,Grotesque Old Woman Sit,The Brickyard,10.0,5,10,1,"5 Attempts | 10 Minutes | 1 Sessions
+
+Session #1 on 2021-01-20 at 17:00:00. 5 attempts, over 10 minutes. 
+	Tried pulling on a few times and slapped the first move but couldn't keep my feet. Then realized that my skin hurt real bad and didn't want to grab more crimps."
+Santa Barbara,4,Steve's Traverse,Painted Cave,9.0,10,60,1,"10 Attempts | 60 Minutes | 1 Sessions
+
+Session #1 on 2021-01-21 at 12:30:00. 10 attempts, over 60 minutes. 
+	Got all the moves up until the upper section of Big Deal (felt lazy, didn't want to set up pads), despite feeling very sore and my skin hurting from not climbing, so that was a very pleasant surprise! Maybe I'm not as weak as I thought (though I'm sure linking them all together and then doing the upper part of Big Deal is going to be harder than I anticipate)."
+Santa Barbara,4,Dancing Outlaw,The Brickyard,8.0,10,60,1,"10 Attempts | 60 Minutes | 1 Sessions
+
+Session #1 on 2021-01-20 at 15:15:00. 10 attempts, over 60 minutes. 
+	Once again, too scared to do the topout section without a spotter or way more pads. Made it to the first sloper on the lip (supposedly crux), but getting to the second sloper seemed like it had higher backsplat-on-to-rock potential than what I was hoping for."
+Santa Barbara,4,The Brute,Potter's Point,9.0,15,90,1,"15 Attempts | 90 Minutes | 1 Sessions
+
+Session #1 on 2021-02-17 at 12:10:00. 15 attempts, over 90 minutes. 
+	Need to work on that crimp lock-off strength. Slapped the second hold a number of times, but never with enough control to stay on."
+Santa Barbara,3,Sasquatch,The Brickyard,5.0,2,5,1,"2 Attempts | 5 Minutes | 1 Sessions
 
 Session #1 on 2021-01-20 at 15:00:00. 2 attempts, over 5 minutes. 
-	Too scared to do the topout section without a spotter or more pads. I'm not out here to get hurt!"""
-"""Squamish""",5,"""Axel""","""Grand Wall""",8.0,30,180,2,"""30 Attempts | 180 Minutes | 2 Sessions
+	Too scared to do the topout section without a spotter or more pads. I'm not out here to get hurt!"
+Squamish,5,Majestic,Brittania Beach,6.0,3,120,1,"3 Attempts | 120 Minutes | 1 Sessions
+
+Session #1 on 2022-07-26 at 17:00:00. 3 attempts, over 120 minutes. 
+	So fun, wish I could have done it, if only it wasn't soooo crowded."
+Squamish,5,Axel,Grand Wall,8.0,30,180,2,"30 Attempts | 180 Minutes | 2 Sessions
 
 Session #1 on 2017-08-16 at 17:00:00. 10 attempts, over 60 minutes. 
 	Fell off the last move of Minor Threat
 
 Session #2 on 2017-08-17 at 17:00:00. 20 attempts, over 120 minutes. 
-	Fell off the last move of Minor Threat...twice more"""
-"""Squamish""",5,"""Majestic""","""Brittania Beach""",6.0,3,120,1,"""3 Attempts | 120 Minutes | 1 Sessions
-
-Session #1 on 2022-07-26 at 17:00:00. 3 attempts, over 120 minutes. 
-	So fun, wish I could have done it, if only it wasn't soooo crowded."""
-"""Squamish""",4,"""Peter and the Wolf""","""Shannon Falls""",9.0,10,30,1,"""10 Attempts | 30 Minutes | 1 Sessions
+	Fell off the last move of Minor Threat...twice more"
+Squamish,4,Peter and the Wolf,Shannon Falls,9.0,10,30,1,"10 Attempts | 30 Minutes | 1 Sessions
 
 Session #1 on 2022-08-01 at 18:00:00. 10 attempts, over 30 minutes. 
-	The crux move is so hard! Reach for an undercling crimp thing above your head. Wish it was not so hot and humid when I tried this so I would know whether or not it was actually possible. Would love to be able to do this someday though, even if the approach isn't my favorite."""
-"""Squamish""",4,"""Superdyke""","""Grand Wall""",3.0,25,165,3,"""25 Attempts | 165 Minutes | 3 Sessions
+	The crux move is so hard! Reach for an undercling crimp thing above your head. Wish it was not so hot and humid when I tried this so I would know whether or not it was actually possible. Would love to be able to do this someday though, even if the approach isn't my favorite."
+Squamish,4,Tatonka,The Apron,8.0,20,60,1,"20 Attempts | 60 Minutes | 1 Sessions
+
+Session #1 on 2013-08-24 at 16:00:00. 20 attempts, over 60 minutes. 
+	Last day of 2013 trip with Conor (day he made burgers and I had avocado for first time)"
+Squamish,4,Superdyke,Grand Wall,3.0,25,165,3,"25 Attempts | 165 Minutes | 3 Sessions
 
 Session #1 on 2015-08-18 at 12:00:00. 10 attempts, over 60 minutes. 
 	I'm pretty sure this is the hardest and scariest boulder in the Grand Wall.
@@ -779,110 +783,88 @@ Session #2 on 2022-08-11 at 19:30:00. 10 attempts, over 75 minutes.
 	Will I ever do this? Doubt it. Banged into the tree chimney a few times decently hard. Piano matching is so hard.
 
 Session #3 on 2022-08-14 at 18:30:00. 5 attempts, over 30 minutes. 
-	God damn this is so hard. Guess this will have to wait for another year...."""
-"""Squamish""",4,"""Tatonka""","""The Apron""",8.0,20,60,1,"""20 Attempts | 60 Minutes | 1 Sessions
-
-Session #1 on 2013-08-24 at 16:00:00. 20 attempts, over 60 minutes. 
-	Last day of 2013 trip with Conor (day he made burgers and I had avocado for first time)"""
-"""Squamish""",4,"""The 'I'""","""North Walls""",6.0,5,15,1,"""5 Attempts | 15 Minutes | 1 Sessions
+	God damn this is so hard. Guess this will have to wait for another year...."
+Squamish,4,The 'I',North Walls,6.0,5,15,1,"5 Attempts | 15 Minutes | 1 Sessions
 
 Session #1 on 2022-07-29 at 15:00:00. 5 attempts, over 15 minutes. 
-	Couldn't hold onto a single hold really."""
-"""Squamish""",4,"""The Bulb""","""Grand Wall""",8.0,10,60,1,"""10 Attempts | 60 Minutes | 1 Sessions
-
-Session #1 on 2017-08-15 at 15:00:00. 10 attempts, over 60 minutes. 
-	With Teddy; couldn't do big move"""
-"""Squamish""",4,"""Whispering Waters""","""North Walls""",6.0,10,90,1,"""10 Attempts | 90 Minutes | 1 Sessions
+	Couldn't hold onto a single hold really."
+Squamish,4,Whispering Waters,North Walls,6.0,10,90,1,"10 Attempts | 90 Minutes | 1 Sessions
 
 Session #1 on 2022-07-31 at 21:30:00. 10 attempts, over 90 minutes. 
-	After doing Flow Stone and checking this out this morning, I went home and watched some videos of this to gauge whether it would be worth going back to. After sitting around for a few hours the weather had cooled down I couldn't think of anything else to do so I drove back out there to give it some goes. It was decently scary trying to figure out the mid/top section with 2 pads, but almost doable. However it was pretty sharp, and harder than I thought, so overall a 2.5/5 experience. Would consider going back, but probably not solo."""
-"""Squamish""",3,"""Defenders of the Faith""","""The Apron""",9.0,5,30,1,"""5 Attempts | 30 Minutes | 1 Sessions
+	After doing Flow Stone and checking this out this morning, I went home and watched some videos of this to gauge whether it would be worth going back to. After sitting around for a few hours the weather had cooled down I couldn't think of anything else to do so I drove back out there to give it some goes. It was decently scary trying to figure out the mid/top section with 2 pads, but almost doable. However it was pretty sharp, and harder than I thought, so overall a 2.5/5 experience. Would consider going back, but probably not solo."
+Squamish,4,The Bulb,Grand Wall,8.0,10,60,1,"10 Attempts | 60 Minutes | 1 Sessions
 
-Session #1 on 2017-07-31 at 11:00:00. 5 attempts, over 30 minutes. 
-	Couldn't do first move (may have started low?)"""
-"""Squamish""",3,"""Megalodon""","""North Walls""",5.0,1,1,1,"""1 Attempts | 1 Minutes | 1 Sessions
+Session #1 on 2017-08-15 at 15:00:00. 10 attempts, over 60 minutes. 
+	With Teddy; couldn't do big move"
+Squamish,3,Megalodon,North Walls,5.0,1,1,1,"1 Attempts | 1 Minutes | 1 Sessions
 
 Session #1 on 2022-08-04 at 20:30:00. 1 attempts, over 1 minutes. 
-	Probably wouldn't feel too bad with an extra pad or two and/or a spotter. But solo with 1.5 pads is too scary for me."""
-"""Squamish""",3,"""Sage Against the Machine""","""North Walls""",7.0,10,60,1,"""10 Attempts | 60 Minutes | 1 Sessions
-
-Session #1 on 2022-07-19 at 15:30:00. 10 attempts, over 60 minutes. 
-	Heel the arete to reach back far right, would really like another 4 inches of wingspan."""
-"""Squamish""",3,"""This Monkey's Gone to Heaven""","""The Apron""",7.0,30,120,2,"""30 Attempts | 120 Minutes | 2 Sessions
+	Probably wouldn't feel too bad with an extra pad or two and/or a spotter. But solo with 1.5 pads is too scary for me."
+Squamish,3,This Monkey's Gone to Heaven,The Apron,7.0,30,120,2,"30 Attempts | 120 Minutes | 2 Sessions
 
 Session #1 on 2016-08-01 at 16:00:00. 20 attempts, over 60 minutes. 
 	Couldn't stick big move in a variety of ways
 
 Session #2 on 2017-08-13 at 11:00:00. 10 attempts, over 60 minutes. 
-	Couldn't stick big move again; flapped"""
-"""Squamish""",2,"""Almost Famous""","""North Walls""",9.0,5,15,1,"""5 Attempts | 15 Minutes | 1 Sessions
+	Couldn't stick big move again; flapped"
+Squamish,3,Sage Against the Machine,North Walls,7.0,10,60,1,"10 Attempts | 60 Minutes | 1 Sessions
 
-Session #1 on 2022-08-06 at 17:15:00. 5 attempts, over 15 minutes. 
-	Did not feel very good on any of those holds. Maybe a heat thing? Skin thing? Weakness thing?"""
-"""Squamish""",2,"""Darksided""","""North Walls""",10.0,5,20,1,"""5 Attempts | 20 Minutes | 1 Sessions
+Session #1 on 2022-07-19 at 15:30:00. 10 attempts, over 60 minutes. 
+	Heel the arete to reach back far right, would really like another 4 inches of wingspan."
+Squamish,3,Defenders of the Faith,The Apron,9.0,5,30,1,"5 Attempts | 30 Minutes | 1 Sessions
+
+Session #1 on 2017-07-31 at 11:00:00. 5 attempts, over 30 minutes. 
+	Couldn't do first move (may have started low?)"
+Squamish,2,Darksided,North Walls,10.0,5,20,1,"5 Attempts | 20 Minutes | 1 Sessions
 
 Session #1 on 2017-08-08 at 14:00:00. 5 attempts, over 20 minutes. 
-	Couldn't do first or last move"""
-"""Squamish""",2,"""Hunt's Arete""","""Grand Wall""",8.0,10,30,1,"""10 Attempts | 30 Minutes | 1 Sessions
-
-Session #1 on 2017-07-24 at 16:00:00. 10 attempts, over 30 minutes. 
-	Couldn't do top; day Mackenzie hurt her wrist on Viper"""
-"""Squamish""",2,"""Invincible""","""Porteau Cove""",10.0,20,60,1,"""20 Attempts | 60 Minutes | 1 Sessions
-
-Session #1 on 2024-07-21 at 16:00:00. 20 attempts, over 60 minutes. 
-	So hot, so buggy, so miserable. Got my ass kicked by this, basically successfully only did the two extremely easy moves, though I didn't try anything past the pinch since I couldn't pull on from there. Got close a couple times to getting the pinch, but would probably be stuck doing the next move even if I did. Don't think I have stuff this hard in me in my current state."""
-"""Squamish""",2,"""Lowlife""","""Grand Wall""",10.0,20,60,1,"""20 Attempts | 60 Minutes | 1 Sessions
-
-Session #2 on 2022-07-09 at 20:00:00. 20 attempts, over 60 minutes. 
-	Better conditions, but waaaay worse skin. I think the skin/fatigue canceled out the cooler weather. This one might just have to wait. It kind of feels likeThe Fury, it's just a game of chance (aka I'm not strong enough to do it super clean, so I just have to get lucky once)."""
-"""Squamish""",2,"""Panda Milk""","""Furry Creek""",2.0,4,10,1,"""4 Attempts | 10 Minutes | 1 Sessions
+	Couldn't do first or last move"
+Squamish,2,Panda Milk,Furry Creek,2.0,4,10,1,"4 Attempts | 10 Minutes | 1 Sessions
 
 Session #1 on 2024-07-21 at 11:30:00. 4 attempts, over 10 minutes. 
-	Hard, slightly broken, and way too scary on a soli mission"""
-"""Squamish""",2,"""Planet of the Apes""","""North Walls""",8.0,10,30,1,"""10 Attempts | 30 Minutes | 1 Sessions
+	Hard, slightly broken, and way too scary on a soli mission"
+Squamish,2,Lowlife,Grand Wall,10.0,20,60,1,"20 Attempts | 60 Minutes | 1 Sessions
 
-Session #1 on 2022-07-19 at 14:00:00. 10 attempts, over 30 minutes. 
-	Never got off the ground really. The foot is very high and I am not good at that. I'm not good at much in climbing these days, but this is certainly near the top of the list."""
-"""Squamish""",2,"""Progression in Backwards Thinking""","""Shannon Falls""",10.0,15,60,1,"""15 Attempts | 60 Minutes | 1 Sessions
+Session #2 on 2022-07-09 at 20:00:00. 20 attempts, over 60 minutes. 
+	Better conditions, but waaaay worse skin. I think the skin/fatigue canceled out the cooler weather. This one might just have to wait. It kind of feels likeThe Fury, it's just a game of chance (aka I'm not strong enough to do it super clean, so I just have to get lucky once)."
+Squamish,2,Almost Famous,North Walls,9.0,5,15,1,"5 Attempts | 15 Minutes | 1 Sessions
 
-Session #1 on 2024-07-24 at 16:30:00. 15 attempts, over 60 minutes. 
-	Did all the moves individually but couldn't do more than 1 or 2 consecutively. Felt really weak and heavy. I think if I was in better shape I may have been able to do it in one session."""
-"""Squamish""",2,"""Sheriff's Badge Arete""","""North Walls""",9.0,3,10,1,"""3 Attempts | 10 Minutes | 1 Sessions
+Session #1 on 2022-08-06 at 17:15:00. 5 attempts, over 15 minutes. 
+	Did not feel very good on any of those holds. Maybe a heat thing? Skin thing? Weakness thing?"
+Squamish,2,Sheriff's Badge Arete,North Walls,9.0,3,10,1,"3 Attempts | 10 Minutes | 1 Sessions
 
 Session #1 on 2022-08-06 at 17:45:00. 3 attempts, over 10 minutes. 
-	Oof so hard. Pulled on 3 times. Foot popped 3 times. Knee scraped 3 times. Awkward and balancey to reach up to that gastony arete. Looks very cool though wish I could do it."""
-"""Squamish""",2,"""The Peach""","""North Walls""",7.0,10,45,1,"""10 Attempts | 45 Minutes | 1 Sessions
+	Oof so hard. Pulled on 3 times. Foot popped 3 times. Knee scraped 3 times. Awkward and balancey to reach up to that gastony arete. Looks very cool though wish I could do it."
+Squamish,2,Invincible,Porteau Cove,10.0,20,60,1,"20 Attempts | 60 Minutes | 1 Sessions
+
+Session #1 on 2024-07-21 at 16:00:00. 20 attempts, over 60 minutes. 
+	So hot, so buggy, so miserable. Got my ass kicked by this, basically successfully only did the two extremely easy moves, though I didn't try anything past the pinch since I couldn't pull on from there. Got close a couple times to getting the pinch, but would probably be stuck doing the next move even if I did. Don't think I have stuff this hard in me in my current state."
+Squamish,2,Hunt's Arete,Grand Wall,8.0,10,30,1,"10 Attempts | 30 Minutes | 1 Sessions
+
+Session #1 on 2017-07-24 at 16:00:00. 10 attempts, over 30 minutes. 
+	Couldn't do top; day Mackenzie hurt her wrist on Viper"
+Squamish,2,The Peach,North Walls,7.0,10,45,1,"10 Attempts | 45 Minutes | 1 Sessions
 
 Session #1 on 2022-07-08 at 19:15:00. 10 attempts, over 45 minutes. 
-	Absolute insanity. Could barely get off the ground, never latched the second hold, never even managed to try the fun dyno. Maybe it'll be better when it's less hot and humid."""
-"""Squamish""",2,"""The Weasel""","""Grand Wall""",8.0,5,15,1,"""5 Attempts | 15 Minutes | 1 Sessions
+	Absolute insanity. Could barely get off the ground, never latched the second hold, never even managed to try the fun dyno. Maybe it'll be better when it's less hot and humid."
+Squamish,2,Progression in Backwards Thinking,Shannon Falls,10.0,15,60,1,"15 Attempts | 60 Minutes | 1 Sessions
+
+Session #1 on 2024-07-24 at 16:30:00. 15 attempts, over 60 minutes. 
+	Did all the moves individually but couldn't do more than 1 or 2 consecutively. Felt really weak and heavy. I think if I was in better shape I may have been able to do it in one session."
+Squamish,2,Planet of the Apes,North Walls,8.0,10,30,1,"10 Attempts | 30 Minutes | 1 Sessions
+
+Session #1 on 2022-07-19 at 14:00:00. 10 attempts, over 30 minutes. 
+	Never got off the ground really. The foot is very high and I am not good at that. I'm not good at much in climbing these days, but this is certainly near the top of the list."
+Squamish,2,The Weasel,Grand Wall,8.0,5,15,1,"5 Attempts | 15 Minutes | 1 Sessions
 
 Session #1 on 2022-07-25 at 18:00:00. 5 attempts, over 15 minutes. 
-	Did the first move once. Did no other moves. Felt impossible (possibly heat? But also just very hard and anti-style)"""
-"""Tahoe""",5,"""Hyperkinetic""","""Donner Summit""",9.0,,,,
-"""Tahoe""",5,"""Sharma Face""","""Snowshed""",6.0,5,45,1,"""5 Attempts | 45 Minutes | 1 Sessions
+	Did the first move once. Did no other moves. Felt impossible (possibly heat? But also just very hard and anti-style)"
+Tahoe,5,Hyperkinetic,Donner Summit,9.0,,,,
+Tahoe,5,Sharma Face,Snowshed,6.0,5,45,1,"5 Attempts | 45 Minutes | 1 Sessions
 
 Session #1 on 2015-05-20 at 16:00:00. 5 attempts, over 45 minutes. 
-	Got scared at top with the wind"""
-"""Tahoe""",4,"""Endless Summer""","""Castle Peak""",7.0,,,,
-"""Tahoe""",4,"""Final Hour""","""PCT Boulders""",7.0,10,60,1,"""10 Attempts | 60 Minutes | 1 Sessions
-
-Session #1 on 2024-06-01 at 18:00:00. 10 attempts, over 60 minutes. 
-	Figured it out but was too gassed to do the first move after figuring out the rest. The only cookie diet did not come through."""
-"""Tahoe""",4,"""Mystery Pocket""","""Rainbow""",10.0,15,60,1,"""15 Attempts | 60 Minutes | 1 Sessions
-
-Session #1 on 2020-10-09 at 12:30:00. 15 attempts, over 60 minutes. 
-	Sussed out most of the beta, felt pretty good to try hard."""
-"""Tahoe""",4,"""Pure Bliss""","""Bliss""",9.0,,,,
-"""Tahoe""",4,"""Soul Train""","""The Saddle""",10.0,3,20,1,"""3 Attempts | 20 Minutes | 1 Sessions
-
-Session #1 on 2016-06-11 at 12:00:00. 3 attempts, over 20 minutes. 
-	Couldn't do first move"""
-"""Tahoe""",4,"""Tears of Tammy Faye Baker Sit""","""Soda Springs""",9.0,10,60,1,"""10 Attempts | 60 Minutes | 1 Sessions
-
-Session #1 on 2015-07-25 at 14:00:00. 10 attempts, over 60 minutes. 
-	Couldn't do the kneebar move"""
-"""Tahoe""",4,"""The Real Deal""","""Donner Summit""",10.0,60,330,3,"""60 Attempts | 330 Minutes | 3 Sessions
+	Got scared at top with the wind"
+Tahoe,4,The Real Deal,Donner Summit,10.0,60,330,3,"60 Attempts | 330 Minutes | 3 Sessions
 
 Session #1 on 2015-10-30 at 12:00:00. 20 attempts, over 90 minutes. 
 	Did all the moves except dyno
@@ -891,42 +873,57 @@ Session #2 on 2016-07-01 at 15:00:00. 20 attempts, over 120 minutes.
 	Couldn't link
 
 Session #3 on 2016-07-02 at 15:00:00. 20 attempts, over 120 minutes. 
-	Couldn't link"""
-"""Tahoe""",3,"""A Buttload of Sausage""","""Woods Lake""",8.0,5,30,1,"""5 Attempts | 30 Minutes | 1 Sessions
+	Couldn't link"
+Tahoe,4,Mystery Pocket,Rainbow,10.0,15,60,1,"15 Attempts | 60 Minutes | 1 Sessions
 
-Session #1 on 2017-09-15 at 16:00:00. 5 attempts, over 30 minutes. 
-	Punted on topout and then was too tired"""
-"""Tahoe""",3,"""Air Trojan""","""Castle Boulder""",8.0,3,20,1,"""3 Attempts | 20 Minutes | 1 Sessions
+Session #1 on 2020-10-09 at 12:30:00. 15 attempts, over 60 minutes. 
+	Sussed out most of the beta, felt pretty good to try hard."
+Tahoe,4,Final Hour,PCT Boulders,7.0,10,60,1,"10 Attempts | 60 Minutes | 1 Sessions
+
+Session #1 on 2024-06-01 at 18:00:00. 10 attempts, over 60 minutes. 
+	Figured it out but was too gassed to do the first move after figuring out the rest. The only cookie diet did not come through."
+Tahoe,4,Soul Train,The Saddle,10.0,3,20,1,"3 Attempts | 20 Minutes | 1 Sessions
+
+Session #1 on 2016-06-11 at 12:00:00. 3 attempts, over 20 minutes. 
+	Couldn't do first move"
+Tahoe,4,Endless Summer,Castle Peak,7.0,,,,
+Tahoe,4,Pure Bliss,Bliss,9.0,,,,
+Tahoe,4,Tears of Tammy Faye Baker Sit,Soda Springs,9.0,10,60,1,"10 Attempts | 60 Minutes | 1 Sessions
+
+Session #1 on 2015-07-25 at 14:00:00. 10 attempts, over 60 minutes. 
+	Couldn't do the kneebar move"
+Tahoe,3,Zun Zun,Woods Lake,8.0,,,,
+Tahoe,3,Air Trojan,Castle Boulder,8.0,3,20,1,"3 Attempts | 20 Minutes | 1 Sessions
 
 Session #1 on 2016-07-01 at 12:00:00. 3 attempts, over 20 minutes. 
-	Stuck the dyno...still can't do topout"""
-"""Tahoe""",3,"""Skeeter Glen""","""Castle Peak""",9.0,20,150,2,"""20 Attempts | 150 Minutes | 2 Sessions
+	Stuck the dyno...still can't do topout"
+Tahoe,3,The Gerbler,Lost in Space,8.0,5,30,1,"5 Attempts | 30 Minutes | 1 Sessions
+
+Session #1 on 2014-05-24 at 15:00:00. 5 attempts, over 30 minutes. 
+	Didn't do first move; flashed from 1 move in"
+Tahoe,3,Skeeter Glen,Castle Peak,9.0,20,150,2,"20 Attempts | 150 Minutes | 2 Sessions
 
 Session #1 on 2015-10-10 at 12:00:00. 10 attempts, over 60 minutes. 
 	With Teddy/Jolie, couldn't link
 
 Session #2 on 2017-07-01 at 12:00:00. 10 attempts, over 90 minutes. 
-	With Conor/Caitlin, couldn't link"""
-"""Tahoe""",3,"""Slam Dunk""","""Castle Peak""",7.0,10,45,1,"""10 Attempts | 45 Minutes | 1 Sessions
-
-Session #1 on 2014-05-23 at 17:00:00. 10 attempts, over 45 minutes. 
-	After the monster hike at Castle Peak, with Conor/Teddy/Keenan/Marquis/Mackenzie"""
-"""Tahoe""",3,"""Space Cowboy""","""Lost in Space""",9.0,10,45,1,"""10 Attempts | 45 Minutes | 1 Sessions
+	With Conor/Caitlin, couldn't link"
+Tahoe,3,Space Cowboy,Lost in Space,9.0,10,45,1,"10 Attempts | 45 Minutes | 1 Sessions
 
 Session #1 on 2014-05-24 at 12:00:00. 10 attempts, over 45 minutes. 
-	All of the mosquitos came to play"""
-"""Tahoe""",3,"""The Fun House""","""Castle Peak""",6.0,10,90,2,"""10 Attempts | 90 Minutes | 2 Sessions
+	All of the mosquitos came to play"
+Tahoe,3,Slam Dunk,Castle Peak,7.0,10,45,1,"10 Attempts | 45 Minutes | 1 Sessions
+
+Session #1 on 2014-05-23 at 17:00:00. 10 attempts, over 45 minutes. 
+	After the monster hike at Castle Peak, with Conor/Teddy/Keenan/Marquis/Mackenzie"
+Tahoe,3,The Fun House,Castle Peak,6.0,10,90,2,"10 Attempts | 90 Minutes | 2 Sessions
 
 Session #1 on 2015-06-13 at 10:00:00. 5 attempts, over 45 minutes. 
 	Couldn't do the finish
 
 Session #2 on 2016-07-01 at 16:00:00. 5 attempts, over 45 minutes. 
-	Couldn't do the finish...again"""
-"""Tahoe""",3,"""The Gerbler""","""Lost in Space""",8.0,5,30,1,"""5 Attempts | 30 Minutes | 1 Sessions
-
-Session #1 on 2014-05-24 at 15:00:00. 5 attempts, over 30 minutes. 
-	Didn't do first move; flashed from 1 move in"""
-"""Tahoe""",3,"""Trojan Horse""","""Castle Boulder""",7.0,35,240,3,"""35 Attempts | 240 Minutes | 3 Sessions
+	Couldn't do the finish...again"
+Tahoe,3,Trojan Horse,Castle Boulder,7.0,35,240,3,"35 Attempts | 240 Minutes | 3 Sessions
 
 Session #1 on 2015-07-01 at 12:00:00. 15 attempts, over 120 minutes. 
 	Couldn't do topout
@@ -935,21 +932,12 @@ Session #2 on 2016-07-01 at 12:00:00. 10 attempts, over 60 minutes.
 	Couldn't do topout
 
 Session #3 on 2017-07-01 at 12:00:00. 10 attempts, over 60 minutes. 
-	Couldn't do topout"""
-"""Tahoe""",3,"""Zun Zun""","""Woods Lake""",8.0,,,,
-"""Tahoe""",2,"""Battle Cry""","""South Bliss""",5.0,5,30,1,"""5 Attempts | 30 Minutes | 1 Sessions
+	Couldn't do topout"
+Tahoe,3,A Buttload of Sausage,Woods Lake,8.0,5,30,1,"5 Attempts | 30 Minutes | 1 Sessions
 
-Session #1 on 2020-10-08 at 16:00:00. 5 attempts, over 30 minutes. 
-	Damn. I really had hoped 2 years away from climbing outside was gonna make me a slab master."""
-"""Tahoe""",2,"""Body Glove""","""Castle Peak""",8.0,5,30,1,"""5 Attempts | 30 Minutes | 1 Sessions
-
-Session #1 on 2017-07-01 at 12:00:00. 5 attempts, over 30 minutes. 
-	Half assed attempts in the morning"""
-"""Tahoe""",2,"""Life of Spice""","""Beavers""",5.0,3,20,1,"""3 Attempts | 20 Minutes | 1 Sessions
-
-Session #1 on 2025-08-31 at 11:30:00. 3 attempts, over 20 minutes. 
-	Could not get close"""
-"""Tahoe""",2,"""Nietzsche Girls Sit""","""The Saddle""",10.0,35,125,4,"""35 Attempts | 125 Minutes | 4 Sessions
+Session #1 on 2017-09-15 at 16:00:00. 5 attempts, over 30 minutes. 
+	Punted on topout and then was too tired"
+Tahoe,2,Nietzsche Girls Sit,The Saddle,10.0,35,125,4,"35 Attempts | 125 Minutes | 4 Sessions
 
 Session #1 on 2014-07-01 at 12:00:00. 5 attempts, over 20 minutes. 
 	Couldn't do first move
@@ -961,91 +949,103 @@ Session #3 on 2016-07-01 at 12:00:00. 10 attempts, over 45 minutes.
 	Couldn't link
 
 Session #4 on 2017-07-01 at 12:00:00. 15 attempts, over 30 minutes. 
-	Couldn't link"""
-"""Tahoe""",1,"""Campfire Arete Sit""","""Boreal""",8.0,5,10,1,"""5 Attempts | 10 Minutes | 1 Sessions
+	Couldn't link"
+Tahoe,2,Battle Cry,South Bliss,5.0,5,30,1,"5 Attempts | 30 Minutes | 1 Sessions
+
+Session #1 on 2020-10-08 at 16:00:00. 5 attempts, over 30 minutes. 
+	Damn. I really had hoped 2 years away from climbing outside was gonna make me a slab master."
+Tahoe,2,Life of Spice,Beavers,5.0,3,20,1,"3 Attempts | 20 Minutes | 1 Sessions
+
+Session #1 on 2025-08-31 at 11:30:00. 3 attempts, over 20 minutes. 
+	Could not get close"
+Tahoe,2,Body Glove,Castle Peak,8.0,5,30,1,"5 Attempts | 30 Minutes | 1 Sessions
+
+Session #1 on 2017-07-01 at 12:00:00. 5 attempts, over 30 minutes. 
+	Half assed attempts in the morning"
+Tahoe,1,Campfire Arete Sit,Boreal,8.0,5,10,1,"5 Attempts | 10 Minutes | 1 Sessions
 
 Session #1 on 2017-05-31 at 16:00:00. 5 attempts, over 10 minutes. 
-	Couldn't do first move"""
-"""Tuolumne Meadows""",4,"""Conquistadors""","""Olmsted Point""",8.0,20,120,2,"""20 Attempts | 120 Minutes | 2 Sessions
-
-Session #1 on 2014-07-15 at 14:00:00. 10 attempts, over 60 minutes. 
-	Couldn't do bottom section
-
-Session #2 on 2015-09-19 at 15:00:00. 10 attempts, over 60 minutes. 
-	Couldn't do top section"""
-"""Tuolumne Meadows""",4,"""Deemsters""","""Sunrise Boulder""",8.0,,,,
-"""Tuolumne Meadows""",4,"""Out of Your League""","""Tenaya Hillside Boulders""",9.0,20,90,2,"""20 Attempts | 90 Minutes | 2 Sessions
+	Couldn't do first move"
+Tuolumne Meadows,4,Out of Your League,Tenaya Hillside Boulders,9.0,20,90,2,"20 Attempts | 90 Minutes | 2 Sessions
 
 Session #1 on 2014-07-16 at 12:00:00. 10 attempts, over 30 minutes. 
 	Did the upper section; can't do first move
 
 Session #2 on 2015-09-20 at 11:00:00. 10 attempts, over 60 minutes. 
-	Couldn't do first move"""
-"""Tuolumne Meadows""",3,"""For the Glory""","""Drug Dome""",7.0,,,,
-"""Tuolumne Meadows""",1,"""Prince of Thieves""","""Pennroyal Boulders""",6.0,10,75,1,"""10 Attempts | 75 Minutes | 1 Sessions
+	Couldn't do first move"
+Tuolumne Meadows,4,Conquistadors,Olmsted Point,8.0,20,120,2,"20 Attempts | 120 Minutes | 2 Sessions
 
-Session #1 on 2016-07-01 at 12:00:00. 10 attempts, over 75 minutes. 
-	Couldn't mantle"""
-"""Tuolumne Meadows""",1,"""Solar Power Sit""","""Sunrise Boulder""",9.0,13,50,2,"""13 Attempts | 50 Minutes | 2 Sessions
+Session #1 on 2014-07-15 at 14:00:00. 10 attempts, over 60 minutes. 
+	Couldn't do bottom section
+
+Session #2 on 2015-09-19 at 15:00:00. 10 attempts, over 60 minutes. 
+	Couldn't do top section"
+Tuolumne Meadows,4,Deemsters,Sunrise Boulder,8.0,,,,
+Tuolumne Meadows,3,For the Glory,Drug Dome,7.0,,,,
+Tuolumne Meadows,1,Solar Power Sit,Sunrise Boulder,9.0,13,50,2,"13 Attempts | 50 Minutes | 2 Sessions
 
 Session #1 on 2015-10-02 at 12:00:00. 10 attempts, over 30 minutes. 
 	Couldn't do first move
 
 Session #2 on 2016-06-23 at 13:00:00. 3 attempts, over 20 minutes. 
-	Couldn't do first move"""
-"""UCSC""",3,"""Unnamed Cave Project 2""","""Upper Quarry""",7.5,15,60,2,"""15 Attempts | 60 Minutes | 2 Sessions
+	Couldn't do first move"
+Tuolumne Meadows,1,Prince of Thieves,Pennroyal Boulders,6.0,10,75,1,"10 Attempts | 75 Minutes | 1 Sessions
+
+Session #1 on 2016-07-01 at 12:00:00. 10 attempts, over 75 minutes. 
+	Couldn't mantle"
+UCSC,3,Unnamed Cave Project 2,Upper Quarry,7.5,15,60,2,"15 Attempts | 60 Minutes | 2 Sessions
 
 Session #1 on 2020-09-21 at 19:00:00. 5 attempts, over 15 minutes. 
 	Too spooked sans crash pad.
 
 Session #2 on 2020-09-29 at 18:30:00. 10 attempts, over 45 minutes. 
-	Got everything worked out, but then it got dark."""
-"""Varazze""",4,"""Messa delle Streghe""","""Potala""",10.0,3,10,1,"""3 Attempts | 10 Minutes | 1 Sessions
+	Got everything worked out, but then it got dark."
+Varazze,4,Messa delle Streghe,Potala,10.0,3,10,1,"3 Attempts | 10 Minutes | 1 Sessions
 
 Session #1 on 2024-05-22 at 11:30:00. 3 attempts, over 10 minutes. 
-	Messed around. Tough to see how it would feel with pads, but I think it would go."""
-"""Varazze""",2,"""Rampage""","""Futurama""",11.0,10,30,1,"""10 Attempts | 30 Minutes | 1 Sessions
+	Messed around. Tough to see how it would feel with pads, but I think it would go."
+Varazze,2,Rampage,Futurama,11.0,10,30,1,"10 Attempts | 30 Minutes | 1 Sessions
 
 Session #1 on 2024-05-22 at 16:00:00. 10 attempts, over 30 minutes. 
-	There were 4 (shitty) stashed pads under it, so I figured I'd at least mess around trying some of the moves. Shockingly they all felt  hard, but most at least felt doable. Linking would be very tough."""
-"""Yosemite""",5,"""Across The Tracks""","""Intersection Boulders""",10.0,35,120,1,"""35 Attempts | 120 Minutes | 1 Sessions
+	There were 4 (shitty) stashed pads under it, so I figured I'd at least mess around trying some of the moves. Shockingly they all felt  hard, but most at least felt doable. Linking would be very tough."
+Yosemite,5,Across The Tracks,Intersection Boulders,10.0,35,120,1,"35 Attempts | 120 Minutes | 1 Sessions
 
 Session #1 on 2016-04-16 at 10:00:00. 35 attempts, over 120 minutes. 
-	Couldn't link"""
-"""Yosemite""",4,"""Crossroads Moe""","""Bridalveil Falls""",6.0,15,60,1,"""15 Attempts | 60 Minutes | 1 Sessions
+	Couldn't link"
+Yosemite,4,Crossroads Moe,Bridalveil Falls,6.0,15,60,1,"15 Attempts | 60 Minutes | 1 Sessions
 
 Session #1 on 2021-05-15 at 13:00:00. 15 attempts, over 60 minutes. 
-	Hooooly mosquitos. Couldn't see the top hold because of sun, think it will go next time."""
-"""Yosemite""",4,"""Midnight Lightning""","""Camp 4""",8.0,,,,
-"""Yosemite""",3,"""Athletes Die Young""","""Housekeeping Boulders""",5.0,,,,
-"""Yosemite""",3,"""Heart of Darkness""","""Intersection Boulders""",9.0,,,,
-"""Yosemite""",3,"""Our Generation""","""The Wave""",7.0,5,45,1,"""5 Attempts | 45 Minutes | 1 Sessions
+	Hooooly mosquitos. Couldn't see the top hold because of sun, think it will go next time."
+Yosemite,4,Midnight Lightning,Camp 4,8.0,,,,
+Yosemite,3,Our Generation,The Wave,7.0,5,45,1,"5 Attempts | 45 Minutes | 1 Sessions
 
 Session #1 on 2016-04-17 at 10:00:00. 5 attempts, over 45 minutes. 
-	Couldn't do the top"""
-"""Yosemite""",3,"""The Diamond""","""Candyland""",8.0,2,10,1,"""2 Attempts | 10 Minutes | 1 Sessions
+	Couldn't do the top"
+Yosemite,3,The Force,Camp 4,9.0,,,,
+Yosemite,3,The Diamond,Candyland,8.0,2,10,1,"2 Attempts | 10 Minutes | 1 Sessions
 
 Session #1 on 2016-04-17 at 12:00:00. 2 attempts, over 10 minutes. 
-	Tried briefly; was very hot"""
-"""Yosemite""",3,"""The Force""","""Camp 4""",9.0,,,,
-"""Yosemite""",3,"""The Wave""","""The Wave""",3.0,5,45,1,"""5 Attempts | 45 Minutes | 1 Sessions
-
-Session #1 on 2021-05-15 at 16:00:00. 5 attempts, over 45 minutes. 
-	Too scary for a little boy like me! Sage put on his big boy pants"""
-"""Yosemite""",3,"""Torque Spanner""","""Camp 4""",7.0,,,,
-"""Yosemite""",3,"""Wall to Wall Carpet""","""Bridalveil Boulders""",9.0,5,20,1,"""5 Attempts | 20 Minutes | 1 Sessions
+	Tried briefly; was very hot"
+Yosemite,3,Athletes Die Young,Housekeeping Boulders,5.0,,,,
+Yosemite,3,Wall to Wall Carpet,Bridalveil Boulders,9.0,5,20,1,"5 Attempts | 20 Minutes | 1 Sessions
 
 Session #1 on 2016-04-17 at 17:00:00. 5 attempts, over 20 minutes. 
-	Couldn't do first move"""
-"""Yosemite""",2,"""Cocaine Corner""","""Camp 4""",5.0,2,10,1,"""2 Attempts | 10 Minutes | 1 Sessions
+	Couldn't do first move"
+Yosemite,3,Heart of Darkness,Intersection Boulders,9.0,,,,
+Yosemite,3,The Wave,The Wave,3.0,5,45,1,"5 Attempts | 45 Minutes | 1 Sessions
+
+Session #1 on 2021-05-15 at 16:00:00. 5 attempts, over 45 minutes. 
+	Too scary for a little boy like me! Sage put on his big boy pants"
+Yosemite,3,Torque Spanner,Camp 4,7.0,,,,
+Yosemite,2,Cocaine Corner,Camp 4,5.0,2,10,1,"2 Attempts | 10 Minutes | 1 Sessions
 
 Session #1 on 2016-04-16 at 17:00:00. 2 attempts, over 10 minutes. 
-	With Tony/Skyler/etc. group"""
-"""Yosemite""",1,"""Spock Was Here""","""El Cap Boulder""",6.0,5,20,1,"""5 Attempts | 20 Minutes | 1 Sessions
+	With Tony/Skyler/etc. group"
+Yosemite,1,Spock Was Here,El Cap Boulder,6.0,5,20,1,"5 Attempts | 20 Minutes | 1 Sessions
 
 Session #1 on 2016-02-29 at 10:00:00. 5 attempts, over 20 minutes. 
-	Couldn't do the top section"""
-"""Yosemite""",1,"""Spock Was Here Right""","""El Cap Boulder""",8.0,5,20,1,"""5 Attempts | 20 Minutes | 1 Sessions
+	Couldn't do the top section"
+Yosemite,1,Spock Was Here Right,El Cap Boulder,8.0,5,20,1,"5 Attempts | 20 Minutes | 1 Sessions
 
 Session #1 on 2016-02-29 at 10:00:00. 5 attempts, over 20 minutes. 
-	Couldn't do the top section"""
+	Couldn't do the top section"
