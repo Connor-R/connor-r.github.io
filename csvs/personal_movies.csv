@@ -492,6 +492,7 @@ name,year,est_year_watched,genre,sub_genre,movie_length,peak,consistency,premise
 """Sonic the Hedgehog 2""",2022,2024,"""comedy""","""""",122,55,45,50,50,30,50,45,50,50,,47.9
 """Sonic the Hedgehog 3""",2024,2025,"""comedy""","""""",110,50,45,50,50,30,50,45,50,45,,46.2
 """Sorry to Bother You""",2018,2019,"""comedy""","""fantasy""",111,70,50,60,60,40,60,60,60,60,,58.5
+"""Sorry, Baby""",2025,2025,"""drama""","""dark comedy""",103,50,65,60,60,50,60,45,55,65,,57.2
 """Source Code""",2011,2015,"""sci-fi""","""mystery""",93,40,40,60,50,50,40,40,60,40,,44.6
 """South Park-Bigger, Longer, and Uncut""",1999,2012,"""comedy""","""animated""",81,70,60,60,50,40,60,50,50,60,,58.0
 """Space Jam""",1996,1998,"""sports""","""animated""",88,70,70,80,60,50,70,50,70,80,,68.3
