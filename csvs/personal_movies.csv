@@ -86,6 +86,7 @@ name,year,est_year_watched,genre,sub_genre,movie_length,peak,consistency,premise
 """Cars""",2006,2011,"""animated""","""comedy""",117,40,40,30,30,30,50,40,40,50,,40.0
 """Cast Away""",2000,2005,"""adventure""","""drama""",143,70,50,60,70,50,70,70,40,80,,64.1
 """Catch Me If You Can""",2002,2008,"""drama""","""biography""",141,70,50,70,60,60,70,70,40,60,,62.4
+"""Caught Stealing""",2025,2025,"""dark comedy""","""""",107,45,40,40,40,30,45,45,50,40,,41.5
 """Central Intelligence""",2016,2018,"""comedy""","""action""",107,60,40,40,30,30,50,60,60,40,,45.9
 """Chasing Mavericks""",2012,2015,"""drama""","""biography""",116,40,50,40,40,30,50,40,50,40,,42.2
 """Children Who Chase Lost Voices""",2011,2017,"""animated""","""adventure""",116,80,70,80,80,50,80,50,70,70,,71.5
