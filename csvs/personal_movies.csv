@@ -357,6 +357,7 @@ name,year,est_year_watched,genre,sub_genre,movie_length,peak,consistency,premise
 """Kill Bill: Vol. 1""",2003,2010,"""action""","""""",111,60,50,55,50,50,60,60,50,60,,55.9
 """Kill Bill: Vol. 2""",2004,2010,"""action""","""""",137,50,50,55,50,50,50,60,40,50,,50.7
 """Kingpin""",1996,2008,"""comedy""","""sports""",114,60,40,50,50,30,50,60,40,40,,47.3
+"""Kiss Kiss Bang Bang""",2005,2017,"""comedy""","""crime""",103,70,65,65,60,30,65,70,65,60,,61.8
 """Kiss Me Deadly""",1955,2025,"""film noir""","""drama""",106,50,60,55,55,30,60,35,50,55,,51.2
 """Kitten Bowl-2014""",2014,2014,"""cats""","""sports""",124,70,20,40,40,50,60,40,30,50,,47.3
 """Kneecap""",2024,2025,"""comedy""","""""",105,60,65,65,60,55,65,60,50,50,,59.4
@@ -411,6 +412,7 @@ name,year,est_year_watched,genre,sub_genre,movie_length,peak,consistency,premise
 """Moonrise Kingdom""",2012,2014,"""comedy""","""adventure""",94,40,60,60,50,50,50,50,50,50,,50.5
 """Mother""",2009,2025,"""thriller""","""drama""",129,55,55,60,65,30,65,40,45,60,,54.1
 """Mr. Deeds""",2002,2006,"""comedy""","""""",96,50,30,40,40,30,40,30,50,40,,39.3
+"""My Cousin Vinny""",1992,2010,"""comedy""","""legal""",120,55,55,60,55,30,65,60,45,50,,53.4
 """Nacho Libre""",2006,2008,"""comedy""","""""",92,60,40,50,50,40,60,60,50,50,,51.5
 """Napoleon Dynamite""",2004,2005,"""comedy""","""""",96,80,70,70,60,50,70,70,70,80,,70.7
 """National Treasure""",2004,2006,"""adventure""","""action""",131,40,40,40,40,60,50,40,30,40,,42.7
@@ -599,12 +601,14 @@ name,year,est_year_watched,genre,sub_genre,movie_length,peak,consistency,premise
 """The Lion King""",1994,2018,"""animated""","""adventure""",88,70,70,70,70,50,70,50,70,80,,68.0
 """The Little Rascals""",1994,2006,"""comedy""","""""",82,50,30,40,40,40,50,50,60,60,,46.3
 """The Longest Yard""",2005,2006,"""comedy""","""sports""",113,60,30,40,40,40,50,50,40,40,,44.4
+"""The Man from Nowhere""",2010,2025,"""crime""","""""",119,50,50,55,55,30,50,40,45,50,,47.9
 """The Man from U.N.C.L.E.""",2015,2025,"""action""","""comedy""",116,55,60,65,50,30,50,45,40,50,,51.1
 """The Matrix(1)""",1999,2001,"""action""","""sci-fi""",136,75,70,75,60,60,70,50,50,80,,68.8
 """The Matrix(2) Reloaded""",2003,2006,"""action""","""sci-fi""",138,60,50,55,50,50,60,50,40,50,,53.2
 """The Matrix(3) Revolutions""",2003,2008,"""action""","""sci-fi""",129,55,50,55,50,50,55,50,40,50,,51.6
 """The Naked Gun""",2025,2025,"""comedy""","""""",85,60,50,50,40,30,60,65,60,50,,52.1
 """The Naked Gun: From the Files of Police Squad""",1988,2020,"""comedy""","""""",85,60,60,60,50,30,65,65,60,55,,56.6
+"""The NeverEnding Story""",1984,2025,"""adventure""","""""",102,40,45,35,40,30,45,40,45,45,,40.9
 """The Nice Guys""",2016,2016,"""comedy""","""action""",116,70,30,50,40,40,60,60,50,50,,51.2
 """The Notebook""",2004,2012,"""romantic comedy""","""""",123,30,50,40,30,40,30,30,30,40,,36.3
 """The Other Guys""",2010,2014,"""comedy""","""action""",107,60,50,40,40,40,60,55,45,50,,50.6
@@ -623,6 +627,7 @@ name,year,est_year_watched,genre,sub_genre,movie_length,peak,consistency,premise
 """The Russian Five""",2018,2020,"""documentary""","""sports""",102,70,70,75,70,65,70,50,60,65,,67.3
 """The Sandlot""",1993,1998,"""comedy""","""sports""",101,60,70,80,70,50,60,60,60,80,,66.1
 """The Sasquatch Gang""",2006,2009,"""comedy""","""""",86,80,30,50,40,40,60,55,60,55,,54.0
+"""The Shawshank Redemption""",1994,2025,"""drama""","""epic""",142,65,75,60,70,35,75,45,55,75,,64.1
 """The Slammin' Salmon""",2009,2010,"""comedy""","""""",90,60,30,60,50,40,50,60,60,40,,48.8
 """The Social Network""",2010,2011,"""drama""","""biography""",120,30,40,50,50,60,50,50,40,40,,43.7
 """The Sound of Music""",1965,2005,"""drama""","""music""",172,20,30,40,30,50,30,20,20,40,,31.2
@@ -686,6 +691,7 @@ name,year,est_year_watched,genre,sub_genre,movie_length,peak,consistency,premise
 """What We Do In The Shadows""",2014,2016,"""comedy""","""mockumentary""",86,70,70,70,50,50,70,70,65,60,,64.9
 """White Men Can't Jump""",1992,2019,"""sports""","""comedy""",115,40,50,40,50,50,50,40,40,60,,47.3
 """Wild Wild West""",1999,2022,"""comedy""","""sci-fi""",106,40,50,40,50,30,60,55,60,40,,45.7
+"""Winners & Sinners""",1983,2025,"""comedy""","""action""",108,60,45,45,45,30,50,60,45,45,,48.2
 """Without a Paddle""",2004,2007,"""comedy""","""adventure""",95,30,40,40,40,30,50,50,40,30,,37.6
 """Wizard People, Dear Reader""",2004,2016,"""comedy""","""""",152,80,60,80,50,50,80,80,50,80,,70.5
 """Wolf Children""",2012,2016,"""animated""","""drama""",117,40,50,40,50,40,40,40,40,50,,43.7
