@@ -21,10 +21,6 @@ Total,Aaron,BaseballIsBoring-mlb,"Aaron - BaseballIsBoring (mlb)
 
 #1 (2012, 1.98 PF_z, 98 zStrength, 165 PF+, 0.9 xRank, 0.49 xTitles, 0.00 xSackos)
 	-Moneybrawlers",1.0,,,,,100.0,,,,0.49,0.0,1.98,98.0,0.9,0.1,0.739,,,,,,165.0,,1 (2012 - 2012),0.0,1.0,1.0,0.0,0.0,,,100.0,,Moneybrawlers
-Total,killerb,BaseballIsBoring-mlb,"killerb - BaseballIsBoring (mlb)
-
-#1 (2011, 1.99 PF_z, 98 zStrength, 163 PF+, 1.1 xRank, 0.50 xTitles, 0.00 xSackos)
-	-Gas House Gang",1.0,,,,,106.0,,,,0.5,0.0,1.99,98.0,1.1,-0.1,0.74,,,,,,163.0,,1 (2011 - 2011),0.0,1.0,1.0,0.0,0.0,,,106.0,,Gas House Gang
 Total,Justin Hart,BaseballIsBoring-mlb,"Justin Hart - BaseballIsBoring (mlb)
 
 #?? (2016)
@@ -38,6 +34,10 @@ Total,Justin Hart,BaseballIsBoring-mlb,"Justin Hart - BaseballIsBoring (mlb)
 
  #?? (2013)
 	-Justin Hart",1.0,,,,,,,,,,,,,,,,,,,,,,,4 (2013 - 2016),1.0,1.0,1.0,0.0,0.0,,,,,Justin Hart
+Total,killerb,BaseballIsBoring-mlb,"killerb - BaseballIsBoring (mlb)
+
+#1 (2011, 1.99 PF_z, 98 zStrength, 163 PF+, 1.1 xRank, 0.50 xTitles, 0.00 xSackos)
+	-Gas House Gang",1.0,,,,,106.0,,,,0.5,0.0,1.99,98.0,1.1,-0.1,0.74,,,,,,163.0,,1 (2011 - 2011),0.0,1.0,1.0,0.0,0.0,,,106.0,,Gas House Gang
 Total,Balco 2,BaseballIsBoring-mlb,"Balco 2 - BaseballIsBoring (mlb)
 
 #2 (2011, 1.94 PF_z, 97 zStrength, 162 PF+, 1.2 xRank, 0.48 xTitles, 0.00 xSackos)
@@ -437,14 +437,14 @@ Total,Thomas Macfadyen,BaseballIsBoring-mlb,"Thomas Macfadyen - BaseballIsBoring
 	-Thomas Macfadyen",7.9,3.1,7.0,13.5,0.0,17232.19,18924.44,,0.341,0.36,1.0,-0.61,31.0,7.4,0.5,0.427,0.055,-0.17,49.0,19044.6,-961.3,93.0,99.0,13 (2013 - 2025),1.0,1.0,0.0,0.0,2.8,56.0,108.0,137857.53,151395.48,"Thomas Macfadyen
 The Whiskey Dicks
 Shut Up Babydick"
-Total,Chris Sutherland,BaseballIsBoring-mlb,"Chris Sutherland - BaseballIsBoring (mlb)
-
-#8 (2025, pick #3, 9-13, -0.27 PF_z, 39 zStrength, 97 PF+, 7.3 xRank, 0.03 xTitles, 0.02 xSackos)
-	-chrisbsuth",8.0,3.0,9.0,13.0,0.0,20347.47,21053.74,,0.409,0.03,0.02,-0.27,39.0,7.3,0.7,0.467,0.058,0.03,51.0,21041.8,11.9,97.0,100.0,1 (2025 - 2025),0.0,0.0,0.0,0.0,0.0,9.0,13.0,20347.47,21053.74,chrisbsuth
 Total,Benny and the Jets,BaseballIsBoring-mlb,"Benny and the Jets - BaseballIsBoring (mlb)
 
 #8 (2011, -0.39 PF_z, 35 zStrength, 88 PF+, 7.6 xRank, 0.03 xTitles, 0.02 xSackos)
 	-Benny and the Jets",8.0,,,,,57.0,,,,0.03,0.02,-0.39,35.0,7.6,0.4,0.453,,,,,,88.0,,1 (2011 - 2011),0.0,0.0,0.0,0.0,0.0,,,57.0,,Benny and the Jets
+Total,Chris Sutherland,BaseballIsBoring-mlb,"Chris Sutherland - BaseballIsBoring (mlb)
+
+#8 (2025, pick #3, 9-13, -0.27 PF_z, 39 zStrength, 97 PF+, 7.3 xRank, 0.03 xTitles, 0.02 xSackos)
+	-chrisbsuth",8.0,3.0,9.0,13.0,0.0,20347.47,21053.74,,0.409,0.03,0.02,-0.27,39.0,7.3,0.7,0.467,0.058,0.03,51.0,21041.8,11.9,97.0,100.0,1 (2025 - 2025),0.0,0.0,0.0,0.0,0.0,9.0,13.0,20347.47,21053.74,chrisbsuth
 Total,Esqueleto,BaseballIsBoring-mlb,"Esqueleto - BaseballIsBoring (mlb)
 
 #8 (2012, -0.58 PF_z, 28 zStrength, 81 PF+, 6.8 xRank, 0.02 xTitles, 0.04 xSackos)
@@ -525,13 +525,6 @@ Total,What's A,BaseballIsBoring-mlb,"What's A - BaseballIsBoring (mlb)
 
 #11 (2011, -1.04 PF_z, 15 zStrength, 67 PF+, 9.4 xRank, 0.01 xTitles, 0.13 xSackos)
 	-What's A",11.0,,,,,43.5,,,,0.01,0.13,-1.04,15.0,9.4,1.6,0.374,,,,,,67.0,,1 (2011 - 2011),0.0,0.0,0.0,0.0,0.0,,,43.5,,What's A
-Total,Kohl Bashline,BaseballIsBoring-mlb,"Kohl Bashline - BaseballIsBoring (mlb)
-
-#12 (2022, pick #1, 1-21, -2.13 PF_z, 2 zStrength, 69 PF+, 12.4 xRank, 0.00 xTitles, 0.74 xSackos)
-	-Babe Ruth B. Ginsberg 
-
- #12 (2021, pick #12, 3-19, -1.87 PF_z, 3 zStrength, 76 PF+, 11.7 xRank, 0.00 xTitles, 0.58 xSackos)
-	-Babe Ruth B. Ginsberg",12.0,6.5,2.0,20.0,0.0,14765.15,21031.55,,0.091,0.0,1.32,-2.0,3.0,12.0,0.0,0.259,0.168,0.06,52.0,20979.4,104.4,72.0,100.0,2 (2021 - 2022),0.0,0.0,0.0,2.0,0.0,4.0,40.0,29530.3,42063.1,Babe Ruth B. Ginsberg
 Total,hXcsXe,BaseballIsBoring-mlb,"hXcsXe - BaseballIsBoring (mlb)
 
 #12 (2011, -1.29 PF_z, 10 zStrength, 59 PF+, 10.1 xRank, 0.01 xTitles, 0.22 xSackos)
@@ -540,6 +533,13 @@ Total,James Sutherland,BaseballIsBoring-mlb,"James Sutherland - BaseballIsBoring
 
 #12 (2025, pick #1, 4-18, -2.41 PF_z, 1 zStrength, 73 PF+, 13.2 xRank, 0.00 xTitles, 0.86 xSackos)
 	-WontonDon20",12.0,1.0,4.0,18.0,0.0,15381.57,20574.8,,0.182,0.0,0.86,-2.41,1.0,13.2,-1.2,0.209,0.027,-1.95,3.0,21493.3,-918.5,73.0,96.0,1 (2025 - 2025),0.0,0.0,0.0,1.0,0.0,4.0,18.0,15381.57,20574.8,WontonDon20
+Total,Kohl Bashline,BaseballIsBoring-mlb,"Kohl Bashline - BaseballIsBoring (mlb)
+
+#12 (2022, pick #1, 1-21, -2.13 PF_z, 2 zStrength, 69 PF+, 12.4 xRank, 0.00 xTitles, 0.74 xSackos)
+	-Babe Ruth B. Ginsberg 
+
+ #12 (2021, pick #12, 3-19, -1.87 PF_z, 3 zStrength, 76 PF+, 11.7 xRank, 0.00 xTitles, 0.58 xSackos)
+	-Babe Ruth B. Ginsberg",12.0,6.5,2.0,20.0,0.0,14765.15,21031.55,,0.091,0.0,1.32,-2.0,3.0,12.0,0.0,0.259,0.168,0.06,52.0,20979.4,104.4,72.0,100.0,2 (2021 - 2022),0.0,0.0,0.0,2.0,0.0,4.0,40.0,29530.3,42063.1,Babe Ruth B. Ginsberg
 2025,Garrett Harris,BaseballIsBoring-mlb,,1.0,6.0,16.0,6.0,0.0,22629.67,20625.1,,0.727,0.13,0.0,0.71,76.0,4.6,-3.6,0.586,-0.142,-0.45,33.0,20834.4,-209.3,108.0,99.0,,1.0,1.0,1.0,0.0,,,,,,Baseball Team
 2025,Josh Balaban,BaseballIsBoring-mlb,,2.0,5.0,16.0,6.0,0.0,23522.97,21366.07,,0.727,0.2,0.0,1.09,86.0,3.5,-1.5,0.632,-0.095,1.3,90.0,20753.1,613.0,112.0,103.0,,1.0,1.0,0.0,0.0,,,,,,Only Phams
 2025,Connor Reed,BaseballIsBoring-mlb,,3.0,8.0,14.0,8.0,0.0,22454.7,20870.17,,0.636,0.11,0.0,0.63,74.0,4.8,-1.8,0.576,-0.06,0.04,52.0,20850.3,19.9,107.0,100.0,,1.0,1.0,0.0,0.0,,,,,,The Reigning Champs
@@ -646,11 +646,11 @@ Total,James Sutherland,BaseballIsBoring-mlb,"James Sutherland - BaseballIsBoring
 2016,Thomas Macfadyen,BaseballIsBoring-mlb,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Thomas Macfadyen
 2016,Colton Way,BaseballIsBoring-mlb,,1.0,,,,,,,,,,,,,,,,,,,,,,,,1.0,1.0,1.0,0.0,,,,,,Colton Way
 2016,Tommy Pompo,BaseballIsBoring-mlb,,2.0,,,,,,,,,,,,,,,,,,,,,,,,1.0,1.0,0.0,0.0,,,,,,Tommy Pompo
-2015,Connor Reed,BaseballIsBoring-mlb,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Connor Reed
+2015,??unknown2015BaseballIsBoring??,BaseballIsBoring-mlb,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,??unknown2015BaseballIsBoring??
 2015,Colton Way,BaseballIsBoring-mlb,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Colton Way
+2015,Connor Reed,BaseballIsBoring-mlb,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Connor Reed
 2015,Dan Brown,BaseballIsBoring-mlb,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Dan Brown
 2015,Devin Kawabata,BaseballIsBoring-mlb,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Devin Kawabata
-2015,??unknown2015BaseballIsBoring??,BaseballIsBoring-mlb,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,??unknown2015BaseballIsBoring??
 2015,Ian Howard,BaseballIsBoring-mlb,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Ian Howard
 2015,Justin Hart,BaseballIsBoring-mlb,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Justin Hart
 2015,Kyle Marlow,BaseballIsBoring-mlb,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Kyle Marlow
@@ -668,14 +668,14 @@ Total,James Sutherland,BaseballIsBoring-mlb,"James Sutherland - BaseballIsBoring
 2014,Thomas Macfadyen,BaseballIsBoring-mlb,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Thomas Macfadyen
 2014,Tommy Pompo,BaseballIsBoring-mlb,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Tommy Pompo
 2014,Justin Hart,BaseballIsBoring-mlb,,1.0,,,,,,,,,,,,,,,,,,,,,,,,1.0,1.0,1.0,0.0,,,,,,Justin Hart
-2013,Devin Kawabata,BaseballIsBoring-mlb,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Devin Kawabata
 2013,Colton Way,BaseballIsBoring-mlb,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Colton Way
-2013,Thomas Macfadyen,BaseballIsBoring-mlb,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Thomas Macfadyen
-2013,Nate Rosen,BaseballIsBoring-mlb,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Nate Rosen
-2013,Kyle Marlow,BaseballIsBoring-mlb,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Kyle Marlow
-2013,Justin Hart,BaseballIsBoring-mlb,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Justin Hart
-2013,Garrett Harris,BaseballIsBoring-mlb,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Garrett Harris
 2013,Dan Brown,BaseballIsBoring-mlb,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Dan Brown
+2013,Devin Kawabata,BaseballIsBoring-mlb,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Devin Kawabata
+2013,Garrett Harris,BaseballIsBoring-mlb,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Garrett Harris
+2013,Justin Hart,BaseballIsBoring-mlb,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Justin Hart
+2013,Kyle Marlow,BaseballIsBoring-mlb,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Kyle Marlow
+2013,Nate Rosen,BaseballIsBoring-mlb,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Nate Rosen
+2013,Thomas Macfadyen,BaseballIsBoring-mlb,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Thomas Macfadyen
 2013,Connor Reed,BaseballIsBoring-mlb,,1.0,,,,,,,,,,,,,,,,,,,,,,,,1.0,1.0,1.0,0.0,,,,,,Connor Reed
 2013,Tommy Pompo,BaseballIsBoring-mlb,,2.0,,,,,,,,,,,,,,,,,,,,,,,,1.0,1.0,0.0,0.0,,,,,,Tommy Pompo
 2012,Aaron,BaseballIsBoring-mlb,,1.0,,,,,100.0,,,,0.49,0.0,1.98,98.0,0.9,0.1,0.739,,,,,,165.0,,,0.0,1.0,1.0,0.0,,,,,,Moneybrawlers

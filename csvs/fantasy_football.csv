@@ -1,46 +1,4 @@
 year,owner,league_name,Details,finish,pick,W,L,T,PF,PA,Moves,PtsPct,xTitles,xSackos,PF_z,zStrength,xRank,RankDiff,xPtsPct,PtsPctDiff,PA_z,PA_zStrength,xPA,PA_DIFF,PF+,PA+,seasons,Playoffs,Podiums,Titles,Sackos,std_finish,total_W,total_L,total_PF,total_PA,team_name
-Total,Donovan Sheridan,SV-nfl,"Donovan Sheridan - SV (nfl)
-
-#3 (2025, pick #10, 11-3, 1.44 PF_z, 92 zStrength, 105 PF+, 2.9 xRank, 0.28 xTitles, 0.01 xSackos)
-	-Puka Round and Find Out 
-
- #11 (2024, pick #12, 7-7, -0.58 PF_z, 28 zStrength, 95 PF+, 8.0 xRank, 0.02 xTitles, 0.10 xSackos)
-	-Better Business Burrow 
-
- #3 (2023, pick #7, 9-5, 1.10 PF_z, 86 zStrength, 110 PF+, 3.8 xRank, 0.19 xTitles, 0.02 xSackos)
-	-Kelce You in the Finals 
-
- #7 (2022, pick #3, 6-8, -0.01 PF_z, 50 zStrength, 100 PF+, 6.5 xRank, 0.04 xTitles, 0.05 xSackos)
-	-Kupp my balls 
-
- #4 (2021, pick #9, 9-5, 0.66 PF_z, 75 zStrength, 105 PF+, 4.9 xRank, 0.11 xTitles, 0.03 xSackos)
-	-Oahu Can u digg it 
-
- #1 (2020, pick #6, 9-4, 0.46 PF_z, 68 zStrength, 105 PF+, 5.4 xRank, 0.08 xTitles, 0.03 xSackos)
-	-Oahu Hippity Hopkins 
-
- #5 (2019, pick #3, 9-4, 0.15 PF_z, 56 zStrength, 101 PF+, 6.2 xRank, 0.05 xTitles, 0.05 xSackos)
-	-Cummin for your ASS 
-
- #7 (2018, pick #9, 5-8, -0.99 PF_z, 16 zStrength, 92 PF+, 9.0 xRank, 0.01 xTitles, 0.15 xSackos)
-	-Tickle Me ELMO 
-
- #4 (2017, pick #3, 7-6, 1.18 PF_z, 88 zStrength, 108 PF+, 3.6 xRank, 0.21 xTitles, 0.01 xSackos)
-	-Tickle Me ELMO 
-
- #5 (2016, pick #2, 8-5, 0.80 PF_z, 79 zStrength, 106 PF+, 4.5 xRank, 0.13 xTitles, 0.02 xSackos)
-	-Kill or Be killed 
-
- #5 (2015, pick #4, 6-7, 0.77 PF_z, 78 zStrength, 107 PF+, 4.6 xRank, 0.12 xTitles, 0.02 xSackos)
-	-Kill or Be killed",5.0,6.2,7.8,5.6,0.0,1439.79,1356.2,22.55,0.581,1.24,0.5,0.45,65.0,5.4,-0.4,0.56,-0.02,-0.5,34.0,1393.5,-410.5,103.0,97.0,11 (2015 - 2025),8.0,3.0,1.0,0.0,2.5,86.0,62.0,15837.68,14918.2,"Kill or Be killed
-Tickle Me ELMO
-Cummin for your ASS
-Oahu Hippity Hopkins
-Oahu Can u digg it
-Kupp my balls
-Kelce You in the Finals
-Better Business Burrow
-Puka Round and Find Out"
 Total,Connor Reed,SV-nfl,"Connor Reed - SV (nfl)
 
 #7 (2025, pick #1, 6-8, -0.62 PF_z, 27 zStrength, 98 PF+, 8.1 xRank, 0.02 xTitles, 0.11 xSackos)
@@ -85,6 +43,48 @@ Microsoft Powerpoint
 rinvoq
 got time for a quick chat
 rome odunzer I hardly know her"
+Total,Donovan Sheridan,SV-nfl,"Donovan Sheridan - SV (nfl)
+
+#3 (2025, pick #10, 11-3, 1.44 PF_z, 92 zStrength, 105 PF+, 2.9 xRank, 0.28 xTitles, 0.01 xSackos)
+	-Puka Round and Find Out 
+
+ #11 (2024, pick #12, 7-7, -0.58 PF_z, 28 zStrength, 95 PF+, 8.0 xRank, 0.02 xTitles, 0.10 xSackos)
+	-Better Business Burrow 
+
+ #3 (2023, pick #7, 9-5, 1.10 PF_z, 86 zStrength, 110 PF+, 3.8 xRank, 0.19 xTitles, 0.02 xSackos)
+	-Kelce You in the Finals 
+
+ #7 (2022, pick #3, 6-8, -0.01 PF_z, 50 zStrength, 100 PF+, 6.5 xRank, 0.04 xTitles, 0.05 xSackos)
+	-Kupp my balls 
+
+ #4 (2021, pick #9, 9-5, 0.66 PF_z, 75 zStrength, 105 PF+, 4.9 xRank, 0.11 xTitles, 0.03 xSackos)
+	-Oahu Can u digg it 
+
+ #1 (2020, pick #6, 9-4, 0.46 PF_z, 68 zStrength, 105 PF+, 5.4 xRank, 0.08 xTitles, 0.03 xSackos)
+	-Oahu Hippity Hopkins 
+
+ #5 (2019, pick #3, 9-4, 0.15 PF_z, 56 zStrength, 101 PF+, 6.2 xRank, 0.05 xTitles, 0.05 xSackos)
+	-Cummin for your ASS 
+
+ #7 (2018, pick #9, 5-8, -0.99 PF_z, 16 zStrength, 92 PF+, 9.0 xRank, 0.01 xTitles, 0.15 xSackos)
+	-Tickle Me ELMO 
+
+ #4 (2017, pick #3, 7-6, 1.18 PF_z, 88 zStrength, 108 PF+, 3.6 xRank, 0.21 xTitles, 0.01 xSackos)
+	-Tickle Me ELMO 
+
+ #5 (2016, pick #2, 8-5, 0.80 PF_z, 79 zStrength, 106 PF+, 4.5 xRank, 0.13 xTitles, 0.02 xSackos)
+	-Kill or Be killed 
+
+ #5 (2015, pick #4, 6-7, 0.77 PF_z, 78 zStrength, 107 PF+, 4.6 xRank, 0.12 xTitles, 0.02 xSackos)
+	-Kill or Be killed",5.0,6.2,7.8,5.6,0.0,1439.79,1356.2,22.55,0.581,1.24,0.5,0.45,65.0,5.4,-0.4,0.56,-0.02,-0.5,34.0,1393.5,-410.5,103.0,97.0,11 (2015 - 2025),8.0,3.0,1.0,0.0,2.5,86.0,62.0,15837.68,14918.2,"Kill or Be killed
+Tickle Me ELMO
+Cummin for your ASS
+Oahu Hippity Hopkins
+Oahu Can u digg it
+Kupp my balls
+Kelce You in the Finals
+Better Business Burrow
+Puka Round and Find Out"
 Total,Tyler Edwards,SV-nfl,"Tyler Edwards - SV (nfl)
 
 #1 (2025, pick #4, 5-9, 0.79 PF_z, 79 zStrength, 103 PF+, 4.6 xRank, 0.13 xTitles, 0.02 xSackos)
@@ -119,8 +119,8 @@ Total,Tyler Edwards,SV-nfl,"Tyler Edwards - SV (nfl)
 
  #12 (2015, pick #10, 6-7, -0.87 PF_z, 19 zStrength, 93 PF+, 8.7 xRank, 0.01 xTitles, 0.14 xSackos)
 	-Wu Tang Liquidation",5.9,5.9,6.2,7.3,0.0,1391.58,1420.55,25.18,0.459,1.32,1.22,-0.03,49.0,6.6,-0.7,0.496,0.038,0.33,62.0,1397.9,249.2,99.0,102.0,11 (2015 - 2025),5.0,4.0,2.0,1.0,3.7,68.0,80.0,15307.33,15626.07,"Wu Tang Liquidation
-The Hall Monitor
-TOADAL DOMINATION"
+TOADAL DOMINATION
+The Hall Monitor"
 Total,Kyle McNulty,SV-nfl,"Kyle McNulty - SV (nfl)
 
 #10 (2025, pick #2, 6-8, -1.29 PF_z, 10 zStrength, 96 PF+, 9.7 xRank, 0.01 xTitles, 0.20 xSackos)
@@ -239,48 +239,6 @@ BEAUTIFUL BOYS
 LOVER BOYS
 Love Laugh Loid
 Academic Weapons"
-Total,Sean Musser,SV-nfl,"Sean Musser - SV (nfl)
-
-#8 (2025, pick #6, 7-7, -0.83 PF_z, 20 zStrength, 97 PF+, 8.6 xRank, 0.01 xTitles, 0.13 xSackos)
-	-Waddle baby, Waddle baby 
-
- #6 (2024, pick #3, 8-6, 0.88 PF_z, 81 zStrength, 108 PF+, 4.3 xRank, 0.14 xTitles, 0.02 xSackos)
-	-Live Laugh Loiyd 
-
- #1 (2023, pick #2, 7-7, 1.01 PF_z, 84 zStrength, 110 PF+, 4.0 xRank, 0.17 xTitles, 0.02 xSackos)
-	-Live Laugh Loiyd 
-
- #8 (2022, pick #8, 5-9, -1.14 PF_z, 13 zStrength, 92 PF+, 9.3 xRank, 0.01 xTitles, 0.18 xSackos)
-	-Lloyds Junkyard 
-
- #8 (2021, pick #8, 7-7, -0.66 PF_z, 26 zStrength, 95 PF+, 8.1 xRank, 0.02 xTitles, 0.11 xSackos)
-	-Lloyds Junkyard 
-
- #5 (2020, pick #11, 8-5, -0.15 PF_z, 44 zStrength, 98 PF+, 6.9 xRank, 0.03 xTitles, 0.06 xSackos)
-	-The Chicago Lloyds 
-
- #11 (2019, pick #5, 5-8, -0.78 PF_z, 22 zStrength, 92 PF+, 8.5 xRank, 0.01 xTitles, 0.12 xSackos)
-	-DON’T TAKE WR'S IN THE 1ST RND 
-
- #6 (2018, pick #2, 8-5, 0.43 PF_z, 67 zStrength, 103 PF+, 5.5 xRank, 0.08 xTitles, 0.03 xSackos)
-	-Yipee Ki Yay Justin Tucker 
-
- #7 (2017, pick #10, 5-8, -0.81 PF_z, 21 zStrength, 95 PF+, 8.5 xRank, 0.01 xTitles, 0.13 xSackos)
-	-Give Em The Ol Razzle Dazzle 
-
- #11 (2016, pick #4, 5-8, -0.98 PF_z, 16 zStrength, 92 PF+, 9.0 xRank, 0.01 xTitles, 0.15 xSackos)
-	-The Miami Dolphins 
-
- #4 (2015, pick #8, 8-5, 0.22 PF_z, 59 zStrength, 102 PF+, 6.0 xRank, 0.06 xTitles, 0.04 xSackos)
-	-Lloyds' Failures",6.8,6.1,6.6,6.8,0.0,1378.26,1394.86,53.82,0.493,0.55,1.0,-0.26,41.0,7.1,-0.3,0.466,-0.028,-0.21,43.0,1399.1,-46.9,99.0,99.0,11 (2015 - 2025),5.0,1.0,1.0,0.0,2.8,73.0,75.0,15160.89,15343.49,"Lloyds' Failures
-The Miami Dolphins
-Give Em The Ol Razzle Dazzle
-Yipee Ki Yay Justin Tucker
-DON’T TAKE WR'S IN THE 1ST RND
-The Chicago Lloyds
-Lloyds Junkyard
-Live Laugh Loiyd
-Waddle baby, Waddle baby"
 Total,Casey Mangan,SV-nfl,"Casey Mangan - SV (nfl)
 
 #6 (2025, pick #5, 7-7, 1.43 PF_z, 92 zStrength, 105 PF+, 3.0 xRank, 0.28 xTitles, 0.01 xSackos)
@@ -324,6 +282,48 @@ Pink Men
 Case Train
 TANK Engine
 Cocaine Train"
+Total,Sean Musser,SV-nfl,"Sean Musser - SV (nfl)
+
+#8 (2025, pick #6, 7-7, -0.83 PF_z, 20 zStrength, 97 PF+, 8.6 xRank, 0.01 xTitles, 0.13 xSackos)
+	-Waddle baby, Waddle baby 
+
+ #6 (2024, pick #3, 8-6, 0.88 PF_z, 81 zStrength, 108 PF+, 4.3 xRank, 0.14 xTitles, 0.02 xSackos)
+	-Live Laugh Loiyd 
+
+ #1 (2023, pick #2, 7-7, 1.01 PF_z, 84 zStrength, 110 PF+, 4.0 xRank, 0.17 xTitles, 0.02 xSackos)
+	-Live Laugh Loiyd 
+
+ #8 (2022, pick #8, 5-9, -1.14 PF_z, 13 zStrength, 92 PF+, 9.3 xRank, 0.01 xTitles, 0.18 xSackos)
+	-Lloyds Junkyard 
+
+ #8 (2021, pick #8, 7-7, -0.66 PF_z, 26 zStrength, 95 PF+, 8.1 xRank, 0.02 xTitles, 0.11 xSackos)
+	-Lloyds Junkyard 
+
+ #5 (2020, pick #11, 8-5, -0.15 PF_z, 44 zStrength, 98 PF+, 6.9 xRank, 0.03 xTitles, 0.06 xSackos)
+	-The Chicago Lloyds 
+
+ #11 (2019, pick #5, 5-8, -0.78 PF_z, 22 zStrength, 92 PF+, 8.5 xRank, 0.01 xTitles, 0.12 xSackos)
+	-DON’T TAKE WR'S IN THE 1ST RND 
+
+ #6 (2018, pick #2, 8-5, 0.43 PF_z, 67 zStrength, 103 PF+, 5.5 xRank, 0.08 xTitles, 0.03 xSackos)
+	-Yipee Ki Yay Justin Tucker 
+
+ #7 (2017, pick #10, 5-8, -0.81 PF_z, 21 zStrength, 95 PF+, 8.5 xRank, 0.01 xTitles, 0.13 xSackos)
+	-Give Em The Ol Razzle Dazzle 
+
+ #11 (2016, pick #4, 5-8, -0.98 PF_z, 16 zStrength, 92 PF+, 9.0 xRank, 0.01 xTitles, 0.15 xSackos)
+	-The Miami Dolphins 
+
+ #4 (2015, pick #8, 8-5, 0.22 PF_z, 59 zStrength, 102 PF+, 6.0 xRank, 0.06 xTitles, 0.04 xSackos)
+	-Lloyds' Failures",6.8,6.1,6.6,6.8,0.0,1378.26,1394.86,53.82,0.493,0.55,1.0,-0.26,41.0,7.1,-0.3,0.466,-0.028,-0.21,43.0,1399.1,-46.9,99.0,99.0,11 (2015 - 2025),5.0,1.0,1.0,0.0,2.8,73.0,75.0,15160.89,15343.49,"Lloyds' Failures
+The Miami Dolphins
+Give Em The Ol Razzle Dazzle
+Yipee Ki Yay Justin Tucker
+DON’T TAKE WR'S IN THE 1ST RND
+The Chicago Lloyds
+Lloyds Junkyard
+Live Laugh Loiyd
+Waddle baby, Waddle baby"
 Total,Matt Abraham,SV-nfl,"Matt Abraham - SV (nfl)
 
 #9 (2025, pick #7, 7-7, -0.46 PF_z, 32 zStrength, 98 PF+, 7.7 xRank, 0.02 xTitles, 0.09 xSackos)
