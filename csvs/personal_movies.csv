@@ -351,6 +351,7 @@ name,year,est_year_watched,genre,sub_genre,movie_length,peak,consistency,premise
 """Jiminy Glick in Lalawood""",2004,2024,"""comedy""","""""",90,40,30,45,40,40,45,40,60,40,,40.6
 """Joe Dirt""",2001,2006,"""comedy""","""""",91,50,50,60,40,40,60,50,60,60,,52.4
 """John Dies at The End""",2012,2016,"""comedy""","""horror""",99,50,50,60,40,30,60,60,50,50,,50.2
+"""Joint Security Area""",2000,2025,"""korean""","""action""",110,60,45,60,50,50,55,35,55,55,,52.7
 """Jumanji: Welcome To The Jungle""",2017,2018,"""comedy""","""adventure""",119,60,70,50,50,40,60,60,40,60,,56.8
 """Juno""",2007,2007,"""comedy""","""drama""",96,40,60,50,60,40,50,60,50,60,,51.5
 """Keanu""",2016,2018,"""comedy""","""action""",100,60,40,40,40,40,40,40,40,30,,42.4
