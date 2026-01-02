@@ -1,20 +1,20 @@
-year,owner,league_name,Details,finish,pick,W,L,T,PF,PA,Moves,PtsPct,xTitles,xSackos,PF_z,zStrength,xRank,RankDiff,xPtsPct,PtsPctDiff,PA_z,PA_zStrength,xPA,PA_DIFF,PF+,PA+,seasons,Playoffs,Podiums,Titles,Sackos,std_finish,total_W,total_L,total_PF,total_PA,team_name
+year,owner,league_name,Details,finish,pick,W,L,T,PF,PA,Moves,PtsPct,xTitles,xSackos,PF_z,zStrength,xRank,RankDiff,xPtsPct,PtsPctDiff,PA_z,PA_zStrength,xPA,PA_DIFF,draft_z,draft_zStrength,PF+,PA+,seasons,Playoffs,Podiums,Titles,Sackos,std_finish,total_W,total_L,total_PF,total_PA,team_name
 Total,Aaron Ogden,Chili-nfl,"Aaron Ogden - Chili (nfl)
 
 #2 (2014, pick #9, 9-3-1, 1.73 PF_z, 96 zStrength, 118 PF+, 1.9 xRank, 0.38 xTitles, 0.01 xSackos)
-	-Donald Eerlings",2.0,9.0,9.0,3.0,1.0,1355.0,1158.0,22.0,0.731,0.38,0.01,1.73,96.0,1.9,0.1,0.731,0.0,0.68,75.0,1120.6,37.4,118.0,103.0,1 (2014 - 2014),1.0,1.0,0.0,0.0,0.0,9.0,3.0,1355.0,1158.0,Donald Eerlings
+	-Donald Eerlings",2.0,9.0,9.0,3.0,1.0,1355.0,1158.0,22.0,0.731,0.38,0.01,1.73,96.0,1.9,0.1,0.731,0.0,0.68,75.0,1120.6,37.4,,,118.0,103.0,1 (2014 - 2014),1.0,1.0,0.0,0.0,0.0,9.0,3.0,1355.0,1158.0,Donald Eerlings
 Total,Erik Bagley,Chili-nfl,"Erik Bagley - Chili (nfl)
 
-#8 (2025, pick #10, 4-10, -1.06 PF_z, 14 zStrength, 95 PF+, 9.2 xRank, 0.01 xTitles, 0.16 xSackos)
+#8 (2025, pick #10, 32 draft_zStrength, 4-10, -1.06 PF_z, 14 zStrength, 95 PF+, 9.2 xRank, 0.01 xTitles, 0.16 xSackos)
 	-Tittsburg Feelers 
 
- #1 (2024, pick #12, 11-3, 0.89 PF_z, 81 zStrength, 105 PF+, 4.3 xRank, 0.15 xTitles, 0.02 xSackos)
+ #1 (2024, pick #12, 41 draft_zStrength, 11-3, 0.89 PF_z, 81 zStrength, 105 PF+, 4.3 xRank, 0.15 xTitles, 0.02 xSackos)
 	-Tittsburg Feelers 
 
- #7 (2023, pick #8, 5-9, -0.92 PF_z, 18 zStrength, 92 PF+, 8.8 xRank, 0.01 xTitles, 0.14 xSackos)
+ #7 (2023, pick #8, 84 draft_zStrength, 5-9, -0.92 PF_z, 18 zStrength, 92 PF+, 8.8 xRank, 0.01 xTitles, 0.14 xSackos)
 	-Tittsburg Feelers 
 
- #3 (2022, pick #5, 10-4, 0.73 PF_z, 77 zStrength, 107 PF+, 4.7 xRank, 0.12 xTitles, 0.02 xSackos)
+ #3 (2022, pick #5, 75 draft_zStrength, 10-4, 0.73 PF_z, 77 zStrength, 107 PF+, 4.7 xRank, 0.12 xTitles, 0.02 xSackos)
 	-4th and Shlong 
 
  #1 (2021, pick #7, 8-6, 1.32 PF_z, 91 zStrength, 115 PF+, 3.2 xRank, 0.25 xTitles, 0.01 xSackos)
@@ -36,7 +36,7 @@ Total,Erik Bagley,Chili-nfl,"Erik Bagley - Chili (nfl)
 	-AP died On Me 
 
  #1 (2014, pick #6, 7-6, 0.29 PF_z, 62 zStrength, 103 PF+, 4.8 xRank, 0.06 xTitles, 0.04 xSackos)
-	-Huge Taters",4.5,8.1,7.4,6.1,0.0,1384.23,1344.68,35.5,0.547,0.85,0.69,0.12,54.0,6.1,-1.7,0.517,-0.031,-0.16,47.0,1360.0,-167.8,102.0,99.0,11 (2014 - 2025),7.0,6.0,3.0,0.0,3.2,81.0,67.0,15226.52,14791.52,"Huge Taters
+	-Huge Taters",4.5,8.1,7.4,6.1,0.0,1384.23,1344.68,35.5,0.547,0.85,0.69,0.12,54.0,6.1,-1.7,0.517,-0.031,-0.16,47.0,1360.0,-167.8,0.24,58.0,102.0,99.0,11 (2014 - 2025),7.0,6.0,3.0,0.0,3.2,81.0,67.0,15226.52,14791.52,"Huge Taters
 AP died On Me
 Cookin that Chili
 Lynch Mob
@@ -46,39 +46,39 @@ Tittsburg Feelers"
 Total,Gio Bustichi,Chili-nfl,"Gio Bustichi - Chili (nfl)
 
 #5 (2014, pick #4, 7-6, -0.49 PF_z, 31 zStrength, 95 PF+, 6.4 xRank, 0.02 xTitles, 0.09 xSackos)
-	-Team Bustichi",5.0,4.0,7.0,6.0,0.0,1084.0,1082.0,23.0,0.538,0.02,0.09,-0.49,31.0,6.4,-1.4,0.434,-0.104,-1.24,11.0,1150.7,-68.7,95.0,94.0,1 (2014 - 2014),1.0,0.0,0.0,0.0,0.0,7.0,6.0,1084.0,1082.0,Team Bustichi
+	-Team Bustichi",5.0,4.0,7.0,6.0,0.0,1084.0,1082.0,23.0,0.538,0.02,0.09,-0.49,31.0,6.4,-1.4,0.434,-0.104,-1.24,11.0,1150.7,-68.7,,,95.0,94.0,1 (2014 - 2014),1.0,0.0,0.0,0.0,0.0,7.0,6.0,1084.0,1082.0,Team Bustichi
 Total,Jake Duncan,Chili-nfl,"Jake Duncan - Chili (nfl)
 
 #5 (2016, pick #1, 7-6, 1.14 PF_z, 87 zStrength, 109 PF+, 3.7 xRank, 0.20 xTitles, 0.01 xSackos)
-	-Team Duncan",5.0,1.0,7.0,6.0,0.0,1243.0,1127.0,19.0,0.538,0.2,0.01,1.14,87.0,3.7,1.3,0.653,0.114,-0.15,44.0,1135.2,-8.2,109.0,99.0,1 (2016 - 2016),1.0,0.0,0.0,0.0,0.0,7.0,6.0,1243.0,1127.0,Team Duncan
+	-Team Duncan",5.0,1.0,7.0,6.0,0.0,1243.0,1127.0,19.0,0.538,0.2,0.01,1.14,87.0,3.7,1.3,0.653,0.114,-0.15,44.0,1135.2,-8.2,,,109.0,99.0,1 (2016 - 2016),1.0,0.0,0.0,0.0,0.0,7.0,6.0,1243.0,1127.0,Team Duncan
 Total,Connor Reed,Chili-nfl,"Connor Reed - Chili (nfl)
 
-#4 (2025, pick #7, 10-4, 1.92 PF_z, 97 zStrength, 109 PF+, 1.8 xRank, 0.45 xTitles, 0.01 xSackos)
+#4 (2025, pick #7, 78 draft_zStrength, 10-4, 1.92 PF_z, 97 zStrength, 109 PF+, 1.8 xRank, 0.45 xTitles, 0.01 xSackos)
 	-xavier I hardley know her 
 
- #4 (2024, pick #7, 10-4, 1.55 PF_z, 94 zStrength, 109 PF+, 2.7 xRank, 0.32 xTitles, 0.01 xSackos)
+ #4 (2024, pick #7, 86 draft_zStrength, 10-4, 1.55 PF_z, 94 zStrength, 109 PF+, 2.7 xRank, 0.32 xTitles, 0.01 xSackos)
 	-our company is a family 
 
- #9 (2023, pick #1, 7-7, -0.85 PF_z, 20 zStrength, 93 PF+, 8.6 xRank, 0.01 xTitles, 0.13 xSackos)
+ #9 (2023, pick #1, 28 draft_zStrength, 7-7, -0.85 PF_z, 20 zStrength, 93 PF+, 8.6 xRank, 0.01 xTitles, 0.13 xSackos)
 	-skyrizi 
 
- #4 (2022, pick #4, 9-5, 1.03 PF_z, 85 zStrength, 110 PF+, 4.0 xRank, 0.17 xTitles, 0.02 xSackos)
-	-Microsoft Outlook",5.3,4.8,9.0,5.0,0.0,1652.04,1550.76,29.5,0.643,0.96,0.17,0.91,74.0,4.3,1.0,0.622,-0.021,-0.16,44.0,1565.2,-57.9,105.0,99.0,4 (2022 - 2025),3.0,0.0,0.0,0.0,2.2,36.0,20.0,6608.16,6203.04,"Microsoft Outlook
+ #4 (2022, pick #4, 97 draft_zStrength, 9-5, 1.03 PF_z, 85 zStrength, 110 PF+, 4.0 xRank, 0.17 xTitles, 0.02 xSackos)
+	-Microsoft Outlook",5.3,4.8,9.0,5.0,0.0,1652.04,1550.76,29.5,0.643,0.96,0.17,0.91,74.0,4.3,1.0,0.622,-0.021,-0.16,44.0,1565.2,-57.9,0.81,72.0,105.0,99.0,4 (2022 - 2025),3.0,0.0,0.0,0.0,2.2,36.0,20.0,6608.16,6203.04,"Microsoft Outlook
 skyrizi
 our company is a family
 xavier I hardley know her"
 Total,Scott Dreier,Chili-nfl,"Scott Dreier - Chili (nfl)
 
-#5 (2025, pick #12, 8-6, -0.69 PF_z, 24 zStrength, 97 PF+, 8.2 xRank, 0.01 xTitles, 0.11 xSackos)
+#5 (2025, pick #12, 20 draft_zStrength, 8-6, -0.69 PF_z, 24 zStrength, 97 PF+, 8.2 xRank, 0.01 xTitles, 0.11 xSackos)
 	-Team Dreier 
 
- #8 (2024, pick #9, 2-12, -2.01 PF_z, 2 zStrength, 88 PF+, 11.5 xRank, 0.00 xTitles, 0.37 xSackos)
+ #8 (2024, pick #9, 64 draft_zStrength, 2-12, -2.01 PF_z, 2 zStrength, 88 PF+, 11.5 xRank, 0.00 xTitles, 0.37 xSackos)
 	-Team Dreier 
 
- #5 (2023, pick #7, 7-7, 0.71 PF_z, 76 zStrength, 106 PF+, 4.8 xRank, 0.12 xTitles, 0.02 xSackos)
+ #5 (2023, pick #7, 91 draft_zStrength, 7-7, 0.71 PF_z, 76 zStrength, 106 PF+, 4.8 xRank, 0.12 xTitles, 0.02 xSackos)
 	-Team Dreier 
 
- #2 (2022, pick #12, 9-5, -0.32 PF_z, 37 zStrength, 97 PF+, 7.3 xRank, 0.03 xTitles, 0.08 xSackos)
+ #2 (2022, pick #12, 62 draft_zStrength, 9-5, -0.32 PF_z, 37 zStrength, 97 PF+, 7.3 xRank, 0.03 xTitles, 0.08 xSackos)
 	-Team Dreier 
 
  #2 (2021, pick #2, 10-4, 0.84 PF_z, 80 zStrength, 109 PF+, 4.4 xRank, 0.14 xTitles, 0.02 xSackos)
@@ -100,19 +100,19 @@ Total,Scott Dreier,Chili-nfl,"Scott Dreier - Chili (nfl)
 	-Team Dreier 
 
  #3 (2014, pick #10, 7-6, 1.15 PF_z, 88 zStrength, 112 PF+, 3.0 xRank, 0.20 xTitles, 0.01 xSackos)
-	-Team Dreier",5.7,7.0,6.9,6.5,0.0,1376.45,1372.6,14.75,0.514,1.06,1.01,0.04,53.0,6.4,-0.6,0.505,-0.008,0.17,56.0,1360.5,133.6,101.0,101.0,11 (2014 - 2025),7.0,3.0,0.0,0.0,2.9,76.0,72.0,15140.98,15098.64,Team Dreier
+	-Team Dreier",5.7,7.0,6.9,6.5,0.0,1376.45,1372.6,14.75,0.514,1.06,1.01,0.04,53.0,6.4,-0.6,0.505,-0.008,0.17,56.0,1360.5,133.6,0.3,59.0,101.0,101.0,11 (2014 - 2025),7.0,3.0,0.0,0.0,2.9,76.0,72.0,15140.98,15098.64,Team Dreier
 Total,Troy Kato,Chili-nfl,"Troy Kato - Chili (nfl)
 
-#3 (2025, pick #2, 9-5, 1.34 PF_z, 91 zStrength, 106 PF+, 3.2 xRank, 0.26 xTitles, 0.01 xSackos)
+#3 (2025, pick #2, 93 draft_zStrength, 9-5, 1.34 PF_z, 91 zStrength, 106 PF+, 3.2 xRank, 0.26 xTitles, 0.01 xSackos)
 	-Super Ja'Marrio Bros 
 
- #11 (2024, pick #10, 4-10, -1.09 PF_z, 14 zStrength, 94 PF+, 9.2 xRank, 0.01 xTitles, 0.17 xSackos)
+ #11 (2024, pick #10, 24 draft_zStrength, 4-10, -1.09 PF_z, 14 zStrength, 94 PF+, 9.2 xRank, 0.01 xTitles, 0.17 xSackos)
 	-Show me the Carr Fax 
 
- #4 (2023, pick #2, 9-5, 0.48 PF_z, 68 zStrength, 104 PF+, 5.3 xRank, 0.08 xTitles, 0.03 xSackos)
+ #4 (2023, pick #2, 48 draft_zStrength, 9-5, 0.48 PF_z, 68 zStrength, 104 PF+, 5.3 xRank, 0.08 xTitles, 0.03 xSackos)
 	-Show me the Carr Fax 
 
- #11 (2022, pick #8, 3-11, -1.85 PF_z, 3 zStrength, 81 PF+, 11.1 xRank, 0.00 xTitles, 0.33 xSackos)
+ #11 (2022, pick #8, 14 draft_zStrength, 3-11, -1.85 PF_z, 3 zStrength, 81 PF+, 11.1 xRank, 0.00 xTitles, 0.33 xSackos)
 	-Show me the Carr Fax 
 
  #3 (2021, pick #8, 10-4, 0.41 PF_z, 66 zStrength, 105 PF+, 5.5 xRank, 0.08 xTitles, 0.03 xSackos)
@@ -134,7 +134,7 @@ Total,Troy Kato,Chili-nfl,"Troy Kato - Chili (nfl)
 	-Team Kato 
 
  #8 (2014, pick #7, 3-9-1, -1.77 PF_z, 4 zStrength, 81 PF+, 9.1 xRank, 0.00 xTitles, 0.31 xSackos)
-	-Team Kato",5.9,5.9,6.5,6.7,0.3,1328.91,1343.42,13.25,0.49,1.04,1.44,-0.25,44.0,7.0,-1.1,0.467,-0.023,-0.33,42.0,1365.5,-242.4,97.0,98.0,11 (2014 - 2025),6.0,4.0,2.0,0.0,3.7,71.0,74.0,14618.04,14777.62,"Team Kato
+	-Team Kato",5.9,5.9,6.5,6.7,0.3,1328.91,1343.42,13.25,0.49,1.04,1.44,-0.25,44.0,7.0,-1.1,0.467,-0.023,-0.33,42.0,1365.5,-242.4,-0.09,45.0,97.0,98.0,11 (2014 - 2025),6.0,4.0,2.0,0.0,3.7,71.0,74.0,14618.04,14777.62,"Team Kato
 Blooper Cooper
 HalfChubb FullWood
 Finding Deebo
@@ -161,20 +161,20 @@ Total,Nick Mannina,Chili-nfl,"Nick Mannina - Chili (nfl)
 	-Team Mannina 
 
  #9 (2014, pick #1, 4-9, -1.16 PF_z, 12 zStrength, 88 PF+, 7.8 xRank, 0.01 xTitles, 0.18 xSackos)
-	-Team Mannina",6.1,5.9,6.3,6.9,0.0,1191.06,1254.78,10.5,0.478,0.58,0.84,-0.25,43.0,6.9,-0.8,0.467,-0.016,0.05,52.0,1246.8,55.7,97.0,100.0,7 (2014 - 2021),4.0,3.0,0.0,0.0,3.1,44.0,48.0,8337.42,8783.48,"Team Mannina
+	-Team Mannina",6.1,5.9,6.3,6.9,0.0,1191.06,1254.78,10.5,0.478,0.58,0.84,-0.25,43.0,6.9,-0.8,0.467,-0.016,0.05,52.0,1246.8,55.7,,,97.0,100.0,7 (2014 - 2021),4.0,3.0,0.0,0.0,3.1,44.0,48.0,8337.42,8783.48,"Team Mannina
 Milk Wagons"
 Total,Daniel Bolanos,Chili-nfl,"Daniel Bolanos - Chili (nfl)
 
-#1 (2025, pick #9, 8-6, 0.41 PF_z, 66 zStrength, 102 PF+, 5.5 xRank, 0.08 xTitles, 0.03 xSackos)
+#1 (2025, pick #9, 32 draft_zStrength, 8-6, 0.41 PF_z, 66 zStrength, 102 PF+, 5.5 xRank, 0.08 xTitles, 0.03 xSackos)
 	-Ben Jong Un 
 
- #12 (2024, pick #8, 8-6, 0.13 PF_z, 55 zStrength, 101 PF+, 6.2 xRank, 0.05 xTitles, 0.05 xSackos)
+ #12 (2024, pick #8, 9 draft_zStrength, 8-6, 0.13 PF_z, 55 zStrength, 101 PF+, 6.2 xRank, 0.05 xTitles, 0.05 xSackos)
 	-Than 
 
- #2 (2023, pick #5, 9-5, 0.47 PF_z, 68 zStrength, 104 PF+, 5.4 xRank, 0.08 xTitles, 0.03 xSackos)
+ #2 (2023, pick #5, 91 draft_zStrength, 9-5, 0.47 PF_z, 68 zStrength, 104 PF+, 5.4 xRank, 0.08 xTitles, 0.03 xSackos)
 	-Than 
 
- #7 (2022, pick #10, 7-7, -0.13 PF_z, 45 zStrength, 99 PF+, 6.8 xRank, 0.03 xTitles, 0.06 xSackos)
+ #7 (2022, pick #10, 41 draft_zStrength, 7-7, -0.13 PF_z, 45 zStrength, 99 PF+, 6.8 xRank, 0.03 xTitles, 0.06 xSackos)
 	-Mr. Than 
 
  #9 (2021, pick #11, 6-8, -0.18 PF_z, 43 zStrength, 98 PF+, 7.0 xRank, 0.03 xTitles, 0.07 xSackos)
@@ -193,7 +193,7 @@ Total,Daniel Bolanos,Chili-nfl,"Daniel Bolanos - Chili (nfl)
 	-Mister Than 
 
  #1 (2016, pick #2, 7-5-1, 0.58 PF_z, 72 zStrength, 104 PF+, 5.1 xRank, 0.10 xTitles, 0.03 xSackos)
-	-Mister Than",6.2,6.8,7.2,6.2,0.1,1420.4,1348.21,15.57,0.537,0.99,0.42,0.39,63.0,5.5,0.7,0.553,0.016,-0.41,37.0,1380.5,-323.3,103.0,98.0,10 (2016 - 2025),5.0,3.0,2.0,2.0,4.0,72.0,62.0,14204.0,13482.08,"Mister Than
+	-Mister Than",6.2,6.8,7.2,6.2,0.1,1420.4,1348.21,15.57,0.537,0.99,0.42,0.39,63.0,5.5,0.7,0.553,0.016,-0.41,37.0,1380.5,-323.3,-0.18,43.0,103.0,98.0,10 (2016 - 2025),5.0,3.0,2.0,2.0,4.0,72.0,62.0,14204.0,13482.08,"Mister Than
 Caboose Pistol
 Mashville Gator tails
 The Glizzy Guzzlers
@@ -202,16 +202,16 @@ Than
 Ben Jong Un"
 Total,Bryan Jones,Chili-nfl,"Bryan Jones - Chili (nfl)
 
-#9 (2025, pick #6, 6-8, 0.08 PF_z, 53 zStrength, 100 PF+, 6.3 xRank, 0.05 xTitles, 0.05 xSackos)
+#9 (2025, pick #6, 66 draft_zStrength, 6-8, 0.08 PF_z, 53 zStrength, 100 PF+, 6.3 xRank, 0.05 xTitles, 0.05 xSackos)
 	-The Jackson 9 
 
- #6 (2024, pick #5, 10-4, 0.28 PF_z, 61 zStrength, 102 PF+, 5.8 xRank, 0.06 xTitles, 0.04 xSackos)
+ #6 (2024, pick #5, 16 draft_zStrength, 10-4, 0.28 PF_z, 61 zStrength, 102 PF+, 5.8 xRank, 0.06 xTitles, 0.04 xSackos)
 	-The Pittmaster 
 
- #3 (2023, pick #4, 11-3, 1.08 PF_z, 86 zStrength, 109 PF+, 3.8 xRank, 0.19 xTitles, 0.02 xSackos)
+ #3 (2023, pick #4, 90 draft_zStrength, 11-3, 1.08 PF_z, 86 zStrength, 109 PF+, 3.8 xRank, 0.19 xTitles, 0.02 xSackos)
 	-Make It hurts 
 
- #6 (2022, pick #3, 7-7, 0.74 PF_z, 77 zStrength, 107 PF+, 4.7 xRank, 0.12 xTitles, 0.02 xSackos)
+ #6 (2022, pick #3, 94 draft_zStrength, 7-7, 0.74 PF_z, 77 zStrength, 107 PF+, 4.7 xRank, 0.12 xTitles, 0.02 xSackos)
 	-Make It hurts 
 
  #7 (2021, pick #9, 5-9, 0.06 PF_z, 52 zStrength, 101 PF+, 6.4 xRank, 0.05 xTitles, 0.05 xSackos)
@@ -230,7 +230,7 @@ Total,Bryan Jones,Chili-nfl,"Bryan Jones - Chili (nfl)
 	-Broke Back Brady Mountain 
 
  #9 (2016, pick #10, 6-7, -0.61 PF_z, 27 zStrength, 95 PF+, 8.0 xRank, 0.02 xTitles, 0.10 xSackos)
-	-Pepperoni Nipples",6.3,5.8,7.3,6.2,0.0,1421.28,1412.27,36.57,0.541,1.17,0.51,0.31,57.0,5.8,0.5,0.541,0.001,0.41,64.0,1380.4,318.3,103.0,102.0,10 (2016 - 2025),5.0,3.0,0.0,0.0,2.8,73.0,62.0,14212.84,14122.7,"Pepperoni Nipples
+	-Pepperoni Nipples",6.3,5.8,7.3,6.2,0.0,1421.28,1412.27,36.57,0.541,1.17,0.51,0.31,57.0,5.8,0.5,0.541,0.001,0.41,64.0,1380.4,318.3,0.58,67.0,103.0,102.0,10 (2016 - 2025),5.0,3.0,0.0,0.0,2.8,73.0,62.0,14212.84,14122.7,"Pepperoni Nipples
 Broke Back Brady Mountain
 Broke Back Brady
 Show Me Your TDs
@@ -241,16 +241,16 @@ The Pittmaster
 The Jackson 9"
 Total,Erik Foster,Chili-nfl,"Erik Foster - Chili (nfl)
 
-#6 (2025, pick #8, 7-7, 0.74 PF_z, 77 zStrength, 103 PF+, 4.7 xRank, 0.12 xTitles, 0.02 xSackos)
+#6 (2025, pick #8, 5 draft_zStrength, 7-7, 0.74 PF_z, 77 zStrength, 103 PF+, 4.7 xRank, 0.12 xTitles, 0.02 xSackos)
 	-Garbage Pass Kids 
 
- #9 (2024, pick #3, 3-11, -0.37 PF_z, 35 zStrength, 98 PF+, 7.4 xRank, 0.02 xTitles, 0.08 xSackos)
+ #9 (2024, pick #3, 28 draft_zStrength, 3-11, -0.37 PF_z, 35 zStrength, 98 PF+, 7.4 xRank, 0.02 xTitles, 0.08 xSackos)
 	-Garbage Pass Kids 
 
- #1 (2023, pick #10, 10-4, 2.16 PF_z, 98 zStrength, 119 PF+, 1.1 xRank, 0.55 xTitles, 0.00 xSackos)
+ #1 (2023, pick #10, 46 draft_zStrength, 10-4, 2.16 PF_z, 98 zStrength, 119 PF+, 1.1 xRank, 0.55 xTitles, 0.00 xSackos)
 	-Garbage Pass Kids 
 
- #8 (2022, pick #11, 7-7, -0.23 PF_z, 41 zStrength, 98 PF+, 7.1 xRank, 0.03 xTitles, 0.07 xSackos)
+ #8 (2022, pick #11, 18 draft_zStrength, 7-7, -0.23 PF_z, 41 zStrength, 98 PF+, 7.1 xRank, 0.03 xTitles, 0.07 xSackos)
 	-Garbage Pass Kids 
 
  #11 (2021, pick #5, 5-9, -0.46 PF_z, 32 zStrength, 95 PF+, 7.7 xRank, 0.02 xTitles, 0.09 xSackos)
@@ -272,23 +272,23 @@ Total,Erik Foster,Chili-nfl,"Erik Foster - Chili (nfl)
 	-Dude Where's My Carr? 
 
  #4 (2014, pick #2, 10-3, 0.55 PF_z, 71 zStrength, 106 PF+, 4.3 xRank, 0.09 xTitles, 0.03 xSackos)
-	-Hankey Sankey",6.4,7.5,6.9,6.5,0.0,1401.53,1364.75,39.5,0.514,1.36,0.61,0.35,60.0,5.6,0.8,0.547,0.031,-0.01,51.0,1358.3,70.4,103.0,100.0,11 (2014 - 2025),6.0,2.0,2.0,0.0,3.4,76.0,72.0,15416.84,15012.26,"Hankey Sankey
+	-Hankey Sankey",6.4,7.5,6.9,6.5,0.0,1401.53,1364.75,39.5,0.514,1.36,0.61,0.35,60.0,5.6,0.8,0.547,0.031,-0.01,51.0,1358.3,70.4,-0.81,24.0,103.0,100.0,11 (2014 - 2025),6.0,2.0,2.0,0.0,3.4,76.0,72.0,15416.84,15012.26,"Hankey Sankey
 Dude Where's My Carr?
 Lights Kamara Miller Time!
 40 Million Dollar Baby
 Garbage Pass Kids"
 Total,Kyle McReynolds,Chili-nfl,"Kyle McReynolds - Chili (nfl)
 
-#2 (2025, pick #11, 9-5, -0.47 PF_z, 32 zStrength, 98 PF+, 7.7 xRank, 0.02 xTitles, 0.09 xSackos)
+#2 (2025, pick #11, 19 draft_zStrength, 9-5, -0.47 PF_z, 32 zStrength, 98 PF+, 7.7 xRank, 0.02 xTitles, 0.09 xSackos)
 	-Will Clapp Cheeks 
 
- #2 (2024, pick #4, 8-6, 1.07 PF_z, 86 zStrength, 106 PF+, 3.9 xRank, 0.18 xTitles, 0.02 xSackos)
+ #2 (2024, pick #4, 95 draft_zStrength, 8-6, 1.07 PF_z, 86 zStrength, 106 PF+, 3.9 xRank, 0.18 xTitles, 0.02 xSackos)
 	-Will Clapp Cheeks 
 
- #6 (2023, pick #9, 8-6, -0.29 PF_z, 39 zStrength, 98 PF+, 7.2 xRank, 0.03 xTitles, 0.07 xSackos)
+ #6 (2023, pick #9, 3 draft_zStrength, 8-6, -0.29 PF_z, 39 zStrength, 98 PF+, 7.2 xRank, 0.03 xTitles, 0.07 xSackos)
 	-Will Clapp Cheeks 
 
- #5 (2022, pick #1, 7-7, 1.33 PF_z, 91 zStrength, 113 PF+, 3.2 xRank, 0.25 xTitles, 0.01 xSackos)
+ #5 (2022, pick #1, 52 draft_zStrength, 7-7, 1.33 PF_z, 91 zStrength, 113 PF+, 3.2 xRank, 0.25 xTitles, 0.01 xSackos)
 	-Will Clapp Cheeks 
 
  #6 (2021, pick #4, 8-6, 0.76 PF_z, 78 zStrength, 108 PF+, 4.6 xRank, 0.12 xTitles, 0.02 xSackos)
@@ -310,21 +310,21 @@ Total,Kyle McReynolds,Chili-nfl,"Kyle McReynolds - Chili (nfl)
 	-Golden Taint 
 
  #7 (2014, pick #8, 6-6-1, -0.71 PF_z, 24 zStrength, 92 PF+, 6.9 xRank, 0.01 xTitles, 0.12 xSackos)
-	-Golden Taint",6.8,5.9,6.5,6.8,0.2,1356.23,1358.97,14.5,0.486,0.78,1.09,-0.16,46.0,6.8,0.0,0.478,-0.005,-0.09,49.0,1362.7,-41.1,99.0,100.0,11 (2014 - 2025),6.0,2.0,0.0,3.0,3.6,71.0,75.0,14918.48,14948.64,"Golden Taint
+	-Golden Taint",6.8,5.9,6.5,6.8,0.2,1356.23,1358.97,14.5,0.486,0.78,1.09,-0.16,46.0,6.8,0.0,0.478,-0.005,-0.09,49.0,1362.7,-41.1,-0.26,42.0,99.0,100.0,11 (2014 - 2025),6.0,2.0,0.0,3.0,3.6,71.0,75.0,14918.48,14948.64,"Golden Taint
 You are CHEEKS
 Will Clapp Cheeks"
 Total,Russell Smith,Chili-nfl,"Russell Smith - Chili (nfl)
 
-#7 (2025, pick #1, 7-7, 0.11 PF_z, 54 zStrength, 100 PF+, 6.3 xRank, 0.05 xTitles, 0.05 xSackos)
+#7 (2025, pick #1, 79 draft_zStrength, 7-7, 0.11 PF_z, 54 zStrength, 100 PF+, 6.3 xRank, 0.05 xTitles, 0.05 xSackos)
 	-Lim Jahey and Co. 
 
- #10 (2024, pick #2, 5-9, -1.10 PF_z, 13 zStrength, 94 PF+, 9.3 xRank, 0.01 xTitles, 0.17 xSackos)
+ #10 (2024, pick #2, 36 draft_zStrength, 5-9, -1.10 PF_z, 13 zStrength, 94 PF+, 9.3 xRank, 0.01 xTitles, 0.17 xSackos)
 	-Lim Jahey 
 
- #8 (2023, pick #3, 7-7, -0.11 PF_z, 46 zStrength, 99 PF+, 6.8 xRank, 0.04 xTitles, 0.06 xSackos)
+ #8 (2023, pick #3, 32 draft_zStrength, 7-7, -0.11 PF_z, 46 zStrength, 99 PF+, 6.8 xRank, 0.04 xTitles, 0.06 xSackos)
 	-Lim Jahey 
 
- #1 (2022, pick #6, 9-5, 1.41 PF_z, 92 zStrength, 114 PF+, 3.0 xRank, 0.27 xTitles, 0.01 xSackos)
+ #1 (2022, pick #6, 55 draft_zStrength, 9-5, 1.41 PF_z, 92 zStrength, 114 PF+, 3.0 xRank, 0.27 xTitles, 0.01 xSackos)
 	-Frig off Lahey 
 
  #8 (2021, pick #10, 4-10, -1.81 PF_z, 3 zStrength, 80 PF+, 11.0 xRank, 0.00 xTitles, 0.32 xSackos)
@@ -343,21 +343,21 @@ Total,Russell Smith,Chili-nfl,"Russell Smith - Chili (nfl)
 	-Frig off Lahey 
 
  #11 (2016, pick #6, 5-8, -0.63 PF_z, 27 zStrength, 95 PF+, 8.1 xRank, 0.02 xTitles, 0.11 xSackos)
-	-Frig off Lahey",7.3,6.1,5.8,7.7,0.0,1328.18,1403.92,11.71,0.43,0.52,1.43,-0.49,37.0,7.7,-0.4,0.434,0.005,0.22,58.0,1388.9,150.3,96.0,101.0,10 (2016 - 2025),3.0,3.0,1.0,1.0,3.8,58.0,77.0,13281.82,14039.22,"Frig off Lahey
+	-Frig off Lahey",7.3,6.1,5.8,7.7,0.0,1328.18,1403.92,11.71,0.43,0.52,1.43,-0.49,37.0,7.7,-0.4,0.434,0.005,0.22,58.0,1388.9,150.3,0.03,51.0,96.0,101.0,10 (2016 - 2025),3.0,3.0,1.0,1.0,3.8,58.0,77.0,13281.82,14039.22,"Frig off Lahey
 Lim Jahey
 Lim Jahey and Co."
 Total,Scott Masik,Chili-nfl,"Scott Masik - Chili (nfl)
 
-#10 (2025, pick #4, 5-9, -1.51 PF_z, 7 zStrength, 93 PF+, 10.3 xRank, 0.00 xTitles, 0.25 xSackos)
+#10 (2025, pick #4, 10 draft_zStrength, 5-9, -1.51 PF_z, 7 zStrength, 93 PF+, 10.3 xRank, 0.00 xTitles, 0.25 xSackos)
 	-Chase'n Chili 
 
- #3 (2024, pick #6, 9-5, 0.94 PF_z, 83 zStrength, 105 PF+, 4.2 xRank, 0.15 xTitles, 0.02 xSackos)
+ #3 (2024, pick #6, 36 draft_zStrength, 9-5, 0.94 PF_z, 83 zStrength, 105 PF+, 4.2 xRank, 0.15 xTitles, 0.02 xSackos)
 	-Chase'n Chili 
 
- #12 (2023, pick #11, 6-8, -0.43 PF_z, 33 zStrength, 96 PF+, 7.6 xRank, 0.02 xTitles, 0.09 xSackos)
+ #12 (2023, pick #11, 43 draft_zStrength, 6-8, -0.43 PF_z, 33 zStrength, 96 PF+, 7.6 xRank, 0.02 xTitles, 0.09 xSackos)
 	-Side Chili 
 
- #10 (2022, pick #2, 6-8, -0.66 PF_z, 25 zStrength, 93 PF+, 8.2 xRank, 0.02 xTitles, 0.11 xSackos)
+ #10 (2022, pick #2, 51 draft_zStrength, 6-8, -0.66 PF_z, 25 zStrength, 93 PF+, 8.2 xRank, 0.02 xTitles, 0.11 xSackos)
 	-Side Chili 
 
  #5 (2021, pick #12, 8-6, 0.58 PF_z, 72 zStrength, 106 PF+, 5.1 xRank, 0.10 xTitles, 0.03 xSackos)
@@ -373,7 +373,7 @@ Total,Scott Masik,Chili-nfl,"Scott Masik - Chili (nfl)
 	-Keenan and KEL...ce 
 
  #7 (2017, pick #7, 5-8, 0.04 PF_z, 52 zStrength, 100 PF+, 6.4 xRank, 0.04 xTitles, 0.05 xSackos)
-	-Cant HYDE your Chili",7.4,6.1,6.3,7.2,0.0,1410.42,1409.03,23.5,0.467,0.69,0.75,-0.04,49.0,6.6,0.8,0.494,0.028,0.07,53.0,1410.5,-13.2,100.0,100.0,9 (2017 - 2025),3.0,2.0,1.0,1.0,3.6,57.0,65.0,12693.76,12681.28,"Cant HYDE your Chili
+	-Cant HYDE your Chili",7.4,6.1,6.3,7.2,0.0,1410.42,1409.03,23.5,0.467,0.69,0.75,-0.04,49.0,6.6,0.8,0.494,0.028,0.07,53.0,1410.5,-13.2,-0.44,35.0,100.0,100.0,9 (2017 - 2025),3.0,2.0,1.0,1.0,3.6,57.0,65.0,12693.76,12681.28,"Cant HYDE your Chili
 Keenan and KEL...ce
 The comeback Kid
 Bowl of Chili
@@ -381,16 +381,16 @@ Side Chili
 Chase'n Chili"
 Total,Ben Lalor,Chili-nfl,"Ben Lalor - Chili (nfl)
 
-#12 (2025, pick #3, 7-7, 0.38 PF_z, 65 zStrength, 102 PF+, 5.6 xRank, 0.07 xTitles, 0.04 xSackos)
+#12 (2025, pick #3, 84 draft_zStrength, 7-7, 0.38 PF_z, 65 zStrength, 102 PF+, 5.6 xRank, 0.07 xTitles, 0.04 xSackos)
 	-Da Inconvenient Truth 
 
- #5 (2024, pick #11, 9-5, 0.08 PF_z, 53 zStrength, 100 PF+, 6.3 xRank, 0.05 xTitles, 0.05 xSackos)
+ #5 (2024, pick #11, 32 draft_zStrength, 9-5, 0.08 PF_z, 53 zStrength, 100 PF+, 6.3 xRank, 0.05 xTitles, 0.05 xSackos)
 	-Da Inconvenient Truth 
 
- #10 (2023, pick #6, 2-12, -1.74 PF_z, 4 zStrength, 85 PF+, 10.8 xRank, 0.00 xTitles, 0.30 xSackos)
+ #10 (2023, pick #6, 13 draft_zStrength, 2-12, -1.74 PF_z, 4 zStrength, 85 PF+, 10.8 xRank, 0.00 xTitles, 0.30 xSackos)
 	-Da Inconvenient Truth 
 
- #9 (2022, pick #9, 6-8, -0.98 PF_z, 16 zStrength, 90 PF+, 9.0 xRank, 0.01 xTitles, 0.15 xSackos)
+ #9 (2022, pick #9, 10 draft_zStrength, 6-8, -0.98 PF_z, 16 zStrength, 90 PF+, 9.0 xRank, 0.01 xTitles, 0.15 xSackos)
 	-Da Inconvenient Truth 
 
  #4 (2021, pick #3, 12-2, 0.85 PF_z, 80 zStrength, 109 PF+, 4.4 xRank, 0.14 xTitles, 0.02 xSackos)
@@ -412,19 +412,19 @@ Total,Ben Lalor,Chili-nfl,"Ben Lalor - Chili (nfl)
 	-Da Inconvenient Truth 
 
  #6 (2014, pick #3, 5-7-1, 0.24 PF_z, 59 zStrength, 103 PF+, 4.9 xRank, 0.06 xTitles, 0.04 xSackos)
-	-Da Inconvenient Truth",7.5,6.1,6.2,7.2,0.1,1319.67,1353.46,12.75,0.463,0.52,1.34,-0.37,41.0,7.4,0.1,0.45,-0.011,0.02,48.0,1365.8,-136.1,97.0,100.0,11 (2014 - 2025),5.0,0.0,0.0,1.0,2.3,68.0,79.0,14516.4,14888.06,Da Inconvenient Truth
+	-Da Inconvenient Truth",7.5,6.1,6.2,7.2,0.1,1319.67,1353.46,12.75,0.463,0.52,1.34,-0.37,41.0,7.4,0.1,0.45,-0.011,0.02,48.0,1365.8,-136.1,-0.47,35.0,97.0,100.0,11 (2014 - 2025),5.0,0.0,0.0,1.0,2.3,68.0,79.0,14516.4,14888.06,Da Inconvenient Truth
 Total,Chris Bolanos,Chili-nfl,"Chris Bolanos - Chili (nfl)
 
-#11 (2025, pick #5, 4-10, -1.24 PF_z, 11 zStrength, 94 PF+, 9.6 xRank, 0.01 xTitles, 0.20 xSackos)
+#11 (2025, pick #5, 86 draft_zStrength, 4-10, -1.24 PF_z, 11 zStrength, 94 PF+, 9.6 xRank, 0.01 xTitles, 0.20 xSackos)
 	-PurdyMouth 
 
- #7 (2024, pick #1, 5-9, -0.35 PF_z, 36 zStrength, 98 PF+, 7.4 xRank, 0.02 xTitles, 0.08 xSackos)
+ #7 (2024, pick #1, 98 draft_zStrength, 5-9, -0.35 PF_z, 36 zStrength, 98 PF+, 7.4 xRank, 0.02 xTitles, 0.08 xSackos)
 	-PurdyMouth 
 
- #11 (2023, pick #12, 3-11, -0.58 PF_z, 28 zStrength, 95 PF+, 8.0 xRank, 0.02 xTitles, 0.10 xSackos)
+ #11 (2023, pick #12, 25 draft_zStrength, 3-11, -0.58 PF_z, 28 zStrength, 95 PF+, 8.0 xRank, 0.02 xTitles, 0.10 xSackos)
 	-PurdyMouth 
 
- #12 (2022, pick #7, 4-10, -1.06 PF_z, 14 zStrength, 89 PF+, 9.2 xRank, 0.01 xTitles, 0.17 xSackos)
+ #12 (2022, pick #7, 12 draft_zStrength, 4-10, -1.06 PF_z, 14 zStrength, 89 PF+, 9.2 xRank, 0.01 xTitles, 0.17 xSackos)
 	-Treyning Day 
 
  #12 (2021, pick #6, 7-7, -0.35 PF_z, 36 zStrength, 96 PF+, 7.4 xRank, 0.02 xTitles, 0.08 xSackos)
@@ -443,7 +443,7 @@ Total,Chris Bolanos,Chili-nfl,"Chris Bolanos - Chili (nfl)
 	-Barry McCockinner 
 
  #7 (2016, pick #12, 6-7, -1.01 PF_z, 16 zStrength, 92 PF+, 9.0 xRank, 0.01 xTitles, 0.16 xSackos)
-	-Chip Kellys Doo Doo Butter",8.0,6.9,6.0,7.5,0.0,1347.89,1414.86,8.86,0.444,0.41,0.93,-0.31,39.0,7.3,0.7,0.458,0.01,0.23,57.0,1387.1,277.6,98.0,101.0,10 (2016 - 2025),3.0,1.0,0.0,2.0,3.3,60.0,75.0,13478.86,14148.64,"Chip Kellys Doo Doo Butter
+	-Chip Kellys Doo Doo Butter",8.0,6.9,6.0,7.5,0.0,1347.89,1414.86,8.86,0.444,0.41,0.93,-0.31,39.0,7.3,0.7,0.458,0.01,0.23,57.0,1387.1,277.6,0.3,55.0,98.0,101.0,10 (2016 - 2025),3.0,1.0,0.0,2.0,3.3,60.0,75.0,13478.86,14148.64,"Chip Kellys Doo Doo Butter
 Barry McCockinner
 Jimmy's G-Spot
 Treyning Day
@@ -451,134 +451,134 @@ PurdyMouth"
 Total,Derek VanRiper,Chili-nfl,"Derek VanRiper - Chili (nfl)
 
 #10 (2014, pick #5, 5-8, 0.17 PF_z, 57 zStrength, 102 PF+, 5.1 xRank, 0.05 xTitles, 0.04 xSackos)
-	-Discount Daaaaable Check",10.0,5.0,5.0,8.0,0.0,1165.0,1157.0,19.0,0.385,0.05,0.04,0.17,57.0,5.1,4.9,0.523,0.138,0.28,61.0,1141.7,15.3,102.0,101.0,1 (2014 - 2014),0.0,0.0,0.0,1.0,0.0,5.0,8.0,1165.0,1157.0,Discount Daaaaable Check
-2025,Daniel Bolanos,Chili-nfl,,1.0,9.0,8.0,6.0,0.0,1645.62,1575.74,8.0,0.571,0.08,0.03,0.41,66.0,5.5,-4.5,0.554,-0.017,-0.42,34.0,1612.3,-36.6,102.0,98.0,,1.0,1.0,1.0,0.0,,,,,,Ben Jong Un
-2025,Kyle McReynolds,Chili-nfl,,2.0,11.0,9.0,5.0,0.0,1579.64,1618.06,25.0,0.643,0.02,0.09,-0.47,32.0,7.7,-5.7,0.437,-0.206,0.0,50.0,1618.3,-0.2,98.0,100.0,,1.0,1.0,0.0,0.0,,,,,,Will Clapp Cheeks
-2025,Troy Kato,Chili-nfl,,3.0,2.0,9.0,5.0,0.0,1715.98,1541.74,19.0,0.643,0.26,0.01,1.34,91.0,3.2,-0.2,0.68,0.037,-0.73,23.0,1605.9,-64.2,106.0,96.0,,1.0,1.0,0.0,0.0,,,,,,Super Ja'Marrio Bros
-2025,Connor Reed,Chili-nfl,,4.0,7.0,10.0,4.0,0.0,1759.14,1608.26,31.0,0.714,0.45,0.01,1.92,97.0,1.8,2.3,0.757,0.042,0.07,53.0,1602.0,6.3,109.0,100.0,,1.0,0.0,0.0,0.0,,,,,,xavier I hardley know her
-2025,Scott Dreier,Chili-nfl,,5.0,12.0,8.0,6.0,0.0,1563.02,1478.64,13.0,0.571,0.01,0.11,-0.69,24.0,8.2,-3.2,0.407,-0.164,-1.61,5.0,1619.8,-141.2,97.0,91.0,,1.0,0.0,0.0,0.0,,,,,,Team Dreier
-2025,Erik Foster,Chili-nfl,,6.0,8.0,7.0,7.0,0.0,1670.48,1703.38,33.0,0.5,0.12,0.02,0.74,77.0,4.7,1.3,0.599,0.099,1.06,86.0,1610.0,93.4,103.0,106.0,,1.0,0.0,0.0,0.0,,,,,,Garbage Pass Kids
-2025,Russell Smith,Chili-nfl,,7.0,1.0,7.0,7.0,0.0,1623.0,1582.98,12.0,0.5,0.05,0.05,0.11,54.0,6.3,0.8,0.514,0.014,-0.36,36.0,1614.3,-31.3,101.0,98.0,,0.0,0.0,0.0,0.0,,,,,,Lim Jahey and Co.
-2025,Erik Bagley,Chili-nfl,,8.0,10.0,4.0,10.0,0.0,1535.54,1656.66,33.0,0.286,0.01,0.16,-1.06,14.0,9.2,-1.2,0.358,0.073,0.39,65.0,1622.3,34.4,95.0,102.0,,0.0,0.0,0.0,0.0,,,,,,Tittsburg Feelers
-2025,Bryan Jones,Chili-nfl,,9.0,6.0,6.0,8.0,0.0,1620.74,1734.16,24.0,0.429,0.05,0.05,0.08,53.0,6.3,2.7,0.51,0.082,1.36,91.0,1614.5,119.7,100.0,107.0,,0.0,0.0,0.0,0.0,,,,,,The Jackson 9
-2025,Scott Masik,Chili-nfl,,10.0,4.0,5.0,9.0,0.0,1501.68,1614.6,21.0,0.357,0.0,0.25,-1.51,7.0,10.3,-0.3,0.298,-0.059,-0.12,45.0,1625.4,-10.8,93.0,99.0,,0.0,0.0,0.0,0.0,,,,,,Chase'n Chili
-2025,Chris Bolanos,Chili-nfl,,11.0,5.0,4.0,10.0,0.0,1522.16,1782.8,8.0,0.286,0.01,0.2,-1.24,11.0,9.6,1.4,0.335,0.049,1.81,97.0,1623.5,159.3,94.0,110.0,,0.0,0.0,0.0,0.0,,,,,,PurdyMouth
-2025,Ben Lalor,Chili-nfl,,12.0,3.0,7.0,7.0,0.0,1643.72,1483.76,5.0,0.5,0.07,0.04,0.38,65.0,5.6,6.4,0.551,0.051,-1.47,7.0,1612.5,-128.7,102.0,92.0,,0.0,0.0,0.0,1.0,,,,,,Da Inconvenient Truth
-2024,Erik Bagley,Chili-nfl,,1.0,12.0,11.0,3.0,0.0,1720.04,1396.62,54.0,0.786,0.15,0.02,0.89,81.0,4.3,-3.3,0.62,-0.166,-2.12,2.0,1627.9,-231.3,105.0,86.0,,1.0,1.0,1.0,0.0,,,,,,Tittsburg Feelers
-2024,Kyle McReynolds,Chili-nfl,,2.0,4.0,8.0,6.0,0.0,1736.42,1641.38,20.0,0.571,0.18,0.02,1.07,86.0,3.9,-1.9,0.643,0.071,0.14,55.0,1626.4,15.0,106.0,101.0,,1.0,1.0,0.0,0.0,,,,,,Will Clapp Cheeks
-2024,Scott Masik,Chili-nfl,,3.0,6.0,9.0,5.0,0.0,1723.92,1494.92,26.0,0.643,0.15,0.02,0.94,83.0,4.2,-1.2,0.625,-0.018,-1.21,11.0,1627.6,-132.7,105.0,92.0,,1.0,1.0,0.0,0.0,,,,,,Chase'n Chili
-2024,Connor Reed,Chili-nfl,,4.0,7.0,10.0,4.0,0.0,1781.68,1584.42,32.0,0.714,0.32,0.01,1.55,94.0,2.7,1.3,0.707,-0.008,-0.35,36.0,1622.3,-37.9,109.0,98.0,,1.0,0.0,0.0,0.0,,,,,,our company is a family
-2024,Ben Lalor,Chili-nfl,,5.0,11.0,9.0,5.0,0.0,1643.08,1554.16,16.0,0.643,0.05,0.05,0.08,53.0,6.3,-1.3,0.511,-0.132,-0.74,23.0,1634.9,-80.7,101.0,95.0,,1.0,0.0,0.0,0.0,,,,,,Da Inconvenient Truth
-2024,Bryan Jones,Chili-nfl,,6.0,5.0,10.0,4.0,0.0,1661.88,1684.54,37.0,0.714,0.06,0.04,0.28,61.0,5.8,0.2,0.537,-0.177,0.47,68.0,1633.2,51.3,102.0,103.0,,1.0,0.0,0.0,0.0,,,,,,The Pittmaster
-2024,Chris Bolanos,Chili-nfl,,7.0,1.0,5.0,9.0,0.0,1602.16,1727.16,8.0,0.357,0.02,0.08,-0.35,36.0,7.4,-0.4,0.453,0.096,0.81,79.0,1638.6,88.6,98.0,105.0,,0.0,0.0,0.0,0.0,,,,,,PurdyMouth
-2024,Scott Dreier,Chili-nfl,,8.0,9.0,2.0,12.0,0.0,1446.14,1797.32,11.0,0.143,0.0,0.37,-2.01,2.0,11.5,-3.5,0.232,0.089,1.32,91.0,1652.8,144.5,88.0,109.0,,0.0,0.0,0.0,0.0,,,,,,Team Dreier
-2024,Erik Foster,Chili-nfl,,9.0,3.0,3.0,11.0,0.0,1600.28,1761.82,33.0,0.214,0.02,0.08,-0.37,35.0,7.4,1.6,0.45,0.236,1.13,87.0,1638.8,123.0,98.0,108.0,,0.0,0.0,0.0,0.0,,,,,,Garbage Pass Kids
-2024,Russell Smith,Chili-nfl,,10.0,2.0,5.0,9.0,0.0,1531.34,1684.74,9.0,0.357,0.01,0.17,-1.1,13.0,9.3,0.7,0.353,-0.005,0.36,64.0,1645.1,39.6,94.0,102.0,,0.0,0.0,0.0,0.0,,,,,,Lim Jahey
-2024,Troy Kato,Chili-nfl,,11.0,10.0,4.0,10.0,0.0,1532.44,1744.4,17.0,0.286,0.01,0.17,-1.09,14.0,9.2,1.8,0.354,0.068,0.91,82.0,1645.0,99.4,94.0,106.0,,0.0,0.0,0.0,0.0,,,,,,Show me the Carr Fax
-2024,Daniel Bolanos,Chili-nfl,,12.0,8.0,8.0,6.0,0.0,1647.8,1555.7,15.0,0.571,0.05,0.05,0.13,55.0,6.2,5.8,0.517,-0.054,-0.72,24.0,1634.5,-78.8,101.0,95.0,,0.0,0.0,0.0,1.0,,,,,,Than
-2023,Erik Foster,Chili-nfl,,1.0,10.0,10.0,4.0,0.0,1913.82,1564.72,26.0,0.714,0.55,0.0,2.16,98.0,1.1,-0.1,0.789,0.075,-0.27,39.0,1583.2,-18.5,119.0,99.0,,1.0,1.0,1.0,0.0,,,,,,Garbage Pass Kids
-2023,Daniel Bolanos,Chili-nfl,,2.0,5.0,9.0,5.0,0.0,1676.5,1492.12,9.0,0.643,0.08,0.03,0.47,68.0,5.4,-3.4,0.563,-0.08,-1.65,5.0,1604.8,-112.7,104.0,93.0,,1.0,1.0,0.0,0.0,,,,,,Than
-2023,Bryan Jones,Chili-nfl,,3.0,4.0,11.0,3.0,0.0,1762.14,1540.38,30.0,0.786,0.19,0.02,1.08,86.0,3.8,-0.8,0.645,-0.141,-0.83,20.0,1597.0,-56.6,109.0,97.0,,1.0,1.0,0.0,0.0,,,,,,Make It hurts
-2023,Troy Kato,Chili-nfl,,4.0,2.0,9.0,5.0,0.0,1677.64,1559.84,13.0,0.643,0.08,0.03,0.48,68.0,5.3,-1.3,0.564,-0.079,-0.66,26.0,1604.7,-44.9,104.0,97.0,,1.0,0.0,0.0,0.0,,,,,,Show me the Carr Fax
-2023,Scott Dreier,Chili-nfl,,5.0,7.0,7.0,7.0,0.0,1710.46,1664.58,10.0,0.5,0.12,0.02,0.71,76.0,4.8,0.3,0.595,0.095,0.92,82.0,1601.7,62.9,106.0,104.0,,1.0,0.0,0.0,0.0,,,,,,Team Dreier
-2023,Kyle McReynolds,Chili-nfl,,6.0,9.0,8.0,6.0,0.0,1570.56,1543.38,16.0,0.571,0.03,0.07,-0.29,39.0,7.2,-1.2,0.462,-0.11,-1.04,15.0,1614.4,-71.0,98.0,96.0,,1.0,0.0,0.0,0.0,,,,,,Will Clapp Cheeks
-2023,Erik Bagley,Chili-nfl,,7.0,8.0,5.0,9.0,0.0,1482.6,1597.48,33.0,0.357,0.01,0.14,-0.92,18.0,8.8,-1.8,0.378,0.021,-0.37,36.0,1622.4,-24.9,92.0,99.0,,0.0,0.0,0.0,0.0,,,,,,Tittsburg Feelers
-2023,Russell Smith,Chili-nfl,,8.0,3.0,7.0,7.0,0.0,1595.58,1639.88,10.0,0.5,0.04,0.06,-0.11,46.0,6.8,1.2,0.486,-0.015,0.41,66.0,1612.1,27.8,99.0,102.0,,0.0,0.0,0.0,0.0,,,,,,Lim Jahey
-2023,Connor Reed,Chili-nfl,,9.0,1.0,7.0,7.0,0.0,1491.82,1590.52,30.0,0.5,0.01,0.13,-0.85,20.0,8.6,0.4,0.387,-0.114,-0.46,32.0,1621.6,-31.1,93.0,98.0,,0.0,0.0,0.0,0.0,,,,,,skyrizi
-2023,Ben Lalor,Chili-nfl,,10.0,6.0,2.0,12.0,0.0,1367.38,1724.86,9.0,0.143,0.0,0.3,-1.74,4.0,10.8,-0.8,0.268,0.125,1.35,91.0,1632.9,92.0,85.0,106.0,,0.0,0.0,0.0,0.0,,,,,,Da Inconvenient Truth
-2023,Chris Bolanos,Chili-nfl,,11.0,12.0,3.0,11.0,0.0,1529.92,1738.16,8.0,0.214,0.02,0.1,-0.58,28.0,8.0,3.1,0.423,0.209,1.76,96.0,1618.1,120.1,95.0,107.0,,0.0,0.0,0.0,0.0,,,,,,PurdyMouth
-2023,Scott Masik,Chili-nfl,,12.0,11.0,6.0,8.0,0.0,1550.5,1673.0,14.0,0.429,0.02,0.09,-0.43,33.0,7.6,4.4,0.443,0.014,0.83,80.0,1616.2,56.8,96.0,104.0,,0.0,0.0,0.0,1.0,,,,,,Side Chili
-2022,Russell Smith,Chili-nfl,,1.0,6.0,9.0,5.0,0.0,1630.08,1415.66,11.0,0.643,0.27,0.01,1.41,92.0,3.0,-2.0,0.688,0.045,0.09,54.0,1410.0,5.7,114.0,100.0,,1.0,1.0,1.0,0.0,,,,,,Frig off Lahey
-2022,Scott Dreier,Chili-nfl,,2.0,12.0,9.0,5.0,0.0,1382.38,1308.46,18.0,0.643,0.03,0.08,-0.32,37.0,7.3,-5.3,0.457,-0.186,-2.01,2.0,1432.5,-124.0,97.0,91.0,,1.0,1.0,0.0,0.0,,,,,,Team Dreier
-2022,Erik Bagley,Chili-nfl,,3.0,5.0,10.0,4.0,0.0,1533.18,1445.48,27.0,0.714,0.12,0.02,0.73,77.0,4.7,-1.7,0.598,-0.117,0.43,67.0,1418.8,26.7,107.0,102.0,,1.0,1.0,0.0,0.0,,,,,,4th and Shlong
-2022,Connor Reed,Chili-nfl,,4.0,4.0,9.0,5.0,0.0,1575.52,1419.84,25.0,0.643,0.17,0.02,1.03,85.0,4.0,0.0,0.637,-0.006,0.08,53.0,1415.0,4.8,110.0,100.0,,1.0,0.0,0.0,0.0,,,,,,Microsoft Outlook
-2022,Kyle McReynolds,Chili-nfl,,5.0,1.0,7.0,7.0,0.0,1619.78,1487.28,21.0,0.5,0.25,0.01,1.33,91.0,3.2,1.8,0.678,0.178,1.24,89.0,1410.9,76.4,113.0,105.0,,1.0,0.0,0.0,0.0,,,,,,Will Clapp Cheeks
-2022,Bryan Jones,Chili-nfl,,6.0,3.0,7.0,7.0,0.0,1533.94,1517.2,49.0,0.5,0.12,0.02,0.74,77.0,4.7,1.3,0.598,0.098,1.6,94.0,1418.7,98.5,107.0,107.0,,1.0,0.0,0.0,0.0,,,,,,Make It hurts
-2022,Daniel Bolanos,Chili-nfl,,7.0,10.0,7.0,7.0,0.0,1410.12,1399.38,16.0,0.5,0.03,0.06,-0.13,45.0,6.8,0.2,0.483,-0.017,-0.5,31.0,1430.0,-30.6,99.0,98.0,,0.0,0.0,0.0,0.0,,,,,,Mr. Than
-2022,Erik Foster,Chili-nfl,,8.0,11.0,7.0,7.0,0.0,1395.86,1352.6,20.0,0.5,0.03,0.07,-0.23,41.0,7.1,0.9,0.47,-0.03,-1.28,10.0,1431.3,-78.7,98.0,95.0,,0.0,0.0,0.0,0.0,,,,,,Garbage Pass Kids
-2022,Ben Lalor,Chili-nfl,,9.0,9.0,6.0,8.0,0.0,1287.58,1468.7,18.0,0.429,0.01,0.15,-0.98,16.0,9.0,0.1,0.369,-0.06,0.45,67.0,1441.1,27.6,90.0,102.0,,0.0,0.0,0.0,0.0,,,,,,Da Inconvenient Truth
-2022,Scott Masik,Chili-nfl,,10.0,2.0,6.0,8.0,0.0,1333.3,1484.1,34.0,0.429,0.02,0.11,-0.66,25.0,8.2,1.8,0.412,-0.017,0.76,78.0,1437.0,47.1,93.0,103.0,,0.0,0.0,0.0,0.0,,,,,,Side Chili
-2022,Troy Kato,Chili-nfl,,11.0,8.0,3.0,11.0,0.0,1162.38,1390.96,23.0,0.214,0.0,0.33,-1.85,3.0,11.1,-0.1,0.252,0.038,-1.0,16.0,1452.5,-61.5,81.0,96.0,,0.0,0.0,0.0,0.0,,,,,,Show me the Carr Fax
-2022,Chris Bolanos,Chili-nfl,,12.0,7.0,4.0,10.0,0.0,1275.88,1450.34,16.0,0.286,0.01,0.17,-1.06,14.0,9.2,2.9,0.358,0.072,0.13,55.0,1442.2,8.1,89.0,101.0,,0.0,0.0,0.0,1.0,,,,,,Treyning Day
-2021,Erik Bagley,Chili-nfl,,1.0,7.0,8.0,6.0,0.0,1686.22,1555.76,,0.571,0.25,0.01,1.32,91.0,3.2,-2.2,0.677,0.105,1.32,91.0,1452.2,103.6,115.0,107.0,,1.0,1.0,1.0,0.0,,,,,,4th and Shlong
-2021,Scott Dreier,Chili-nfl,,2.0,2.0,10.0,4.0,0.0,1608.64,1434.76,,0.714,0.14,0.02,0.84,80.0,4.4,-2.4,0.613,-0.102,-0.31,38.0,1459.2,-24.4,109.0,98.0,,1.0,1.0,0.0,0.0,,,,,,Team Dreier
-2021,Troy Kato,Chili-nfl,,3.0,8.0,10.0,4.0,0.0,1538.34,1450.0,,0.714,0.08,0.03,0.41,66.0,5.5,-2.5,0.555,-0.159,-0.2,42.0,1465.6,-15.6,105.0,99.0,,1.0,1.0,0.0,0.0,,,,,,Finding Deebo
-2021,Ben Lalor,Chili-nfl,,4.0,3.0,12.0,2.0,0.0,1609.12,1277.8,,0.857,0.14,0.02,0.85,80.0,4.4,-0.4,0.613,-0.244,-2.31,1.0,1459.2,-181.4,109.0,88.0,,1.0,0.0,0.0,0.0,,,,,,Da Inconvenient Truth
-2021,Scott Masik,Chili-nfl,,5.0,12.0,8.0,6.0,0.0,1566.08,1423.84,,0.571,0.1,0.03,0.58,72.0,5.1,-0.1,0.578,0.006,-0.5,31.0,1463.1,-39.3,106.0,97.0,,1.0,0.0,0.0,0.0,,,,,,Bowl of Chili
-2021,Kyle McReynolds,Chili-nfl,,6.0,4.0,8.0,6.0,0.0,1595.6,1456.36,,0.571,0.12,0.02,0.76,78.0,4.6,1.4,0.602,0.031,-0.05,48.0,1460.4,-4.0,108.0,100.0,,1.0,0.0,0.0,0.0,,,,,,You are CHEEKS
-2021,Bryan Jones,Chili-nfl,,7.0,9.0,5.0,9.0,0.0,1480.94,1553.0,,0.357,0.05,0.05,0.06,52.0,6.4,0.6,0.508,0.151,1.05,85.0,1470.9,82.1,101.0,106.0,,0.0,0.0,0.0,0.0,,,,,,Stairway To Evans
-2021,Russell Smith,Chili-nfl,,8.0,10.0,4.0,10.0,0.0,1177.4,1469.5,,0.286,0.0,0.32,-1.81,3.0,11.0,-3.0,0.258,-0.028,-0.37,36.0,1498.4,-28.9,80.0,98.0,,0.0,0.0,0.0,0.0,,,,,,Frig off Lahey
-2021,Daniel Bolanos,Chili-nfl,,9.0,11.0,6.0,8.0,0.0,1441.98,1477.42,,0.429,0.03,0.07,-0.18,43.0,7.0,2.0,0.476,0.047,0.04,52.0,1474.4,3.0,98.0,100.0,,0.0,0.0,0.0,0.0,,,,,,The Glizzy Guzzlers
-2021,Nick Mannina,Chili-nfl,,10.0,1.0,1.0,13.0,0.0,1143.5,1587.84,,0.071,0.0,0.38,-2.02,2.0,11.5,-1.5,0.23,0.158,1.1,86.0,1501.5,86.3,78.0,106.0,,0.0,0.0,0.0,0.0,,,,,,Milk Wagons
-2021,Erik Foster,Chili-nfl,,11.0,5.0,5.0,9.0,0.0,1397.06,1408.14,,0.357,0.02,0.09,-0.46,32.0,7.7,3.3,0.439,0.081,-0.9,19.0,1478.5,-70.4,95.0,95.0,,0.0,0.0,0.0,0.0,,,,,,Garbage Pass Kids
-2021,Chris Bolanos,Chili-nfl,,12.0,6.0,7.0,7.0,0.0,1415.44,1565.9,,0.5,0.02,0.08,-0.35,36.0,7.4,4.6,0.454,-0.046,1.14,87.0,1476.8,89.1,96.0,106.0,,0.0,0.0,0.0,1.0,,,,,,Jimmy's G-Spot
-2020,Troy Kato,Chili-nfl,,1.0,10.0,9.0,4.0,0.0,1510.3,1373.1,,0.692,0.32,0.01,1.54,94.0,2.7,-1.7,0.706,0.013,0.31,62.0,1351.3,21.8,111.0,102.0,,1.0,1.0,1.0,0.0,,,,,,Finding Deebo
-2020,Chris Bolanos,Chili-nfl,,2.0,11.0,10.0,3.0,0.0,1448.42,1314.18,,0.769,0.14,0.02,0.89,81.0,4.3,-2.3,0.618,-0.151,-0.6,27.0,1356.9,-42.7,106.0,97.0,,1.0,1.0,0.0,0.0,,,,,,Jimmy's G-Spot
-2020,Russell Smith,Chili-nfl,,3.0,12.0,7.0,6.0,0.0,1396.78,1423.9,,0.538,0.07,0.04,0.34,63.0,5.7,-2.7,0.546,0.007,0.87,81.0,1361.6,62.3,102.0,105.0,,1.0,1.0,0.0,0.0,,,,,,Frig off Lahey
-2020,Kyle McReynolds,Chili-nfl,,4.0,6.0,8.0,5.0,0.0,1427.5,1272.98,,0.615,0.11,0.03,0.66,75.0,4.9,-0.9,0.589,-0.027,-1.2,11.0,1358.8,-85.8,105.0,94.0,,1.0,0.0,0.0,0.0,,,,,,Golden Taint
-2020,Nick Mannina,Chili-nfl,,5.0,4.0,8.0,5.0,0.0,1355.62,1336.12,,0.615,0.04,0.06,-0.09,46.0,6.8,-1.8,0.487,-0.128,-0.41,34.0,1365.3,-29.2,99.0,98.0,,1.0,0.0,0.0,0.0,,,,,,Milk Wagons
-2020,Scott Dreier,Chili-nfl,,6.0,5.0,8.0,5.0,0.0,1478.34,1431.78,,0.615,0.22,0.01,1.2,89.0,3.5,2.5,0.661,0.045,1.09,86.0,1354.2,77.6,108.0,106.0,,1.0,0.0,0.0,0.0,,,,,,Team Dreier
-2020,Bryan Jones,Chili-nfl,,7.0,8.0,4.0,9.0,0.0,1338.64,1432.06,,0.308,0.03,0.07,-0.27,39.0,7.2,-0.2,0.464,0.156,0.91,82.0,1366.9,65.2,98.0,105.0,,0.0,0.0,0.0,0.0,,,,,,Bryans Baby Boys
-2020,Ben Lalor,Chili-nfl,,8.0,1.0,4.0,9.0,0.0,1162.42,1319.4,,0.308,0.0,0.41,-2.13,2.0,11.8,-3.8,0.215,-0.093,-0.89,19.0,1382.9,-63.5,85.0,95.0,,0.0,0.0,0.0,0.0,,,,,,Da Inconvenient Truth
-2020,Erik Bagley,Chili-nfl,,9.0,2.0,6.0,7.0,0.0,1335.88,1281.08,,0.462,0.03,0.07,-0.3,38.0,7.3,1.7,0.46,-0.002,-1.21,11.0,1367.1,-86.0,98.0,94.0,,0.0,0.0,0.0,0.0,,,,,,4th and Shlong
-2020,Erik Foster,Chili-nfl,,10.0,9.0,3.0,10.0,0.0,1239.7,1484.1,,0.231,0.01,0.21,-1.32,9.0,9.8,0.2,0.324,0.093,1.52,94.0,1375.9,108.2,91.0,108.0,,0.0,0.0,0.0,0.0,,,,,,Garbage Pass Kids
-2020,Scott Masik,Chili-nfl,,11.0,3.0,4.0,9.0,0.0,1374.8,1429.94,,0.308,0.05,0.05,0.11,54.0,6.3,4.8,0.515,0.207,0.93,82.0,1363.6,66.3,101.0,105.0,,0.0,0.0,0.0,0.0,,,,,,Bowl of Chili
-2020,Daniel Bolanos,Chili-nfl,,12.0,7.0,7.0,6.0,0.0,1306.02,1275.78,,0.538,0.02,0.1,-0.62,27.0,8.1,4.0,0.417,-0.121,-1.32,9.0,1369.9,-94.1,96.0,93.0,,0.0,0.0,0.0,1.0,,,,,,Mashville Gator tails
-2019,Troy Kato,Chili-nfl,,1.0,1.0,8.0,5.0,0.0,1328.84,1206.88,,0.615,0.27,0.01,1.39,92.0,3.1,-2.1,0.686,0.071,0.39,65.0,1185.4,21.5,111.0,102.0,,1.0,1.0,1.0,0.0,,,,,,Finding Deebo
-2019,Bryan Jones,Chili-nfl,,2.0,3.0,11.0,2.0,0.0,1417.12,1167.24,,0.846,0.61,0.0,2.33,99.0,0.7,1.3,0.811,-0.035,-0.19,43.0,1177.3,-10.1,118.0,99.0,,1.0,1.0,0.0,0.0,,,,,,Show Me Your TDs
-2019,Nick Mannina,Chili-nfl,,3.0,12.0,8.0,5.0,0.0,1140.22,1141.68,,0.615,0.02,0.1,-0.6,27.0,8.0,-5.0,0.419,-0.196,-1.12,13.0,1202.5,-60.8,95.0,95.0,,1.0,1.0,0.0,0.0,,,,,,Team Mannina
-2019,Chris Bolanos,Chili-nfl,,4.0,4.0,9.0,4.0,0.0,1195.86,1103.4,,0.692,0.04,0.05,-0.02,49.0,6.6,-2.6,0.498,-0.194,-1.73,4.0,1197.5,-94.1,100.0,92.0,,1.0,0.0,0.0,0.0,,,,,,Jimmy's G-Spot
-2019,Daniel Bolanos,Chili-nfl,,5.0,8.0,7.0,6.0,0.0,1276.08,1217.84,,0.538,0.14,0.02,0.83,80.0,4.5,0.6,0.611,0.073,0.51,69.0,1190.2,27.6,107.0,102.0,,1.0,0.0,0.0,0.0,,,,,,Caboose Pistol
-2019,Erik Bagley,Chili-nfl,,6.0,11.0,8.0,5.0,0.0,1136.48,1127.28,,0.615,0.02,0.11,-0.64,26.0,8.1,-2.1,0.414,-0.201,-1.39,8.0,1202.9,-75.6,95.0,94.0,,1.0,0.0,0.0,0.0,,,,,,Can You Diggs It
-2019,Kyle McReynolds,Chili-nfl,,7.0,6.0,4.0,9.0,0.0,1174.02,1228.44,,0.308,0.03,0.07,-0.25,40.0,7.1,-0.1,0.467,0.159,0.53,70.0,1199.4,29.0,98.0,102.0,,0.0,0.0,0.0,0.0,,,,,,Golden Taint
-2019,Scott Masik,Chili-nfl,,8.0,2.0,4.0,9.0,0.0,1109.94,1187.98,,0.308,0.01,0.14,-0.92,18.0,8.8,-0.8,0.376,0.069,-0.32,38.0,1205.3,-17.3,93.0,99.0,,0.0,0.0,0.0,0.0,,,,,,The comeback Kid
-2019,Ben Lalor,Chili-nfl,,9.0,10.0,4.0,9.0,0.0,1120.02,1312.12,,0.308,0.01,0.13,-0.82,21.0,8.6,0.5,0.391,0.083,1.98,98.0,1204.4,107.7,94.0,109.0,,0.0,0.0,0.0,0.0,,,,,,Da Inconvenient Truth
-2019,Erik Foster,Chili-nfl,,10.0,9.0,5.0,8.0,0.0,1235.22,1210.82,,0.385,0.07,0.03,0.4,66.0,5.5,4.5,0.554,0.169,0.31,62.0,1193.9,16.9,103.0,101.0,,0.0,0.0,0.0,0.0,,,,,,40 Million Dollar Baby
-2019,Scott Dreier,Chili-nfl,,11.0,5.0,5.0,8.0,0.0,1117.6,1259.86,,0.385,0.01,0.13,-0.84,20.0,8.6,2.4,0.387,0.003,1.01,84.0,1204.6,55.3,93.0,105.0,,0.0,0.0,0.0,0.0,,,,,,Team Dreier
-2019,Russell Smith,Chili-nfl,,12.0,7.0,5.0,8.0,0.0,1116.5,1204.36,,0.385,0.01,0.13,-0.86,20.0,8.6,3.4,0.386,0.001,-0.01,50.0,1204.7,-0.3,93.0,100.0,,0.0,0.0,0.0,1.0,,,,,,Frig off Lahey
-2018,Scott Masik,Chili-nfl,,1.0,8.0,10.0,3.0,0.0,1396.28,1231.88,23.0,0.769,0.29,0.01,1.47,93.0,2.9,-1.9,0.696,-0.073,0.12,55.0,1223.1,8.8,113.0,101.0,,1.0,1.0,1.0,0.0,,,,,,Keenan and KEL...ce
-2018,Erik Bagley,Chili-nfl,,2.0,11.0,8.0,5.0,0.0,1280.96,1278.46,35.0,0.615,0.07,0.03,0.4,66.0,5.5,-3.5,0.554,-0.062,0.63,74.0,1233.5,45.0,104.0,104.0,,1.0,1.0,0.0,0.0,,,,,,Lynch Mob
-2018,Bryan Jones,Chili-nfl,,3.0,7.0,8.0,5.0,0.0,1178.38,1128.9,42.0,0.615,0.02,0.1,-0.55,29.0,7.9,-4.9,0.427,-0.189,-1.6,5.0,1242.9,-114.0,95.0,91.0,,1.0,1.0,0.0,0.0,,,,,,Broke Back Brady
-2018,Erik Foster,Chili-nfl,,4.0,6.0,10.0,3.0,0.0,1383.9,1288.04,36.0,0.769,0.26,0.01,1.36,91.0,3.2,0.9,0.681,-0.088,0.9,82.0,1224.2,63.8,112.0,105.0,,1.0,0.0,0.0,0.0,,,,,,Lights Kamara Miller Time!
-2018,Troy Kato,Chili-nfl,,5.0,4.0,6.0,7.0,0.0,1188.04,1103.7,11.0,0.462,0.02,0.09,-0.46,32.0,7.7,-2.7,0.439,-0.023,-1.94,3.0,1242.0,-138.3,96.0,89.0,,1.0,0.0,0.0,0.0,,,,,,HalfChubb FullWood
-2018,Ben Lalor,Chili-nfl,,6.0,9.0,7.0,6.0,0.0,1219.32,1208.34,15.0,0.538,0.03,0.06,-0.17,43.0,6.9,-0.9,0.478,-0.061,-0.43,33.0,1239.1,-30.8,99.0,98.0,,1.0,0.0,0.0,0.0,,,,,,Da Inconvenient Truth
-2018,Scott Dreier,Chili-nfl,,7.0,10.0,7.0,6.0,0.0,1259.2,1156.4,12.0,0.538,0.06,0.04,0.2,58.0,6.0,1.0,0.527,-0.012,-1.11,13.0,1235.5,-79.1,102.0,94.0,,0.0,0.0,0.0,0.0,,,,,,Team Dreier
-2018,Chris Bolanos,Chili-nfl,,8.0,1.0,5.0,8.0,0.0,1277.14,1264.66,3.0,0.385,0.07,0.04,0.37,64.0,5.6,2.4,0.549,0.164,0.43,67.0,1233.9,30.8,103.0,103.0,,0.0,0.0,0.0,0.0,,,,,,Jimmy's G-Spot
-2018,Daniel Bolanos,Chili-nfl,,9.0,3.0,6.0,7.0,0.0,1329.72,1248.82,11.0,0.462,0.14,0.02,0.85,80.0,4.4,4.6,0.614,0.153,0.28,61.0,1229.1,19.7,108.0,102.0,,0.0,0.0,0.0,0.0,,,,,,Mister Than
-2018,Nick Mannina,Chili-nfl,,10.0,5.0,4.0,9.0,0.0,1190.74,1306.68,7.0,0.308,0.02,0.09,-0.43,33.0,7.6,2.4,0.442,0.135,0.91,82.0,1241.7,65.0,96.0,105.0,,0.0,0.0,0.0,0.0,,,,,,Team Mannina
-2018,Russell Smith,Chili-nfl,,11.0,12.0,1.0,12.0,0.0,976.76,1299.84,4.0,0.077,0.0,0.49,-2.41,1.0,12.5,-1.5,0.177,0.101,0.54,71.0,1261.2,38.6,79.0,103.0,,0.0,0.0,0.0,0.0,,,,,,Frig off Lahey
-2018,Kyle McReynolds,Chili-nfl,,12.0,2.0,6.0,7.0,0.0,1169.44,1334.16,12.0,0.462,0.02,0.11,-0.63,26.0,8.1,3.9,0.416,-0.046,1.27,90.0,1243.7,90.5,95.0,107.0,,0.0,0.0,0.0,1.0,,,,,,Golden Taint
-2017,Erik Foster,Chili-nfl,,1.0,8.0,10.0,3.0,0.0,1204.52,1000.64,58.0,0.769,0.13,0.02,0.79,79.0,4.6,-3.6,0.606,-0.163,-1.9,3.0,1127.0,-126.4,106.0,89.0,,1.0,1.0,1.0,0.0,,,,,,Dude Where's My Carr?
-2017,Russell Smith,Chili-nfl,,2.0,2.0,8.0,5.0,0.0,1144.38,1146.36,27.0,0.615,0.05,0.05,0.12,55.0,6.2,-4.2,0.516,-0.099,0.21,58.0,1132.5,13.9,101.0,101.0,,1.0,1.0,0.0,0.0,,,,,,Frig off Lahey
-2017,Nick Mannina,Chili-nfl,,3.0,11.0,9.0,4.0,0.0,1273.34,1118.16,10.0,0.692,0.32,0.01,1.56,94.0,2.6,0.4,0.708,0.016,-0.04,48.0,1120.8,-2.6,112.0,100.0,,1.0,1.0,0.0,0.0,,,,,,Team Mannina
-2017,Daniel Bolanos,Chili-nfl,,4.0,5.0,7.0,6.0,0.0,1276.16,1097.28,16.0,0.538,0.33,0.01,1.59,94.0,2.6,1.4,0.713,0.174,-0.35,36.0,1120.5,-23.2,113.0,98.0,,1.0,0.0,0.0,0.0,,,,,,Mister Than
-2017,Ben Lalor,Chili-nfl,,5.0,9.0,6.0,7.0,0.0,1075.76,1116.92,12.0,0.462,0.02,0.11,-0.64,26.0,8.1,-3.1,0.414,-0.048,-0.33,37.0,1138.7,-21.8,95.0,98.0,,1.0,0.0,0.0,0.0,,,,,,Da Inconvenient Truth
-2017,Chris Bolanos,Chili-nfl,,6.0,10.0,7.0,6.0,0.0,1154.88,1127.04,9.0,0.538,0.06,0.04,0.24,59.0,5.9,0.1,0.532,-0.007,-0.07,47.0,1131.5,-4.5,102.0,100.0,,1.0,0.0,0.0,0.0,,,,,,Barry McCockinner
-2017,Scott Masik,Chili-nfl,,7.0,7.0,5.0,8.0,0.0,1137.26,1141.02,23.0,0.385,0.04,0.05,0.04,52.0,6.4,0.6,0.506,0.121,0.12,55.0,1133.1,7.9,100.0,101.0,,0.0,0.0,0.0,0.0,,,,,,Cant HYDE your Chili
-2017,Troy Kato,Chili-nfl,,8.0,4.0,7.0,6.0,0.0,1014.08,1021.0,13.0,0.538,0.01,0.21,-1.33,9.0,9.8,-1.8,0.322,-0.216,-1.85,3.0,1144.3,-123.3,90.0,89.0,,0.0,0.0,0.0,0.0,,,,,,Blooper Cooper
-2017,Erik Bagley,Chili-nfl,,9.0,12.0,6.0,7.0,0.0,1175.62,1199.7,30.0,0.462,0.08,0.03,0.47,68.0,5.4,3.7,0.563,0.101,1.05,85.0,1129.7,70.0,104.0,106.0,,0.0,0.0,0.0,0.0,,,,,,Cookin that Chili
-2017,Scott Dreier,Chili-nfl,,10.0,1.0,4.0,9.0,0.0,1026.2,1241.84,18.0,0.308,0.01,0.19,-1.2,12.0,9.5,0.5,0.34,0.032,1.48,93.0,1143.2,98.6,91.0,109.0,,0.0,0.0,0.0,0.0,,,,,,Team Dreier
-2017,Bryan Jones,Chili-nfl,,11.0,3.0,5.0,8.0,0.0,1128.06,1191.22,49.0,0.385,0.04,0.06,-0.06,48.0,6.7,4.3,0.492,0.107,0.86,80.0,1134.0,57.2,100.0,105.0,,0.0,0.0,0.0,0.0,,,,,,Broke Back Brady Mountain
-2017,Kyle McReynolds,Chili-nfl,,12.0,6.0,4.0,9.0,0.0,991.52,1200.6,2.0,0.308,0.0,0.27,-1.58,6.0,10.4,1.6,0.289,-0.019,0.81,79.0,1146.4,54.2,88.0,105.0,,0.0,0.0,0.0,1.0,,,,,,Golden Taint
-2016,Daniel Bolanos,Chili-nfl,,1.0,2.0,7.0,5.0,1.0,1194.0,1142.0,34.0,0.577,0.1,0.03,0.58,72.0,5.1,-4.1,0.577,0.0,0.04,52.0,1139.6,2.4,104.0,100.0,,1.0,1.0,1.0,0.0,,,,,,Mister Than
-2016,Erik Bagley,Chili-nfl,,2.0,5.0,8.0,5.0,0.0,1160.0,1093.0,46.0,0.615,0.05,0.04,0.18,57.0,6.1,-4.1,0.524,-0.091,-0.92,18.0,1142.7,-49.7,101.0,96.0,,1.0,1.0,0.0,0.0,,,,,,AP died On Me
-2016,Nick Mannina,Chili-nfl,,3.0,7.0,10.0,3.0,0.0,1232.0,1095.0,12.0,0.769,0.17,0.02,1.01,84.0,4.0,-1.0,0.636,-0.134,-0.77,22.0,1136.2,-41.2,108.0,96.0,,1.0,1.0,0.0,0.0,,,,,,Team Mannina
-2016,Scott Dreier,Chili-nfl,,4.0,4.0,9.0,4.0,0.0,1264.0,1106.0,23.0,0.692,0.27,0.01,1.38,92.0,3.1,0.9,0.685,-0.007,-0.51,31.0,1133.3,-27.3,111.0,98.0,,1.0,0.0,0.0,0.0,,,,,,Team Dreier
-2016,Jake Duncan,Chili-nfl,,5.0,1.0,7.0,6.0,0.0,1243.0,1127.0,19.0,0.538,0.2,0.01,1.14,87.0,3.7,1.3,0.653,0.114,-0.15,44.0,1135.2,-8.2,109.0,99.0,,1.0,0.0,0.0,0.0,,,,,,Team Duncan
-2016,Erik Foster,Chili-nfl,,6.0,11.0,6.0,7.0,0.0,1165.0,1145.0,57.0,0.462,0.06,0.04,0.24,60.0,5.9,0.1,0.532,0.071,0.05,52.0,1142.3,2.7,102.0,100.0,,1.0,0.0,0.0,0.0,,,,,,Dude Where's My Carr?
-2016,Chris Bolanos,Chili-nfl,,7.0,12.0,6.0,7.0,0.0,1057.0,1075.0,10.0,0.462,0.01,0.16,-1.01,16.0,9.0,-2.0,0.365,-0.096,-1.43,8.0,1152.1,-77.1,92.0,93.0,,0.0,0.0,0.0,0.0,,,,,,Chip Kellys Doo Doo Butter
-2016,Ben Lalor,Chili-nfl,,8.0,3.0,6.0,7.0,0.0,1215.0,1276.0,18.0,0.462,0.13,0.02,0.82,79.0,4.5,3.5,0.609,0.148,2.57,99.0,1137.7,138.3,106.0,112.0,,0.0,0.0,0.0,0.0,,,,,,Da Inconvenient Truth
-2016,Bryan Jones,Chili-nfl,,9.0,10.0,6.0,7.0,0.0,1091.0,1174.0,25.0,0.462,0.02,0.1,-0.61,27.0,8.0,1.0,0.418,-0.044,0.47,68.0,1149.0,25.0,95.0,102.0,,0.0,0.0,0.0,0.0,,,,,,Pepperoni Nipples
-2016,Troy Kato,Chili-nfl,,10.0,9.0,3.0,8.0,2.0,1022.0,1203.0,5.0,0.308,0.01,0.23,-1.41,8.0,10.0,0.0,0.311,0.004,0.89,81.0,1155.3,47.7,89.0,104.0,,0.0,0.0,0.0,0.0,,,,,,Team Kato
-2016,Russell Smith,Chili-nfl,,11.0,6.0,5.0,8.0,0.0,1090.0,1172.0,9.0,0.385,0.02,0.11,-0.63,27.0,8.1,2.9,0.416,0.032,0.43,66.0,1149.1,22.9,95.0,102.0,,0.0,0.0,0.0,0.0,,,,,,Frig off Lahey
-2016,Kyle McReynolds,Chili-nfl,,12.0,8.0,3.0,9.0,1.0,997.0,1122.0,10.0,0.269,0.0,0.29,-1.7,4.0,10.7,1.3,0.273,0.004,-0.66,25.0,1157.5,-35.5,87.0,97.0,,0.0,0.0,0.0,1.0,,,,,,Golden Taint
-2014,Erik Bagley,Chili-nfl,,1.0,6.0,7.0,6.0,0.0,1180.0,1160.0,26.0,0.538,0.06,0.04,0.29,62.0,4.8,-3.8,0.539,0.001,0.36,64.0,1140.0,20.0,103.0,102.0,,1.0,1.0,1.0,0.0,,,,,,Huge Taters
-2014,Aaron Ogden,Chili-nfl,,2.0,9.0,9.0,3.0,1.0,1355.0,1158.0,22.0,0.731,0.38,0.01,1.73,96.0,1.9,0.1,0.731,0.0,0.68,75.0,1120.6,37.4,118.0,103.0,,1.0,1.0,0.0,0.0,,,,,,Donald Eerlings
-2014,Scott Dreier,Chili-nfl,,3.0,10.0,7.0,6.0,0.0,1285.0,1219.0,13.0,0.538,0.2,0.01,1.15,88.0,3.0,0.0,0.654,0.116,1.64,95.0,1128.3,90.7,112.0,108.0,,1.0,1.0,0.0,0.0,,,,,,Team Dreier
-2014,Erik Foster,Chili-nfl,,4.0,2.0,10.0,3.0,0.0,1211.0,1093.0,53.0,0.769,0.09,0.03,0.55,71.0,4.3,-0.3,0.573,-0.196,-0.79,22.0,1136.6,-43.6,106.0,96.0,,1.0,0.0,0.0,0.0,,,,,,Hankey Sankey
-2014,Gio Bustichi,Chili-nfl,,5.0,4.0,7.0,6.0,0.0,1084.0,1082.0,23.0,0.538,0.02,0.09,-0.49,31.0,6.4,-1.4,0.434,-0.104,-1.24,11.0,1150.7,-68.7,95.0,94.0,,1.0,0.0,0.0,0.0,,,,,,Team Bustichi
-2014,Ben Lalor,Chili-nfl,,6.0,3.0,5.0,7.0,1.0,1173.0,1146.0,9.0,0.423,0.06,0.04,0.24,59.0,4.9,1.1,0.532,0.109,0.09,54.0,1140.8,5.2,103.0,101.0,,1.0,0.0,0.0,0.0,,,,,,Da Inconvenient Truth
-2014,Kyle McReynolds,Chili-nfl,,7.0,8.0,6.0,6.0,1.0,1057.0,1044.0,10.0,0.5,0.01,0.12,-0.71,24.0,6.9,0.1,0.405,-0.095,-1.98,2.0,1153.7,-109.7,92.0,91.0,,0.0,0.0,0.0,0.0,,,,,,Golden Taint
-2014,Troy Kato,Chili-nfl,,8.0,7.0,3.0,9.0,1.0,928.0,1183.0,5.0,0.269,0.0,0.31,-1.77,4.0,9.1,-1.1,0.264,-0.006,0.27,61.0,1168.0,15.0,81.0,101.0,,0.0,0.0,0.0,0.0,,,,,,Team Kato
-2014,Nick Mannina,Chili-nfl,,9.0,1.0,4.0,9.0,0.0,1002.0,1198.0,13.0,0.308,0.01,0.18,-1.16,12.0,7.8,1.2,0.345,0.037,0.69,76.0,1159.8,38.2,88.0,103.0,,0.0,0.0,0.0,0.0,,,,,,Team Mannina
-2014,Derek VanRiper,Chili-nfl,,10.0,5.0,5.0,8.0,0.0,1165.0,1157.0,19.0,0.385,0.05,0.04,0.17,57.0,5.1,4.9,0.523,0.138,0.28,61.0,1141.7,15.3,102.0,101.0,,0.0,0.0,0.0,1.0,,,,,,Discount Daaaaable Check
+	-Discount Daaaaable Check",10.0,5.0,5.0,8.0,0.0,1165.0,1157.0,19.0,0.385,0.05,0.04,0.17,57.0,5.1,4.9,0.523,0.138,0.28,61.0,1141.7,15.3,,,102.0,101.0,1 (2014 - 2014),0.0,0.0,0.0,1.0,0.0,5.0,8.0,1165.0,1157.0,Discount Daaaaable Check
+2025,Daniel Bolanos,Chili-nfl,,1.0,9.0,8.0,6.0,0.0,1645.62,1575.74,8.0,0.571,0.08,0.03,0.41,66.0,5.5,-4.5,0.554,-0.017,-0.42,34.0,1612.3,-36.6,-0.47,32.0,102.0,98.0,,1.0,1.0,1.0,0.0,,,,,,Ben Jong Un
+2025,Kyle McReynolds,Chili-nfl,,2.0,11.0,9.0,5.0,0.0,1579.64,1618.06,25.0,0.643,0.02,0.09,-0.47,32.0,7.7,-5.7,0.437,-0.206,0.0,50.0,1618.3,-0.2,-0.88,19.0,98.0,100.0,,1.0,1.0,0.0,0.0,,,,,,Will Clapp Cheeks
+2025,Troy Kato,Chili-nfl,,3.0,2.0,9.0,5.0,0.0,1715.98,1541.74,19.0,0.643,0.26,0.01,1.34,91.0,3.2,-0.2,0.68,0.037,-0.73,23.0,1605.9,-64.2,1.47,93.0,106.0,96.0,,1.0,1.0,0.0,0.0,,,,,,Super Ja'Marrio Bros
+2025,Connor Reed,Chili-nfl,,4.0,7.0,10.0,4.0,0.0,1759.14,1608.26,31.0,0.714,0.45,0.01,1.92,97.0,1.8,2.3,0.757,0.042,0.07,53.0,1602.0,6.3,0.78,78.0,109.0,100.0,,1.0,0.0,0.0,0.0,,,,,,xavier I hardley know her
+2025,Scott Dreier,Chili-nfl,,5.0,12.0,8.0,6.0,0.0,1563.02,1478.64,13.0,0.571,0.01,0.11,-0.69,24.0,8.2,-3.2,0.407,-0.164,-1.61,5.0,1619.8,-141.2,-0.85,20.0,97.0,91.0,,1.0,0.0,0.0,0.0,,,,,,Team Dreier
+2025,Erik Foster,Chili-nfl,,6.0,8.0,7.0,7.0,0.0,1670.48,1703.38,33.0,0.5,0.12,0.02,0.74,77.0,4.7,1.3,0.599,0.099,1.06,86.0,1610.0,93.4,-1.62,5.0,103.0,106.0,,1.0,0.0,0.0,0.0,,,,,,Garbage Pass Kids
+2025,Russell Smith,Chili-nfl,,7.0,1.0,7.0,7.0,0.0,1623.0,1582.98,12.0,0.5,0.05,0.05,0.11,54.0,6.3,0.8,0.514,0.014,-0.36,36.0,1614.3,-31.3,0.82,79.0,101.0,98.0,,0.0,0.0,0.0,0.0,,,,,,Lim Jahey and Co.
+2025,Erik Bagley,Chili-nfl,,8.0,10.0,4.0,10.0,0.0,1535.54,1656.66,33.0,0.286,0.01,0.16,-1.06,14.0,9.2,-1.2,0.358,0.073,0.39,65.0,1622.3,34.4,-0.47,32.0,95.0,102.0,,0.0,0.0,0.0,0.0,,,,,,Tittsburg Feelers
+2025,Bryan Jones,Chili-nfl,,9.0,6.0,6.0,8.0,0.0,1620.74,1734.16,24.0,0.429,0.05,0.05,0.08,53.0,6.3,2.7,0.51,0.082,1.36,91.0,1614.5,119.7,0.42,66.0,100.0,107.0,,0.0,0.0,0.0,0.0,,,,,,The Jackson 9
+2025,Scott Masik,Chili-nfl,,10.0,4.0,5.0,9.0,0.0,1501.68,1614.6,21.0,0.357,0.0,0.25,-1.51,7.0,10.3,-0.3,0.298,-0.059,-0.12,45.0,1625.4,-10.8,-1.28,10.0,93.0,99.0,,0.0,0.0,0.0,0.0,,,,,,Chase'n Chili
+2025,Chris Bolanos,Chili-nfl,,11.0,5.0,4.0,10.0,0.0,1522.16,1782.8,8.0,0.286,0.01,0.2,-1.24,11.0,9.6,1.4,0.335,0.049,1.81,97.0,1623.5,159.3,1.07,86.0,94.0,110.0,,0.0,0.0,0.0,0.0,,,,,,PurdyMouth
+2025,Ben Lalor,Chili-nfl,,12.0,3.0,7.0,7.0,0.0,1643.72,1483.76,5.0,0.5,0.07,0.04,0.38,65.0,5.6,6.4,0.551,0.051,-1.47,7.0,1612.5,-128.7,1.0,84.0,102.0,92.0,,0.0,0.0,0.0,1.0,,,,,,Da Inconvenient Truth
+2024,Erik Bagley,Chili-nfl,,1.0,12.0,11.0,3.0,0.0,1720.04,1396.62,54.0,0.786,0.15,0.02,0.89,81.0,4.3,-3.3,0.62,-0.166,-2.12,2.0,1627.9,-231.3,-0.22,41.0,105.0,86.0,,1.0,1.0,1.0,0.0,,,,,,Tittsburg Feelers
+2024,Kyle McReynolds,Chili-nfl,,2.0,4.0,8.0,6.0,0.0,1736.42,1641.38,20.0,0.571,0.18,0.02,1.07,86.0,3.9,-1.9,0.643,0.071,0.14,55.0,1626.4,15.0,1.61,95.0,106.0,101.0,,1.0,1.0,0.0,0.0,,,,,,Will Clapp Cheeks
+2024,Scott Masik,Chili-nfl,,3.0,6.0,9.0,5.0,0.0,1723.92,1494.92,26.0,0.643,0.15,0.02,0.94,83.0,4.2,-1.2,0.625,-0.018,-1.21,11.0,1627.6,-132.7,-0.35,36.0,105.0,92.0,,1.0,1.0,0.0,0.0,,,,,,Chase'n Chili
+2024,Connor Reed,Chili-nfl,,4.0,7.0,10.0,4.0,0.0,1781.68,1584.42,32.0,0.714,0.32,0.01,1.55,94.0,2.7,1.3,0.707,-0.008,-0.35,36.0,1622.3,-37.9,1.08,86.0,109.0,98.0,,1.0,0.0,0.0,0.0,,,,,,our company is a family
+2024,Ben Lalor,Chili-nfl,,5.0,11.0,9.0,5.0,0.0,1643.08,1554.16,16.0,0.643,0.05,0.05,0.08,53.0,6.3,-1.3,0.511,-0.132,-0.74,23.0,1634.9,-80.7,-0.46,32.0,101.0,95.0,,1.0,0.0,0.0,0.0,,,,,,Da Inconvenient Truth
+2024,Bryan Jones,Chili-nfl,,6.0,5.0,10.0,4.0,0.0,1661.88,1684.54,37.0,0.714,0.06,0.04,0.28,61.0,5.8,0.2,0.537,-0.177,0.47,68.0,1633.2,51.3,-1.0,16.0,102.0,103.0,,1.0,0.0,0.0,0.0,,,,,,The Pittmaster
+2024,Chris Bolanos,Chili-nfl,,7.0,1.0,5.0,9.0,0.0,1602.16,1727.16,8.0,0.357,0.02,0.08,-0.35,36.0,7.4,-0.4,0.453,0.096,0.81,79.0,1638.6,88.6,1.98,98.0,98.0,105.0,,0.0,0.0,0.0,0.0,,,,,,PurdyMouth
+2024,Scott Dreier,Chili-nfl,,8.0,9.0,2.0,12.0,0.0,1446.14,1797.32,11.0,0.143,0.0,0.37,-2.01,2.0,11.5,-3.5,0.232,0.089,1.32,91.0,1652.8,144.5,0.37,64.0,88.0,109.0,,0.0,0.0,0.0,0.0,,,,,,Team Dreier
+2024,Erik Foster,Chili-nfl,,9.0,3.0,3.0,11.0,0.0,1600.28,1761.82,33.0,0.214,0.02,0.08,-0.37,35.0,7.4,1.6,0.45,0.236,1.13,87.0,1638.8,123.0,-0.59,28.0,98.0,108.0,,0.0,0.0,0.0,0.0,,,,,,Garbage Pass Kids
+2024,Russell Smith,Chili-nfl,,10.0,2.0,5.0,9.0,0.0,1531.34,1684.74,9.0,0.357,0.01,0.17,-1.1,13.0,9.3,0.7,0.353,-0.005,0.36,64.0,1645.1,39.6,-0.35,36.0,94.0,102.0,,0.0,0.0,0.0,0.0,,,,,,Lim Jahey
+2024,Troy Kato,Chili-nfl,,11.0,10.0,4.0,10.0,0.0,1532.44,1744.4,17.0,0.286,0.01,0.17,-1.09,14.0,9.2,1.8,0.354,0.068,0.91,82.0,1645.0,99.4,-0.7,24.0,94.0,106.0,,0.0,0.0,0.0,0.0,,,,,,Show me the Carr Fax
+2024,Daniel Bolanos,Chili-nfl,,12.0,8.0,8.0,6.0,0.0,1647.8,1555.7,15.0,0.571,0.05,0.05,0.13,55.0,6.2,5.8,0.517,-0.054,-0.72,24.0,1634.5,-78.8,-1.37,9.0,101.0,95.0,,0.0,0.0,0.0,1.0,,,,,,Than
+2023,Erik Foster,Chili-nfl,,1.0,10.0,10.0,4.0,0.0,1913.82,1564.72,26.0,0.714,0.55,0.0,2.16,98.0,1.1,-0.1,0.789,0.075,-0.27,39.0,1583.2,-18.5,-0.11,46.0,119.0,99.0,,1.0,1.0,1.0,0.0,,,,,,Garbage Pass Kids
+2023,Daniel Bolanos,Chili-nfl,,2.0,5.0,9.0,5.0,0.0,1676.5,1492.12,9.0,0.643,0.08,0.03,0.47,68.0,5.4,-3.4,0.563,-0.08,-1.65,5.0,1604.8,-112.7,1.35,91.0,104.0,93.0,,1.0,1.0,0.0,0.0,,,,,,Than
+2023,Bryan Jones,Chili-nfl,,3.0,4.0,11.0,3.0,0.0,1762.14,1540.38,30.0,0.786,0.19,0.02,1.08,86.0,3.8,-0.8,0.645,-0.141,-0.83,20.0,1597.0,-56.6,1.31,90.0,109.0,97.0,,1.0,1.0,0.0,0.0,,,,,,Make It hurts
+2023,Troy Kato,Chili-nfl,,4.0,2.0,9.0,5.0,0.0,1677.64,1559.84,13.0,0.643,0.08,0.03,0.48,68.0,5.3,-1.3,0.564,-0.079,-0.66,26.0,1604.7,-44.9,-0.05,48.0,104.0,97.0,,1.0,0.0,0.0,0.0,,,,,,Show me the Carr Fax
+2023,Scott Dreier,Chili-nfl,,5.0,7.0,7.0,7.0,0.0,1710.46,1664.58,10.0,0.5,0.12,0.02,0.71,76.0,4.8,0.3,0.595,0.095,0.92,82.0,1601.7,62.9,1.36,91.0,106.0,104.0,,1.0,0.0,0.0,0.0,,,,,,Team Dreier
+2023,Kyle McReynolds,Chili-nfl,,6.0,9.0,8.0,6.0,0.0,1570.56,1543.38,16.0,0.571,0.03,0.07,-0.29,39.0,7.2,-1.2,0.462,-0.11,-1.04,15.0,1614.4,-71.0,-1.82,3.0,98.0,96.0,,1.0,0.0,0.0,0.0,,,,,,Will Clapp Cheeks
+2023,Erik Bagley,Chili-nfl,,7.0,8.0,5.0,9.0,0.0,1482.6,1597.48,33.0,0.357,0.01,0.14,-0.92,18.0,8.8,-1.8,0.378,0.021,-0.37,36.0,1622.4,-24.9,0.99,84.0,92.0,99.0,,0.0,0.0,0.0,0.0,,,,,,Tittsburg Feelers
+2023,Russell Smith,Chili-nfl,,8.0,3.0,7.0,7.0,0.0,1595.58,1639.88,10.0,0.5,0.04,0.06,-0.11,46.0,6.8,1.2,0.486,-0.015,0.41,66.0,1612.1,27.8,-0.48,32.0,99.0,102.0,,0.0,0.0,0.0,0.0,,,,,,Lim Jahey
+2023,Connor Reed,Chili-nfl,,9.0,1.0,7.0,7.0,0.0,1491.82,1590.52,30.0,0.5,0.01,0.13,-0.85,20.0,8.6,0.4,0.387,-0.114,-0.46,32.0,1621.6,-31.1,-0.58,28.0,93.0,98.0,,0.0,0.0,0.0,0.0,,,,,,skyrizi
+2023,Ben Lalor,Chili-nfl,,10.0,6.0,2.0,12.0,0.0,1367.38,1724.86,9.0,0.143,0.0,0.3,-1.74,4.0,10.8,-0.8,0.268,0.125,1.35,91.0,1632.9,92.0,-1.14,13.0,85.0,106.0,,0.0,0.0,0.0,0.0,,,,,,Da Inconvenient Truth
+2023,Chris Bolanos,Chili-nfl,,11.0,12.0,3.0,11.0,0.0,1529.92,1738.16,8.0,0.214,0.02,0.1,-0.58,28.0,8.0,3.1,0.423,0.209,1.76,96.0,1618.1,120.1,-0.68,25.0,95.0,107.0,,0.0,0.0,0.0,0.0,,,,,,PurdyMouth
+2023,Scott Masik,Chili-nfl,,12.0,11.0,6.0,8.0,0.0,1550.5,1673.0,14.0,0.429,0.02,0.09,-0.43,33.0,7.6,4.4,0.443,0.014,0.83,80.0,1616.2,56.8,-0.17,43.0,96.0,104.0,,0.0,0.0,0.0,1.0,,,,,,Side Chili
+2022,Russell Smith,Chili-nfl,,1.0,6.0,9.0,5.0,0.0,1630.08,1415.66,11.0,0.643,0.27,0.01,1.41,92.0,3.0,-2.0,0.688,0.045,0.09,54.0,1410.0,5.7,0.13,55.0,114.0,100.0,,1.0,1.0,1.0,0.0,,,,,,Frig off Lahey
+2022,Scott Dreier,Chili-nfl,,2.0,12.0,9.0,5.0,0.0,1382.38,1308.46,18.0,0.643,0.03,0.08,-0.32,37.0,7.3,-5.3,0.457,-0.186,-2.01,2.0,1432.5,-124.0,0.32,62.0,97.0,91.0,,1.0,1.0,0.0,0.0,,,,,,Team Dreier
+2022,Erik Bagley,Chili-nfl,,3.0,5.0,10.0,4.0,0.0,1533.18,1445.48,27.0,0.714,0.12,0.02,0.73,77.0,4.7,-1.7,0.598,-0.117,0.43,67.0,1418.8,26.7,0.67,75.0,107.0,102.0,,1.0,1.0,0.0,0.0,,,,,,4th and Shlong
+2022,Connor Reed,Chili-nfl,,4.0,4.0,9.0,5.0,0.0,1575.52,1419.84,25.0,0.643,0.17,0.02,1.03,85.0,4.0,0.0,0.637,-0.006,0.08,53.0,1415.0,4.8,1.94,97.0,110.0,100.0,,1.0,0.0,0.0,0.0,,,,,,Microsoft Outlook
+2022,Kyle McReynolds,Chili-nfl,,5.0,1.0,7.0,7.0,0.0,1619.78,1487.28,21.0,0.5,0.25,0.01,1.33,91.0,3.2,1.8,0.678,0.178,1.24,89.0,1410.9,76.4,0.06,52.0,113.0,105.0,,1.0,0.0,0.0,0.0,,,,,,Will Clapp Cheeks
+2022,Bryan Jones,Chili-nfl,,6.0,3.0,7.0,7.0,0.0,1533.94,1517.2,49.0,0.5,0.12,0.02,0.74,77.0,4.7,1.3,0.598,0.098,1.6,94.0,1418.7,98.5,1.58,94.0,107.0,107.0,,1.0,0.0,0.0,0.0,,,,,,Make It hurts
+2022,Daniel Bolanos,Chili-nfl,,7.0,10.0,7.0,7.0,0.0,1410.12,1399.38,16.0,0.5,0.03,0.06,-0.13,45.0,6.8,0.2,0.483,-0.017,-0.5,31.0,1430.0,-30.6,-0.23,41.0,99.0,98.0,,0.0,0.0,0.0,0.0,,,,,,Mr. Than
+2022,Erik Foster,Chili-nfl,,8.0,11.0,7.0,7.0,0.0,1395.86,1352.6,20.0,0.5,0.03,0.07,-0.23,41.0,7.1,0.9,0.47,-0.03,-1.28,10.0,1431.3,-78.7,-0.93,18.0,98.0,95.0,,0.0,0.0,0.0,0.0,,,,,,Garbage Pass Kids
+2022,Ben Lalor,Chili-nfl,,9.0,9.0,6.0,8.0,0.0,1287.58,1468.7,18.0,0.429,0.01,0.15,-0.98,16.0,9.0,0.1,0.369,-0.06,0.45,67.0,1441.1,27.6,-1.29,10.0,90.0,102.0,,0.0,0.0,0.0,0.0,,,,,,Da Inconvenient Truth
+2022,Scott Masik,Chili-nfl,,10.0,2.0,6.0,8.0,0.0,1333.3,1484.1,34.0,0.429,0.02,0.11,-0.66,25.0,8.2,1.8,0.412,-0.017,0.76,78.0,1437.0,47.1,0.03,51.0,93.0,103.0,,0.0,0.0,0.0,0.0,,,,,,Side Chili
+2022,Troy Kato,Chili-nfl,,11.0,8.0,3.0,11.0,0.0,1162.38,1390.96,23.0,0.214,0.0,0.33,-1.85,3.0,11.1,-0.1,0.252,0.038,-1.0,16.0,1452.5,-61.5,-1.09,14.0,81.0,96.0,,0.0,0.0,0.0,0.0,,,,,,Show me the Carr Fax
+2022,Chris Bolanos,Chili-nfl,,12.0,7.0,4.0,10.0,0.0,1275.88,1450.34,16.0,0.286,0.01,0.17,-1.06,14.0,9.2,2.9,0.358,0.072,0.13,55.0,1442.2,8.1,-1.18,12.0,89.0,101.0,,0.0,0.0,0.0,1.0,,,,,,Treyning Day
+2021,Erik Bagley,Chili-nfl,,1.0,7.0,8.0,6.0,0.0,1686.22,1555.76,,0.571,0.25,0.01,1.32,91.0,3.2,-2.2,0.677,0.105,1.32,91.0,1452.2,103.6,,,115.0,107.0,,1.0,1.0,1.0,0.0,,,,,,4th and Shlong
+2021,Scott Dreier,Chili-nfl,,2.0,2.0,10.0,4.0,0.0,1608.64,1434.76,,0.714,0.14,0.02,0.84,80.0,4.4,-2.4,0.613,-0.102,-0.31,38.0,1459.2,-24.4,,,109.0,98.0,,1.0,1.0,0.0,0.0,,,,,,Team Dreier
+2021,Troy Kato,Chili-nfl,,3.0,8.0,10.0,4.0,0.0,1538.34,1450.0,,0.714,0.08,0.03,0.41,66.0,5.5,-2.5,0.555,-0.159,-0.2,42.0,1465.6,-15.6,,,105.0,99.0,,1.0,1.0,0.0,0.0,,,,,,Finding Deebo
+2021,Ben Lalor,Chili-nfl,,4.0,3.0,12.0,2.0,0.0,1609.12,1277.8,,0.857,0.14,0.02,0.85,80.0,4.4,-0.4,0.613,-0.244,-2.31,1.0,1459.2,-181.4,,,109.0,88.0,,1.0,0.0,0.0,0.0,,,,,,Da Inconvenient Truth
+2021,Scott Masik,Chili-nfl,,5.0,12.0,8.0,6.0,0.0,1566.08,1423.84,,0.571,0.1,0.03,0.58,72.0,5.1,-0.1,0.578,0.006,-0.5,31.0,1463.1,-39.3,,,106.0,97.0,,1.0,0.0,0.0,0.0,,,,,,Bowl of Chili
+2021,Kyle McReynolds,Chili-nfl,,6.0,4.0,8.0,6.0,0.0,1595.6,1456.36,,0.571,0.12,0.02,0.76,78.0,4.6,1.4,0.602,0.031,-0.05,48.0,1460.4,-4.0,,,108.0,100.0,,1.0,0.0,0.0,0.0,,,,,,You are CHEEKS
+2021,Bryan Jones,Chili-nfl,,7.0,9.0,5.0,9.0,0.0,1480.94,1553.0,,0.357,0.05,0.05,0.06,52.0,6.4,0.6,0.508,0.151,1.05,85.0,1470.9,82.1,,,101.0,106.0,,0.0,0.0,0.0,0.0,,,,,,Stairway To Evans
+2021,Russell Smith,Chili-nfl,,8.0,10.0,4.0,10.0,0.0,1177.4,1469.5,,0.286,0.0,0.32,-1.81,3.0,11.0,-3.0,0.258,-0.028,-0.37,36.0,1498.4,-28.9,,,80.0,98.0,,0.0,0.0,0.0,0.0,,,,,,Frig off Lahey
+2021,Daniel Bolanos,Chili-nfl,,9.0,11.0,6.0,8.0,0.0,1441.98,1477.42,,0.429,0.03,0.07,-0.18,43.0,7.0,2.0,0.476,0.047,0.04,52.0,1474.4,3.0,,,98.0,100.0,,0.0,0.0,0.0,0.0,,,,,,The Glizzy Guzzlers
+2021,Nick Mannina,Chili-nfl,,10.0,1.0,1.0,13.0,0.0,1143.5,1587.84,,0.071,0.0,0.38,-2.02,2.0,11.5,-1.5,0.23,0.158,1.1,86.0,1501.5,86.3,,,78.0,106.0,,0.0,0.0,0.0,0.0,,,,,,Milk Wagons
+2021,Erik Foster,Chili-nfl,,11.0,5.0,5.0,9.0,0.0,1397.06,1408.14,,0.357,0.02,0.09,-0.46,32.0,7.7,3.3,0.439,0.081,-0.9,19.0,1478.5,-70.4,,,95.0,95.0,,0.0,0.0,0.0,0.0,,,,,,Garbage Pass Kids
+2021,Chris Bolanos,Chili-nfl,,12.0,6.0,7.0,7.0,0.0,1415.44,1565.9,,0.5,0.02,0.08,-0.35,36.0,7.4,4.6,0.454,-0.046,1.14,87.0,1476.8,89.1,,,96.0,106.0,,0.0,0.0,0.0,1.0,,,,,,Jimmy's G-Spot
+2020,Troy Kato,Chili-nfl,,1.0,10.0,9.0,4.0,0.0,1510.3,1373.1,,0.692,0.32,0.01,1.54,94.0,2.7,-1.7,0.706,0.013,0.31,62.0,1351.3,21.8,,,111.0,102.0,,1.0,1.0,1.0,0.0,,,,,,Finding Deebo
+2020,Chris Bolanos,Chili-nfl,,2.0,11.0,10.0,3.0,0.0,1448.42,1314.18,,0.769,0.14,0.02,0.89,81.0,4.3,-2.3,0.618,-0.151,-0.6,27.0,1356.9,-42.7,,,106.0,97.0,,1.0,1.0,0.0,0.0,,,,,,Jimmy's G-Spot
+2020,Russell Smith,Chili-nfl,,3.0,12.0,7.0,6.0,0.0,1396.78,1423.9,,0.538,0.07,0.04,0.34,63.0,5.7,-2.7,0.546,0.007,0.87,81.0,1361.6,62.3,,,102.0,105.0,,1.0,1.0,0.0,0.0,,,,,,Frig off Lahey
+2020,Kyle McReynolds,Chili-nfl,,4.0,6.0,8.0,5.0,0.0,1427.5,1272.98,,0.615,0.11,0.03,0.66,75.0,4.9,-0.9,0.589,-0.027,-1.2,11.0,1358.8,-85.8,,,105.0,94.0,,1.0,0.0,0.0,0.0,,,,,,Golden Taint
+2020,Nick Mannina,Chili-nfl,,5.0,4.0,8.0,5.0,0.0,1355.62,1336.12,,0.615,0.04,0.06,-0.09,46.0,6.8,-1.8,0.487,-0.128,-0.41,34.0,1365.3,-29.2,,,99.0,98.0,,1.0,0.0,0.0,0.0,,,,,,Milk Wagons
+2020,Scott Dreier,Chili-nfl,,6.0,5.0,8.0,5.0,0.0,1478.34,1431.78,,0.615,0.22,0.01,1.2,89.0,3.5,2.5,0.661,0.045,1.09,86.0,1354.2,77.6,,,108.0,106.0,,1.0,0.0,0.0,0.0,,,,,,Team Dreier
+2020,Bryan Jones,Chili-nfl,,7.0,8.0,4.0,9.0,0.0,1338.64,1432.06,,0.308,0.03,0.07,-0.27,39.0,7.2,-0.2,0.464,0.156,0.91,82.0,1366.9,65.2,,,98.0,105.0,,0.0,0.0,0.0,0.0,,,,,,Bryans Baby Boys
+2020,Ben Lalor,Chili-nfl,,8.0,1.0,4.0,9.0,0.0,1162.42,1319.4,,0.308,0.0,0.41,-2.13,2.0,11.8,-3.8,0.215,-0.093,-0.89,19.0,1382.9,-63.5,,,85.0,95.0,,0.0,0.0,0.0,0.0,,,,,,Da Inconvenient Truth
+2020,Erik Bagley,Chili-nfl,,9.0,2.0,6.0,7.0,0.0,1335.88,1281.08,,0.462,0.03,0.07,-0.3,38.0,7.3,1.7,0.46,-0.002,-1.21,11.0,1367.1,-86.0,,,98.0,94.0,,0.0,0.0,0.0,0.0,,,,,,4th and Shlong
+2020,Erik Foster,Chili-nfl,,10.0,9.0,3.0,10.0,0.0,1239.7,1484.1,,0.231,0.01,0.21,-1.32,9.0,9.8,0.2,0.324,0.093,1.52,94.0,1375.9,108.2,,,91.0,108.0,,0.0,0.0,0.0,0.0,,,,,,Garbage Pass Kids
+2020,Scott Masik,Chili-nfl,,11.0,3.0,4.0,9.0,0.0,1374.8,1429.94,,0.308,0.05,0.05,0.11,54.0,6.3,4.8,0.515,0.207,0.93,82.0,1363.6,66.3,,,101.0,105.0,,0.0,0.0,0.0,0.0,,,,,,Bowl of Chili
+2020,Daniel Bolanos,Chili-nfl,,12.0,7.0,7.0,6.0,0.0,1306.02,1275.78,,0.538,0.02,0.1,-0.62,27.0,8.1,4.0,0.417,-0.121,-1.32,9.0,1369.9,-94.1,,,96.0,93.0,,0.0,0.0,0.0,1.0,,,,,,Mashville Gator tails
+2019,Troy Kato,Chili-nfl,,1.0,1.0,8.0,5.0,0.0,1328.84,1206.88,,0.615,0.27,0.01,1.39,92.0,3.1,-2.1,0.686,0.071,0.39,65.0,1185.4,21.5,,,111.0,102.0,,1.0,1.0,1.0,0.0,,,,,,Finding Deebo
+2019,Bryan Jones,Chili-nfl,,2.0,3.0,11.0,2.0,0.0,1417.12,1167.24,,0.846,0.61,0.0,2.33,99.0,0.7,1.3,0.811,-0.035,-0.19,43.0,1177.3,-10.1,,,118.0,99.0,,1.0,1.0,0.0,0.0,,,,,,Show Me Your TDs
+2019,Nick Mannina,Chili-nfl,,3.0,12.0,8.0,5.0,0.0,1140.22,1141.68,,0.615,0.02,0.1,-0.6,27.0,8.0,-5.0,0.419,-0.196,-1.12,13.0,1202.5,-60.8,,,95.0,95.0,,1.0,1.0,0.0,0.0,,,,,,Team Mannina
+2019,Chris Bolanos,Chili-nfl,,4.0,4.0,9.0,4.0,0.0,1195.86,1103.4,,0.692,0.04,0.05,-0.02,49.0,6.6,-2.6,0.498,-0.194,-1.73,4.0,1197.5,-94.1,,,100.0,92.0,,1.0,0.0,0.0,0.0,,,,,,Jimmy's G-Spot
+2019,Daniel Bolanos,Chili-nfl,,5.0,8.0,7.0,6.0,0.0,1276.08,1217.84,,0.538,0.14,0.02,0.83,80.0,4.5,0.6,0.611,0.073,0.51,69.0,1190.2,27.6,,,107.0,102.0,,1.0,0.0,0.0,0.0,,,,,,Caboose Pistol
+2019,Erik Bagley,Chili-nfl,,6.0,11.0,8.0,5.0,0.0,1136.48,1127.28,,0.615,0.02,0.11,-0.64,26.0,8.1,-2.1,0.414,-0.201,-1.39,8.0,1202.9,-75.6,,,95.0,94.0,,1.0,0.0,0.0,0.0,,,,,,Can You Diggs It
+2019,Kyle McReynolds,Chili-nfl,,7.0,6.0,4.0,9.0,0.0,1174.02,1228.44,,0.308,0.03,0.07,-0.25,40.0,7.1,-0.1,0.467,0.159,0.53,70.0,1199.4,29.0,,,98.0,102.0,,0.0,0.0,0.0,0.0,,,,,,Golden Taint
+2019,Scott Masik,Chili-nfl,,8.0,2.0,4.0,9.0,0.0,1109.94,1187.98,,0.308,0.01,0.14,-0.92,18.0,8.8,-0.8,0.376,0.069,-0.32,38.0,1205.3,-17.3,,,93.0,99.0,,0.0,0.0,0.0,0.0,,,,,,The comeback Kid
+2019,Ben Lalor,Chili-nfl,,9.0,10.0,4.0,9.0,0.0,1120.02,1312.12,,0.308,0.01,0.13,-0.82,21.0,8.6,0.5,0.391,0.083,1.98,98.0,1204.4,107.7,,,94.0,109.0,,0.0,0.0,0.0,0.0,,,,,,Da Inconvenient Truth
+2019,Erik Foster,Chili-nfl,,10.0,9.0,5.0,8.0,0.0,1235.22,1210.82,,0.385,0.07,0.03,0.4,66.0,5.5,4.5,0.554,0.169,0.31,62.0,1193.9,16.9,,,103.0,101.0,,0.0,0.0,0.0,0.0,,,,,,40 Million Dollar Baby
+2019,Scott Dreier,Chili-nfl,,11.0,5.0,5.0,8.0,0.0,1117.6,1259.86,,0.385,0.01,0.13,-0.84,20.0,8.6,2.4,0.387,0.003,1.01,84.0,1204.6,55.3,,,93.0,105.0,,0.0,0.0,0.0,0.0,,,,,,Team Dreier
+2019,Russell Smith,Chili-nfl,,12.0,7.0,5.0,8.0,0.0,1116.5,1204.36,,0.385,0.01,0.13,-0.86,20.0,8.6,3.4,0.386,0.001,-0.01,50.0,1204.7,-0.3,,,93.0,100.0,,0.0,0.0,0.0,1.0,,,,,,Frig off Lahey
+2018,Scott Masik,Chili-nfl,,1.0,8.0,10.0,3.0,0.0,1396.28,1231.88,23.0,0.769,0.29,0.01,1.47,93.0,2.9,-1.9,0.696,-0.073,0.12,55.0,1223.1,8.8,,,113.0,101.0,,1.0,1.0,1.0,0.0,,,,,,Keenan and KEL...ce
+2018,Erik Bagley,Chili-nfl,,2.0,11.0,8.0,5.0,0.0,1280.96,1278.46,35.0,0.615,0.07,0.03,0.4,66.0,5.5,-3.5,0.554,-0.062,0.63,74.0,1233.5,45.0,,,104.0,104.0,,1.0,1.0,0.0,0.0,,,,,,Lynch Mob
+2018,Bryan Jones,Chili-nfl,,3.0,7.0,8.0,5.0,0.0,1178.38,1128.9,42.0,0.615,0.02,0.1,-0.55,29.0,7.9,-4.9,0.427,-0.189,-1.6,5.0,1242.9,-114.0,,,95.0,91.0,,1.0,1.0,0.0,0.0,,,,,,Broke Back Brady
+2018,Erik Foster,Chili-nfl,,4.0,6.0,10.0,3.0,0.0,1383.9,1288.04,36.0,0.769,0.26,0.01,1.36,91.0,3.2,0.9,0.681,-0.088,0.9,82.0,1224.2,63.8,,,112.0,105.0,,1.0,0.0,0.0,0.0,,,,,,Lights Kamara Miller Time!
+2018,Troy Kato,Chili-nfl,,5.0,4.0,6.0,7.0,0.0,1188.04,1103.7,11.0,0.462,0.02,0.09,-0.46,32.0,7.7,-2.7,0.439,-0.023,-1.94,3.0,1242.0,-138.3,,,96.0,89.0,,1.0,0.0,0.0,0.0,,,,,,HalfChubb FullWood
+2018,Ben Lalor,Chili-nfl,,6.0,9.0,7.0,6.0,0.0,1219.32,1208.34,15.0,0.538,0.03,0.06,-0.17,43.0,6.9,-0.9,0.478,-0.061,-0.43,33.0,1239.1,-30.8,,,99.0,98.0,,1.0,0.0,0.0,0.0,,,,,,Da Inconvenient Truth
+2018,Scott Dreier,Chili-nfl,,7.0,10.0,7.0,6.0,0.0,1259.2,1156.4,12.0,0.538,0.06,0.04,0.2,58.0,6.0,1.0,0.527,-0.012,-1.11,13.0,1235.5,-79.1,,,102.0,94.0,,0.0,0.0,0.0,0.0,,,,,,Team Dreier
+2018,Chris Bolanos,Chili-nfl,,8.0,1.0,5.0,8.0,0.0,1277.14,1264.66,3.0,0.385,0.07,0.04,0.37,64.0,5.6,2.4,0.549,0.164,0.43,67.0,1233.9,30.8,,,103.0,103.0,,0.0,0.0,0.0,0.0,,,,,,Jimmy's G-Spot
+2018,Daniel Bolanos,Chili-nfl,,9.0,3.0,6.0,7.0,0.0,1329.72,1248.82,11.0,0.462,0.14,0.02,0.85,80.0,4.4,4.6,0.614,0.153,0.28,61.0,1229.1,19.7,,,108.0,102.0,,0.0,0.0,0.0,0.0,,,,,,Mister Than
+2018,Nick Mannina,Chili-nfl,,10.0,5.0,4.0,9.0,0.0,1190.74,1306.68,7.0,0.308,0.02,0.09,-0.43,33.0,7.6,2.4,0.442,0.135,0.91,82.0,1241.7,65.0,,,96.0,105.0,,0.0,0.0,0.0,0.0,,,,,,Team Mannina
+2018,Russell Smith,Chili-nfl,,11.0,12.0,1.0,12.0,0.0,976.76,1299.84,4.0,0.077,0.0,0.49,-2.41,1.0,12.5,-1.5,0.177,0.101,0.54,71.0,1261.2,38.6,,,79.0,103.0,,0.0,0.0,0.0,0.0,,,,,,Frig off Lahey
+2018,Kyle McReynolds,Chili-nfl,,12.0,2.0,6.0,7.0,0.0,1169.44,1334.16,12.0,0.462,0.02,0.11,-0.63,26.0,8.1,3.9,0.416,-0.046,1.27,90.0,1243.7,90.5,,,95.0,107.0,,0.0,0.0,0.0,1.0,,,,,,Golden Taint
+2017,Erik Foster,Chili-nfl,,1.0,8.0,10.0,3.0,0.0,1204.52,1000.64,58.0,0.769,0.13,0.02,0.79,79.0,4.6,-3.6,0.606,-0.163,-1.9,3.0,1127.0,-126.4,,,106.0,89.0,,1.0,1.0,1.0,0.0,,,,,,Dude Where's My Carr?
+2017,Russell Smith,Chili-nfl,,2.0,2.0,8.0,5.0,0.0,1144.38,1146.36,27.0,0.615,0.05,0.05,0.12,55.0,6.2,-4.2,0.516,-0.099,0.21,58.0,1132.5,13.9,,,101.0,101.0,,1.0,1.0,0.0,0.0,,,,,,Frig off Lahey
+2017,Nick Mannina,Chili-nfl,,3.0,11.0,9.0,4.0,0.0,1273.34,1118.16,10.0,0.692,0.32,0.01,1.56,94.0,2.6,0.4,0.708,0.016,-0.04,48.0,1120.8,-2.6,,,112.0,100.0,,1.0,1.0,0.0,0.0,,,,,,Team Mannina
+2017,Daniel Bolanos,Chili-nfl,,4.0,5.0,7.0,6.0,0.0,1276.16,1097.28,16.0,0.538,0.33,0.01,1.59,94.0,2.6,1.4,0.713,0.174,-0.35,36.0,1120.5,-23.2,,,113.0,98.0,,1.0,0.0,0.0,0.0,,,,,,Mister Than
+2017,Ben Lalor,Chili-nfl,,5.0,9.0,6.0,7.0,0.0,1075.76,1116.92,12.0,0.462,0.02,0.11,-0.64,26.0,8.1,-3.1,0.414,-0.048,-0.33,37.0,1138.7,-21.8,,,95.0,98.0,,1.0,0.0,0.0,0.0,,,,,,Da Inconvenient Truth
+2017,Chris Bolanos,Chili-nfl,,6.0,10.0,7.0,6.0,0.0,1154.88,1127.04,9.0,0.538,0.06,0.04,0.24,59.0,5.9,0.1,0.532,-0.007,-0.07,47.0,1131.5,-4.5,,,102.0,100.0,,1.0,0.0,0.0,0.0,,,,,,Barry McCockinner
+2017,Scott Masik,Chili-nfl,,7.0,7.0,5.0,8.0,0.0,1137.26,1141.02,23.0,0.385,0.04,0.05,0.04,52.0,6.4,0.6,0.506,0.121,0.12,55.0,1133.1,7.9,,,100.0,101.0,,0.0,0.0,0.0,0.0,,,,,,Cant HYDE your Chili
+2017,Troy Kato,Chili-nfl,,8.0,4.0,7.0,6.0,0.0,1014.08,1021.0,13.0,0.538,0.01,0.21,-1.33,9.0,9.8,-1.8,0.322,-0.216,-1.85,3.0,1144.3,-123.3,,,90.0,89.0,,0.0,0.0,0.0,0.0,,,,,,Blooper Cooper
+2017,Erik Bagley,Chili-nfl,,9.0,12.0,6.0,7.0,0.0,1175.62,1199.7,30.0,0.462,0.08,0.03,0.47,68.0,5.4,3.7,0.563,0.101,1.05,85.0,1129.7,70.0,,,104.0,106.0,,0.0,0.0,0.0,0.0,,,,,,Cookin that Chili
+2017,Scott Dreier,Chili-nfl,,10.0,1.0,4.0,9.0,0.0,1026.2,1241.84,18.0,0.308,0.01,0.19,-1.2,12.0,9.5,0.5,0.34,0.032,1.48,93.0,1143.2,98.6,,,91.0,109.0,,0.0,0.0,0.0,0.0,,,,,,Team Dreier
+2017,Bryan Jones,Chili-nfl,,11.0,3.0,5.0,8.0,0.0,1128.06,1191.22,49.0,0.385,0.04,0.06,-0.06,48.0,6.7,4.3,0.492,0.107,0.86,80.0,1134.0,57.2,,,100.0,105.0,,0.0,0.0,0.0,0.0,,,,,,Broke Back Brady Mountain
+2017,Kyle McReynolds,Chili-nfl,,12.0,6.0,4.0,9.0,0.0,991.52,1200.6,2.0,0.308,0.0,0.27,-1.58,6.0,10.4,1.6,0.289,-0.019,0.81,79.0,1146.4,54.2,,,88.0,105.0,,0.0,0.0,0.0,1.0,,,,,,Golden Taint
+2016,Daniel Bolanos,Chili-nfl,,1.0,2.0,7.0,5.0,1.0,1194.0,1142.0,34.0,0.577,0.1,0.03,0.58,72.0,5.1,-4.1,0.577,0.0,0.04,52.0,1139.6,2.4,,,104.0,100.0,,1.0,1.0,1.0,0.0,,,,,,Mister Than
+2016,Erik Bagley,Chili-nfl,,2.0,5.0,8.0,5.0,0.0,1160.0,1093.0,46.0,0.615,0.05,0.04,0.18,57.0,6.1,-4.1,0.524,-0.091,-0.92,18.0,1142.7,-49.7,,,101.0,96.0,,1.0,1.0,0.0,0.0,,,,,,AP died On Me
+2016,Nick Mannina,Chili-nfl,,3.0,7.0,10.0,3.0,0.0,1232.0,1095.0,12.0,0.769,0.17,0.02,1.01,84.0,4.0,-1.0,0.636,-0.134,-0.77,22.0,1136.2,-41.2,,,108.0,96.0,,1.0,1.0,0.0,0.0,,,,,,Team Mannina
+2016,Scott Dreier,Chili-nfl,,4.0,4.0,9.0,4.0,0.0,1264.0,1106.0,23.0,0.692,0.27,0.01,1.38,92.0,3.1,0.9,0.685,-0.007,-0.51,31.0,1133.3,-27.3,,,111.0,98.0,,1.0,0.0,0.0,0.0,,,,,,Team Dreier
+2016,Jake Duncan,Chili-nfl,,5.0,1.0,7.0,6.0,0.0,1243.0,1127.0,19.0,0.538,0.2,0.01,1.14,87.0,3.7,1.3,0.653,0.114,-0.15,44.0,1135.2,-8.2,,,109.0,99.0,,1.0,0.0,0.0,0.0,,,,,,Team Duncan
+2016,Erik Foster,Chili-nfl,,6.0,11.0,6.0,7.0,0.0,1165.0,1145.0,57.0,0.462,0.06,0.04,0.24,60.0,5.9,0.1,0.532,0.071,0.05,52.0,1142.3,2.7,,,102.0,100.0,,1.0,0.0,0.0,0.0,,,,,,Dude Where's My Carr?
+2016,Chris Bolanos,Chili-nfl,,7.0,12.0,6.0,7.0,0.0,1057.0,1075.0,10.0,0.462,0.01,0.16,-1.01,16.0,9.0,-2.0,0.365,-0.096,-1.43,8.0,1152.1,-77.1,,,92.0,93.0,,0.0,0.0,0.0,0.0,,,,,,Chip Kellys Doo Doo Butter
+2016,Ben Lalor,Chili-nfl,,8.0,3.0,6.0,7.0,0.0,1215.0,1276.0,18.0,0.462,0.13,0.02,0.82,79.0,4.5,3.5,0.609,0.148,2.57,99.0,1137.7,138.3,,,106.0,112.0,,0.0,0.0,0.0,0.0,,,,,,Da Inconvenient Truth
+2016,Bryan Jones,Chili-nfl,,9.0,10.0,6.0,7.0,0.0,1091.0,1174.0,25.0,0.462,0.02,0.1,-0.61,27.0,8.0,1.0,0.418,-0.044,0.47,68.0,1149.0,25.0,,,95.0,102.0,,0.0,0.0,0.0,0.0,,,,,,Pepperoni Nipples
+2016,Troy Kato,Chili-nfl,,10.0,9.0,3.0,8.0,2.0,1022.0,1203.0,5.0,0.308,0.01,0.23,-1.41,8.0,10.0,0.0,0.311,0.004,0.89,81.0,1155.3,47.7,,,89.0,104.0,,0.0,0.0,0.0,0.0,,,,,,Team Kato
+2016,Russell Smith,Chili-nfl,,11.0,6.0,5.0,8.0,0.0,1090.0,1172.0,9.0,0.385,0.02,0.11,-0.63,27.0,8.1,2.9,0.416,0.032,0.43,66.0,1149.1,22.9,,,95.0,102.0,,0.0,0.0,0.0,0.0,,,,,,Frig off Lahey
+2016,Kyle McReynolds,Chili-nfl,,12.0,8.0,3.0,9.0,1.0,997.0,1122.0,10.0,0.269,0.0,0.29,-1.7,4.0,10.7,1.3,0.273,0.004,-0.66,25.0,1157.5,-35.5,,,87.0,97.0,,0.0,0.0,0.0,1.0,,,,,,Golden Taint
+2014,Erik Bagley,Chili-nfl,,1.0,6.0,7.0,6.0,0.0,1180.0,1160.0,26.0,0.538,0.06,0.04,0.29,62.0,4.8,-3.8,0.539,0.001,0.36,64.0,1140.0,20.0,,,103.0,102.0,,1.0,1.0,1.0,0.0,,,,,,Huge Taters
+2014,Aaron Ogden,Chili-nfl,,2.0,9.0,9.0,3.0,1.0,1355.0,1158.0,22.0,0.731,0.38,0.01,1.73,96.0,1.9,0.1,0.731,0.0,0.68,75.0,1120.6,37.4,,,118.0,103.0,,1.0,1.0,0.0,0.0,,,,,,Donald Eerlings
+2014,Scott Dreier,Chili-nfl,,3.0,10.0,7.0,6.0,0.0,1285.0,1219.0,13.0,0.538,0.2,0.01,1.15,88.0,3.0,0.0,0.654,0.116,1.64,95.0,1128.3,90.7,,,112.0,108.0,,1.0,1.0,0.0,0.0,,,,,,Team Dreier
+2014,Erik Foster,Chili-nfl,,4.0,2.0,10.0,3.0,0.0,1211.0,1093.0,53.0,0.769,0.09,0.03,0.55,71.0,4.3,-0.3,0.573,-0.196,-0.79,22.0,1136.6,-43.6,,,106.0,96.0,,1.0,0.0,0.0,0.0,,,,,,Hankey Sankey
+2014,Gio Bustichi,Chili-nfl,,5.0,4.0,7.0,6.0,0.0,1084.0,1082.0,23.0,0.538,0.02,0.09,-0.49,31.0,6.4,-1.4,0.434,-0.104,-1.24,11.0,1150.7,-68.7,,,95.0,94.0,,1.0,0.0,0.0,0.0,,,,,,Team Bustichi
+2014,Ben Lalor,Chili-nfl,,6.0,3.0,5.0,7.0,1.0,1173.0,1146.0,9.0,0.423,0.06,0.04,0.24,59.0,4.9,1.1,0.532,0.109,0.09,54.0,1140.8,5.2,,,103.0,101.0,,1.0,0.0,0.0,0.0,,,,,,Da Inconvenient Truth
+2014,Kyle McReynolds,Chili-nfl,,7.0,8.0,6.0,6.0,1.0,1057.0,1044.0,10.0,0.5,0.01,0.12,-0.71,24.0,6.9,0.1,0.405,-0.095,-1.98,2.0,1153.7,-109.7,,,92.0,91.0,,0.0,0.0,0.0,0.0,,,,,,Golden Taint
+2014,Troy Kato,Chili-nfl,,8.0,7.0,3.0,9.0,1.0,928.0,1183.0,5.0,0.269,0.0,0.31,-1.77,4.0,9.1,-1.1,0.264,-0.006,0.27,61.0,1168.0,15.0,,,81.0,101.0,,0.0,0.0,0.0,0.0,,,,,,Team Kato
+2014,Nick Mannina,Chili-nfl,,9.0,1.0,4.0,9.0,0.0,1002.0,1198.0,13.0,0.308,0.01,0.18,-1.16,12.0,7.8,1.2,0.345,0.037,0.69,76.0,1159.8,38.2,,,88.0,103.0,,0.0,0.0,0.0,0.0,,,,,,Team Mannina
+2014,Derek VanRiper,Chili-nfl,,10.0,5.0,5.0,8.0,0.0,1165.0,1157.0,19.0,0.385,0.05,0.04,0.17,57.0,5.1,4.9,0.523,0.138,0.28,61.0,1141.7,15.3,,,102.0,101.0,,0.0,0.0,0.0,1.0,,,,,,Discount Daaaaable Check
