@@ -38,7 +38,8 @@ name,year,est_year_watched,genre,sub_genre,movie_length,peak,consistency,premise
 """Argylle""",2024,2024,"""action""","""""",139,60,50,45,45,30,60,55,40,60,,51.7
 """Armageddon""",1998,2025,"""action""","""sci-fi""",151,50,50,60,50,35,60,45,40,60,,51.3
 """Asteroid City""",2023,2024,"""comedy""","""""",105,40,50,45,45,30,60,55,50,45,,46.1
-"""Avatar(2): The Way of Water [3D]""",2022,2022,"""action""","""fantasy""",192,60,50,50,60,30,60,40,40,40,,49.3
+"""Avatar(2): The Way of Water [3D]""",2022,2022,"""action""","""fantasy""",192,60,50,50,60,30,60,40,40,50,,50.7
+"""Avatar(3): Fire and Ash [3D]""",2025,2026,"""action""","""fantasy""",197,50,45,40,45,30,55,40,40,40,,43.9
 """Baby Driver""",2017,2018,"""action""","""""",113,60,50,50,60,40,60,40,50,50,,52.2
 """Back to the Future(1)""",1985,2003,"""adventure""","""sci-fi""",116,65,60,70,60,50,70,60,60,60,,62.2
 """Back to the Future(2)""",1985,2003,"""adventure""","""sci-fi""",108,60,50,60,50,40,60,50,50,50,,53.2
