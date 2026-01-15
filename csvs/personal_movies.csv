@@ -340,6 +340,7 @@ name,year,est_year_watched,genre,sub_genre,movie_length,peak,consistency,premise
 """Idiocracy""",2006,2009,"""comedy""","""""",84,80,70,80,60,50,80,80,80,60,,71.2
 """Inception""",2010,2012,"""action""","""sci-fi""",148,60,40,65,50,60,60,50,35,60,,54.9
 """Inglourious Basterds""",2009,2012,"""drama""","""adventure""",153,40,30,50,50,40,30,50,20,30,,37.3
+"""Inherent Vice""",2014,2026,"""comedy""","""detective""",148,60,40,45,40,30,60,60,40,45,,48.0
 """Inside Job""",2010,2015,"""documentary""","""economics""",105,60,60,75,70,80,60,60,50,50,,62.2
 """Inside Out""",2015,2018,"""comedy""","""animated""",95,50,65,50,50,50,60,55,70,60,,56.2
 """Into The Wild""",2007,2008,"""adventure""","""biography""",148,60,40,50,50,60,40,40,30,50,,48.5
