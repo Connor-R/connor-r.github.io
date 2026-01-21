@@ -21,7 +21,7 @@ categories = [
     'Bash', 'General Programming', 'Git', 'LaTeX', 'Python', 'SQL', 'Ubuntu',
     'Bayesian Articles', 'Data Science Articles', 'Data Science Documentation', 
     'Decision Making and Psychology', 'Individual Profiles', 'Lifestyle and Self-Improvement',
-    '2021','2022'
+    '2021','2022','BEST_OF'
     ]
 
 for sport in ('MLB', 'NHL', 'NBA', 'NFL'):
