@@ -327,6 +327,7 @@ name,year,est_year_watched,genre,sub_genre,movie_length,peak,consistency,premise
 """Hot Tub Time Machine(1)""",2010,2012,"""comedy""","""sci-fi""",101,50,50,40,50,40,60,60,40,50,,49.5
 """Hot Tub Time Machine(2)""",2015,2016,"""comedy""","""sci-fi""",93,70,60,40,50,40,70,60,60,60,,58.5
 """House""",1977,2024,"""horror""","""comedy""",88,30,60,40,40,30,55,50,60,55,,45.7
+"""How I Got Into College""",1989,2026,"""comedy""","""""",86,35,50,35,35,30,40,45,50,40,,39.5
 """Hundreds of Beavers""",2022,2024,"""action""","""comedy""",108,40,60,45,45,30,60,50,40,50,,47.4
 """Hurricane of Fun: The Making of Wet Hot""",2015,2017,"""documentary""","""comedy""",64,70,30,50,50,60,50,60,40,40,,50.7
 """Hustle""",2022,2022,"""drama""","""sports""",117,65,40,70,50,50,45,50,40,50,,52.3
