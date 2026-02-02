@@ -29,6 +29,7 @@ name,year,est_year_watched,genre,sub_genre,movie_length,peak,consistency,premise
 """American History X""",1998,2010,"""crime""","""drama""",119,60,60,60,70,50,60,50,40,60,,58.0
 """American Movie""",1999,2024,"""documentary""","""comedy""",107,40,50,55,45,40,50,45,55,55,,47.8
 """An Inconvenient Truth""",2006,2006,"""documentary""","""""",96,50,50,50,50,70,60,40,40,50,,52.0
+"""Anaconda""",2025,2026,"""comedy""","""adventure""",99,50,35,30,30,30,55,50,60,35,,41.3
 """Anchorman: The Legend of Ron Burgundy""",2004,2008,"""comedy""","""""",94,65,65,50,40,30,60,60,55,60,,56.1
 """Angels & Demons""",2009,2011,"""mystery""","""""",138,30,40,40,30,50,30,20,20,40,,34.6
 """Angels in the Outfield""",1994,2002,"""fantasy""","""sports""",102,60,60,50,50,40,60,40,60,50,,53.4
