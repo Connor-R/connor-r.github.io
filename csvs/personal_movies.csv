@@ -685,6 +685,7 @@ name,year,est_year_watched,genre,sub_genre,movie_length,peak,consistency,premise
 """Wallace and Gromit: A Matter of Loaf and Death""",2008,2020,"""animated""","""comedy""",30,40,40,40,40,40,50,50,50,40,,42.4
 """Wallace and Gromit: The Curse of the Were-Rabbit""",2005,2020,"""animated""","""adventure""",85,50,50,50,50,40,55,55,50,50,,50.0
 """Wallace and Gromit: The Wrong Trousers""",1993,2020,"""animated""","""comedy""",30,60,60,50,50,40,55,60,60,60,,55.7
+"""Wallace and Gromit: Vengeance Most Fowl""",2024,2026,"""animated""","""comedy""",82,60,60,55,55,30,60,65,60,60,,56.6
 """Waterworld""",1995,2007,"""sci-fi""","""action""",135,50,30,60,30,40,50,40,30,50,,43.9
 """Wayne's World 1""",1992,2005,"""comedy""","""music""",94,60,50,60,50,40,60,60,55,60,,55.6
 """Wayne's World 2""",1993,2005,"""comedy""","""music""",95,50,50,50,50,40,50,55,55,50,,49.6
