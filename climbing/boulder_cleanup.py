@@ -187,7 +187,7 @@ def update_flags():
     flags = {'completed': []
         , 'return_interest': ['range', 1, 5]
         , 'stars': ['range', 20, 80]
-        , 'soft_hard': ['list', 'SOFT', 'HARD', 'BOUNTY EXTRA SOFT']
+        , 'soft_hard': ['list', 'SOFT', 'HARD', 'BOUNTY EXTRA SOFT', 'MOHS 10 HARD']
         , 'flash': []
         , 'athletic': []
         , 'cruxy': []
@@ -240,7 +240,7 @@ def update_flags():
                 WHERE 1
                     AND session_num = '%s'
                     AND session_start = '%s'
-                    AND boulder_name = '%s'
+                    AND boulder_name = "%s"
                     AND area = '%s'
                 ;"""
 

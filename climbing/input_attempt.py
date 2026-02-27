@@ -22,7 +22,7 @@ prompt_dict = {
 }
 
 completed_dict = {
-    1:["soft_hard", "\tWas the problem bounty extra soft, soft, or hard (hit RETURN for neither)"],
+    1:["soft_hard", "\tWas the problem bounty extra soft, soft, hard, or mohs 10 hard (hit RETURN for none)"],
     2:["stars", "\tStars (20-80)"],
     3:["fa", "\tDid you FA this problem? (y/n)"],
 }
@@ -232,7 +232,7 @@ def process_complete(j, entry):
         val = None
     elif (val[0].lower() == "y" and cat not in ("stars", "soft_hard")):
         val = cat.upper()
-    elif (cat == "soft_hard" and val.lower() in ("bounty extra soft", "soft", "hard")):
+    elif (cat == "soft_hard" and val.lower() in ("bounty extra soft", "soft", "hard", "mohs 10 hard")):
         val = val.upper()
     elif (cat == "stars" and (val > 80 or val < 20)):
         val = val
