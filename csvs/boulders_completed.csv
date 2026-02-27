@@ -92,7 +92,7 @@ Session #1 on 2026-02-12 at 12:30:00. 5 attempts, over 15 minutes.
 
 Session #1 on 2026-02-12 at 13:45:00. 5 attempts, over 15 minutes. 
 	Messed around with 2 bad methods, then did it with a better method that should have been more obvious. Post break.""",,,,,,,,,,,,,,
-14,2026-02-12,"""Left El Yuri""","""Hueco Tanks""","""North Mountain""",5.0,"""6C""",55,,,30,180,1,600,17:00:00,"""DESCRIPTORS:
+14,2026-02-12,"""Left El Yuri""","""Hueco Tanks""","""North Mountain""",5.0,"""6C""",55,"""MOHS 10 HARD""",,30,180,1,600,17:00:00,"""DESCRIPTORS:
 
 30 Attempts | 180 Minutes | 1 Sessions
 
@@ -446,7 +446,7 @@ Session #1 on 2023-12-30 at 10:00:00. 1 attempts, over 1 minutes.
 
 Session #1 on 2023-12-30 at 15:00:00. 2 attempts, over 5 minutes. 
 	Backsplatted after kicking my heel on first try. Didn't even use the cheater rock!""",,,,,,,,,,,,,,
-790,2023-12-29,"""Between The Sheets""","""Hueco Tanks""","""West Mountain""",4.0,"""6B""",55,,,15,90,1,500,12:00:00,"""DESCRIPTORS: ENDURANCE |
+790,2023-12-29,"""Between The Sheets""","""Hueco Tanks""","""West Mountain""",4.0,"""6B""",55,"""MOHS 10 HARD""",,15,90,1,500,12:00:00,"""DESCRIPTORS: ENDURANCE |
 
 15 Attempts | 90 Minutes | 1 Sessions
 
@@ -546,7 +546,7 @@ Session #1 on 2022-12-28 at 10:30:00. 2 attempts, over 5 minutes.
 Comment by Caitlin Maloney.
 
 One try to warm up, one try to do it. Kept the jacket on. Full team send with Caitlin, Joaquin, and Sage. Conor did a dumpy 9.""",,,,,,,,,,"""OVERHANG""",,,,
-1156,2022-12-28,"""Alf in a Blender ""","""Hueco Tanks""","""East Spur""",6.0,"""7A""",55,,,20,90,1,700,15:00:00,"""DESCRIPTORS: CRUXY | SLOPEY |
+1156,2022-12-28,"""Alf in a Blender ""","""Hueco Tanks""","""East Spur""",6.0,"""7A""",55,"""MOHS 10 HARD""",,20,90,1,700,15:00:00,"""DESCRIPTORS: CRUXY | SLOPEY |
 
 20 Attempts | 90 Minutes | 1 Sessions
 
@@ -897,7 +897,7 @@ Session #1 on 2022-02-27 at 10:45:00. 5 attempts, over 15 minutes.
 
 Session #1 on 2022-02-27 at 11:00:00. 1 attempts, over 1 minutes. 
 	This one is okay, but I suppose worth doing if you're already in the corridor. It *almost* made me want to handjam, but thankfully I reverted to my better senses.""",,,,,,,,,,,,,,
-1460,2022-02-27,"""Squirm""","""Hueco Tanks""","""North Mountain""",4.0,"""6B""",60,,,15,60,1,500,13:00:00,"""DESCRIPTORS:
+1460,2022-02-27,"""Squirm""","""Hueco Tanks""","""North Mountain""",4.0,"""6B""",60,"""MOHS 10 HARD""",,15,60,1,500,13:00:00,"""DESCRIPTORS:
 
 15 Attempts | 60 Minutes | 1 Sessions
 
@@ -1738,7 +1738,7 @@ Session #1 on 2018-07-24 at 16:30:00. 20 attempts, over 60 minutes.
 
 Session #2 on 2018-07-27 at 16:30:00. 0 attempts, over 60 minutes. 
 	English: The Crowbar. Pretty sweet boulder, but a little disappointed it took me so long to figure out. Then I kept falling on the last move, which is pretty devastating after doing the first 10+ moves. Finally changed my beta, called my shot (I said, ""I'm gonna finish it""), and then almost botched the easy topout. Nice job Scott Noy, think this is probably your best FA!""",,,,,,,,,"""ENDURANCE""","""OVERHANG""",,,,
-2772,2018-07-26,"""South African Railways""","""Rocklands""","""The Coop""",7.5,"""7B""",45,,,30,120,1,800,16:30:00,"""DESCRIPTORS: CRUXY | TECHNICAL | OVERHANG |
+2772,2018-07-26,"""South African Railways""","""Rocklands""","""The Coop""",7.5,"""7B""",45,"""MOHS 10 HARD""",,30,120,1,800,16:30:00,"""DESCRIPTORS: CRUXY | TECHNICAL | OVERHANG |
 
 30 Attempts | 120 Minutes | 1 Sessions
 
@@ -3538,7 +3538,7 @@ Session #1 on 2015-08-27 at 00:00:01. 1 attempts, over 1 minutes.
 
 Session #2 on 2015-08-27 at 17:00:00. 29 attempts, over 119 minutes. 
 	2 sessions. In the dark! Thanks to Mackenzie for running back to the car for the lights (even though it was for naught). Heel popped and had to hold a helicoptering foot swing. Teddy made it look so easy but it was super hard for me.""",,"""ATHLETIC""",,,,,,"""POWER""",,"""OVERHANG""",,,,
-3837,2015-08-26,"""Tim's Sloper Problem""","""Squamish""","""Grand Wall""",5.0,"""6C""",40,,,30,150,3,600,16:28:00,"""DESCRIPTORS: SLOPEY | TECHNICAL |
+3837,2015-08-26,"""Tim's Sloper Problem""","""Squamish""","""Grand Wall""",5.0,"""6C""",40,"""MOHS 10 HARD""",,30,150,3,600,16:28:00,"""DESCRIPTORS: SLOPEY | TECHNICAL |
 
 30 Attempts | 150 Minutes | 3 Sessions
 
