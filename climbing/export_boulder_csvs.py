@@ -221,6 +221,7 @@ def process_breakdown():
     append_csv = csv.writer(csv_file)
     csv_header = ["Row"
         , "Year"
+        , "Area"
         , "V Grade"
         , "Days"
         , "Sessions"
@@ -253,10 +254,13 @@ def process_breakdown():
         , "SCARY"
     ]
     append_csv.writerow(csv_header)
+
+    db.query('set @row := 0;')
     
-    qry = """SELECT CAST(IF(Year='All-Time' AND V_Grade = 'All', @row := 1, @row := @row+1) AS UNSIGNED) AS `row`
+    qry = """SELECT @row := @row + 1 AS `row`
     , Year
-    , IF(V_Grade='all'
+    , Area
+    , IF(V_Grade='All'
         , V_Grade
         , IF(RIGHT(V_Grade,1)=0
             , CONCAT('V',ROUND(V_GRADE))
@@ -290,9 +294,16 @@ def process_breakdown():
     , VERTICAL
     , SLAB
     , ROOF
-    , SCARY 
-    FROM(    
-        SELECT GROUP_CONCAT(DISTINCT YEAR(bp.session_date)) as year
+    , SCARY
+    FROM (
+
+        -- =============================================
+        -- EXISTING BLOCKS (Area = 'All')
+        -- =============================================
+
+        -- year + v_grade
+        SELECT GROUP_CONCAT(DISTINCT YEAR(bp.session_date)) AS year
+        , 'All' AS Area
         , GROUP_CONCAT(DISTINCT bp.v_grade) AS V_Grade
         , COUNT(DISTINCT bp.session_date) AS DAYS
         , COUNT(*) AS SESSIONS
@@ -320,15 +331,16 @@ def process_breakdown():
         , COUNT(DISTINCT IF(completed='COMPLETED' AND slab = 'SLAB', CONCAT(boulder_name, area, sub_area), NULL)) AS SLAB
         , COUNT(DISTINCT IF(completed='COMPLETED' AND roof = 'ROOF', CONCAT(boulder_name, area, sub_area), NULL)) AS ROOF
         , COUNT(DISTINCT IF(completed='COMPLETED' AND scary = 'SCARY', CONCAT(boulder_name, area, sub_area), NULL)) AS SCARY
-        
         FROM boulder_problems bp
         WHERE 1
             AND bp.session_date > '0000-00-00'
         GROUP BY bp.v_grade, YEAR(bp.session_date)
-        
+
         UNION ALL
-        
-        SELECT GROUP_CONCAT(DISTINCT YEAR(bp.session_date)) as year
+
+        # -- year + all grades
+        SELECT GROUP_CONCAT(DISTINCT YEAR(bp.session_date)) AS year
+        , 'All' AS Area
         , 'All' AS V_Grade
         , COUNT(DISTINCT bp.session_date) AS DAYS
         , COUNT(*) AS SESSIONS
@@ -360,10 +372,12 @@ def process_breakdown():
         WHERE 1
             AND bp.session_date > '0000-00-00'
         GROUP BY YEAR(bp.session_date)
-        
+
         UNION ALL
-        
-        SELECT 'All-Time' as year
+
+        # -- all-time + v_grade (includes all-time + all via ROLLUP)
+        SELECT 'All-Time' AS year
+        , 'All' AS Area
         , COALESCE(bp.v_grade, 'All') AS V_Grade
         , COUNT(DISTINCT bp.session_date) AS DAYS
         , COUNT(*) AS SESSIONS
@@ -395,10 +409,12 @@ def process_breakdown():
         WHERE 1
             AND bp.session_date > '0000-00-00'
         GROUP BY bp.v_grade WITH ROLLUP
-        
+
         UNION ALL
 
-        SELECT 'Last 365' as year
+        # -- last 365 + v_grade (includes last 365 + all via ROLLUP)
+        SELECT 'Last 365' AS year
+        , 'All' AS Area
         , COALESCE(bp.v_grade, 'All') AS V_Grade
         , COUNT(DISTINCT bp.session_date) AS DAYS
         , COUNT(*) AS SESSIONS
@@ -431,8 +447,178 @@ def process_breakdown():
             AND bp.session_date > '0000-00-00'
             AND bp.session_date > DATE_ADD(NOW(), INTERVAL -365 DAY)
         GROUP BY bp.v_grade WITH ROLLUP
+
+        # -- =============================================
+        # -- NEW AREA BLOCKS
+        # -- =============================================
+
+        UNION ALL
+
+        # -- area + year + v_grade
+        SELECT CAST(YEAR(bp.session_date) AS CHAR) AS year
+        , bp.area AS Area
+        , bp.v_grade AS V_Grade
+        , COUNT(DISTINCT bp.session_date) AS DAYS
+        , COUNT(*) AS SESSIONS
+        , COUNT(DISTINCT CONCAT(boulder_name, area, sub_area)) AS Distinct_Boulders
+        , COUNT(DISTINCT IF(completed='COMPLETED', CONCAT(boulder_name, area, sub_area), NULL)) AS COMPLETED
+        , COUNT(DISTINCT IF(flash='FLASH', CONCAT(boulder_name, area, sub_area), NULL)) AS FLASHED
+        , SUM(session_attempts) AS total_attempts
+        , SUM(session_minutes) AS total_minutes
+        , SUM(IF(completed='COMPLETED', total_attempts, 0)) AS completed_attempts
+        , SUM(IF(completed='COMPLETED', total_minutes, 0)) AS completed_minutes
+        , COUNT(DISTINCT IF(completed='COMPLETED' AND soft_hard = 'BOUNTY EXTRA SOFT', CONCAT(boulder_name, area, sub_area), NULL)) AS BOUNTY
+        , COUNT(DISTINCT IF(completed='COMPLETED' AND soft_hard = 'SOFT', CONCAT(boulder_name, area, sub_area), NULL)) AS SOFT
+        , COUNT(DISTINCT IF(completed='COMPLETED' AND soft_hard = 'HARD', CONCAT(boulder_name, area, sub_area), NULL)) AS HARD
+        , COUNT(DISTINCT IF(completed='COMPLETED' AND fa = 'FA', CONCAT(boulder_name, area, sub_area), NULL)) AS FA
+        , COUNT(DISTINCT IF(completed='COMPLETED' AND athletic = 'ATHLETIC', CONCAT(boulder_name, area, sub_area), NULL)) AS ATHLETIC
+        , COUNT(DISTINCT IF(completed='COMPLETED' AND cruxy = 'CRUXY', CONCAT(boulder_name, area, sub_area), NULL)) AS CRUXY
+        , COUNT(DISTINCT IF(completed='COMPLETED' AND slopey = 'SLOPEY', CONCAT(boulder_name, area, sub_area), NULL)) AS SLOPEY
+        , COUNT(DISTINCT IF(completed='COMPLETED' AND crimpy = 'CRIMPY', CONCAT(boulder_name, area, sub_area), NULL)) AS CRIMPY
+        , COUNT(DISTINCT IF(completed='COMPLETED' AND sharp = 'SHARP', CONCAT(boulder_name, area, sub_area), NULL)) AS SHARP
+        , COUNT(DISTINCT IF(completed='COMPLETED' AND technical = 'TECHNICAL', CONCAT(boulder_name, area, sub_area), NULL)) AS TECHNICAL
+        , COUNT(DISTINCT IF(completed='COMPLETED' AND power = 'POWER', CONCAT(boulder_name, area, sub_area), NULL)) AS POWER
+        , COUNT(DISTINCT IF(completed='COMPLETED' AND endurance = 'ENDURANCE', CONCAT(boulder_name, area, sub_area), NULL)) AS ENDURANCE
+        , COUNT(DISTINCT IF(completed='COMPLETED' AND overhang = 'OVERHANG', CONCAT(boulder_name, area, sub_area), NULL)) AS OVERHANG
+        , COUNT(DISTINCT IF(completed='COMPLETED' AND vertical = 'VERTICAL', CONCAT(boulder_name, area, sub_area), NULL)) AS VERTICAL
+        , COUNT(DISTINCT IF(completed='COMPLETED' AND slab = 'SLAB', CONCAT(boulder_name, area, sub_area), NULL)) AS SLAB
+        , COUNT(DISTINCT IF(completed='COMPLETED' AND roof = 'ROOF', CONCAT(boulder_name, area, sub_area), NULL)) AS ROOF
+        , COUNT(DISTINCT IF(completed='COMPLETED' AND scary = 'SCARY', CONCAT(boulder_name, area, sub_area), NULL)) AS SCARY
+        FROM boulder_problems bp
+        WHERE 1
+            AND bp.session_date > '0000-00-00'
+            AND bp.area IS NOT NULL
+        GROUP BY bp.area, YEAR(bp.session_date), bp.v_grade
+
+        UNION ALL
+
+        # -- area + year + all grades
+        SELECT CAST(YEAR(bp.session_date) AS CHAR) AS year
+        , bp.area AS Area
+        , 'All' AS V_Grade
+        , COUNT(DISTINCT bp.session_date) AS DAYS
+        , COUNT(*) AS SESSIONS
+        , COUNT(DISTINCT CONCAT(boulder_name, area, sub_area)) AS Distinct_Boulders
+        , COUNT(DISTINCT IF(completed='COMPLETED', CONCAT(boulder_name, area, sub_area), NULL)) AS COMPLETED
+        , COUNT(DISTINCT IF(flash='FLASH', CONCAT(boulder_name, area, sub_area), NULL)) AS FLASHED
+        , SUM(session_attempts) AS total_attempts
+        , SUM(session_minutes) AS total_minutes
+        , SUM(IF(completed='COMPLETED', total_attempts, 0)) AS completed_attempts
+        , SUM(IF(completed='COMPLETED', total_minutes, 0)) AS completed_minutes
+        , COUNT(DISTINCT IF(completed='COMPLETED' AND soft_hard = 'BOUNTY EXTRA SOFT', CONCAT(boulder_name, area, sub_area), NULL)) AS BOUNTY
+        , COUNT(DISTINCT IF(completed='COMPLETED' AND soft_hard = 'SOFT', CONCAT(boulder_name, area, sub_area), NULL)) AS SOFT
+        , COUNT(DISTINCT IF(completed='COMPLETED' AND soft_hard = 'HARD', CONCAT(boulder_name, area, sub_area), NULL)) AS HARD
+        , COUNT(DISTINCT IF(completed='COMPLETED' AND fa = 'FA', CONCAT(boulder_name, area, sub_area), NULL)) AS FA
+        , COUNT(DISTINCT IF(completed='COMPLETED' AND athletic = 'ATHLETIC', CONCAT(boulder_name, area, sub_area), NULL)) AS ATHLETIC
+        , COUNT(DISTINCT IF(completed='COMPLETED' AND cruxy = 'CRUXY', CONCAT(boulder_name, area, sub_area), NULL)) AS CRUXY
+        , COUNT(DISTINCT IF(completed='COMPLETED' AND slopey = 'SLOPEY', CONCAT(boulder_name, area, sub_area), NULL)) AS SLOPEY
+        , COUNT(DISTINCT IF(completed='COMPLETED' AND crimpy = 'CRIMPY', CONCAT(boulder_name, area, sub_area), NULL)) AS CRIMPY
+        , COUNT(DISTINCT IF(completed='COMPLETED' AND sharp = 'SHARP', CONCAT(boulder_name, area, sub_area), NULL)) AS SHARP
+        , COUNT(DISTINCT IF(completed='COMPLETED' AND technical = 'TECHNICAL', CONCAT(boulder_name, area, sub_area), NULL)) AS TECHNICAL
+        , COUNT(DISTINCT IF(completed='COMPLETED' AND power = 'POWER', CONCAT(boulder_name, area, sub_area), NULL)) AS POWER
+        , COUNT(DISTINCT IF(completed='COMPLETED' AND endurance = 'ENDURANCE', CONCAT(boulder_name, area, sub_area), NULL)) AS ENDURANCE
+        , COUNT(DISTINCT IF(completed='COMPLETED' AND overhang = 'OVERHANG', CONCAT(boulder_name, area, sub_area), NULL)) AS OVERHANG
+        , COUNT(DISTINCT IF(completed='COMPLETED' AND vertical = 'VERTICAL', CONCAT(boulder_name, area, sub_area), NULL)) AS VERTICAL
+        , COUNT(DISTINCT IF(completed='COMPLETED' AND slab = 'SLAB', CONCAT(boulder_name, area, sub_area), NULL)) AS SLAB
+        , COUNT(DISTINCT IF(completed='COMPLETED' AND roof = 'ROOF', CONCAT(boulder_name, area, sub_area), NULL)) AS ROOF
+        , COUNT(DISTINCT IF(completed='COMPLETED' AND scary = 'SCARY', CONCAT(boulder_name, area, sub_area), NULL)) AS SCARY
+        FROM boulder_problems bp
+        WHERE 1
+            AND bp.session_date > '0000-00-00'
+            AND bp.area IS NOT NULL
+        GROUP BY bp.area, YEAR(bp.session_date)
+
+        UNION ALL
+
+        # -- area + all-time + v_grade
+        SELECT 'All-Time' AS year
+        , bp.area AS Area
+        , bp.v_grade AS V_Grade
+        , COUNT(DISTINCT bp.session_date) AS DAYS
+        , COUNT(*) AS SESSIONS
+        , COUNT(DISTINCT CONCAT(boulder_name, area, sub_area)) AS Distinct_Boulders
+        , COUNT(DISTINCT IF(completed='COMPLETED', CONCAT(boulder_name, area, sub_area), NULL)) AS COMPLETED
+        , COUNT(DISTINCT IF(flash='FLASH', CONCAT(boulder_name, area, sub_area), NULL)) AS FLASHED
+        , SUM(session_attempts) AS total_attempts
+        , SUM(session_minutes) AS total_minutes
+        , SUM(IF(completed='COMPLETED', total_attempts, 0)) AS completed_attempts
+        , SUM(IF(completed='COMPLETED', total_minutes, 0)) AS completed_minutes
+        , COUNT(DISTINCT IF(completed='COMPLETED' AND soft_hard = 'BOUNTY EXTRA SOFT', CONCAT(boulder_name, area, sub_area), NULL)) AS BOUNTY
+        , COUNT(DISTINCT IF(completed='COMPLETED' AND soft_hard = 'SOFT', CONCAT(boulder_name, area, sub_area), NULL)) AS SOFT
+        , COUNT(DISTINCT IF(completed='COMPLETED' AND soft_hard = 'HARD', CONCAT(boulder_name, area, sub_area), NULL)) AS HARD
+        , COUNT(DISTINCT IF(completed='COMPLETED' AND fa = 'FA', CONCAT(boulder_name, area, sub_area), NULL)) AS FA
+        , COUNT(DISTINCT IF(completed='COMPLETED' AND athletic = 'ATHLETIC', CONCAT(boulder_name, area, sub_area), NULL)) AS ATHLETIC
+        , COUNT(DISTINCT IF(completed='COMPLETED' AND cruxy = 'CRUXY', CONCAT(boulder_name, area, sub_area), NULL)) AS CRUXY
+        , COUNT(DISTINCT IF(completed='COMPLETED' AND slopey = 'SLOPEY', CONCAT(boulder_name, area, sub_area), NULL)) AS SLOPEY
+        , COUNT(DISTINCT IF(completed='COMPLETED' AND crimpy = 'CRIMPY', CONCAT(boulder_name, area, sub_area), NULL)) AS CRIMPY
+        , COUNT(DISTINCT IF(completed='COMPLETED' AND sharp = 'SHARP', CONCAT(boulder_name, area, sub_area), NULL)) AS SHARP
+        , COUNT(DISTINCT IF(completed='COMPLETED' AND technical = 'TECHNICAL', CONCAT(boulder_name, area, sub_area), NULL)) AS TECHNICAL
+        , COUNT(DISTINCT IF(completed='COMPLETED' AND power = 'POWER', CONCAT(boulder_name, area, sub_area), NULL)) AS POWER
+        , COUNT(DISTINCT IF(completed='COMPLETED' AND endurance = 'ENDURANCE', CONCAT(boulder_name, area, sub_area), NULL)) AS ENDURANCE
+        , COUNT(DISTINCT IF(completed='COMPLETED' AND overhang = 'OVERHANG', CONCAT(boulder_name, area, sub_area), NULL)) AS OVERHANG
+        , COUNT(DISTINCT IF(completed='COMPLETED' AND vertical = 'VERTICAL', CONCAT(boulder_name, area, sub_area), NULL)) AS VERTICAL
+        , COUNT(DISTINCT IF(completed='COMPLETED' AND slab = 'SLAB', CONCAT(boulder_name, area, sub_area), NULL)) AS SLAB
+        , COUNT(DISTINCT IF(completed='COMPLETED' AND roof = 'ROOF', CONCAT(boulder_name, area, sub_area), NULL)) AS ROOF
+        , COUNT(DISTINCT IF(completed='COMPLETED' AND scary = 'SCARY', CONCAT(boulder_name, area, sub_area), NULL)) AS SCARY
+        FROM boulder_problems bp
+        WHERE 1
+            AND bp.session_date > '0000-00-00'
+            AND bp.area IS NOT NULL
+        GROUP BY bp.area, bp.v_grade
+
+        UNION ALL
+
+        # -- area + all-time + all grades
+        SELECT 'All-Time' AS year
+        , bp.area AS Area
+        , 'All' AS V_Grade
+        , COUNT(DISTINCT bp.session_date) AS DAYS
+        , COUNT(*) AS SESSIONS
+        , COUNT(DISTINCT CONCAT(boulder_name, area, sub_area)) AS Distinct_Boulders
+        , COUNT(DISTINCT IF(completed='COMPLETED', CONCAT(boulder_name, area, sub_area), NULL)) AS COMPLETED
+        , COUNT(DISTINCT IF(flash='FLASH', CONCAT(boulder_name, area, sub_area), NULL)) AS FLASHED
+        , SUM(session_attempts) AS total_attempts
+        , SUM(session_minutes) AS total_minutes
+        , SUM(IF(completed='COMPLETED', total_attempts, 0)) AS completed_attempts
+        , SUM(IF(completed='COMPLETED', total_minutes, 0)) AS completed_minutes
+        , COUNT(DISTINCT IF(completed='COMPLETED' AND soft_hard = 'BOUNTY EXTRA SOFT', CONCAT(boulder_name, area, sub_area), NULL)) AS BOUNTY
+        , COUNT(DISTINCT IF(completed='COMPLETED' AND soft_hard = 'SOFT', CONCAT(boulder_name, area, sub_area), NULL)) AS SOFT
+        , COUNT(DISTINCT IF(completed='COMPLETED' AND soft_hard = 'HARD', CONCAT(boulder_name, area, sub_area), NULL)) AS HARD
+        , COUNT(DISTINCT IF(completed='COMPLETED' AND fa = 'FA', CONCAT(boulder_name, area, sub_area), NULL)) AS FA
+        , COUNT(DISTINCT IF(completed='COMPLETED' AND athletic = 'ATHLETIC', CONCAT(boulder_name, area, sub_area), NULL)) AS ATHLETIC
+        , COUNT(DISTINCT IF(completed='COMPLETED' AND cruxy = 'CRUXY', CONCAT(boulder_name, area, sub_area), NULL)) AS CRUXY
+        , COUNT(DISTINCT IF(completed='COMPLETED' AND slopey = 'SLOPEY', CONCAT(boulder_name, area, sub_area), NULL)) AS SLOPEY
+        , COUNT(DISTINCT IF(completed='COMPLETED' AND crimpy = 'CRIMPY', CONCAT(boulder_name, area, sub_area), NULL)) AS CRIMPY
+        , COUNT(DISTINCT IF(completed='COMPLETED' AND sharp = 'SHARP', CONCAT(boulder_name, area, sub_area), NULL)) AS SHARP
+        , COUNT(DISTINCT IF(completed='COMPLETED' AND technical = 'TECHNICAL', CONCAT(boulder_name, area, sub_area), NULL)) AS TECHNICAL
+        , COUNT(DISTINCT IF(completed='COMPLETED' AND power = 'POWER', CONCAT(boulder_name, area, sub_area), NULL)) AS POWER
+        , COUNT(DISTINCT IF(completed='COMPLETED' AND endurance = 'ENDURANCE', CONCAT(boulder_name, area, sub_area), NULL)) AS ENDURANCE
+        , COUNT(DISTINCT IF(completed='COMPLETED' AND overhang = 'OVERHANG', CONCAT(boulder_name, area, sub_area), NULL)) AS OVERHANG
+        , COUNT(DISTINCT IF(completed='COMPLETED' AND vertical = 'VERTICAL', CONCAT(boulder_name, area, sub_area), NULL)) AS VERTICAL
+        , COUNT(DISTINCT IF(completed='COMPLETED' AND slab = 'SLAB', CONCAT(boulder_name, area, sub_area), NULL)) AS SLAB
+        , COUNT(DISTINCT IF(completed='COMPLETED' AND roof = 'ROOF', CONCAT(boulder_name, area, sub_area), NULL)) AS ROOF
+        , COUNT(DISTINCT IF(completed='COMPLETED' AND scary = 'SCARY', CONCAT(boulder_name, area, sub_area), NULL)) AS SCARY
+        FROM boulder_problems bp
+        WHERE 1
+            AND bp.session_date > '0000-00-00'
+            AND bp.area IS NOT NULL
+        GROUP BY bp.area
+
     ) a
-    ORDER BY IF(year='all-time', 2, IF(year='Last 365', 1, 0)) DESC, CAST(year AS UNSIGNED) DESC, IF(V_Grade='all', 1, 0) DESC, CAST(a.v_grade AS DECIMAL(3,1)) DESC
+    ORDER BY
+        -- Existing rows (Area = 'All') come first
+        IF(a.Area = 'All', 0, 1) ASC
+        -- Within existing rows: Last 365 first, then All-Time, then years desc
+        , IF(a.Area = 'All', IF(a.year='All-Time', 2, IF(a.year='Last 365', 1, 0)), 0) DESC
+        , IF(a.Area = 'All', CAST(a.year AS UNSIGNED), 0) DESC
+        -- Within area rows: alphabetically by area
+        , IF(a.Area != 'All', a.Area, '') ASC
+        -- Within each area: All-Time first, then years desc
+        , IF(a.Area != 'All', IF(a.year='All-Time', 1, 0), 0) DESC
+        , IF(a.Area != 'All', CAST(a.year AS UNSIGNED), 0) DESC
+        -- Within each area+year: All grades first, then grade desc
+        , IF(a.V_Grade='All', 1, 0) DESC
+        , CAST(a.V_Grade AS DECIMAL(3,1)) DESC
     ;"""
 
     res = db.query(qry)
