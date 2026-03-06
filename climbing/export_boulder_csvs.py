@@ -260,7 +260,7 @@ def process_breakdown():
     qry = """SELECT @row := @row + 1 AS `row`
     , Year
     , Area
-    , IF(V_Grade='All'
+    , IF(V_Grade='All Grades'
         , V_Grade
         , IF(RIGHT(V_Grade,1)=0
             , CONCAT('V',ROUND(V_GRADE))
@@ -297,13 +297,9 @@ def process_breakdown():
     , SCARY
     FROM (
 
-        -- =============================================
-        -- EXISTING BLOCKS (Area = 'All')
-        -- =============================================
-
         -- year + v_grade
         SELECT GROUP_CONCAT(DISTINCT YEAR(bp.session_date)) AS year
-        , 'All' AS Area
+        , 'All Areas' AS Area
         , GROUP_CONCAT(DISTINCT bp.v_grade) AS V_Grade
         , COUNT(DISTINCT bp.session_date) AS DAYS
         , COUNT(*) AS SESSIONS
@@ -338,10 +334,10 @@ def process_breakdown():
 
         UNION ALL
 
-        # -- year + all grades
+        -- year + all grades
         SELECT GROUP_CONCAT(DISTINCT YEAR(bp.session_date)) AS year
-        , 'All' AS Area
-        , 'All' AS V_Grade
+        , 'All Areas' AS Area
+        , 'All Grades' AS V_Grade
         , COUNT(DISTINCT bp.session_date) AS DAYS
         , COUNT(*) AS SESSIONS
         , COUNT(DISTINCT CONCAT(boulder_name, area, sub_area)) AS Distinct_Boulders
@@ -375,10 +371,10 @@ def process_breakdown():
 
         UNION ALL
 
-        # -- all-time + v_grade (includes all-time + all via ROLLUP)
+        -- all-time + v_grade (includes all-time + all via ROLLUP)
         SELECT 'All-Time' AS year
-        , 'All' AS Area
-        , COALESCE(bp.v_grade, 'All') AS V_Grade
+        , 'All Areas' AS Area
+        , COALESCE(bp.v_grade, 'All Grades') AS V_Grade
         , COUNT(DISTINCT bp.session_date) AS DAYS
         , COUNT(*) AS SESSIONS
         , COUNT(DISTINCT CONCAT(boulder_name, area, sub_area)) AS Distinct_Boulders
@@ -412,10 +408,10 @@ def process_breakdown():
 
         UNION ALL
 
-        # -- last 365 + v_grade (includes last 365 + all via ROLLUP)
+        -- last 365 + v_grade (includes last 365 + all via ROLLUP)
         SELECT 'Last 365' AS year
-        , 'All' AS Area
-        , COALESCE(bp.v_grade, 'All') AS V_Grade
+        , 'All Areas' AS Area
+        , COALESCE(bp.v_grade, 'All Grades') AS V_Grade
         , COUNT(DISTINCT bp.session_date) AS DAYS
         , COUNT(*) AS SESSIONS
         , COUNT(DISTINCT CONCAT(boulder_name, area, sub_area)) AS Distinct_Boulders
@@ -448,13 +444,9 @@ def process_breakdown():
             AND bp.session_date > DATE_ADD(NOW(), INTERVAL -365 DAY)
         GROUP BY bp.v_grade WITH ROLLUP
 
-        # -- =============================================
-        # -- NEW AREA BLOCKS
-        # -- =============================================
-
         UNION ALL
 
-        # -- area + year + v_grade
+        -- area + year + v_grade
         SELECT CAST(YEAR(bp.session_date) AS CHAR) AS year
         , bp.area AS Area
         , bp.v_grade AS V_Grade
@@ -492,10 +484,10 @@ def process_breakdown():
 
         UNION ALL
 
-        # -- area + year + all grades
+        -- area + year + all grades
         SELECT CAST(YEAR(bp.session_date) AS CHAR) AS year
         , bp.area AS Area
-        , 'All' AS V_Grade
+        , 'All Grades' AS V_Grade
         , COUNT(DISTINCT bp.session_date) AS DAYS
         , COUNT(*) AS SESSIONS
         , COUNT(DISTINCT CONCAT(boulder_name, area, sub_area)) AS Distinct_Boulders
@@ -530,7 +522,7 @@ def process_breakdown():
 
         UNION ALL
 
-        # -- area + all-time + v_grade
+        -- area + all-time + v_grade
         SELECT 'All-Time' AS year
         , bp.area AS Area
         , bp.v_grade AS V_Grade
@@ -568,10 +560,10 @@ def process_breakdown():
 
         UNION ALL
 
-        # -- area + all-time + all grades
+        -- area + all-time + all grades
         SELECT 'All-Time' AS year
         , bp.area AS Area
-        , 'All' AS V_Grade
+        , 'All Grades' AS V_Grade
         , COUNT(DISTINCT bp.session_date) AS DAYS
         , COUNT(*) AS SESSIONS
         , COUNT(DISTINCT CONCAT(boulder_name, area, sub_area)) AS Distinct_Boulders
@@ -606,18 +598,13 @@ def process_breakdown():
 
     ) a
     ORDER BY
-        -- Existing rows (Area = 'All') come first
-        IF(a.Area = 'All', 0, 1) ASC
-        -- Within existing rows: Last 365 first, then All-Time, then years desc
-        , IF(a.Area = 'All', IF(a.year='All-Time', 2, IF(a.year='Last 365', 1, 0)), 0) DESC
-        , IF(a.Area = 'All', CAST(a.year AS UNSIGNED), 0) DESC
-        -- Within area rows: alphabetically by area
-        , IF(a.Area != 'All', a.Area, '') ASC
-        -- Within each area: All-Time first, then years desc
-        , IF(a.Area != 'All', IF(a.year='All-Time', 1, 0), 0) DESC
-        , IF(a.Area != 'All', CAST(a.year AS UNSIGNED), 0) DESC
-        -- Within each area+year: All grades first, then grade desc
-        , IF(a.V_Grade='All', 1, 0) DESC
+        IF(a.Area = 'All Areas', 0, 1) ASC
+        , IF(a.Area = 'All Areas', IF(a.year='All-Time', 2, IF(a.year='Last 365', 1, 0)), 0) DESC
+        , IF(a.Area = 'All Areas', CAST(a.year AS UNSIGNED), 0) DESC
+        , IF(a.Area != 'All Areas', a.Area, '') ASC
+        , IF(a.Area != 'All Areas', IF(a.year='All-Time', 1, 0), 0) DESC
+        , IF(a.Area != 'All Areas', CAST(a.year AS UNSIGNED), 0) DESC
+        , IF(a.V_Grade='All Grades', 1, 0) DESC
         , CAST(a.V_Grade AS DECIMAL(3,1)) DESC
     ;"""
 
