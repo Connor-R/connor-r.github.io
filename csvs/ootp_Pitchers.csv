@@ -41,7 +41,7 @@ Alex Santos II,"RP, 36 ovr / 20 adj (40 stam, 1 pit) 45 GB% | 230 vsR | 237 vsL 
 Alex Vesia,"RP, 62 ovr / 49 adj (14 stam, 3 pit) 43 GB% | 84 vsR | 77 vsL | 83 FIP-",RP,0.0,1.0,62.0,49,L,14.0,3,43.0,83.0,84.0,77.0,PIT
 Alex Young,"RP, 41 ovr / 22 adj (14 stam, 1 pit) 59 GB% | 159 vsR | 122 vsL | 152 FIP-",RP,0.0,-0.8,41.0,22,L,14.0,1,59.0,152.0,159.0,122.0,
 Alexander Alberto,"RP, 39 ovr / 24 adj (19 stam, 2 pit) 63 GB% | 132 vsR | 176 vsL | 149 FIP-",RP,0.0,-0.7,39.0,24,R,19.0,2,63.0,149.0,132.0,176.0,
-Alexis Diaz,"RP, 46 ovr / 40 adj (15 stam, 2 pit) 38 GB% | 95 vsR | 123 vsL | 104 FIP-",RP,0.0,0.4,46.0,40,R,15.0,2,38.0,104.0,95.0,123.0,
+Alexis Diaz,"RP, 46 ovr / 40 adj (15 stam, 2 pit) 38 GB% | 95 vsR | 123 vsL | 104 FIP-",RP,0.0,0.4,46.0,40,R,15.0,2,38.0,104.0,95.0,123.0,OAK
 Alfonsin Rosario,"RP, 39 ovr / 20 adj (24 stam, 0 pit) 39 GB% | 397 vsR | 398 vsL | 397 FIP-",RP,0.0,-4.8,39.0,20,R,24.0,0,39.0,397.0,397.0,398.0,CLE
 Alfred Morillo,"RP, 35 ovr / 20 adj (15 stam, 0 pit) 55 GB% | 182 vsR | 219 vsL | 198 FIP-",RP,0.0,-1.8,35.0,20,R,15.0,0,55.0,198.0,182.0,219.0,
 Alfredo Zarraga,"RP, 38 ovr / 20 adj (19 stam, 2 pit) 49 GB% | 181 vsR | 192 vsL | 188 FIP-",RP,0.0,-1.6,38.0,20,R,19.0,2,49.0,188.0,181.0,192.0,
@@ -86,7 +86,7 @@ Anthony Banda,"RP, 39 ovr / 20 adj (19 stam, 1 pit) 49 GB% | 178 vsR | 178 vsL |
 Anthony Bender,"RP, 49 ovr / 44 adj (14 stam, 2 pit) 66 GB% | 81 vsR | 150 vsL | 95 FIP-",RP,0.0,0.7,49.0,44,R,14.0,2,66.0,95.0,81.0,150.0,PHI
 Anthony DeSclafani,"SP, 43 ovr / 20 adj (52 stam, 1 pit) 55 GB% | 178 vsR | 186 vsL | 180 FIP-",SP,-3.1,-1.4,43.0,20,R,52.0,1,55.0,180.0,178.0,186.0,
 Anthony Eyanson,"SP, 37 ovr / 20 adj (59 stam, 0 pit) 50 GB% | 226 vsR | 237 vsL | 232 FIP-",SP,-6.1,-2.4,37.0,20,R,59.0,0,50.0,232.0,226.0,237.0,LAD
-Anthony Kay,"SP, 47 ovr / 42 adj (57 stam, 4 pit) 53 GB% | 126 vsR | 114 vsL | 123 FIP-",SP,0.9,-0.1,47.0,42,L,57.0,4,53.0,123.0,126.0,114.0,
+Anthony Kay,"SP, 47 ovr / 42 adj (57 stam, 4 pit) 53 GB% | 126 vsR | 114 vsL | 123 FIP-",SP,0.9,-0.1,47.0,42,L,57.0,4,53.0,123.0,126.0,114.0,MIL
 Anthony Maldonado,"RP, 39 ovr / 24 adj (20 stam, 2 pit) 51 GB% | 115 vsR | 178 vsL | 148 FIP-",RP,0.0,-0.7,39.0,24,R,20.0,2,51.0,148.0,115.0,178.0,
 Anthony Molina,"RP, 37 ovr / 20 adj (24 stam, 0 pit) 46 GB% | 202 vsR | 166 vsL | 187 FIP-",RP,0.0,-1.6,37.0,20,R,24.0,0,46.0,187.0,202.0,166.0,
 Anthony Nunez,"RP, 42 ovr / 31 adj (20 stam, 4 pit) 52 GB% | 114 vsR | 143 vsL | 129 FIP-",RP,0.0,-0.3,42.0,31,R,20.0,4,52.0,129.0,114.0,143.0,
@@ -136,7 +136,7 @@ Blake Burkhalter,"RP, 40 ovr / 20 adj (47 stam, 1 pit) 43 GB% | 171 vsR | 174 vs
 Blake Mitchell,"RP, 36 ovr / 20 adj (44 stam, 0 pit) 45 GB% | 373 vsR | 370 vsL | 371 FIP-",RP,0.0,-4.4,36.0,20,R,44.0,0,45.0,371.0,373.0,370.0,STL
 Blake Snell,"SP, 66 ovr / 66 adj (47 stam, 4 pit) 48 GB% | 85 vsR | 73 vsL | 84 FIP-",SP,4.1,1.0,66.0,66,L,47.0,4,48.0,84.0,85.0,73.0,DET
 Blake Townsend,"RP, 38 ovr / 20 adj (48 stam, 0 pit) 38 GB% | 209 vsR | 176 vsL | 200 FIP-",RP,0.0,-1.8,38.0,20,L,48.0,0,38.0,200.0,209.0,176.0,
-Blake Treinen,"RP, 50 ovr / 44 adj (14 stam, 4 pit) 54 GB% | 92 vsR | 96 vsL | 93 FIP-",RP,0.0,0.7,50.0,44,R,14.0,4,54.0,93.0,92.0,96.0,
+Blake Treinen,"RP, 50 ovr / 44 adj (14 stam, 4 pit) 54 GB% | 92 vsR | 96 vsL | 93 FIP-",RP,0.0,0.7,50.0,44,R,14.0,4,54.0,93.0,92.0,96.0,PHI
 Blake Walston,"RP, 44 ovr / 22 adj (47 stam, 1 pit) 49 GB% | 154 vsR | 147 vsL | 153 FIP-",RP,0.0,-0.8,44.0,22,L,47.0,1,49.0,153.0,154.0,147.0,SD
 Blake Wehunt,"RP, 39 ovr / 20 adj (48 stam, 0 pit) 46 GB% | 188 vsR | 209 vsL | 197 FIP-",RP,0.0,-1.8,39.0,20,R,48.0,0,46.0,197.0,188.0,209.0,
 Blake Weiman,"RP, 37 ovr / 20 adj (17 stam, 0 pit) 46 GB% | 211 vsR | 147 vsL | 194 FIP-",RP,0.0,-1.7,37.0,20,L,17.0,0,46.0,194.0,211.0,147.0,
@@ -179,7 +179,7 @@ Brandyn Garcia,"RP, 47 ovr / 41 adj (23 stam, 3 pit) 56 GB% | 111 vsR | 86 vsL |
 Branneli Franco,"SP, 27 ovr / 20 adj (59 stam, 0 pit) 54 GB% | 320 vsR | 326 vsL | 323 FIP-",SP,-10.3,-3.8,27.0,20,R,59.0,0,54.0,323.0,320.0,326.0,NYY
 Brant Hurter,"SP, 50 ovr / 58 adj (53 stam, 2 pit) 59 GB% | 119 vsR | 81 vsL | 99 FIP-",SP,2.8,0.5,50.0,58,L,53.0,2,59.0,99.0,119.0,81.0,DET
 Braxton Ashcraft,"SP, 56 ovr / 62 adj (48 stam, 3 pit) 49 GB% | 90 vsR | 95 vsL | 93 FIP-",SP,3.3,0.7,56.0,62,R,48.0,3,49.0,93.0,90.0,95.0,PIT
-Braxton Bragg,"SP, 44 ovr / 20 adj (57 stam, 3 pit) 45 GB% | 175 vsR | 185 vsL | 179 FIP-",SP,-3.0,-1.4,44.0,20,R,57.0,3,45.0,179.0,175.0,185.0,
+Braxton Bragg,"SP, 44 ovr / 20 adj (57 stam, 3 pit) 45 GB% | 175 vsR | 185 vsL | 179 FIP-",SP,-3.0,-1.4,44.0,20,R,57.0,3,45.0,179.0,175.0,185.0,MIL
 Braxton Garrett,"SP, 52 ovr / 54 adj (45 stam, 3 pit) 57 GB% | 104 vsR | 104 vsL | 105 FIP-",SP,2.3,0.4,52.0,54,L,45.0,3,57.0,105.0,104.0,104.0,TB
 Braxton Roxby,"RP, 37 ovr / 20 adj (20 stam, 2 pit) 46 GB% | 172 vsR | 201 vsL | 184 FIP-",RP,0.0,-1.5,37.0,20,R,20.0,2,46.0,184.0,172.0,201.0,
 Brayan Bello,"SP, 48 ovr / 52 adj (52 stam, 2 pit) 57 GB% | 92 vsR | 148 vsL | 107 FIP-",SP,2.1,0.3,48.0,52,R,52.0,2,57.0,107.0,92.0,148.0,BOS
@@ -218,7 +218,7 @@ Brusdar Graterol,"RP, 57 ovr / 50 adj (16 stam, 1 pit) 74 GB% | 70 vsR | 97 vsL 
 Bryan Abreu,"RP, 67 ovr / 58 adj (15 stam, 2 pit) 46 GB% | 54 vsR | 69 vsL | 61 FIP-",RP,0.0,1.7,67.0,58,R,15.0,2,46.0,61.0,54.0,69.0,TB
 Bryan Baker,"RP, 52 ovr / 38 adj (16 stam, 4 pit) 45 GB% | 106 vsR | 114 vsL | 109 FIP-",RP,0.0,0.3,52.0,38,R,16.0,4,45.0,109.0,106.0,114.0,SD
 Bryan Hoeing,"RP, 47 ovr / 25 adj (38 stam, 0 pit) 64 GB% | 114 vsR | 173 vsL | 144 FIP-",RP,0.0,-0.6,47.0,25,R,38.0,0,64.0,144.0,114.0,173.0,MIN
-Bryan Hudson,"RP, 47 ovr / 41 adj (20 stam, 3 pit) 51 GB% | 107 vsR | 89 vsL | 101 FIP-",RP,0.0,0.5,47.0,41,L,20.0,3,51.0,101.0,107.0,89.0,
+Bryan Hudson,"RP, 47 ovr / 41 adj (20 stam, 3 pit) 51 GB% | 107 vsR | 89 vsL | 101 FIP-",RP,0.0,0.5,47.0,41,L,20.0,3,51.0,101.0,107.0,89.0,WAS
 Bryan King,"RP, 49 ovr / 37 adj (15 stam, 2 pit) 52 GB% | 136 vsR | 81 vsL | 112 FIP-",RP,0.0,0.2,49.0,37,L,15.0,2,52.0,112.0,136.0,81.0,SEA
 Bryan Lavastida,"RP, 43 ovr / 20 adj (18 stam, 0 pit) 53 GB% | 397 vsR | 399 vsL | 398 FIP-",RP,0.0,-4.8,43.0,20,R,18.0,0,53.0,398.0,397.0,399.0,CHW
 Bryan Magdaleno,"RP, 37 ovr / 20 adj (20 stam, 2 pit) 58 GB% | 189 vsR | 102 vsL | 169 FIP-",RP,0.0,-1.2,37.0,20,L,20.0,2,58.0,169.0,189.0,102.0,
@@ -274,7 +274,7 @@ Camilo Doval,"RP, 55 ovr / 55 adj (15 stam, 3 pit) 66 GB% | 61 vsR | 75 vsL | 68
 Carl Edwards Jr.,"RP, 39 ovr / 20 adj (30 stam, 2 pit) 55 GB% | 150 vsR | 183 vsL | 162 FIP-",RP,0.0,-1.0,39.0,20,R,30.0,2,55.0,162.0,150.0,183.0,
 Carlos Estevez,"RP, 56 ovr / 42 adj (14 stam, 2 pit) 45 GB% | 89 vsR | 126 vsL | 99 FIP-",RP,0.0,0.5,56.0,42,R,14.0,2,45.0,99.0,89.0,126.0,STL
 Carlos F. Rodriguez,"SP, 44 ovr / 20 adj (52 stam, 3 pit) 42 GB% | 158 vsR | 191 vsL | 176 FIP-",SP,-2.8,-1.3,44.0,20,R,52.0,3,42.0,176.0,158.0,191.0,WAS
-Carlos Hernandez,"RP, 46 ovr / 31 adj (23 stam, 3 pit) 37 GB% | 125 vsR | 134 vsL | 128 FIP-",RP,0.0,-0.3,46.0,31,R,23.0,3,37.0,128.0,125.0,134.0,
+Carlos Hernandez,"RP, 46 ovr / 31 adj (23 stam, 3 pit) 37 GB% | 125 vsR | 134 vsL | 128 FIP-",RP,0.0,-0.3,46.0,31,R,23.0,3,37.0,128.0,125.0,134.0,PHI
 Carlos LaGrange,"SP, 41 ovr / 20 adj (46 stam, 3 pit) 48 GB% | 166 vsR | 190 vsL | 178 FIP-",SP,-3.0,-1.4,41.0,20,R,46.0,3,48.0,178.0,166.0,190.0,BAL
 Carlos Rodon,"SP, 59 ovr / 48 adj (66 stam, 4 pit) 40 GB% | 121 vsR | 101 vsL | 114 FIP-",SP,1.6,0.1,59.0,48,L,66.0,4,40.0,114.0,121.0,101.0,TEX
 Carlos Vargas,"RP, 39 ovr / 20 adj (16 stam, 0 pit) 60 GB% | 147 vsR | 170 vsL | 159 FIP-",RP,0.0,-1.0,39.0,20,R,16.0,0,60.0,159.0,147.0,170.0,TB
@@ -384,7 +384,7 @@ Corbin Martin,"SP, 40 ovr / 20 adj (34 stam, 3 pit) 50 GB% | 160 vsR | 201 vsL |
 Corey Avant,"SP, 39 ovr / 20 adj (55 stam, 1 pit) 54 GB% | 197 vsR | 205 vsL | 200 FIP-",SP,-4.3,-1.8,39.0,20,R,55.0,1,54.0,200.0,197.0,205.0,
 Cory Abbott,"SP, 44 ovr / 20 adj (40 stam, 3 pit) 44 GB% | 163 vsR | 182 vsL | 172 FIP-",SP,-2.6,-1.3,44.0,20,R,40.0,3,44.0,172.0,163.0,182.0,
 Coy James,"RP, 28 ovr / 20 adj (48 stam, 0 pit) 46 GB% | 395 vsR | 395 vsL | 395 FIP-",RP,0.0,-4.7,28.0,20,R,48.0,0,46.0,395.0,395.0,395.0,TEX
-Craig Kimbrel,"RP, 50 ovr / 47 adj (14 stam, 3 pit) 38 GB% | 85 vsR | 90 vsL | 87 FIP-",RP,0.0,0.9,50.0,47,R,14.0,3,38.0,87.0,85.0,90.0,
+Craig Kimbrel,"RP, 50 ovr / 47 adj (14 stam, 3 pit) 38 GB% | 85 vsR | 90 vsL | 87 FIP-",RP,0.0,0.9,50.0,47,R,14.0,3,38.0,87.0,85.0,90.0,CIN
 Craig Yoho,"RP, 41 ovr / 30 adj (18 stam, 3 pit) 62 GB% | 125 vsR | 145 vsL | 132 FIP-",RP,0.0,-0.3,41.0,30,R,18.0,3,62.0,132.0,125.0,145.0,CHW
 Cristian Javier,"SP, 52 ovr / 42 adj (57 stam, 4 pit) 44 GB% | 100 vsR | 156 vsL | 123 FIP-",SP,0.9,-0.1,52.0,42,R,57.0,4,44.0,123.0,100.0,156.0,PIT
 Cristian Mena,"SP, 48 ovr / 33 adj (50 stam, 5 pit) 49 GB% | 122 vsR | 162 vsL | 137 FIP-",SP,-0.2,-0.5,48.0,33,R,50.0,5,49.0,137.0,122.0,162.0,TEX
@@ -429,7 +429,7 @@ Davis Sharpe,"RP, 36 ovr / 20 adj (23 stam, 0 pit) 49 GB% | 200 vsR | 242 vsL | 
 Dax Fulton,"SP, 41 ovr / 20 adj (60 stam, 0 pit) 67 GB% | 171 vsR | 159 vsL | 168 FIP-",SP,-2.3,-1.2,41.0,20,L,60.0,0,67.0,168.0,171.0,159.0,CIN
 Dax Kilby,"RP, 29 ovr / 20 adj (13 stam, 0 pit) 30 GB% | 405 vsR | 406 vsL | 405 FIP-",RP,0.0,-4.8,29.0,20,R,13.0,0,30.0,405.0,405.0,406.0,SF
 Daysbel Hernandez,"RP, 39 ovr / 29 adj (17 stam, 2 pit) 49 GB% | 129 vsR | 140 vsL | 133 FIP-",RP,0.0,-0.4,39.0,29,R,17.0,2,49.0,133.0,129.0,140.0,
-Dean Kremer,"SP, 48 ovr / 31 adj (60 stam, 1 pit) 47 GB% | 158 vsR | 123 vsL | 139 FIP-",SP,-0.3,-0.5,48.0,31,R,60.0,1,47.0,139.0,158.0,123.0,
+Dean Kremer,"SP, 48 ovr / 31 adj (60 stam, 1 pit) 47 GB% | 158 vsR | 123 vsL | 139 FIP-",SP,-0.3,-0.5,48.0,31,R,60.0,1,47.0,139.0,158.0,123.0,SD
 Declan Cronin,"RP, 38 ovr / 24 adj (18 stam, 2 pit) 64 GB% | 120 vsR | 170 vsL | 149 FIP-",RP,0.0,-0.8,38.0,24,R,18.0,2,64.0,149.0,120.0,170.0,
 Dedniel Nunez,"RP, 43 ovr / 28 adj (19 stam, 2 pit) 51 GB% | 112 vsR | 166 vsL | 138 FIP-",RP,0.0,-0.5,43.0,28,R,19.0,2,51.0,138.0,112.0,166.0,SF
 Deivi Garcia,"RP, 43 ovr / 20 adj (28 stam, 1 pit) 41 GB% | 157 vsR | 186 vsL | 172 FIP-",RP,0.0,-1.3,43.0,20,R,28.0,1,41.0,172.0,157.0,186.0,
@@ -445,7 +445,7 @@ DL Hall,"SP, 48 ovr / 53 adj (40 stam, 4 pit) 52 GB% | 109 vsR | 99 vsL | 107 FI
 Dom Hamel,"RP, 43 ovr / 20 adj (43 stam, 2 pit) 41 GB% | 179 vsR | 185 vsL | 180 FIP-",RP,0.0,-1.4,43.0,20,R,43.0,2,41.0,180.0,179.0,185.0,
 Domingo Gonzalez,"RP, 38 ovr / 20 adj (25 stam, 1 pit) 44 GB% | 163 vsR | 191 vsL | 173 FIP-",RP,0.0,-1.3,38.0,20,R,25.0,1,44.0,173.0,163.0,191.0,
 Doug Nikhazy,"SP, 41 ovr / 20 adj (38 stam, 3 pit) 45 GB% | 187 vsR | 171 vsL | 181 FIP-",SP,-3.2,-1.5,41.0,20,L,38.0,3,45.0,181.0,187.0,171.0,MIN
-Drew Anderson,"SP, 49 ovr / 38 adj (58 stam, 4 pit) 46 GB% | 132 vsR | 122 vsL | 129 FIP-",SP,0.4,-0.3,49.0,38,R,58.0,4,46.0,129.0,132.0,122.0,
+Drew Anderson,"SP, 49 ovr / 38 adj (58 stam, 4 pit) 46 GB% | 132 vsR | 122 vsL | 129 FIP-",SP,0.4,-0.3,49.0,38,R,58.0,4,46.0,129.0,132.0,122.0,BAL
 Drew Beam,"SP, 38 ovr / 20 adj (64 stam, 0 pit) 48 GB% | 221 vsR | 228 vsL | 225 FIP-",SP,-5.7,-2.3,38.0,20,R,64.0,0,48.0,225.0,221.0,228.0,SD
 Drew Gilbert,"RP, 40 ovr / 20 adj (18 stam, 0 pit) 45 GB% | 374 vsR | 375 vsL | 375 FIP-",RP,0.0,-4.5,40.0,20,L,18.0,0,45.0,375.0,374.0,375.0,CIN
 Drew Pomeranz,"RP, 45 ovr / 38 adj (15 stam, 2 pit) 48 GB% | 124 vsR | 83 vsL | 108 FIP-",RP,0.0,0.3,45.0,38,L,15.0,2,48.0,108.0,124.0,83.0,CHW
@@ -470,7 +470,7 @@ Dylan Lee,"RP, 52 ovr / 42 adj (17 stam, 3 pit) 46 GB% | 106 vsR | 88 vsL | 98 F
 Dylan Lesko,"RP, 32 ovr / 20 adj (23 stam, 3 pit) 41 GB% | 261 vsR | 259 vsL | 261 FIP-",RP,0.0,-2.9,32.0,20,R,23.0,3,41.0,261.0,261.0,259.0,CHC
 Dylan Ray,"SP, 44 ovr / 20 adj (54 stam, 3 pit) 42 GB% | 185 vsR | 154 vsL | 170 FIP-",SP,-2.5,-1.2,44.0,20,R,54.0,3,42.0,170.0,185.0,154.0,
 Dylan Ross,"RP, 46 ovr / 44 adj (21 stam, 3 pit) 56 GB% | 90 vsR | 99 vsL | 95 FIP-",RP,0.0,0.7,46.0,44,R,21.0,3,56.0,95.0,90.0,99.0,
-Dylan Smith,"RP, 45 ovr / 36 adj (21 stam, 2 pit) 53 GB% | 103 vsR | 125 vsL | 115 FIP-",RP,0.0,0.1,45.0,36,R,21.0,2,53.0,115.0,103.0,125.0,KC
+Dylan Smith,"RP, 45 ovr / 36 adj (21 stam, 2 pit) 53 GB% | 103 vsR | 125 vsL | 115 FIP-",RP,0.0,0.1,45.0,36,R,21.0,2,53.0,115.0,103.0,125.0,PIT
 Dylan TeBrake,"RP, 42 ovr / 27 adj (22 stam, 3 pit) 57 GB% | 122 vsR | 157 vsL | 138 FIP-",RP,0.0,-0.5,42.0,27,R,22.0,3,57.0,138.0,122.0,157.0,
 Easton McGee,"RP, 46 ovr / 31 adj (48 stam, 0 pit) 56 GB% | 121 vsR | 136 vsL | 126 FIP-",RP,0.0,-0.2,46.0,31,R,48.0,0,56.0,126.0,121.0,136.0,
 Eddy Yean,"RP, 36 ovr / 20 adj (23 stam, 0 pit) 50 GB% | 209 vsR | 221 vsL | 216 FIP-",RP,0.0,-2.1,36.0,20,R,23.0,0,50.0,216.0,209.0,221.0,CHW
@@ -483,18 +483,19 @@ Edward Cabrera,"SP, 57 ovr / 59 adj (40 stam, 5 pit) 53 GB% | 88 vsR | 134 vsL |
 Edwin Diaz,"RP, 74 ovr / 57 adj (15 stam, 2 pit) 50 GB% | 66 vsR | 63 vsL | 65 FIP-",RP,0.0,1.6,74.0,57,R,15.0,2,50.0,65.0,66.0,63.0,BOS
 Edwin Uceta,"RP, 56 ovr / 46 adj (22 stam, 3 pit) 39 GB% | 86 vsR | 95 vsL | 89 FIP-",RP,0.0,0.8,56.0,46,R,22.0,3,39.0,89.0,86.0,95.0,LAA
 Eiberson Castellano,"RP, 36 ovr / 20 adj (41 stam, 2 pit) 50 GB% | 186 vsR | 213 vsL | 197 FIP-",RP,0.0,-1.8,36.0,20,R,41.0,2,50.0,197.0,186.0,213.0,
-Eli Morgan,"RP, 42 ovr / 20 adj (22 stam, 2 pit) 36 GB% | 142 vsR | 188 vsL | 165 FIP-",RP,0.0,-1.1,42.0,20,R,22.0,2,36.0,165.0,142.0,188.0,
+Eli Morgan,"RP, 42 ovr / 20 adj (22 stam, 2 pit) 36 GB% | 142 vsR | 188 vsL | 165 FIP-",RP,0.0,-1.1,42.0,20,R,22.0,2,36.0,165.0,142.0,188.0,CLE
 Elieser Hernandez,"SP, 43 ovr / 20 adj (62 stam, 2 pit) 45 GB% | 180 vsR | 212 vsL | 195 FIP-",SP,-4.0,-1.7,43.0,20,R,62.0,2,45.0,195.0,180.0,212.0,
 Elison Joseph,"RP, 37 ovr / 20 adj (18 stam, 2 pit) 48 GB% | 189 vsR | 213 vsL | 198 FIP-",RP,0.0,-1.8,37.0,20,R,18.0,2,48.0,198.0,189.0,213.0,
 Elmer Rodriguez-Cruz,"SP, 44 ovr / 20 adj (55 stam, 2 pit) 54 GB% | 174 vsR | 191 vsL | 182 FIP-",SP,-3.2,-1.5,44.0,20,R,55.0,2,54.0,182.0,174.0,191.0,SF
-Elvis Alvarado,"RP, 46 ovr / 36 adj (17 stam, 3 pit) 44 GB% | 130 vsR | 99 vsL | 115 FIP-",RP,0.0,0.1,46.0,36,R,17.0,3,44.0,115.0,130.0,99.0,
+Elvis Alvarado,"RP, 46 ovr / 36 adj (17 stam, 3 pit) 44 GB% | 130 vsR | 99 vsL | 115 FIP-",RP,0.0,0.1,46.0,36,R,17.0,3,44.0,115.0,130.0,99.0,CIN
 Elvis Peguero,"RP, 39 ovr / 41 adj (16 stam, 1 pit) 64 GB% | 100 vsR | 103 vsL | 102 FIP-",RP,0.0,0.5,39.0,41,R,16.0,1,64.0,102.0,100.0,103.0,
 Emerson Hancock,"SP, 44 ovr / 20 adj (64 stam, 0 pit) 46 GB% | 175 vsR | 190 vsL | 184 FIP-",SP,-3.3,-1.5,44.0,20,R,64.0,0,46.0,184.0,175.0,190.0,HOU
 Emiliano Teodo,"SP, 42 ovr / 20 adj (49 stam, 3 pit) 50 GB% | 145 vsR | 183 vsL | 160 FIP-",SP,-1.8,-1.0,42.0,20,R,49.0,3,50.0,160.0,145.0,183.0,CHW
-Emilio Pagan,"RP, 58 ovr / 41 adj (15 stam, 3 pit) 37 GB% | 101 vsR | 101 vsL | 101 FIP-",RP,0.0,0.5,58.0,41,R,15.0,3,37.0,101.0,101.0,101.0,
+Emilio Pagan,"RP, 58 ovr / 41 adj (15 stam, 3 pit) 37 GB% | 101 vsR | 101 vsL | 101 FIP-",RP,0.0,0.5,58.0,41,R,15.0,3,37.0,101.0,101.0,101.0,TEX
 Emmet Sheehan,"SP, 54 ovr / 45 adj (47 stam, 3 pit) 48 GB% | 113 vsR | 124 vsL | 117 FIP-",SP,1.3,0.0,54.0,45,R,47.0,3,48.0,117.0,113.0,124.0,ARI
 Enmanuel De Jesus,"SP, 40 ovr / 20 adj (61 stam, 1 pit) 56 GB% | 176 vsR | 168 vsL | 172 FIP-",SP,-2.6,-1.3,40.0,20,L,61.0,1,56.0,172.0,176.0,168.0,
 Enoli Paredes,"RP, 40 ovr / 31 adj (16 stam, 3 pit) 50 GB% | 105 vsR | 161 vsL | 128 FIP-",RP,0.0,-0.2,40.0,31,R,16.0,3,50.0,128.0,105.0,161.0,SEA
+Enrique Hernandez,"RP, 40 ovr / 20 adj (17 stam, 0 pit) 34 GB% | 385 vsR | 387 vsL | 386 FIP-",RP,0.0,-4.6,40.0,20,R,17.0,0,34.0,386.0,385.0,387.0,PHI
 Enyel De Los Santos,"RP, 46 ovr / 26 adj (15 stam, 2 pit) 40 GB% | 130 vsR | 154 vsL | 143 FIP-",RP,0.0,-0.6,46.0,26,R,15.0,2,40.0,143.0,130.0,154.0,MIA
 Erasmo Ramirez,"RP, 39 ovr / 20 adj (33 stam, 0 pit) 44 GB% | 193 vsR | 196 vsL | 192 FIP-",RP,0.0,-1.7,39.0,20,R,33.0,0,44.0,192.0,193.0,196.0,
 Eric Cerantola,"RP, 40 ovr / 23 adj (32 stam, 2 pit) 46 GB% | 123 vsR | 179 vsL | 152 FIP-",RP,0.0,-0.8,40.0,23,R,32.0,2,46.0,152.0,123.0,179.0,
@@ -526,7 +527,7 @@ Felix Arronde,"SP, 40 ovr / 20 adj (52 stam, 2 pit) 50 GB% | 182 vsR | 203 vsL |
 Felix Bautista,"RP, 66 ovr / 52 adj (16 stam, 4 pit) 49 GB% | 73 vsR | 75 vsL | 74 FIP-",RP,0.0,1.3,66.0,52,R,16.0,4,49.0,74.0,73.0,75.0,BAL
 Fernando Cruz,"RP, 51 ovr / 50 adj (15 stam, 3 pit) 41 GB% | 77 vsR | 83 vsL | 79 FIP-",RP,0.0,1.1,51.0,50,R,15.0,3,41.0,79.0,77.0,83.0,TEX
 Fitz Stadler,"RP, 37 ovr / 20 adj (19 stam, 0 pit) 55 GB% | 185 vsR | 207 vsL | 197 FIP-",RP,0.0,-1.8,37.0,20,R,19.0,0,55.0,197.0,185.0,207.0,
-Foster Griffin,"SP, 49 ovr / 53 adj (64 stam, 4 pit) 57 GB% | 108 vsR | 99 vsL | 107 FIP-",SP,2.1,0.3,49.0,53,L,64.0,4,57.0,107.0,108.0,99.0,
+Foster Griffin,"SP, 49 ovr / 53 adj (64 stam, 4 pit) 57 GB% | 108 vsR | 99 vsL | 107 FIP-",SP,2.1,0.3,49.0,53,L,64.0,4,57.0,107.0,108.0,99.0,NYM
 Framber Valdez,"SP, 63 ovr / 67 adj (64 stam, 4 pit) 66 GB% | 85 vsR | 63 vsL | 80 FIP-",SP,4.4,1.1,63.0,67,L,64.0,4,66.0,80.0,85.0,63.0,CLE
 Francis Pena,"RP, 38 ovr / 20 adj (20 stam, 1 pit) 58 GB% | 160 vsR | 195 vsL | 175 FIP-",RP,0.0,-1.3,38.0,20,R,20.0,1,58.0,175.0,160.0,195.0,
 Franco Aleman,"RP, 38 ovr / 21 adj (21 stam, 2 pit) 52 GB% | 138 vsR | 173 vsL | 156 FIP-",RP,0.0,-0.9,38.0,21,R,21.0,2,52.0,156.0,138.0,173.0,
@@ -609,14 +610,14 @@ Henry Lalane,"SP, 36 ovr / 20 adj (60 stam, 2 pit) 51 GB% | 228 vsR | 212 vsL | 
 Henry Williams,"SP, 36 ovr / 20 adj (63 stam, 0 pit) 47 GB% | 231 vsR | 226 vsL | 226 FIP-",SP,-5.7,-2.3,36.0,20,R,63.0,0,47.0,226.0,231.0,226.0,SF
 Heston Kjerstad,"RP, 46 ovr / 20 adj (25 stam, 0 pit) 47 GB% | 397 vsR | 398 vsL | 397 FIP-",RP,0.0,-4.8,46.0,20,R,25.0,0,47.0,397.0,397.0,398.0,MIL
 Hobie Harris,"RP, 37 ovr / 20 adj (18 stam, 0 pit) 48 GB% | 182 vsR | 184 vsL | 181 FIP-",RP,0.0,-1.5,37.0,20,R,18.0,0,48.0,181.0,182.0,184.0,
-Hoby Milner,"RP, 48 ovr / 47 adj (15 stam, 2 pit) 58 GB% | 88 vsR | 83 vsL | 86 FIP-",RP,0.0,0.9,48.0,47,L,15.0,2,58.0,86.0,88.0,83.0,
+Hoby Milner,"RP, 48 ovr / 47 adj (15 stam, 2 pit) 58 GB% | 88 vsR | 83 vsL | 86 FIP-",RP,0.0,0.9,48.0,47,L,15.0,2,58.0,86.0,88.0,83.0,BAL
 Hogan Harris,"RP, 46 ovr / 35 adj (21 stam, 4 pit) 43 GB% | 127 vsR | 83 vsL | 117 FIP-",RP,0.0,0.0,46.0,35,L,21.0,4,43.0,117.0,127.0,83.0,MIN
-Huascar Brazoban,"RP, 46 ovr / 42 adj (20 stam, 3 pit) 52 GB% | 93 vsR | 118 vsL | 98 FIP-",RP,0.0,0.5,46.0,42,R,20.0,3,52.0,98.0,93.0,118.0,
+Huascar Brazoban,"RP, 46 ovr / 42 adj (20 stam, 3 pit) 52 GB% | 93 vsR | 118 vsL | 98 FIP-",RP,0.0,0.5,46.0,42,R,20.0,3,52.0,98.0,93.0,118.0,OAK
 Huascar Ynoa,"RP, 43 ovr / 21 adj (36 stam, 2 pit) 47 GB% | 150 vsR | 164 vsL | 156 FIP-",RP,0.0,-0.9,43.0,21,R,36.0,2,47.0,156.0,150.0,164.0,SEA
 Hudson Leach,"RP, 36 ovr / 20 adj (20 stam, 2 pit) 38 GB% | 183 vsR | 212 vsL | 198 FIP-",RP,0.0,-1.8,36.0,20,R,20.0,2,38.0,198.0,183.0,212.0,
 Humberto Cruz,"SP, 32 ovr / 20 adj (60 stam, 0 pit) 49 GB% | 268 vsR | 289 vsL | 279 FIP-",SP,-8.4,-3.2,32.0,20,R,60.0,0,49.0,279.0,268.0,289.0,CIN
 Hunter Barco,"SP, 45 ovr / 27 adj (60 stam, 4 pit) 49 GB% | 158 vsR | 109 vsL | 146 FIP-",SP,-0.8,-0.7,45.0,27,L,60.0,4,49.0,146.0,158.0,109.0,MIL
-Hunter Bigge,"RP, 44 ovr / 29 adj (16 stam, 3 pit) 44 GB% | 138 vsR | 127 vsL | 134 FIP-",RP,0.0,-0.4,44.0,29,R,16.0,3,44.0,134.0,138.0,127.0,
+Hunter Bigge,"RP, 44 ovr / 29 adj (16 stam, 3 pit) 44 GB% | 138 vsR | 127 vsL | 134 FIP-",RP,0.0,-0.4,44.0,29,R,16.0,3,44.0,134.0,138.0,127.0,DET
 Hunter Brown,"SP, 70 ovr / 67 adj (66 stam, 5 pit) 54 GB% | 81 vsR | 80 vsL | 80 FIP-",SP,4.4,1.1,70.0,67,R,66.0,5,54.0,80.0,81.0,80.0,SF
 Hunter Cranton,"RP, 40 ovr / 22 adj (20 stam, 2 pit) 45 GB% | 135 vsR | 174 vsL | 155 FIP-",RP,0.0,-0.9,40.0,22,R,20.0,2,45.0,155.0,135.0,174.0,
 Hunter Dobbins,"SP, 46 ovr / 21 adj (62 stam, 0 pit) 52 GB% | 151 vsR | 167 vsL | 157 FIP-",SP,-1.6,-0.9,46.0,21,R,62.0,0,52.0,157.0,151.0,167.0,CHC
@@ -674,7 +675,7 @@ Jacob Miller,"RP, 35 ovr / 20 adj (38 stam, 0 pit) 52 GB% | 201 vsR | 233 vsL | 
 Jacob Misiorowski,"SP, 62 ovr / 64 adj (50 stam, 3 pit) 52 GB% | 85 vsR | 92 vsL | 88 FIP-",SP,3.7,0.8,62.0,64,R,50.0,3,52.0,88.0,85.0,92.0,SF
 Jacob Morrison,"SP, 36 ovr / 20 adj (67 stam, 0 pit) 44 GB% | 259 vsR | 270 vsL | 264 FIP-",SP,-7.7,-3.0,36.0,20,R,67.0,0,44.0,264.0,259.0,270.0,MIN
 Jacob Waguespack,"RP, 41 ovr / 23 adj (46 stam, 2 pit) 55 GB% | 157 vsR | 146 vsL | 151 FIP-",RP,0.0,-0.8,41.0,23,R,46.0,2,55.0,151.0,157.0,146.0,
-Jacob Webb,"RP, 48 ovr / 28 adj (15 stam, 3 pit) 40 GB% | 128 vsR | 138 vsL | 135 FIP-",RP,0.0,-0.4,48.0,28,R,15.0,3,40.0,135.0,128.0,138.0,
+Jacob Webb,"RP, 48 ovr / 28 adj (15 stam, 3 pit) 40 GB% | 128 vsR | 138 vsL | 135 FIP-",RP,0.0,-0.4,48.0,28,R,15.0,3,40.0,135.0,128.0,138.0,SD
 Jacob Zibin,"SP, 33 ovr / 20 adj (55 stam, 0 pit) 48 GB% | 264 vsR | 278 vsL | 269 FIP-",SP,-7.9,-3.0,33.0,20,R,55.0,0,48.0,269.0,264.0,278.0,CIN
 Jaden Fauske,"RP, 26 ovr / 20 adj (34 stam, 0 pit) 35 GB% | 404 vsR | 405 vsL | 405 FIP-",RP,0.0,-4.8,26.0,20,R,34.0,0,35.0,405.0,404.0,405.0,LAD
 Jaden Hamm,"SP, 41 ovr / 20 adj (61 stam, 1 pit) 41 GB% | 191 vsR | 201 vsL | 197 FIP-",SP,-4.1,-1.8,41.0,20,R,61.0,1,41.0,197.0,191.0,201.0,MIL
@@ -686,6 +687,7 @@ Jake Bennett,"SP, 48 ovr / 30 adj (53 stam, 1 pit) 55 GB% | 145 vsR | 135 vsL | 
 Jake Bird,"RP, 49 ovr / 45 adj (19 stam, 4 pit) 52 GB% | 81 vsR | 98 vsL | 90 FIP-",RP,0.0,0.8,49.0,45,R,19.0,4,52.0,90.0,81.0,98.0,MIL
 Jake Bloss,"SP, 43 ovr / 20 adj (63 stam, 2 pit) 41 GB% | 166 vsR | 213 vsL | 189 FIP-",SP,-3.7,-1.6,43.0,20,R,63.0,2,41.0,189.0,166.0,213.0,NYM
 Jake Cousins,"RP, 45 ovr / 38 adj (15 stam, 2 pit) 47 GB% | 97 vsR | 125 vsL | 108 FIP-",RP,0.0,0.3,45.0,38,R,15.0,2,47.0,108.0,97.0,125.0,CLE
+Jake Cronenworth,"RP, 46 ovr / 20 adj (22 stam, 0 pit) 54 GB% | 296 vsR | 294 vsL | 294 FIP-",RP,0.0,-3.4,46.0,20,R,22.0,0,54.0,294.0,296.0,294.0,CHW
 Jake Eder,"RP, 38 ovr / 20 adj (39 stam, 1 pit) 45 GB% | 196 vsR | 154 vsL | 184 FIP-",RP,0.0,-1.5,38.0,20,L,39.0,1,45.0,184.0,196.0,154.0,
 Jake Gelof,"SP, 36 ovr / 20 adj (54 stam, 0 pit) 48 GB% | 397 vsR | 397 vsL | 397 FIP-",SP,-13.1,-4.8,36.0,20,R,54.0,0,48.0,397.0,397.0,397.0,LAA
 Jake Irvin,"SP, 44 ovr / 20 adj (66 stam, 0 pit) 49 GB% | 184 vsR | 201 vsL | 191 FIP-",SP,-3.8,-1.7,44.0,20,R,66.0,0,49.0,191.0,184.0,201.0,ATL
@@ -724,7 +726,7 @@ Jedixson Paez,"SP, 40 ovr / 20 adj (55 stam, 0 pit) 49 GB% | 155 vsR | 177 vsL |
 Jeff Brigham,"RP, 41 ovr / 28 adj (18 stam, 3 pit) 36 GB% | 127 vsR | 151 vsL | 137 FIP-",RP,0.0,-0.5,41.0,28,R,18.0,3,36.0,137.0,127.0,151.0,
 Jeff Criswell,"RP, 38 ovr / 20 adj (38 stam, 2 pit) 41 GB% | 185 vsR | 219 vsL | 203 FIP-",RP,0.0,-1.9,38.0,20,R,38.0,2,41.0,203.0,185.0,219.0,SF
 Jeff Hoffman,"RP, 59 ovr / 45 adj (15 stam, 4 pit) 47 GB% | 87 vsR | 95 vsL | 91 FIP-",RP,0.0,0.8,59.0,45,R,15.0,4,47.0,91.0,87.0,95.0,SEA
-Jeffrey Springs,"SP, 49 ovr / 22 adj (61 stam, 2 pit) 45 GB% | 149 vsR | 162 vsL | 155 FIP-",SP,-1.5,-0.9,49.0,22,L,61.0,2,45.0,155.0,149.0,162.0,
+Jeffrey Springs,"SP, 49 ovr / 22 adj (61 stam, 2 pit) 45 GB% | 149 vsR | 162 vsL | 155 FIP-",SP,-1.5,-0.9,49.0,22,L,61.0,2,45.0,155.0,149.0,162.0,SEA
 Jefry Yan,"RP, 36 ovr / 22 adj (22 stam, 2 pit) 48 GB% | 157 vsR | 153 vsL | 154 FIP-",RP,0.0,-0.9,36.0,22,L,22.0,2,48.0,154.0,157.0,153.0,
 Jeisson Cabrera,"RP, 38 ovr / 20 adj (17 stam, 2 pit) 44 GB% | 157 vsR | 201 vsL | 175 FIP-",RP,0.0,-1.3,38.0,20,R,17.0,2,44.0,175.0,157.0,201.0,
 Jeremiah Estrada,"RP, 66 ovr / 51 adj (15 stam, 3 pit) 41 GB% | 71 vsR | 84 vsL | 78 FIP-",RP,0.0,1.1,66.0,51,R,15.0,3,41.0,78.0,71.0,84.0,TOR
@@ -781,14 +783,14 @@ John Klein,"SP, 45 ovr / 20 adj (49 stam, 4 pit) 44 GB% | 154 vsR | 175 vsL | 16
 John McMillon,"RP, 38 ovr / 20 adj (17 stam, 2 pit) 51 GB% | 172 vsR | 195 vsL | 184 FIP-",RP,0.0,-1.5,38.0,20,R,17.0,2,51.0,184.0,172.0,195.0,
 John Means,"RP, 44 ovr / 20 adj (43 stam, 0 pit) 41 GB% | 181 vsR | 131 vsL | 169 FIP-",RP,0.0,-1.2,44.0,20,L,43.0,0,41.0,169.0,181.0,131.0,
 John Rooney,"RP, 39 ovr / 31 adj (21 stam, 2 pit) 62 GB% | 140 vsR | 92 vsL | 127 FIP-",RP,0.0,-0.2,39.0,31,L,21.0,2,62.0,127.0,140.0,92.0,
-John Schreiber,"RP, 48 ovr / 41 adj (15 stam, 3 pit) 56 GB% | 91 vsR | 140 vsL | 102 FIP-",RP,0.0,0.5,48.0,41,R,15.0,3,56.0,102.0,91.0,140.0,
+John Schreiber,"RP, 48 ovr / 41 adj (15 stam, 3 pit) 56 GB% | 91 vsR | 140 vsL | 102 FIP-",RP,0.0,0.5,48.0,41,R,15.0,3,56.0,102.0,91.0,140.0,LAA
 Johnny King,"SP, 34 ovr / 20 adj (54 stam, 0 pit) 48 GB% | 256 vsR | 259 vsL | 256 FIP-",SP,-7.3,-2.8,34.0,20,L,54.0,0,48.0,256.0,256.0,259.0,MIL
 Johnny Slawinski,"SP, 27 ovr / 20 adj (56 stam, 0 pit) 44 GB% | 354 vsR | 346 vsL | 354 FIP-",SP,-11.5,-4.2,27.0,20,L,56.0,0,44.0,354.0,354.0,346.0,HOU
 JoJo Parker,"RP, 30 ovr / 20 adj (30 stam, 0 pit) 36 GB% | 404 vsR | 404 vsL | 404 FIP-",RP,0.0,-4.8,30.0,20,R,30.0,0,36.0,404.0,404.0,404.0,STL
 JoJo Romero,"RP, 51 ovr / 47 adj (14 stam, 4 pit) 55 GB% | 95 vsR | 63 vsL | 88 FIP-",RP,0.0,0.9,51.0,47,L,14.0,4,55.0,88.0,95.0,63.0,KC
 Jon Gray,"SP, 47 ovr / 20 adj (52 stam, 1 pit) 45 GB% | 151 vsR | 181 vsL | 161 FIP-",SP,-1.8,-1.0,47.0,20,R,52.0,1,45.0,161.0,151.0,181.0,MIA
 Jonah Tong,"SP, 48 ovr / 47 adj (45 stam, 4 pit) 52 GB% | 104 vsR | 123 vsL | 115 FIP-",SP,1.5,0.1,48.0,47,R,45.0,4,52.0,115.0,104.0,123.0,BOS
-Jonathan Bowlan,"RP, 45 ovr / 27 adj (21 stam, 4 pit) 48 GB% | 129 vsR | 147 vsL | 139 FIP-",RP,0.0,-0.5,45.0,27,R,21.0,4,48.0,139.0,129.0,147.0,BOS
+Jonathan Bowlan,"RP, 45 ovr / 27 adj (21 stam, 4 pit) 48 GB% | 129 vsR | 147 vsL | 139 FIP-",RP,0.0,-0.5,45.0,27,R,21.0,4,48.0,139.0,129.0,147.0,
 Jonathan Cannon,"SP, 39 ovr / 20 adj (53 stam, 0 pit) 45 GB% | 175 vsR | 231 vsL | 199 FIP-",SP,-4.3,-1.8,39.0,20,R,53.0,0,45.0,199.0,175.0,231.0,SD
 Jonathan Hernandez,"RP, 38 ovr / 20 adj (19 stam, 2 pit) 57 GB% | 158 vsR | 169 vsL | 162 FIP-",RP,0.0,-1.0,38.0,20,R,19.0,2,57.0,162.0,158.0,169.0,
 Jonathan Loaisiga,"RP, 48 ovr / 43 adj (18 stam, 1 pit) 62 GB% | 91 vsR | 108 vsL | 97 FIP-",RP,0.0,0.6,48.0,43,R,18.0,1,62.0,97.0,91.0,108.0,WAS
@@ -809,7 +811,7 @@ Jorge Marcheco,"RP, 36 ovr / 20 adj (44 stam, 0 pit) 38 GB% | 242 vsR | 257 vsL 
 Jorge Mercedes,"RP, 35 ovr / 20 adj (22 stam, 2 pit) 53 GB% | 194 vsR | 191 vsL | 194 FIP-",RP,0.0,-1.7,35.0,20,R,22.0,2,53.0,194.0,194.0,191.0,
 Jose A. Ferrer,"RP, 53 ovr / 53 adj (16 stam, 3 pit) 63 GB% | 75 vsR | 71 vsL | 74 FIP-",RP,0.0,1.3,53.0,53,L,16.0,3,63.0,74.0,75.0,71.0,OAK
 Jose Adames,"RP, 37 ovr / 22 adj (15 stam, 2 pit) 50 GB% | 138 vsR | 180 vsL | 154 FIP-",RP,0.0,-0.9,37.0,22,R,15.0,2,50.0,154.0,138.0,180.0,
-Jose Alvarado,"RP, 55 ovr / 51 adj (14 stam, 2 pit) 52 GB% | 76 vsR | 81 vsL | 76 FIP-",RP,0.0,1.2,55.0,51,L,14.0,2,52.0,76.0,76.0,81.0,
+Jose Alvarado,"RP, 55 ovr / 51 adj (14 stam, 2 pit) 52 GB% | 76 vsR | 81 vsL | 76 FIP-",RP,0.0,1.2,55.0,51,L,14.0,2,52.0,76.0,76.0,81.0,HOU
 Jose Berrios,"SP, 50 ovr / 38 adj (77 stam, 3 pit) 49 GB% | 125 vsR | 133 vsL | 129 FIP-",SP,0.4,-0.3,50.0,38,R,77.0,3,49.0,129.0,125.0,133.0,NYM
 Jose Butto,"RP, 49 ovr / 44 adj (17 stam, 2 pit) 46 GB% | 91 vsR | 97 vsL | 94 FIP-",RP,0.0,0.7,49.0,44,R,17.0,2,46.0,94.0,91.0,97.0,SF
 Jose Corniell,"SP, 46 ovr / 20 adj (44 stam, 3 pit) 47 GB% | 170 vsR | 170 vsL | 170 FIP-",SP,-2.4,-1.2,46.0,20,R,44.0,3,47.0,170.0,170.0,170.0,STL
@@ -820,7 +822,7 @@ Jose Fleury,"RP, 39 ovr / 20 adj (48 stam, 1 pit) 41 GB% | 192 vsR | 208 vsL | 1
 Jose LeClerc,"RP, 44 ovr / 32 adj (16 stam, 4 pit) 41 GB% | 100 vsR | 151 vsL | 126 FIP-",RP,0.0,-0.2,44.0,32,R,16.0,4,41.0,126.0,100.0,151.0,OAK
 Jose Marte,"RP, 39 ovr / 20 adj (17 stam, 1 pit) 64 GB% | 147 vsR | 179 vsL | 161 FIP-",RP,0.0,-1.0,39.0,20,R,17.0,1,64.0,161.0,147.0,179.0,
 Jose Quezada,"RP, 40 ovr / 20 adj (17 stam, 2 pit) 63 GB% | 145 vsR | 179 vsL | 161 FIP-",RP,0.0,-1.0,40.0,20,R,17.0,2,63.0,161.0,145.0,179.0,
-Jose Quintana,"RP, 46 ovr / 20 adj (49 stam, 0 pit) 52 GB% | 177 vsR | 157 vsL | 171 FIP-",RP,0.0,-1.2,46.0,20,L,49.0,0,52.0,171.0,177.0,157.0,
+Jose Quintana,"RP, 46 ovr / 20 adj (49 stam, 0 pit) 52 GB% | 177 vsR | 157 vsL | 171 FIP-",RP,0.0,-1.2,46.0,20,L,49.0,0,52.0,171.0,177.0,157.0,CLE
 Jose Rodriguez,"SP, 42 ovr / 20 adj (43 stam, 3 pit) 45 GB% | 165 vsR | 170 vsL | 170 FIP-",SP,-2.5,-1.2,42.0,20,R,43.0,3,45.0,170.0,165.0,170.0,
 Jose Soriano,"SP, 51 ovr / 65 adj (61 stam, 3 pit) 65 GB% | 77 vsR | 94 vsL | 84 FIP-",SP,4.1,1.0,51.0,65,R,61.0,3,65.0,84.0,77.0,94.0,HOU
 Jose Suarez,"SP, 45 ovr / 27 adj (49 stam, 4 pit) 46 GB% | 152 vsR | 135 vsL | 146 FIP-",SP,-0.8,-0.7,45.0,27,L,49.0,4,46.0,146.0,152.0,135.0,KC
@@ -879,10 +881,10 @@ Justin Lawrence,"RP, 44 ovr / 48 adj (17 stam, 2 pit) 59 GB% | 66 vsR | 104 vsL 
 Justin Martinez,"RP, 54 ovr / 60 adj (17 stam, 4 pit) 65 GB% | 52 vsR | 60 vsL | 57 FIP-",RP,0.0,1.8,54.0,60,R,17.0,4,65.0,57.0,52.0,60.0,SEA
 Justin Slaten,"RP, 52 ovr / 43 adj (22 stam, 2 pit) 55 GB% | 95 vsR | 98 vsL | 97 FIP-",RP,0.0,0.6,52.0,43,R,22.0,2,55.0,97.0,95.0,98.0,ATL
 Justin Steele,"SP, 59 ovr / 62 adj (53 stam, 3 pit) 50 GB% | 101 vsR | 72 vsL | 92 FIP-",SP,3.4,0.7,59.0,62,L,53.0,3,50.0,92.0,101.0,72.0,OAK
-Justin Sterner,"RP, 46 ovr / 32 adj (22 stam, 2 pit) 43 GB% | 108 vsR | 144 vsL | 124 FIP-",RP,0.0,-0.1,46.0,32,R,22.0,2,43.0,124.0,108.0,144.0,
+Justin Sterner,"RP, 46 ovr / 32 adj (22 stam, 2 pit) 43 GB% | 108 vsR | 144 vsL | 124 FIP-",RP,0.0,-0.1,46.0,32,R,22.0,2,43.0,124.0,108.0,144.0,MIN
 Justin Topa,"RP, 47 ovr / 49 adj (13 stam, 1 pit) 64 GB% | 79 vsR | 87 vsL | 83 FIP-",RP,0.0,1.0,47.0,49,R,13.0,1,64.0,83.0,79.0,87.0,TB
 Justin Verlander,"SP, 54 ovr / 40 adj (69 stam, 3 pit) 39 GB% | 142 vsR | 104 vsL | 126 FIP-",SP,0.6,-0.2,54.0,40,R,69.0,3,39.0,126.0,142.0,104.0,CIN
-Justin Wilson,"RP, 45 ovr / 41 adj (11 stam, 3 pit) 44 GB% | 100 vsR | 100 vsL | 102 FIP-",RP,0.0,0.4,45.0,41,L,11.0,3,44.0,102.0,100.0,100.0,
+Justin Wilson,"RP, 45 ovr / 41 adj (11 stam, 3 pit) 44 GB% | 100 vsR | 100 vsL | 102 FIP-",RP,0.0,0.4,45.0,41,L,11.0,3,44.0,102.0,100.0,100.0,OAK
 Justin Wrobleski,"SP, 46 ovr / 20 adj (46 stam, 4 pit) 47 GB% | 172 vsR | 157 vsL | 165 FIP-",SP,-2.1,-1.1,46.0,20,L,46.0,4,47.0,165.0,172.0,157.0,CHW
 K.C. Hunt,"SP, 45 ovr / 20 adj (50 stam, 2 pit) 47 GB% | 165 vsR | 176 vsL | 167 FIP-",SP,-2.3,-1.2,45.0,20,R,50.0,2,47.0,167.0,165.0,176.0,
 Kade Anderson,"SP, 40 ovr / 20 adj (68 stam, 2 pit) 48 GB% | 215 vsR | 210 vsL | 215 FIP-",SP,-5.2,-2.1,40.0,20,L,68.0,2,48.0,215.0,215.0,210.0,CIN
@@ -932,13 +934,13 @@ Konnor Pilkington,"SP, 45 ovr / 30 adj (41 stam, 4 pit) 49 GB% | 139 vsR | 144 v
 Kris Bubic,"SP, 58 ovr / 65 adj (59 stam, 3 pit) 57 GB% | 86 vsR | 82 vsL | 85 FIP-",SP,4.0,0.9,58.0,65,L,59.0,3,57.0,85.0,86.0,82.0,ATL
 Kruz Schoolcraft,"SP, 32 ovr / 20 adj (69 stam, 0 pit) 49 GB% | 282 vsR | 271 vsL | 282 FIP-",SP,-8.5,-3.2,32.0,20,L,69.0,0,49.0,282.0,282.0,271.0,SF
 Kumar Rocker,"RP, 50 ovr / 32 adj (38 stam, 2 pit) 56 GB% | 126 vsR | 118 vsL | 124 FIP-",RP,0.0,-0.1,50.0,32,R,38.0,2,56.0,124.0,126.0,118.0,LAD
-Kutter Crawford,"SP, 49 ovr / 23 adj (68 stam, 2 pit) 39 GB% | 154 vsR | 151 vsL | 153 FIP-",SP,-1.3,-0.8,49.0,23,R,68.0,2,39.0,153.0,154.0,151.0,
+Kutter Crawford,"SP, 49 ovr / 23 adj (68 stam, 2 pit) 39 GB% | 154 vsR | 151 vsL | 153 FIP-",SP,-1.3,-0.8,49.0,23,R,68.0,2,39.0,153.0,154.0,151.0,CHC
 Ky Bush,"RP, 44 ovr / 20 adj (47 stam, 1 pit) 45 GB% | 182 vsR | 163 vsL | 179 FIP-",RP,0.0,-1.4,44.0,20,L,47.0,1,45.0,179.0,182.0,163.0,PHI
 Kyle Amendt,"RP, 38 ovr / 28 adj (15 stam, 3 pit) 48 GB% | 134 vsR | 135 vsL | 135 FIP-",RP,0.0,-0.4,38.0,28,R,15.0,3,48.0,135.0,134.0,135.0,
 Kyle Backhus,"RP, 41 ovr / 30 adj (17 stam, 2 pit) 64 GB% | 141 vsR | 99 vsL | 131 FIP-",RP,0.0,-0.3,41.0,30,L,17.0,2,64.0,131.0,141.0,99.0,
 Kyle Bradish,"SP, 65 ovr / 65 adj (56 stam, 4 pit) 54 GB% | 79 vsR | 88 vsL | 84 FIP-",SP,4.1,1.0,65.0,65,R,56.0,4,54.0,84.0,79.0,88.0,SEA
 Kyle Finnegan,"RP, 50 ovr / 43 adj (15 stam, 1 pit) 51 GB% | 100 vsR | 94 vsL | 97 FIP-",RP,0.0,0.6,50.0,43,R,15.0,1,51.0,97.0,100.0,94.0,LAA
-Kyle Freeland,"SP, 47 ovr / 39 adj (68 stam, 2 pit) 48 GB% | 152 vsR | 89 vsL | 127 FIP-",SP,0.5,-0.2,47.0,39,L,68.0,2,48.0,127.0,152.0,89.0,
+Kyle Freeland,"SP, 47 ovr / 39 adj (68 stam, 2 pit) 48 GB% | 152 vsR | 89 vsL | 127 FIP-",SP,0.5,-0.2,47.0,39,L,68.0,2,48.0,127.0,152.0,89.0,MIN
 Kyle Funkhouser,"SP, 42 ovr / 20 adj (34 stam, 3 pit) 63 GB% | 147 vsR | 181 vsL | 158 FIP-",SP,-1.7,-1.0,42.0,20,R,34.0,3,63.0,158.0,147.0,181.0,
 Kyle Harrison,"SP, 49 ovr / 37 adj (64 stam, 3 pit) 46 GB% | 136 vsR | 121 vsL | 131 FIP-",SP,0.3,-0.3,49.0,37,L,64.0,3,46.0,131.0,136.0,121.0,LAD
 Kyle Hart,"SP, 45 ovr / 20 adj (55 stam, 1 pit) 52 GB% | 172 vsR | 140 vsL | 166 FIP-",SP,-2.2,-1.1,45.0,20,L,55.0,1,52.0,166.0,172.0,140.0,
@@ -952,7 +954,7 @@ Kyle Wright,"SP, 48 ovr / 30 adj (53 stam, 0 pit) 61 GB% | 123 vsR | 156 vsL | 1
 Kyson Witherspoon,"SP, 37 ovr / 20 adj (56 stam, 3 pit) 49 GB% | 230 vsR | 240 vsL | 235 FIP-",SP,-6.3,-2.5,37.0,20,R,56.0,3,49.0,235.0,230.0,240.0,PHI
 Lael Lockhart,"RP, 39 ovr / 20 adj (47 stam, 1 pit) 46 GB% | 200 vsR | 209 vsL | 200 FIP-",RP,0.0,-1.8,39.0,20,L,47.0,1,46.0,200.0,200.0,209.0,
 Lake Bachar,"RP, 38 ovr / 20 adj (21 stam, 2 pit) 36 GB% | 169 vsR | 182 vsL | 175 FIP-",RP,0.0,-1.3,38.0,20,R,21.0,2,36.0,175.0,169.0,182.0,
-Lance McCullers Jr.,"SP, 47 ovr / 38 adj (58 stam, 4 pit) 65 GB% | 135 vsR | 118 vsL | 128 FIP-",SP,0.5,-0.2,47.0,38,R,58.0,4,65.0,128.0,135.0,118.0,
+Lance McCullers Jr.,"SP, 47 ovr / 38 adj (58 stam, 4 pit) 65 GB% | 135 vsR | 118 vsL | 128 FIP-",SP,0.5,-0.2,47.0,38,R,58.0,4,65.0,128.0,135.0,118.0,SEA
 Landen Maroudis,"SP, 34 ovr / 20 adj (59 stam, 0 pit) 43 GB% | 260 vsR | 274 vsL | 268 FIP-",SP,-7.9,-3.0,34.0,20,R,59.0,0,43.0,268.0,260.0,274.0,MIL
 Landen Roupp,"RP, 49 ovr / 44 adj (32 stam, 2 pit) 57 GB% | 84 vsR | 122 vsL | 94 FIP-",RP,0.0,0.7,49.0,44,R,32.0,2,57.0,94.0,84.0,122.0,CHW
 Landon Harmon,"SP, 28 ovr / 20 adj (59 stam, 0 pit) 49 GB% | 322 vsR | 337 vsL | 328 FIP-",SP,-10.5,-3.9,28.0,20,R,59.0,0,49.0,328.0,322.0,337.0,HOU
@@ -979,8 +981,8 @@ Lucas Erceg,"RP, 47 ovr / 49 adj (15 stam, 3 pit) 52 GB% | 80 vsR | 86 vsL | 82 
 Lucas Gilbreath,"RP, 35 ovr / 20 adj (16 stam, 0 pit) 51 GB% | 207 vsR | 172 vsL | 196 FIP-",RP,0.0,-1.8,35.0,20,L,16.0,0,51.0,196.0,207.0,172.0,
 Lucas Giolito,"SP, 48 ovr / 20 adj (63 stam, 3 pit) 46 GB% | 163 vsR | 163 vsL | 163 FIP-",SP,-2.0,-1.1,48.0,20,R,63.0,3,46.0,163.0,163.0,163.0,OAK
 Luinder Avila,"RP, 43 ovr / 22 adj (34 stam, 2 pit) 56 GB% | 133 vsR | 181 vsL | 155 FIP-",RP,0.0,-0.9,43.0,22,R,34.0,2,56.0,155.0,133.0,181.0,MIA
-Luis Castillo,"RP, 36 ovr / 20 adj (22 stam, 0 pit) 58 GB% | 158 vsR | 215 vsL | 184 FIP-",RP,0.0,-1.5,36.0,20,R,22.0,0,58.0,184.0,158.0,215.0,
 Luis Castillo,"SP, 57 ovr / 45 adj (64 stam, 3 pit) 45 GB% | 104 vsR | 135 vsL | 118 FIP-",SP,1.3,0.0,57.0,45,R,64.0,3,45.0,118.0,104.0,135.0,SD
+Luis Castillo,"RP, 36 ovr / 20 adj (22 stam, 0 pit) 58 GB% | 158 vsR | 215 vsL | 184 FIP-",RP,0.0,-1.5,36.0,20,R,22.0,0,58.0,184.0,158.0,215.0,
 Luis Contreras,"RP, 38 ovr / 20 adj (17 stam, 3 pit) 44 GB% | 162 vsR | 169 vsL | 163 FIP-",RP,0.0,-1.1,38.0,20,R,17.0,3,44.0,163.0,162.0,169.0,
 Luis Curvelo,"RP, 38 ovr / 20 adj (19 stam, 1 pit) 41 GB% | 189 vsR | 182 vsL | 187 FIP-",RP,0.0,-1.6,38.0,20,R,19.0,1,41.0,187.0,189.0,182.0,
 Luis De Leon,"SP, 39 ovr / 20 adj (60 stam, 2 pit) 66 GB% | 201 vsR | 161 vsL | 190 FIP-",SP,-3.7,-1.6,39.0,20,L,60.0,2,66.0,190.0,201.0,161.0,CIN
@@ -1008,7 +1010,6 @@ Luke Little,"RP, 46 ovr / 48 adj (15 stam, 2 pit) 68 GB% | 91 vsR | 69 vsL | 84 
 Luke Murphy,"RP, 36 ovr / 20 adj (18 stam, 1 pit) 48 GB% | 195 vsR | 203 vsL | 199 FIP-",RP,0.0,-1.8,36.0,20,R,18.0,1,48.0,199.0,195.0,203.0,
 Luke Sinnard,"SP, 38 ovr / 20 adj (54 stam, 1 pit) 51 GB% | 217 vsR | 226 vsL | 220 FIP-",SP,-5.4,-2.2,38.0,20,R,54.0,1,51.0,220.0,217.0,226.0,BAL
 Luke Weaver,"RP, 53 ovr / 42 adj (23 stam, 4 pit) 42 GB% | 93 vsR | 109 vsL | 98 FIP-",RP,0.0,0.6,53.0,42,R,23.0,4,42.0,98.0,93.0,109.0,TOR
-Luken Baker,"RP, 45 ovr / 20 adj (44 stam, 0 pit) 51 GB% | 323 vsR | 373 vsL | 344 FIP-",RP,0.0,-4.1,45.0,20,R,44.0,0,51.0,344.0,323.0,373.0,BOS
 Lyon Richardson,"RP, 39 ovr / 20 adj (36 stam, 1 pit) 54 GB% | 165 vsR | 203 vsL | 183 FIP-",RP,0.0,-1.5,39.0,20,R,36.0,1,54.0,183.0,165.0,203.0,
 Mac Horvath,"SP, 40 ovr / 20 adj (59 stam, 0 pit) 46 GB% | 397 vsR | 397 vsL | 397 FIP-",SP,-13.0,-4.7,40.0,20,R,59.0,0,46.0,397.0,397.0,397.0,DET
 MacKenzie Gore,"SP, 59 ovr / 61 adj (60 stam, 4 pit) 45 GB% | 93 vsR | 94 vsL | 93 FIP-",SP,3.3,0.7,59.0,61,L,60.0,4,45.0,93.0,93.0,94.0,BAL
@@ -1022,7 +1023,7 @@ Marcelo Perez,"SP, 43 ovr / 20 adj (52 stam, 1 pit) 44 GB% | 188 vsR | 183 vsL |
 Marco Raya,"SP, 41 ovr / 20 adj (32 stam, 3 pit) 46 GB% | 143 vsR | 193 vsL | 163 FIP-",SP,-2.0,-1.1,41.0,20,R,32.0,3,46.0,163.0,143.0,193.0,CHW
 Marcus Phillips,"SP, 36 ovr / 20 adj (50 stam, 1 pit) 53 GB% | 223 vsR | 241 vsL | 230 FIP-",SP,-6.0,-2.4,36.0,20,R,50.0,1,53.0,230.0,223.0,241.0,TOR
 Marcus Stroman,"SP, 44 ovr / 20 adj (64 stam, 0 pit) 56 GB% | 164 vsR | 192 vsL | 177 FIP-",SP,-2.9,-1.4,44.0,20,R,64.0,0,56.0,177.0,164.0,192.0,SD
-Mark Leiter Jr.,"RP, 48 ovr / 42 adj (20 stam, 5 pit) 51 GB% | 100 vsR | 97 vsL | 99 FIP-",RP,0.0,0.5,48.0,42,R,20.0,5,51.0,99.0,100.0,97.0,
+Mark Leiter Jr.,"RP, 48 ovr / 42 adj (20 stam, 5 pit) 51 GB% | 100 vsR | 97 vsL | 99 FIP-",RP,0.0,0.5,48.0,42,R,20.0,5,51.0,99.0,100.0,97.0,MIN
 Mark Manfredi,"SP, 38 ovr / 20 adj (56 stam, 3 pit) 46 GB% | 199 vsR | 189 vsL | 197 FIP-",SP,-4.1,-1.8,38.0,20,L,56.0,3,46.0,197.0,199.0,189.0,
 Marques Johnson,"RP, 36 ovr / 20 adj (20 stam, 2 pit) 51 GB% | 182 vsR | 180 vsL | 182 FIP-",RP,0.0,-1.5,36.0,20,R,20.0,2,51.0,182.0,182.0,180.0,
 Marquis Grissom Jr.,"RP, 34 ovr / 20 adj (18 stam, 0 pit) 39 GB% | 225 vsR | 250 vsL | 236 FIP-",RP,0.0,-2.5,34.0,20,R,18.0,0,39.0,236.0,225.0,250.0,BOS
@@ -1128,7 +1129,7 @@ Nick Kurtz,"SP, 68 ovr / 20 adj (55 stam, 0 pit) 47 GB% | 397 vsR | 395 vsL | 39
 Nick Lodolo,"SP, 56 ovr / 60 adj (53 stam, 4 pit) 51 GB% | 99 vsR | 86 vsL | 96 FIP-",SP,3.0,0.6,56.0,60,L,53.0,4,51.0,96.0,99.0,86.0,ATL
 Nick Margevicius,"SP, 42 ovr / 21 adj (51 stam, 0 pit) 57 GB% | 157 vsR | 146 vsL | 157 FIP-",SP,-1.6,-0.9,42.0,21,L,51.0,0,57.0,157.0,157.0,146.0,
 Nick Martinez,"RP, 48 ovr / 29 adj (40 stam, 0 pit) 42 GB% | 133 vsR | 129 vsL | 132 FIP-",RP,0.0,-0.3,48.0,29,R,40.0,0,42.0,132.0,133.0,129.0,BAL
-Nick Mears,"RP, 45 ovr / 37 adj (16 stam, 2 pit) 46 GB% | 93 vsR | 143 vsL | 111 FIP-",RP,0.0,0.2,45.0,37,R,16.0,2,46.0,111.0,93.0,143.0,
+Nick Mears,"RP, 45 ovr / 37 adj (16 stam, 2 pit) 46 GB% | 93 vsR | 143 vsL | 111 FIP-",RP,0.0,0.2,45.0,37,R,16.0,2,46.0,111.0,93.0,143.0,MIL
 Nick Merkel,"RP, 37 ovr / 20 adj (24 stam, 2 pit) 55 GB% | 197 vsR | 186 vsL | 192 FIP-",RP,0.0,-1.7,37.0,20,R,24.0,2,55.0,192.0,197.0,186.0,
 Nick Nastrini,"RP, 35 ovr / 20 adj (39 stam, 1 pit) 37 GB% | 227 vsR | 241 vsL | 234 FIP-",RP,0.0,-2.5,35.0,20,R,39.0,1,37.0,234.0,227.0,241.0,ARI
 Nick Pivetta,"SP, 61 ovr / 47 adj (55 stam, 4 pit) 40 GB% | 110 vsR | 117 vsL | 115 FIP-",SP,1.5,0.1,61.0,47,R,55.0,4,40.0,115.0,110.0,117.0,TB
@@ -1223,7 +1224,7 @@ Richard Lovelady,"RP, 42 ovr / 40 adj (17 stam, 3 pit) 57 GB% | 119 vsR | 92 vsL
 Ricky Tiedemann,"SP, 41 ovr / 21 adj (41 stam, 3 pit) 50 GB% | 161 vsR | 140 vsL | 156 FIP-",SP,-1.5,-0.9,41.0,21,L,41.0,3,50.0,156.0,161.0,140.0,CHC
 Ricky Vanasco,"RP, 37 ovr / 20 adj (23 stam, 3 pit) 45 GB% | 186 vsR | 170 vsL | 181 FIP-",RP,0.0,-1.5,37.0,20,R,23.0,3,45.0,181.0,186.0,170.0,TEX
 Rico Garcia,"RP, 40 ovr / 22 adj (17 stam, 4 pit) 44 GB% | 160 vsR | 146 vsL | 153 FIP-",RP,0.0,-0.8,40.0,22,R,17.0,4,44.0,153.0,160.0,146.0,
-Riley Cornelio,"SP, 43 ovr / 20 adj (49 stam, 4 pit) 48 GB% | 164 vsR | 192 vsL | 176 FIP-",SP,-2.8,-1.3,43.0,20,R,49.0,4,48.0,176.0,164.0,192.0,
+Riley Cornelio,"SP, 43 ovr / 20 adj (49 stam, 4 pit) 48 GB% | 164 vsR | 192 vsL | 176 FIP-",SP,-2.8,-1.3,43.0,20,R,49.0,4,48.0,176.0,164.0,192.0,OAK
 Riley Martin,"RP, 39 ovr / 23 adj (23 stam, 3 pit) 54 GB% | 157 vsR | 141 vsL | 152 FIP-",RP,0.0,-0.8,39.0,23,L,23.0,3,54.0,152.0,157.0,141.0,
 Riley O'Brien,"SP, 48 ovr / 64 adj (30 stam, 3 pit) 56 GB% | 77 vsR | 98 vsL | 86 FIP-",SP,3.9,0.9,48.0,64,R,30.0,3,56.0,86.0,77.0,98.0,NYY
 Riley Pint,"RP, 39 ovr / 27 adj (17 stam, 3 pit) 48 GB% | 131 vsR | 148 vsL | 140 FIP-",RP,0.0,-0.5,39.0,27,R,17.0,3,48.0,140.0,131.0,148.0,
@@ -1256,7 +1257,7 @@ Russell Smith,"RP, 31 ovr / 20 adj (25 stam, 0 pit) 36 GB% | 290 vsR | 286 vsL |
 Ryan Bergert,"RP, 40 ovr / 20 adj (36 stam, 1 pit) 42 GB% | 157 vsR | 172 vsL | 164 FIP-",RP,0.0,-1.1,40.0,20,R,36.0,1,42.0,164.0,157.0,172.0,PIT
 Ryan Borucki,"RP, 41 ovr / 32 adj (13 stam, 2 pit) 58 GB% | 136 vsR | 92 vsL | 124 FIP-",RP,0.0,-0.1,41.0,32,L,13.0,2,58.0,124.0,136.0,92.0,PHI
 Ryan Bourassa,"RP, 36 ovr / 20 adj (15 stam, 2 pit) 42 GB% | 180 vsR | 203 vsL | 192 FIP-",RP,0.0,-1.7,36.0,20,R,15.0,2,42.0,192.0,180.0,203.0,
-Ryan Brasier,"RP, 53 ovr / 38 adj (15 stam, 2 pit) 47 GB% | 90 vsR | 141 vsL | 109 FIP-",RP,0.0,0.2,53.0,38,R,15.0,2,47.0,109.0,90.0,141.0,
+Ryan Brasier,"RP, 53 ovr / 38 adj (15 stam, 2 pit) 47 GB% | 90 vsR | 141 vsL | 109 FIP-",RP,0.0,0.2,53.0,38,R,15.0,2,47.0,109.0,90.0,141.0,PHI
 Ryan Burr,"RP, 49 ovr / 42 adj (15 stam, 2 pit) 38 GB% | 92 vsR | 106 vsL | 98 FIP-",RP,0.0,0.6,49.0,42,R,15.0,2,38.0,98.0,92.0,106.0,LAD
 Ryan Cermak,"RP, 37 ovr / 20 adj (16 stam, 0 pit) 46 GB% | 396 vsR | 398 vsL | 397 FIP-",RP,0.0,-4.8,37.0,20,R,16.0,0,46.0,397.0,396.0,398.0,DET
 Ryan Feltner,"SP, 43 ovr / 20 adj (64 stam, 1 pit) 51 GB% | 165 vsR | 198 vsL | 178 FIP-",SP,-3.0,-1.4,43.0,20,R,64.0,1,51.0,178.0,165.0,198.0,
@@ -1286,7 +1287,7 @@ Ryan Zeferjahn,"RP, 40 ovr / 23 adj (23 stam, 3 pit) 44 GB% | 144 vsR | 156 vsL 
 Ryder Ryan,"RP, 36 ovr / 20 adj (18 stam, 0 pit) 50 GB% | 170 vsR | 235 vsL | 193 FIP-",RP,0.0,-1.7,36.0,20,R,18.0,0,50.0,193.0,170.0,235.0,
 Rylan Kaufman,"RP, 38 ovr / 20 adj (49 stam, 2 pit) 48 GB% | 198 vsR | 189 vsL | 195 FIP-",RP,0.0,-1.7,38.0,20,L,49.0,2,48.0,195.0,198.0,189.0,
 Ryne Nelson,"SP, 50 ovr / 40 adj (56 stam, 1 pit) 47 GB% | 109 vsR | 149 vsL | 126 FIP-",SP,0.7,-0.2,50.0,40,R,56.0,1,47.0,126.0,109.0,149.0,KC
-Ryne Stanek,"RP, 43 ovr / 34 adj (14 stam, 3 pit) 39 GB% | 116 vsR | 128 vsL | 120 FIP-",RP,0.0,0.0,43.0,34,R,14.0,3,39.0,120.0,116.0,128.0,
+Ryne Stanek,"RP, 43 ovr / 34 adj (14 stam, 3 pit) 39 GB% | 116 vsR | 128 vsL | 120 FIP-",RP,0.0,0.0,43.0,34,R,14.0,3,39.0,120.0,116.0,128.0,WAS
 Sal Frelick,"SP, 49 ovr / 20 adj (77 stam, 0 pit) 47 GB% | 397 vsR | 399 vsL | 398 FIP-",SP,-13.1,-4.8,49.0,20,R,77.0,0,47.0,398.0,397.0,399.0,SF
 Sam Aldegheri,"SP, 37 ovr / 20 adj (54 stam, 0 pit) 42 GB% | 231 vsR | 207 vsL | 224 FIP-",SP,-5.7,-2.3,37.0,20,L,54.0,0,42.0,224.0,231.0,207.0,TEX
 Sam Bachman,"SP, 39 ovr / 26 adj (60 stam, 2 pit) 63 GB% | 134 vsR | 160 vsL | 149 FIP-",SP,-1.0,-0.7,39.0,26,R,60.0,2,63.0,149.0,134.0,160.0,STL
@@ -1331,7 +1332,7 @@ Shane McClanahan,"SP, 67 ovr / 64 adj (57 stam, 4 pit) 60 GB% | 87 vsR | 84 vsL 
 Shane Smith,"SP, 54 ovr / 45 adj (57 stam, 2 pit) 47 GB% | 111 vsR | 133 vsL | 118 FIP-",SP,1.2,0.0,54.0,45,R,57.0,2,47.0,118.0,111.0,133.0,TOR
 Shawn Armstrong,"RP, 55 ovr / 45 adj (18 stam, 3 pit) 49 GB% | 89 vsR | 96 vsL | 92 FIP-",RP,0.0,0.7,55.0,45,R,18.0,3,49.0,92.0,89.0,96.0,TB
 Shawn Dubin,"RP, 44 ovr / 39 adj (29 stam, 5 pit) 52 GB% | 106 vsR | 110 vsL | 106 FIP-",RP,0.0,0.3,44.0,39,R,29.0,5,52.0,106.0,106.0,110.0,
-Shelby Miller,"RP, 56 ovr / 42 adj (17 stam, 3 pit) 45 GB% | 94 vsR | 116 vsL | 99 FIP-",RP,0.0,0.5,56.0,42,R,17.0,3,45.0,99.0,94.0,116.0,
+Shelby Miller,"RP, 56 ovr / 42 adj (17 stam, 3 pit) 45 GB% | 94 vsR | 116 vsL | 99 FIP-",RP,0.0,0.5,56.0,42,R,17.0,3,45.0,99.0,94.0,116.0,MIN
 Shinnosuke Ogasawara,"SP, 42 ovr / 20 adj (67 stam, 1 pit) 43 GB% | 190 vsR | 178 vsL | 184 FIP-",SP,-3.3,-1.5,42.0,20,L,67.0,1,43.0,184.0,190.0,178.0,
 Shohei Ohtani,"SP, 80 ovr / 63 adj (59 stam, 5 pit) 54 GB% | 87 vsR | 92 vsL | 89 FIP-",SP,3.6,0.8,80.0,63,R,59.0,5,54.0,89.0,87.0,92.0,LAA
 Shota Imanaga,"SP, 53 ovr / 38 adj (61 stam, 2 pit) 43 GB% | 136 vsR | 107 vsL | 129 FIP-",SP,0.4,-0.3,53.0,38,L,61.0,2,43.0,129.0,136.0,107.0,NYY
@@ -1423,7 +1424,7 @@ Trevor McDonald,"RP, 42 ovr / 20 adj (37 stam, 0 pit) 58 GB% | 149 vsR | 170 vsL
 Trevor Megill,"RP, 59 ovr / 47 adj (14 stam, 2 pit) 38 GB% | 90 vsR | 82 vsL | 87 FIP-",RP,0.0,0.9,59.0,47,R,14.0,2,38.0,87.0,90.0,82.0,ATL
 Trevor Richards,"RP, 42 ovr / 22 adj (18 stam, 2 pit) 41 GB% | 153 vsR | 154 vsL | 154 FIP-",RP,0.0,-0.9,42.0,22,R,18.0,2,41.0,154.0,153.0,154.0,
 Trevor Rogers,"SP, 51 ovr / 46 adj (55 stam, 2 pit) 52 GB% | 130 vsR | 88 vsL | 117 FIP-",SP,1.3,0.0,51.0,46,L,55.0,2,52.0,117.0,130.0,88.0,PIT
-Trevor Stephan,"RP, 43 ovr / 29 adj (16 stam, 2 pit) 50 GB% | 130 vsR | 136 vsL | 134 FIP-",RP,0.0,-0.4,43.0,29,R,16.0,2,50.0,134.0,130.0,136.0,
+Trevor Stephan,"RP, 43 ovr / 29 adj (16 stam, 2 pit) 50 GB% | 130 vsR | 136 vsL | 134 FIP-",RP,0.0,-0.4,43.0,29,R,16.0,2,50.0,134.0,130.0,136.0,CLE
 Trevor Williams,"SP, 42 ovr / 20 adj (64 stam, 0 pit) 51 GB% | 147 vsR | 221 vsL | 181 FIP-",SP,-3.2,-1.5,42.0,20,R,64.0,0,51.0,181.0,147.0,221.0,LAA
 Trey Dombroski,"SP, 40 ovr / 20 adj (55 stam, 2 pit) 42 GB% | 216 vsR | 190 vsL | 212 FIP-",SP,-5.0,-2.1,40.0,20,L,55.0,2,42.0,212.0,216.0,190.0,CIN
 Trey Gibson,"SP, 44 ovr / 20 adj (63 stam, 2 pit) 60 GB% | 150 vsR | 177 vsL | 162 FIP-",SP,-2.0,-1.1,44.0,20,R,63.0,2,60.0,162.0,150.0,177.0,MIA
@@ -1451,7 +1452,7 @@ Tyler Ferguson,"RP, 44 ovr / 41 adj (18 stam, 3 pit) 44 GB% | 94 vsR | 126 vsL |
 Tyler Gilbert,"RP, 38 ovr / 20 adj (32 stam, 1 pit) 38 GB% | 184 vsR | 154 vsL | 180 FIP-",RP,0.0,-1.4,38.0,20,L,32.0,1,38.0,180.0,184.0,154.0,
 Tyler Glasnow,"SP, 66 ovr / 61 adj (54 stam, 4 pit) 54 GB% | 91 vsR | 98 vsL | 94 FIP-",SP,3.2,0.7,66.0,61,R,54.0,4,54.0,94.0,91.0,98.0,STL
 Tyler Holton,"RP, 52 ovr / 38 adj (22 stam, 0 pit) 52 GB% | 106 vsR | 120 vsL | 109 FIP-",RP,0.0,0.3,52.0,38,L,22.0,0,52.0,109.0,106.0,120.0,STL
-Tyler Kinley,"RP, 53 ovr / 42 adj (14 stam, 2 pit) 44 GB% | 94 vsR | 107 vsL | 98 FIP-",RP,0.0,0.6,53.0,42,R,14.0,2,44.0,98.0,94.0,107.0,
+Tyler Kinley,"RP, 53 ovr / 42 adj (14 stam, 2 pit) 44 GB% | 94 vsR | 107 vsL | 98 FIP-",RP,0.0,0.6,53.0,42,R,14.0,2,44.0,98.0,94.0,107.0,CHW
 Tyler Mahle,"RP, 53 ovr / 28 adj (47 stam, 0 pit) 50 GB% | 135 vsR | 136 vsL | 135 FIP-",RP,0.0,-0.4,53.0,28,R,47.0,0,50.0,135.0,135.0,136.0,SF
 Tyler Matzek,"RP, 38 ovr / 20 adj (14 stam, 1 pit) 39 GB% | 180 vsR | 143 vsL | 170 FIP-",RP,0.0,-1.2,38.0,20,L,14.0,1,39.0,170.0,180.0,143.0,
 Tyler Owens,"RP, 37 ovr / 20 adj (23 stam, 0 pit) 50 GB% | 206 vsR | 196 vsL | 200 FIP-",RP,0.0,-1.8,37.0,20,R,23.0,0,50.0,200.0,206.0,196.0,
@@ -1460,7 +1461,7 @@ Tyler Rogers,"RP, 55 ovr / 48 adj (15 stam, 1 pit) 61 GB% | 67 vsR | 133 vsL | 8
 Tyler Samaniego,"RP, 41 ovr / 26 adj (18 stam, 1 pit) 52 GB% | 146 vsR | 124 vsL | 142 FIP-",RP,0.0,-0.6,41.0,26,L,18.0,1,52.0,142.0,146.0,124.0,
 Tyler Schoff,"RP, 36 ovr / 20 adj (19 stam, 1 pit) 49 GB% | 196 vsR | 192 vsL | 192 FIP-",RP,0.0,-1.7,36.0,20,R,19.0,1,49.0,192.0,196.0,192.0,
 Tyler Uberstine,"RP, 47 ovr / 29 adj (47 stam, 2 pit) 45 GB% | 113 vsR | 157 vsL | 132 FIP-",RP,0.0,-0.3,47.0,29,R,47.0,2,45.0,132.0,113.0,157.0,
-Tyler Wells,"RP, 46 ovr / 20 adj (44 stam, 1 pit) 38 GB% | 177 vsR | 168 vsL | 173 FIP-",RP,0.0,-1.3,46.0,20,R,44.0,1,38.0,173.0,177.0,168.0,
+Tyler Wells,"RP, 46 ovr / 20 adj (44 stam, 1 pit) 38 GB% | 177 vsR | 168 vsL | 173 FIP-",RP,0.0,-1.3,46.0,20,R,44.0,1,38.0,173.0,177.0,168.0,PIT
 Tyler Whitaker,"SP, 32 ovr / 20 adj (64 stam, 0 pit) 47 GB% | 397 vsR | 396 vsL | 396 FIP-",SP,-13.0,-4.7,32.0,20,R,64.0,0,47.0,396.0,397.0,396.0,LAD
 Tylor Megill,"SP, 50 ovr / 57 adj (45 stam, 4 pit) 45 GB% | 97 vsR | 114 vsL | 101 FIP-",SP,2.7,0.5,50.0,57,R,45.0,4,45.0,101.0,97.0,114.0,MIL
 Tyson Hardin,"RP, 43 ovr / 20 adj (38 stam, 2 pit) 63 GB% | 173 vsR | 204 vsL | 185 FIP-",RP,0.0,-1.5,43.0,20,R,38.0,2,63.0,185.0,173.0,204.0,
@@ -1547,7 +1548,7 @@ Zach Thompson,"SP, 41 ovr / 20 adj (63 stam, 0 pit) 54 GB% | 185 vsR | 188 vsL |
 Zach Thornton,"SP, 42 ovr / 20 adj (58 stam, 1 pit) 53 GB% | 185 vsR | 172 vsL | 181 FIP-",SP,-3.2,-1.5,42.0,20,L,58.0,1,53.0,181.0,185.0,172.0,LAD
 Zack Gelof,"RP, 48 ovr / 20 adj (16 stam, 0 pit) 46 GB% | 397 vsR | 397 vsL | 397 FIP-",RP,0.0,-4.7,48.0,20,R,16.0,0,46.0,397.0,397.0,397.0,STL
 Zack Kelly,"RP, 43 ovr / 28 adj (17 stam, 2 pit) 53 GB% | 136 vsR | 135 vsL | 137 FIP-",RP,0.0,-0.5,43.0,28,R,17.0,2,53.0,137.0,136.0,135.0,
-Zack Littell,"SP, 49 ovr / 34 adj (67 stam, 2 pit) 48 GB% | 124 vsR | 148 vsL | 135 FIP-",SP,0.0,-0.4,49.0,34,R,67.0,2,48.0,135.0,124.0,148.0,
+Zack Littell,"SP, 49 ovr / 34 adj (67 stam, 2 pit) 48 GB% | 124 vsR | 148 vsL | 135 FIP-",SP,0.0,-0.4,49.0,34,R,67.0,2,48.0,135.0,124.0,148.0,CHC
 Zack Thompson,"SP, 39 ovr / 20 adj (48 stam, 4 pit) 51 GB% | 162 vsR | 156 vsL | 159 FIP-",SP,-1.7,-1.0,39.0,20,L,48.0,4,51.0,159.0,162.0,156.0,PIT
 Zack Weiss,"RP, 38 ovr / 20 adj (20 stam, 2 pit) 43 GB% | 155 vsR | 178 vsL | 161 FIP-",RP,0.0,-1.0,38.0,20,R,20.0,2,43.0,161.0,155.0,178.0,
 Zack Wheeler,"SP, 70 ovr / 64 adj (77 stam, 4 pit) 52 GB% | 85 vsR | 87 vsL | 87 FIP-",SP,3.9,0.9,70.0,64,R,77.0,4,52.0,87.0,85.0,87.0,BOS
