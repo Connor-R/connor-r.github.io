@@ -1,10 +1,7 @@
 year,owner,league_name,Details,finish,pick,W,L,T,PF,PA,Moves,PtsPct,xTitles,xSackos,PF_z,zStrength,xRank,RankDiff,xPtsPct,PtsPctDiff,PA_z,PA_zStrength,xPA,PA_DIFF,draft_z,draft_zStrength,PF+,PA+,seasons,Playoffs,Podiums,Titles,Sackos,std_finish,total_W,total_L,total_PF,total_PA,team_name
 Total,Erik Bagley,Western-nba,"Erik Bagley - Western (nba)
 
-#3 (2026, 34 draft_zStrength, 13-7, 0.67 PF_z, 75 zStrength, 114 PF+, 2.4 xRank, 0.12 xTitles, 0.00 xSackos)
-	-D-Lo Green 
-
- #2 (2025, 7 draft_zStrength, 12-8, 0.66 PF_z, 75 zStrength, 107 PF+, 2.4 xRank, 0.12 xTitles, 0.00 xSackos)
+#2 (2025, 7 draft_zStrength, 12-8, 0.66 PF_z, 75 zStrength, 107 PF+, 2.4 xRank, 0.12 xTitles, 0.00 xSackos)
 	-D-Lo Green 
 
  #1 (2024, 22 draft_zStrength, 14-6, 1.03 PF_z, 85 zStrength, 113 PF+, 1.9 xRank, 0.19 xTitles, 0.00 xSackos)
@@ -14,32 +11,13 @@ Total,Erik Bagley,Western-nba,"Erik Bagley - Western (nba)
 	-Drey Area 
 
  #1 (2022, 77 draft_zStrength, 14-6, 1.14 PF_z, 87 zStrength, 111 PF+, 1.7 xRank, 0.22 xTitles, 0.00 xSackos)
-	-The Ich Bros",1.8,,13.8,6.2,0.0,23194.6,20152.0,66.2,0.69,0.79,0.0,0.87,80.0,2.1,-0.3,0.605,-0.085,-0.3,40.0,20309.1,-785.6,-0.29,41.0,112.0,99.0,5 (2022 - 2026),5.0,5.0,2.0,0.0,0.7,69.0,31.0,115973.0,100760.0,"The Ich Bros
+	-The Ich Bros",1.5,,14.0,6.0,0.0,23540.75,20582.0,68.25,0.7,0.67,0.0,0.92,82.0,2.0,-0.5,0.611,-0.089,-0.27,42.0,20722.2,-560.6,-0.27,43.0,111.0,99.0,4 (2022 - 2025),4.0,4.0,2.0,0.0,0.5,56.0,24.0,94163.0,82328.0,"The Ich Bros
 Drey Area
 James HardOn
 D-Lo Green"
-Total,Connor Reed,Western-nba,"Connor Reed - Western (nba)
-
-#1 (2026, 98 draft_zStrength, 11-9, 0.47 PF_z, 68 zStrength, 110 PF+, 2.6 xRank, 0.09 xTitles, 0.00 xSackos)
-	-Young Larry Bird 
-
- #4 (2025, 95 draft_zStrength, 13-7, 0.03 PF_z, 51 zStrength, 100 PF+, 3.2 xRank, 0.05 xTitles, 0.01 xSackos)
-	-Young Larry Bird 
-
- #3 (2024, 97 draft_zStrength, 11-9, -0.10 PF_z, 46 zStrength, 99 PF+, 3.4 xRank, 0.04 xTitles, 0.01 xSackos)
-	-Young Larry Bird 
-
- #1 (2023, 98 draft_zStrength, 14-6, 0.99 PF_z, 84 zStrength, 114 PF+, 1.9 xRank, 0.18 xTitles, 0.00 xSackos)
-	-Young Larry Bird 
-
- #3 (2022, 97 draft_zStrength, 10-10, 0.80 PF_z, 79 zStrength, 108 PF+, 2.2 xRank, 0.14 xTitles, 0.00 xSackos)
-	-Young Larry Bird",2.4,,11.8,8.2,0.0,22036.6,21041.2,23.6,0.59,0.5,0.02,0.44,66.0,2.7,-0.3,0.553,-0.037,0.91,75.0,20540.7,2502.4,1.85,97.0,106.0,103.0,5 (2022 - 2026),5.0,4.0,2.0,0.0,1.2,59.0,41.0,110183.0,105206.0,Young Larry Bird
 Total,Kyle McReynolds,Western-nba,"Kyle McReynolds - Western (nba)
 
-#4 (2026, 61 draft_zStrength, 11-9, 0.27 PF_z, 61 zStrength, 106 PF+, 2.9 xRank, 0.07 xTitles, 0.00 xSackos)
-	-Glock Morant 
-
- #1 (2025, 67 draft_zStrength, 10-10, 0.63 PF_z, 74 zStrength, 107 PF+, 2.4 xRank, 0.11 xTitles, 0.00 xSackos)
+#1 (2025, 67 draft_zStrength, 10-10, 0.63 PF_z, 74 zStrength, 107 PF+, 2.4 xRank, 0.11 xTitles, 0.00 xSackos)
 	-Glock Morant 
 
  #2 (2024, 78 draft_zStrength, 14-6, 0.96 PF_z, 83 zStrength, 112 PF+, 2.0 xRank, 0.17 xTitles, 0.00 xSackos)
@@ -49,15 +27,25 @@ Total,Kyle McReynolds,Western-nba,"Kyle McReynolds - Western (nba)
 	-Chef Curry 
 
  #2 (2022, 22 draft_zStrength, 14-6, 0.85 PF_z, 80 zStrength, 108 PF+, 2.1 xRank, 0.15 xTitles, 0.00 xSackos)
-	-Chef Curry",2.6,,12.0,8.0,0.0,22401.0,20495.4,30.6,0.6,0.58,0.01,0.61,72.0,2.4,0.2,0.574,-0.026,0.05,51.0,20467.8,137.8,0.15,56.0,108.0,100.0,5 (2022 - 2026),5.0,3.0,1.0,0.0,1.2,60.0,40.0,112005.0,102477.0,"Chef Curry
+	-Chef Curry",2.3,,12.3,7.8,0.0,22940.5,20939.0,32.25,0.613,0.51,0.01,0.69,75.0,2.3,-0.1,0.584,-0.029,0.18,56.0,20842.2,387.2,0.12,55.0,108.0,100.0,4 (2022 - 2025),4.0,3.0,1.0,0.0,1.1,49.0,31.0,91762.0,83756.0,"Chef Curry
 Big Daddy Joker
 Glock Morant"
+Total,Connor Reed,Western-nba,"Connor Reed - Western (nba)
+
+#4 (2025, 95 draft_zStrength, 13-7, 0.03 PF_z, 51 zStrength, 100 PF+, 3.2 xRank, 0.05 xTitles, 0.01 xSackos)
+	-Young Larry Bird 
+
+ #3 (2024, 97 draft_zStrength, 11-9, -0.10 PF_z, 46 zStrength, 99 PF+, 3.4 xRank, 0.04 xTitles, 0.01 xSackos)
+	-Young Larry Bird 
+
+ #1 (2023, 98 draft_zStrength, 14-6, 0.99 PF_z, 84 zStrength, 114 PF+, 1.9 xRank, 0.18 xTitles, 0.00 xSackos)
+	-Young Larry Bird 
+
+ #3 (2022, 97 draft_zStrength, 10-10, 0.80 PF_z, 79 zStrength, 108 PF+, 2.2 xRank, 0.14 xTitles, 0.00 xSackos)
+	-Young Larry Bird",2.8,,12.0,8.0,0.0,22292.0,21399.25,24.5,0.6,0.41,0.02,0.43,65.0,2.7,0.1,0.552,-0.048,0.76,70.0,20971.9,1709.4,1.81,97.0,105.0,102.0,4 (2022 - 2025),4.0,3.0,1.0,0.0,1.1,48.0,32.0,89168.0,85597.0,Young Larry Bird
 Total,Erik Foster,Western-nba,"Erik Foster - Western (nba)
 
-#2 (2026, 15 draft_zStrength, 19-1, 1.28 PF_z, 90 zStrength, 126 PF+, 1.5 xRank, 0.25 xTitles, 0.00 xSackos)
-	-2016 Warriors 
-
- #3 (2025, 22 draft_zStrength, 15-5, 1.03 PF_z, 85 zStrength, 112 PF+, 1.9 xRank, 0.19 xTitles, 0.00 xSackos)
+#3 (2025, 22 draft_zStrength, 15-5, 1.03 PF_z, 85 zStrength, 112 PF+, 1.9 xRank, 0.19 xTitles, 0.00 xSackos)
 	-Simons Says Ball 
 
  #5 (2024, 32 draft_zStrength, 10-10, -0.28 PF_z, 39 zStrength, 96 PF+, 3.7 xRank, 0.03 xTitles, 0.02 xSackos)
@@ -67,17 +55,13 @@ Total,Erik Foster,Western-nba,"Erik Foster - Western (nba)
 	-Get Giddey With It 
 
  #4 (2022, 16 draft_zStrength, 11-9, -0.30 PF_z, 38 zStrength, 97 PF+, 3.7 xRank, 0.03 xTitles, 0.02 xSackos)
-	-Curious George Goes to Towns",3.8,,12.4,7.6,0.0,21598.2,20394.2,23.6,0.62,0.52,0.09,0.21,55.0,3.0,0.8,0.525,-0.095,-0.65,31.0,20628.4,-1171.0,-0.82,21.0,104.0,99.0,5 (2022 - 2026),3.0,2.0,0.0,0.0,1.2,62.0,38.0,107991.0,101971.0,"Curious George Goes to Towns
+	-Curious George Goes to Towns",4.3,,10.8,9.3,0.0,20944.0,21029.0,21.0,0.538,0.27,0.09,-0.06,47.0,3.3,0.9,0.493,-0.045,-0.66,33.0,21241.5,-850.0,-0.77,23.0,99.0,99.0,4 (2022 - 2025),2.0,1.0,0.0,0.0,0.8,43.0,37.0,83776.0,84116.0,"Curious George Goes to Towns
 Get Giddey With It
 Zero Fox Given
-Simons Says Ball
-2016 Warriors"
+Simons Says Ball"
 Total,Ben Lalor,Western-nba,"Ben Lalor - Western (nba)
 
-#6 (2026, 46 draft_zStrength, 4-16, -1.35 PF_z, 9 zStrength, 72 PF+, 5.1 xRank, 0.01 xTitles, 0.25 xSackos)
-	-The Hairy Tadger 
-
- #6 (2025, 72 draft_zStrength, 9-11, -0.34 PF_z, 37 zStrength, 96 PF+, 3.7 xRank, 0.03 xTitles, 0.02 xSackos)
+#6 (2025, 72 draft_zStrength, 9-11, -0.34 PF_z, 37 zStrength, 96 PF+, 3.7 xRank, 0.03 xTitles, 0.02 xSackos)
 	-The Hairy Tadger 
 
  #4 (2024, 17 draft_zStrength, 10-10, 0.34 PF_z, 63 zStrength, 104 PF+, 2.8 xRank, 0.08 xTitles, 0.00 xSackos)
@@ -87,14 +71,11 @@ Total,Ben Lalor,Western-nba,"Ben Lalor - Western (nba)
 	-The Stinky Tadger 
 
  #5 (2022, 24 draft_zStrength, 4-16, -1.48 PF_z, 7 zStrength, 85 PF+, 5.3 xRank, 0.01 xTitles, 0.33 xSackos)
-	-The Stinky Tadger",4.8,,7.6,12.4,0.0,19427.8,20631.0,9.4,0.38,0.2,0.6,-0.48,36.0,3.9,0.9,0.442,0.062,-0.62,30.0,21062.5,-2157.4,-0.36,37.0,93.0,98.0,5 (2022 - 2026),2.0,1.0,0.0,2.0,1.2,38.0,62.0,97139.0,103155.0,"The Stinky Tadger
+	-The Stinky Tadger",4.5,,8.5,11.5,0.0,20809.25,20891.25,9.5,0.425,0.19,0.35,-0.27,43.0,3.6,0.9,0.468,0.043,-0.47,35.0,21268.5,-1508.8,-0.43,35.0,98.0,98.0,4 (2022 - 2025),2.0,1.0,0.0,1.0,1.1,34.0,46.0,83237.0,83565.0,"The Stinky Tadger
 The Hairy Tadger"
 Total,Troy Kato,Western-nba,"Troy Kato - Western (nba)
 
-#5 (2026, 22 draft_zStrength, 2-18, -1.34 PF_z, 9 zStrength, 73 PF+, 5.1 xRank, 0.01 xTitles, 0.25 xSackos)
-	-Poole Party 
-
- #5 (2025, 34 draft_zStrength, 1-19, -2.00 PF_z, 2 zStrength, 77 PF+, 6.0 xRank, 0.00 xTitles, 0.66 xSackos)
+#5 (2025, 34 draft_zStrength, 1-19, -2.00 PF_z, 2 zStrength, 77 PF+, 6.0 xRank, 0.00 xTitles, 0.66 xSackos)
 	-Poole Party 
 
  #6 (2024, 33 draft_zStrength, 1-19, -1.95 PF_z, 3 zStrength, 75 PF+, 6.0 xRank, 0.00 xTitles, 0.64 xSackos)
@@ -104,13 +85,7 @@ Total,Troy Kato,Western-nba,"Troy Kato - Western (nba)
 	-Poole Party 
 
  #6 (2022, 48 draft_zStrength, 7-13, -1.02 PF_z, 16 zStrength, 90 PF+, 4.7 xRank, 0.01 xTitles, 0.12 xSackos)
-	-Poole Party",5.6,,2.4,17.6,0.0,16082.0,22026.4,4.6,0.12,0.02,2.26,-1.64,7.0,5.5,0.1,0.302,0.182,0.62,69.0,21731.6,1473.8,-0.53,31.0,77.0,101.0,5 (2022 - 2026),0.0,0.0,0.0,3.0,0.5,12.0,88.0,80410.0,110132.0,Poole Party
-2026,Connor Reed,Western-nba,,1.0,,11.0,9.0,0.0,21015.0,19609.0,20.0,0.55,0.09,0.0,0.47,68.0,2.6,-1.6,0.556,0.006,1.5,93.0,18816.0,793.0,2.02,98.0,110.0,104.0,,1.0,1.0,1.0,0.0,,,,,,Young Larry Bird
-2026,Erik Foster,Western-nba,,2.0,,19.0,1.0,0.0,24215.0,17855.0,34.0,0.95,0.25,0.0,1.28,90.0,1.5,0.5,0.655,-0.295,-0.61,27.0,18176.0,-321.0,-1.05,15.0,126.0,98.0,,1.0,1.0,0.0,0.0,,,,,,2016 Warriors
-2026,Erik Bagley,Western-nba,,3.0,,13.0,7.0,0.0,21810.0,18432.0,58.0,0.65,0.12,0.0,0.67,75.0,2.4,0.7,0.581,-0.069,-0.42,34.0,18657.0,-225.0,-0.4,34.0,114.0,99.0,,1.0,1.0,0.0,0.0,,,,,,D-Lo Green
-2026,Kyle McReynolds,Western-nba,,4.0,,11.0,9.0,0.0,20243.0,18721.0,24.0,0.55,0.07,0.0,0.27,61.0,2.9,1.1,0.533,-0.017,-0.47,32.0,18970.4,-249.4,0.29,61.0,106.0,99.0,,1.0,0.0,0.0,0.0,,,,,,Glock Morant
-2026,Troy Kato,Western-nba,,5.0,,2.0,18.0,0.0,13910.0,20888.0,9.0,0.1,0.01,0.25,-1.34,9.0,5.1,-0.1,0.338,0.238,1.23,89.0,20237.0,651.0,-0.77,22.0,73.0,103.0,,0.0,0.0,0.0,0.0,,,,,,Poole Party
-2026,Ben Lalor,Western-nba,,6.0,,4.0,16.0,0.0,13902.0,19590.0,9.0,0.2,0.01,0.25,-1.35,9.0,5.1,0.9,0.338,0.138,-1.22,11.0,20238.6,-648.6,-0.09,46.0,73.0,97.0,,0.0,0.0,0.0,1.0,,,,,,The Hairy Tadger
+	-Poole Party",5.8,,2.5,17.5,0.0,16625.0,22311.0,3.5,0.125,0.02,2.01,-1.71,6.0,5.6,0.1,0.293,0.168,0.47,65.0,22105.3,822.8,-0.47,33.0,79.0,101.0,4 (2022 - 2025),0.0,0.0,0.0,3.0,0.4,10.0,70.0,66500.0,89244.0,Poole Party
 2025,Kyle McReynolds,Western-nba,,1.0,,10.0,10.0,0.0,23035.0,21601.0,30.0,0.5,0.11,0.0,0.63,74.0,2.4,-1.4,0.576,0.076,0.87,81.0,21199.0,402.0,0.45,67.0,107.0,102.0,,1.0,1.0,1.0,0.0,,,,,,Glock Morant
 2025,Erik Bagley,Western-nba,,2.0,,12.0,8.0,0.0,23113.0,21372.0,62.0,0.6,0.12,0.0,0.66,75.0,2.4,-0.4,0.58,-0.02,0.41,66.0,21183.4,188.6,-1.45,7.0,108.0,101.0,,1.0,1.0,0.0,0.0,,,,,,D-Lo Green
 2025,Erik Foster,Western-nba,,3.0,,15.0,5.0,0.0,23999.0,20304.0,22.0,0.75,0.19,0.0,1.03,85.0,1.9,1.1,0.624,-0.126,-1.52,6.0,21006.2,-702.2,-0.78,22.0,112.0,97.0,,1.0,1.0,0.0,0.0,,,,,,Simons Says Ball
