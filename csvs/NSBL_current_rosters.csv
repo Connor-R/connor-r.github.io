@@ -469,6 +469,7 @@ year,gp,date,player_name,fname,lname,team_abb,position,salary,contract_year,expi
 2026,0,2026-04-24,Nathan Eovaldi,Nathan,Eovaldi,MIA,p,45.000,V,2027,Yes,Y,Y,"Eovaldi, Nate",Active
 2026,0,2026-04-24,Lucas Erceg,Lucas,Erceg,CLE,p,2.050,V,2026,Yes,,Y,"Erceg, Lucas",Active
 2026,0,2026-04-24,Aroon Escobar,Aroon,Escobar,CLE,if,0.700,XXX,0,,,N,"Escobar, Aroon",Reserve
+2026,0,2026-04-24,Santiago Espinal,Santiago,Espinal,PIT,if,1.400,V,2026,,,Y,"Espinal, Santiago",Active
 2026,0,2026-04-24,Daniel Espino,Daniel,Espino,PIT,p,1.911,3rd,0,,,N,"Espino, Daniel",Active
 2026,0,2026-04-24,Conor Essenburg,Conor,Essenburg,MIL,of,0.700,XXX,0,,,N,"Essenburg, Conor",Reserve
 2026,0,2026-04-24,Joey Estes,Joey,Estes,WAS,p,0.700,XXX,0,,,N,"Estes, Joey",Reserve
@@ -673,6 +674,7 @@ year,gp,date,player_name,fname,lname,team_abb,position,salary,contract_year,expi
 2026,0,2026-04-24,Gunnar Henderson,Gunnar,Henderson,DET,if,5.967,4th,0,,,Y,"Henderson, Gunnar",Active
 2026,0,2026-04-24,Logan Henderson,Logan,Henderson,NYM,p,0.700,XXX,0,,,N,"Henderson, Logan",Reserve
 2026,0,2026-04-24,Austin Hendrick,Austin,Hendrick,LAA,of,0.700,XXX,0,,,N,"Hendrick, Austin",Reserve
+2026,0,2026-04-24,Liam Hendriks,Liam,Hendriks,WAS,p,1.100,MLI,0,,,N,"Hendriks, Liam",Reserve
 2026,0,2026-04-24,Edgardo Henriquez,Edgardo,Henriquez,CHW,p,0.700,XXX,0,,,N,"Henriquez, Edgardo",Reserve
 2026,0,2026-04-24,Ronny Henriquez,Ronny,Henriquez,CLE,p,0.700,XXX,0,,,N,"Henriquez, Ronny",Active
 2026,0,2026-04-24,Cole Henry,Cole,Henry,TEX,p,1.470,2nd,0,,,N,"Henry, Cole",Reserve
@@ -879,6 +881,7 @@ year,gp,date,player_name,fname,lname,team_abb,position,salary,contract_year,expi
 2026,0,2026-04-24,Jace LaViolette,Jace,LaViolette,CLE,of,0.700,XXX,0,,,N,"LaViolette, Jace",Reserve
 2026,0,2026-04-24,Jordan Lawlar,Jordan,Lawlar,HOU,if,0.700,XXX,0,,,N,"Lawlar, Jordan",Reserve
 2026,0,2026-04-24,Justin Lawrence,Justin,Lawrence,LAD,p,5.000,V,2027,Yes ,Y,Y,"Lawrence, Justin",Active
+2026,0,2026-04-24,Kyle Leahy,Kyle,Leahy,OAK,p,1.100,MLI,0,,,N,"Leahy, Kyle",Reserve
 2026,0,2026-04-24,Jose LeClerc,Jose,LeClerc,OAK,p,2.500,V,2026,Yes,,Y,"LeClerc, Jose",Active
 2026,0,2026-04-24,Colton Ledbetter,Colton,Ledbetter,CIN,if,0.700,XXX,0,,,N,"Ledbetter, Colton",Reserve
 2026,0,2026-04-24,Brooks Lee,Brooks,Lee,NYY,if,0.700,XXX,0,,,N,"Lee, Brooks",Reserve
@@ -956,6 +959,7 @@ year,gp,date,player_name,fname,lname,team_abb,position,salary,contract_year,expi
 2026,0,2026-04-24,Justyn-Henry Malloy,Justyn-Henry,Malloy,ATL,of,1.183,3rd,0,,,N,"Malloy, Justyn-Henry",Active
 2026,0,2026-04-24,Sean Manaea,Sean,Manaea,MIL,p,11.111,V,2027,,Y,Y,"Manaea, Sean",Active
 2026,0,2026-04-24,Jake Mangum,Jake,Mangum,TOR,of,1.933,V,2026,Yes,,Y,"Mangum, Jake",Active
+2026,0,2026-04-24,Matt Manning,Matt,Manning,PIT,p,1.100,MLI,0,,,N,"Manning, Matt",Reserve
 2026,0,2026-04-24,Alek Manoah,Alek,Manoah,SEA,p,2.368,4th,0,,,Y,"Manoah, Alek",Reserve
 2026,0,2026-04-24,Kyle Manzardo,Kyle,Manzardo,SEA,if,1.295,2nd,0,,,N,"Manzardo, Kyle",Active
 2026,0,2026-04-24,Rafael Marchan,Rafael,Marchan,NYM,c,2.200,V,2028,Yes,Y,Y,"Marchan, Rafael",Reserve
@@ -1014,6 +1018,7 @@ year,gp,date,player_name,fname,lname,team_abb,position,salary,contract_year,expi
 2026,0,2026-04-24,Alex McFarlane,Alex,McFarlane,OAK,p,0.700,XXX,0,,,N,"McFarlane, Alex",Reserve
 2026,0,2026-04-24,Griff McGarry,Griff,McGarry,COL,p,0.700,XXX,0,,,N,"McGarry, Griff",Reserve
 2026,0,2026-04-24,Haydn McGeary,Haydn,McGeary,LAD,if,0.700,XXX,0,,,N,"McGeary, Haydn",Reserve
+2026,0,2026-04-24,Easton McGee,Easton,McGee,WAS,p,1.100,MLI,0,,,N,"McGee, Easton",Reserve
 2026,0,2026-04-24,Kevin McGonigle,Kevin,McGonigle,TOR,if,0.700,XXX,0,,,N,"McGonigle, Kevin",Active
 2026,0,2026-04-24,Teddy McGraw,Teddy,McGraw,CHC,p,0.700,XXX,0,,,N,"McGraw, Teddy",Reserve
 2026,0,2026-04-24,Michael McGreevy,Michael,McGreevy,NYY,p,0.700,XXX,0,,,N,"McGreevy, Michael",Active
@@ -1250,6 +1255,7 @@ year,gp,date,player_name,fname,lname,team_abb,position,salary,contract_year,expi
 2026,0,2026-04-24,Marcus Phillips,Marcus,Phillips,TOR,p,0.700,XXX,0,,,N,"Phillips, Marcus",Reserve
 2026,0,2026-04-24,Daniel Pierce,Daniel,Pierce,DET,if,0.700,XXX,0,,,N,"Pierce, Daniel",Reserve
 2026,0,2026-04-24,Pedro Pineda,Pedro,Pineda,TOR,of,0.700,XXX,0,,,N,"Pineda, Pedro",Reserve
+2026,0,2026-04-24,Rene Pinto,Rene,Pinto,OAK,c,1.100,MLI,0,,,N,"Pinto, Rene",Reserve
 2026,0,2026-04-24,Emilien Pitre,Emilien,Pitre,ARI,if,0.700,XXX,0,,,N,"Pitre, Emilien",Reserve
 2026,0,2026-04-24,Nick Pivetta,Nick,Pivetta,TB,p,1.867,4th,0,,,Y,"Pivetta, Nick",Active
 2026,0,2026-04-24,Zach Plesac,Zach,Plesac,BOS,p,3.658,6th,0,,,Y,"Plesac, Zach",Active
@@ -1296,6 +1302,7 @@ year,gp,date,player_name,fname,lname,team_abb,position,salary,contract_year,expi
 2026,0,2026-04-24,Bryan Reynolds,Bryan,Reynolds,KC,of,7.000,V,2028,Yes,Y,Y,"Reynolds, Bryan",Active
 2026,0,2026-04-24,Yandel Ricardo,Yandel,Ricardo,TOR,if,0.700,XXX,0,,,N,"Ricardo, Yandel",Reserve
 2026,0,2026-04-24,Ben Rice,Ben,Rice,MIA,if,0.700,XXX,0,,,N,"Rice, Ben",Active
+2026,0,2026-04-24,Lyon Richardson,Lyon,Richardson,PIT,p,1.400,V,2026,Yes,,Y,"Richardson, Lyon",Active
 2026,0,2026-04-24,Roc Riggio,Roc,Riggio,BAL,if,0.700,XXX,0,,,N,"Riggio, Roc",Reserve
 2026,0,2026-04-24,Austin Riley,Austin,Riley,HOU,if,22.163,CE,2026,,,Y,"Riley, Austin",Active
 2026,0,2026-04-24,Bryan Rincon,Bryan,Rincon,TB,if,0.700,XXX,0,,,N,"Rincon, Bryan",Reserve
@@ -1559,6 +1566,7 @@ year,gp,date,player_name,fname,lname,team_abb,position,salary,contract_year,expi
 2026,0,2026-04-24,Caleb Thielbar,Caleb,Thielbar,LAD,p,3.999,V,2027,,Y,Y,"Theilbar, Caleb",Active
 2026,0,2026-04-24,Colby Thomas,Colby,Thomas,SEA,of,0.700,1st,0,,,N,"Thomas, Colby",Reserve
 2026,0,2026-04-24,Jared Thomas,Jared,Thomas,STL,of,0.700,XXX,0,,,N,"Thomas, Jared",Reserve
+2026,0,2026-04-24,Lane Thomas,Lane,Thomas,SEA,of,1.100,MLI,0,,,N,"Thomas, Lane",Reserve
 2026,0,2026-04-24,Tahnaj Thomas,Tahnaj,Thomas,COL,p,0.700,XXX,0,,,N,"Thomas, Tahnaj",Reserve
 2026,0,2026-04-24,JD Thompson,JD,Thompson,KC,p,0.700,XXX,0,,,N,"Thompson, JD",Reserve
 2026,0,2026-04-24,Keegan Thompson,Keegan,Thompson,BAL,p,0.700,XXX,0,,,N,"Thompson, Keegan",Reserve
@@ -1664,6 +1672,7 @@ year,gp,date,player_name,fname,lname,team_abb,position,salary,contract_year,expi
 2026,0,2026-04-24,Luke Weaver,Luke,Weaver,TOR,p,9.000,V,2026,Yes,,Y,"Weaver, Luke",Active
 2026,0,2026-04-24,Jacob Webb,Jacob,Webb,SD,p,10.000,V,2027,Yes,Y,Y,"Webb, Jacob",Active
 2026,0,2026-04-24,Logan Webb,Logan,Webb,CHW,p,18.005,CE,2027,,,Y,"Webb, Logan",Active
+2026,0,2026-04-24,Ryan Weiss,Ryan,Weiss,SEA,p,1.100,MLI,0,,,N,"Weiss, Ryan",Reserve
 2026,0,2026-04-24,Greg Weissert,Greg,Weissert,PHI,p,2.000,V,2026,,,Y,"Weissert, Greg",Reserve
 2026,0,2026-04-24,Austin Wells,Austin,Wells,HOU,of,1.085,2nd,0,,,N,"Wells, Austin",Active
 2026,0,2026-04-24,Tyler Wells,Tyler,Wells,PIT,p,6.500,V,2029,Yes,Y,Y,"Wells, Tyler",Active
