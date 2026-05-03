@@ -610,6 +610,7 @@ name,year,est_year_watched,genre,sub_genre,movie_length,peak,consistency,premise
 """The Italian Job""",1969,2011,"""action""","""""",99,60,60,65,60,50,60,60,60,60,,59.5
 """The Italian Job""",2003,2006,"""action""","""""",111,60,50,60,50,50,65,65,50,60,,57.3
 """The Karate Kid""",1984,2012,"""action""","""drama""",126,60,50,60,60,40,50,50,40,60,,53.7
+"""The Last Samurai""",2003,2026,"""action""","""drama""",154,45,55,45,45,40,55,40,40,40,,45.9
 """The Lego Batman Movie""",2017,2017,"""comedy""","""animated""",104,75,40,50,50,40,55,60,40,55,,54.0
 """The Lego Movie""",2014,2014,"""comedy""","""animated""",100,75,50,50,50,40,60,60,40,60,,56.8
 """The Life Aquatic with Steve Zissou""",2004,2009,"""comedy""","""adventure""",119,70,60,70,60,40,70,70,50,65,,63.2
