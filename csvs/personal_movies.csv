@@ -731,5 +731,6 @@ name,year,est_year_watched,genre,sub_genre,movie_length,peak,consistency,premise
 """Your Name""",2016,2016,"""animated""","""drama""",106,75,60,70,70,50,70,60,65,70,,66.6
 """Youth In Revolt""",2009,2010,"""comedy""","""drama""",90,60,60,60,60,40,60,60,65,50,,56.8
 """Zack and Miri Make a Porno""",2008,2010,"""comedy""","""romance""",101,30,40,40,30,30,40,30,30,40,,35.1
+"""Zathura: A Space Adventure""",2005,2026,"""sci-fi""","""""",101,50,45,50,55,30,45,40,45,40,,44.6
 """Zoolander 1""",2001,2003,"""comedy""","""""",90,70,70,70,50,40,70,60,70,80,,66.3
 """Zoolander 2""",2016,2017,"""comedy""","""""",101,40,30,40,40,40,30,40,30,30,,35.4
