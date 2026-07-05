@@ -63,13 +63,12 @@ def generate_body(author, topic, medium, keyword, count, to_address):
 def email(sub, mesg, to_address):
     email_address = "connor.reed.92@gmail.com"
     fromaddr = email_address
-    toaddr = to_address
+    toaddr = [a.strip() for a in to_address.split(',')]
     bcc_addr = email_address
 
     msg = MIMEMultipart()
     msg['From'] = fromaddr
-    msg['To'] = toaddr
-    msg['BCC'] = bcc_addr
+    msg['To'] = ', '.join(toaddr)
     msg['Subject'] = sub
     body = mesg
     msg.attach(MIMEText(mesg,'plain'))
@@ -78,7 +77,7 @@ def email(sub, mesg, to_address):
     server.starttls()
     server.login(fromaddr, key_list.get(email_address))
     text = msg.as_string()
-    server.sendmail(fromaddr, toaddr, text)
+    server.sendmail(fromaddr, toaddr + [bcc_addr], text)
     server.quit()
 
 
