@@ -41,6 +41,7 @@ name,year,est_year_watched,genre,sub_genre,movie_length,peak,consistency,premise
 """Asteroid City""",2023,2024,"""comedy""","""""",105,40,50,45,45,30,60,55,50,45,,46.1
 """Avatar(2): The Way of Water [3D]""",2022,2022,"""action""","""fantasy""",192,60,50,50,60,30,60,40,40,50,,50.7
 """Avatar(3): Fire and Ash [3D]""",2025,2026,"""action""","""fantasy""",197,50,45,40,45,30,55,40,40,40,,43.9
+"""Babe: Pig in the City""",1998,2026,"""adventure""","""comedy""",97,50,50,40,40,30,60,50,60,50,,48.0
 """Baby Driver""",2017,2018,"""action""","""""",113,60,50,50,60,40,60,40,50,50,,52.2
 """Back to the Future(1)""",1985,2003,"""adventure""","""sci-fi""",116,65,60,70,60,50,70,60,60,60,,62.2
 """Back to the Future(2)""",1985,2003,"""adventure""","""sci-fi""",108,60,50,60,50,40,60,50,50,50,,53.2
@@ -466,6 +467,7 @@ name,year,est_year_watched,genre,sub_genre,movie_length,peak,consistency,premise
 """Police Academy""",1984,2020,"""comedy""","""""",96,50,50,50,50,30,60,60,55,45,,49.5
 """Pootie Tang""",2001,2007,"""comedy""","""""",81,80,40,50,50,40,70,70,70,70,,61.2
 """Popstar-Never Stop Never Stopping""",2016,2017,"""comedy""","""""",87,50,50,40,40,40,60,60,50,50,,49.3
+"""Power Ballad""",2026,2026,"""comedy""","""musical""",98,50,45,45,45,30,50,45,55,45,,45.6
 """Project Hail Mary""",2026,2026,"""sci-fi""","""comedy""",156,60,60,70,70,45,60,60,55,60,,60.0
 """Puddle Cruiser""",1996,2012,"""comedy""","""""",102,70,70,80,60,50,80,80,60,70,,69.8
 """Pulp Fiction""",1994,2007,"""drama""","""""",154,70,70,80,70,60,70,70,50,80,,70.5
