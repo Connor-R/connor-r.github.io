@@ -19,7 +19,8 @@ body { margin:0; font:14px/1.45 -apple-system, BlinkMacSystemFont, "Segoe UI", H
 header { padding:14px 18px 10px; }
 h1 { margin:0 0 8px; font-size:19px; font-weight:600; }
 .controls { display:flex; align-items:center; gap:14px; flex-wrap:wrap; }
-#filter { padding:6px 10px; font-size:14px; border:1px solid var(--border); border-radius:6px; width:320px; max-width:90vw; }
+#filter { padding:6px 10px; font-size:14px; border:1px solid var(--border); border-radius:6px; width:420px; max-width:90vw; }
+#filter.bad { border-color:#dc2626; outline-color:#dc2626; }
 #count { color:#5b6875; font-size:13px; }
 #wrap { overflow:auto; border-top:1px solid var(--border); height:calc(100vh - 86px); position:relative; }
 table { border-collapse:collapse; width:max-content; min-width:100%; }
@@ -38,7 +39,7 @@ td.expandable { color:var(--accent); cursor:pointer; }
 <header>
 <h1>Connor Reed - Completed Boulder Problems (Last Updated Jul 19, 2026)</h1>
 <div class="controls">
-<input id="filter" type="search" placeholder="filter rows (space = AND)" autocomplete="off">
+<input id="filter" type="search" placeholder="filter: text terms, or sql: v_grade >= 7 and area like '%hueco%'" autocomplete="off">
 <span id="count"></span>
 </div>
 </header>
@@ -110,13 +111,137 @@ filterBox.addEventListener('input', function(){
   debounce = setTimeout(applyFilter, 180);
 });
 
+// ---- sql-ish WHERE expressions ------------------------------------------
+// v_grade >= 7 and area like '%hueco%'   |   year in (2019,2020) or not flash = 'FLASH'
+// column names normalize: lowercase, runs of non-alphanumerics -> _
+var COLIDX = {};
+COLS.forEach(function(c, i){ COLIDX[normId(c)] = i; });
+
+function normId(s){ return String(s).toLowerCase().replace(/[^a-z0-9]+/g, '_').replace(/^_+|_+$/g, ''); }
+
+function looksLikeSql(q){
+  return /(<=|>=|!=|<>|=|<|>)/.test(q) || /\b(like|in|and|or|not)\b/i.test(q);
+}
+
+function tokenize(q){
+  var re = /\s*(?:(<=|>=|!=|<>|=|<|>|\(|\)|,)|'((?:[^']|'')*)'|"([^"]*)"|([A-Za-z0-9_.%$-]+))/g;
+  var toks = [], m, pos = 0;
+  while ((m = re.exec(q)) !== null){
+    if (m.index !== pos && q.slice(pos, m.index).trim() !== '') return null;
+    pos = re.lastIndex;
+    if (m[1] !== undefined) toks.push({t:'op', v:m[1]});
+    else if (m[2] !== undefined) toks.push({t:'str', v:m[2].replace(/''/g, "'")});
+    else if (m[3] !== undefined) toks.push({t:'str', v:m[3]});
+    else {
+      var w = m[4], lw = w.toLowerCase();
+      if (['and','or','not','like','in'].indexOf(lw) >= 0) toks.push({t:'kw', v:lw});
+      else toks.push({t:'word', v:w});
+    }
+  }
+  if (pos < q.length && q.slice(pos).trim() !== '') return null;
+  return toks;
+}
+
+function parse(toks){
+  var p = 0;
+  function peek(){ return toks[p]; }
+  function take(){ return toks[p++]; }
+  function expr(){
+    var n = term();
+    while (peek() && peek().t === 'kw' && peek().v === 'or'){ take(); n = {or:[n, term()]}; }
+    return n;
+  }
+  function term(){
+    var n = factor();
+    while (peek() && peek().t === 'kw' && peek().v === 'and'){ take(); n = {and:[n, factor()]}; }
+    return n;
+  }
+  function factor(){
+    var tk = peek();
+    if (!tk) throw 0;
+    if (tk.t === 'kw' && tk.v === 'not'){ take(); return {not: factor()}; }
+    if (tk.t === 'op' && tk.v === '('){ take(); var n = expr(); if (!peek() || peek().v !== ')') throw 0; take(); return n; }
+    return predicate();
+  }
+  function predicate(){
+    var c = take();
+    if (!c || c.t !== 'word') throw 0;
+    var idx = COLIDX[normId(c.v)];
+    if (idx === undefined) throw 0;
+    var neg = false, tk = peek();
+    if (tk && tk.t === 'kw' && tk.v === 'not'){ take(); neg = true; tk = peek(); }
+    if (!tk) throw 0;
+    if (tk.t === 'kw' && tk.v === 'like'){ take(); var v = value(); return {like:{col:idx, pat:v, neg:neg}}; }
+    if (tk.t === 'kw' && tk.v === 'in'){
+      take(); if (!peek() || peek().v !== '(') throw 0; take();
+      var vals = [value()];
+      while (peek() && peek().v === ','){ take(); vals.push(value()); }
+      if (!peek() || peek().v !== ')') throw 0; take();
+      return {inlist:{col:idx, vals:vals, neg:neg}};
+    }
+    if (neg) throw 0;
+    if (tk.t === 'op' && ['=','!=','<>','<','<=','>','>='].indexOf(tk.v) >= 0){ take(); return {cmp:{col:idx, op:tk.v, val:value()}}; }
+    throw 0;
+  }
+  function value(){
+    var tk = take();
+    if (!tk || (tk.t !== 'str' && tk.t !== 'word')) throw 0;
+    return tk.v;
+  }
+  var n = expr();
+  if (p !== toks.length) throw 0;
+  return n;
+}
+
+function evalNode(n, row){
+  if (n.or) return evalNode(n.or[0], row) || evalNode(n.or[1], row);
+  if (n.and) return evalNode(n.and[0], row) && evalNode(n.and[1], row);
+  if (n.not) return !evalNode(n.not, row);
+  if (n.cmp){
+    var cell = String(row[n.cmp.col]), val = String(n.cmp.val);
+    var nc = numeric(cell), nv = numeric(val), r;
+    if (nc !== null && nv !== null){ r = nc < nv ? -1 : (nc > nv ? 1 : 0); }
+    else { var a = cell.toLowerCase(), b = val.toLowerCase(); r = a < b ? -1 : (a > b ? 1 : 0); }
+    switch (n.cmp.op){
+      case '=': return r === 0;
+      case '!=': case '<>': return r !== 0;
+      case '<': return r < 0;
+      case '<=': return r <= 0;
+      case '>': return r > 0;
+      case '>=': return r >= 0;
+    }
+  }
+  if (n.like){
+    var pat = n.like.pat.replace(/[.*+?^${}()|[\]\\]/g, '\\$&').replace(/%/g, '.*').replace(/_/g, '.');
+    var hit = new RegExp('^' + pat + '$', 'i').test(String(row[n.like.col]));
+    return n.like.neg ? !hit : hit;
+  }
+  if (n.inlist){
+    var cell = String(row[n.inlist.col]).toLowerCase();
+    var hit = n.inlist.vals.some(function(v){ return String(v).toLowerCase() === cell; });
+    return n.inlist.neg ? !hit : hit;
+  }
+  return false;
+}
+// -------------------------------------------------------------------------
+
 function applyFilter(){
-  var q = filterBox.value.trim().toLowerCase();
+  var q = filterBox.value.trim();
+  filterBox.classList.remove('bad');
   view = [];
   if (q === ''){
     for (var i = 0; i < ROWS.length; i++) view.push(i);
+  } else if (looksLikeSql(q)){
+    var ast = null, toks = tokenize(q);
+    if (toks){ try { ast = parse(toks); } catch (e) { ast = null; } }
+    if (!ast){
+      filterBox.classList.add('bad');
+      count.textContent = 'bad expression';
+      return;                                        // keep current view
+    }
+    for (var i = 0; i < ROWS.length; i++){ if (evalNode(ast, ROWS[i])) view.push(i); }
   } else {
-    var terms = q.split(/\s+/);
+    var terms = q.toLowerCase().split(/\s+/);
     for (var i = 0; i < ROWS.length; i++){
       var hay = ROWS[i].join('\u0001').toLowerCase();
       var ok = true;
