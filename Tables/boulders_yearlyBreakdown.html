@@ -11,7 +11,7 @@
   gtag('js', new Date());
   gtag('config', 'G-8N02F87WCP');
 </script>
-<title>Connor Reed - Bouldering Yearly Breakdown (Last Updated Jul 19, 2026)</title>
+<title>Connor Reed - Bouldering Yearly Breakdown (Last Updated Jul 20, 2026)</title>
 <style>
 :root { --border:#d0d4d9; --head:#2c3e50; --headtxt:#fff; --zebra:#f5f7f9; --hover:#eaf2fb; --accent:#2563eb; }
 * { box-sizing:border-box; }
@@ -37,7 +37,7 @@ td.expandable { color:var(--accent); cursor:pointer; }
 </head>
 <body>
 <header>
-<h1>Connor Reed - Bouldering Yearly Breakdown (Last Updated Jul 19, 2026)</h1>
+<h1>Connor Reed - Bouldering Yearly Breakdown (Last Updated Jul 20, 2026)</h1>
 <div class="controls">
 <input id="filter" type="search" placeholder="filter: text terms, or sql: v_grade >= 7 and area like '%hueco%'" autocomplete="off">
 <span id="count"></span>
@@ -46,9 +46,9 @@ td.expandable { color:var(--accent); cursor:pointer; }
 <div id="wrap">
 <table>
 <thead id="thead"></thead>
-<tbody><tr id="topspace" style="height:0"><td style="padding:0;border:0"></td></tr></tbody>
+<tbody><tr id="topspace" style="height:0"><td colspan="33" style="padding:0;border:0"></td></tr></tbody>
 <tbody id="tbody"></tbody>
-<tbody><tr id="botspace" style="height:0"><td style="padding:0;border:0"></td></tr></tbody>
+<tbody><tr id="botspace" style="height:0"><td colspan="33" style="padding:0;border:0"></td></tr></tbody>
 </table>
 </div>
 <div id="overlay"><div class="box"></div></div>
@@ -59,7 +59,7 @@ var DATA = JSON.parse(document.getElementById('table-data').textContent);
 var COLS = DATA.cols, ROWS = DATA.rows;
 var view = ROWS.map(function(_, i){ return i; });
 var sortCol = -1, sortDir = 0;                       // 0 none, 1 asc, -1 desc
-var ROWH = 29, PAD = 12;                             // row height px, render padding rows
+var ROWH = 30, PAD = 12;                             // row height px (MEASURED at init), render padding rows
 var wrap = document.getElementById('wrap');
 var thead = document.getElementById('thead');
 var tbody = document.getElementById('tbody');
@@ -277,8 +277,40 @@ function render(){
   count.textContent = view.length.toLocaleString() + ' of ' + ROWS.length.toLocaleString() + ' rows';
 }
 
-wrap.addEventListener('scroll', function(){ window.requestAnimationFrame(render); });
-window.addEventListener('resize', render);
+// ROWH must match the REAL rendered row height: if it doesn't, the spacer
+// heights misreport the total, scrollHeight shifts under the browser on
+// every render, it corrects scrollTop, that fires scroll again -> runaway
+// scrolling. So measure a real row instead of assuming one.
+function calibrate(){
+  if (!ROWS.length) return;
+  topSpace.style.height = '0px';
+  botSpace.style.height = '0px';
+  var probe = [], row = ROWS[0];
+  probe.push('<tr>');
+  for (var c = 0; c < row.length; c++){
+    var val = String(row[c]);
+    probe.push('<td>' + esc(val.length > MAXLEN ? val.slice(0, MAXLEN) : val) + '</td>');
+  }
+  probe.push('</tr>');
+  tbody.innerHTML = probe.join('');
+  var tr = tbody.firstElementChild;
+  if (tr){
+    var h = tr.getBoundingClientRect().height;
+    if (h > 4) ROWH = h;                             // guard against a collapsed/hidden measure
+  }
+  tbody.innerHTML = '';
+}
+
+// one render per animation frame, no matter how many scroll events arrive
+var pending = false;
+function scheduleRender(){
+  if (pending) return;
+  pending = true;
+  window.requestAnimationFrame(function(){ pending = false; render(); });
+}
+
+wrap.addEventListener('scroll', scheduleRender);
+window.addEventListener('resize', function(){ calibrate(); render(); });
 
 var overlay = document.getElementById('overlay');
 tbody.addEventListener('click', function(e){
@@ -291,6 +323,7 @@ overlay.addEventListener('click', function(){ overlay.style.display = 'none'; })
 document.addEventListener('keydown', function(e){ if (e.key === 'Escape') overlay.style.display = 'none'; });
 
 buildHeader();
+calibrate();
 render();
 </script>
 </body>
