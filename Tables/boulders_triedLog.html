@@ -13,18 +13,24 @@
 </script>
 <title>Connor Reed - Attempted Boulder Problems (Last Updated Jul 20, 2026)</title>
 <style>
-:root { --border:#d0d4d9; --head:#2c3e50; --headtxt:#fff; --zebra:#f5f7f9; --hover:#eaf2fb; --accent:#2563eb; }
+:root { --border:#d0d4d9; --head:#2c3e50; --headtxt:#fff; --zebra:#f5f7f9; --hover:#eaf2fb; --accent:#2563eb; --rowh:31px; }
 * { box-sizing:border-box; }
-body { margin:0; font:14px/1.45 -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif; color:#1c2733; background:#fff; }
+body { margin:0; font:14px/20px -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif; color:#1c2733; background:#fff; -webkit-text-size-adjust:100%; }
 header { padding:14px 18px 10px; }
 h1 { margin:0 0 8px; font-size:19px; font-weight:600; }
 .controls { display:flex; align-items:center; gap:14px; flex-wrap:wrap; }
 #filter { padding:6px 10px; font-size:14px; border:1px solid var(--border); border-radius:6px; width:420px; max-width:90vw; }
 #filter.bad { border-color:#dc2626; outline-color:#dc2626; }
 #count { color:#5b6875; font-size:13px; }
-#wrap { overflow:auto; border-top:1px solid var(--border); height:calc(100vh - 86px); position:relative; }
+/* overflow-anchor:none is LOAD-BEARING: scroll anchoring fights a virtual
+   scroller. Chrome sees the top spacer resize, "corrects" scrollTop to keep
+   content stable, that fires scroll -> render -> resize -> correct ... a
+   runaway that accelerates to the bottom on the lightest scroll. */
+#wrap { overflow:auto; overflow-anchor:none; border-top:1px solid var(--border); height:calc(100vh - 86px); position:relative; }
 table { border-collapse:collapse; width:max-content; min-width:100%; }
-th, td { padding:5px 12px; border-right:1px solid var(--border); white-space:nowrap; max-width:520px; overflow:hidden; text-overflow:ellipsis; }
+/* rows are a FIXED integer height so the spacer math can't drift */
+tbody tr { height:var(--rowh); }
+th, td { height:var(--rowh); padding:5px 12px; border-right:1px solid var(--border); white-space:nowrap; max-width:520px; overflow:hidden; text-overflow:ellipsis; }
 th { position:sticky; top:0; background:var(--head); color:var(--headtxt); cursor:pointer; user-select:none; text-align:left; z-index:2; }
 th .arrow { opacity:.85; font-size:11px; margin-left:5px; }
 td { border-bottom:1px solid #e6e9ec; }
@@ -46,9 +52,9 @@ td.expandable { color:var(--accent); cursor:pointer; }
 <div id="wrap">
 <table>
 <thead id="thead"></thead>
-<tbody><tr id="topspace" style="height:0"><td colspan="13" style="padding:0;border:0"></td></tr></tbody>
+<tbody><tr id="topspace" style="height:0"><td colspan="13" style="height:0;padding:0;border:0"></td></tr></tbody>
 <tbody id="tbody"></tbody>
-<tbody><tr id="botspace" style="height:0"><td colspan="13" style="padding:0;border:0"></td></tr></tbody>
+<tbody><tr id="botspace" style="height:0"><td colspan="13" style="height:0;padding:0;border:0"></td></tr></tbody>
 </table>
 </div>
 <div id="overlay"><div class="box"></div></div>
@@ -69,6 +75,14 @@ var count = document.getElementById('count');
 var MAXLEN = 120;
 
 function esc(s){ var d = document.createElement('span'); d.textContent = s; return d.innerHTML; }
+
+// height must land on the cell too - a <tr> alone doesn't reliably size in
+// table layout. rounded to whole px so spacers can never drift fractionally.
+function setSpacer(tr, px){
+  var h = Math.round(px) + 'px';
+  tr.style.height = h;
+  tr.firstElementChild.style.height = h;
+}
 
 function buildHeader(){
   var tr = document.createElement('tr');
@@ -257,8 +271,8 @@ function render(){
   var h = wrap.clientHeight;
   var first = Math.max(0, Math.floor(wrap.scrollTop / ROWH) - PAD);
   var last = Math.min(view.length, Math.ceil((wrap.scrollTop + h) / ROWH) + PAD);
-  topSpace.style.height = (first * ROWH) + 'px';
-  botSpace.style.height = ((view.length - last) * ROWH) + 'px';
+  setSpacer(topSpace, first * ROWH);
+  setSpacer(botSpace, (view.length - last) * ROWH);
   var html = [];
   for (var v = first; v < last; v++){
     var row = ROWS[view[v]];
@@ -283,8 +297,8 @@ function render(){
 // scrolling. So measure a real row instead of assuming one.
 function calibrate(){
   if (!ROWS.length) return;
-  topSpace.style.height = '0px';
-  botSpace.style.height = '0px';
+  setSpacer(topSpace, 0);
+  setSpacer(botSpace, 0);
   var probe = [], row = ROWS[0];
   probe.push('<tr>');
   for (var c = 0; c < row.length; c++){
@@ -295,8 +309,8 @@ function calibrate(){
   tbody.innerHTML = probe.join('');
   var tr = tbody.firstElementChild;
   if (tr){
-    var h = tr.getBoundingClientRect().height;
-    if (h > 4) ROWH = h;                             // guard against a collapsed/hidden measure
+    var h = Math.round(tr.getBoundingClientRect().height);
+    if (h > 4) ROWH = h;             // whole px only: fractional rows drift
   }
   tbody.innerHTML = '';
 }
