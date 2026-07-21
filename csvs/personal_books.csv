@@ -1,45 +1,45 @@
-name,year_published,year_read,primary_author,secondary_authors,genre,sub_genre,peak,consistency,premise,plot,information_gain,desired_effects,wit,length,timelessness,adjustment,overall_grade
-"""100 Essential Things You Didn't Know You Didn't Know""",2008,2013,"""John D. Barrow""","""""","""Mathematics""","""""",50,65,70,,70,60,70,50,60,,61.1
-"""A Random Walk Down Wall Street: The Time-Tested Strategy for Successful Investing""",1973,2021,"""Burton G. Malkiel""","""""","""Economics""","""""",40,50,60,,50,40,40,30,40,,44.2
-"""Algorithms to Live By: The Computer Science of Human Decisions""",2016,2018,"""Brian Christian""","""Tom Griffiths""","""Computer Science""","""Psychology""",65,55,70,,70,70,30,50,50,,59.2
-"""Amusing Ourselves to Death: Public Discourse in the Age of Show Business""",1985,2021,"""Neil Postman""","""""","""Philosophy""","""Psychology""",70,60,60,60,60,60,45,50,65,,61.1
-"""Andy Roddick Beat Me with a Frying Pan: Taking the Field with Pro Athletes and Olympic Legends to Answer Sports Fans' Burning Questions""",2007,2018,"""Todd Gallagher""","""""","""Sports""","""Comedy""",30,80,60,,60,50,60,60,60,,55.5
-"""Big Data Baseball: Math, Miracles, and the End of a 20-Year Losing Streak""",2015,2015,"""Travis Sawchik""","""""","""Baseball""","""""",60,60,60,60,60,50,40,40,50,,54.9
-"""Bringing Down The House: The Inside Story of Six M.I.T. Students Who Took Vegas for Millions""",2002,2013,"""Ben Mezrich""","""""","""Biographical""","""Blackjack""",60,60,70,70,50,60,50,60,70,,61.5
-"""Catboy""",2017,2019,"""Benji Nate""","""""","""Comedy""","""""",50,50,35,,30,60,60,40,50,,47.9
-"""Dueling with Kings: High Stakes, Killer Sharks, and the Get-Rich Promise of Daily Fantasy Sports""",2017,2025,"""Daniel Barbarisi""","""""","""Sports""","""""",55,55,55,55,60,50,40,60,55,,54.0
-"""Everybody Lies: Big Data, New Data, and What the Internet Can Tell Us About Who We Really Are """,2017,2020,"""Seth Stephens-Davidowitz""","""Steven Pinker""","""Mathematics""","""Psychology""",60,30,50,,60,40,30,30,50,,46.1
-"""Grit""",2016,2020,"""Angela Duckworth""","""""","""Psychology""","""""",70,50,70,,70,55,50,40,60,,60.1
-"""Hockey Abstract Presents... Stat Shot: The Ultimate Guide to Hockey Analytics""",2016,2017,"""Rob Vollman""","""Tom Awad, Iain Fyffe""","""Hockey""","""""",50,40,50,,50,40,40,30,40,,43.7
-"""How Not to Be Wrong: The Power of Mathematical Thinking""",2014,2020,"""Jordan Ellenberg""","""""","""Mathematics""","""Psychology""",70,60,65,,65,60,60,50,60,,62.6
-"""How To Lie With Statistics""",1982,2013,"""Darrell Huff""","""Irving Geis""","""Mathematics""","""Economics""",40,60,55,,70,60,50,70,60,,56.1
-"""How We Know What Isn't So: The Fallibility of Human Reason in Everyday Life """,1991,2019,"""Thomas Gilovich""","""""","""Psychology""","""""",40,65,60,,70,60,45,40,50,,53.8
-"""Mathletics: A Scientist Explains 100 Amazing Things About the World of Sports""",2012,2015,"""John D. Barrow""","""""","""Sports""","""Mathematics""",30,55,50,,60,40,30,40,60,,45.8
-"""Misbehaving: The Making of Behavioral Economics""",2016,2024,"""Richard H. Thaler""","""""","""Economics""","""""",65,60,70,70,55,55,45,55,65,,61.0
-"""Moneyball: The Art of Winning an Unfair Game""",2004,2021,"""Michael Lewis""","""""","""Sports""","""""",65,65,70,60,60,60,40,60,65,,62.0
-"""Point Your Face At This: Drawings""",2013,2013,"""Demetri Martin""","""""","""Comedy""","""""",60,50,40,,30,60,70,60,60,,53.9
-"""Project Hail Mary""",2021,2024,"""Andy Weird""","""""","""Science Fiction""","""""",60,50,50,50,50,50,55,50,55,,53.0
-"""Scorecasting:The Hidden Influences Behind How Sports Are Played and Games Are Won""",2011,2017,"""Tobias J. Moskowitz""","""L. Jon Wertheim""","""Sports""","""Psychology""",60,70,60,,70,65,40,55,65,,62.2
-"""Sh*t My Dad Says""",2010,2014,"""Justin Halpern""","""""","""Comedy""","""""",40,50,30,,40,40,55,50,50,,43.8
-"""Some Common Weaknesses Illustrated""",2006,2015,"""Carson Cistulli""","""""","""Poetry""","""Comedy""",40,50,65,,40,50,70,60,50,,50.5
-"""Spirited Ejaculations of a New Enthusiast""",2015,2015,"""Carson Cistulli""","""""","""Poetry""","""Comedy""",45,50,75,,40,60,70,60,55,,54.7
-"""Starter Villain""",2023,2023,"""John Scalzi""","""""","""Science Fiction""","""""",60,60,70,60,30,55,55,50,60,,56.6
-"""Superforecasting: The Art and Science of Prediction""",2015,2018,"""Philip E. Tetlock""","""Dan Gardner""","""Mathematics""","""Psychology""",60,70,70,,80,70,50,60,70,,66.8
-"""The 7 Habits of Highly Effective People: Powerful Lessons in Personal Change""",1989,2021,"""Stephen R. Covey""","""Jim Collins""","""Self-help""","""""",45,60,60,,60,40,30,20,60,,49.7
-"""The Arm: Inside the Billion-Dollar Mystery of the Most Valuable Commodity in Sports""",2016,2017,"""Jeff Passan""","""""","""Baseball""","""""",65,70,65,70,70,65,65,70,60,,66.1
-"""The Best Team Money Can Buy: The Los Angeles Dodgers Wild Struggle to Build a Baseball Powerhouse""",2015,2017,"""Molly Knight""","""""","""Baseball""","""""",40,50,50,50,40,50,30,40,50,,45.1
-"""The Big Short: Inside the Doomsday Machine""",2015,2021,"""Michael Lewis""","""""","""Economics""","""""",60,50,65,55,65,50,30,40,60,,54.8
-"""The Black Swan: The Impact of the Highly Improbable""",2007,2021,"""Nassim Nicholas Taleb""","""""","""Psychology""","""""",50,40,65,,55,45,40,40,50,,48.6
-"""The Extra 2%: How Wall Street Strategies Took a Major League Baseball Team from Worst to First """,2011,2013,"""Jonah Keri""","""""","""Baseball""","""Economics""",70,70,70,70,60,60,50,50,60,,63.9
-"""The Inner Game of Tennis: The Classic Guide to the Mental Side of Peak Performance""",1974,2025,"""W. Timothy Gallwey""","""""","""Psychology""","""Sports""",50,50,70,,65,60,30,55,65,,56.1
-"""The Logic of Sports Betting""",2019,2022,"""Ed Miller""","""Matthew Davidow""","""Sports""","""""",50,55,60,,60,50,45,40,60,,53.6
-"""The MVP Machine: How Baseball's New Nonconformists Are Using Data to Build Better Players""",2019,2019,"""Ben Lindbergh""","""Travis Sawchik""","""Baseball""","""""",80,60,70,,70,60,50,60,60,,65.5
-"""The Mythical Man-Month: Essays on Software Engineering""",1975,2025,"""Frederick P. Brooks Jr.""","""""","""Computer Science""","""""",55,45,70,,70,60,30,45,60,,55.5
-"""The Only Rule Is It Has To Work: Our Wild Experiment Building a New Kind of Baseball Team""",2016,2016,"""Ben Lindbergh""","""Sam Miller""","""Baseball""","""""",50,70,60,70,55,50,60,50,70,,59.5
-"""The Shift: The Next Evolution In Baseball Thinking""",2018,2020,"""Russell Carleton""","""""","""Sports""","""Pyschology""",70,60,70,,70,65,50,60,60,,64.1
-"""The Signal and the Noise: Why So Many Predictions Fail - But Some Don't""",2012,2020,"""Nate Silver""","""""","""Mathematics""","""Psychology""",55,50,60,,60,50,40,40,55,,52.6
-"""The Will To Whatevs: A Guide to Modern Life""",2009,2014,"""Eugene Mirman""","""""","""Comedy""","""""",40,30,50,,30,60,60,50,50,,44.7
-"""Thinking Basketball""",2016,2020,"""Ben Taylor""","""""","""Basketball""","""Psychology""",70,50,70,,70,50,50,60,60,,60.5
-"""Thinking, Fast and Slow""",2011,2021,"""Daniel Kahneman""","""""","""Psychology""","""""",65,60,70,,70,60,50,50,65,,62.6
-"""This is a Book""",2011,2013,"""Demetri Martin""","""""","""Comedy""","""""",60,50,40,,30,60,70,60,60,,53.9
-"""We Are Legion (We Are Bob)""",2016,2026,"""Dennis E. Taylor""","""""","""Science Fiction""","""""",40,40,55,45,40,35,40,35,45,,41.7
+Name,Author,Other Authors,Published,Read,Pages,Genre,Sub Genre,Peak,Consistency,Timelessness,Desired Effects,Information Gain,Premise,Plot,Wit,Length Grade,Adjustment,Overall,ISBN,Open Library
+Superforecasting: The Art and Science of Prediction,Philip E. Tetlock,Dan Gardner,2015,2018,338,Mathematics,Psychology,60,70,70,70,80,70,,50,60,,66.8,9788375568882,OL18233878W
+The Arm: Inside the Billion-Dollar Mystery of the Most Valuable Commodity in Sports,Jeff Passan,,2016,2017,193,Baseball,,65,70,60,65,70,65,70,65,70,,66.1,9780062400383,OL17358872W
+The MVP Machine: How Baseball's New Nonconformists Are Using Data to Build Better Players,Ben Lindbergh,Travis Sawchik,2019,2019,384,Baseball,,80,60,60,60,70,70,,50,60,,65.5,9781549126352,OL21342037W
+The Shift: The Next Evolution In Baseball Thinking,Russell Carleton,,2018,2020,368,Sports,Psychology,70,60,60,65,70,70,,50,60,,64.1,9781629375441,OL20169503W
+The Extra 2%: How Wall Street Strategies Took a Major League Baseball Team from Worst to First ,Jonah Keri,,2011,2013,253,Baseball,Economics,70,70,60,60,60,70,70,50,50,,63.9,9780345517739,OL15976984W
+How Not to Be Wrong: The Power of Mathematical Thinking,Jordan Ellenberg,,2014,2020,468,Mathematics,Psychology,70,60,60,60,65,65,,60,50,,62.6,9789863209119,OL17062668W
+"Thinking, Fast and Slow",Daniel Kahneman,,2011,2021,528,Psychology,,65,60,65,60,70,70,,50,50,,62.6,9788483068618,OL15992072W
+Scorecasting:The Hidden Influences Behind How Sports Are Played and Games Are Won,Tobias J. Moskowitz,L. Jon Wertheim,2011,2017,278,Sports,Psychology,60,70,65,65,70,60,,40,55,,62.2,9780307591791,OL15663815W
+Moneyball: The Art of Winning an Unfair Game,Michael Lewis,,2004,2021,317,Sports,,65,65,65,60,60,70,60,40,60,,62.0,9780739308165,OL7944813W
+Bringing Down The House: The Inside Story of Six M.I.T. Students Who Took Vegas for Millions,Ben Mezrich,,2002,2013,272,Biographical,Blackjack,60,60,70,60,50,70,70,50,60,,61.5,9780743530613,OL61394W
+100 Essential Things You Didn't Know You Didn't Know,John D. Barrow,,2008,2013,304,Mathematics,,50,65,60,60,70,70,,70,50,,61.1,9780393072785,OL21023117W
+Amusing Ourselves to Death: Public Discourse in the Age of Show Business,Neil Postman,,1985,2021,195,Philosophy,Psychology,70,60,65,60,60,60,60,45,50,,61.1,9783596242856,OL137916W
+Misbehaving: The Making of Behavioral Economics,Richard H. Thaler,,2016,2024,432,Economics,,65,60,65,55,55,70,70,45,55,,61.0,9788551004135,OL17940527W
+Thinking Basketball,Ben Taylor,,2016,2020,180,Basketball,Psychology,70,50,60,50,70,70,,50,60,,60.5,9781532968174,OL20884767W
+Grit,Angela Duckworth,,2016,2020,353,Psychology,,70,50,60,55,70,70,,50,40,,60.1,9781443442329,OL17361140W
+The Only Rule Is It Has To Work: Our Wild Experiment Building a New Kind of Baseball Team,Ben Lindbergh,Sam Miller,2016,2016,350,Baseball,,50,70,70,50,55,60,70,60,50,,59.5,9781627795647,OL20028125W
+Algorithms to Live By: The Computer Science of Human Decisions,Brian Christian,Tom Griffiths,2016,2018,359,Computer Science,Psychology,65,55,50,70,70,70,,30,50,,59.2,9781480560406,OL17357767W
+Starter Villain,John Scalzi,,2023,2023,280,Science Fiction,,60,60,60,55,30,70,60,55,50,,56.6,9781250341785,OL28851765W
+How To Lie With Statistics,Darrell Huff,Irving Geis,1982,2013,142,Mathematics,Economics,40,60,60,60,70,55,,50,70,,56.1,9780141997971,OL2975846W
+The Inner Game of Tennis: The Classic Guide to the Mental Side of Peak Performance,W. Timothy Gallwey,,1974,2025,141,Psychology,Sports,50,50,65,60,65,70,,30,55,,56.1,9780553209853,OL2619508W
+Andy Roddick Beat Me with a Frying Pan: Taking the Field with Pro Athletes and Olympic Legends to Answer Sports Fans' Burning Questions,Todd Gallagher,,2007,2018,288,Sports,Comedy,30,80,60,50,60,60,,60,60,,55.5,9780307352804,OL9389854W
+The Mythical Man-Month: Essays on Software Engineering,Frederick P. Brooks Jr.,,1975,2025,195,Computer Science,,55,45,60,60,70,70,,30,45,,55.5,9780132100694,OL3510570W
+"Big Data Baseball: Math, Miracles, and the End of a 20-Year Losing Streak",Travis Sawchik,,2015,2015,256,Baseball,,60,60,50,50,60,60,60,40,40,,54.9,9781250094254,OL20005486W
+The Big Short: Inside the Doomsday Machine,Michael Lewis,,2015,2021,291,Economics,,60,50,60,50,65,65,55,30,40,,54.8,9783593393575,OL15118378W
+Spirited Ejaculations of a New Enthusiast,Carson Cistulli,,2015,2015,,Poetry,Comedy,45,50,55,60,40,75,,70,60,,54.7,,
+"Dueling with Kings: High Stakes, Killer Sharks, and the Get-Rich Promise of Daily Fantasy Sports",Daniel Barbarisi,,2017,2025,368,Sports,,55,55,55,50,60,55,55,40,60,,54.0,9781501146190,OL25396501W
+Point Your Face At This: Drawings,Demetri Martin,,2013,2013,,Comedy,,60,50,60,60,30,40,,70,60,,53.9,9781455512058,OL19964890W
+This is a Book,Demetri Martin,,2011,2013,288,Comedy,,60,50,60,60,30,40,,70,60,,53.9,9781846145216,OL15737509W
+How We Know What Isn't So: The Fallibility of Human Reason in Everyday Life ,Thomas Gilovich,,1991,2019,216,Psychology,,40,65,50,60,70,60,,45,40,,53.8,9781439106747,OL4459377W
+The Logic of Sports Betting,Ed Miller,Matthew Davidow,2019,2022,237,Sports,,50,55,60,50,60,60,,45,40,,53.6,9781096805724,OL24581969W
+Project Hail Mary,Andy Weird,,2021,2024,496,Science Fiction,,60,50,55,50,50,50,50,55,50,,53.0,9789189298323,OL21745884W
+The Signal and the Noise: Why So Many Predictions Fail - But Some Don't,Nate Silver,,2012,2020,552,Mathematics,Psychology,55,50,55,50,60,60,,40,40,,52.6,9786051733814,OL16700318W
+Some Common Weaknesses Illustrated,Carson Cistulli,,2006,2015,82,Poetry,Comedy,40,50,50,50,40,65,,70,60,,50.5,9780976951612,OL8846038W
+The 7 Habits of Highly Effective People: Powerful Lessons in Personal Change,Stephen R. Covey,Jim Collins,1989,2021,374,Self-help,,45,60,60,40,60,60,,30,20,,49.7,9785961402513,OL2629977W
+The Black Swan: The Impact of the Highly Improbable,Nassim Nicholas Taleb,,2007,2021,421,Psychology,,50,40,50,45,55,65,,40,40,,48.6,9780141906201,OL3295030W
+Catboy,Benji Nate,,2017,2019,168,Comedy,,50,50,50,60,30,35,,60,40,,47.9,9781945509711,OL19734434W
+"Everybody Lies: Big Data, New Data, and What the Internet Can Tell Us About Who We Really Are ",Seth Stephens-Davidowitz,Steven Pinker,2017,2020,338,Mathematics,Psychology,60,30,50,40,60,50,,30,30,,46.1,9780062390851,OL17713946W
+Mathletics: A Scientist Explains 100 Amazing Things About the World of Sports,John D. Barrow,,2012,2015,320,Sports,Mathematics,30,55,60,40,60,50,,30,40,,45.8,9781448182800,OL16585394W
+The Best Team Money Can Buy: The Los Angeles Dodgers Wild Struggle to Build a Baseball Powerhouse,Molly Knight,,2015,2017,336,Baseball,,40,50,50,50,40,50,50,30,40,,45.1,9781476776309,OL20006574W
+The Will To Whatevs: A Guide to Modern Life,Eugene Mirman,,2009,2014,228,Comedy,,40,30,50,60,30,50,,60,50,,44.7,9780061770494,OL14981679W
+A Random Walk Down Wall Street: The Time-Tested Strategy for Successful Investing,Burton G. Malkiel,,1973,2021,440,Economics,,40,50,40,40,50,60,,40,30,,44.2,9780393019995,OL2000283W
+Sh*t My Dad Says,Justin Halpern,,2010,2014,158,Comedy,,40,50,50,40,40,30,,55,50,,43.8,9780061992704,OL15449158W
+Hockey Abstract Presents... Stat Shot: The Ultimate Guide to Hockey Analytics,Rob Vollman,"Tom Awad, Iain Fyffe",2016,2017,356,Hockey,,50,40,40,40,50,50,,40,30,,43.7,9781770413092,OL20468814W
+We Are Legion (We Are Bob),Dennis E. Taylor,,2016,2026,345,Science Fiction,,40,40,45,35,40,55,45,40,35,,41.7,9781668221570,OL19123425W
