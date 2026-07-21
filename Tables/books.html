@@ -282,7 +282,14 @@ function render(){
     html.push('<tr>');
     for (var c = 0; c < row.length; c++){
       var val = String(row[c]);
-      if (val.length > MAXLEN){
+      var tmpl = LINKS[c];
+      if (tmpl && val !== ''){
+        var href = tmpl.replace(/\{([^}]*)\}/g, function(_m, name){
+          var raw = (name === '') ? val : String(row[COLIDX_BY_NAME[name]] || '');
+          return encodeURIComponent(raw);
+        });
+        html.push('<td><a href="' + esc(href) + '" target="_blank" rel="noopener">' + esc(val) + '</a></td>');
+      } else if (val.length > MAXLEN){
         html.push('<td class="expandable" data-r="' + view[v] + '" data-c="' + c + '">' + esc(val.slice(0, MAXLEN)) + '\u2026</td>');
       } else {
         html.push('<td>' + esc(val) + '</td>');
