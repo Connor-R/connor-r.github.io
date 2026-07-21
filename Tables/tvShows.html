@@ -75,7 +75,11 @@ var tbody = document.getElementById('tbody');
 var topSpace = document.getElementById('topspace');
 var botSpace = document.getElementById('botspace');
 var count = document.getElementById('count');
-var MAXLEN = 120;
+// A cell is truncated VISUALLY by css (max-width 520px, ~65 chars) but was
+// only made clickable above 120 chars, so anything between was cut off yet
+// unexpandable. Mark them expandable well below the visual cutoff and don't
+// slice - css adds the ellipsis and the full value stays in the cell.
+var EXPAND_AT = 40;
 
 function esc(s){ var d = document.createElement('span'); d.textContent = s; return d.innerHTML; }
 
@@ -289,8 +293,8 @@ function render(){
           return encodeURIComponent(raw);
         });
         html.push('<td><a href="' + esc(href) + '" target="_blank" rel="noopener">' + esc(val) + '</a></td>');
-      } else if (val.length > MAXLEN){
-        html.push('<td class="expandable" data-r="' + view[v] + '" data-c="' + c + '">' + esc(val.slice(0, MAXLEN)) + '\u2026</td>');
+      } else if (val.length > EXPAND_AT){
+        html.push('<td class="expandable" data-r="' + view[v] + '" data-c="' + c + '">' + esc(val) + '</td>');
       } else {
         html.push('<td>' + esc(val) + '</td>');
       }
@@ -313,7 +317,7 @@ function calibrate(){
   probe.push('<tr>');
   for (var c = 0; c < row.length; c++){
     var val = String(row[c]);
-    probe.push('<td>' + esc(val.length > MAXLEN ? val.slice(0, MAXLEN) : val) + '</td>');
+    probe.push('<td>' + esc(val) + '</td>');
   }
   probe.push('</tr>');
   tbody.innerHTML = probe.join('');
