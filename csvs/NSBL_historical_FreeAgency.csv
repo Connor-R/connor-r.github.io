@@ -9,11 +9,11 @@ Signing Year,Day,Signed By,Player,Pos,Age,Rights,Years,AAV,Opt,Teams Rostered,Se
 2026,t1-2,OAK,Kevin Gausman,SP,35,,2,39.000,yes,OAK: 2026-03-24 to current,1,2026,2026,592332,14107,search
 2026,t1-2,BAL,Matt Chapman,3B,33,,3,37.000,yes,BAL: 2026-03-24 to current,1,2026,2026,656305,16505,search
 2026,t1-2,NYY,Ranger Suarez,SP,31,,5,37.000,no,NYY: 2026-03-24 to current,1,2026,2026,624133,17277,search
-2026,t2-1,LAD,Tatsuya Imai,H,28,,4,48.000,Yes,LAD: 2026-04-04 to current,1,2026,2026,837227,,search
+2026,t2-1,LAD,Tatsuya Imai,H,28,,4,48.000,Yes,LAD: 2026-04-04 to current,1,2026,2026,837227,37124,search
 2026,t2-1,MIA,Nathan Eovaldi,SP,36,,2,45.000,Yes,MIA: 2026-04-04 to current,1,2026,2026,543135,9132,search
 2026,t2-1,CHC,Kazuma Okamoto,H,30,,5,40.000,Yes,CHC: 2026-04-04 to current,1,2026,2026,672960,,search
 2026,t2-1,PHI,Jesús Luzardo,SP,29,,4,30.000,Yes,PHI: 2026-04-04 to current,1,2026,2026,666200,19959,search
-2026,t2-1,PIT,Munetaka Murakami,H,26,,4,26.000,No,PIT: 2026-04-04 to current,1,2026,2026,808959,,search
+2026,t2-1,PIT,Munetaka Murakami,H,26,,4,26.000,No,PIT: 2026-04-04 to current,1,2026,2026,808959,37120,search
 2026,t2-1,CHC,Brandon Lowe,2B,32,,3,26.000,Yes,CHC: 2026-04-04 to current,1,2026,2026,664040,18882,search
 2026,t2-1,MIL,Pablo López,SP,30,0.1,5,25.522,Yes,MIL: 2026-04-04 to current,1,2026,2026,641154,17085,search
 2026,t2-1,NYY,Griffin Jax,RP,32,,3,24.500,Yes,NYY: 2026-04-04 to current,1,2026,2026,643377,20253,search
@@ -72,7 +72,7 @@ Signing Year,Day,Signed By,Player,Pos,Age,Rights,Years,AAV,Opt,Teams Rostered,Se
 2026,t2-2,HOU,Tony Santillan,RP,29,,4,3.827,Yes,HOU: 2026-04-04 to current,1,2026,2026,663574,19926,search
 2026,t2-2,COL,Matt Festa,RP,33,,2,3.260,No,COL: 2026-04-04 to current,1,2026,2026,670036,19330,search
 2026,t2-2,LAA,Bryce Elder,SP,27,,2,3.000,Yes,LAA: 2026-04-04 to current,1,2026,2026,693821,27779,search
-2026,t2-2,TB,Spencer Miles,H,26,,2,2.250,Yes,TB:  2026-04-04 to current,1,2026,2026,693686,,search
+2026,t2-2,TB,Spencer Miles,H,26,,2,2.250,Yes,TB:  2026-04-04 to current,1,2026,2026,693686,31621,search
 2026,t2-2,CHW,Drew Pomeranz,RP,38,,2,2.000,No,CHW: 2026-04-04 to current,1,2026,2026,519141,11426,search
 2026,t2-3,MIN,Jorge Polanco,2B,33,,2,27.500,No,MIN: 2026-04-11 to current,1,2026,2026,593871,13152,search
 2026,t2-3,PHI,Eugenio Suárez,3B,35,,2,24.000,No,PHI: 2026-04-04 to current,1,2026,2026,553993,12552,search
@@ -166,7 +166,7 @@ Signing Year,Day,Signed By,Player,Pos,Age,Rights,Years,AAV,Opt,Teams Rostered,Se
 2026,t3-1,OAK,Justin Wilson,RP,39,,1,1.500,No,OAK: 2026-04-11 to current,1,2026,2026,458677,4301,search
 2026,t3-2,MIN,Mark Leiter,RP,35,,1,8.000,No,MIN: 2026-04-11 to current,1,2026,2026,643410,15551,search
 2026,t3-2,WAS,Bryan Hudson,RP,29,,2,2.500,Yes,WAS: 2026-04-11 to current,1,2026,2026,663542,19924,search
-2026,t3-2,OAK,Riley Cornelio,H,26,,4,2.500,Yes,OAK: 2026-04-11 to current,1,2026,2026,683000,,search
+2026,t3-2,OAK,Riley Cornelio,H,26,,4,2.500,Yes,OAK: 2026-04-11 to current,1,2026,2026,683000,31953,search
 2026,t3-2,NYM,Amed Rosario,3B,31,,3,2.500,Yes,NYM: 2026-04-11 to current,1,2026,2026,642708,15518,search
 2026,t3-2,MIL,Nick Mears,RP,30,,2,2.222,No,MIL: 2026-04-11 to current,1,2026,2026,683232,25376,search
 2026,t3-2,MIL,Max Schuemann,SS,29,,3,2.222,Yes,MIL: 2026-04-11 to current,1,2026,2026,680474,24488,search
@@ -213,7 +213,7 @@ Signing Year,Day,Signed By,Player,Pos,Age,Rights,Years,AAV,Opt,Teams Rostered,Se
 2026,t4-2,PIT,Matt Manning,SP,28,,1,0.000,MLI,,,,,666159,20369,search
 2026,t4-3,OAK,René Pinto,C,30,,1,0.000,MLI,,,,,650907,19859,search
 2026,t4-3,SEA,Lane Thomas,RF,31,,1,0.000,MLI,,,,,657041,16939,search
-2026,t4-3,SEA,Ryan Weiss,H,30,,1,0.000,MLI,,,,,680802,,search
+2026,t4-3,SEA,Ryan Weiss,H,30,,1,0.000,MLI,,,,,680802,24621,search
 2026,t4-4,WAS,Liam Hendriks,H,37,,1,0.000,MLI,,,,,521230,3548,search
 2026,t4-4,OAK,Kyle Leahy,SP,29,,1,0.000,MLI,,,,,681517,24763,search
 2026,t4-4,WAS,Easton McGee,H,29,,1,0.000,MLI,,,,,668834,22176,search
@@ -921,7 +921,7 @@ WAS: 2025-02-09 to 2025-02-09",4,2022,2025,676694,20308,search
 2022,t2-1,SD,Kyle Gibson,SP,34,,2,4.000,no,SD:  2022-04-24 to 2023-08-23,2,2022,2023,502043,10123,search
 2022,t2-1,SEA,Ken Giles,RP,31,,2,4.000,yes,"SEA: 2022-04-24 to 2023-03-13
 CLE: 2023-03-22 to 2024-02-20",3,2022,2024,571704,12910,search
-2022,t2-1,LAA,Ryan Weiss,RP,25,,2,4.000,yes,LAA: 2022-04-24 to 2024-02-20,3,2022,2024,680802,,search
+2022,t2-1,LAA,Ryan Weiss,RP,25,,2,4.000,yes,LAA: 2022-04-24 to 2024-02-20,3,2022,2024,680802,24621,search
 2022,t2-1,COL,Travis d'Arnaud,C,33,,2,3.756,no,COL: 2022-04-24 to 2023-08-23,2,2022,2023,518595,7739,search
 2022,t2-1,STL,Ramón Urías,SS,28,,2,3.200,no,,,,,602104,18795,search
 2022,t2-1,MIA,Frank Schwindel,1B,30,,4,3.033,yes,MIA: 2022-04-24 to 2025-04-04,4,2022,2025,643524,15351,search

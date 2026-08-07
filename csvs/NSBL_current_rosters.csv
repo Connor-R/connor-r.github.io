@@ -8,7 +8,7 @@ Carson Williams,ARI,Arizona Diamondbacks,active,if,0.700,XXX,,,,N,2026-07-10,700
 Marvin Alcantara,ARI,Arizona Diamondbacks,active,if,0.700,XXX,,,,N,2026-07-10,800421,,search
 Matt Vierling,ARI,Arizona Diamondbacks,active,of,6.000,V,2026,Yes,,Y,2026-02-06,663837,21558,search
 Lawrence Butler,ARI,Arizona Diamondbacks,active,of,1.470,2nd,,,,N,2026-02-06,671732,22542,search
-Luis Lara,ARI,Arizona Diamondbacks,active,of,0.700,XXX,,,,N,2026-07-10,800325,,search
+Luis Lara,ARI,Arizona Diamondbacks,active,of,0.700,XXX,,,,N,2026-07-10,800325,30675,search
 Heriberto Hernandez,ARI,Arizona Diamondbacks,active,of,0.700,XXX,,,,N,2026-07-10,681715,24878,search
 Kendall George,ARI,Arizona Diamondbacks,active,of,0.700,XXX,,,,N,2026-07-10,806077,,search
 Nelson Velázquez,ARI,Arizona Diamondbacks,active,of,0.700,XXX,,,,N,2026-07-10,676369,23359,search
@@ -92,7 +92,7 @@ Tobias Myers,ATL,Atlanta Braves,reserve,p,7.000,V,2030,,,Y,2026-07-10,668964,221
 Nick Robertson,ATL,Atlanta Braves,reserve,p,2.000,V,2026,,,Y,2026-07-10,687798,26226,search
 Brennan Bernardino,ATL,Atlanta Braves,reserve,p,2.000,V,2026,,,Y,2026-02-06,657514,16835,search
 Jake Irvin,ATL,Atlanta Braves,reserve,p,1.900,V,2026,Yes,,Y,2026-02-06,663623,21504,search
-Quinn Mathews,ATL,Atlanta Braves,reserve,p,1.295,2nd,,,,N,2026-07-10,687273,,search
+Quinn Mathews,ATL,Atlanta Braves,reserve,p,1.295,2nd,,,,N,2026-07-10,687273,33851,search
 David Festa,ATL,Atlanta Braves,reserve,p,0.910,2nd,,,,N,2026-07-10,701581,30056,search
 Yordanny Monegro,ATL,Atlanta Braves,reserve,p,0.700,XXX,,,,N,2025-02-09,694057,,search
 Franklin Gómez,ATL,Atlanta Braves,reserve,p,0.700,XXX,,,Y,N,2026-03-13,800338,,search
@@ -131,7 +131,7 @@ Caleb Lomavita,BAL,Baltimore Orioles,reserve,c,0.700,XXX,,,,N,2025-02-09,701616,
 Michael Massey,BAL,Baltimore Orioles,reserve,if,2.007,3rd,,,,N,2026-07-10,686681,27684,search
 Niko Kavadas,BAL,Baltimore Orioles,reserve,if,1.295,2nd,,,,N,2024-03-17,694359,29782,search
 Nick Yorke,BAL,Baltimore Orioles,reserve,if,0.700,XXX,,,,N,2023-03-22,694377,27504,search
-Deyvison De Los Santos,BAL,Baltimore Orioles,reserve,if,0.700,XXX,,,,N,2025-02-09,691277,,search
+Deyvison De Los Santos,BAL,Baltimore Orioles,reserve,if,0.700,XXX,,,,N,2025-02-09,691277,27969,search
 Yohandy Morales,BAL,Baltimore Orioles,reserve,if,0.700,XXX,,,,N,2024-02-19,691002,,search
 Roc Riggio,BAL,Baltimore Orioles,reserve,if,0.700,XXX,,,,N,2026-02-06,691792,,search
 Juan Sanchez,BAL,Baltimore Orioles,reserve,if,0.700,XXX,,,Y,N,2026-03-13,825646,,search
@@ -150,7 +150,7 @@ Spencer Howard,BAL,Baltimore Orioles,reserve,p,0.910,2nd,,,,N,2026-03-13,675921,
 Cole Carlon,BAL,Baltimore Orioles,reserve,p,0.700,XXX,,,Y,,2026-07-28,814817,,search
 Carlos Lagrange,BAL,Baltimore Orioles,reserve,p,0.700,XXX,,,,N,2024-03-17,801739,,search
 Luke Sinnard,BAL,Baltimore Orioles,reserve,p,0.700,XXX,,,,N,2025-02-09,820827,,search
-Gage Jump,BAL,Baltimore Orioles,reserve,p,0.700,XXX,,,,N,2026-02-06,695611,,search
+Gage Jump,BAL,Baltimore Orioles,reserve,p,0.700,XXX,,,,N,2026-02-06,695611,35418,search
 Bryce Cunningham,BAL,Baltimore Orioles,reserve,p,0.700,XXX,,,,N,2025-02-09,701480,,search
 Keyner Martinez,BAL,Baltimore Orioles,reserve,p,0.700,XXX,,,Y,N,2026-03-24,815212,,search
 Walter Ford,BAL,Baltimore Orioles,reserve,p,0.700,XXX,,,,N,2023-03-22,703609,,search
@@ -189,16 +189,16 @@ Keaton Winn,BOS,Boston Red Sox,active,p,1.911,3rd,,,,N,2026-02-06,676775,23499,s
 Jimmy Herget,BOS,Boston Red Sox,active,p,0.910,2nd,,,,N,2026-04-11,623474,17556,search
 Mason Montgomery,BOS,Boston Red Sox,active,p,0.910,2nd,,,,N,2026-02-06,682254,29770,search
 Jonah Tong,BOS,Boston Red Sox,active,p,0.700,XXX,,,,N,2026-04-11,804636,32157,search
-Andrew Painter,BOS,Boston Red Sox,active,p,0.700,XXX,,,,N,2026-04-11,691725,,search
-Jesus Rodriguez,BOS,Boston Red Sox,reserve,c,0.700,XXX,,,,N,2026-02-06,683679,,search
+Andrew Painter,BOS,Boston Red Sox,active,p,0.700,XXX,,,,N,2026-04-11,691725,30091,search
+Jesus Rodriguez,BOS,Boston Red Sox,reserve,c,0.700,XXX,,,,N,2026-02-06,683679,26991,search
 Edgar Quero,BOS,Boston Red Sox,reserve,c,0.700,XXX,,,,N,2026-07-10,700337,28022,search
 Kody Clemens,BOS,Boston Red Sox,reserve,if,1.183,3rd,,,,N,2026-04-11,665019,20572,search
 Oswaldo Cabrera,BOS,Boston Red Sox,reserve,if,1.183,3rd,,,,N,2025-02-09,665828,21707,search
 Christian Moore,BOS,Boston Red Sox,reserve,if,0.700,XXX,,,,N,2025-02-09,695681,34979,search
 Marek Houston,BOS,Boston Red Sox,reserve,if,0.700,XXX,,,,N,2026-02-06,701339,,search
-Blaze Jordan,BOS,Boston Red Sox,reserve,if,0.700,XXX,,,,N,2023-03-22,691458,,search
+Blaze Jordan,BOS,Boston Red Sox,reserve,if,0.700,XXX,,,,N,2023-03-22,691458,28199,search
 Kyle Lodise,BOS,Boston Red Sox,reserve,if,0.700,XXX,,,,N,2026-02-06,827517,,search
-Edwin Arroyo,BOS,Boston Red Sox,reserve,if,0.700,XXX,,,,N,2023-03-22,695490,,search
+Edwin Arroyo,BOS,Boston Red Sox,reserve,if,0.700,XXX,,,,N,2023-03-22,695490,29957,search
 Echedry Vargas,BOS,Boston Red Sox,reserve,if,0.700,XXX,,,,N,2024-03-17,800448,,search
 Angel Martínez,BOS,Boston Red Sox,reserve,if,0.700,XXX,,,,N,2023-03-22,682657,26540,search
 Parker Meadows,BOS,Boston Red Sox,reserve,of,1.295,2nd,,,,N,2026-07-10,678009,23800,search
@@ -268,7 +268,7 @@ Dean Curley,CHC,Chicago Cubs,reserve,if,0.700,XXX,,,,N,2026-02-06,806053,,search
 Wyatt Sanford,CHC,Chicago Cubs,reserve,if,0.700,XXX,,,,N,2025-02-09,815608,,search
 Denzer Guzman,CHC,Chicago Cubs,reserve,if,0.700,XXX,,,Y,N,2026-03-24,694203,28816,search
 Leo De Vries,CHC,Chicago Cubs,reserve,if,0.700,XXX,,,,N,2026-03-24,815888,,search
-Sean Keys,CHC,Chicago Cubs,reserve,if,0.700,XXX,,,,N,2025-02-09,815873,,search
+Sean Keys,CHC,Chicago Cubs,reserve,if,0.700,XXX,,,,N,2025-02-09,815873,35094,search
 Will Brennan,CHC,Chicago Cubs,reserve,of,0.910,2nd,,,,N,2026-04-24,686823,25660,search
 Drew Burress,CHC,Chicago Cubs,reserve,of,0.700,XXX,,,,N,2024-02-19,806039,,search
 Zyhir Hope,CHC,Chicago Cubs,reserve,of,0.700,XXX,,,,N,2025-02-09,814307,,search
@@ -278,7 +278,7 @@ Nelson Rada,CHC,Chicago Cubs,reserve,of,0.700,XXX,,,,N,2024-02-19,703185,,search
 Druw Jones,CHC,Chicago Cubs,reserve,of,0.700,XXX,,,,N,2023-03-22,702258,,search
 Brandon Young,CHC,Chicago Cubs,reserve,p,4.700,V,2028,Yes,,Y,2026-02-06,687064,27819,search
 Ryan Zeferjahn,CHC,Chicago Cubs,reserve,p,2.500,V,2027,Yes,,Y,2026-02-06,666171,25420,search
-David Sandlin,CHC,Chicago Cubs,reserve,p,0.910,2nd,,,,N,2026-02-06,689818,,search
+David Sandlin,CHC,Chicago Cubs,reserve,p,0.910,2nd,,,,N,2026-02-06,689818,31743,search
 Ricky Tiedemann,CHC,Chicago Cubs,reserve,p,0.910,2nd,,,,N,2025-02-09,694357,,search
 Brandon Birdsell,CHC,Chicago Cubs,reserve,p,0.700,XXX,,,,N,2026-02-06,669361,,search
 Dylan Lesko,CHC,Chicago Cubs,reserve,p,0.700,XXX,,,,N,2023-03-22,702266,,search
@@ -341,19 +341,19 @@ Andre Pallante,CHW,Chicago White Sox,reserve,p,1.867,4th,,,,Y,2026-07-10,669467,
 Connelly Early,CHW,Chicago White Sox,reserve,p,0.700,XXX,,,,N,2026-02-06,813349,33666,search
 Brandon Barriera,CHW,Chicago White Sox,reserve,p,0.700,XXX,,,,N,2023-03-22,702255,,search
 Craig Yoho,CHW,Chicago White Sox,reserve,p,0.700,XXX,,,,N,2026-02-06,684974,33248,search
-Jedixson Paez,CHW,Chicago White Sox,reserve,p,0.700,XXX,,,,N,2025-02-09,699151,,search
+Jedixson Paez,CHW,Chicago White Sox,reserve,p,0.700,XXX,,,,N,2025-02-09,699151,29114,search
 Luis Mey,CHW,Chicago White Sox,reserve,p,0.700,XXX,,,,N,2026-02-06,682825,25620,search
 Prelander Berroa,CHW,Chicago White Sox,reserve,p,0.700,XXX,,,,N,2024-07-12,672860,22932,search
 Landen Roupp,CHW,Chicago White Sox,reserve,p,0.700,XXX,,,,N,2025-07-09,694738,30076,search
-Adam Macko,CHW,Chicago White Sox,reserve,p,0.700,XXX,,,,N,2023-03-22,671936,,search
+Adam Macko,CHW,Chicago White Sox,reserve,p,0.700,XXX,,,,N,2023-03-22,671936,25590,search
 Edgardo Henriquez,CHW,Chicago White Sox,reserve,p,0.700,XXX,,,,N,2023-03-22,683618,26944,search
-Eddy Yean,CHW,Chicago White Sox,reserve,p,0.700,XXX,,,,N,2023-03-22,678868,,search
+Eddy Yean,CHW,Chicago White Sox,reserve,p,0.700,XXX,,,,N,2023-03-22,678868,24248,search
 Brody Hopkins,CHW,Chicago White Sox,reserve,p,0.700,XXX,,,,N,2025-02-09,811315,,search
 Will Warren,CHW,Chicago White Sox,reserve,p,0.700,XXX,,,,N,2026-07-10,701542,30182,search
-Marco Raya,CHW,Chicago White Sox,reserve,p,0.700,XXX,,,,N,2023-03-22,694397,,search
+Marco Raya,CHW,Chicago White Sox,reserve,p,0.700,XXX,,,,N,2023-03-22,694397,30166,search
 J. B. Bukauskas,CHW,Chicago White Sox,reserve,p,0.700,XXX,,,,N,2023-03-22,656266,20491,search
 Angel Bastardo,CHW,Chicago White Sox,reserve,p,0.700,XXX,,,,N,2024-02-19,682785,,search
-Emiliano Teodo,CHW,Chicago White Sox,reserve,p,0.700,XXX,,,,N,2025-02-09,693713,,search
+Emiliano Teodo,CHW,Chicago White Sox,reserve,p,0.700,XXX,,,,N,2025-02-09,693713,27999,search
 Bradley Blalock,CHW,Chicago White Sox,reserve,p,0.700,XXX,,,,N,2024-02-19,687134,26419,search
 Adrian Bohorquez,CHW,Chicago White Sox,reserve,p,0.700,XXX,,,,N,2024-08-15,807974,,search
 J. T. Realmuto,CIN,Cincinnati Reds,active,c,9.400,V,2027,,Y,Y,2026-04-11,592663,11739,search
@@ -382,22 +382,22 @@ Keider Montero,CIN,Cincinnati Reds,active,p,0.910,2nd,,,,N,2026-02-06,672456,226
 River Ryan,CIN,Cincinnati Reds,active,p,0.700,XXX,,,,N,2026-07-10,689981,29514,search
 Sem Robberse,CIN,Cincinnati Reds,active,p,0.700,XXX,,,,N,2026-07-10,691828,,search
 Vahn Lackey,CIN,Cincinnati Reds,reserve,c,0.700,XXX,,,Y,,2026-07-28,822518,,search
-Joe Mack,CIN,Cincinnati Reds,reserve,c,0.700,XXX,,,,N,2023-03-22,691788,,search
+Joe Mack,CIN,Cincinnati Reds,reserve,c,0.700,XXX,,,,N,2023-03-22,691788,29780,search
 Cadyn Grenier,CIN,Cincinnati Reds,reserve,if,1.183,3rd,,,,N,2026-07-10,663760,,search
 Michael Arroyo,CIN,Cincinnati Reds,reserve,if,0.700,XXX,,,,N,2025-02-09,703197,,search
-Colt Emerson,CIN,Cincinnati Reds,reserve,if,0.700,XXX,,,,N,2024-02-19,806068,,search
+Colt Emerson,CIN,Cincinnati Reds,reserve,if,0.700,XXX,,,,N,2024-02-19,806068,33575,search
 Colton Ledbetter,CIN,Cincinnati Reds,reserve,if,0.700,XXX,,,,N,2024-02-19,807742,,search
-Eddys Leonard,CIN,Cincinnati Reds,reserve,if,0.700,XXX,,,,N,2025-02-09,678760,,search
-Tommy Troy,CIN,Cincinnati Reds,reserve,if,0.700,XXX,,,,N,2025-02-09,694371,,search
+Eddys Leonard,CIN,Cincinnati Reds,reserve,if,0.700,XXX,,,,N,2025-02-09,678760,24151,search
+Tommy Troy,CIN,Cincinnati Reds,reserve,if,0.700,XXX,,,,N,2025-02-09,694371,33279,search
 Felnin Celesten,CIN,Cincinnati Reds,reserve,if,0.700,XXX,,,,N,2024-03-17,806958,,search
 Arjun Nimmala,CIN,Cincinnati Reds,reserve,if,0.700,XXX,,,,N,2024-07-12,805796,,search
 Jordan Yost,CIN,Cincinnati Reds,reserve,if,0.700,XXX,,,,N,2026-02-06,803723,,search
-Max Clark,CIN,Cincinnati Reds,reserve,of,0.700,XXX,,,,N,2026-02-06,703601,,search
+Max Clark,CIN,Cincinnati Reds,reserve,of,0.700,XXX,,,,N,2026-02-06,703601,33381,search
 Paulino Santana,CIN,Cincinnati Reds,reserve,of,0.700,XXX,,,,N,2026-02-06,815889,,search
 Drew Gilbert,CIN,Cincinnati Reds,reserve,of,0.700,XXX,,,,N,2023-03-22,687551,31545,search
 Mike Sirota,CIN,Cincinnati Reds,reserve,of,0.700,XXX,,,,N,2025-02-09,701527,,search
 Mason Neville,CIN,Cincinnati Reds,reserve,of,0.700,XXX,,,,N,2026-02-06,702563,,search
-Esmerlyn Valdez,CIN,Cincinnati Reds,reserve,of,0.700,XXX,,,Y,N,2026-03-13,699013,,search
+Esmerlyn Valdez,CIN,Cincinnati Reds,reserve,of,0.700,XXX,,,Y,N,2026-03-13,699013,29005,search
 Dauri Moreta,CIN,Cincinnati Reds,reserve,p,5.000,V,2028,,,Y,2026-07-10,664294,21101,search
 Tommy Romero,CIN,Cincinnati Reds,reserve,p,1.183,3rd,,,,N,2025-07-09,676720,23465,search
 Russell Smith,CIN,Cincinnati Reds,reserve,p,0.700,XXX,,,,N,2023-03-22,669080,,search
@@ -414,7 +414,7 @@ Jackson Jobe,CIN,Cincinnati Reds,reserve,p,0.700,XXX,,,,N,2026-02-06,695549,3020
 Kade Anderson,CIN,Cincinnati Reds,reserve,p,0.700,XXX,,,,N,2026-02-06,807739,,search
 Uli Fernsler,CIN,Cincinnati Reds,reserve,p,0.700,XXX,,,,,2026-08-03,832725,,search
 Jacob Zibin,CIN,Cincinnati Reds,reserve,p,0.700,XXX,,,,N,2023-03-22,802410,,search
-Dax Fulton,CIN,Cincinnati Reds,reserve,p,0.700,XXX,,,,N,2023-03-22,690978,,search
+Dax Fulton,CIN,Cincinnati Reds,reserve,p,0.700,XXX,,,,N,2023-03-22,690978,27757,search
 Trey Dombroski,CIN,Cincinnati Reds,reserve,p,0.700,XXX,,,,N,2024-02-19,690667,,search
 William Schmidt,CIN,Cincinnati Reds,reserve,p,0.700,XXX,,,,N,2025-02-09,815537,,search
 Alejandro Kirk,CLE,Cleveland Guardians,active,c,15.088,CE,2027,,Y,Y,2026-03-24,672386,22581,search
@@ -429,7 +429,7 @@ Yordan Álvarez,CLE,Cleveland Guardians,active,of,21.940,CE,2026,,,Y,2025-03-20,
 Steven Kwan,CLE,Cleveland Guardians,active,of,12.805,CE,2028,,Y,Y,2026-03-24,680757,24610,search
 Luke Raley,CLE,Cleveland Guardians,active,of,4.500,V,2026,,,Y,2026-02-06,670042,19354,search
 Chandler Simpson,CLE,Cleveland Guardians,active,of,1.295,2nd,,,,N,2026-02-06,802415,31912,search
-Justin Crawford,CLE,Cleveland Guardians,active,of,0.700,XXX,,,,N,2026-03-13,702222,,search
+Justin Crawford,CLE,Cleveland Guardians,active,of,0.700,XXX,,,,N,2026-03-13,702222,31791,search
 Denzel Clarke,CLE,Cleveland Guardians,active,of,0.700,1st,,,,N,2026-03-13,672016,29858,search
 Framber Valdez,CLE,Cleveland Guardians,active,p,28.600,V,2027,,,Y,2026-02-06,664285,17295,search
 Matt Strahm,CLE,Cleveland Guardians,active,p,8.000,V,2026,,,Y,2026-02-06,621381,13799,search
@@ -454,7 +454,7 @@ Dyan Jorge,CLE,Cleveland Guardians,reserve,if,0.700,XXX,,,,N,2025-02-09,694170,,
 Jared Serna,CLE,Cleveland Guardians,reserve,if,0.700,XXX,,,,N,2025-02-09,691858,,search
 Carlos Jorge,CLE,Cleveland Guardians,reserve,if,0.700,XXX,,,,N,2025-02-09,699115,,search
 Colin Houck,CLE,Cleveland Guardians,reserve,if,0.700,XXX,,,,N,2025-02-09,806124,,search
-Sam Antonacci,CLE,Cleveland Guardians,reserve,if,0.700,XXX,,,Y,N,2026-03-13,803011,,search
+Sam Antonacci,CLE,Cleveland Guardians,reserve,if,0.700,XXX,,,Y,N,2026-03-13,803011,35101,search
 A. J. Vukovich,CLE,Cleveland Guardians,reserve,if,0.700,XXX,,,,N,2025-02-09,691021,,search
 Joswa Lugo,CLE,Cleveland Guardians,reserve,if,0.700,XXX,,,,N,2026-02-06,815915,,search
 Brando Mayea,CLE,Cleveland Guardians,reserve,of,0.700,XXX,,,,N,2025-02-09,806963,,search
@@ -472,7 +472,7 @@ Carter Stewart,CLE,Cleveland Guardians,reserve,p,0.700,XXX,,,,N,2025-02-09,67801
 Yujanyer Herrera,CLE,Cleveland Guardians,reserve,p,0.700,XXX,,,,N,2025-02-09,692632,,search
 Hunter Dietz,CLE,Cleveland Guardians,reserve,p,0.700,XXX,,,Y,,2026-07-28,806059,,search
 Luke Holman,CLE,Cleveland Guardians,reserve,p,0.700,XXX,,,,N,2025-02-09,695705,,search
-Miguel Ullola,CLE,Cleveland Guardians,reserve,p,0.700,XXX,,,,N,2026-02-06,699044,,search
+Miguel Ullola,CLE,Cleveland Guardians,reserve,p,0.700,XXX,,,,N,2026-02-06,699044,29036,search
 Mason Edwards,CLE,Cleveland Guardians,reserve,p,0.700,XXX,,,Y,,2026-08-03,821973,,search
 Ryan Murphy,CLE,Cleveland Guardians,reserve,p,0.700,XXX,,,,N,2025-02-09,694885,,search
 Kolby Allard,CLE,Cleveland Guardians,reserve,p,0.000,MLI,,,,N,2026-04-24,663465,18694,search
@@ -570,7 +570,7 @@ Jeremy Rodriguez,DET,Detroit Tigers,reserve,if,0.700,XXX,,,,N,2025-02-09,807007,
 Luis Toribio,DET,Detroit Tigers,reserve,if,0.700,XXX,,,,N,2023-03-22,678681,,search
 Mac Horvath,DET,Detroit Tigers,reserve,if,0.700,XXX,,,,N,2024-02-19,690991,,search
 Billy Amick,DET,Detroit Tigers,reserve,if,0.700,XXX,,,,N,2025-02-09,701771,,search
-Tommy White,DET,Detroit Tigers,reserve,if,0.700,XXX,,,,N,2025-02-09,695720,,search
+Tommy White,DET,Detroit Tigers,reserve,if,0.700,XXX,,,,N,2025-02-09,695720,35107,search
 Jarred Kelenic,DET,Detroit Tigers,reserve,of,2.912,5th,,,,Y,2026-07-10,672284,22558,search
 Austin Meadows,DET,Detroit Tigers,reserve,of,2.500,V,2026,,,Y,2026-07-10,640457,15672,search
 Lazaro Montes,DET,Detroit Tigers,reserve,of,0.700,XXX,,,,N,2024-02-19,703155,,search
@@ -583,14 +583,14 @@ Michael Kopech,DET,Detroit Tigers,reserve,p,3.545,CE,2026,,,Y,2026-07-10,656629,
 James McArthur,DET,Detroit Tigers,reserve,p,3.111,V,2026,Yes,,Y,2025-07-09,663704,21527,search
 Bobby Miller,DET,Detroit Tigers,reserve,p,1.911,3rd,,,,N,2026-07-10,676272,27483,search
 Freddy Tarnok,DET,Detroit Tigers,reserve,p,0.910,2nd,,,,N,2024-07-12,676206,23324,search
-Owen Murphy,DET,Detroit Tigers,reserve,p,0.700,XXX,,,,N,2023-03-22,702566,,search
-Jake Bennett,DET,Detroit Tigers,reserve,p,0.700,XXX,,,,N,2023-03-22,687562,,search
+Owen Murphy,DET,Detroit Tigers,reserve,p,0.700,XXX,,,,N,2023-03-22,702566,31761,search
+Jake Bennett,DET,Detroit Tigers,reserve,p,0.700,XXX,,,,N,2023-03-22,687562,31959,search
 Dasan Hill,DET,Detroit Tigers,reserve,p,0.700,XXX,,,,N,2025-02-09,815598,,search
 Steve Hajjar,DET,Detroit Tigers,reserve,p,0.700,XXX,,,,N,2023-03-22,680727,,search
 Jack Kochanowicz,DET,Detroit Tigers,reserve,p,0.700,XXX,,,,N,2024-04-01,686799,27688,search
 Henry Lalane,DET,Detroit Tigers,reserve,p,0.700,XXX,,,,N,2024-03-17,700649,,search
 Mason Fluharty,DET,Detroit Tigers,reserve,p,0.700,XXX,,,Y,N,2026-03-13,689254,31553,search
-George Klassen,DET,Detroit Tigers,reserve,p,0.700,XXX,,,,N,2025-02-09,691946,,search
+George Klassen,DET,Detroit Tigers,reserve,p,0.700,XXX,,,,N,2025-02-09,691946,33464,search
 Luis Patiño,DET,Detroit Tigers,reserve,p,0.700,XXX,,,,N,2024-08-15,672715,22815,search
 Reggie Crawford,DET,Detroit Tigers,reserve,p,0.700,XXX,,,,N,2023-03-22,686846,,search
 José Fermin,DET,Detroit Tigers,reserve,p,0.700,XXX,,,Y,N,2026-03-24,820862,33908,search
@@ -631,7 +631,7 @@ Trey Ebel,HOU,Houston Astros,reserve,if,0.700,XXX,,,Y,,2026-08-03,821931,,search
 Termarr Johnson,HOU,Houston Astros,reserve,if,0.700,XXX,,,,N,2023-03-22,702261,,search
 Nolan Schanuel,HOU,Houston Astros,reserve,if,0.700,XXX,,,,N,2024-02-19,694384,33189,search
 Cristian Hernández,HOU,Houston Astros,reserve,if,0.700,XXX,,,,N,2023-03-22,694183,,search
-Ryan Waldschmidt,HOU,Houston Astros,reserve,of,0.700,XXX,,,,N,2025-02-09,814439,,search
+Ryan Waldschmidt,HOU,Houston Astros,reserve,of,0.700,XXX,,,,N,2025-02-09,814439,35061,search
 Korbyn Dickerson,HOU,Houston Astros,reserve,of,0.700,XXX,,,,N,2026-02-06,702668,,search
 Robert Arias,HOU,Houston Astros,reserve,of,0.700,XXX,,,,N,2026-02-06,815897,,search
 Luis Rodriguez,HOU,Houston Astros,reserve,of,0.700,XXX,,,,N,2023-03-22,691177,,search
@@ -643,7 +643,7 @@ Kody Funderburk,HOU,Houston Astros,reserve,p,5.200,V,2027,Yes,,Y,2025-07-09,6818
 Woo Suk Go,HOU,Houston Astros,reserve,p,4.000,V,2028,Yes,,Y,2025-07-09,808970,,search
 Keynan Middleton,HOU,Houston Astros,reserve,p,3.000,V,2026,,,Y,2026-07-10,641871,15264,search
 Trevor Brigden,HOU,Houston Astros,reserve,p,2.500,V,2026,Yes,,Y,2025-07-09,688953,,search
-Nate Lavender,HOU,Houston Astros,reserve,p,1.183,3rd,,,,N,2026-07-10,681320,,search
+Nate Lavender,HOU,Houston Astros,reserve,p,1.183,3rd,,,,N,2026-07-10,681320,30109,search
 Jackson Kowar,HOU,Houston Astros,reserve,p,0.910,2nd,,,,N,2024-02-19,663804,21549,search
 Bryce Hubbart,HOU,Houston Astros,reserve,p,0.700,XXX,,,,N,2024-02-19,687114,,search
 Luis Morales,HOU,Houston Astros,reserve,p,0.700,XXX,,,,N,2024-03-17,806960,32227,search
@@ -688,7 +688,7 @@ Josh Winder,KC,Kansas City Royals,active,p,1.411,3rd,,,,N,2026-02-06,680739,2460
 Ryne Nelson,KC,Kansas City Royals,active,p,1.085,2nd,,,,N,2026-02-06,669194,26253,search
 Angel Zerpa,KC,Kansas City Royals,active,p,0.700,XXX,,,,N,2026-07-10,672582,22717,search
 Ethan Anderson,KC,Kansas City Royals,reserve,c,0.700,XXX,,,,N,2025-02-09,803175,,search
-Jeferson Quero,KC,Kansas City Royals,reserve,c,0.700,XXX,,,,N,2025-02-09,691620,,search
+Jeferson Quero,KC,Kansas City Royals,reserve,c,0.700,XXX,,,,N,2025-02-09,691620,28272,search
 Bryan Ramos,KC,Kansas City Royals,reserve,if,0.700,XXX,,,,N,2025-02-09,682868,25621,search
 Blake Burke,KC,Kansas City Royals,reserve,if,0.700,XXX,,,,N,2025-02-09,695501,,search
 Adrian Santana,KC,Kansas City Royals,reserve,if,0.700,XXX,,,,N,2025-02-09,803745,,search
@@ -705,10 +705,10 @@ Miguel Bleis,KC,Kansas City Royals,reserve,of,0.700,XXX,,,,N,2025-02-09,694194,,
 Charles Davalan,KC,Kansas City Royals,reserve,of,0.700,XXX,,,,N,2026-02-06,804560,,search
 Emmanuel Rodriguez,KC,Kansas City Royals,reserve,of,0.700,XXX,,,,N,2025-02-09,691181,,search
 Logan Hughes,KC,Kansas City Royals,reserve,of,0.700,XXX,,,Y,,2026-07-28,813314,,search
-Nick Morabito,KC,Kansas City Royals,reserve,of,0.700,XXX,,,,N,2025-02-09,703492,,search
+Nick Morabito,KC,Kansas City Royals,reserve,of,0.700,XXX,,,,N,2025-02-09,703492,32119,search
 Brayan Buelvas,KC,Kansas City Royals,reserve,of,0.700,XXX,,,,N,2025-02-09,683454,,search
-Sean Sullivan,KC,Kansas City Royals,reserve,p,0.700,XXX,,,,N,2025-02-09,807743,,search
-Kendry Rojas,KC,Kansas City Royals,reserve,p,0.700,XXX,,,,N,2025-02-09,696070,,search
+Sean Sullivan,KC,Kansas City Royals,reserve,p,0.700,XXX,,,,N,2025-02-09,807743,33502,search
+Kendry Rojas,KC,Kansas City Royals,reserve,p,0.700,XXX,,,,N,2025-02-09,696070,29423,search
 JD Thompson,KC,Kansas City Royals,reserve,p,0.700,XXX,,,,N,2026-02-06,702505,,search
 Cade Kuehler,KC,Kansas City Royals,reserve,p,0.700,XXX,,,,N,2025-02-09,805780,,search
 Frank Cairone,KC,Kansas City Royals,reserve,p,0.700,XXX,,,,N,2026-02-06,827980,,search
@@ -736,7 +736,7 @@ Kyle Tucker,LAA,Los Angeles Angels,active,of,36.000,V,2031,,Y,Y,2026-04-11,66365
 Manuel Margot,LAA,Los Angeles Angels,active,of,9.250,V,2026,,,Y,2026-02-06,622534,14712,search
 Wyatt Langford,LAA,Los Angeles Angels,active,of,3.087,3rd,,,,N,2026-02-06,694671,33333,search
 Jordan Beck,LAA,Los Angeles Angels,active,of,0.700,XXX,,,,N,2026-04-11,687597,31431,search
-Carson Benge,LAA,Los Angeles Angels,active,of,0.700,XXX,,,,N,2026-04-11,701807,,search
+Carson Benge,LAA,Los Angeles Angels,active,of,0.700,XXX,,,,N,2026-04-11,701807,35177,search
 Shohei Ohtani,LAA,Los Angeles Angels,active,p,63.000,V,2031,,Y,Y,2026-04-11,660271,19755,search
 Robbie Ray,LAA,Los Angeles Angels,active,p,20.000,V,2028,,Y,Y,2026-04-04,592662,11486,search
 Joe Musgrove,LAA,Los Angeles Angels,active,p,16.000,V,2026,,,Y,2026-02-06,605397,12970,search
@@ -756,12 +756,12 @@ Diego Cartaya,LAA,Los Angeles Angels,reserve,c,0.700,XXX,,,,N,2023-03-22,682616,
 Ivan Melendez,LAA,Los Angeles Angels,reserve,if,0.910,2nd,,,,N,2025-02-09,699471,,search
 Joendry Vargas,LAA,Los Angeles Angels,reserve,if,0.700,XXX,,,,N,2024-03-17,806959,,search
 Jose Perdomo,LAA,Los Angeles Angels,reserve,if,0.700,XXX,,,,N,2026-02-06,815899,,search
-Angel Genao,LAA,Los Angeles Angels,reserve,if,0.700,XXX,,,,N,2025-02-09,694197,,search
+Angel Genao,LAA,Los Angeles Angels,reserve,if,0.700,XXX,,,,N,2025-02-09,694197,28811,search
 Jacob Lombard,LAA,Los Angeles Angels,reserve,if,0.700,XXX,,,Y,,2026-07-28,813075,,search
 Jake Gelof,LAA,Los Angeles Angels,reserve,if,0.700,XXX,,,,N,2024-02-19,695372,,search
 Gavin Fien,LAA,Los Angeles Angels,reserve,if,0.700,XXX,,,,N,2026-02-06,815818,,search
 Darell Morel,LAA,Los Angeles Angels,reserve,if,0.700,XXX,,,Y,N,2026-03-24,829716,,search
-Abimelec Ortiz,LAA,Los Angeles Angels,reserve,if,0.700,XXX,,,,N,2024-02-19,694673,,search
+Abimelec Ortiz,LAA,Los Angeles Angels,reserve,if,0.700,XXX,,,,N,2024-02-19,694673,29539,search
 Austin Hendrick,LAA,Los Angeles Angels,reserve,of,0.700,XXX,,,,N,2023-03-22,690988,,search
 Maykel Coret,LAA,Los Angeles Angels,reserve,of,0.700,XXX,,,Y,N,2026-03-13,829044,,search
 Noah Franco,LAA,Los Angeles Angels,reserve,of,0.700,XXX,,,,N,2025-02-09,813957,,search
@@ -791,7 +791,7 @@ Brent Rooker,LAD,Los Angeles Dodgers,active,of,6.000,V,2026,,,Y,2026-02-06,66767
 Jarren Duran,LAD,Los Angeles Dodgers,active,of,3.381,5th,,,,Y,2026-02-06,680776,24617,search
 Matt Wallner,LAD,Los Angeles Dodgers,active,of,1.183,3rd,,,,N,2026-02-06,670242,26466,search
 Jonny DeLuca,LAD,Los Angeles Dodgers,active,of,0.910,2nd,,,,N,2026-02-06,676356,26365,search
-Tatsuya Imai,LAD,Los Angeles Dodgers,active,p,48.000,V,2029,Yes,Y,Y,2026-04-04,837227,,search
+Tatsuya Imai,LAD,Los Angeles Dodgers,active,p,48.000,V,2029,Yes,Y,Y,2026-04-04,837227,37124,search
 Logan Gilbert,LAD,Los Angeles Dodgers,active,p,16.679,CE,2028,,Y,Y,2026-04-04,669302,22250,search
 Andrew Kittredge,LAD,Los Angeles Dodgers,active,p,6.260,V,2027,,Y,Y,2026-04-04,552640,12828,search
 George Kirby,LAD,Los Angeles Dodgers,active,p,5.290,4th,,,,Y,2026-02-06,669923,25436,search
@@ -804,7 +804,7 @@ Kumar Rocker,LAD,Los Angeles Dodgers,active,p,0.700,XXX,,,,N,2026-07-10,677958,3
 Joey Cantillo,LAD,Los Angeles Dodgers,active,p,0.700,XXX,,,,N,2026-04-04,676282,23335,search
 Jordan Wicks,LAD,Los Angeles Dodgers,active,p,0.700,XXX,,,,N,2026-04-04,696136,30094,search
 Ben Casparius,LAD,Los Angeles Dodgers,active,p,0.700,XXX,,,,N,2026-07-10,676508,30085,search
-Cole Carrigg,LAD,Los Angeles Dodgers,reserve,c,0.700,XXX,,,,N,2024-02-19,694249,,search
+Cole Carrigg,LAD,Los Angeles Dodgers,reserve,c,0.700,XXX,,,,N,2024-02-19,694249,33253,search
 Ike Irish,LAD,Los Angeles Dodgers,reserve,c,0.700,XXX,,,,N,2026-02-06,702610,,search
 Victor Vodnik,LAD,Los Angeles Dodgers,reserve,if,7.000,V,2028,Yes,Y,Y,2026-07-10,680767,24614,search
 Keiner Delgado,LAD,Los Angeles Dodgers,reserve,if,0.700,XXX,,,,N,2024-02-19,700731,,search
@@ -896,7 +896,7 @@ Sandy Gaston,MIA,Miami Marlins,reserve,p,0.700,XXX,,,,N,2023-03-22,682624,,searc
 Chayce McDermott,MIA,Miami Marlins,reserve,p,0.700,XXX,,,,N,2024-02-19,694646,29866,search
 Cade Townsend,MIA,Miami Marlins,reserve,p,0.700,XXX,,,Y,,2026-07-28,807254,,search
 Liam Doyle,MIA,Miami Marlins,reserve,p,0.700,XXX,,,,N,2026-02-06,824604,,search
-Trey Gibson,MIA,Miami Marlins,reserve,p,0.700,XXX,,,,N,2026-02-06,694346,,search
+Trey Gibson,MIA,Miami Marlins,reserve,p,0.700,XXX,,,,N,2026-02-06,694346,33794,search
 Luinder Avila,MIA,Miami Marlins,reserve,p,0.700,XXX,,,Y,N,2026-03-13,679883,24452,search
 Tyler Stephenson,MIL,Milwaukee Brewers,active,c,8.167,CE,2028,,Y,Y,2026-04-04,663886,17988,search
 Freddy Fermin,MIL,Milwaukee Brewers,active,c,5.021,V,2026,Yes,,,2026-08-05,666023,21840,search
@@ -929,7 +929,7 @@ Owen Ayers,MIL,Milwaukee Brewers,reserve,c,0.700,XXX,,,Y,N,2026-03-13,689196,,se
 Hyeseong Kim,MIL,Milwaukee Brewers,reserve,if,7.000,V,2030,,,,2026-08-05,808975,35322,search
 Kevin Made,MIL,Milwaukee Brewers,reserve,if,0.700,XXX,,,,N,2025-09-01,691183,,search
 Maui Ahuna,MIL,Milwaukee Brewers,reserve,if,0.700,XXX,,,,N,2024-02-19,694757,,search
-LuJames Groover,MIL,Milwaukee Brewers,reserve,if,0.700,XXX,,,,N,2024-02-19,694410,,search
+LuJames Groover,MIL,Milwaukee Brewers,reserve,if,0.700,XXX,,,,N,2024-02-19,694410,33552,search
 Rocco Maniscalco,MIL,Milwaukee Brewers,reserve,if,0.700,XXX,,,Y,,2026-08-05,836548,,search
 Jack Gurevitch,MIL,Milwaukee Brewers,reserve,if,0.700,XXX,,,,N,2026-02-06,813668,,search
 Henry Godbout,MIL,Milwaukee Brewers,reserve,if,0.700,XXX,,,,N,2026-02-06,804995,,search
@@ -953,7 +953,7 @@ Joseph Dzierwa,MIL,Milwaukee Brewers,reserve,p,0.700,XXX,,,,N,2026-02-06,804530,
 Jagger Haynes,MIL,Milwaukee Brewers,reserve,p,0.700,XXX,,,,N,2025-09-01,695247,,search
 Thatcher Hurd,MIL,Milwaukee Brewers,reserve,p,0.700,XXX,,,,N,2023-03-22,695765,,search
 Jack Radel,MIL,Milwaukee Brewers,reserve,p,0.700,XXX,,,Y,,2026-07-28,806481,,search
-JR Ritchie,MIL,Milwaukee Brewers,reserve,p,0.700,XXX,,,,N,2025-09-01,702275,,search
+JR Ritchie,MIL,Milwaukee Brewers,reserve,p,0.700,XXX,,,,N,2025-09-01,702275,31760,search
 Caedmon Parker,MIL,Milwaukee Brewers,reserve,p,0.700,XXX,,,,N,2023-03-22,696488,,search
 Jackson Barberi,MIL,Milwaukee Brewers,reserve,p,0.700,XXX,,,,N,2025-02-09,815346,,search
 Matt Wilkinson,MIL,Milwaukee Brewers,reserve,p,0.700,XXX,,,,N,2026-03-24,683363,,search
@@ -972,7 +972,7 @@ Colton Cowser,MIN,Minnesota Twins,active,of,1.911,3rd,,,,N,2026-04-11,681297,295
 Will Benson,MIN,Minnesota Twins,active,of,1.684,3rd,,,,N,2026-07-10,666181,21853,search
 Tyler Freeman,MIN,Minnesota Twins,active,of,1.183,3rd,,,,N,2026-07-10,671289,22532,search
 Joey Loperfido,MIN,Minnesota Twins,active,of,1.183,3rd,,,,N,2026-04-11,694388,29630,search
-Sterlin Thompson,MIN,Minnesota Twins,active,of,0.700,XXX,,,,,2026-08-05,694514,,search
+Sterlin Thompson,MIN,Minnesota Twins,active,of,0.700,XXX,,,,,2026-08-05,694514,31443,search
 Kyle Freeland,MIN,Minnesota Twins,active,p,13.000,V,2026,,,Y,2026-04-11,607536,16256,search
 Shelby Miller,MIN,Minnesota Twins,active,p,8.500,V,2027,,Y,Y,2026-04-11,571946,10197,search
 Mark Leiter,MIN,Minnesota Twins,active,p,8.000,V,2026,,,Y,2026-04-11,643410,15551,search
@@ -996,11 +996,11 @@ Murf Gray,MIN,Minnesota Twins,reserve,if,0.700,XXX,,,,N,2026-02-06,809092,,searc
 Eric Brown,MIN,Minnesota Twins,reserve,if,0.700,XXX,,,,N,2023-03-22,687521,,search
 Roderick Arias,MIN,Minnesota Twins,reserve,if,0.700,XXX,,,,N,2024-02-19,703149,,search
 Jalin Flores,MIN,Minnesota Twins,reserve,if,0.700,XXX,,,,N,2025-02-09,703602,,search
-JJ Wetherholt,MIN,Minnesota Twins,reserve,if,0.700,XXX,,,,N,2025-02-09,802139,,search
+JJ Wetherholt,MIN,Minnesota Twins,reserve,if,0.700,XXX,,,,N,2025-02-09,802139,34985,search
 Jhonny Level,MIN,Minnesota Twins,reserve,if,0.700,XXX,,,,N,2026-02-06,815929,,search
 Tanner Schobel,MIN,Minnesota Twins,reserve,if,0.700,XXX,,,,N,2023-03-22,802355,,search
 Eli Willits,MIN,Minnesota Twins,reserve,if,0.700,XXX,,,,N,2026-02-06,816113,,search
-Hao-Yu Lee,MIN,Minnesota Twins,reserve,if,0.700,XXX,,,,N,2024-07-12,701678,,search
+Hao-Yu Lee,MIN,Minnesota Twins,reserve,if,0.700,XXX,,,,N,2024-07-12,701678,30080,search
 Joey Wiemer,MIN,Minnesota Twins,reserve,of,0.910,2nd,,,,N,2026-07-10,686894,27690,search
 Jasson Domínguez,MIN,Minnesota Twins,reserve,of,0.700,XXX,,,,N,2026-07-10,691176,28080,search
 Ethan Wilson,MIN,Minnesota Twins,reserve,of,0.700,XXX,,,,N,2023-03-22,681159,,search
@@ -1009,14 +1009,14 @@ Josh Adamczewski,MIN,Minnesota Twins,reserve,of,0.700,XXX,,,Y,N,2026-04-11,81530
 Osvaldo Bido,MIN,Minnesota Twins,reserve,p,2.400,V,2026,Yes,,,2026-08-05,674370,23150,search
 Bryan Hoeing,MIN,Minnesota Twins,reserve,p,1.900,V,2026,,,Y,2026-04-11,663773,26304,search
 Cade Horton,MIN,Minnesota Twins,reserve,p,0.700,XXX,,,,N,2024-07-12,690990,31872,search
-Mitch Bratt,MIN,Minnesota Twins,reserve,p,0.700,XXX,,,,N,2025-02-09,683352,,search
+Mitch Bratt,MIN,Minnesota Twins,reserve,p,0.700,XXX,,,,N,2025-02-09,683352,30003,search
 Ben Jacobs,MIN,Minnesota Twins,reserve,p,0.700,XXX,,,Y,N,2026-03-13,800624,,search
 Zander Mueth,MIN,Minnesota Twins,reserve,p,0.700,XXX,,,,N,2024-02-19,805800,,search
 Braylon Doughty,MIN,Minnesota Twins,reserve,p,0.700,XXX,,,,N,2025-02-09,815785,,search
 Zach Root,MIN,Minnesota Twins,reserve,p,0.700,XXX,,,,N,2026-02-06,702539,,search
 Wikelman González,MIN,Minnesota Twins,reserve,p,0.700,XXX,,,,N,2023-03-22,682790,26641,search
 Doug Nikhazy,MIN,Minnesota Twins,reserve,p,0.700,XXX,,,,N,2023-03-22,680951,30142,search
-Noah Schultz,MIN,Minnesota Twins,reserve,p,0.700,XXX,,,,N,2023-03-22,702273,,search
+Noah Schultz,MIN,Minnesota Twins,reserve,p,0.700,XXX,,,,N,2023-03-22,702273,32056,search
 Savion Sims,MIN,Minnesota Twins,reserve,p,0.700,XXX,,,Y,,2026-08-05,828727,,search
 Kaden Waechter,MIN,Minnesota Twins,reserve,p,0.700,XXX,,,Y,,2026-08-05,826388,,search
 Joshua Flores,MIN,Minnesota Twins,reserve,p,0.700,XXX,,,,N,2026-02-06,834237,,search
@@ -1082,7 +1082,7 @@ Cade Crossland,NYM,New York Mets,reserve,p,0.700,XXX,,,,N,2026-02-06,827265,,sea
 Marcos Paz,NYM,New York Mets,reserve,p,0.700,XXX,,,,N,2026-03-24,815602,,search
 Ryan Rolison,NYM,New York Mets,reserve,p,0.700,XXX,,,,N,2023-03-22,669020,22200,search
 Daniel Eagen,NYM,New York Mets,reserve,p,0.700,XXX,,,Y,N,2026-03-24,811666,,search
-Winston Santos,NYM,New York Mets,reserve,p,0.700,XXX,,,,N,2025-02-09,692437,,search
+Winston Santos,NYM,New York Mets,reserve,p,0.700,XXX,,,,N,2025-02-09,692437,28489,search
 Luis Torrens,NYY,New York Yankees,active,c,2.501,V,2028,Yes,,Y,2026-02-06,620443,15905,search
 Yohel Pozo,NYY,New York Yankees,active,c,2.501,V,2028,Yes,,Y,2026-02-06,650968,18848,search
 Isiah Kiner-Falefa,NYY,New York Yankees,active,if,2.201,V,2026,,,Y,2025-02-09,643396,16512,search
@@ -1128,7 +1128,7 @@ Ariel Almonte,NYY,New York Yankees,reserve,of,0.700,XXX,,,,N,2023-03-22,694200,,
 Jhostynxon Garcia,NYY,New York Yankees,reserve,of,0.700,XXX,,,,N,2026-02-06,691373,28142,search
 Travis Honeyman,NYY,New York Yankees,reserve,of,0.700,XXX,,,,N,2024-02-19,802469,,search
 Enmanuel Bonilla,NYY,New York Yankees,reserve,of,0.700,XXX,,,,N,2024-03-17,806962,,search
-Héctor Rodríguez,NYY,New York Yankees,reserve,of,0.700,XXX,,,,N,2026-02-06,699302,,search
+Héctor Rodríguez,NYY,New York Yankees,reserve,of,0.700,XXX,,,,N,2026-02-06,699302,29189,search
 Slater de Brun,NYY,New York Yankees,reserve,of,0.700,XXX,,,,N,2026-02-06,828173,,search
 Isaiah Campbell,NYY,New York Yankees,reserve,p,1.411,3rd,,,,N,2025-04-06,663462,25551,search
 Spencer Arrighetti,NYY,New York Yankees,reserve,p,0.910,2nd,,,,N,2026-04-04,681293,29921,search
@@ -1137,7 +1137,7 @@ Ty Floyd,NYY,New York Yankees,reserve,p,0.700,XXX,,,,N,2024-02-19,692226,,search
 Levi Sterling,NYY,New York Yankees,reserve,p,0.700,XXX,,,,N,2025-02-09,815552,,search
 Tanner McDougal,NYY,New York Yankees,reserve,p,0.700,XXX,,,,N,2026-02-06,701780,,search
 Matt Sauer,NYY,New York Yankees,reserve,p,0.700,XXX,,,,N,2023-03-22,669422,22284,search
-Welinton Herrera,NYY,New York Yankees,reserve,p,0.700,XXX,,,,N,2026-02-06,700327,,search
+Welinton Herrera,NYY,New York Yankees,reserve,p,0.700,XXX,,,,N,2026-02-06,700327,29318,search
 Chris Levonas,NYY,New York Yankees,reserve,p,0.700,XXX,,,,N,2025-02-09,815484,,search
 Barrett Kent,NYY,New York Yankees,reserve,p,0.700,XXX,,,Y,N,2026-03-24,806010,,search
 Paul Wilson,NYY,New York Yankees,reserve,p,0.700,XXX,,,,N,2024-02-19,800618,,search
@@ -1172,7 +1172,7 @@ Jared Jones,OAK,Oakland Athletics,active,p,1.295,2nd,,,,N,2026-02-06,683003,2786
 José Ferrer,OAK,Oakland Athletics,active,p,0.910,2nd,,,,N,2026-02-06,678606,24017,search
 Zebby Matthews,OAK,Oakland Athletics,active,p,0.700,1st,,,,N,2026-02-06,805673,31827,search
 Anthony Seigler,OAK,Oakland Athletics,reserve,c,0.700,XXX,,,,N,2023-03-22,678011,23802,search
-Daniel Susac,OAK,Oakland Athletics,reserve,c,0.700,XXX,,,,N,2023-03-22,691740,,search
+Daniel Susac,OAK,Oakland Athletics,reserve,c,0.700,XXX,,,,N,2023-03-22,691740,31441,search
 Thayron Liranzo,OAK,Oakland Athletics,reserve,c,0.700,XXX,,,,N,2024-03-17,699073,,search
 Franklin Primera,OAK,Oakland Athletics,reserve,c,0.700,XXX,,,Y,,2026-08-03,829398,,search
 Eduardo Tait,OAK,Oakland Athletics,reserve,c,0.700,XXX,,,,N,2025-02-09,806953,,search
@@ -1180,12 +1180,12 @@ René Pinto,OAK,Oakland Athletics,reserve,c,0.000,MLI,,,,N,2026-04-24,650907,198
 Justin Foscue,OAK,Oakland Athletics,reserve,if,1.183,3rd,,,,N,2025-04-11,679822,27501,search
 Yoeilin Cespedes,OAK,Oakland Athletics,reserve,if,0.700,XXX,,,,N,2025-02-09,806985,,search
 Antonio Anderson,OAK,Oakland Athletics,reserve,if,0.700,XXX,,,,N,2024-02-19,702995,,search
-Cooper Pratt,OAK,Oakland Athletics,reserve,if,0.700,XXX,,,,N,2024-02-19,806198,,search
+Cooper Pratt,OAK,Oakland Athletics,reserve,if,0.700,XXX,,,,N,2024-02-19,806198,33530,search
 Nacho Alvarez,OAK,Oakland Athletics,reserve,if,0.700,XXX,,,,N,2024-02-19,805373,31765,search
 Brady House,OAK,Oakland Athletics,reserve,if,0.700,XXX,,,,N,2023-03-22,691781,29993,search
 Cole Young,OAK,Oakland Athletics,reserve,if,0.700,XXX,,,,N,2023-03-22,702284,31680,search
 Cooper Flemming,OAK,Oakland Athletics,reserve,if,0.700,XXX,,,Y,,2026-07-28,828237,,search
-James Triantos,OAK,Oakland Athletics,reserve,if,0.700,XXX,,,,N,2023-03-22,701649,,search
+James Triantos,OAK,Oakland Athletics,reserve,if,0.700,XXX,,,,N,2023-03-22,701649,29795,search
 Luis Peña,OAK,Oakland Athletics,reserve,if,0.700,XXX,,,,N,2026-02-06,821270,,search
 Seth Brown,OAK,Oakland Athletics,reserve,of,2.200,V,2026,Yes,,Y,2026-04-11,664913,18171,search
 Johan Rojas,OAK,Oakland Athletics,reserve,of,0.910,2nd,,,,N,2026-04-11,679032,24336,search
@@ -1198,7 +1198,7 @@ Griffin Burkholder,OAK,Oakland Athletics,reserve,of,0.700,XXX,,,,N,2025-02-09,81
 Nate George,OAK,Oakland Athletics,reserve,of,0.700,XXX,,,,N,2026-02-06,825582,,search
 Chase Davis,OAK,Oakland Athletics,reserve,of,0.700,XXX,,,,N,2024-02-19,690971,,search
 Dylan Floro,OAK,Oakland Athletics,reserve,p,4.000,V,2026,,,Y,2026-04-24,571670,13394,search
-Riley Cornelio,OAK,Oakland Athletics,reserve,p,2.500,V,2029,Yes,Y,Y,2026-04-11,683000,,search
+Riley Cornelio,OAK,Oakland Athletics,reserve,p,2.500,V,2029,Yes,Y,Y,2026-04-11,683000,31953,search
 Daniel Lynch,OAK,Oakland Athletics,reserve,p,0.910,2nd,,,,N,2024-02-19,663738,21537,search
 Steven Echavarria,OAK,Oakland Athletics,reserve,p,0.700,XXX,,,,N,2024-02-19,806064,,search
 Bubba Chandler,OAK,Oakland Athletics,reserve,p,0.700,XXX,,,,N,2023-03-22,696149,29868,search
@@ -1208,9 +1208,9 @@ Miguel Sime,OAK,Oakland Athletics,reserve,p,0.700,XXX,,,Y,,2026-08-05,828137,,se
 Jacob Bresnahan,OAK,Oakland Athletics,reserve,p,0.700,XXX,,,Y,N,2026-03-13,815298,,search
 Caden Scarborough,OAK,Oakland Athletics,reserve,p,0.700,XXX,,,,N,2026-02-06,807291,,search
 Jordy Vargas,OAK,Oakland Athletics,reserve,p,0.700,XXX,,,,N,2023-03-22,700174,,search
-Robby Snelling,OAK,Oakland Athletics,reserve,p,0.700,XXX,,,,N,2023-03-22,702281,,search
+Robby Snelling,OAK,Oakland Athletics,reserve,p,0.700,XXX,,,,N,2023-03-22,702281,31893,search
 Briggs McKenzie,OAK,Oakland Athletics,reserve,p,0.700,XXX,,,,N,2026-02-06,828987,,search
-Alex McFarlane,OAK,Oakland Athletics,reserve,p,0.700,XXX,,,,N,2023-03-22,686934,,search
+Alex McFarlane,OAK,Oakland Athletics,reserve,p,0.700,XXX,,,,N,2023-03-22,686934,31773,search
 Kyle Leahy,OAK,Oakland Athletics,reserve,p,0.000,MLI,,,,,2026-07-28,681517,24763,search
 Will Smith,PHI,Philadelphia Phillies,active,c,14.809,CE,2026,,,Y,2024-03-17,669257,19197,search
 Mitch Garver,PHI,Philadelphia Phillies,active,c,2.000,V,2027,,Y,Y,2026-04-24,641598,15161,search
@@ -1244,7 +1244,7 @@ Buddy Kennedy,PHI,Philadelphia Phillies,reserve,if,1.183,3rd,,,,N,2026-02-06,671
 Cam Smith,PHI,Philadelphia Phillies,reserve,if,0.700,XXX,,,,N,2025-02-09,701358,35108,search
 Nick Becker,PHI,Philadelphia Phillies,reserve,if,0.700,XXX,,,,N,2026-02-06,829306,,search
 Tyler Bell,PHI,Philadelphia Phillies,reserve,if,0.700,XXX,,,Y,,2026-07-28,815628,,search
-Kahlil Watson,PHI,Philadelphia Phillies,reserve,if,0.700,XXX,,,,N,2023-03-22,696135,,search
+Kahlil Watson,PHI,Philadelphia Phillies,reserve,if,0.700,XXX,,,,N,2023-03-22,696135,29905,search
 Jacob Reimer,PHI,Philadelphia Phillies,reserve,if,0.700,XXX,,,,N,2026-02-06,702544,,search
 Edward Olivares,PHI,Philadelphia Phillies,reserve,of,1.183,3rd,,,,N,2026-04-11,658668,19698,search
 Jack Hurley,PHI,Philadelphia Phillies,reserve,of,0.700,XXX,,,,N,2024-02-19,694815,,search
@@ -1256,7 +1256,7 @@ Kyle Wright,PHI,Philadelphia Phillies,reserve,p,2.608,4th,,,,Y,2026-04-11,657140
 Greg Weissert,PHI,Philadelphia Phillies,reserve,p,2.000,V,2026,,,Y,2026-04-11,669711,20375,search
 Ryan Borucki,PHI,Philadelphia Phillies,reserve,p,1.911,3rd,,,,N,2025-04-11,621366,16350,search
 J. P. France,PHI,Philadelphia Phillies,reserve,p,1.900,V,2026,,,Y,2026-03-13,641585,21212,search
-Andrew Morris,PHI,Philadelphia Phillies,reserve,p,0.700,XXX,,,,N,2026-02-06,702193,,search
+Andrew Morris,PHI,Philadelphia Phillies,reserve,p,0.700,XXX,,,,N,2026-02-06,702193,31891,search
 Julian Aguiar,PHI,Philadelphia Phillies,reserve,p,0.700,XXX,,,,N,2025-02-09,687924,30031,search
 Kyson Witherspoon,PHI,Philadelphia Phillies,reserve,p,0.700,XXX,,,,N,2026-02-06,804817,,search
 Frank Mozzicato,PHI,Philadelphia Phillies,reserve,p,0.700,XXX,,,,N,2025-09-01,700924,,search
@@ -1267,14 +1267,14 @@ Parker Messick,PHI,Philadelphia Phillies,reserve,p,0.700,XXX,,,,N,2023-03-22,800
 Adam Mazur,PHI,Philadelphia Phillies,reserve,p,0.700,XXX,,,,N,2023-03-22,800049,31900,search
 Ky Bush,PHI,Philadelphia Phillies,reserve,p,0.700,XXX,,,,N,2023-03-22,681066,29823,search
 Jean Cabrera,PHI,Philadelphia Phillies,reserve,p,0.700,XXX,,,,N,2026-02-06,691893,,search
-Nick Frasso,PHI,Philadelphia Phillies,reserve,p,0.700,XXX,,,,N,2023-03-22,693308,,search
+Nick Frasso,PHI,Philadelphia Phillies,reserve,p,0.700,XXX,,,,N,2023-03-22,693308,27861,search
 Jackson Kent,PHI,Philadelphia Phillies,reserve,p,0.700,XXX,,,Y,,2026-07-28,800600,,search
 Pete Hansen,PHI,Philadelphia Phillies,reserve,p,0.700,XXX,,,,N,2026-02-06,677337,,search
 Christian Scott,PHI,Philadelphia Phillies,reserve,p,0.700,XXX,,,,N,2024-03-17,681035,30107,search
 Sam Huff,PIT,Pittsburgh Pirates,active,c,1.793,4th,,,,Y,2026-02-06,669087,22209,search
 Agustín Ramírez,PIT,Pittsburgh Pirates,active,c,1.085,2nd,,,,N,2026-02-06,682663,26546,search
 Corey Seager,PIT,Pittsburgh Pirates,active,if,33.750,V,2027,,,Y,2025-02-09,608369,13624,search
-Munetaka Murakami,PIT,Pittsburgh Pirates,active,if,26.000,V,2029,,Y,Y,2026-04-04,808959,,search
+Munetaka Murakami,PIT,Pittsburgh Pirates,active,if,26.000,V,2029,,Y,Y,2026-04-04,808959,37120,search
 Vinnie Pasquantino,PIT,Pittsburgh Pirates,active,if,6.540,CE,2028,,Y,Y,2026-04-24,686469,27676,search
 Brendan Donovan,PIT,Pittsburgh Pirates,active,if,2.095,4th,,,,Y,2026-02-06,680977,24679,search
 Eguy Rosario,PIT,Pittsburgh Pirates,active,if,1.183,3rd,,,,N,2026-02-06,666703,19964,search
@@ -1292,7 +1292,7 @@ Garrett Crochet,PIT,Pittsburgh Pirates,active,p,5.666,4th,,,,Y,2026-02-06,676979
 Joel Payamps,PIT,Pittsburgh Pirates,active,p,4.000,V,2026,,,Y,2025-09-01,606303,14332,search
 Reed Garrett,PIT,Pittsburgh Pirates,active,p,2.250,V,2026,Yes,,Y,2026-07-10,657585,16866,search
 Yimi García,PIT,Pittsburgh Pirates,active,p,2.250,V,2026,Yes,,Y,2026-02-06,554340,12095,search
-Daniel Espino,PIT,Pittsburgh Pirates,active,p,1.911,3rd,,,,N,2026-02-06,682982,,search
+Daniel Espino,PIT,Pittsburgh Pirates,active,p,1.911,3rd,,,,N,2026-02-06,682982,25625,search
 Gavin Williams,PIT,Pittsburgh Pirates,active,p,1.684,3rd,,,,N,2026-02-06,668909,30122,search
 Lyon Richardson,PIT,Pittsburgh Pirates,active,p,1.400,V,2026,Yes,,Y,2026-04-24,680689,24581,search
 Connor Phillips,PIT,Pittsburgh Pirates,active,p,1.183,3rd,,,,N,2026-02-06,683175,27649,search
@@ -1306,7 +1306,7 @@ Rece Hinds,PIT,Pittsburgh Pirates,reserve,if,0.700,XXX,,,,N,2024-02-19,677956,27
 Brock Wilken,PIT,Pittsburgh Pirates,reserve,if,0.700,XXX,,,,N,2024-02-19,694385,,search
 Gustavo Melendez,PIT,Pittsburgh Pirates,reserve,if,0.700,XXX,,,,N,2026-02-06,828116,,search
 Werner Blakely,PIT,Pittsburgh Pirates,reserve,if,0.700,XXX,,,,N,2024-02-19,690956,,search
-Konnor Griffin,PIT,Pittsburgh Pirates,reserve,if,0.700,XXX,,,,N,2025-02-09,804606,,search
+Konnor Griffin,PIT,Pittsburgh Pirates,reserve,if,0.700,XXX,,,,N,2025-02-09,804606,35376,search
 Yunior Severino,PIT,Pittsburgh Pirates,reserve,if,0.700,XXX,,,,N,2023-03-22,670870,,search
 Leo Balcazar,PIT,Pittsburgh Pirates,reserve,if,0.700,XXX,,,Y,N,2026-03-24,699114,,search
 Vance Honeycutt,PIT,Pittsburgh Pirates,reserve,of,0.700,XXX,,,,N,2025-02-09,701689,,search
@@ -1321,7 +1321,7 @@ Luke Little,PIT,Pittsburgh Pirates,reserve,p,0.910,2nd,,,,N,2025-03-31,681432,28
 Zack Thompson,PIT,Pittsburgh Pirates,reserve,p,0.910,2nd,,,,N,2025-02-09,668868,25918,search
 Jared Grindlinger,PIT,Pittsburgh Pirates,reserve,p,0.700,XXX,,,Y,,2026-07-28,828796,,search
 Brett Wichrowski,PIT,Pittsburgh Pirates,reserve,p,0.700,XXX,,,,N,2025-02-09,814489,,search
-Peyton Pallette,PIT,Pittsburgh Pirates,reserve,p,0.700,XXX,,,,N,2023-06-22,688883,,search
+Peyton Pallette,PIT,Pittsburgh Pirates,reserve,p,0.700,XXX,,,,N,2023-06-22,688883,31865,search
 Ryan Bergert,PIT,Pittsburgh Pirates,reserve,p,0.700,XXX,,,,N,2026-02-06,686701,29863,search
 TJ Nichols,PIT,Pittsburgh Pirates,reserve,p,0.700,XXX,,,Y,N,2026-03-13,694375,,search
 Burl Carraway,PIT,Pittsburgh Pirates,reserve,p,0.700,XXX,,,,N,2023-03-22,693310,,search
@@ -1352,7 +1352,7 @@ Dean Kremer,SD,San Diego Padres,active,p,2.100,V,2027,Yes,Y,Y,2026-04-11,665152,
 Marcus Stroman,SD,San Diego Padres,active,p,1.900,V,2026,,,Y,2026-02-06,573186,13431,search
 Bryce Jarvis,SD,San Diego Padres,active,p,0.910,2nd,,,,N,2026-02-06,686826,27477,search
 Brandon Sproat,SD,San Diego Padres,active,p,0.700,1st,,,,N,2026-04-11,687075,33850,search
-Connor Prielipp,SD,San Diego Padres,active,p,0.700,XXX,,,,N,2026-04-11,687570,,search
+Connor Prielipp,SD,San Diego Padres,active,p,0.700,XXX,,,,N,2026-04-11,687570,31857,search
 Ty Madden,SD,San Diego Padres,active,p,0.700,XXX,,,,N,2026-07-10,680744,30140,search
 Jonathan Cannon,SD,San Diego Padres,active,p,0.700,1st,,,,N,2026-04-11,686563,31730,search
 Jacob Cozart,SD,San Diego Padres,reserve,c,0.700,XXX,,,,N,2025-02-09,695524,,search
@@ -1376,7 +1376,7 @@ Cole Phillips,SD,San Diego Padres,reserve,p,0.700,XXX,,,,N,2023-03-22,702551,,se
 Drew Beam,SD,San Diego Padres,reserve,p,0.700,XXX,,,,N,2025-02-09,701795,,search
 Landon Sims,SD,San Diego Padres,reserve,p,0.700,XXX,,,,N,2023-03-22,683085,,search
 Blake Walston,SD,San Diego Padres,reserve,p,0.700,XXX,,,,N,2024-08-15,686796,26270,search
-Carter Baumler,SD,San Diego Padres,reserve,p,0.700,XXX,,,Y,N,2026-03-13,691945,,search
+Carter Baumler,SD,San Diego Padres,reserve,p,0.700,XXX,,,Y,N,2026-03-13,691945,30231,search
 Caden Dana,SD,San Diego Padres,reserve,p,0.700,1st,,,,N,2026-02-06,702674,31508,search
 Brody Brecht,SD,San Diego Padres,reserve,p,0.700,XXX,,,,N,2025-02-09,701679,,search
 Logan Reddemann,SD,San Diego Padres,reserve,p,0.700,XXX,,,Y,,2026-08-05,822298,,search
@@ -1414,7 +1414,7 @@ Andrew Knizner,SEA,Seattle Mariners,reserve,c,1.183,3rd,,,,N,2026-02-06,668800,1
 Boston Smith,SEA,Seattle Mariners,reserve,c,0.700,XXX,,,Y,,2026-08-05,695722,,search
 Travis d'Arnaud,SEA,Seattle Mariners,reserve,c,0.000,MLI,,,,N,2026-04-24,518595,7739,search
 Lenyn Sosa,SEA,Seattle Mariners,reserve,if,0.700,XXX,,,,N,2026-02-06,672820,22896,search
-Joshua Kuroda-Grauer,SEA,Seattle Mariners,reserve,if,0.700,XXX,,,Y,N,2026-03-24,811965,,search
+Joshua Kuroda-Grauer,SEA,Seattle Mariners,reserve,if,0.700,XXX,,,Y,N,2026-03-24,811965,35121,search
 Ryan Ritter,SEA,Seattle Mariners,reserve,if,0.700,XXX,,,,N,2025-02-09,690022,31500,search
 Nick Castellanos,SEA,Seattle Mariners,reserve,of,4.200,V,2027,,,Y,2025-09-01,592206,11737,search
 Chas McCormick,SEA,Seattle Mariners,reserve,of,3.500,V,2026,,,Y,2026-07-10,676801,19599,search
@@ -1440,7 +1440,7 @@ Josiah Gray,SEA,Seattle Mariners,reserve,p,0.700,XXX,,,,N,2026-02-06,680686,2458
 Seth Corry,SEA,Seattle Mariners,reserve,p,0.700,XXX,,,,N,2025-02-09,671288,,search
 Will Klein,SEA,Seattle Mariners,reserve,p,0.700,XXX,,,,N,2024-02-19,694361,27787,search
 Adrian Houser,SEA,Seattle Mariners,reserve,p,0.000,MLI,,,,N,2026-04-24,605288,12718,search
-Ryan Weiss,SEA,Seattle Mariners,reserve,p,0.000,MLI,,,,N,2026-04-24,680802,,search
+Ryan Weiss,SEA,Seattle Mariners,reserve,p,0.000,MLI,,,,N,2026-04-24,680802,24621,search
 Carson Kelly,SF,San Francisco Giants,active,c,10.000,V,2027,Yes,Y,Y,2026-04-04,608348,13620,search
 Yainer Diaz,SF,San Francisco Giants,active,c,3.006,4th,,,,Y,2026-02-06,673237,23003,search
 Tommy Edman,SF,San Francisco Giants,active,if,16.000,V,2029,Yes,Y,Y,2026-04-04,669242,19470,search
@@ -1489,7 +1489,7 @@ Dedniel Núñez,SF,San Francisco Giants,reserve,p,6.700,V,2027,,,Y,2026-07-10,67
 Ryan Fernandez,SF,San Francisco Giants,reserve,p,4.000,V,2027,Yes,,Y,2026-07-10,681676,24862,search
 Robinson Ortiz,SF,San Francisco Giants,reserve,p,3.700,V,2027,Yes,Y,Y,2026-07-10,673662,,search
 Brandon Williamson,SF,San Francisco Giants,reserve,p,0.910,2nd,,,,N,2023-03-22,682227,25463,search
-Kohl Drake,SF,San Francisco Giants,reserve,p,0.700,XXX,,,,N,2025-02-09,684442,,search
+Kohl Drake,SF,San Francisco Giants,reserve,p,0.700,XXX,,,,N,2025-02-09,684442,32070,search
 Jeff Criswell,SF,San Francisco Giants,reserve,p,0.700,XXX,,,,N,2023-03-22,676105,27608,search
 Aidan Curry,SF,San Francisco Giants,reserve,p,0.700,XXX,,,,N,2024-02-19,695778,,search
 Jack Wenninger,SF,San Francisco Giants,reserve,p,0.700,XXX,,,Y,N,2026-03-13,811307,,search
@@ -1500,7 +1500,7 @@ Kruz Schoolcraft,SF,San Francisco Giants,reserve,p,0.700,XXX,,,,N,2026-02-06,828
 Bryan Mata,SF,San Francisco Giants,reserve,p,0.700,XXX,,,,N,2023-03-22,667356,,search
 Justin Campbell,SF,San Francisco Giants,reserve,p,0.700,XXX,,,,N,2023-03-22,683235,,search
 Henry Williams,SF,San Francisco Giants,reserve,p,0.700,XXX,,,,N,2023-03-22,689275,,search
-Elmer Rodriguez,SF,San Francisco Giants,reserve,p,0.700,XXX,,,,N,2025-02-09,695684,,search
+Elmer Rodriguez,SF,San Francisco Giants,reserve,p,0.700,XXX,,,,N,2025-02-09,695684,31811,search
 Steven Zobac,SF,San Francisco Giants,reserve,p,0.700,XXX,,,,N,2026-02-06,686632,,search
 Shea Langeliers,STL,St. Louis Cardinals,active,c,9.478,CE,2028,,Y,Y,2026-04-14,669127,25816,search
 Drew Romo,STL,St. Louis Cardinals,active,c,0.700,XXX,,,,N,2026-04-24,691011,27763,search
@@ -1547,7 +1547,7 @@ Cole Mathis,STL,St. Louis Cardinals,reserve,if,0.700,XXX,,,,N,2025-02-09,695573,
 Slade Caldwell,STL,St. Louis Cardinals,reserve,of,0.700,XXX,,,,N,2025-02-09,815154,,search
 PJ Morlando,STL,St. Louis Cardinals,reserve,of,0.700,XXX,,,,N,2025-02-09,703563,,search
 Clark Elliott,STL,St. Louis Cardinals,reserve,of,0.700,XXX,,,,N,2023-03-22,686499,,search
-Henry Bolte,STL,St. Louis Cardinals,reserve,of,0.700,XXX,,,,N,2023-03-22,703607,,search
+Henry Bolte,STL,St. Louis Cardinals,reserve,of,0.700,XXX,,,,N,2023-03-22,703607,31448,search
 Robert Hassell,STL,St. Louis Cardinals,reserve,of,0.700,XXX,,,,N,2023-03-22,690987,27482,search
 Diego Tornes,STL,St. Louis Cardinals,reserve,of,0.700,XXX,,,Y,N,2026-03-13,829053,,search
 Jared Thomas,STL,St. Louis Cardinals,reserve,of,0.700,XXX,,,,N,2025-02-09,703606,,search
@@ -1559,7 +1559,7 @@ Sam Bachman,STL,St. Louis Cardinals,reserve,p,0.700,XXX,,,,N,2023-03-22,696147,2
 Brody Bumila,STL,St. Louis Cardinals,reserve,p,0.700,XXX,,,Y,,2026-07-28,837269,,search
 Cam Leiter,STL,St. Louis Cardinals,reserve,p,0.700,XXX,,,,N,2026-02-06,804942,,search
 Gio Rojas,STL,St. Louis Cardinals,reserve,p,0.700,XXX,,,Y,,2026-07-28,826061,,search
-Gabriel Hughes,STL,St. Louis Cardinals,reserve,p,0.700,XXX,,,,N,2023-03-22,687312,,search
+Gabriel Hughes,STL,St. Louis Cardinals,reserve,p,0.700,XXX,,,,N,2023-03-22,687312,31614,search
 Blake Burkhalter,STL,St. Louis Cardinals,reserve,p,0.700,XXX,,,,N,2024-02-19,686628,,search
 David Davalillo,STL,St. Louis Cardinals,reserve,p,0.700,XXX,,,,N,2026-02-06,699314,,search
 Yu-Min Lin,STL,St. Louis Cardinals,reserve,p,0.700,XXX,,,,N,2024-03-17,801179,,search
@@ -1581,7 +1581,7 @@ Jordan Hicks,TB,Tampa Bay Rays,active,p,10.092,CE,2027,,,Y,2026-03-24,663855,196
 Patrick Sandoval,TB,Tampa Bay Rays,active,p,5.323,6th,,,,Y,2026-04-14,663776,19447,search
 Shawn Armstrong,TB,Tampa Bay Rays,active,p,4.000,V,2027,Yes,Y,Y,2026-04-04,542888,12857,search
 Sean Newcomb,TB,Tampa Bay Rays,active,p,2.500,V,2027,Yes,Y,Y,2026-04-04,656794,16943,search
-Spencer Miles,TB,Tampa Bay Rays,active,p,2.250,V,2027,Yes,Y,Y,2026-04-04,693686,,search
+Spencer Miles,TB,Tampa Bay Rays,active,p,2.250,V,2027,Yes,Y,Y,2026-04-04,693686,31621,search
 Janson Junk,TB,Tampa Bay Rays,active,p,2.200,V,2028,Yes,Y,Y,2026-07-10,676083,23301,search
 Cristopher Sánchez,TB,Tampa Bay Rays,active,p,2.200,V,2026,Yes,,Y,2025-02-09,650911,20778,search
 Braxton Garrett,TB,Tampa Bay Rays,active,p,2.095,4th,,,,Y,2026-03-24,666129,21844,search
@@ -1595,7 +1595,7 @@ Xavier Isaac,TB,Tampa Bay Rays,reserve,if,0.700,XXX,,,,,2026-08-03,800060,,searc
 Ezequiel Duran,TB,Tampa Bay Rays,reserve,if,0.700,1st,,,,N,2026-04-11,677649,23733,search
 John Gil,TB,Tampa Bay Rays,reserve,if,0.700,XXX,,,Y,N,2026-03-24,808535,,search
 Orelvis Martinez,TB,Tampa Bay Rays,reserve,if,0.700,XXX,,,,N,2024-08-15,682619,25967,search
-Travis Bazzana,TB,Tampa Bay Rays,reserve,if,0.700,XXX,,,,N,2025-02-09,683953,,search
+Travis Bazzana,TB,Tampa Bay Rays,reserve,if,0.700,XXX,,,,N,2025-02-09,683953,34967,search
 Cam Collier,TB,Tampa Bay Rays,reserve,if,0.700,XXX,,,,N,2023-03-22,702253,,search
 George Lombard,TB,Tampa Bay Rays,reserve,if,0.700,XXX,,,,N,2026-07-10,806146,,search
 Bryan Rincon,TB,Tampa Bay Rays,reserve,if,0.700,XXX,,,,N,2025-02-09,804858,,search
@@ -1651,7 +1651,7 @@ Chris Paddack,TEX,Texas Rangers,active,p,3.818,6th,,,,Y,2026-02-06,663978,20099,
 Colin Holderman,TEX,Texas Rangers,active,p,2.590,V,2026,Yes,,Y,2025-02-09,670059,22361,search
 Johan Oviedo,TEX,Texas Rangers,active,p,1.470,2nd,,,,N,2026-07-10,670912,22487,search
 Cristian Mena,TEX,Texas Rangers,active,p,0.700,XXX,,,,N,2026-07-10,691441,27974,search
-Shane Drohan,TEX,Texas Rangers,active,p,0.700,XXX,,,,N,2026-07-10,675660,,search
+Shane Drohan,TEX,Texas Rangers,active,p,0.700,XXX,,,,N,2026-07-10,675660,27814,search
 Mitchell Parker,TEX,Texas Rangers,active,p,0.700,XXX,,,,N,2026-07-10,680730,27636,search
 Thomas White,TEX,Texas Rangers,active,p,0.700,XXX,,,,N,2026-07-10,806258,,search
 Luke Stevenson,TEX,Texas Rangers,reserve,c,0.700,XXX,,,,N,2026-02-06,806233,,search
@@ -1663,11 +1663,11 @@ Steele Hall,TEX,Texas Rangers,reserve,if,0.700,XXX,,,,N,2026-02-06,829162,,searc
 Gage Workman,TEX,Texas Rangers,reserve,if,0.700,XXX,,,,N,2023-03-22,669398,27573,search
 Curtis Mead,TEX,Texas Rangers,reserve,if,0.700,XXX,,,,N,2023-03-22,678554,23986,search
 Osleivis Basabe,TEX,Texas Rangers,reserve,if,0.700,XXX,,,,N,2024-02-19,678545,23985,search
-Charles McAdoo,TEX,Texas Rangers,reserve,if,0.700,XXX,,,,N,2025-02-09,807727,,search
+Charles McAdoo,TEX,Texas Rangers,reserve,if,0.700,XXX,,,,N,2025-02-09,807727,33323,search
 Coy James,TEX,Texas Rangers,reserve,if,0.700,XXX,,,,N,2026-02-06,815983,,search
 Warming Bernabel,TEX,Texas Rangers,reserve,if,0.700,XXX,,,,N,2023-03-22,682653,26536,search
 Eddinson Paulino,TEX,Texas Rangers,reserve,if,0.700,XXX,,,,N,2025-02-09,682796,,search
-Pedro Ramírez,TEX,Texas Rangers,reserve,if,0.700,XXX,,,,N,2026-02-06,699393,,search
+Pedro Ramírez,TEX,Texas Rangers,reserve,if,0.700,XXX,,,,N,2026-02-06,699393,29218,search
 Dustin Harris,TEX,Texas Rangers,reserve,if,0.700,XXX,,,,N,2023-03-22,687957,25705,search
 Cristofer Torin,TEX,Texas Rangers,reserve,if,0.700,XXX,,,,N,2024-02-19,800198,,search
 Yorger Bautista,TEX,Texas Rangers,reserve,of,0.700,XXX,,,Y,N,2026-03-13,829045,,search
@@ -1689,13 +1689,13 @@ Josh Naylor,TOR,Toronto Blue Jays,active,if,10.833,CE,2027,,,Y,2026-02-06,647304
 Geraldo Perdomo,TOR,Toronto Blue Jays,active,if,2.279,3rd,,,,N,2026-02-06,672695,22799,search
 Andruw Monasterio,TOR,Toronto Blue Jays,active,if,1.401,V,2026,Yes,,Y,2026-04-11,655316,19455,search
 Noelvi Marte,TOR,Toronto Blue Jays,active,if,1.183,3rd,,,,N,2026-02-06,682622,26517,search
-Kevin McGonigle,TOR,Toronto Blue Jays,active,if,0.700,XXX,,,,N,2026-04-04,805808,,search
+Kevin McGonigle,TOR,Toronto Blue Jays,active,if,0.700,XXX,,,,N,2026-04-04,805808,33572,search
 Teoscar Hernández,TOR,Toronto Blue Jays,active,of,17.555,V,2027,,,Y,2026-02-06,606192,13066,search
 Alex Call,TOR,Toronto Blue Jays,active,of,7.000,V,2028,Yes,Y,Y,2026-04-04,669743,19296,search
 Michael Harris,TOR,Toronto Blue Jays,active,of,4.850,4th,,,,Y,2026-02-06,671739,25931,search
 Jake Mangum,TOR,Toronto Blue Jays,active,of,1.933,V,2026,Yes,,Y,2026-02-06,663968,26202,search
 Austin Martin,TOR,Toronto Blue Jays,active,of,0.910,2nd,,,,N,2026-07-10,668885,27462,search
-Gabriel Gonzalez,TOR,Toronto Blue Jays,active,of,0.700,XXX,,,,N,2026-04-04,694224,,search
+Gabriel Gonzalez,TOR,Toronto Blue Jays,active,of,0.700,XXX,,,,N,2026-04-04,694224,28833,search
 Corbin Burnes,TOR,Toronto Blue Jays,active,p,36.000,V,2029,,,Y,2026-02-06,669203,19361,search
 Yoshinobu Yamamoto,TOR,Toronto Blue Jays,active,p,30.000,V,2030,,,Y,2025-02-09,808967,33825,search
 Luke Weaver,TOR,Toronto Blue Jays,active,p,9.000,V,2026,Yes,,Y,2026-02-06,596133,16918,search
@@ -1723,9 +1723,9 @@ Chase Harlan,TOR,Toronto Blue Jays,reserve,if,0.700,XXX,,,,N,2026-02-06,815792,,
 Yandel Ricardo,TOR,Toronto Blue Jays,reserve,if,0.700,XXX,,,,N,2026-02-06,815902,,search
 Graham Pauley,TOR,Toronto Blue Jays,reserve,if,0.700,XXX,,,,N,2024-03-17,688363,31363,search
 Kyren Paris,TOR,Toronto Blue Jays,reserve,if,0.700,XXX,,,,N,2023-03-22,677347,26420,search
-Spencer Jones,TOR,Toronto Blue Jays,reserve,of,0.910,2nd,,,,N,2026-04-04,682987,,search
+Spencer Jones,TOR,Toronto Blue Jays,reserve,of,0.910,2nd,,,,N,2026-04-04,682987,31532,search
 Pedro Pineda,TOR,Toronto Blue Jays,reserve,of,0.700,XXX,,,,N,2023-03-22,694191,,search
-Braden Montgomery,TOR,Toronto Blue Jays,reserve,of,0.700,XXX,,,,N,2023-03-22,695731,,search
+Braden Montgomery,TOR,Toronto Blue Jays,reserve,of,0.700,XXX,,,,N,2023-03-22,695731,35423,search
 Kevin Alvarez,TOR,Toronto Blue Jays,reserve,of,0.700,XXX,,,Y,N,2026-03-13,829037,,search
 Theo Gillen,TOR,Toronto Blue Jays,reserve,of,0.700,XXX,,,,N,2025-02-09,815394,,search
 Josue De Paula,TOR,Toronto Blue Jays,reserve,of,0.700,XXX,,,,N,2024-02-19,800543,,search
@@ -1775,19 +1775,19 @@ DJ Herz,WAS,Washington Nationals,active,p,0.700,XXX,,,,N,2026-04-04,687792,26389
 Tom Harrington,WAS,Washington Nationals,active,p,0.700,1st,,,,N,2026-02-06,802419,31989,search
 Mason Black,WAS,Washington Nationals,active,p,0.700,XXX,,,,N,2026-04-04,696131,30171,search
 Khadim Diaw,WAS,Washington Nationals,reserve,c,0.700,XXX,,,,N,2026-02-06,813715,,search
-Cooper Ingle,WAS,Washington Nationals,reserve,c,0.700,XXX,,,,N,2026-02-06,694876,,search
+Cooper Ingle,WAS,Washington Nationals,reserve,c,0.700,XXX,,,,N,2026-02-06,694876,33708,search
 JD Dix,WAS,Washington Nationals,reserve,if,0.700,XXX,,,,N,2025-02-09,807267,,search
 Josh Kasevich,WAS,Washington Nationals,reserve,if,0.700,XXX,,,,N,2025-03-20,688460,,search
 Myles Naylor,WAS,Washington Nationals,reserve,if,0.700,XXX,,,,N,2025-03-20,802504,,search
 Andrew Fischer,WAS,Washington Nationals,reserve,if,0.700,XXX,,,,N,2026-02-06,702652,,search
-Juan Brito,WAS,Washington Nationals,reserve,if,0.700,XXX,,,,N,2026-03-24,682877,,search
-Jacob Gonzalez,WAS,Washington Nationals,reserve,if,0.700,XXX,,,,N,2025-02-09,694378,,search
+Juan Brito,WAS,Washington Nationals,reserve,if,0.700,XXX,,,,N,2026-03-24,682877,26693,search
+Jacob Gonzalez,WAS,Washington Nationals,reserve,if,0.700,XXX,,,,N,2025-02-09,694378,33225,search
 Jett Williams,WAS,Washington Nationals,reserve,if,0.700,XXX,,,,N,2025-02-09,702518,,search
 Garret Forrester,WAS,Washington Nationals,reserve,if,0.700,XXX,,,,N,2025-02-09,807720,,search
 Yolfran Castillo,WAS,Washington Nationals,reserve,if,0.700,XXX,,,,N,2026-02-06,815931,,search
 Yiddi Cappe,WAS,Washington Nationals,reserve,if,0.700,XXX,,,,N,2025-02-09,691268,,search
 Paul Goldschmidt,WAS,Washington Nationals,reserve,if,0.000,MLI,,,,N,2026-04-24,502671,9218,search
-Chase DeLauter,WAS,Washington Nationals,reserve,of,0.700,XXX,,,,N,2025-03-20,800050,,search
+Chase DeLauter,WAS,Washington Nationals,reserve,of,0.700,XXX,,,,N,2025-03-20,800050,32127,search
 Ryan Mitchell,WAS,Washington Nationals,reserve,of,0.700,XXX,,,,N,2026-02-06,815829,,search
 Misael Urbina,WAS,Washington Nationals,reserve,of,0.700,XXX,,,,N,2025-02-09,682618,,search
 Josiah Hartshorn,WAS,Washington Nationals,reserve,of,0.700,XXX,,,Y,,2026-07-28,815824,,search
@@ -1798,16 +1798,16 @@ Dante Nori,WAS,Washington Nationals,reserve,of,0.700,XXX,,,,N,2025-02-09,807276,
 Corey Julks,WAS,Washington Nationals,reserve,of,0.000,MLI,,,,N,2026-04-24,667452,20311,search
 Jurrangelo Cijntje,WAS,Washington Nationals,reserve,p,0.700,XXX,,,,N,2025-02-09,701388,,search
 Junior Santos,WAS,Washington Nationals,reserve,p,0.700,XXX,,,,N,2025-02-09,681744,,search
-Brycen Mautz,WAS,Washington Nationals,reserve,p,0.700,XXX,,,,N,2026-07-10,802408,,search
+Brycen Mautz,WAS,Washington Nationals,reserve,p,0.700,XXX,,,,N,2026-07-10,802408,31910,search
 Christian Oppor,WAS,Washington Nationals,reserve,p,0.700,XXX,,,Y,N,2026-02-06,803291,,search
 Cam Appenzeller,WAS,Washington Nationals,reserve,p,0.700,XXX,,,,N,2026-02-06,828258,,search
 Carlos Rodriguez,WAS,Washington Nationals,reserve,p,0.700,XXX,,,,N,2025-02-09,692230,30161,search
 Joey Estes,WAS,Washington Nationals,reserve,p,0.700,XXX,,,,N,2025-02-09,683155,26257,search
 Josh Knoth,WAS,Washington Nationals,reserve,p,0.700,XXX,,,,N,2025-02-09,805807,,search
 Carter Holton,WAS,Washington Nationals,reserve,p,0.700,XXX,,,,N,2025-02-09,692290,,search
-Antwone Kelly,WAS,Washington Nationals,reserve,p,0.700,XXX,,,Y,N,2026-03-13,699008,,search
+Antwone Kelly,WAS,Washington Nationals,reserve,p,0.700,XXX,,,Y,N,2026-03-13,699008,29000,search
 Peter Heubeck,WAS,Washington Nationals,reserve,p,0.700,XXX,,,,N,2025-02-09,695646,,search
-Walbert Ureña,WAS,Washington Nationals,reserve,p,0.700,XXX,,,Y,,2026-07-28,700712,,search
+Walbert Ureña,WAS,Washington Nationals,reserve,p,0.700,XXX,,,Y,,2026-07-28,700712,29357,search
 Boston Bateman,WAS,Washington Nationals,reserve,p,0.700,XXX,,,,N,2025-02-09,815348,,search
 Sadbiel Delzine,WAS,Washington Nationals,reserve,p,0.700,XXX,,,Y,,2026-08-05,829094,,search
 Jhonathan Díaz,WAS,Washington Nationals,reserve,p,0.000,MLI,,,,N,2026-04-24,646242,20298,search
