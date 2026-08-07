@@ -84,6 +84,26 @@ var EXPAND_AT = 40;
 
 function esc(s){ var d = document.createElement('span'); d.textContent = s; return d.innerHTML; }
 
+// Accent-insensitive matching: "Acuna" finds "Acuña" and "Acuña" finds "Acuna".
+// NFD splits an accented letter into base + combining mark, so dropping the
+// marks leaves plain ASCII. Every non-ASCII character in this data decomposes
+// that way (measured across the spine: only í é á ó ñ ú Á É Ó appear). ⚠️ A
+// letter that is its own code point with no combining mark - ø, ł, đ, ß - does
+// NOT fold and would need an explicit map if one ever turns up.
+function fold(s){
+  return String(s).normalize('NFD').replace(/[\u0300-\u036f]/g, '').toLowerCase();
+}
+
+// The folded whole-row haystack, built ONCE on first use. The plain-text filter
+// used to re-join and re-lowercase every row on every keystroke - 24,000 of
+// them on the biggest table - and folding is more expensive than lowercasing,
+// so caching it makes the filter faster than it was before this change.
+var HAYS = null;
+function hays(){
+  if (!HAYS) HAYS = ROWS.map(function(r){ return fold(r.join('\u0001')); });
+  return HAYS;
+}
+
 // height must land on the cell too - a <tr> alone doesn't reliably size in
 // table layout. rounded to whole px so spacers can never drift fractionally.
 function setSpacer(tr, px){
@@ -139,7 +159,10 @@ filterBox.addEventListener('input', function(){
 var COLIDX = {};
 COLS.forEach(function(c, i){ COLIDX[normId(c)] = i; });
 
-function normId(s){ return String(s).toLowerCase().replace(/[^a-z0-9]+/g, '_').replace(/^_+|_+$/g, ''); }
+// fold first: without it an accented COLUMN name loses the letter entirely
+// (é -> _) and could never be typed. No such column exists today; this just
+// keeps column matching on the same footing as value matching.
+function normId(s){ return fold(s).replace(/[^a-z0-9]+/g, '_').replace(/^_+|_+$/g, ''); }
 
 function looksLikeSql(q){
   return /(<=|>=|!=|<>|=|<|>)/.test(q) || /\b(like|in|and|or|not)\b/i.test(q);
@@ -223,7 +246,7 @@ function evalNode(n, row){
     var cell = String(row[n.cmp.col]), val = String(n.cmp.val);
     var nc = numeric(cell), nv = numeric(val), r;
     if (nc !== null && nv !== null){ r = nc < nv ? -1 : (nc > nv ? 1 : 0); }
-    else { var a = cell.toLowerCase(), b = val.toLowerCase(); r = a < b ? -1 : (a > b ? 1 : 0); }
+    else { var a = fold(cell), b = fold(val); r = a < b ? -1 : (a > b ? 1 : 0); }
     switch (n.cmp.op){
       case '=': return r === 0;
       case '!=': case '<>': return r !== 0;
@@ -234,13 +257,14 @@ function evalNode(n, row){
     }
   }
   if (n.like){
-    var pat = n.like.pat.replace(/[.*+?^${}()|[\]\\]/g, '\\$&').replace(/%/g, '.*').replace(/_/g, '.');
-    var hit = new RegExp('^' + pat + '$', 'i').test(String(row[n.like.col]));
+    // fold BEFORE escaping, so % and _ survive to become wildcards
+    var pat = fold(n.like.pat).replace(/[.*+?^${}()|[\]\\]/g, '\\$&').replace(/%/g, '.*').replace(/_/g, '.');
+    var hit = new RegExp('^' + pat + '$', 'i').test(fold(row[n.like.col]));
     return n.like.neg ? !hit : hit;
   }
   if (n.inlist){
-    var cell = String(row[n.inlist.col]).toLowerCase();
-    var hit = n.inlist.vals.some(function(v){ return String(v).toLowerCase() === cell; });
+    var cell = fold(row[n.inlist.col]);
+    var hit = n.inlist.vals.some(function(v){ return fold(v) === cell; });
     return n.inlist.neg ? !hit : hit;
   }
   return false;
@@ -263,9 +287,9 @@ function applyFilter(){
     }
     for (var i = 0; i < ROWS.length; i++){ if (evalNode(ast, ROWS[i])) view.push(i); }
   } else {
-    var terms = q.toLowerCase().split(/\s+/);
+    var terms = fold(q).split(/\s+/), H = hays();
     for (var i = 0; i < ROWS.length; i++){
-      var hay = ROWS[i].join('\u0001').toLowerCase();
+      var hay = H[i];
       var ok = true;
       for (var t = 0; t < terms.length; t++){ if (hay.indexOf(terms[t]) === -1){ ok = false; break; } }
       if (ok) view.push(i);
