@@ -1237,7 +1237,8 @@ Patrick Bailey,LAD,reserve,c,0.700,XXX,,,,N,2023-03-22,2024-03-17,snapshot,67227
 Patrick Bailey,LAD,active,c,0.700,XXX,,,,N,2024-04-01,2024-08-15,snapshot,672275,27478,search
 Patrick Bailey,LAD,active,c,1.085,2nd,,,,N,2025-02-09,2025-04-16,snapshot,672275,27478,search
 Patrick Bailey,LAD,active,c,1.085,2nd-G,,,,Y,2025-07-09,2025-09-01,snapshot,672275,27478,search
-Patrick Bailey,LAD,active,c,2.279,3rd,,,,Y,2026-02-06,current,snapshot,672275,27478,search
+Patrick Bailey,LAD,active,c,2.279,3rd,,,,Y,2026-02-06,2026-08-09,snapshot,672275,27478,search
+Patrick Bailey,TB,active,c,2.279,3rd,,,,Y,2026-08-10,current,snapshot,672275,27478,search
 Brad Baker,PHI,,p,0.400,1st,,,,N,2009-01-01,2009-01-01,snapshot,434580,sa198831,search
 Bryan Baker,OAK,active,p,4.500,V,2024,Yes,Yes,Y,2023-03-22,2023-08-23,snapshot,641329,19804,search
 Bryan Baker,OAK,active,p,4.500,V,2024,Yes,,Y,2024-02-19,2024-08-15,snapshot,641329,19804,search
@@ -5840,8 +5841,7 @@ Sean Doolittle,NYY,,p,5.900,V,2021,Yes,Yes,Y,2020-04-01,2020-11-15,snapshot,4482
 Sean Doolittle,NYY,,p,5.900,V,2021,Yes,,Y,2021-01-13,2022-01-23,snapshot,448281,1581,search
 Sean Doolittle,DET,,p,1.100,MLI,,,,N,2022-05-01,2022-08-07,snapshot,448281,1581,search
 Danny Dorn,NYM,,if,1.222,V,2012,Yes,,Y,2012-01-01,2013-01-01,snapshot,457760,1050,search
-Sebastian Dos Santos,OAK,reserve,if,0.700,XXX,,,Y,N,2026-08-08,2026-08-08,snapshot,829741,,search
-Sebastian Dos Santos,WAS,reserve,if,0.700,XXX,,,Y,N,2026-08-09,current,snapshot,829741,,search
+Sebastian Dos Santos,WAS,reserve,if,0.700,XXX,,,Y,N,2026-08-08,current,snapshot,829741,,search
 Octavio Dotel,BOS,,p,5.500,V,2010,,,Y,2010-01-01,2010-01-01,snapshot,136734,555,search
 Octavio Dotel,ARI,,p,2.700,V,2012,,,Y,2012-01-01,2012-01-01,snapshot,136734,555,search
 Octavio Dotel,SF,,p,3.450,V,2014,,,Y,2014-01-01,2014-01-01,snapshot,136734,555,search
@@ -21834,7 +21834,8 @@ Jose Trevino,ARI,reserve,c,1.100,MLI,2023,,,N,2023-04-01,2023-06-22,snapshot,624
 Jose Trevino,ARI,active,c,1.100,MLI,2023,,,N,2023-08-13,2023-08-23,snapshot,624431,16725,search
 Jose Trevino,TB,active,c,3.100,V,2025,Yes,Yes,Y,2024-04-01,2024-08-15,snapshot,624431,16725,search
 Jose Trevino,TB,active,c,3.100,V,2025,Yes,,Y,2025-02-09,2026-02-06,snapshot,624431,16725,search
-Jose Trevino,TB,active,c,3.100,V,2026,,,Y,2026-03-13,current,snapshot,624431,16725,search
+Jose Trevino,TB,active,c,3.100,V,2026,,,Y,2026-03-13,2026-08-09,snapshot,624431,16725,search
+Jose Trevino,LAD,active,c,3.100,V,2026,,,Y,2026-08-10,current,snapshot,624431,16725,search
 James Triantos,OAK,,if,0.550,XXX,,,Yes,N,2021-08-17,2021-12-05,snapshot,701649,29795,search
 James Triantos,OAK,,if,0.550,XXX,,,,N,2022-01-07,2022-11-05,snapshot,701649,29795,search
 James Triantos,OAK,,if,0.700,XXX,,,,N,2023-01-27,2023-03-13,snapshot,701649,29795,search
