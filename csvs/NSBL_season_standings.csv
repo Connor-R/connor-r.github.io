@@ -1,0 +1,601 @@
+Year,Team,Team Name,Division,Finish,W,L,Win%,RF,RA,Run Diff,Playoff
+2022,KC,Kansas City Royals,AL Central,1,89,73,0.5494,796,711,85,not recorded
+2022,CHW,Chicago White Sox,AL Central,2,86,76,0.5309,737,696,41,not recorded
+2022,CLE,Cleveland Guardians,AL Central,3,84,78,0.5185,789,763,26,not recorded
+2022,MIN,Minnesota Twins,AL Central,4,77,85,0.4753,763,765,-2,not recorded
+2022,DET,Detroit Tigers,AL Central,5,54,108,0.3333,590,861,-271,not recorded
+2022,TOR,Toronto Blue Jays,AL East,1,97,65,0.5988,782,649,133,not recorded
+2022,BAL,Baltimore Orioles,AL East,2,92,70,0.5679,814,731,83,not recorded
+2022,TB,Tampa Bay Rays,AL East,3,88,74,0.5432,691,625,66,not recorded
+2022,NYY,New York Yankees,AL East,4,81,81,0.5000,732,772,-40,not recorded
+2022,BOS,Boston Red Sox,AL East,5,67,95,0.4136,747,853,-106,not recorded
+2022,OAK,Oakland Athletics,AL West,1,92,70,0.5679,709,629,80,not recorded
+2022,TEX,Texas Rangers,AL West,2,89,73,0.5494,709,627,82,not recorded
+2022,SEA,Seattle Mariners,AL West,2,89,73,0.5494,715,641,74,not recorded
+2022,HOU,Houston Astros,AL West,4,74,88,0.4568,665,772,-107,not recorded
+2022,LAA,Los Angeles Angels,AL West,5,60,102,0.3704,668,834,-166,not recorded
+2022,PIT,Pittsburgh Pirates,NL Central,1,96,66,0.5926,697,600,97,not recorded
+2022,CIN,Cincinnati Reds,NL Central,2,87,75,0.5370,849,754,95,not recorded
+2022,MIL,Milwaukee Brewers,NL Central,3,84,78,0.5185,715,697,18,not recorded
+2022,STL,St. Louis Cardinals,NL Central,4,79,83,0.4877,726,739,-13,not recorded
+2022,CHC,Chicago Cubs,NL Central,5,68,94,0.4198,675,785,-110,not recorded
+2022,ATL,Atlanta Braves,NL East,1,95,67,0.5864,816,691,125,not recorded
+2022,PHI,Philadelphia Phillies,NL East,2,84,78,0.5185,669,660,9,not recorded
+2022,NYM,New York Mets,NL East,3,77,85,0.4753,672,707,-35,not recorded
+2022,MIA,Miami Marlins,NL East,4,66,96,0.4074,618,748,-130,not recorded
+2022,WAS,Washington Nationals,NL East,5,62,100,0.3827,578,757,-179,not recorded
+2022,ARI,Arizona Diamondbacks,NL West,1,97,65,0.5988,780,629,151,not recorded
+2022,SF,San Francisco Giants,NL West,2,86,76,0.5309,725,698,27,not recorded
+2022,COL,Colorado Rockies,NL West,3,84,78,0.5185,860,693,167,not recorded
+2022,LAD,Los Angeles Dodgers,NL West,4,81,81,0.5000,724,754,-30,not recorded
+2022,SD,San Diego Padres,NL West,5,65,97,0.4012,612,782,-170,not recorded
+2021,CHW,Chicago White Sox,AL Central,1,94,68,0.5802,851,669,182,not recorded
+2021,KC,Kansas City Royals,AL Central,2,86,76,0.5309,735,658,77,not recorded
+2021,CLE,Cleveland Indians,AL Central,3,80,82,0.4938,728,752,-24,not recorded
+2021,MIN,Minnesota Twins,AL Central,4,75,87,0.4630,643,726,-83,not recorded
+2021,DET,Detroit Tigers,AL Central,5,69,93,0.4259,660,763,-103,not recorded
+2021,TB,Tampa Bay Rays,AL East,1,102,60,0.6296,844,617,227,not recorded
+2021,TOR,Toronto Blue Jays,AL East,2,93,69,0.5741,736,672,64,not recorded
+2021,BAL,Baltimore Orioles,AL East,3,87,75,0.5370,733,714,19,not recorded
+2021,NYY,New York Yankees,AL East,4,74,88,0.4568,742,765,-23,not recorded
+2021,BOS,Boston Red Sox,AL East,5,63,99,0.3889,638,806,-168,not recorded
+2021,TEX,Texas Rangers,AL West,1,99,63,0.6111,805,649,156,not recorded
+2021,LAA,Los Angeles Angels,AL West,2,86,76,0.5309,711,708,3,not recorded
+2021,SEA,Seattle Mariners,AL West,3,80,82,0.4938,705,675,30,not recorded
+2021,OAK,Oakland Athletics,AL West,4,66,96,0.4074,630,766,-136,not recorded
+2021,HOU,Houston Astros,AL West,5,63,99,0.3889,625,802,-177,not recorded
+2021,PIT,Pittsburgh Pirates,NL Central,1,103,59,0.6358,788,601,187,not recorded
+2021,STL,St. Louis Cardinals,NL Central,2,83,79,0.5123,797,794,3,not recorded
+2021,MIL,Milwaukee Brewers,NL Central,3,78,84,0.4815,761,766,-5,not recorded
+2021,CIN,Cincinnati Reds,NL Central,4,68,94,0.4198,723,769,-46,not recorded
+2021,CHC,Chicago Cubs,NL Central,5,52,110,0.3210,583,875,-292,not recorded
+2021,MIA,Miami Marlins,NL East,1,92,70,0.5679,764,627,137,not recorded
+2021,ATL,Atlanta Braves,NL East,2,87,75,0.5370,784,797,-13,not recorded
+2021,PHI,Philadelphia Phillies,NL East,3,78,84,0.4815,717,738,-21,not recorded
+2021,NYM,New York Mets,NL East,4,73,89,0.4506,620,688,-68,not recorded
+2021,WAS,Washington Nationals,NL East,5,69,93,0.4259,720,812,-92,not recorded
+2021,ARI,Arizona Diamondbacks,NL West,1,96,66,0.5926,761,649,112,not recorded
+2021,SD,San Diego Padres,NL West,2,95,67,0.5864,801,659,142,not recorded
+2021,COL,Colorado Rockies,NL West,3,94,68,0.5802,824,752,72,not recorded
+2021,LAD,Los Angeles Dodgers,NL West,4,77,85,0.4753,721,765,-44,not recorded
+2021,SF,San Francisco Giants,NL West,5,68,94,0.4198,664,780,-116,not recorded
+2020,KC,Kansas City Royals,AL Central,1,101,61,0.6235,792,662,130,Lost World Series
+2020,CHW,Chicago White Sox,AL Central,2,96,66,0.5926,780,650,130,Wild Card
+2020,DET,Detroit Tigers,AL Central,3,90,72,0.5556,723,669,54,
+2020,MIN,Minnesota Twins,AL Central,4,62,100,0.3827,667,821,-154,
+2020,CLE,Cleveland Indians,AL Central,5,51,111,0.3148,545,773,-228,
+2020,BAL,Baltimore Orioles,AL East,1,103,59,0.6358,875,689,186,
+2020,TB,Tampa Bay Rays,AL East,2,99,63,0.6111,826,632,194,Lost Play-In
+2020,NYY,New York Yankees,AL East,3,71,91,0.4383,690,773,-83,
+2020,TOR,Toronto Blue Jays,AL East,4,70,92,0.4321,665,808,-143,
+2020,BOS,Boston Red Sox,AL East,5,59,103,0.3642,650,828,-178,
+2020,TEX,Texas Rangers,AL West,1,95,67,0.5864,806,663,143,
+2020,OAK,Oakland Athletics,AL West,2,93,69,0.5741,715,627,88,
+2020,LAA,Los Angeles Angels,AL West,2,93,69,0.5741,764,625,139,
+2020,SEA,Seattle Mariners,AL West,4,69,93,0.4259,643,773,-130,
+2020,HOU,Houston Astros,AL West,5,65,97,0.4012,624,808,-184,
+2020,CHC,Chicago Cubs,NL Central,1,91,71,0.5617,848,754,94,
+2020,PIT,Pittsburgh Pirates,NL Central,2,85,77,0.5247,739,666,73,
+2020,STL,St. Louis Cardinals,NL Central,3,84,78,0.5185,692,707,-15,
+2020,MIL,Milwaukee Brewers,NL Central,4,72,90,0.4444,636,687,-51,
+2020,CIN,Cincinnati Reds,NL Central,5,69,93,0.4259,698,827,-129,
+2020,NYM,New York Mets,NL East,1,93,69,0.5741,690,654,36,
+2020,MIA,Miami Marlins,NL East,2,92,70,0.5679,753,653,100,Lost Play-In
+2020,ATL,Atlanta Braves,NL East,3,90,72,0.5556,773,628,145,Wild Card
+2020,PHI,Philadelphia Phillies,NL East,4,66,96,0.4074,698,856,-158,
+2020,WAS,Washington Nationals,NL East,5,52,110,0.3210,575,841,-266,
+2020,ARI,Arizona Diamondbacks,NL West,1,93,69,0.5741,773,633,140,Won World Series
+2020,SD,San Diego Padres,NL West,2,86,76,0.5309,647,592,55,
+2020,LAD,Los Angeles Dodgers,NL West,3,85,77,0.5247,675,638,37,
+2020,COL,Colorado Rockies,NL West,3,85,77,0.5247,753,727,26,
+2020,SF,San Francisco Giants,NL West,5,70,92,0.4321,641,692,-51,
+2019,CHW,Chicago White Sox,AL Central,1,106,56,0.6543,911,625,286,
+2019,CLE,Cleveland Indians,AL Central,2,85,77,0.5247,722,716,6,
+2019,KC,Kansas City Royals,AL Central,3,81,81,0.5000,700,702,-2,
+2019,DET,Detroit Tigers,AL Central,4,75,87,0.4630,638,731,-93,
+2019,MIN,Minnesota Twins,AL Central,5,72,90,0.4444,629,744,-115,
+2019,BAL,Baltimore Orioles,AL East,1,92,70,0.5679,802,720,82,
+2019,TB,Tampa Bay Rays,AL East,2,90,72,0.5556,714,563,151,Lost World Series (Wild Card)
+2019,BOS,Boston Red Sox,AL East,3,75,87,0.4630,637,728,-91,
+2019,NYY,New York Yankees,AL East,4,74,88,0.4568,623,692,-69,
+2019,TOR,Toronto Blue Jays,AL East,5,71,91,0.4383,659,799,-140,
+2019,TEX,Texas Rangers,AL West,1,92,70,0.5679,814,691,123,
+2019,OAK,Oakland Athletics,AL West,2,87,75,0.5370,683,587,96,Lost Play-In
+2019,LAA,Los Angeles Angels,AL West,3,78,84,0.4815,670,695,-25,
+2019,SEA,Seattle Mariners,AL West,4,77,85,0.4753,599,696,-97,
+2019,HOU,Houston Astros,AL West,5,60,102,0.3704,573,727,-154,
+2019,PIT,Pittsburgh Pirates,NL Central,1,86,76,0.5309,741,650,91,Won World Series
+2019,CIN,Cincinnati Reds,NL Central,2,80,82,0.4938,706,712,-6,
+2019,MIL,Milwaukee Brewers,NL Central,3,75,87,0.4630,658,675,-17,
+2019,STL,St. Louis Cardinals,NL Central,4,74,88,0.4568,626,705,-79,
+2019,CHC,Chicago Cubs,NL Central,5,51,111,0.3148,624,938,-314,
+2019,ATL,Atlanta Braves,NL East,1,102,60,0.6296,781,614,167,
+2019,MIA,Miami Marlins,NL East,2,96,66,0.5926,758,585,173,Lost Play-In
+2019,PHI,Philadelphia Phillies,NL East,3,85,77,0.5247,726,682,44,
+2019,WAS,Washington Nationals,NL East,4,72,90,0.4444,720,827,-107,
+2019,NYM,New York Mets,NL East,5,54,108,0.3333,542,791,-249,
+2019,SD,San Diego Padres,NL West,1,100,62,0.6173,717,546,171,
+2019,COL,Colorado Rockies,NL West,2,99,63,0.6111,845,643,202,Wild Card
+2019,LAD,Los Angeles Dodgers,NL West,3,90,72,0.5556,634,582,52,
+2019,ARI,Arizona Diamondbacks,NL West,4,78,84,0.4815,681,697,-16,
+2019,SF,San Francisco Giants,NL West,5,73,89,0.4506,611,681,-70,
+2018,CHW,Chicago White Sox,AL Central,1,94,68,0.5802,709,602,107,
+2018,CLE,Cleveland Indians,AL Central,2,86,77,0.5276,822,721,101,Wild Card
+2018,DET,Detroit Tigers,AL Central,3,79,83,0.4877,668,734,-66,
+2018,KC,Kansas City Royals,AL Central,4,72,90,0.4444,628,707,-79,
+2018,MIN,Minnesota Twins,AL Central,5,46,116,0.2840,515,760,-245,
+2018,TB,Tampa Bay Rays,AL East,1,107,55,0.6605,803,535,268,Lost World Series
+2018,BAL,Baltimore Orioles,AL East,2,106,56,0.6543,793,595,198,Lost Play-In
+2018,BOS,Boston Red Sox,AL East,3,76,86,0.4691,720,765,-45,
+2018,NYY,New York Yankees,AL East,4,72,90,0.4444,646,717,-71,
+2018,TOR,Toronto Blue Jays,AL East,5,59,103,0.3642,672,832,-160,
+2018,OAK,Oakland Athletics,AL West,1,91,71,0.5617,695,586,109,
+2018,SEA,Seattle Mariners,AL West,2,85,78,0.5215,709,701,8,
+2018,TEX,Texas Rangers,AL West,3,84,78,0.5185,662,642,20,
+2018,LAA,Los Angeles Angels,AL West,4,82,80,0.5062,589,640,-51,
+2018,HOU,Houston Astros,AL West,5,67,95,0.4136,595,695,-100,
+2018,CHC,Chicago Cubs,NL Central,1,94,68,0.5802,738,597,141,
+2018,PIT,Pittsburgh Pirates,NL Central,2,90,72,0.5556,766,659,107,
+2018,STL,St. Louis Cardinals,NL Central,3,78,84,0.4815,655,712,-57,
+2018,MIL,Milwaukee Brewers,NL Central,4,70,92,0.4321,657,771,-114,
+2018,CIN,Cincinnati Reds,NL Central,5,67,95,0.4136,614,720,-106,
+2018,NYM,New York Mets,NL East,1,103,59,0.6358,717,528,189,Won World Series
+2018,PHI,Philadelphia Phillies,NL East,2,79,83,0.4877,720,758,-38,
+2018,MIA,Miami Marlins,NL East,3,77,85,0.4753,578,612,-34,
+2018,WAS,Washington Nationals,NL East,4,71,91,0.4383,662,815,-153,
+2018,ATL,Atlanta Braves,NL East,5,52,110,0.3210,529,829,-300,
+2018,COL,Colorado Rockies,NL West,1,107,55,0.6605,883,676,207,
+2018,SD,San Diego Padres,NL West,2,103,59,0.6358,687,512,175,Lost Play-In
+2018,ARI,Arizona Diamondbacks,NL West,3,95,67,0.5864,811,669,142,Wild Card
+2018,LAD,Los Angeles Dodgers,NL West,4,70,92,0.4321,610,659,-49,
+2018,SF,San Francisco Giants,NL West,5,69,93,0.4259,600,704,-104,
+2017,DET,Detroit Tigers,AL Central,1,89,73,0.5494,663,616,47,
+2017,CHW,Chicago White Sox,AL Central,2,87,75,0.5370,769,706,63,
+2017,CLE,Cleveland Indians,AL Central,3,81,81,0.5000,739,743,-4,
+2017,MIN,Minnesota Twins,AL Central,4,74,88,0.4568,647,757,-110,
+2017,KC,Kansas City Royals,AL Central,5,62,100,0.3827,623,781,-158,
+2017,TB,Tampa Bay Rays,AL East,1,115,47,0.7099,878,512,366,Lost World Series
+2017,BOS,Boston Red Sox,AL East,2,83,79,0.5123,786,738,48,
+2017,TOR,Toronto Blue Jays,AL East,2,83,79,0.5123,730,693,37,
+2017,NYY,New York Yankees,AL East,4,68,94,0.4198,618,714,-96,
+2017,BAL,Baltimore Orioles,AL East,5,47,115,0.2901,541,882,-341,
+2017,OAK,Oakland Athletics,AL West,1,107,55,0.6605,845,644,201,
+2017,SEA,Seattle Mariners,AL West,2,99,63,0.6111,834,647,187,Lost Play-In
+2017,TEX,Texas Rangers,AL West,3,93,69,0.5741,710,687,23,Wild Card
+2017,LAA,Los Angeles Angels,AL West,4,69,93,0.4259,580,673,-93,
+2017,HOU,Houston Astros,AL West,5,60,102,0.3704,578,735,-157,
+2017,PIT,Pittsburgh Pirates,NL Central,1,100,62,0.6173,713,623,90,
+2017,CHC,Chicago Cubs,NL Central,2,92,70,0.5679,748,676,72,Lost Play-In
+2017,CIN,Cincinnati Reds,NL Central,3,84,78,0.5185,694,611,83,
+2017,MIL,Milwaukee Brewers,NL Central,4,80,82,0.4938,633,671,-38,
+2017,STL,St. Louis Cardinals,NL Central,5,65,97,0.4012,591,741,-150,
+2017,WAS,Washington Nationals,NL East,1,92,70,0.5679,649,558,91,Won World Series
+2017,NYM,New York Mets,NL East,2,89,73,0.5494,682,586,96,
+2017,MIA,Miami Marlins,NL East,3,83,79,0.5123,704,648,56,
+2017,ATL,Atlanta Braves,NL East,4,53,109,0.3272,518,767,-249,
+2017,PHI,Philadelphia Phillies,NL East,4,53,109,0.3272,493,776,-283,
+2017,COL,Colorado Rockies,NL West,1,99,64,0.6074,786,633,153,
+2017,SD,San Diego Padres,NL West,2,98,65,0.6012,726,576,150,Wild Card
+2017,ARI,Arizona Diamondbacks,NL West,3,91,71,0.5617,764,674,90,
+2017,LAD,Los Angeles Dodgers,NL West,4,75,87,0.4630,620,653,-33,
+2017,SF,San Francisco Giants,NL West,5,60,102,0.3704,545,686,-141,
+2016,MIN,Minnesota Twins,AL Central,1,84,78,0.5185,682,651,31,
+2016,DET,Detroit Tigers,AL Central,2,81,81,0.5000,613,615,-2,
+2016,CHW,Chicago White Sox,AL Central,3,80,82,0.4938,660,656,4,
+2016,CLE,Cleveland Indians,AL Central,4,69,93,0.4259,623,786,-163,
+2016,KC,Kansas City Royals,AL Central,5,58,104,0.3580,591,720,-129,
+2016,BAL,Baltimore Orioles,AL East,1,92,70,0.5679,634,624,10,
+2016,TB,Tampa Bay Rays,AL East,2,86,76,0.5309,625,555,70,
+2016,NYY,New York Yankees,AL East,3,84,78,0.5185,674,685,-11,
+2016,TOR,Toronto Blue Jays,AL East,4,82,80,0.5062,685,599,86,
+2016,BOS,Boston Red Sox,AL East,5,79,83,0.4877,676,690,-14,
+2016,SEA,Seattle Mariners,AL West,1,93,69,0.5741,835,592,243,Lost World Series
+2016,TEX,Texas Rangers,AL West,2,90,72,0.5556,671,586,85,Lost Play-In
+2016,OAK,Oakland Athletics,AL West,3,88,74,0.5432,641,554,87,Wild Card
+2016,LAA,Los Angeles Angels,AL West,4,72,90,0.4444,553,632,-79,
+2016,HOU,Houston Astros,AL West,5,69,93,0.4259,562,712,-150,
+2016,PIT,Pittsburgh Pirates,NL Central,1,99,64,0.6074,670,581,89,
+2016,CIN,Cincinnati Reds,NL Central,2,98,65,0.6012,672,606,66,Lost Play-In
+2016,STL,St. Louis Cardinals,NL Central,3,88,75,0.5399,723,636,87,Won World Series (Wild Card)
+2016,CHC,Chicago Cubs,NL Central,4,83,79,0.5123,607,588,19,
+2016,MIL,Milwaukee Brewers,NL Central,5,76,86,0.4691,677,754,-77,
+2016,NYM,New York Mets,NL East,1,98,64,0.6049,702,555,147,
+2016,MIA,Miami Marlins,NL East,2,86,76,0.5309,710,677,33,
+2016,ATL,Atlanta Braves,NL East,3,75,87,0.4630,576,608,-32,
+2016,WAS,Washington Nationals,NL East,4,68,94,0.4198,559,691,-132,
+2016,PHI,Philadelphia Phillies,NL East,5,48,114,0.2963,536,769,-233,
+2016,COL,Colorado Rockies,NL West,1,109,53,0.6728,830,607,223,
+2016,SD,San Diego Padres,NL West,2,87,76,0.5337,658,577,81,
+2016,LAD,Los Angeles Dodgers,NL West,3,81,81,0.5000,615,609,6,
+2016,SF,San Francisco Giants,NL West,4,65,97,0.4012,539,642,-103,
+2016,ARI,Arizona Diamondbacks,NL West,5,64,98,0.3951,529,671,-142,
+2015,CLE,Cleveland Indians,AL Central,1,82,80,0.5062,670,654,16,
+2015,DET,Detroit Tigers,AL Central,2,77,85,0.4753,609,636,-27,
+2015,KC,Kansas City Royals,AL Central,3,72,90,0.4444,663,699,-36,
+2015,MIN,Minnesota Twins,AL Central,4,70,92,0.4321,617,719,-102,
+2015,CHW,Chicago White Sox,AL Central,5,64,98,0.3951,548,682,-134,
+2015,TOR,Toronto Blue Jays,AL East,1,106,56,0.6543,781,597,184,Won World Series
+2015,TB,Tampa Bay Rays,AL East,2,101,61,0.6235,739,540,199,Lost Play-In
+2015,BOS,Boston Red Sox,AL East,3,82,80,0.5062,706,739,-33,
+2015,NYY,New York Yankees,AL East,4,69,93,0.4259,640,688,-48,
+2015,BAL,Baltimore Orioles,AL East,5,54,108,0.3333,684,896,-212,
+2015,SEA,Seattle Mariners,AL West,1,104,58,0.6420,836,686,150,
+2015,TEX,Texas Rangers,AL West,2,95,67,0.5864,731,627,104,Wild Card
+2015,OAK,Oakland Athletics,AL West,3,83,79,0.5123,687,656,31,
+2015,HOU,Houston Astros,AL West,4,72,90,0.4444,634,704,-70,
+2015,LAA,Los Angeles Angels,AL West,4,72,90,0.4444,588,665,-77,
+2015,CHC,Chicago Cubs,NL Central,1,93,69,0.5741,721,615,106,Lost World Series
+2015,PIT,Pittsburgh Pirates,NL Central,2,90,72,0.5556,685,638,47,Wild Card
+2015,CIN,Cincinnati Reds,NL Central,3,85,77,0.5247,711,641,70,
+2015,STL,St. Louis Cardinals,NL Central,4,81,81,0.5000,641,663,-22,
+2015,MIL,Milwaukee Brewers,NL Central,5,76,86,0.4691,680,721,-41,
+2015,NYM,New York Mets,NL East,1,104,58,0.6420,726,577,149,
+2015,MIA,Miami Marlins,NL East,2,78,84,0.4815,701,703,-2,
+2015,ATL,Atlanta Braves,NL East,3,76,86,0.4691,542,618,-76,
+2015,WAS,Washington Nationals,NL East,4,72,90,0.4444,627,712,-85,
+2015,PHI,Philadelphia Phillies,NL East,5,66,96,0.4074,590,676,-86,
+2015,SD,San Diego Padres,NL West,1,99,63,0.6111,724,573,151,
+2015,ARI,Arizona Diamondbacks,NL West,2,88,74,0.5432,659,594,65,Lost Play-In
+2015,LAD,Los Angeles Dodgers,NL West,3,83,79,0.5123,653,616,37,
+2015,COL,Colorado Rockies,NL West,4,79,83,0.4877,717,726,-9,
+2015,SF,San Francisco Giants,NL West,5,57,105,0.3519,509,758,-249,
+2014,CLE,Cleveland Indians,AL Central,1,84,78,0.5185,697,675,22,
+2014,KC,Kansas City Royals,AL Central,2,82,80,0.5062,675,646,29,
+2014,DET,Detroit Tigers,AL Central,3,77,85,0.4753,686,747,-61,
+2014,CHW,Chicago White Sox,AL Central,4,76,86,0.4691,697,762,-65,
+2014,MIN,Minnesota Twins,AL Central,5,68,94,0.4198,680,747,-67,
+2014,BAL,Baltimore Orioles,AL East,1,102,60,0.6296,782,615,167,
+2014,TOR,Toronto Blue Jays,AL East,2,93,70,0.5706,686,634,52,Lost Play-In
+2014,TB,Tampa Bay Rays,AL East,3,89,73,0.5494,648,546,102,
+2014,NYY,New York Yankees,AL East,4,79,83,0.4877,678,678,0,
+2014,BOS,Boston Red Sox,AL East,4,79,83,0.4877,715,695,20,
+2014,SEA,Seattle Mariners,AL West,1,102,60,0.6296,825,672,153,
+2014,OAK,Oakland Athletics,AL West,2,97,66,0.5951,722,591,131,Won World Series (Wild Card)
+2014,TEX,Texas Rangers,AL West,3,76,86,0.4691,731,761,-30,
+2014,HOU,Houston Astros,AL West,4,61,101,0.3765,546,716,-170,
+2014,LAA,Los Angeles Angels,AL West,5,59,103,0.3642,519,718,-199,
+2014,CHC,Chicago Cubs,NL Central,1,85,78,0.5215,692,674,18,
+2014,CIN,Cincinnati Reds,NL Central,2,84,79,0.5153,659,658,1,
+2014,PIT,Pittsburgh Pirates,NL Central,3,83,79,0.5123,642,618,24,
+2014,MIL,Milwaukee Brewers,NL Central,4,76,86,0.4691,618,682,-64,
+2014,STL,St. Louis Cardinals,NL Central,5,74,88,0.4568,626,717,-91,
+2014,NYM,New York Mets,NL East,1,94,68,0.5802,715,611,104,Lost World Series
+2014,MIA,Miami Marlins,NL East,2,81,81,0.5000,609,581,28,
+2014,WAS,Washington Nationals,NL East,3,77,85,0.4753,676,693,-17,
+2014,PHI,Philadelphia Phillies,NL East,4,73,89,0.4506,608,650,-42,
+2014,ATL,Atlanta Braves,NL East,5,63,99,0.3889,559,727,-168,
+2014,COL,Colorado Rockies,NL West,1,101,61,0.6235,833,635,198,
+2014,SD,San Diego Padres,NL West,2,94,69,0.5767,668,592,76,Lost Play-In
+2014,ARI,Arizona Diamondbacks,NL West,3,91,72,0.5583,621,558,63,Wild Card
+2014,SF,San Francisco Giants,NL West,4,74,88,0.4568,577,627,-50,
+2014,LAD,Los Angeles Dodgers,NL West,5,59,103,0.3642,609,773,-164,
+2013,CHW,Chicago White Sox,AL Central,1,96,66,0.5926,782,662,120,
+2013,KC,Kansas City Royals,AL Central,2,86,76,0.5309,697,691,6,
+2013,DET,Detroit Tigers,AL Central,3,84,78,0.5185,710,716,-6,
+2013,MIN,Minnesota Twins,AL Central,4,72,90,0.4444,707,809,-102,
+2013,CLE,Cleveland Indians,AL Central,5,59,103,0.3642,591,709,-118,
+2013,BAL,Baltimore Orioles,AL East,1,104,58,0.6420,822,656,166,Lost World Series
+2013,TB,Tampa Bay Rays,AL East,2,97,66,0.5951,749,589,160,Lost Play-In
+2013,NYY,New York Yankees,AL East,3,81,81,0.5000,718,712,6,
+2013,TOR,Toronto Blue Jays,AL East,4,79,83,0.4877,662,683,-21,
+2013,BOS,Boston Red Sox,AL East,5,63,99,0.3889,715,858,-143,
+2013,HOU,Houston Astros,AL West,1,92,70,0.5679,727,610,117,
+2013,OAK,Oakland Athletics,AL West,2,89,75,0.5427,728,711,17,Wild Card
+2013,TEX,Texas Rangers,AL West,3,87,76,0.5337,717,672,45,
+2013,SEA,Seattle Mariners,AL West,4,77,85,0.4753,621,649,-28,
+2013,LAA,Los Angeles Angels,AL West,5,57,105,0.3519,593,774,-181,
+2013,CIN,Cincinnati Reds,NL Central,1,87,75,0.5370,758,705,53,
+2013,CHC,Chicago Cubs,NL Central,2,85,77,0.5247,713,694,19,
+2013,PIT,Pittsburgh Pirates,NL Central,3,77,85,0.4753,739,737,2,
+2013,MIL,Milwaukee Brewers,NL Central,4,75,87,0.4630,618,697,-79,
+2013,STL,St. Louis Cardinals,NL Central,5,67,95,0.4136,648,783,-135,
+2013,NYM,New York Mets,NL East,1,101,61,0.6235,758,579,179,
+2013,WAS,Washington Nationals,NL East,2,95,68,0.5828,842,693,149,Won World Series (Wild Card)
+2013,PHI,Philadelphia Phillies,NL East,3,78,84,0.4815,670,664,6,
+2013,MIA,Miami Marlins,NL East,4,67,95,0.4136,629,766,-137,
+2013,ATL,Atlanta Braves,NL East,5,62,100,0.3827,661,819,-158,
+2013,COL,Colorado Rockies,NL West,1,94,68,0.5802,822,732,90,
+2013,ARI,Arizona Diamondbacks,NL West,2,89,74,0.5460,711,638,73,Lost Play-In
+2013,SF,San Francisco Giants,NL West,3,86,76,0.5309,646,635,11,
+2013,LAD,Los Angeles Dodgers,NL West,4,79,83,0.4877,660,642,18,
+2013,SD,San Diego Padres,NL West,5,68,94,0.4198,563,692,-129,
+2012,CHW,Chicago White Sox,AL Central,1,88,74,0.5432,731,673,58,
+2012,CLE,Cleveland Indians,AL Central,2,85,77,0.5247,740,775,-35,
+2012,KC,Kansas City Royals,AL Central,3,76,86,0.4691,687,752,-65,
+2012,MIN,Minnesota Twins,AL Central,4,75,87,0.4630,709,723,-14,
+2012,DET,Detroit Tigers,AL Central,5,73,89,0.4506,735,835,-100,
+2012,TOR,Toronto Blue Jays,AL East,1,103,59,0.6358,709,536,173,Lost World Series
+2012,BAL,Baltimore Orioles,AL East,2,102,61,0.6258,815,611,204,Wild Card
+2012,TB,Tampa Bay Rays,AL East,3,86,76,0.5309,682,631,51,
+2012,NYY,New York Yankees,AL East,4,64,98,0.3951,662,757,-95,
+2012,BOS,Boston Red Sox,AL East,5,53,109,0.3272,625,828,-203,
+2012,TEX,Texas Rangers,AL West,1,95,67,0.5864,860,728,132,
+2012,SEA,Seattle Mariners,AL West,2,87,76,0.5337,810,707,103,Lost Play-In
+2012,OAK,Oakland Athletics,AL West,3,79,83,0.4877,708,749,-41,
+2012,LAA,Los Angeles Angels,AL West,4,63,99,0.3889,600,773,-173,
+2012,HOU,Houston Astros,NL Central,1,94,68,0.5802,740,687,53,
+2012,PIT,Pittsburgh Pirates,NL Central,2,94,69,0.5767,791,710,81,Wild Card
+2012,MIL,Milwaukee Brewers,NL Central,3,87,75,0.5370,721,691,30,
+2012,CHC,Chicago Cubs,NL Central,4,81,81,0.5000,719,725,-6,
+2012,CIN,Cincinnati Reds,NL Central,5,65,97,0.4012,621,751,-130,
+2012,STL,St. Louis Cardinals,NL Central,6,61,101,0.3765,689,873,-184,
+2012,NYM,New York Mets,NL East,1,97,65,0.5988,711,580,131,
+2012,MIA,Miami Marlins,NL East,2,88,74,0.5432,761,701,60,
+2012,WAS,Washington Nationals,NL East,3,78,84,0.4815,734,761,-27,
+2012,ATL,Atlanta Braves,NL East,4,74,88,0.4568,681,679,2,
+2012,PHI,Philadelphia Phillies,NL East,5,65,97,0.4012,664,793,-129,
+2012,COL,Colorado Rockies,NL West,1,96,66,0.5926,774,616,158,Won World Series
+2012,SD,San Diego Padres,NL West,2,91,72,0.5583,729,652,77,Lost Play-In
+2012,ARI,Arizona Diamondbacks,NL West,3,84,78,0.5185,722,646,76,
+2012,LAD,Los Angeles Dodgers,NL West,4,83,79,0.5123,714,690,24,
+2012,SF,San Francisco Giants,NL West,5,65,97,0.4012,599,810,-211,
+2011,MIN,Minnesota Twins,AL Central,1,86,76,0.5309,799,726,73,
+2011,DET,Detroit Tigers,AL Central,2,77,85,0.4753,708,750,-42,
+2011,CHW,Chicago White Sox,AL Central,3,70,92,0.4321,639,739,-100,
+2011,CLE,Cleveland Indians,AL Central,4,69,93,0.4259,607,762,-155,
+2011,KC,Kansas City Royals,AL Central,5,65,97,0.4012,672,848,-176,
+2011,BAL,Baltimore Orioles,AL East,1,103,59,0.6358,777,551,226,Won World Series
+2011,TOR,Toronto Blue Jays,AL East,2,92,70,0.5679,734,656,78,Wild Card
+2011,NYY,New York Yankees,AL East,3,82,80,0.5062,690,694,-4,
+2011,BOS,Boston Red Sox,AL East,4,75,87,0.4630,754,839,-85,
+2011,TB,Tampa Bay Rays,AL East,5,71,91,0.4383,675,753,-78,
+2011,TEX,Texas Rangers,AL West,1,92,71,0.5644,809,735,74,
+2011,SEA,Seattle Mariners,AL West,2,91,72,0.5583,735,643,92,
+2011,LAA,Los Angeles Angels,AL West,3,89,73,0.5494,733,704,29,
+2011,OAK,Oakland Athletics,AL West,4,77,85,0.4753,737,648,89,
+2011,PIT,Pittsburgh Pirates,NL Central,1,99,63,0.6111,768,636,132,
+2011,CHC,Chicago Cubs,NL Central,2,97,65,0.5988,733,618,115,Lost World Series (Wild Card)
+2011,HOU,Houston Astros,NL Central,3,81,81,0.5000,684,665,19,
+2011,MIL,Milwaukee Brewers,NL Central,4,72,90,0.4444,618,735,-117,
+2011,STL,St. Louis Cardinals,NL Central,5,56,106,0.3457,561,762,-201,
+2011,CIN,Cincinnati Reds,NL Central,6,54,108,0.3333,611,768,-157,
+2011,ATL,Atlanta Braves,NL East,1,105,57,0.6481,739,551,188,
+2011,MIA,Florida Marlins,NL East,2,81,81,0.5000,744,698,46,
+2011,NYM,New York Mets,NL East,3,77,85,0.4753,612,656,-44,
+2011,WAS,Washington Nationals,NL East,4,75,87,0.4630,680,713,-33,
+2011,PHI,Philadelphia Phillies,NL East,5,66,96,0.4074,581,696,-115,
+2011,COL,Colorado Rockies,NL West,1,95,67,0.5864,703,548,155,
+2011,LAD,Los Angeles Dodgers,NL West,2,86,76,0.5309,661,656,5,
+2011,ARI,Arizona Diamondbacks,NL West,2,86,76,0.5309,753,710,43,
+2011,SD,San Diego Padres,NL West,4,84,78,0.5185,701,653,48,
+2011,SF,San Francisco Giants,NL West,5,78,84,0.4815,652,757,-105,
+2010,DET,Detroit Tigers,AL Central,1,90,72,0.5556,800,745,55,
+2010,CLE,Cleveland Indians,AL Central,2,87,75,0.5370,830,758,72,
+2010,MIN,Minnesota Twins,AL Central,3,86,76,0.5309,871,827,44,
+2010,CHW,Chicago White Sox,AL Central,4,71,91,0.4383,709,779,-70,
+2010,KC,Kansas City Royals,AL Central,5,63,99,0.3889,685,840,-155,
+2010,TOR,Toronto Blue Jays,AL East,1,95,67,0.5864,848,697,151,Lost World Series
+2010,BAL,Baltimore Orioles,AL East,2,92,70,0.5679,807,672,135,Wild Card
+2010,BOS,Boston Red Sox,AL East,3,87,75,0.5370,869,802,67,
+2010,NYY,New York Yankees,AL East,4,79,83,0.4877,741,825,-84,
+2010,TB,Tampa Bay Rays,AL East,5,72,90,0.4444,692,761,-69,
+2010,LAA,Los Angeles Angels,AL West,1,92,70,0.5679,826,733,93,
+2010,TEX,Texas Rangers,AL West,2,85,77,0.5247,812,802,10,
+2010,SEA,Seattle Mariners,AL West,3,73,89,0.4506,686,793,-107,
+2010,OAK,Oakland Athletics,AL West,4,68,94,0.4198,733,803,-70,
+2010,HOU,Houston Astros,NL Central,1,95,67,0.5864,809,729,80,Won World Series
+2010,CHC,Chicago Cubs,NL Central,2,93,69,0.5741,704,614,90,Wild Card
+2010,CIN,Cincinnati Reds,NL Central,3,91,71,0.5617,750,682,68,
+2010,MIL,Milwaukee Brewers,NL Central,4,82,80,0.5062,720,704,16,
+2010,PIT,Pittsburgh Pirates,NL Central,5,78,84,0.4815,847,890,-43,
+2010,STL,St. Louis Cardinals,NL Central,6,72,90,0.4444,700,768,-68,
+2010,ATL,Atlanta Braves,NL East,1,86,76,0.5309,691,659,32,
+2010,NYM,New York Mets,NL East,2,79,83,0.4877,771,791,-20,
+2010,MIA,Florida Marlins,NL East,3,77,85,0.4753,675,798,-123,
+2010,PHI,Philadelphia Phillies,NL East,4,73,89,0.4506,679,779,-100,
+2010,WAS,Washington Nationals,NL East,5,68,94,0.4198,687,757,-70,
+2010,COL,Colorado Rockies,NL West,1,93,69,0.5741,801,717,84,
+2010,SF,San Francisco Giants,NL West,2,82,80,0.5062,793,711,82,
+2010,LAD,Los Angeles Dodgers,NL West,3,79,83,0.4877,779,741,38,
+2010,ARI,Arizona Diamondbacks,NL West,4,78,84,0.4815,805,816,-11,
+2010,SD,San Diego Padres,NL West,5,64,98,0.3951,700,827,-127,
+2009,CLE,Cleveland Indians,AL Central,1,91,71,0.5617,848,745,103,Won World Series
+2009,MIN,Minnesota Twins,AL Central,2,86,76,0.5309,758,742,16,
+2009,CHW,Chicago White Sox,AL Central,3,83,79,0.5123,788,755,33,
+2009,KC,Kansas City Royals,AL Central,4,76,86,0.4691,788,778,10,
+2009,DET,Detroit Tigers,AL Central,5,48,114,0.2963,680,941,-261,
+2009,BOS,Boston Red Sox,AL East,1,104,58,0.6420,922,761,161,
+2009,BAL,Baltimore Orioles,AL East,2,102,60,0.6296,852,646,206,Wild Card
+2009,TOR,Toronto Blue Jays,AL East,3,80,82,0.4938,776,719,57,
+2009,TB,Tampa Bay Rays,AL East,4,75,87,0.4630,748,813,-65,
+2009,NYY,New York Yankees,AL East,5,65,97,0.4012,721,856,-135,
+2009,TEX,Texas Rangers,AL West,1,109,53,0.6728,889,712,177,
+2009,SEA,Seattle Mariners,AL West,2,86,76,0.5309,776,721,55,
+2009,LAA,Anaheim Angels,AL West,3,79,83,0.4877,729,802,-73,
+2009,OAK,Oakland Athletics,AL West,4,74,88,0.4568,696,804,-108,
+2009,MIL,Milwaukee Brewers,NL Central,1,86,76,0.5309,735,727,8,
+2009,CIN,Cincinnati Reds,NL Central,2,78,84,0.4815,800,762,38,
+2009,CHC,Chicago Cubs,NL Central,2,78,84,0.4815,728,741,-13,
+2009,HOU,Houston Astros,NL Central,4,71,91,0.4383,706,797,-91,
+2009,STL,St. Louis Cardinals,NL Central,5,70,92,0.4321,676,810,-134,
+2009,PIT,Pittsburgh Pirates,NL Central,5,70,92,0.4321,718,796,-78,
+2009,MIA,Florida Marlins,NL East,1,96,66,0.5926,855,659,196,
+2009,NYM,New York Mets,NL East,2,88,74,0.5432,799,670,129,
+2009,ATL,Atlanta Braves,NL East,3,77,85,0.4753,775,809,-34,
+2009,WAS,Washington Nationals,NL East,3,77,85,0.4753,691,720,-29,
+2009,PHI,Philadelphia Phillies,NL East,5,57,105,0.3519,583,911,-328,
+2009,COL,Colorado Rockies,NL West,1,99,63,0.6111,802,659,143,Wild Card
+2009,ARI,Arizona Diamondbacks,NL West,1,99,63,0.6111,918,722,196,Lost World Series
+2009,SF,San Francisco Giants,NL West,3,79,83,0.4877,750,774,-24,
+2009,SD,San Diego Padres,NL West,4,74,88,0.4568,708,805,-97,
+2009,LAD,Los Angeles Dodgers,NL West,5,73,89,0.4506,712,770,-58,
+2008,CLE,Cleveland Indians,AL Central,1,79,83,0.4877,702,732,-30,
+2008,KC,Kansas City Royals,AL Central,2,78,84,0.4815,788,858,-70,
+2008,DET,Detroit Tigers,AL Central,3,76,86,0.4691,738,786,-48,
+2008,CHW,Chicago White Sox,AL Central,4,74,88,0.4568,722,748,-26,
+2008,MIN,Minnesota Twins,AL Central,5,72,90,0.4444,731,838,-107,
+2008,TB,Tampa Bay Rays,AL East,1,90,72,0.5556,836,698,138,
+2008,BAL,Baltimore Orioles,AL East,2,90,74,0.5488,866,749,117,Lost World Series (Wild Card)
+2008,BOS,Boston Red Sox,AL East,3,87,75,0.5370,810,754,56,
+2008,TOR,Toronto Blue Jays,AL East,3,87,75,0.5370,874,823,51,
+2008,NYY,New York Yankees,AL East,5,71,91,0.4383,719,843,-124,
+2008,LAA,Los Angeles Angels,AL West,1,92,70,0.5679,799,722,77,
+2008,TEX,Texas Rangers,AL West,2,88,75,0.5399,856,758,98,
+2008,OAK,Oakland Athletics,AL West,2,88,75,0.5399,894,770,124,
+2008,SEA,Seattle Mariners,AL West,4,63,99,0.3889,679,830,-151,
+2008,CIN,Cincinnati Reds,NL Central,1,94,68,0.5802,883,746,137,
+2008,CHC,Chicago Cubs,NL Central,2,88,74,0.5432,850,797,53,
+2008,MIL,Milwaukee Brewers,NL Central,2,88,74,0.5432,785,767,18,
+2008,STL,St. Louis Cardinals,NL Central,4,76,86,0.4691,766,816,-50,
+2008,HOU,Houston Astros,NL Central,4,76,86,0.4691,757,802,-45,
+2008,PIT,Pittsburgh Pirates,NL Central,6,64,98,0.3951,726,924,-198,
+2008,NYM,New York Mets,NL East,1,98,64,0.6049,845,719,126,
+2008,MIA,Florida Marlins,NL East,2,90,72,0.5556,779,728,51,
+2008,ATL,Atlanta Braves,NL East,3,89,73,0.5494,844,779,65,
+2008,WAS,Washington Nationals,NL East,4,67,95,0.4136,681,811,-130,
+2008,PHI,Philadelphia Phillies,NL East,5,53,109,0.3272,681,929,-248,
+2008,LAD,Los Angeles Dodgers,NL West,1,97,65,0.5988,875,699,176,Won World Series
+2008,SD,San Diego Padres,NL West,2,93,69,0.5741,747,658,89,Wild Card
+2008,COL,Colorado Rockies,NL West,3,91,71,0.5617,883,819,64,
+2008,ARI,Arizona Diamondbacks,NL West,4,68,94,0.4198,730,808,-78,
+2008,SF,San Francisco Giants,NL West,5,65,97,0.4012,778,913,-135,
+2007,CLE,Cleveland Indians,AL Central,1,91,71,0.5617,861,777,84,
+2007,DET,Detroit Tigers,AL Central,2,84,78,0.5185,896,846,50,
+2007,MIN,Minnesota Twins,AL Central,3,81,81,0.5000,830,812,18,
+2007,CHW,Chicago White Sox,AL Central,4,70,92,0.4321,762,877,-115,
+2007,KC,Kansas City Royals,AL Central,5,56,106,0.3457,646,967,-321,
+2007,TOR,Toronto Blue Jays,AL East,1,98,64,0.6049,997,785,212,Won World Series
+2007,BOS,Boston Red Sox,AL East,2,91,71,0.5617,829,834,-5,Wild Card
+2007,TB,Tampa Bay Rays,AL East,3,87,75,0.5370,846,750,96,
+2007,BAL,Baltimore Orioles,AL East,4,83,79,0.5123,819,799,20,
+2007,NYY,New York Yankees,AL East,5,72,90,0.4444,772,864,-92,
+2007,SEA,Seattle Mariners,AL West,1,86,76,0.5309,915,817,98,
+2007,LAA,Los Angeles Angels,AL West,2,85,77,0.5247,892,828,64,
+2007,OAK,Oakland Athletics,AL West,3,84,78,0.5185,959,894,65,
+2007,TEX,Texas Rangers,AL West,4,82,80,0.5062,851,875,-24,
+2007,MIL,Milwaukee Brewers,NL Central,1,88,74,0.5432,754,707,47,
+2007,CHC,Chicago Cubs,NL Central,2,84,78,0.5185,840,795,45,
+2007,CIN,Cincinnati Reds,NL Central,3,81,81,0.5000,802,780,22,
+2007,PIT,Pittsburgh Pirates,NL Central,4,76,86,0.4691,755,798,-43,
+2007,HOU,Houston Astros,NL Central,5,75,87,0.4630,695,722,-27,
+2007,STL,St. Louis Cardinals,NL Central,6,71,91,0.4383,728,772,-44,
+2007,NYM,New York Mets,NL East,1,102,60,0.6296,890,677,213,
+2007,ATL,Atlanta Braves,NL East,2,89,74,0.5460,864,799,65,Lost World Series (Wild Card)
+2007,MIA,Florida Marlins,NL East,3,76,86,0.4691,797,768,29,
+2007,WAS,Washington Nationals,NL East,4,62,100,0.3827,646,879,-233,
+2007,PHI,Philadelphia Phillies,NL East,5,61,101,0.3765,629,840,-211,
+2007,LAD,Los Angeles Dodgers,NL West,1,95,67,0.5864,829,705,124,
+2007,COL,Colorado Rockies,NL West,2,88,75,0.5399,880,866,14,
+2007,SD,San Diego Padres,NL West,3,81,81,0.5000,811,781,30,
+2007,ARI,Arizona Diamondbacks,NL West,4,77,85,0.4753,809,898,-89,
+2007,SF,San Francisco Giants,NL West,5,75,87,0.4630,814,906,-92,
+2006,MIN,Minnesota Twins,AL Central,1,94,68,0.5802,856,728,128,
+2006,KC,Kansas City Royals,AL Central,2,80,82,0.4938,791,823,-32,
+2006,CLE,Cleveland Indians,AL Central,2,80,82,0.4938,796,823,-27,
+2006,CHW,Chicago White Sox,AL Central,4,67,95,0.4136,763,891,-128,
+2006,DET,Detroit Tigers,AL Central,5,62,100,0.3827,707,888,-181,
+2006,NYY,New York Yankees,AL East,1,92,70,0.5679,900,795,105,Wild Card
+2006,TOR,Toronto Blue Jays,AL East,1,92,70,0.5679,931,774,157,Won World Series
+2006,TB,Tampa Bay Devil Rays,AL East,3,91,71,0.5617,777,688,89,
+2006,BOS,Boston Red Sox,AL East,4,85,77,0.5247,832,778,54,
+2006,BAL,Baltimore Orioles,AL East,5,71,91,0.4383,744,849,-105,
+2006,SEA,Seattle Mariners,AL West,1,92,70,0.5679,792,666,126,
+2006,TEX,Texas Rangers,AL West,2,87,75,0.5370,844,881,-37,
+2006,LAA,Anaheim Angels,AL West,3,81,81,0.5000,774,770,4,
+2006,OAK,Oakland Athletics,AL West,4,77,85,0.4753,772,802,-30,
+2006,CHC,Chicago Cubs,NL Central,1,97,65,0.5988,774,636,138,
+2006,MIL,Milwaukee Brewers,NL Central,2,85,77,0.5247,801,721,80,Wild Card
+2006,PIT,Pittsburgh Pirates,NL Central,3,80,82,0.4938,811,765,46,
+2006,STL,St. Louis Cardinals,NL Central,4,78,84,0.4815,722,746,-24,
+2006,CIN,Cincinnati Reds,NL Central,5,77,85,0.4753,786,735,51,
+2006,HOU,Houston Astros,NL Central,6,73,89,0.4506,630,736,-106,
+2006,MIA,Florida Marlins,NL East,1,96,66,0.5926,830,666,164,
+2006,ATL,Atlanta Braves,NL East,2,79,83,0.4877,754,771,-17,
+2006,NYM,New York Mets,NL East,3,78,84,0.4815,757,758,-1,
+2006,WAS,Washington Nationals,NL East,4,72,90,0.4444,668,828,-160,
+2006,PHI,Philadelphia Phillies,NL East,5,62,100,0.3827,650,883,-233,
+2006,LAD,Los Angeles Dodgers,NL West,1,111,51,0.6852,782,554,228,Lost World Series
+2006,SD,San Diego Padres,NL West,2,85,77,0.5247,728,678,50,
+2006,COL,Colorado Rockies,NL West,3,76,86,0.4691,809,827,-18,
+2006,SF,San Francisco Giants,NL West,4,68,94,0.4198,646,829,-183,
+2006,ARI,Arizona Diamondbacks,NL West,5,62,100,0.3827,739,877,-138,
+2005,MIN,Minnesota Twins,AL Central,1,88,74,0.5432,851,791,60,
+2005,CLE,Cleveland Indians,AL Central,2,80,82,0.4938,822,748,74,
+2005,KC,Kansas City Royals,AL Central,3,78,84,0.4815,793,827,-34,
+2005,DET,Detroit Tigers,AL Central,3,78,84,0.4815,844,823,21,
+2005,CHW,Chicago White Sox,AL Central,5,68,94,0.4198,749,876,-127,
+2005,BOS,Boston Red Sox,AL East,1,99,63,0.6111,900,715,185,Won World Series
+2005,TOR,Toronto Blue Jays,AL East,2,97,65,0.5988,892,754,138,Wild Card
+2005,NYY,New York Yankees,AL East,3,77,85,0.4753,870,900,-30,
+2005,BAL,Baltimore Orioles,AL East,4,75,87,0.4630,770,795,-25,
+2005,TB,Tampa Bay Devil Rays,AL East,5,69,93,0.4259,687,816,-129,
+2005,SEA,Seattle Mariners,AL West,1,99,63,0.6111,804,688,116,
+2005,TEX,Texas Rangers,AL West,2,95,67,0.5864,992,923,69,
+2005,LAA,Anaheim Angels,AL West,3,89,73,0.5494,728,743,-15,
+2005,OAK,Oakland Athletics,AL West,4,76,86,0.4691,865,879,-14,
+2005,MIL,Milwaukee Brewers,NL Central,1,100,62,0.6173,860,722,138,
+2005,CHC,Chicago Cubs,NL Central,2,86,76,0.5309,888,848,40,
+2005,PIT,Pittsburgh Pirates,NL Central,3,76,86,0.4691,771,772,-1,
+2005,CIN,Cincinnati Reds,NL Central,3,76,86,0.4691,771,831,-60,
+2005,HOU,Houston Astros,NL Central,5,74,88,0.4568,795,777,18,
+2005,STL,St. Louis Cardinals,NL Central,6,64,98,0.3951,744,871,-127,
+2005,NYM,New York Mets,NL East,1,95,67,0.5864,829,735,94,Lost World Series
+2005,MIA,Florida Marlins,NL East,2,90,72,0.5556,847,728,119,Wild Card
+2005,PHI,Philadelphia Phillies,NL East,3,82,80,0.5062,748,762,-14,
+2005,WAS,Washington Nationals,NL East,4,62,100,0.3827,711,832,-121,
+2005,ATL,Atlanta Braves,NL East,5,57,105,0.3519,733,909,-176,
+2005,LAD,Los Angeles Dodgers,NL West,1,107,55,0.6605,850,600,250,
+2005,SD,San Diego Padres,NL West,2,83,79,0.5123,730,699,31,
+2005,SF,San Francisco Giants,NL West,3,82,80,0.5062,913,951,-38,
+2005,COL,Colorado Rockies,NL West,4,70,92,0.4321,861,1063,-202,
+2005,ARI,Arizona Diamondbacks,NL West,5,58,104,0.3580,798,1038,-240,
+2004,MIN,Minnesota Twins,AL Central,1,87,75,0.5370,798,716,82,
+2004,CLE,Cleveland Indians,AL Central,2,81,81,0.5000,799,757,42,
+2004,CHW,Chicago White Sox,AL Central,3,80,82,0.4938,684,760,-76,
+2004,DET,Detroit Tigers,AL Central,4,67,95,0.4136,738,823,-85,
+2004,KC,Kansas City Royals,AL Central,4,67,95,0.4136,783,855,-72,
+2004,TOR,Toronto Blue Jays,AL East,1,103,59,0.6358,922,712,210,
+2004,BOS,Boston Red Sox,AL East,2,94,68,0.5802,821,685,136,Wild Card
+2004,NYY,New York Yankees,AL East,3,93,69,0.5741,910,748,162,
+2004,TB,Tampa Bay Devil Rays,AL East,4,63,99,0.3889,635,861,-226,
+2004,BAL,Baltimore Orioles,AL East,5,52,110,0.3210,683,892,-209,
+2004,SEA,Seattle Mariners,AL West,1,97,65,0.5988,877,739,138,Won World Series
+2004,LAA,Anaheim Angels,AL West,2,92,70,0.5679,776,699,77,
+2004,TEX,Texas Rangers,AL West,3,87,75,0.5370,820,804,16,
+2004,OAK,Oakland Athletics,AL West,4,83,79,0.5123,750,754,-4,
+2004,MIL,Milwaukee Brewers,NL Central,1,102,60,0.6296,780,613,167,
+2004,HOU,Houston Astros,NL Central,2,89,73,0.5494,812,743,69,
+2004,CHC,Chicago Cubs,NL Central,3,87,75,0.5370,708,670,38,
+2004,STL,St. Louis Cardinals,NL Central,4,80,82,0.4938,762,773,-11,
+2004,PIT,Pittsburgh Pirates,NL Central,5,75,87,0.4630,852,893,-41,
+2004,CIN,Cincinnati Reds,NL Central,6,67,95,0.4136,742,828,-86,
+2004,ATL,Atlanta Braves,NL East,1,84,78,0.5185,727,756,-29,
+2004,MIA,Florida Marlins,NL East,2,81,81,0.5000,668,731,-63,
+2004,NYM,New York Mets,NL East,3,76,86,0.4691,797,850,-53,
+2004,PHI,Philadelphia Phillies,NL East,4,74,88,0.4568,737,766,-29,
+2004,WAS,Montreal Expos,NL East,5,61,101,0.3765,696,887,-191,
+2004,LAD,Los Angeles Dodgers,NL West,1,99,63,0.6111,847,655,192,Lost World Series
+2004,SD,San Diego Padres,NL West,2,93,69,0.5741,847,686,161,Wild Card
+2004,ARI,Arizona Diamondbacks,NL West,3,82,80,0.5062,861,872,-11,
+2004,SF,San Francisco Giants,NL West,4,78,84,0.4815,812,839,-27,
+2004,COL,Colorado Rockies,NL West,5,56,106,0.3457,829,1106,-277,
+2003,MIN,Minnesota Twins,AL Central,1,84,78,0.5185,817,769,48,
+2003,CHW,Chicago White Sox,AL Central,2,79,83,0.4877,804,808,-4,
+2003,CLE,Cleveland Indians,AL Central,3,69,93,0.4259,771,825,-54,
+2003,KC,Kansas City Royals,AL Central,4,66,96,0.4074,778,941,-163,
+2003,DET,Detroit Tigers,AL Central,5,64,98,0.3951,715,984,-269,
+2003,NYY,New York Yankees,AL East,1,107,55,0.6605,1006,647,359,
+2003,BOS,Boston Red Sox,AL East,2,103,59,0.6358,956,737,219,Wild Card
+2003,TOR,Toronto Blue Jays,AL East,3,88,74,0.5432,901,807,94,
+2003,BAL,Baltimore Orioles,AL East,4,67,95,0.4136,678,814,-136,
+2003,TB,Tampa Bay Devil Rays,AL East,5,52,110,0.3210,641,100,541,
+2003,LAA,Anaheim Angels,AL West,1,97,65,0.5988,816,671,145,Lost World Series
+2003,SEA,Seattle Mariners,AL West,2,96,66,0.5926,761,616,145,
+2003,TEX,Texas Rangers,AL West,3,86,76,0.5309,806,807,-1,
+2003,OAK,Oakland Athletics,AL West,4,77,85,0.4753,768,734,34,
+2003,HOU,Houston Astros,NL Central,1,104,58,0.6420,878,636,242,Won World Series
+2003,STL,St. Louis Cardinals,NL Central,2,92,70,0.5679,755,649,106,Wild Card
+2003,CHC,Chicago Cubs,NL Central,3,85,77,0.5247,741,682,59,
+2003,CIN,Cincinnati Reds,NL Central,4,80,82,0.4938,711,774,-63,
+2003,PIT,Pittsburgh Pirates,NL Central,5,66,96,0.4074,688,818,-130,
+2003,MIL,Milwaukee Brewers,NL Central,6,64,98,0.3951,640,808,-168,
+2003,ATL,Atlanta Braves,NL East,1,96,66,0.5926,790,737,53,
+2003,PHI,Philadelphia Phillies,NL East,2,78,84,0.4815,728,788,-60,
+2003,NYM,New York Mets,NL East,3,72,90,0.4444,678,790,-112,
+2003,WAS,Montreal Expos,NL East,3,72,90,0.4444,698,754,-56,
+2003,MIA,Florida Marlins,NL East,5,69,93,0.4259,669,805,-136,
+2003,ARI,Arizona Diamondbacks,NL West,1,90,72,0.5556,732,630,102,
+2003,COL,Colorado Rockies,NL West,2,88,74,0.5432,921,826,95,
+2003,SF,San Francisco Giants,NL West,3,84,78,0.5185,797,789,8,
+2003,SD,San Diego Padres,NL West,4,81,81,0.5000,723,765,-42,
+2003,LAD,Los Angeles Dodgers,NL West,5,74,88,0.4568,695,708,-13,

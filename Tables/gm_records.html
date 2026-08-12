@@ -1,0 +1,391 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-8N02F87WCP"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'G-8N02F87WCP');
+</script>
+<title>NSBL - General Manager Records, 2008-2022 (Last Updated Aug 12, 2026)</title>
+<style>
+:root { --border:#d0d4d9; --head:#2c3e50; --headtxt:#fff; --zebra:#f5f7f9; --hover:#eaf2fb; --accent:#2563eb; --rowh:31px; }
+* { box-sizing:border-box; }
+body { margin:0; font:14px/20px -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif; color:#1c2733; background:#fff; -webkit-text-size-adjust:100%; }
+header { padding:14px 18px 10px; }
+h1 { margin:0 0 8px; font-size:19px; font-weight:600; }
+.controls { display:flex; align-items:center; gap:14px; flex-wrap:wrap; }
+#filter { padding:6px 10px; font-size:14px; border:1px solid var(--border); border-radius:6px; width:420px; max-width:90vw; }
+#filter.bad { border-color:#dc2626; outline-color:#dc2626; }
+#count { color:#5b6875; font-size:13px; }
+/* overflow-anchor:none is LOAD-BEARING: scroll anchoring fights a virtual
+   scroller. Chrome sees the top spacer resize, "corrects" scrollTop to keep
+   content stable, that fires scroll -> render -> resize -> correct ... a
+   runaway that accelerates to the bottom on the lightest scroll. */
+#wrap { overflow:auto; overflow-anchor:none; border-top:1px solid var(--border); height:calc(100vh - 86px); position:relative; }
+table { border-collapse:collapse; width:max-content; min-width:100%; }
+/* rows are a FIXED integer height so the spacer math can't drift */
+tbody tr { height:var(--rowh); }
+th, td { height:var(--rowh); padding:5px 12px; border-right:1px solid var(--border); white-space:nowrap; max-width:520px; overflow:hidden; text-overflow:ellipsis; }
+th { position:sticky; top:0; background:var(--head); color:var(--headtxt); cursor:pointer; user-select:none; text-align:left; z-index:2; }
+th .arrow { opacity:.85; font-size:11px; margin-left:5px; }
+td { border-bottom:1px solid #e6e9ec; }
+tbody tr:nth-child(odd) td { background:var(--zebra); }
+tbody tr:hover td { background:var(--hover); }
+td.expandable { color:var(--accent); cursor:pointer; }
+td a { color:var(--accent); text-decoration:none; }
+td a:hover { text-decoration:underline; }
+#overlay { position:fixed; inset:0; background:rgba(0,0,0,.5); display:none; justify-content:center; align-items:center; z-index:10; }
+#overlay .box { background:#fff; border-radius:8px; padding:22px 26px; max-width:72vw; max-height:75vh; overflow:auto; white-space:pre-wrap; font-size:14px; box-shadow:0 8px 40px rgba(0,0,0,.35); }
+</style>
+</head>
+<body>
+<header>
+<h1>NSBL - General Manager Records, 2008-2022 (Last Updated Aug 12, 2026)</h1>
+<div class="controls">
+<input id="filter" type="search" placeholder="filter: text terms, or sql: columnA > X and columnB like '%hi%'" autocomplete="off">
+<span id="count"></span>
+</div>
+</header>
+<div id="wrap">
+<table>
+<thead id="thead"></thead>
+<tbody><tr id="topspace" style="height:0"><td colspan="17" style="height:0;padding:0;border:0"></td></tr></tbody>
+<tbody id="tbody"></tbody>
+<tbody><tr id="botspace" style="height:0"><td colspan="17" style="height:0;padding:0;border:0"></td></tr></tbody>
+</table>
+</div>
+<div id="overlay"><div class="box"></div></div>
+<script id="table-data" type="application/json">{"cols":["GM","Clubs","Seasons (2008-2022)","W","L","Win%","W/Season","RF","RA","Run Diff","Division Titles","Wild Cards","Pennants","World Series","First Year","Last Year","GM Through"],"rows":[["Brian Emark","COL","15","1425","1006","0.5862","95.0","12116","10183","1933","8","2","1","1","2008","2022","2026"],["Ty Duncan","BAL","15","1368","1065","0.5623","91.2","11597","10351","1246","6","4","3","1","2008","2022","2026"],["Connor Reed","TB","15","1368","1063","0.5627","91.2","11150","9370","1780","4","1","3","0","2008","2022","2026"],["Jim Krug","PIT","15","1314","1118","0.5403","87.6","11030","10329","701","6","2","1","1","2008","2022","2025"],["Tracy Kienast","TOR","15","1290","1141","0.5306","86.0","10999","10397","602","4","1","3","1","2008","2022","2026"],["Jeff Reese","OAK","15","1279","1155","0.5255","85.3","10823","10125","698","3","3","1","1","2008","2022","2026"],["Joe Clark","CHC","15","1231","1200","0.5064","82.1","10683","10691","-8","4","2","2","0","2008","2022","2026"],["Hayes Kern","NYM","14","1227","1041","0.5410","87.6","9717","8973","744","7","0","2","1","2009","2022","2026"],["Rich Cooper","LAD","15","1198","1232","0.4930","79.9","10262","10247","15","1","0","1","1","2008","2022","2023"],["Matt Hopkins","CHW","14","1191","1077","0.5251","85.1","10311","9656","655","5","1","0","0","2009","2022","2026"],["Patrick Haight","SEA","14","1182","1089","0.5205","84.4","10173","9834","339","2","0","0","0","2008","2022","2026"],["Sean Ramsey","MIL","15","1177","1253","0.4844","78.5","10232","10745","-513","1","0","0","0","2008","2022","2026"],["John McGee","LAA","15","1143","1287","0.4704","76.2","9922","10698","-776","2","0","0","0","2008","2022","2026"],["Shawn Kienast","NYY","15","1114","1316","0.4584","74.3","10294","11171","-877","0","0","0","0","2008","2022","2026"],["Mark Karpinski","TEX","12","1087","859","0.5586","90.6","9025","8068","957","5","2","0","0","2011","2022","2024"],["Travis Smith","SF","15","1077","1353","0.4432","71.8","9629","10868","-1239","0","0","0","0","2008","2022","2026"],["Ian Hall","ARI","12","1052","894","0.5406","87.7","8565","7768","797","3","2","1","1","2011","2022","2022"],["Colby Hubbard","CIN","12","928","1018","0.4769","77.3","8316","8522","-206","1","0","0","0","2011","2022","2026"],["Scott Ross","CLE","9","704","754","0.4829","78.2","6377","6685","-308","3","0","1","1","2008","2017","2017"],["Michael Kudis","SD","8","685","615","0.5269","85.6","5469","5142","327","1","1","0","0","2010","2017","2017"],["Kenny Kelly","MIA","8","658","638","0.5077","82.3","5753","5634","119","1","0","0","0","2008","2015","2015"],["Mike Zimmerman","STL","9","634","825","0.4345","70.4","5855","6753","-898","0","1","1","1","2009","2017","2017"],["Thomas Vancho","BOS","8","630","666","0.4861","78.8","6116","6276","-160","1","0","0","0","2008","2015","2015"],["Nathan Feuerer","KC","8","621","675","0.4792","77.6","5528","5640","-112","2","0","1","0","2015","2022","2024"],["Matt Kevin","WAS","8","609","688","0.4695","76.1","5618","5860","-242","0","1","1","1","2008","2015","2015"],["John Stein","PHI","9","579","879","0.3971","64.3","5592","6867","-1275","0","0","0","0","2008","2016","2016"],["Jay Ross","MIN","7","545","589","0.4806","77.9","5255","5412","-157","1","0","0","0","2008","2014","2014"],["Mark Nestor","HOU","8","530","766","0.4090","66.3","4856","5955","-1099","0","0","0","0","2015","2022","2026"],["Howard Ross","KC","7","526","608","0.4638","75.1","4992","5413","-421","0","0","0","0","2008","2014","2014"],["Karri Parnell","ATL","6","466","506","0.4794","77.7","3873","4053","-180","2","0","0","0","2010","2015","2015"],["Michael Lucey","PHI","6","445","527","0.4578","74.2","4023","4470","-447","0","0","0","0","2017","2022","2026"],["Timothy Farmer","BOS","6","423","549","0.4352","70.5","4178","4718","-540","0","0","0","0","2017","2022","2026"],["Ed Schwabeland","MIA","5","423","387","0.5222","84.6","3471","3225","246","1","0","0","0","2018","2022","2026"],["David Taylor","WAS","6","418","554","0.4300","69.7","3904","4610","-706","1","0","1","1","2017","2022","2026"],["Dan Claycomb","CLE","5","386","425","0.4760","77.2","3606","3725","-119","0","1","0","0","2018","2022","2022"],["Pat Padula","ATL","5","384","426","0.4741","76.8","3385","3635","-250","1","1","0","0","2017","2021","2021"],["Deron Crawford","SD","4","346","302","0.5340","86.5","2777","2579","198","1","0","0","0","2019","2022","2026"],["Jason Bersani","MIN","5","329","481","0.4062","65.8","3101","3808","-707","0","0","0","0","2017","2021","2021"],["Tim Lindner","DET","4","324","324","0.5000","81.0","2571","2614","-43","1","0","0","0","2014","2017","2017"],["Jeff Sacks","ARI","3","245","241","0.5041","81.7","2453","2346","107","1","0","1","0","2008","2010","2010"],["Mike Elley","TEX","2","197","128","0.6062","98.5","1745","1470","275","1","0","0","0","2008","2009","2009"],["Carla Holbrook","CIN","2","172","152","0.5309","86.0","1683","1508","175","1","0","0","0","2008","2009","2009"],["Mark Ashton","ATL","2","166","158","0.5123","83.0","1619","1588","31","0","0","0","0","2008","2009","2009"],["Bob Fecca","DET","2","159","165","0.4907","79.5","1383","1432","-49","0","0","0","0","2020","2021","2021"],["Jon Nofal","HOU","2","153","171","0.4722","76.5","1273","1326","-53","1","0","0","0","2013","2014","2014"],["Scott Braunschweig","DET","2","124","200","0.3827","62.0","1418","1727","-309","0","0","0","0","2008","2009","2009"],["Michael Buffkin","NYM","1","98","64","0.6049","98.0","845","719","126","1","0","0","0","2008","2008","2008"],["Nick Reeves","SD","1","93","69","0.5741","93.0","747","658","89","0","1","0","0","2008","2008","2008"],["Robert Pitt","DET","1","84","78","0.5185","84.0","710","716","-6","0","0","0","0","2013","2013","2013"],["Charles Thivierge","STL","1","83","79","0.5123","83.0","797","794","3","0","0","0","0","2021","2021","2021"],["Curtis Deem","HOU","1","81","81","0.5000","81.0","684","665","19","0","0","0","0","2011","2011","2011"],["Matt Scanz","MIN","1","77","85","0.4753","77.0","763","765","-2","0","0","0","0","2022","2022","2022"],["Marlin Scurti","DET","1","77","85","0.4753","77.0","708","750","-42","0","0","0","0","2011","2011","2011"],["Mike Anderson","HOU","1","76","86","0.4691","76.0","757","802","-45","0","0","0","0","2008","2008","2008"],["Josh","SD","1","74","88","0.4568","74.0","708","805","-97","0","0","0","0","2009","2009","2009"],["Tyler Courtney","CHW","1","74","88","0.4568","74.0","722","748","-26","0","0","0","0","2008","2008","2008"]],"links":{},"fallbacks":{},"fallbackText":"search","colIndex":{"GM":0,"Clubs":1,"Seasons (2008-2022)":2,"W":3,"L":4,"Win%":5,"W/Season":6,"RF":7,"RA":8,"Run Diff":9,"Division Titles":10,"Wild Cards":11,"Pennants":12,"World Series":13,"First Year":14,"Last Year":15,"GM Through":16}}</script>
+<script>
+'use strict';
+var DATA = JSON.parse(document.getElementById('table-data').textContent);
+var COLS = DATA.cols, ROWS = DATA.rows;
+var LINKS = DATA.links || {}, COLIDX_BY_NAME = DATA.colIndex || {};
+var FALLBACKS = DATA.fallbacks || {}, FALLBACK_TEXT = DATA.fallbackText || '';
+var view = ROWS.map(function(_, i){ return i; });
+var sortCol = -1, sortDir = 0;                       // 0 none, 1 asc, -1 desc
+var ROWH = 30, PAD = 12;                             // row height px (MEASURED at init), render padding rows
+var wrap = document.getElementById('wrap');
+var thead = document.getElementById('thead');
+var tbody = document.getElementById('tbody');
+var topSpace = document.getElementById('topspace');
+var botSpace = document.getElementById('botspace');
+var count = document.getElementById('count');
+// A cell is truncated VISUALLY by css (max-width 520px, ~65 chars) but was
+// only made clickable above 120 chars, so anything between was cut off yet
+// unexpandable. Mark them expandable well below the visual cutoff and don't
+// slice - css adds the ellipsis and the full value stays in the cell.
+var EXPAND_AT = 40;
+
+function esc(s){ var d = document.createElement('span'); d.textContent = s; return d.innerHTML; }
+
+// Accent-insensitive matching: "Acuna" finds "Acuña" and "Acuña" finds "Acuna".
+// NFD splits an accented letter into base + combining mark, so dropping the
+// marks leaves plain ASCII. Every non-ASCII character in this data decomposes
+// that way (measured across the spine: only í é á ó ñ ú Á É Ó appear). ⚠️ A
+// letter that is its own code point with no combining mark - ø, ł, đ, ß - does
+// NOT fold and would need an explicit map if one ever turns up.
+function fold(s){
+  return String(s).normalize('NFD').replace(/[\u0300-\u036f]/g, '').toLowerCase();
+}
+
+// The folded whole-row haystack, built ONCE on first use. The plain-text filter
+// used to re-join and re-lowercase every row on every keystroke - 24,000 of
+// them on the biggest table - and folding is more expensive than lowercasing,
+// so caching it makes the filter faster than it was before this change.
+var HAYS = null;
+function hays(){
+  if (!HAYS) HAYS = ROWS.map(function(r){ return fold(r.join('\u0001')); });
+  return HAYS;
+}
+
+// height must land on the cell too - a <tr> alone doesn't reliably size in
+// table layout. rounded to whole px so spacers can never drift fractionally.
+function setSpacer(tr, px){
+  var h = Math.round(px) + 'px';
+  tr.style.height = h;
+  tr.firstElementChild.style.height = h;
+}
+
+function buildHeader(){
+  var tr = document.createElement('tr');
+  COLS.forEach(function(c, i){
+    var th = document.createElement('th');
+    th.innerHTML = esc(c) + '<span class="arrow">' + (i===sortCol ? (sortDir===1?'\u25B2':'\u25BC') : '') + '</span>';
+    th.onclick = function(){ setSort(i); };
+    tr.appendChild(th);
+  });
+  thead.innerHTML = '';
+  thead.appendChild(tr);
+}
+
+function numeric(v){
+  if (v === '' || v === null) return null;
+  var n = parseFloat(String(v).replace(/,/g,''));
+  return (!isNaN(n) && isFinite(n) && /^[\s]*[-+$]?[\d,.]+%?[\s]*$/.test(String(v))) ? n : null;
+}
+
+function setSort(i){
+  if (sortCol === i){ sortDir = (sortDir === 1) ? -1 : 1; } else { sortCol = i; sortDir = 1; }
+  view.sort(function(a, b){
+    var va = ROWS[a][i], vb = ROWS[b][i];
+    var na = numeric(va), nb = numeric(vb);
+    var r;
+    if (va === '' && vb !== '') return 1;            // empties last, always
+    if (vb === '' && va !== '') return -1;
+    if (na !== null && nb !== null){ r = na - nb; }
+    else { r = String(va).localeCompare(String(vb), undefined, {sensitivity:'base'}); }
+    return sortDir * r;
+  });
+  buildHeader();
+  render();
+}
+
+var filterBox = document.getElementById('filter');
+var debounce = null;
+filterBox.addEventListener('input', function(){
+  clearTimeout(debounce);
+  debounce = setTimeout(applyFilter, 180);
+});
+
+// ---- sql-ish WHERE expressions ------------------------------------------
+// v_grade >= 7 and area like '%hueco%'   |   year in (2019,2020) or not flash = 'FLASH'
+// column names normalize: lowercase, runs of non-alphanumerics -> _
+var COLIDX = {};
+COLS.forEach(function(c, i){ COLIDX[normId(c)] = i; });
+
+// fold first: without it an accented COLUMN name loses the letter entirely
+// (é -> _) and could never be typed. No such column exists today; this just
+// keeps column matching on the same footing as value matching.
+function normId(s){ return fold(s).replace(/[^a-z0-9]+/g, '_').replace(/^_+|_+$/g, ''); }
+
+function looksLikeSql(q){
+  return /(<=|>=|!=|<>|=|<|>)/.test(q) || /\b(like|in|and|or|not)\b/i.test(q);
+}
+
+function tokenize(q){
+  var re = /\s*(?:(<=|>=|!=|<>|=|<|>|\(|\)|,)|'((?:[^']|'')*)'|"([^"]*)"|([A-Za-z0-9_.%$-]+))/g;
+  var toks = [], m, pos = 0;
+  while ((m = re.exec(q)) !== null){
+    if (m.index !== pos && q.slice(pos, m.index).trim() !== '') return null;
+    pos = re.lastIndex;
+    if (m[1] !== undefined) toks.push({t:'op', v:m[1]});
+    else if (m[2] !== undefined) toks.push({t:'str', v:m[2].replace(/''/g, "'")});
+    else if (m[3] !== undefined) toks.push({t:'str', v:m[3]});
+    else {
+      var w = m[4], lw = w.toLowerCase();
+      if (['and','or','not','like','in'].indexOf(lw) >= 0) toks.push({t:'kw', v:lw});
+      else toks.push({t:'word', v:w});
+    }
+  }
+  if (pos < q.length && q.slice(pos).trim() !== '') return null;
+  return toks;
+}
+
+function parse(toks){
+  var p = 0;
+  function peek(){ return toks[p]; }
+  function take(){ return toks[p++]; }
+  function expr(){
+    var n = term();
+    while (peek() && peek().t === 'kw' && peek().v === 'or'){ take(); n = {or:[n, term()]}; }
+    return n;
+  }
+  function term(){
+    var n = factor();
+    while (peek() && peek().t === 'kw' && peek().v === 'and'){ take(); n = {and:[n, factor()]}; }
+    return n;
+  }
+  function factor(){
+    var tk = peek();
+    if (!tk) throw 0;
+    if (tk.t === 'kw' && tk.v === 'not'){ take(); return {not: factor()}; }
+    if (tk.t === 'op' && tk.v === '('){ take(); var n = expr(); if (!peek() || peek().v !== ')') throw 0; take(); return n; }
+    return predicate();
+  }
+  function predicate(){
+    var c = take();
+    if (!c || c.t !== 'word') throw 0;
+    var idx = COLIDX[normId(c.v)];
+    if (idx === undefined) throw 0;
+    var neg = false, tk = peek();
+    if (tk && tk.t === 'kw' && tk.v === 'not'){ take(); neg = true; tk = peek(); }
+    if (!tk) throw 0;
+    if (tk.t === 'kw' && tk.v === 'like'){ take(); var v = value(); return {like:{col:idx, pat:v, neg:neg}}; }
+    if (tk.t === 'kw' && tk.v === 'in'){
+      take(); if (!peek() || peek().v !== '(') throw 0; take();
+      var vals = [value()];
+      while (peek() && peek().v === ','){ take(); vals.push(value()); }
+      if (!peek() || peek().v !== ')') throw 0; take();
+      return {inlist:{col:idx, vals:vals, neg:neg}};
+    }
+    if (neg) throw 0;
+    if (tk.t === 'op' && ['=','!=','<>','<','<=','>','>='].indexOf(tk.v) >= 0){ take(); return {cmp:{col:idx, op:tk.v, val:value()}}; }
+    throw 0;
+  }
+  function value(){
+    var tk = take();
+    if (!tk || (tk.t !== 'str' && tk.t !== 'word')) throw 0;
+    return tk.v;
+  }
+  var n = expr();
+  if (p !== toks.length) throw 0;
+  return n;
+}
+
+function evalNode(n, row){
+  if (n.or) return evalNode(n.or[0], row) || evalNode(n.or[1], row);
+  if (n.and) return evalNode(n.and[0], row) && evalNode(n.and[1], row);
+  if (n.not) return !evalNode(n.not, row);
+  if (n.cmp){
+    var cell = String(row[n.cmp.col]), val = String(n.cmp.val);
+    var nc = numeric(cell), nv = numeric(val), r;
+    if (nc !== null && nv !== null){ r = nc < nv ? -1 : (nc > nv ? 1 : 0); }
+    else { var a = fold(cell), b = fold(val); r = a < b ? -1 : (a > b ? 1 : 0); }
+    switch (n.cmp.op){
+      case '=': return r === 0;
+      case '!=': case '<>': return r !== 0;
+      case '<': return r < 0;
+      case '<=': return r <= 0;
+      case '>': return r > 0;
+      case '>=': return r >= 0;
+    }
+  }
+  if (n.like){
+    // fold BEFORE escaping, so % and _ survive to become wildcards
+    var pat = fold(n.like.pat).replace(/[.*+?^${}()|[\]\\]/g, '\\$&').replace(/%/g, '.*').replace(/_/g, '.');
+    var hit = new RegExp('^' + pat + '$', 'i').test(fold(row[n.like.col]));
+    return n.like.neg ? !hit : hit;
+  }
+  if (n.inlist){
+    var cell = fold(row[n.inlist.col]);
+    var hit = n.inlist.vals.some(function(v){ return fold(v) === cell; });
+    return n.inlist.neg ? !hit : hit;
+  }
+  return false;
+}
+// -------------------------------------------------------------------------
+
+function applyFilter(){
+  var q = filterBox.value.trim();
+  filterBox.classList.remove('bad');
+  view = [];
+  if (q === ''){
+    for (var i = 0; i < ROWS.length; i++) view.push(i);
+  } else if (looksLikeSql(q)){
+    var ast = null, toks = tokenize(q);
+    if (toks){ try { ast = parse(toks); } catch (e) { ast = null; } }
+    if (!ast){
+      filterBox.classList.add('bad');
+      count.textContent = 'bad expression';
+      return;                                        // keep current view
+    }
+    for (var i = 0; i < ROWS.length; i++){ if (evalNode(ast, ROWS[i])) view.push(i); }
+  } else {
+    var terms = fold(q).split(/\s+/), H = hays();
+    for (var i = 0; i < ROWS.length; i++){
+      var hay = H[i];
+      var ok = true;
+      for (var t = 0; t < terms.length; t++){ if (hay.indexOf(terms[t]) === -1){ ok = false; break; } }
+      if (ok) view.push(i);
+    }
+  }
+  if (sortCol >= 0){ var c = sortCol, d = sortDir; sortCol = -1; sortDir = 0; setSort(c); if (d === -1) setSort(c); return; }
+  render();
+}
+
+function render(){
+  var h = wrap.clientHeight;
+  var first = Math.max(0, Math.floor(wrap.scrollTop / ROWH) - PAD);
+  var last = Math.min(view.length, Math.ceil((wrap.scrollTop + h) / ROWH) + PAD);
+  setSpacer(topSpace, first * ROWH);
+  setSpacer(botSpace, (view.length - last) * ROWH);
+  var html = [];
+  for (var v = first; v < last; v++){
+    var row = ROWS[view[v]];
+    html.push('<tr>');
+    for (var c = 0; c < row.length; c++){
+      var val = String(row[c]);
+      // an empty cell falls back to its COLUMN~GUARD~template if one is
+      // registered AND that row's guard column is non-empty, labelled
+      // FALLBACK_TEXT since there is no value to show
+      var tmpl = LINKS[c], text = val;
+      if (val === ''){
+        var fb = FALLBACKS[c];
+        tmpl = (fb && String(row[fb[0]] || '') !== '') ? fb[1] : null;
+        text = FALLBACK_TEXT;
+      }
+      if (tmpl){
+        var href = tmpl.replace(/\{([^}]*)\}/g, function(_m, name){
+          var raw = (name === '') ? val : String(row[COLIDX_BY_NAME[name]] || '');
+          return encodeURIComponent(raw);
+        });
+        html.push('<td><a href="' + esc(href) + '" target="_blank" rel="noopener">' + esc(text) + '</a></td>');
+      } else if (val.length > EXPAND_AT){
+        html.push('<td class="expandable" data-r="' + view[v] + '" data-c="' + c + '">' + esc(val) + '</td>');
+      } else {
+        html.push('<td>' + esc(val) + '</td>');
+      }
+    }
+    html.push('</tr>');
+  }
+  tbody.innerHTML = html.join('');
+  count.textContent = view.length.toLocaleString() + ' of ' + ROWS.length.toLocaleString() + ' rows';
+}
+
+// ROWH must match the REAL rendered row height: if it doesn't, the spacer
+// heights misreport the total, scrollHeight shifts under the browser on
+// every render, it corrects scrollTop, that fires scroll again -> runaway
+// scrolling. So measure a real row instead of assuming one.
+function calibrate(){
+  if (!ROWS.length) return;
+  setSpacer(topSpace, 0);
+  setSpacer(botSpace, 0);
+  var probe = [], row = ROWS[0];
+  probe.push('<tr>');
+  for (var c = 0; c < row.length; c++){
+    var val = String(row[c]);
+    probe.push('<td>' + esc(val) + '</td>');
+  }
+  probe.push('</tr>');
+  tbody.innerHTML = probe.join('');
+  var tr = tbody.firstElementChild;
+  if (tr){
+    var h = Math.round(tr.getBoundingClientRect().height);
+    if (h > 4) ROWH = h;             // whole px only: fractional rows drift
+  }
+  tbody.innerHTML = '';
+}
+
+// one render per animation frame, no matter how many scroll events arrive
+var pending = false;
+function scheduleRender(){
+  if (pending) return;
+  pending = true;
+  window.requestAnimationFrame(function(){ pending = false; render(); });
+}
+
+wrap.addEventListener('scroll', scheduleRender);
+window.addEventListener('resize', function(){ calibrate(); render(); });
+
+var overlay = document.getElementById('overlay');
+tbody.addEventListener('click', function(e){
+  var td = e.target.closest('td.expandable');
+  if (!td) return;
+  overlay.querySelector('.box').textContent = ROWS[td.dataset.r][td.dataset.c];
+  overlay.style.display = 'flex';
+});
+overlay.addEventListener('click', function(){ overlay.style.display = 'none'; });
+document.addEventListener('keydown', function(e){ if (e.key === 'Escape') overlay.style.display = 'none'; });
+
+buildHeader();
+calibrate();
+render();
+</script>
+</body>
+</html>

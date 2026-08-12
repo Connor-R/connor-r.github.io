@@ -1,0 +1,391 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-8N02F87WCP"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'G-8N02F87WCP');
+</script>
+<title>NSBL - Franchise Records, 2003-2022 (Last Updated Aug 12, 2026)</title>
+<style>
+:root { --border:#d0d4d9; --head:#2c3e50; --headtxt:#fff; --zebra:#f5f7f9; --hover:#eaf2fb; --accent:#2563eb; --rowh:31px; }
+* { box-sizing:border-box; }
+body { margin:0; font:14px/20px -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif; color:#1c2733; background:#fff; -webkit-text-size-adjust:100%; }
+header { padding:14px 18px 10px; }
+h1 { margin:0 0 8px; font-size:19px; font-weight:600; }
+.controls { display:flex; align-items:center; gap:14px; flex-wrap:wrap; }
+#filter { padding:6px 10px; font-size:14px; border:1px solid var(--border); border-radius:6px; width:420px; max-width:90vw; }
+#filter.bad { border-color:#dc2626; outline-color:#dc2626; }
+#count { color:#5b6875; font-size:13px; }
+/* overflow-anchor:none is LOAD-BEARING: scroll anchoring fights a virtual
+   scroller. Chrome sees the top spacer resize, "corrects" scrollTop to keep
+   content stable, that fires scroll -> render -> resize -> correct ... a
+   runaway that accelerates to the bottom on the lightest scroll. */
+#wrap { overflow:auto; overflow-anchor:none; border-top:1px solid var(--border); height:calc(100vh - 86px); position:relative; }
+table { border-collapse:collapse; width:max-content; min-width:100%; }
+/* rows are a FIXED integer height so the spacer math can't drift */
+tbody tr { height:var(--rowh); }
+th, td { height:var(--rowh); padding:5px 12px; border-right:1px solid var(--border); white-space:nowrap; max-width:520px; overflow:hidden; text-overflow:ellipsis; }
+th { position:sticky; top:0; background:var(--head); color:var(--headtxt); cursor:pointer; user-select:none; text-align:left; z-index:2; }
+th .arrow { opacity:.85; font-size:11px; margin-left:5px; }
+td { border-bottom:1px solid #e6e9ec; }
+tbody tr:nth-child(odd) td { background:var(--zebra); }
+tbody tr:hover td { background:var(--hover); }
+td.expandable { color:var(--accent); cursor:pointer; }
+td a { color:var(--accent); text-decoration:none; }
+td a:hover { text-decoration:underline; }
+#overlay { position:fixed; inset:0; background:rgba(0,0,0,.5); display:none; justify-content:center; align-items:center; z-index:10; }
+#overlay .box { background:#fff; border-radius:8px; padding:22px 26px; max-width:72vw; max-height:75vh; overflow:auto; white-space:pre-wrap; font-size:14px; box-shadow:0 8px 40px rgba(0,0,0,.35); }
+</style>
+</head>
+<body>
+<header>
+<h1>NSBL - Franchise Records, 2003-2022 (Last Updated Aug 12, 2026)</h1>
+<div class="controls">
+<input id="filter" type="search" placeholder="filter: text terms, or sql: columnA > X and columnB like '%hi%'" autocomplete="off">
+<span id="count"></span>
+</div>
+</header>
+<div id="wrap">
+<table>
+<thead id="thead"></thead>
+<tbody><tr id="topspace" style="height:0"><td colspan="14" style="height:0;padding:0;border:0"></td></tr></tbody>
+<tbody id="tbody"></tbody>
+<tbody><tr id="botspace" style="height:0"><td colspan="14" style="height:0;padding:0;border:0"></td></tr></tbody>
+</table>
+</div>
+<div id="overlay"><div class="box"></div></div>
+<script id="table-data" type="application/json">{"cols":["Team","Team Name","Seasons","W","L","Win%","W/Season","RF","RA","Run Diff","Division Titles (2003-2022)","Wild Cards (2003-2020)","Pennants (2003-2020)","World Series (2003-2020)"],"rows":[["TEX","Texas Rangers","20","1806","1437","0.5569","90.3","15895","14630","1265","6","2","0","0"],["COL","Colorado Rockies","20","1803","1439","0.5561","90.2","16416","14871","1545","8","2","1","1"],["TOR","Toronto Blue Jays","20","1768","1473","0.5455","88.4","15642","14229","1413","7","2","5","3"],["NYM","New York Mets","20","1748","1492","0.5395","87.4","14513","13502","1011","10","0","3","1"],["SEA","Seattle Mariners","20","1745","1498","0.5381","87.3","15157","13952","1205","7","0","2","1"],["TB","Tampa Bay Rays","20","1730","1511","0.5338","86.5","14736","12585","2151","4","1","3","0"],["SD","San Diego Padres","20","1724","1520","0.5314","86.2","14227","13305","922","2","3","0","0"],["BAL","Baltimore Orioles","20","1716","1527","0.5291","85.8","15291","14500","791","6","4","3","1"],["PIT","Pittsburgh Pirates","20","1687","1555","0.5204","84.4","14907","14375","532","6","2","1","1"],["LAD","Los Angeles Dodgers","20","1684","1556","0.5198","84.2","14265","13469","796","5","0","3","1"],["OAK","Oakland Athletics","20","1676","1568","0.5166","83.8","14937","14188","749","3","3","1","1"],["CHC","Chicago Cubs","20","1670","1571","0.5153","83.5","14634","14322","312","5","2","2","0"],["ARI","Arizona Diamondbacks","20","1666","1576","0.5139","83.3","14957","14429","528","5","2","2","1"],["MIA","Miami Marlins","20","1662","1578","0.5130","83.1","14449","13882","567","3","1","0","0"],["CHW","Chicago White Sox","20","1629","1611","0.5028","81.5","14795","14616","179","5","1","0","0"],["MIL","Milwaukee Brewers","20","1616","1624","0.4988","80.8","14067","14316","-249","4","1","0","0"],["BOS","Boston Red Sox","20","1604","1636","0.4951","80.2","15308","15433","-125","2","3","1","1"],["ATL","Atlanta Braves","20","1591","1650","0.4909","79.6","14137","14547","-410","6","2","1","0"],["LAA","Los Angeles Angels","20","1587","1653","0.4898","79.4","13908","14409","-501","3","0","1","0"],["CLE","Cleveland Guardians","20","1573","1668","0.4853","78.7","14702","14994","-292","5","1","1","1"],["CIN","Cincinnati Reds","20","1572","1670","0.4849","78.6","14561","14660","-99","2","0","0","0"],["NYY","New York Yankees","20","1555","1685","0.4799","77.8","14752","15125","-373","1","1","0","0"],["MIN","Minnesota Twins","20","1539","1701","0.4750","77.0","14570","15171","-601","6","0","0","0"],["HOU","Houston Astros","20","1515","1725","0.4676","75.8","13635","14575","-940","4","0","2","2"],["DET","Detroit Tigers","20","1494","1746","0.4611","74.7","14121","15509","-1388","2","0","0","0"],["KC","Kansas City Royals","20","1494","1746","0.4611","74.7","14311","15466","-1155","2","0","1","0"],["STL","St. Louis Cardinals","20","1493","1748","0.4607","74.7","13828","15037","-1209","0","2","1","1"],["SF","San Francisco Giants","20","1464","1776","0.4519","73.2","13611","15182","-1571","0","0","0","0"],["WAS","Washington Nationals","20","1424","1817","0.4394","71.2","13500","15341","-1841","1","1","2","2"],["PHI","Philadelphia Phillies","20","1381","1859","0.4262","69.1","13107","15376","-2269","0","0","0","0"]],"links":{},"fallbacks":{},"fallbackText":"search","colIndex":{"Team":0,"Team Name":1,"Seasons":2,"W":3,"L":4,"Win%":5,"W/Season":6,"RF":7,"RA":8,"Run Diff":9,"Division Titles (2003-2022)":10,"Wild Cards (2003-2020)":11,"Pennants (2003-2020)":12,"World Series (2003-2020)":13}}</script>
+<script>
+'use strict';
+var DATA = JSON.parse(document.getElementById('table-data').textContent);
+var COLS = DATA.cols, ROWS = DATA.rows;
+var LINKS = DATA.links || {}, COLIDX_BY_NAME = DATA.colIndex || {};
+var FALLBACKS = DATA.fallbacks || {}, FALLBACK_TEXT = DATA.fallbackText || '';
+var view = ROWS.map(function(_, i){ return i; });
+var sortCol = -1, sortDir = 0;                       // 0 none, 1 asc, -1 desc
+var ROWH = 30, PAD = 12;                             // row height px (MEASURED at init), render padding rows
+var wrap = document.getElementById('wrap');
+var thead = document.getElementById('thead');
+var tbody = document.getElementById('tbody');
+var topSpace = document.getElementById('topspace');
+var botSpace = document.getElementById('botspace');
+var count = document.getElementById('count');
+// A cell is truncated VISUALLY by css (max-width 520px, ~65 chars) but was
+// only made clickable above 120 chars, so anything between was cut off yet
+// unexpandable. Mark them expandable well below the visual cutoff and don't
+// slice - css adds the ellipsis and the full value stays in the cell.
+var EXPAND_AT = 40;
+
+function esc(s){ var d = document.createElement('span'); d.textContent = s; return d.innerHTML; }
+
+// Accent-insensitive matching: "Acuna" finds "Acuña" and "Acuña" finds "Acuna".
+// NFD splits an accented letter into base + combining mark, so dropping the
+// marks leaves plain ASCII. Every non-ASCII character in this data decomposes
+// that way (measured across the spine: only í é á ó ñ ú Á É Ó appear). ⚠️ A
+// letter that is its own code point with no combining mark - ø, ł, đ, ß - does
+// NOT fold and would need an explicit map if one ever turns up.
+function fold(s){
+  return String(s).normalize('NFD').replace(/[\u0300-\u036f]/g, '').toLowerCase();
+}
+
+// The folded whole-row haystack, built ONCE on first use. The plain-text filter
+// used to re-join and re-lowercase every row on every keystroke - 24,000 of
+// them on the biggest table - and folding is more expensive than lowercasing,
+// so caching it makes the filter faster than it was before this change.
+var HAYS = null;
+function hays(){
+  if (!HAYS) HAYS = ROWS.map(function(r){ return fold(r.join('\u0001')); });
+  return HAYS;
+}
+
+// height must land on the cell too - a <tr> alone doesn't reliably size in
+// table layout. rounded to whole px so spacers can never drift fractionally.
+function setSpacer(tr, px){
+  var h = Math.round(px) + 'px';
+  tr.style.height = h;
+  tr.firstElementChild.style.height = h;
+}
+
+function buildHeader(){
+  var tr = document.createElement('tr');
+  COLS.forEach(function(c, i){
+    var th = document.createElement('th');
+    th.innerHTML = esc(c) + '<span class="arrow">' + (i===sortCol ? (sortDir===1?'\u25B2':'\u25BC') : '') + '</span>';
+    th.onclick = function(){ setSort(i); };
+    tr.appendChild(th);
+  });
+  thead.innerHTML = '';
+  thead.appendChild(tr);
+}
+
+function numeric(v){
+  if (v === '' || v === null) return null;
+  var n = parseFloat(String(v).replace(/,/g,''));
+  return (!isNaN(n) && isFinite(n) && /^[\s]*[-+$]?[\d,.]+%?[\s]*$/.test(String(v))) ? n : null;
+}
+
+function setSort(i){
+  if (sortCol === i){ sortDir = (sortDir === 1) ? -1 : 1; } else { sortCol = i; sortDir = 1; }
+  view.sort(function(a, b){
+    var va = ROWS[a][i], vb = ROWS[b][i];
+    var na = numeric(va), nb = numeric(vb);
+    var r;
+    if (va === '' && vb !== '') return 1;            // empties last, always
+    if (vb === '' && va !== '') return -1;
+    if (na !== null && nb !== null){ r = na - nb; }
+    else { r = String(va).localeCompare(String(vb), undefined, {sensitivity:'base'}); }
+    return sortDir * r;
+  });
+  buildHeader();
+  render();
+}
+
+var filterBox = document.getElementById('filter');
+var debounce = null;
+filterBox.addEventListener('input', function(){
+  clearTimeout(debounce);
+  debounce = setTimeout(applyFilter, 180);
+});
+
+// ---- sql-ish WHERE expressions ------------------------------------------
+// v_grade >= 7 and area like '%hueco%'   |   year in (2019,2020) or not flash = 'FLASH'
+// column names normalize: lowercase, runs of non-alphanumerics -> _
+var COLIDX = {};
+COLS.forEach(function(c, i){ COLIDX[normId(c)] = i; });
+
+// fold first: without it an accented COLUMN name loses the letter entirely
+// (é -> _) and could never be typed. No such column exists today; this just
+// keeps column matching on the same footing as value matching.
+function normId(s){ return fold(s).replace(/[^a-z0-9]+/g, '_').replace(/^_+|_+$/g, ''); }
+
+function looksLikeSql(q){
+  return /(<=|>=|!=|<>|=|<|>)/.test(q) || /\b(like|in|and|or|not)\b/i.test(q);
+}
+
+function tokenize(q){
+  var re = /\s*(?:(<=|>=|!=|<>|=|<|>|\(|\)|,)|'((?:[^']|'')*)'|"([^"]*)"|([A-Za-z0-9_.%$-]+))/g;
+  var toks = [], m, pos = 0;
+  while ((m = re.exec(q)) !== null){
+    if (m.index !== pos && q.slice(pos, m.index).trim() !== '') return null;
+    pos = re.lastIndex;
+    if (m[1] !== undefined) toks.push({t:'op', v:m[1]});
+    else if (m[2] !== undefined) toks.push({t:'str', v:m[2].replace(/''/g, "'")});
+    else if (m[3] !== undefined) toks.push({t:'str', v:m[3]});
+    else {
+      var w = m[4], lw = w.toLowerCase();
+      if (['and','or','not','like','in'].indexOf(lw) >= 0) toks.push({t:'kw', v:lw});
+      else toks.push({t:'word', v:w});
+    }
+  }
+  if (pos < q.length && q.slice(pos).trim() !== '') return null;
+  return toks;
+}
+
+function parse(toks){
+  var p = 0;
+  function peek(){ return toks[p]; }
+  function take(){ return toks[p++]; }
+  function expr(){
+    var n = term();
+    while (peek() && peek().t === 'kw' && peek().v === 'or'){ take(); n = {or:[n, term()]}; }
+    return n;
+  }
+  function term(){
+    var n = factor();
+    while (peek() && peek().t === 'kw' && peek().v === 'and'){ take(); n = {and:[n, factor()]}; }
+    return n;
+  }
+  function factor(){
+    var tk = peek();
+    if (!tk) throw 0;
+    if (tk.t === 'kw' && tk.v === 'not'){ take(); return {not: factor()}; }
+    if (tk.t === 'op' && tk.v === '('){ take(); var n = expr(); if (!peek() || peek().v !== ')') throw 0; take(); return n; }
+    return predicate();
+  }
+  function predicate(){
+    var c = take();
+    if (!c || c.t !== 'word') throw 0;
+    var idx = COLIDX[normId(c.v)];
+    if (idx === undefined) throw 0;
+    var neg = false, tk = peek();
+    if (tk && tk.t === 'kw' && tk.v === 'not'){ take(); neg = true; tk = peek(); }
+    if (!tk) throw 0;
+    if (tk.t === 'kw' && tk.v === 'like'){ take(); var v = value(); return {like:{col:idx, pat:v, neg:neg}}; }
+    if (tk.t === 'kw' && tk.v === 'in'){
+      take(); if (!peek() || peek().v !== '(') throw 0; take();
+      var vals = [value()];
+      while (peek() && peek().v === ','){ take(); vals.push(value()); }
+      if (!peek() || peek().v !== ')') throw 0; take();
+      return {inlist:{col:idx, vals:vals, neg:neg}};
+    }
+    if (neg) throw 0;
+    if (tk.t === 'op' && ['=','!=','<>','<','<=','>','>='].indexOf(tk.v) >= 0){ take(); return {cmp:{col:idx, op:tk.v, val:value()}}; }
+    throw 0;
+  }
+  function value(){
+    var tk = take();
+    if (!tk || (tk.t !== 'str' && tk.t !== 'word')) throw 0;
+    return tk.v;
+  }
+  var n = expr();
+  if (p !== toks.length) throw 0;
+  return n;
+}
+
+function evalNode(n, row){
+  if (n.or) return evalNode(n.or[0], row) || evalNode(n.or[1], row);
+  if (n.and) return evalNode(n.and[0], row) && evalNode(n.and[1], row);
+  if (n.not) return !evalNode(n.not, row);
+  if (n.cmp){
+    var cell = String(row[n.cmp.col]), val = String(n.cmp.val);
+    var nc = numeric(cell), nv = numeric(val), r;
+    if (nc !== null && nv !== null){ r = nc < nv ? -1 : (nc > nv ? 1 : 0); }
+    else { var a = fold(cell), b = fold(val); r = a < b ? -1 : (a > b ? 1 : 0); }
+    switch (n.cmp.op){
+      case '=': return r === 0;
+      case '!=': case '<>': return r !== 0;
+      case '<': return r < 0;
+      case '<=': return r <= 0;
+      case '>': return r > 0;
+      case '>=': return r >= 0;
+    }
+  }
+  if (n.like){
+    // fold BEFORE escaping, so % and _ survive to become wildcards
+    var pat = fold(n.like.pat).replace(/[.*+?^${}()|[\]\\]/g, '\\$&').replace(/%/g, '.*').replace(/_/g, '.');
+    var hit = new RegExp('^' + pat + '$', 'i').test(fold(row[n.like.col]));
+    return n.like.neg ? !hit : hit;
+  }
+  if (n.inlist){
+    var cell = fold(row[n.inlist.col]);
+    var hit = n.inlist.vals.some(function(v){ return fold(v) === cell; });
+    return n.inlist.neg ? !hit : hit;
+  }
+  return false;
+}
+// -------------------------------------------------------------------------
+
+function applyFilter(){
+  var q = filterBox.value.trim();
+  filterBox.classList.remove('bad');
+  view = [];
+  if (q === ''){
+    for (var i = 0; i < ROWS.length; i++) view.push(i);
+  } else if (looksLikeSql(q)){
+    var ast = null, toks = tokenize(q);
+    if (toks){ try { ast = parse(toks); } catch (e) { ast = null; } }
+    if (!ast){
+      filterBox.classList.add('bad');
+      count.textContent = 'bad expression';
+      return;                                        // keep current view
+    }
+    for (var i = 0; i < ROWS.length; i++){ if (evalNode(ast, ROWS[i])) view.push(i); }
+  } else {
+    var terms = fold(q).split(/\s+/), H = hays();
+    for (var i = 0; i < ROWS.length; i++){
+      var hay = H[i];
+      var ok = true;
+      for (var t = 0; t < terms.length; t++){ if (hay.indexOf(terms[t]) === -1){ ok = false; break; } }
+      if (ok) view.push(i);
+    }
+  }
+  if (sortCol >= 0){ var c = sortCol, d = sortDir; sortCol = -1; sortDir = 0; setSort(c); if (d === -1) setSort(c); return; }
+  render();
+}
+
+function render(){
+  var h = wrap.clientHeight;
+  var first = Math.max(0, Math.floor(wrap.scrollTop / ROWH) - PAD);
+  var last = Math.min(view.length, Math.ceil((wrap.scrollTop + h) / ROWH) + PAD);
+  setSpacer(topSpace, first * ROWH);
+  setSpacer(botSpace, (view.length - last) * ROWH);
+  var html = [];
+  for (var v = first; v < last; v++){
+    var row = ROWS[view[v]];
+    html.push('<tr>');
+    for (var c = 0; c < row.length; c++){
+      var val = String(row[c]);
+      // an empty cell falls back to its COLUMN~GUARD~template if one is
+      // registered AND that row's guard column is non-empty, labelled
+      // FALLBACK_TEXT since there is no value to show
+      var tmpl = LINKS[c], text = val;
+      if (val === ''){
+        var fb = FALLBACKS[c];
+        tmpl = (fb && String(row[fb[0]] || '') !== '') ? fb[1] : null;
+        text = FALLBACK_TEXT;
+      }
+      if (tmpl){
+        var href = tmpl.replace(/\{([^}]*)\}/g, function(_m, name){
+          var raw = (name === '') ? val : String(row[COLIDX_BY_NAME[name]] || '');
+          return encodeURIComponent(raw);
+        });
+        html.push('<td><a href="' + esc(href) + '" target="_blank" rel="noopener">' + esc(text) + '</a></td>');
+      } else if (val.length > EXPAND_AT){
+        html.push('<td class="expandable" data-r="' + view[v] + '" data-c="' + c + '">' + esc(val) + '</td>');
+      } else {
+        html.push('<td>' + esc(val) + '</td>');
+      }
+    }
+    html.push('</tr>');
+  }
+  tbody.innerHTML = html.join('');
+  count.textContent = view.length.toLocaleString() + ' of ' + ROWS.length.toLocaleString() + ' rows';
+}
+
+// ROWH must match the REAL rendered row height: if it doesn't, the spacer
+// heights misreport the total, scrollHeight shifts under the browser on
+// every render, it corrects scrollTop, that fires scroll again -> runaway
+// scrolling. So measure a real row instead of assuming one.
+function calibrate(){
+  if (!ROWS.length) return;
+  setSpacer(topSpace, 0);
+  setSpacer(botSpace, 0);
+  var probe = [], row = ROWS[0];
+  probe.push('<tr>');
+  for (var c = 0; c < row.length; c++){
+    var val = String(row[c]);
+    probe.push('<td>' + esc(val) + '</td>');
+  }
+  probe.push('</tr>');
+  tbody.innerHTML = probe.join('');
+  var tr = tbody.firstElementChild;
+  if (tr){
+    var h = Math.round(tr.getBoundingClientRect().height);
+    if (h > 4) ROWH = h;             // whole px only: fractional rows drift
+  }
+  tbody.innerHTML = '';
+}
+
+// one render per animation frame, no matter how many scroll events arrive
+var pending = false;
+function scheduleRender(){
+  if (pending) return;
+  pending = true;
+  window.requestAnimationFrame(function(){ pending = false; render(); });
+}
+
+wrap.addEventListener('scroll', scheduleRender);
+window.addEventListener('resize', function(){ calibrate(); render(); });
+
+var overlay = document.getElementById('overlay');
+tbody.addEventListener('click', function(e){
+  var td = e.target.closest('td.expandable');
+  if (!td) return;
+  overlay.querySelector('.box').textContent = ROWS[td.dataset.r][td.dataset.c];
+  overlay.style.display = 'flex';
+});
+overlay.addEventListener('click', function(){ overlay.style.display = 'none'; });
+document.addEventListener('keydown', function(e){ if (e.key === 'Escape') overlay.style.display = 'none'; });
+
+buildHeader();
+calibrate();
+render();
+</script>
+</body>
+</html>
