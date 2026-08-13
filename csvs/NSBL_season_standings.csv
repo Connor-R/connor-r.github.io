@@ -189,7 +189,7 @@ Year,Team,Team Name,Division,Finish,W,L,Win%,RF,RA,Run Diff,Playoff
 2016,NYY,New York Yankees,AL East,3,84,78,0.5185,674,685,-11,
 2016,TOR,Toronto Blue Jays,AL East,4,82,80,0.5062,685,599,86,
 2016,BOS,Boston Red Sox,AL East,5,79,83,0.4877,676,690,-14,
-2016,SEA,Seattle Mariners,AL West,1,93,69,0.5741,835,592,243,Lost World Series
+2016,SEA,Seattle Mariners,AL West,1,93,69,0.5741,835,692,143,Lost World Series
 2016,TEX,Texas Rangers,AL West,2,90,72,0.5556,671,586,85,Lost Play-In
 2016,OAK,Oakland Athletics,AL West,3,88,74,0.5432,641,554,87,Wild Card
 2016,LAA,Los Angeles Angels,AL West,4,72,90,0.4444,553,632,-79,
@@ -578,7 +578,7 @@ Year,Team,Team Name,Division,Finish,W,L,Win%,RF,RA,Run Diff,Playoff
 2003,BOS,Boston Red Sox,AL East,2,103,59,0.6358,956,737,219,Wild Card
 2003,TOR,Toronto Blue Jays,AL East,3,88,74,0.5432,901,807,94,
 2003,BAL,Baltimore Orioles,AL East,4,67,95,0.4136,678,814,-136,
-2003,TB,Tampa Bay Devil Rays,AL East,5,52,110,0.3210,641,100,541,
+2003,TB,Tampa Bay Devil Rays,AL East,5,52,110,0.3210,641,943,-302,
 2003,LAA,Anaheim Angels,AL West,1,97,65,0.5988,816,671,145,Lost World Series
 2003,SEA,Seattle Mariners,AL West,2,96,66,0.5926,761,616,145,
 2003,TEX,Texas Rangers,AL West,3,86,76,0.5309,806,807,-1,
