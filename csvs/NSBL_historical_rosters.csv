@@ -1493,9 +1493,7 @@ Jaime Barría,SD,,p,0.500,XXX,,,,N,2018-01-01,2018-01-01,snapshot,642545,18356,s
 Jaime Barría,BOS,,p,0.500,XXX,,,,N,2019-01-01,2019-11-15,snapshot,642545,18356,search
 Jaime Barría,BOS,,p,0.550,1st,,,,Y,2020-01-01,2021-07-30,snapshot,642545,18356,search
 Jaime Barría,BOS,,p,0.550,1st-G,,,,Y,2021-08-06,2021-12-05,snapshot,642545,18356,search
-Jaime Barría,BOS,,p,0.853,2nd,,,,N,2022-01-07,2022-07-21,snapshot,642545,18356,search
-Jaime Barría,BOS,,p,0.550,XXX,,,Yes,N,2022-07-24,2022-07-27,snapshot,642545,18356,search
-Jaime Barría,BOS,,p,0.853,2nd,,,,N,2022-07-31,2022-11-05,snapshot,642545,18356,search
+Jaime Barría,BOS,,p,0.853,2nd,,,,N,2022-01-07,2022-11-05,snapshot,642545,18356,search
 Jaime Barría,BOS,,p,1.362,3rd,,,,N,2023-01-27,2023-03-13,snapshot,642545,18356,search
 Jaime Barría,BOS,active,p,1.362,3rd,,,,N,2023-03-22,2023-08-23,snapshot,642545,18356,search
 Jaime Barría,BOS,active,p,1.932,4th,,,,Y,2024-02-19,2024-08-15,snapshot,642545,18356,search
@@ -5065,9 +5063,7 @@ Bobby Dalbec,MIN,,if,0.715,2nd,,,,Y,2020-01-01,2020-11-15,snapshot,666915,19966,
 Bobby Dalbec,PIT,,if,0.715,2nd,,,,N,2021-01-13,2021-05-09,snapshot,666915,19966,search
 Bobby Dalbec,PIT,,if,0.715,2nd-G,,,,Y,2021-05-16,2021-12-05,snapshot,666915,19966,search
 Bobby Dalbec,PIT,,if,0.930,3rd,,,,N,2022-01-07,2022-11-05,snapshot,666915,19966,search
-Bobby Dalbec,PIT,,if,1.755,4th,,,,Y,2023-01-27,2023-02-13,snapshot,666915,19966,search
-Bobby Dalbec,PIT,,if,1.755,V,,,,Y,2023-02-24,2023-02-24,snapshot,666915,19966,search
-Bobby Dalbec,PIT,,if,1.755,4th,,,,Y,2023-03-12,2023-03-13,snapshot,666915,19966,search
+Bobby Dalbec,PIT,,if,1.755,4th,,,,Y,2023-01-27,2023-03-13,snapshot,666915,19966,search
 Bobby Dalbec,PIT,reserve,if,1.755,4th,,,,Y,2023-03-22,2023-08-23,snapshot,666915,19966,search
 Bobby Dalbec,PIT,active,if,2.610,5th,,,,Y,2024-02-19,2024-02-20,snapshot,666915,19966,search
 Bobby Dalbec,MIL,active,if,3.022,V,2025,Yes,Yes,Y,2024-04-01,2024-07-12,snapshot,666915,19966,search
@@ -5318,9 +5314,7 @@ Daiber De Los Santos,CLE,reserve,if,0.700,XXX,,,Yes,N,2025-03-20,2025-09-01,snap
 Daiber De Los Santos,CLE,reserve,if,0.700,XXX,,,,N,2026-02-06,current,snapshot,815893,sa3023885,search
 Deyvison De Los Santos,CHW,,if,0.550,XXX,,,Yes,N,2022-03-20,2022-11-05,snapshot,691277,27969,search
 Deyvison De Los Santos,CHW,,if,0.700,XXX,,,,N,2023-01-27,2023-03-13,snapshot,691277,27969,search
-Deyvison De Los Santos,CHW,reserve,if,0.700,XXX,,,,N,2023-03-22,2023-08-23,snapshot,691277,27969,search
-Deyvison De Los Santos,CHW,reserve,if,1.085,2nd,,,,N,2024-02-19,2024-02-20,snapshot,691277,27969,search
-Deyvison De Los Santos,CHW,reserve,if,0.700,XXX,,,,N,2024-03-17,2024-08-15,snapshot,691277,27969,search
+Deyvison De Los Santos,CHW,reserve,if,0.700,XXX,,,,N,2023-03-22,2024-08-15,snapshot,691277,27969,search
 Deyvison De Los Santos,BAL,reserve,if,0.700,XXX,,,,N,2025-02-09,current,snapshot,691277,27969,search
 Enyel De Los Santos,MIA,,p,0.500,XXX,,,,N,2019-01-01,2019-11-15,snapshot,660853,18403,search
 Enyel De Los Santos,MIA,,p,0.550,XXX,,,,N,2020-01-01,2022-11-05,snapshot,660853,18403,search
@@ -5414,14 +5408,11 @@ Miguel Del Pozo,DET,active,p,2.025,V,2024,,Yes,Y,2023-03-22,2023-08-23,snapshot,
 Miguel Del Pozo,DET,active,p,2.025,V,2024,,,Y,2024-02-19,2024-03-17,snapshot,600887,18792,search
 Steve Delabar,KC,,p,2.400,V,2015,,,Y,2014-01-01,2015-01-01,snapshot,447755,11827,search
 Sam Delaplane,CLE,,p,2.202,V,2024,Yes,Yes,Y,2021-03-30,2021-12-05,snapshot,676845,sa3004222,search
-Sam Delaplane,CLE,,p,2.202,V,2024,Yes,,Y,2022-01-07,2022-07-21,snapshot,676845,sa3004222,search
-Sam Delaplane,CLE,,p,5.977,5th,,,,Y,2022-07-24,2022-07-24,snapshot,676845,sa3004222,search
-Sam Delaplane,CLE,,p,2.202,V,2024,Yes,,Y,2022-07-27,2023-03-13,snapshot,676845,sa3004222,search
+Sam Delaplane,CLE,,p,2.202,V,2024,Yes,,Y,2022-01-07,2023-03-13,snapshot,676845,sa3004222,search
 Sam Delaplane,CLE,active,p,2.202,V,2024,Yes,,Y,2023-03-22,2024-04-04,snapshot,676845,sa3004222,search
 Sam Delaplane,CLE,reserve,p,2.202,V,2024,Yes,,Y,2024-07-12,2024-08-15,snapshot,676845,sa3004222,search
 Sam Delaplane,KC,active,p,2.202,V,2024,Yes,,Y,2025-02-09,2025-02-09,snapshot,676845,sa3004222,search
-Chase DeLauter,DET,,of,2.202,V,2024,Yes,,Y,2022-07-24,2022-07-27,snapshot,800050,32127,search
-Chase DeLauter,DET,,of,0.550,XXX,,,Yes,N,2022-07-31,2022-11-05,snapshot,800050,32127,search
+Chase DeLauter,DET,,of,0.550,XXX,,,Yes,N,2022-07-24,2022-11-05,snapshot,800050,32127,search
 Chase DeLauter,DET,,of,0.700,XXX,,,,N,2023-01-27,2023-03-13,snapshot,800050,32127,search
 Chase DeLauter,DET,reserve,of,0.700,XXX,,,,N,2023-03-22,2025-02-09,snapshot,800050,32127,search
 Chase DeLauter,WAS,reserve,of,0.700,XXX,,,,N,2025-03-20,current,snapshot,800050,32127,search
@@ -6858,16 +6849,13 @@ Wilmer Flores,CLE,,if,9.078,6th,,,,Y,2020-01-01,2020-01-01,snapshot,527038,5827,
 Wilmer Flores,MIL,,if,9.078,6th,,,,Y,2020-04-01,2020-07-06,snapshot,527038,5827,search
 Wilmer Flores,SD,,if,9.078,6th,,,,Y,2020-07-13,2020-11-15,snapshot,527038,5827,search
 Wilmer Flores,ARI,,if,2.750,V,2022,Yes,Yes,Y,2021-03-28,2021-12-05,snapshot,527038,5827,search
-Wilmer Flores,ARI,,if,2.750,V,2022,Yes,,Y,2022-01-07,2022-07-21,snapshot,527038,5827,search
-Wilmer Flores,ARI,,if,0.550,XXX,,,Yes,N,2022-07-24,2022-07-27,snapshot,527038,5827,search
-Wilmer Flores,ARI,,if,2.750,V,2022,Yes,,Y,2022-07-31,2023-03-12,snapshot,527038,5827,search
+Wilmer Flores,ARI,,if,2.750,V,2022,Yes,,Y,2022-01-07,2023-03-12,snapshot,527038,5827,search
 Wilmer Flores,ARI,,if,2.750,V,2023,,,Y,2023-03-13,2023-03-13,snapshot,527038,5827,search
 Wilmer Flores,ARI,active,if,2.750,V,2023,,,Y,2023-03-22,2023-08-23,snapshot,527038,5827,search
 Wilmer Flores,ARI,active,if,4.500,V,2025,Yes,Yes,Y,2024-04-01,2024-08-15,snapshot,527038,5827,search
 Wilmer Flores,ARI,active,if,4.500,V,2025,Yes,,Y,2025-02-09,2025-04-16,snapshot,527038,5827,search
 Wilmer Flores,ARI,reserve,if,4.500,V,2025,Yes,,Y,2025-07-09,2026-02-06,snapshot,527038,5827,search
-Wilmer Flores,LAA,,p,0.550,XXX,,,,N,2022-07-24,2022-07-24,snapshot,695865,sa3015223,search
-Wilmer Flores,LAA,,p,0.550,XXX,,,Yes,N,2022-07-27,2022-11-05,snapshot,695865,sa3015223,search
+Wilmer Flores,LAA,,p,0.550,XXX,,,Yes,N,2022-07-24,2022-11-05,snapshot,695865,sa3015223,search
 Wilmer Flores,LAA,,p,0.700,XXX,,,,N,2023-01-27,2023-03-13,snapshot,695865,sa3015223,search
 Wilmer Flores,LAA,reserve,p,0.700,XXX,,,,N,2023-03-22,2023-06-22,snapshot,695865,sa3015223,search
 Wilmer Flores,LAA,active,p,0.700,XXX,,,,N,2023-08-13,2023-08-23,snapshot,695865,sa3015223,search
@@ -7477,8 +7465,7 @@ Jaime García,MIN,,p,2.542,4th,,,,Y,2013-01-01,2013-01-01,snapshot,448802,8137,s
 Jaime García,MIN,,p,3.931,5th,,,,Y,2014-01-01,2014-01-01,snapshot,448802,8137,search
 Jaime García,MIN,,p,6.974,6th,,,,Y,2015-01-01,2015-01-01,snapshot,448802,8137,search
 Jaime García,OAK,,p,17.500,V,2018,Y-NBO,,Y,2017-01-01,2019-01-01,snapshot,448802,8137,search
-Jarlín García,SF,,p,0.550,XXX,,,,N,2022-04-24,2022-04-24,snapshot,606424,18282,search
-Jarlín García,SF,,p,2.750,V,2023,Yes,Yes,Y,2022-05-01,2022-11-05,snapshot,606424,18282,search
+Jarlín García,SF,,p,2.750,V,2023,Yes,Yes,Y,2022-04-24,2022-11-05,snapshot,606424,18282,search
 Jarlín García,SF,,p,2.750,V,2023,Yes,,Y,2023-01-27,2023-01-27,snapshot,606424,18282,search
 Jhostynxon Garcia,SEA,reserve,of,0.700,XXX,,,Yes,N,2025-03-20,2025-09-01,snapshot,691373,28142,search
 Jhostynxon Garcia,NYY,reserve,of,0.700,XXX,,,,N,2026-02-06,current,snapshot,691373,28142,search
@@ -7501,18 +7488,12 @@ Luis García,COL,active,if,0.910,2nd,,,,N,2025-02-09,2025-04-16,snapshot,671277,
 Luis García,COL,active,if,0.910,2nd-G,,,,Y,2025-07-09,2025-09-01,snapshot,671277,20391,search
 Luis García,COL,active,if,1.911,3rd,,,,Y,2026-02-06,current,snapshot,671277,20391,search
 Luis Garcia,CLE,,if,0.500,XXX,,,Yes,N,2019-11-15,2019-11-15,snapshot,677593,sa3007295,search
-Luis Garcia,CLE,,if,0.550,XXX,,,,N,2020-01-01,2022-06-19,snapshot,677593,sa3007295,search
-Luis Garcia,CLE,,if,3.210,V,2022,Yes,,Y,2022-06-26,2022-07-21,snapshot,677593,sa3007295,search
-Luis Garcia,CLE,,if,0.550,XXX,,,,N,2022-07-24,2022-07-24,snapshot,677593,sa3007295,search
-Luis Garcia,CLE,,if,3.210,V,2022,Yes,,Y,2022-07-27,2022-07-27,snapshot,677593,sa3007295,search
-Luis Garcia,CLE,,if,0.550,XXX,,,,N,2022-07-31,2022-11-05,snapshot,677593,sa3007295,search
+Luis Garcia,CLE,,if,0.550,XXX,,,,N,2020-01-01,2022-11-05,snapshot,677593,sa3007295,search
 Luis Garcia,CLE,,if,0.700,XXX,,,,N,2023-01-27,2023-03-13,snapshot,677593,sa3007295,search
 Luis Garcia,CLE,reserve,if,0.700,XXX,,,,N,2023-03-22,2024-08-15,snapshot,677593,sa3007295,search
 Luis Garcia,KC,reserve,if,0.700,XXX,,,,N,2025-02-09,2025-02-09,snapshot,677593,sa3007295,search
 Luis García,TB,,p,0.550,XXX,,,Yes,N,2021-07-23,2021-12-05,snapshot,677651,23735,search
-Luis García,TB,,p,0.550,XXX,,,,N,2022-01-07,2022-01-09,snapshot,677651,23735,search
-Luis García,TB,,p,0.550,1st,,,,N,2022-01-16,2022-01-16,snapshot,677651,23735,search
-Luis García,TB,,p,0.550,XXX,,,,N,2022-01-23,2022-11-05,snapshot,677651,23735,search
+Luis García,TB,,p,0.550,XXX,,,,N,2022-01-07,2022-11-05,snapshot,677651,23735,search
 Luis García,TB,,p,0.700,1st,,,,N,2023-01-27,2023-03-13,snapshot,677651,23735,search
 Luis García,TB,active,p,0.700,1st,,,,N,2023-03-22,2023-08-23,snapshot,677651,23735,search
 Luis García,TB,active,p,1.085,2nd,,,,N,2024-02-19,2024-03-17,snapshot,677651,23735,search
@@ -10345,8 +10326,7 @@ Raisel Iglesias,CHW,,p,5.312,5th,,,,Y,2020-01-01,2020-07-19,snapshot,628452,1713
 Raisel Iglesias,NYM,,p,5.312,5th,,,,Y,2020-07-25,2020-11-15,snapshot,628452,17130,search
 Raisel Iglesias,NYM,,p,6.362,6th,,,,Y,2021-01-13,2021-02-25,snapshot,628452,17130,search
 Raisel Iglesias,COL,,p,6.362,6th,,,,Y,2021-03-07,2021-12-05,snapshot,628452,17130,search
-Raisel Iglesias,COL,,p,11.500,V,2024,,Yes,Y,2022-04-10,2022-04-17,snapshot,628452,17130,search
-Raisel Iglesias,COL,,p,10.925,V,2024,,Yes,Y,2022-04-24,2022-11-05,snapshot,628452,17130,search
+Raisel Iglesias,COL,,p,10.925,V,2024,,Yes,Y,2022-04-10,2022-11-05,snapshot,628452,17130,search
 Raisel Iglesias,COL,,p,10.925,V,2024,,,Y,2023-01-27,2023-03-13,snapshot,628452,17130,search
 Raisel Iglesias,COL,active,p,10.925,V,2024,,,Y,2023-03-22,2024-08-15,snapshot,628452,17130,search
 Raisel Iglesias,CHC,active,p,16.000,V,2026,Yes,Yes,Y,2025-04-04,2025-09-01,snapshot,628452,17130,search
