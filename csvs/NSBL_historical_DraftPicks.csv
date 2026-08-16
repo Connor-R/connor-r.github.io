@@ -4984,7 +4984,7 @@ DET: 2024-07-12 to current",8,2019,2026,668678,19291,search
 2018,Winter,6,1,6,SF,Eric Pardinho,SP,SF:  2019-11-15 to 2023-08-23,5,2019,2023,672078,sa968102,search
 2018,Winter,7,1,7,LAD,Brailyn Márquez,SP,LAD: 2019-11-15 to current,8,2019,2026,666622,21896,search
 2018,Winter,8,1,8,MIL,Spencer Howard,SP,"MIL: 2019-11-15 to 2020-01-01
-BAL: 2020-04-01 to current",8,2019,2026,675921,23252,search
+BAL: 2020-04-01 to 2026-08-15",8,2019,2026,675921,23252,search
 2018,Winter,9,1,9,WAS,Ronny Mauricio,SS,"WAS: 2019-11-15 to 2023-01-27
 COL: 2023-02-12 to current",8,2019,2026,677595,23698,search
 2018,Winter,10,1,10,KC,Kristian Robinson,OF,"KC:  2019-11-15 to 2022-01-16
@@ -5163,7 +5163,7 @@ MIA: 2020-04-01 to current",8,2019,2026,665922,19553,search
 PIT: 2021-01-27 to current",8,2019,2026,670870,sa3003185,search
 2019,Summer,88,3,28,MIL,Hunter Barco,SP,MIL: 2019-11-15 to current,8,2019,2026,682995,33174,search
 2019,Summer,89,3,29,ATL,Junior Santos,SP,"ATL: 2019-11-15 to 2024-08-15
-WAS: 2025-02-09 to current",8,2019,2026,681744,sa3005470,search
+WAS: 2025-02-09 to 2026-08-15",8,2019,2026,681744,sa3005470,search
 2019,Summer,90,3,30,NYM,José Urquidy,SP,"NYM: 2019-11-15 to 2020-08-30
 MIL: 2020-09-06 to 2022-01-09
 WAS: 2022-01-16 to 2024-08-15
@@ -5224,7 +5224,7 @@ ATL: 2026-03-13 to current",8,2019,2026,668670,19452,search
 2019,Winter,2,1,2,NYM,Julio Rodríguez,OF,NYM: 2020-04-01 to current,7,2020,2026,677594,23697,search
 2019,Winter,3,1,3,HOU,Luis Matos,OF,HOU: 2020-04-01 to current,7,2020,2026,682641,26467,search
 2019,Winter,4,1,4,TOR,Orelvis Martinez,SS,"TOR: 2020-04-01 to 2024-07-12
-TB:  2024-08-15 to current",7,2020,2026,682619,25967,search
+TB:  2024-08-15 to 2026-08-15",7,2020,2026,682619,25967,search
 2019,Winter,5,1,5,MIN,Tre Fletcher,OF,MIN: 2020-04-01 to 2023-08-23,4,2020,2023,686801,sa3010709,search
 2019,Winter,6,1,6,WAS,Thaddeus Ward,SP,"WAS: 2020-04-01 to 2024-08-15
 ATL: 2025-02-09 to 2025-03-20",6,2020,2025,663658,21513,search
@@ -5398,7 +5398,7 @@ TOR: 2026-02-06 to current",7,2020,2026,693855,27932,search
 2020,Summer,89,3,29,OAK,Casey Martin,SS,OAK: 2020-07-06 to 2023-08-23,4,2020,2023,676045,sa3014524,search
 2020,Summer,90,3,30,CLE,Jerar Encarnacion,OF,"CLE: 2020-07-06 to 2023-08-23
 SEA: 2025-04-12 to current",6,2020,2026,666464,21871,search
-2020,Summer,91,4,1,CHC,Noah Song,SP,CHC: 2020-07-06 to current,7,2020,2026,679977,sa3011695,search
+2020,Summer,91,4,1,CHC,Noah Song,SP,CHC: 2020-07-06 to 2026-08-15,7,2020,2026,679977,sa3011695,search
 2020,Summer,92,4,2,CLE,Austin Cox,SP,"CLE: 2020-07-06 to 2024-08-15
 KC:  2025-02-09 to 2025-02-09",6,2020,2025,680735,24604,search
 2020,Summer,93,4,3,HOU,David Calabrese,OF,HOU: 2020-07-06 to 2024-07-12,5,2020,2024,683341,sa3014507,search
@@ -5454,7 +5454,8 @@ TOR: 2025-04-11 to current",6,2021,2026,682622,26517,search
 2020,Winter,7,1,7,CIN,Bayron Lora,OF,CIN: 2021-02-25 to 2025-07-09,5,2021,2025,691178,sa3014712,search
 2020,Winter,8,1,8,NYY,Hedbert Perez,OF,NYY: 2021-02-25 to current,6,2021,2026,691616,sa3014692,search
 2020,Winter,9,1,9,MIL,Tink Hence,SP,"MIL: 2021-02-25 to 2024-07-12
-TB:  2024-08-15 to current",6,2021,2026,693311,sa3014709,search
+TB:  2024-08-15 to 2026-08-15
+MIL: 2026-08-16 to current",6,2021,2026,693311,sa3014709,search
 2020,Winter,10,1,10,CLE,Blake Hunt,C,"CLE: 2021-02-25 to 2024-08-15
 KC:  2025-02-09 to 2025-02-09",5,2021,2025,675448,23209,search
 2020,Winter,11,1,11,PHI,Maximo Acosta,SS,"PHI: 2021-02-25 to 2025-07-09
@@ -5465,7 +5466,7 @@ ATL: 2025-09-01 to current",6,2021,2026,691185,27963,search
 2020,Winter,15,1,15,DET,Jonah Heim,C,"DET: 2021-02-25 to 2022-04-24
 HOU: 2022-05-01 to current",6,2021,2026,641680,16930,search
 2020,Winter,16,1,16,ATL,Misael Urbina,OF,"ATL: 2021-02-25 to 2024-08-15
-WAS: 2025-02-09 to current",6,2021,2026,682618,sa3008743,search
+WAS: 2025-02-09 to 2026-08-15",6,2021,2026,682618,sa3008743,search
 2020,Winter,17,1,17,LAD,Jorbit Vivas,2B,LAD: 2021-02-25 to current,6,2021,2026,678391,23917,search
 2020,Winter,18,1,18,NYM,Arol Vera,SS,"NYM: 2021-02-25 to 2022-05-01
 WAS: 2022-05-08 to 2024-08-15
@@ -5674,7 +5675,7 @@ CLE: 2025-02-09 to current",5,2022,2026,680757,24610,search
 2021,Winter,22,1,22,PIT,Vinnie Pasquantino,1B,PIT: 2022-01-23 to current,5,2022,2026,686469,27676,search
 2021,Winter,23,1,23,COL,Kyle Stowers,OF,COL: 2022-01-23 to current,5,2022,2026,669065,26151,search
 2021,Winter,24,1,24,ATL,Yiddi Cappe,SS,"ATL: 2022-01-23 to 2024-08-15
-WAS: 2025-02-09 to current",5,2022,2026,691268,sa3015515,search
+WAS: 2025-02-09 to 2026-08-15",5,2022,2026,691268,sa3015515,search
 2021,Winter,25,1,25,MIA,Jacob Lopez,SP,MIA: 2022-01-23 to current,5,2022,2026,682052,25098,search
 2021,Winter,26,1,26,SD,Davis Daniel,SP,SD:  2022-01-23 to current,5,2022,2026,669721,27582,search
 2021,Winter,27,1,27,BAL,Brandon Pfaadt,SP,BAL: 2022-01-23 to current,5,2022,2026,694297,27782,search
@@ -5736,9 +5737,9 @@ DET: 2024-07-12 to current",5,2022,2026,691006,sa3020575,search
 MIN: 2024-07-12 to current",5,2022,2026,690990,31872,search
 2022,Summer,9,1,9,LAA,Jace Jung,2B,"LAA: 2022-07-24 to 2024-04-04
 CIN: 2024-07-12 to current",5,2022,2026,690291,31437,search
-2022,Summer,10,1,10,BOS,Brock Porter,SP,BOS: 2022-07-24 to current,5,2022,2026,702548,sa3020708,search
+2022,Summer,10,1,10,BOS,Brock Porter,SP,BOS: 2022-07-24 to 2026-08-15,5,2022,2026,702548,sa3020708,search
 2022,Summer,11,1,11,MIN,Gavin Cross,OF,MIN: 2022-07-24 to current,5,2022,2026,688457,sa3019985,search
-2022,Summer,12,1,12,CHC,Dylan Lesko,SP,CHC: 2022-07-24 to current,5,2022,2026,702266,sa3020677,search
+2022,Summer,12,1,12,CHC,Dylan Lesko,SP,CHC: 2022-07-24 to 2026-08-15,5,2022,2026,702266,sa3020677,search
 2022,Summer,13,1,13,NYM,Zach Neto,SS,NYM: 2022-07-24 to current,5,2022,2026,687263,31347,search
 2022,Summer,14,1,14,TB,Cam Collier,3B,TB:  2022-07-24 to current,5,2022,2026,702253,sa3020131,search
 2022,Summer,15,1,15,CLE,Ian Lewis,2B,"CLE: 2022-07-24 to 2024-08-15
@@ -5840,7 +5841,7 @@ ATL: 2025-09-01 to current",5,2022,2026,680885,31846,search
 2022,Summer,88,3,28,CHW,AJ Smith-Shawver,SP,CHW: 2022-08-10 to current,5,2022,2026,700363,29960,search
 2022,Summer,89,3,29,DET,Cutter Coffey,SS,"DET: 2022-08-10 to 2024-07-12
 SD:  2024-08-15 to current",5,2022,2026,702690,sa3020280,search
-2022,Summer,90,3,30,BAL,Walter Ford,SP,BAL: 2022-08-10 to current,5,2022,2026,703609,sa3022190,search
+2022,Summer,90,3,30,BAL,Walter Ford,SP,BAL: 2022-08-10 to 2026-08-15,5,2022,2026,703609,sa3022190,search
 2022,Summer,91,4,1,LAD,Jacob Melton,OF,LAD: 2022-08-10 to current,5,2022,2026,689200,31661,search
 2022,Summer,92,4,2,BOS,Edgar Quero,C,BOS: 2022-08-10 to current,5,2022,2026,700337,28022,search
 2022,Summer,93,4,3,DET,Jake Bennett,SP,DET: 2022-08-10 to current,5,2022,2026,687562,31959,search
@@ -5880,7 +5881,7 @@ MIA: 2025-03-20 to current",5,2022,2026,702270,sa3025250,search
 2022,Summer,119,4,29,SF,Henry Williams,SP,SF:  2022-08-21 to current,5,2022,2026,689275,sa3020901,search
 2022,Summer,120,4,30,BAL,Gavin Guidry,SS,BAL: 2022-08-21 to 2025-07-09,4,2022,2025,702633,,search
 2022,Summer,121,5,1,CHC,Joel Ibarra,SP,CHC: 2022-08-21 to 2024-08-15,3,2022,2024,684169,sa3009326,search
-2022,Summer,122,5,2,BOS,Victor Lizarraga,SP,BOS: 2022-08-21 to current,5,2022,2026,694205,sa3015220,search
+2022,Summer,122,5,2,BOS,Victor Lizarraga,SP,BOS: 2022-08-21 to 2026-08-15,5,2022,2026,694205,sa3015220,search
 2022,Summer,123,5,3,TB,Lars Nootbaar,OF,TB:  2022-08-21 to current,5,2022,2026,663457,21454,search
 2022,Summer,124,5,4,MIA,Taylor Dollard,SP,MIA: 2022-08-21 to current,5,2022,2026,693440,sa3014982,search
 2022,Summer,125,5,5,MIA,Louis Varland,SP,MIA: 2022-08-21 to current,5,2022,2026,686973,27691,search
@@ -5889,7 +5890,7 @@ MIA: 2025-03-20 to current",5,2022,2026,702270,sa3025250,search
 2022,Summer,128,5,8,DET,Josh Kasevich,3B,"DET: 2022-08-21 to 2025-02-09
 WAS: 2025-03-20 to current",5,2022,2026,688460,sa3020203,search
 2022,Summer,129,5,9,MIL,Gabriel Martinez,OF,MIL: 2022-08-21 to 2025-07-09,4,2022,2025,683447,sa3008865,search
-2022,Summer,130,5,10,CHC,Will Brennan,OF,CHC: 2022-08-21 to current,5,2022,2026,686823,25660,search
+2022,Summer,130,5,10,CHC,Will Brennan,OF,CHC: 2022-08-21 to 2026-08-15,5,2022,2026,686823,25660,search
 2022,Summer,131,5,11,MIN,Tanner Schobel,SS,MIN: 2022-08-21 to current,5,2022,2026,802355,sa3020009,search
 2022,Summer,132,5,12,LAD,Jorge Barrosa,OF,LAD: 2022-08-21 to current,5,2022,2026,678489,23968,search
 2022,Summer,133,5,13,PHI,Nick Frasso,SP,PHI: 2022-08-21 to current,5,2022,2026,693308,27861,search
@@ -5904,12 +5905,12 @@ CIN: 2024-07-12 to current",5,2022,2026,691828,sa3011735,search
 LAA: 2024-02-19 to current",5,2022,2026,679563,24388,search
 2022,Summer,140,5,20,ATL,Chandler Simpson,2B,"KC:  2024-08-15 to 2024-08-15
 CLE: 2025-02-09 to current",3,2024,2026,802415,31912,search
-2022,Summer,141,5,21,MIL,Ronan Kopp,SP,MIL: 2022-08-21 to current,5,2022,2026,691947,sa3017751,search
+2022,Summer,141,5,21,MIL,Ronan Kopp,SP,MIL: 2022-08-21 to 2026-08-15,5,2022,2026,691947,sa3017751,search
 2022,Summer,142,5,22,SD,Jonathan Cannon,SP,SD:  2022-08-21 to current,5,2022,2026,686563,31730,search
 2022,Summer,143,5,23,COL,Mike Burrows,SP,COL: 2022-08-21 to current,5,2022,2026,681347,24728,search
 2022,Summer,144,5,24,ARI,Emmet Sheehan,SP,ARI: 2022-08-21 to current,5,2022,2026,686218,29839,search
 2022,Summer,145,5,25,CHC,Paxton Kling,OF,CHC: 2022-08-21 to current,5,2022,2026,702265,sa3035512,search
-2022,Summer,146,5,26,TB,Dahian Santos,SP,TB:  2022-08-21 to current,5,2022,2026,692479,sa3015282,search
+2022,Summer,146,5,26,TB,Dahian Santos,SP,TB:  2022-08-21 to 2026-08-15,5,2022,2026,692479,sa3015282,search
 2022,Summer,147,5,27,MIA,Joey Ortiz,SS,"MIA: 2022-08-28 to 2024-02-20
 WAS: 2024-03-17 to 2024-08-15
 ATL: 2025-02-09 to 2025-02-09
@@ -5921,7 +5922,7 @@ LAA: 2026-03-24 to current",5,2022,2026,687401,25493,search
 2022,Winter,1,1,1,WAS,Matt Mervis,1B,"WAS: 2023-01-27 to 2024-08-15
 ATL: 2025-02-09 to 2025-09-01
 DET: 2026-04-04 to current",4,2023,2026,670223,27845,search
-2022,Winter,2,1,2,BOS,Oscar Colás,OF,BOS: 2023-01-27 to current,4,2023,2026,693049,30162,search
+2022,Winter,2,1,2,BOS,Oscar Colás,OF,BOS: 2023-01-27 to 2026-08-15,4,2023,2026,693049,30162,search
 2022,Winter,3,1,3,HOU,Cristhian Vaquero,OF,HOU: 2023-01-27 to current,4,2023,2026,703143,sa3018403,search
 2022,Winter,4,1,4,CHC,Jarlin Susana,SP,CHC: 2023-01-27 to current,4,2023,2026,703186,sa3018808,search
 2022,Winter,5,1,5,DET,Lazaro Montes,OF,DET: 2023-01-27 to current,4,2023,2026,703155,sa3018409,search
@@ -6396,7 +6397,7 @@ CLE: 2025-02-09 to current",3,2024,2026,802415,31912,search
 2024,Summer,113,4,23,WAS,Adrian Del Castillo,C,"WAS: 2024-08-15 to 2024-08-15
 ATL: 2025-02-09 to current",3,2024,2026,680728,29554,search
 2024,Summer,114,4,24,SF,Yophery Rodriguez,OF,SF:  2024-08-15 to current,3,2024,2026,806983,sa3021083,search
-2024,Summer,115,4,25,MIL,David Matoma,SP,MIL: 2024-08-15 to current,3,2024,2026,807968,sa3021761,search
+2024,Summer,115,4,25,MIL,David Matoma,SP,MIL: 2024-08-15 to 2026-08-15,3,2024,2026,807968,sa3021761,search
 2024,Summer,116,4,26,TEX,Leo Bernal,C,TEX: 2024-08-15 to current,3,2024,2026,699024,sa3015773,search
 2024,Summer,117,4,27,STL,Cole Mathis,3B,STL: 2024-08-15 to current,3,2024,2026,695573,sa3037300,search
 2024,Summer,118,4,28,BAL,Luke Sinnard,SP,BAL: 2024-08-15 to current,3,2024,2026,820827,sa3042362,search
@@ -6406,7 +6407,7 @@ ATL: 2025-02-09 to current",3,2024,2026,680728,29554,search
 2024,Summer,122,5,2,NYY,Chris Levonas,SP,NYY: 2024-08-15 to current,3,2024,2026,815484,,search
 2024,Summer,123,5,3,MIL,Jackson Barberi,SP,MIL: 2024-08-15 to current,3,2024,2026,815346,,search
 2024,Summer,124,5,4,CHC,Sean Keys,3B,CHC: 2024-08-15 to current,3,2024,2026,815873,35094,search
-2024,Summer,125,5,5,BOS,Marquis Grissom,RP,BOS: 2024-08-15 to current,3,2024,2026,671726,,search
+2024,Summer,125,5,5,BOS,Marquis Grissom,RP,BOS: 2024-08-15 to 2026-08-15,3,2024,2026,671726,,search
 2024,Summer,126,5,6,MIN,Jalin Flores,SS,MIN: 2024-08-15 to current,3,2024,2026,703602,sa3031465,search
 2024,Summer,127,5,7,PIT,Engelth Urena,C,PIT: 2024-08-15 to current,3,2024,2026,800246,sa3018484,search
 2024,Summer,128,5,8,TB,Chen-Wei Lin,SP,TB:  2024-08-15 to current,3,2024,2026,813820,sa3022876,search
@@ -6434,7 +6435,7 @@ CLE: 2025-02-09 to current",3,2024,2026,815794,sa3023601,search
 MIA: 2025-03-20 to current",3,2024,2026,815359,sa3067316,search
 2024,Summer,144,5,24,MIL,Tyson Neighbors,RP,"MIL: 2024-08-15 to 2026-04-11
 TOR: 2026-04-14 to current",3,2024,2026,695695,sa3025569,search
-2024,Summer,145,5,25,TB,Keeler Morfe,SP,TB:  2024-08-15 to current,3,2024,2026,808323,sa3022239,search
+2024,Summer,145,5,25,TB,Keeler Morfe,SP,TB:  2024-08-15 to 2026-08-15,3,2024,2026,808323,sa3022239,search
 2024,Summer,146,5,26,TEX,Eddinson Paulino,2B,TEX: 2024-08-15 to current,3,2024,2026,682796,sa3009538,search
 2024,Summer,147,5,27,STL,Ivan Luciano,C,STL: 2024-08-15 to current,3,2024,2026,813930,sa3067397,search
 2024,Summer,148,5,28,BAL,Carson Wiggins,SP,BAL: 2024-08-15 to current,3,2024,2026,815164,,search

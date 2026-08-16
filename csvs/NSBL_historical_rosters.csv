@@ -1063,8 +1063,7 @@ Scott Atchison,OAK,,p,1.700,V,2014,Yes,,Y,2014-01-01,2015-01-01,snapshot,425786,
 Garrett Atkins,CIN,,if,4.107,CE,2010,,,Y,2009-01-01,2010-01-01,snapshot,425548,1790,search
 Michael Aubrey,BOS,,if,0.480,2nd,,,,N,2009-01-01,2009-01-01,snapshot,430956,6049,search
 Michael Aubrey,MIA,,if,0.480,2nd,,,,N,2010-01-01,2010-01-01,snapshot,430956,6049,search
-Michael Aubrey,MIA,,if,0.000,3rd,,,,N,2011-01-01,2011-01-01,snapshot,430956,6049,search
-Michael Aubrey,MIA,,if,0.624,3rd,,,,N,2012-01-01,2015-01-01,snapshot,430956,6049,search
+Michael Aubrey,MIA,,if,0.624,3rd,,,,N,2011-01-01,2015-01-01,snapshot,430956,6049,search
 Mason Auer,LAD,,of,0.700,XXX,,,,N,2023-01-27,2023-02-24,snapshot,687020,sa3017791,search
 Mason Auer,LAD,,of,0.700,XXX,,,Yes,N,2023-03-12,2023-03-13,snapshot,687020,sa3017791,search
 Mason Auer,LAD,reserve,of,0.700,XXX,,,Yes,N,2023-03-22,2023-08-23,snapshot,687020,sa3017791,search
@@ -2666,7 +2665,7 @@ Will Brennan,CHC,,of,0.700,XXX,,,,N,2023-01-27,2023-03-13,snapshot,686823,25660,
 Will Brennan,CHC,reserve,of,0.700,XXX,,,,N,2023-03-22,2025-04-16,snapshot,686823,25660,search
 Will Brennan,CHC,active,of,0.700,XXX-G,,,,Y,2025-07-09,2025-09-01,snapshot,686823,25660,search
 Will Brennan,CHC,active,of,0.910,2nd,,,,Y,2026-02-06,2026-04-14,snapshot,686823,25660,search
-Will Brennan,CHC,reserve,of,0.910,2nd,,,,N,2026-04-24,current,snapshot,686823,25660,search
+Will Brennan,CHC,reserve,of,0.910,2nd,,,,N,2026-04-24,2026-08-15,snapshot,686823,25660,search
 Bryce Brentz,LAA,,of,0.400,XXX,,,,N,2011-01-01,2013-01-01,snapshot,518490,10607,search
 Bryce Brentz,LAA,,of,0.500,XXX,,,,N,2014-01-01,2014-01-01,snapshot,518490,10607,search
 Bryce Brentz,LAA,,of,0.500,1st,,,,Y,2015-01-01,2015-01-01,snapshot,518490,10607,search
@@ -3506,7 +3505,7 @@ Conner Capel,MIN,active,of,4.500,V,2024,Yes,,Y,2024-02-19,2025-02-09,snapshot,66
 Yiddi Cappe,ATL,,if,0.550,XXX,,,Yes,N,2022-01-23,2022-11-05,snapshot,691268,sa3015515,search
 Yiddi Cappe,ATL,,if,0.700,XXX,,,,N,2023-01-27,2023-03-13,snapshot,691268,sa3015515,search
 Yiddi Cappe,ATL,reserve,if,0.700,XXX,,,,N,2023-03-22,2024-08-15,snapshot,691268,sa3015515,search
-Yiddi Cappe,WAS,reserve,if,0.700,XXX,,,,N,2025-02-09,current,snapshot,691268,sa3015515,search
+Yiddi Cappe,WAS,reserve,if,0.700,XXX,,,,N,2025-02-09,2026-08-15,snapshot,691268,sa3015515,search
 Carter Capps,STL,,p,0.500,XXX,,,,N,2014-01-01,2014-01-01,snapshot,605169,12803,search
 Carter Capps,STL,,p,0.900,2nd,,,,Y,2015-01-01,2015-01-01,snapshot,605169,12803,search
 Carter Capps,HOU,,p,1.170,3rd,,,,Y,2016-01-01,2016-01-01,snapshot,605169,12803,search
@@ -4360,7 +4359,7 @@ Chris Colabello,MIL,,if,5.123,V,2017,,,Y,2017-01-01,2017-01-01,snapshot,499624,1
 Oscar Colás,BOS,,of,0.700,XXX,,,,N,2023-01-27,2023-02-24,snapshot,693049,30162,search
 Oscar Colás,BOS,,of,0.700,XXX,,,Yes,N,2023-03-12,2023-03-13,snapshot,693049,30162,search
 Oscar Colás,BOS,reserve,of,0.700,XXX,,,Yes,N,2023-03-22,2023-08-23,snapshot,693049,30162,search
-Oscar Colás,BOS,reserve,of,0.700,1st,,,,N,2024-02-19,current,snapshot,693049,30162,search
+Oscar Colás,BOS,reserve,of,0.700,1st,,,,N,2024-02-19,2026-08-15,snapshot,693049,30162,search
 A. J. Cole,TOR,,p,0.400,XXX,,,,N,2011-01-01,2013-01-01,snapshot,595918,11467,search
 A. J. Cole,CHC,,p,0.500,XXX,,,,N,2014-01-01,2014-01-01,snapshot,595918,11467,search
 A. J. Cole,CHC,,p,0.500,1st,,,,Y,2015-01-01,2015-01-01,snapshot,595918,11467,search
@@ -5587,7 +5586,7 @@ Aledmys Díaz,TOR,,if,1.750,V,2023,,,Y,2023-01-27,2023-03-13,snapshot,649557,159
 Aledmys Díaz,TOR,active,if,1.750,V,2023,,,Y,2023-03-22,2023-08-23,snapshot,649557,15937,search
 Alexis Díaz,COL,active,p,7.500,V,2025,,Yes,Y,2023-03-22,2023-08-23,snapshot,664747,21132,search
 Alexis Díaz,COL,active,p,7.500,V,2025,,,Y,2024-02-19,2025-09-01,snapshot,664747,21132,search
-Alexis Díaz,OAK,active,p,1.500,V,2026,,,Y,2026-04-11,current,snapshot,664747,21132,search
+Alexis Díaz,OAK,active,p,1.500,V,2026,,,Y,2026-04-11,2026-08-15,snapshot,664747,21132,search
 Edwin Díaz,OAK,,p,0.500,XXX,,,,N,2014-01-01,2017-01-01,snapshot,621242,14710,search
 Edwin Díaz,OAK,,p,0.650,2nd,,,,Y,2018-01-01,2018-01-01,snapshot,621242,14710,search
 Edwin Díaz,OAK,,p,0.845,3rd,,,,Y,2019-01-01,2019-11-15,snapshot,621242,14710,search
@@ -6954,7 +6953,7 @@ Mike Ford,MIL,,if,1.624,V,2022,Yes,Yes,Y,2021-03-28,2021-12-05,snapshot,645801,1
 Mike Ford,MIL,,if,1.624,V,2022,Yes,,Y,2022-01-07,2022-11-05,snapshot,645801,15585,search
 Walter Ford,BAL,,p,0.550,XXX,,,Yes,N,2022-08-10,2022-11-05,snapshot,703609,sa3022190,search
 Walter Ford,BAL,,p,0.700,XXX,,,,N,2023-01-27,2023-03-13,snapshot,703609,sa3022190,search
-Walter Ford,BAL,reserve,p,0.700,XXX,,,,N,2023-03-22,current,snapshot,703609,sa3022190,search
+Walter Ford,BAL,reserve,p,0.700,XXX,,,,N,2023-03-22,2026-08-15,snapshot,703609,sa3022190,search
 Garret Forrester,ATL,reserve,if,0.700,XXX,,,Yes,N,2023-08-13,2023-08-23,snapshot,807720,sa3022822,search
 Garret Forrester,ATL,reserve,if,0.700,XXX,,,,N,2024-02-19,2024-08-15,snapshot,807720,sa3022822,search
 Garret Forrester,WAS,reserve,if,0.700,XXX,,,,N,2025-02-09,current,snapshot,807720,sa3022822,search
@@ -6964,7 +6963,7 @@ Logan Forsythe,ARI,,if,0.400,XXX,,,,N,2010-01-01,2010-01-01,snapshot,523253,7185
 Logan Forsythe,CHW,,if,0.400,XXX,,,,N,2011-01-01,2011-01-01,snapshot,523253,7185,search
 Logan Forsythe,TOR,,if,0.400,XXX,,,,N,2012-01-01,2013-01-01,snapshot,523253,7185,search
 Logan Forsythe,TOR,,if,0.650,2nd,,,,Y,2014-01-01,2014-01-01,snapshot,523253,7185,search
-Logan Forsythe,CHW,,if,0.910,4th,,,,Y,2015-01-01,2015-01-01,snapshot,523253,7185,search
+Logan Forsythe,CHW,,if,0.910,3rd,,,,Y,2015-01-01,2015-01-01,snapshot,523253,7185,search
 Logan Forsythe,CHW,,if,1.594,4th,,,,Y,2016-01-01,2016-01-01,snapshot,523253,7185,search
 Logan Forsythe,CHW,,if,4.160,5th,,,,Y,2017-01-01,2017-01-01,snapshot,523253,7185,search
 Logan Forsythe,WAS,,if,7.541,6th,,,,Y,2018-01-01,2018-01-01,snapshot,523253,7185,search
@@ -7269,7 +7268,8 @@ Sam Fuld,BAL,,of,2.350,V,2011,,,Y,2011-01-01,2011-01-01,snapshot,453539,8254,sea
 Sam Fuld,SF,,of,1.850,V,2013,Yes,,Y,2013-01-01,2014-01-01,snapshot,453539,8254,search
 Sam Fuld,LAD,,of,1.500,V,2016,,,Y,2016-01-01,2016-01-01,snapshot,453539,8254,search
 Braxton Fulford,TOR,active,c,1.500,V,2025,Yes,,Y,2025-04-11,2026-02-06,snapshot,690924,29704,search
-Braxton Fulford,TOR,active,c,1.500,V,2026,,,Y,2026-03-13,current,snapshot,690924,29704,search
+Braxton Fulford,TOR,active,c,1.500,V,2026,,,Y,2026-03-13,2026-08-15,snapshot,690924,29704,search
+Braxton Fulford,MIL,reserve,c,1.500,V,2026,,,Y,2026-08-16,current,snapshot,690924,29704,search
 Carson Fulmer,CHC,,p,0.500,XXX,,,,N,2015-01-01,2019-11-15,snapshot,608334,18311,search
 Carson Fulmer,CHC,,p,0.715,2nd,,,,Y,2020-01-01,2020-06-14,snapshot,608334,18311,search
 Carson Fulmer,PHI,,p,0.715,2nd,,,,N,2020-06-21,2021-07-30,snapshot,608334,18311,search
@@ -8508,7 +8508,7 @@ Trent Grisham,SF,active,of,4.449,5th,,,,Y,2024-02-19,2024-08-15,snapshot,663757,
 Trent Grisham,SF,active,of,5.520,6th,,,,Y,2025-02-09,2025-09-01,snapshot,663757,18564,search
 Trent Grisham,BOS,active,of,20.000,V,2029,,Y,Y,2026-04-04,current,snapshot,663757,18564,search
 Marquis Grissom,BOS,reserve,p,0.700,XXX,,,Yes,N,2024-08-15,2024-08-15,snapshot,671726,,search
-Marquis Grissom,BOS,reserve,p,0.700,XXX,,,,N,2025-02-09,current,snapshot,671726,,search
+Marquis Grissom,BOS,reserve,p,0.700,XXX,,,,N,2025-02-09,2026-08-15,snapshot,671726,,search
 Vaughn Grissom,SEA,,if,0.550,XXX,,,Yes,N,2021-08-17,2021-12-05,snapshot,687093,26031,search
 Vaughn Grissom,SEA,,if,0.550,XXX,,,,N,2022-01-07,2022-11-05,snapshot,687093,26031,search
 Vaughn Grissom,SEA,,if,0.700,XXX,,,,N,2023-01-27,2023-03-13,snapshot,687093,26031,search
@@ -9331,7 +9331,8 @@ Tink Hence,MIL,,p,0.550,XXX,,,Yes,N,2021-02-25,2021-12-05,snapshot,693311,sa3014
 Tink Hence,MIL,,p,0.550,XXX,,,,N,2022-01-07,2022-11-05,snapshot,693311,sa3014709,search
 Tink Hence,MIL,,p,0.700,XXX,,,,N,2023-01-27,2023-03-13,snapshot,693311,sa3014709,search
 Tink Hence,MIL,reserve,p,0.700,XXX,,,,N,2023-03-22,2024-07-12,snapshot,693311,sa3014709,search
-Tink Hence,TB,reserve,p,0.700,XXX,,,,N,2024-08-15,current,snapshot,693311,sa3014709,search
+Tink Hence,TB,reserve,p,0.700,XXX,,,,N,2024-08-15,2026-08-15,snapshot,693311,sa3014709,search
+Tink Hence,MIL,reserve,p,0.700,XXX,,,,N,2026-08-16,current,snapshot,693311,sa3014709,search
 Gunnar Henderson,SD,,if,0.500,XXX,,,Yes,N,2019-11-15,2019-11-15,snapshot,683002,26289,search
 Gunnar Henderson,SD,,if,0.550,XXX,,,,N,2020-01-01,2020-04-01,snapshot,683002,26289,search
 Gunnar Henderson,TOR,,if,0.550,XXX,,,,N,2020-05-23,2022-11-05,snapshot,683002,26289,search
@@ -10079,7 +10080,7 @@ Spencer Howard,BAL,,p,0.700,XXX,,,,N,2023-01-27,2023-03-13,snapshot,675921,23252
 Spencer Howard,BAL,reserve,p,0.700,XXX,,,,N,2023-03-22,2025-04-16,snapshot,675921,23252,search
 Spencer Howard,BAL,active,p,0.700,XXX-G,,,,Y,2025-07-09,2025-09-01,snapshot,675921,23252,search
 Spencer Howard,BAL,active,p,0.910,2nd,,,,Y,2026-02-06,2026-02-06,snapshot,675921,23252,search
-Spencer Howard,BAL,reserve,p,0.910,2nd,,,,N,2026-03-13,current,snapshot,675921,23252,search
+Spencer Howard,BAL,reserve,p,0.910,2nd,,,,N,2026-03-13,2026-08-15,snapshot,675921,23252,search
 J. P. Howell,SD,,p,0.400,1st,,,,Y,2009-01-01,2009-01-01,snapshot,434442,8245,search
 J. P. Howell,SD,,p,0.600,2nd,,,,Y,2010-01-01,2010-01-01,snapshot,434442,8245,search
 J. P. Howell,SD,,p,1.200,3rd,,,,Y,2011-01-01,2011-01-01,snapshot,434442,8245,search
@@ -11734,7 +11735,7 @@ Michael Kopech,DET,active,p,3.545,CE,2026,,,Y,2025-03-31,2026-04-24,snapshot,656
 Michael Kopech,DET,reserve,p,3.545,CE,2026,,,Y,2026-07-10,current,snapshot,656629,17282,search
 Ronan Kopp,MIL,,p,0.550,XXX,,,Yes,N,2022-08-21,2022-11-05,snapshot,691947,sa3017751,search
 Ronan Kopp,MIL,,p,0.700,XXX,,,,N,2023-01-27,2023-03-13,snapshot,691947,sa3017751,search
-Ronan Kopp,MIL,reserve,p,0.700,XXX,,,,N,2023-03-22,current,snapshot,691947,sa3017751,search
+Ronan Kopp,MIL,reserve,p,0.700,XXX,,,,N,2023-03-22,2026-08-15,snapshot,691947,sa3017751,search
 John Koronka,TEX,,p,0.480,2nd,,,,N,2009-01-01,2011-01-01,snapshot,425655,2130,search
 Joe Koshansky,SEA,,1B,,,,,,,2006-07-01,2006-07-01,inferred_draft,459423,7547,search
 Joe Koshansky,WAS,,if,0.560,2nd,,,,Y,2009-01-01,2009-01-01,snapshot,459423,7547,search
@@ -12085,7 +12086,7 @@ Tommy Layne,TB,,p,1.041,V,2019,Yes,,Y,2020-01-01,2020-01-01,snapshot,518927,7501
 Brandon League,COL,,p,4.500,V,2011,Yes,,Y,2010-01-01,2012-01-01,snapshot,434181,3731,search
 Brandon League,LAD,,p,4.700,V,2015,,,Y,2014-01-01,2015-01-01,snapshot,434181,3731,search
 Kyle Leahy,OAK,reserve,p,1.100,MLI,,,,N,2026-04-24,2026-04-24,snapshot,681517,24763,search
-Kyle Leahy,OAK,reserve,p,0.000,MLI,,,,N,2026-07-28,current,snapshot,681517,24763,search
+Kyle Leahy,OAK,reserve,p,0.000,MLI,,,,N,2026-07-28,2026-08-15,snapshot,681517,24763,search
 Mike Leake,CHC,,p,0.400,XXX,,,,N,2010-01-01,2011-01-01,snapshot,502190,10130,search
 Mike Leake,CHC,,p,0.520,2nd,,,,Y,2012-01-01,2012-01-01,snapshot,502190,10130,search
 Mike Leake,CHC,,p,0.676,3rd,,,,Y,2013-01-01,2013-01-01,snapshot,502190,10130,search
@@ -12235,7 +12236,7 @@ Chris Leroux,TB,,p,1.200,V,2013,Yes,,Y,2013-01-01,2013-01-01,snapshot,460092,764
 Chris Leroux,PHI,,p,1.200,V,2013,Yes,,Y,2014-01-01,2014-01-01,snapshot,460092,7645,search
 Dylan Lesko,CHC,,p,0.550,XXX,,,Yes,N,2022-07-24,2022-11-05,snapshot,702266,sa3020677,search
 Dylan Lesko,CHC,,p,0.700,XXX,,,,N,2023-01-27,2023-03-13,snapshot,702266,sa3020677,search
-Dylan Lesko,CHC,reserve,p,0.700,XXX,,,,N,2023-03-22,current,snapshot,702266,sa3020677,search
+Dylan Lesko,CHC,reserve,p,0.700,XXX,,,,N,2023-03-22,2026-08-15,snapshot,702266,sa3020677,search
 Jon Lester,TOR,,SP,,,,,,,2005-07-01,2005-07-01,inferred_draft,452657,4930,search
 Jon Lester,BAL,,p,0.576,3rd,,,,Y,2009-01-01,2009-01-01,snapshot,452657,4930,search
 Jon Lester,MIL,,p,2.880,4th,,,,Y,2010-01-01,2010-01-01,snapshot,452657,4930,search
@@ -12483,7 +12484,7 @@ Radhames Liz,CHW,,p,0.400,XXX,,,,N,2012-01-01,2012-01-01,snapshot,467785,5843,se
 Radhames Liz,WAS,,p,1.000,V,2015,Yes,,Y,2016-01-01,2016-01-01,snapshot,467785,5843,search
 Victor Lizarraga,BOS,,p,0.550,XXX,,,Yes,N,2022-08-21,2022-11-05,snapshot,694205,sa3015220,search
 Victor Lizarraga,BOS,,p,0.700,XXX,,,,N,2023-01-27,2023-03-13,snapshot,694205,sa3015220,search
-Victor Lizarraga,BOS,reserve,p,0.700,XXX,,,,N,2023-03-22,current,snapshot,694205,sa3015220,search
+Victor Lizarraga,BOS,reserve,p,0.700,XXX,,,,N,2023-03-22,2026-08-15,snapshot,694205,sa3015220,search
 Mauricio Llovera,PHI,active,p,4.000,V,2025,,Yes,Y,2024-04-01,2024-08-15,snapshot,661440,20080,search
 Mauricio Llovera,PHI,active,p,4.000,V,2025,,,Y,2025-02-09,2025-04-16,snapshot,661440,20080,search
 Mauricio Llovera,PHI,reserve,p,4.000,V,2025,,,Y,2025-07-09,2025-07-09,snapshot,661440,20080,search
@@ -13506,7 +13507,7 @@ Orelvis Martinez,TOR,,if,0.550,XXX,,,Yes,N,2020-04-01,2020-11-15,snapshot,682619
 Orelvis Martinez,TOR,,if,0.550,XXX,,,,N,2021-01-13,2022-11-05,snapshot,682619,25967,search
 Orelvis Martinez,TOR,,if,0.700,XXX,,,,N,2023-01-27,2023-03-13,snapshot,682619,25967,search
 Orelvis Martinez,TOR,reserve,if,0.700,XXX,,,,N,2023-03-22,2024-07-12,snapshot,682619,25967,search
-Orelvis Martinez,TB,reserve,if,0.700,XXX,,,,N,2024-08-15,current,snapshot,682619,25967,search
+Orelvis Martinez,TB,reserve,if,0.700,XXX,,,,N,2024-08-15,2026-08-15,snapshot,682619,25967,search
 Pedro Martínez,MIN,,p,4.500,V,2009,Yes,,Y,2010-01-01,2010-01-01,snapshot,118377,200,search
 Pedro Martínez,SF,,p,3.010,V,2011,,,Y,2011-01-01,2011-01-01,snapshot,118377,200,search
 Seth Martinez,PHI,active,p,1.600,V,2023,Yes,,Y,2023-04-01,2024-02-20,snapshot,661527,21045,search
@@ -13597,7 +13598,7 @@ Seuly Matias,OAK,,of,0.550,XXX,,,,N,2020-01-01,2022-11-05,snapshot,665890,sa9170
 Seuly Matias,OAK,,of,0.700,XXX,,,,N,2023-01-27,2023-03-13,snapshot,665890,sa917039,search
 Seuly Matias,OAK,reserve,of,0.700,XXX,,,,N,2023-03-22,2023-06-22,snapshot,665890,sa917039,search
 David Matoma,MIL,reserve,p,0.700,XXX,,,Yes,N,2024-08-15,2024-08-15,snapshot,807968,sa3021761,search
-David Matoma,MIL,reserve,p,0.700,XXX,,,,N,2025-02-09,current,snapshot,807968,sa3021761,search
+David Matoma,MIL,reserve,p,0.700,XXX,,,,N,2025-02-09,2026-08-15,snapshot,807968,sa3021761,search
 Nick Maton,KC,active,if,2.000,V,2024,Yes,Yes,Y,2023-03-22,2023-08-23,snapshot,665155,21635,search
 Nick Maton,KC,active,if,2.000,V,2024,Yes,,Y,2024-02-19,2024-08-15,snapshot,665155,21635,search
 Nick Maton,CLE,active,if,2.000,V,2024,Yes,,Y,2025-02-09,2025-02-09,snapshot,665155,21635,search
@@ -14996,7 +14997,7 @@ Dauri Moreta,CIN,active,p,5.000,V,2028,,Yes,Y,2025-04-06,2025-09-01,snapshot,664
 Dauri Moreta,CIN,active,p,5.000,V,2028,,,Y,2026-02-06,2026-04-24,snapshot,664294,21101,search
 Dauri Moreta,CIN,reserve,p,5.000,V,2028,,,Y,2026-07-10,current,snapshot,664294,21101,search
 Keeler Morfe,TB,reserve,p,0.700,XXX,,,Yes,N,2024-08-15,2024-08-15,snapshot,808323,sa3022239,search
-Keeler Morfe,TB,reserve,p,0.700,XXX,,,,N,2025-02-09,current,snapshot,808323,sa3022239,search
+Keeler Morfe,TB,reserve,p,0.700,XXX,,,,N,2025-02-09,2026-08-15,snapshot,808323,sa3022239,search
 Adam Morgan,CHC,,p,1.500,V,2020,Yes,Yes,Y,2020-04-01,2020-04-01,snapshot,605388,12580,search
 Adam Morgan,CHC,,p,1.500,V,2020,Yes,,Y,2020-05-23,2021-02-25,snapshot,605388,12580,search
 Eli Morgan,CIN,active,p,1.500,V,2025,,,Y,2025-07-09,2025-09-01,snapshot,669212,20203,search
@@ -15679,7 +15680,7 @@ Rodolfo Nolasco,LAD,,of,0.550,XXX,,,Yes,N,2022-02-12,2022-11-05,snapshot,683616,
 Rodolfo Nolasco,LAD,,of,0.700,XXX,,,,N,2023-01-27,2023-03-13,snapshot,683616,sa3008907,search
 Rodolfo Nolasco,LAD,reserve,of,0.700,XXX,,,,N,2023-03-22,2025-09-01,snapshot,683616,sa3008907,search
 Sean Nolin,TEX,,p,0.500,XXX,,,,N,2014-01-01,2019-01-01,snapshot,543594,11341,search
-Lars Nootbaar,TB,,of,0.500,XXX,,,Yes,N,2022-08-21,2022-11-05,snapshot,663457,21454,search
+Lars Nootbaar,TB,,of,0.550,XXX,,,Yes,N,2022-08-21,2022-11-05,snapshot,663457,21454,search
 Lars Nootbaar,TB,,of,0.700,XXX,,,,N,2023-01-27,2023-03-13,snapshot,663457,21454,search
 Lars Nootbaar,TB,reserve,of,0.700,XXX,,,,N,2023-03-22,2023-03-22,snapshot,663457,21454,search
 Lars Nootbaar,TB,active,of,0.700,XXX,,,,N,2023-03-31,2023-08-23,snapshot,663457,21454,search
@@ -17086,7 +17087,7 @@ Josmil Pinto,MIA,,c,0.500,XXX,,,,N,2014-01-01,2016-01-01,snapshot,500887,6806,se
 Josmil Pinto,MIA,,c,0.650,2nd,,,,N,2017-01-01,2018-01-01,snapshot,500887,6806,search
 René Pinto,STL,active,c,3.000,V,2025,Yes,Yes,Y,2024-04-01,2024-08-15,snapshot,650907,19859,search
 René Pinto,STL,active,c,3.000,V,2025,Yes,,Y,2025-02-09,2026-02-06,snapshot,650907,19859,search
-René Pinto,OAK,reserve,c,0.000,MLI,,,,N,2026-04-24,current,snapshot,650907,19859,search
+René Pinto,OAK,reserve,c,0.000,MLI,,,,N,2026-04-24,2026-08-15,snapshot,650907,19859,search
 Renyel Pinto,SEA,,SP,,,,,,,2005-07-01,2005-07-01,inferred_draft,430594,2180,search
 Renyel Pinto,MIA,,p,0.576,3rd,,,,Y,2009-01-01,2009-01-01,snapshot,430594,2180,search
 Renyel Pinto,MIA,,p,1.440,4th,,,,Y,2010-01-01,2010-01-01,snapshot,430594,2180,search
@@ -17257,7 +17258,7 @@ Aaron Poreda,ARI,,p,2.457,5th,,,,Y,2013-01-01,2013-01-01,snapshot,519145,4313,se
 Aaron Poreda,TB,,p,1.000,V,2015,Yes,,Y,2016-01-01,2016-01-01,snapshot,519145,4313,search
 Brock Porter,BOS,,p,0.550,XXX,,,Yes,N,2022-07-24,2022-11-05,snapshot,702548,sa3020708,search
 Brock Porter,BOS,,p,0.700,XXX,,,,N,2023-01-27,2023-03-13,snapshot,702548,sa3020708,search
-Brock Porter,BOS,reserve,p,0.700,XXX,,,,N,2023-03-22,current,snapshot,702548,sa3020708,search
+Brock Porter,BOS,reserve,p,0.700,XXX,,,,N,2023-03-22,2026-08-15,snapshot,702548,sa3020708,search
 Logan Porter,KC,active,c,1.400,V,2023,Yes,,Y,2023-04-01,2023-06-22,snapshot,682515,20626,search
 Logan Porter,KC,reserve,c,1.400,V,2023,Yes,,Y,2023-08-13,2023-08-23,snapshot,682515,20626,search
 Logan Porter,KC,active,c,1.400,V,2023,Yes,,Y,2024-02-19,2024-02-20,snapshot,682515,20626,search
@@ -19333,7 +19334,7 @@ Alex Santos,CLE,reserve,p,0.700,XXX,,,,N,2023-03-22,2024-08-15,snapshot,691012,,
 Alex Santos,KC,reserve,p,0.700,XXX,,,,N,2025-02-09,current,snapshot,691012,,search
 Dahian Santos,TB,,p,0.550,XXX,,,Yes,N,2022-08-21,2022-11-05,snapshot,692479,sa3015282,search
 Dahian Santos,TB,,p,0.700,XXX,,,,N,2023-01-27,2023-03-13,snapshot,692479,sa3015282,search
-Dahian Santos,TB,reserve,p,0.700,XXX,,,,N,2023-03-22,current,snapshot,692479,sa3015282,search
+Dahian Santos,TB,reserve,p,0.700,XXX,,,,N,2023-03-22,2026-08-15,snapshot,692479,sa3015282,search
 Gregory Santos,TB,,p,0.550,XXX,,,Yes,N,2021-02-25,2021-12-05,snapshot,666619,21894,search
 Gregory Santos,TB,,p,0.550,XXX,,,,N,2022-01-07,2022-11-05,snapshot,666619,21894,search
 Gregory Santos,TB,,p,0.700,XXX,,,,N,2023-01-27,2023-03-13,snapshot,666619,21894,search
@@ -19345,7 +19346,7 @@ Junior Santos,ATL,,p,0.500,XXX,,,Yes,N,2019-11-15,2019-11-15,snapshot,681744,sa3
 Junior Santos,ATL,,p,0.550,XXX,,,,N,2020-01-01,2022-11-05,snapshot,681744,sa3005470,search
 Junior Santos,ATL,,p,0.700,XXX,,,,N,2023-01-27,2023-03-13,snapshot,681744,sa3005470,search
 Junior Santos,ATL,reserve,p,0.700,XXX,,,,N,2023-03-22,2024-08-15,snapshot,681744,sa3005470,search
-Junior Santos,WAS,reserve,p,0.700,XXX,,,,N,2025-02-09,current,snapshot,681744,sa3005470,search
+Junior Santos,WAS,reserve,p,0.700,XXX,,,,N,2025-02-09,2026-08-15,snapshot,681744,sa3005470,search
 Sergio Santos,ARI,,if,0.400,XXX,,,,N,2009-01-01,2009-01-01,snapshot,435045,4734,search
 Sergio Santos,ARI,,p,0.400,XXX,,,,N,2010-01-01,2011-01-01,snapshot,435045,4734,search
 Sergio Santos,ARI,,p,0.520,2nd,,,,Y,2012-01-01,2012-01-01,snapshot,435045,4734,search
@@ -20350,7 +20351,7 @@ Anthony Solometo,NYY,reserve,p,0.700,XXX,,,,N,2023-03-22,current,snapshot,696143
 Noah Song,CHC,,p,0.550,XXX,,,Yes,N,2020-07-06,2020-11-15,snapshot,679977,sa3011695,search
 Noah Song,CHC,,p,0.550,XXX,,,,N,2021-01-13,2022-11-05,snapshot,679977,sa3011695,search
 Noah Song,CHC,,p,0.700,XXX,,,,N,2023-01-27,2023-03-13,snapshot,679977,sa3011695,search
-Noah Song,CHC,reserve,p,0.700,XXX,,,,N,2023-03-22,current,snapshot,679977,sa3011695,search
+Noah Song,CHC,reserve,p,0.700,XXX,,,,N,2023-03-22,2026-08-15,snapshot,679977,sa3011695,search
 Sung Mun Song,MIN,active,if,1.400,V,,,,Y,2026-08-03,current,snapshot,823550,,search
 Andy Sonnanstine,CHW,,p,0.560,2nd,,,,Y,2009-01-01,2009-01-01,snapshot,458567,7667,search
 Andy Sonnanstine,NYY,,p,0.728,3rd,,,,Y,2010-01-01,2010-01-01,snapshot,458567,7667,search
@@ -22014,7 +22015,7 @@ Misael Urbina,ATL,,of,0.550,XXX,,,Yes,N,2021-02-25,2021-12-05,snapshot,682618,sa
 Misael Urbina,ATL,,of,0.550,XXX,,,,N,2022-01-07,2022-11-05,snapshot,682618,sa3008743,search
 Misael Urbina,ATL,,of,0.700,XXX,,,,N,2023-01-27,2023-03-13,snapshot,682618,sa3008743,search
 Misael Urbina,ATL,reserve,of,0.700,XXX,,,,N,2023-03-22,2024-08-15,snapshot,682618,sa3008743,search
-Misael Urbina,WAS,reserve,of,0.700,XXX,,,,N,2025-02-09,current,snapshot,682618,sa3008743,search
+Misael Urbina,WAS,reserve,of,0.700,XXX,,,,N,2025-02-09,2026-08-15,snapshot,682618,sa3008743,search
 Engelth Urena,PIT,reserve,c,0.700,XXX,,,Yes,N,2024-08-15,2024-08-15,snapshot,800246,sa3018484,search
 Engelth Urena,PIT,reserve,c,0.700,XXX,,,,N,2025-02-09,current,snapshot,800246,sa3018484,search
 Jhoan Ureña,MIN,,if,0.500,XXX,,,,N,2016-01-01,2018-01-01,snapshot,622561,sa657511,search
@@ -22040,8 +22041,7 @@ Julio Urías,LAA,,p,21.086,CE,2024,,Yes,Y,2022-04-03,2022-11-05,snapshot,628711,
 Julio Urías,LAA,,p,21.086,CE,2024,,,Y,2023-01-27,2023-03-13,snapshot,628711,14765,search
 Julio Urías,LAA,active,p,21.086,CE,2024,,,Y,2023-03-22,2024-08-15,snapshot,628711,14765,search
 Luis Urías,LAA,,if,0.500,XXX,,,,N,2018-01-01,2019-11-15,snapshot,649966,16622,search
-Luis Urías,LAA,,if,0.853,2nd,,,,Y,2020-01-01,2020-11-15,snapshot,649966,16622,search
-Luis Urías,LAA,,if,0.715,2nd,,,,N,2021-01-13,2021-05-09,snapshot,649966,16622,search
+Luis Urías,LAA,,if,0.715,2nd,,,,Y,2020-01-01,2021-05-09,snapshot,649966,16622,search
 Luis Urías,LAA,,if,0.715,2nd-G,,,,Y,2021-05-16,2021-12-05,snapshot,649966,16622,search
 Luis Urías,LAA,,if,0.930,3rd,,,,N,2022-01-07,2022-11-05,snapshot,649966,16622,search
 Luis Urías,LAA,,if,1.755,4th,,,,Y,2023-01-27,2023-03-13,snapshot,649966,16622,search
