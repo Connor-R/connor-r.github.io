@@ -4005,7 +4005,8 @@ Aroldis Chapman,PIT,,p,11.000,V,2022,,,Y,2022-04-03,2022-11-05,snapshot,547973,1
 Aroldis Chapman,COL,active,p,3.877,V,2024,,Yes,Y,2023-03-22,2023-08-23,snapshot,547973,10233,search
 Aroldis Chapman,COL,active,p,3.877,V,2024,,,Y,2024-02-19,2024-08-15,snapshot,547973,10233,search
 Aroldis Chapman,BAL,active,p,8.888,V,2026,Yes,Yes,Y,2025-04-04,2025-09-01,snapshot,547973,10233,search
-Aroldis Chapman,BAL,active,p,8.888,V,2026,Yes,,Y,2026-02-06,current,snapshot,547973,10233,search
+Aroldis Chapman,BAL,active,p,8.888,V,2026,Yes,,Y,2026-02-06,2026-08-16,snapshot,547973,10233,search
+Aroldis Chapman,COL,active,p,8.888,V,2026,Yes,,Y,2026-08-17,current,snapshot,547973,10233,search
 Matt Chapman,NYY,,if,0.500,XXX,,,,N,2015-01-01,2019-11-15,snapshot,656305,16505,search
 Matt Chapman,NYY,,if,1.018,2nd,,,,Y,2020-01-01,2020-04-01,snapshot,656305,16505,search
 Matt Chapman,NYY,,if,1.018,2nd-G,,,,Y,2020-05-23,2020-11-15,snapshot,656305,16505,search
@@ -22142,6 +22143,7 @@ Danny Valencia,SD,,if,0.845,3rd,,,,Y,2016-01-01,2016-01-01,snapshot,502143,6364,
 Danny Valencia,TOR,,if,1.529,4th,,,,Y,2017-01-01,2017-01-01,snapshot,502143,6364,search
 Danny Valencia,WAS,,if,2.384,5th,,,,Y,2018-01-01,2018-01-01,snapshot,502143,6364,search
 Danny Valencia,WAS,,if,3.455,6th,,,,Y,2019-01-01,2019-11-15,snapshot,502143,6364,search
+Eduardo Valencia,TOR,active,c,1.400,V,,,,Y,2026-08-16,current,snapshot,680664,,search
 Javier Valentín,SD,,c,2.750,V,2009,,,Y,2009-01-01,2009-01-01,snapshot,123609,759,search
 Breyvic Valera,MIL,,2B,,,,,,,2018-04-01,2018-04-01,inferred_fa,591971,12758,search
 Breyvic Valera,STL,,if,1.800,V,2021,Yes,Yes,Y,2019-11-15,2019-11-15,snapshot,591971,12758,search
