@@ -1,638 +1,391 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>fantasy_hockey_fuckinghockey - June 21, 2026</title>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/react/18.2.0/umd/react.production.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/react-dom/18.2.0/umd/react-dom.production.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/babel-standalone/7.23.5/babel.min.js"></script>
-    <script src="https://cdn.tailwindcss.com"></script>
-    <style>
-        .truncate-text {
-            color: #2563eb;
-            cursor: pointer;
-            text-decoration: underline;
-        }
-        .text-modal {
-            position: fixed;
-            top: 0;
-            left: 0;
-            right: 0;
-            bottom: 0;
-            background: rgba(0, 0, 0, 0.5);
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            z-index: 1000;
-        }
-        .modal-content {
-            background: white;
-            padding: 20px;
-            border-radius: 8px;
-            max-width: 80%;
-            max-height: 80vh;
-            overflow-y: auto;
-        }
-        .close-button {
-            position: absolute;
-            top: 10px;
-            right: 10px;
-            border: none;
-            background: none;
-            font-size: 20px;
-            cursor: pointer;
-        }
-        .virtual-table {
-            height: 600px;
-            overflow-y: auto;
-        }
-        .overflow-x-auto {
-            overflow-x: auto;
-            max-height: 80vh; /* Limit height and enable scrolling */
-            position: relative; /* Required for sticky positioning context */
-        }
-        /* Sticky column styles */
-        .sticky-column {
-            position: sticky;
-            left: 0;
-            z-index: 15;
-            background-color: white;
-            box-shadow: 2px 0 5px -2px rgba(0,0,0,0.1);
-        }
-        /* Multiple sticky columns */
-        .sticky-column-0 { left: 0; z-index: 20; }
-        .sticky-column-1 { left: var(--sticky-width-0, 150px); z-index: 19; }
-        .sticky-column-2 { left: calc(var(--sticky-width-0, 150px) + var(--sticky-width-1, 150px)); z-index: 18; }
-        .sticky-column-3 { left: calc(var(--sticky-width-0, 150px) + var(--sticky-width-1, 150px) + var(--sticky-width-2, 150px)); z-index: 17; }
-        /* Intersection of sticky row and column */
-        th.sticky-column {
-            z-index: 30;
-            background-color: #f9fafb;
-        }
-        /* Sticky header styles */
-        thead {
-            position: sticky;
-            top: 0;
-            z-index: 10;
-            background-color: #f9fafb; /* bg-gray-50 */
-        }
-        th {
-            position: sticky;
-            top: 0;
-            z-index: 10;
-            background-color: #f9fafb; /* bg-gray-50 */
-            box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.05);
-        }
-    </style>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-8N02F87WCP"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'G-8N02F87WCP');
+</script>
+<title>fuckingHockey - August 18, 2026 (Last Updated Aug 18, 2026)</title>
+<style>
+:root { --border:#d0d4d9; --head:#2c3e50; --headtxt:#fff; --zebra:#f5f7f9; --hover:#eaf2fb; --accent:#2563eb; --rowh:31px; }
+* { box-sizing:border-box; }
+body { margin:0; font:14px/20px -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif; color:#1c2733; background:#fff; -webkit-text-size-adjust:100%; }
+header { padding:14px 18px 10px; }
+h1 { margin:0 0 8px; font-size:19px; font-weight:600; }
+.controls { display:flex; align-items:center; gap:14px; flex-wrap:wrap; }
+#filter { padding:6px 10px; font-size:14px; border:1px solid var(--border); border-radius:6px; width:420px; max-width:90vw; }
+#filter.bad { border-color:#dc2626; outline-color:#dc2626; }
+#count { color:#5b6875; font-size:13px; }
+/* overflow-anchor:none is LOAD-BEARING: scroll anchoring fights a virtual
+   scroller. Chrome sees the top spacer resize, "corrects" scrollTop to keep
+   content stable, that fires scroll -> render -> resize -> correct ... a
+   runaway that accelerates to the bottom on the lightest scroll. */
+#wrap { overflow:auto; overflow-anchor:none; border-top:1px solid var(--border); height:calc(100vh - 86px); position:relative; }
+table { border-collapse:collapse; width:max-content; min-width:100%; }
+/* rows are a FIXED integer height so the spacer math can't drift */
+tbody tr { height:var(--rowh); }
+th, td { height:var(--rowh); padding:5px 12px; border-right:1px solid var(--border); white-space:nowrap; max-width:520px; overflow:hidden; text-overflow:ellipsis; }
+th { position:sticky; top:0; background:var(--head); color:var(--headtxt); cursor:pointer; user-select:none; text-align:left; z-index:2; }
+th .arrow { opacity:.85; font-size:11px; margin-left:5px; }
+td { border-bottom:1px solid #e6e9ec; }
+tbody tr:nth-child(odd) td { background:var(--zebra); }
+tbody tr:hover td { background:var(--hover); }
+td.expandable { color:var(--accent); cursor:pointer; }
+td a { color:var(--accent); text-decoration:none; }
+td a:hover { text-decoration:underline; }
+#overlay { position:fixed; inset:0; background:rgba(0,0,0,.5); display:none; justify-content:center; align-items:center; z-index:10; }
+#overlay .box { background:#fff; border-radius:8px; padding:22px 26px; max-width:72vw; max-height:75vh; overflow:auto; white-space:pre-wrap; font-size:14px; box-shadow:0 8px 40px rgba(0,0,0,.35); }
+</style>
 </head>
-<body class="bg-gray-100 p-8">
-    <div id="root"></div>
+<body>
+<header>
+<h1>fuckingHockey - August 18, 2026 (Last Updated Aug 18, 2026)</h1>
+<div class="controls">
+<input id="filter" type="search" placeholder="filter: text terms, or sql: columnA > X and columnB like '%hi%'" autocomplete="off">
+<span id="count"></span>
+</div>
+</header>
+<div id="wrap">
+<table>
+<thead id="thead"></thead>
+<tbody><tr id="topspace" style="height:0"><td colspan="40" style="height:0;padding:0;border:0"></td></tr></tbody>
+<tbody id="tbody"></tbody>
+<tbody><tr id="botspace" style="height:0"><td colspan="40" style="height:0;padding:0;border:0"></td></tr></tbody>
+</table>
+</div>
+<div id="overlay"><div class="box"></div></div>
+<script id="table-data" type="application/json">{"cols":["year","owner","league_name","Details","finish","pick","W","L","T","PF","PA","Moves","PtsPct","xTitles","xSackos","PF_z","zStrength","xRank","RankDiff","xPtsPct","PtsPctDiff","PA_z","PA_zStrength","xPA","PA_DIFF","draft_z","draft_zStrength","PF+","PA+","seasons","Playoffs","Podiums","Titles","Sackos","std_finish","total_W","total_L","total_PF","total_PA","team_name"],"rows":[["Total","Casey Mangan","fuckingHockey-nhl","Casey Mangan - fuckingHockey (nhl)\n\n#1 (2025, pick #4, 14-5, 0.95 PF_z, 83 zStrength, 105 PF+, 3.3 xRank, 0.17 xTitles, 0.00 xSackos)\n\t-El Paso Rhinos \n\n #5 (2023, pick #2, 56 draft_zStrength, 11-10, 0.39 PF_z, 65 zStrength, 111 PF+, 4.5 xRank, 0.08 xTitles, 0.00 xSackos)\n\t-El Paso Rhinos \n\n #9 (2022, pick #4, 8 draft_zStrength, 4-18, -1.11 PF_z, 13 zStrength, 87 PF+, 8.0 xRank, 0.01 xTitles, 0.15 xSackos)\n\t-El Paso Rhinos \n\n #3 (2021, pick #6, 66 draft_zStrength, 8-5, 0.51 PF_z, 70 zStrength, 107 PF+, 4.3 xRank, 0.10 xTitles, 0.00 xSackos)\n\t-El Paso Rhinos \n\n #1 (2020, pick #2, 68 draft_zStrength, 16-6, 1.38 PF_z, 92 zStrength, 109 PF+, 2.3 xRank, 0.28 xTitles, 0.00 xSackos)\n\t-Swayze Train \n\n #3 (2019, pick #2, 19-3, 1.13 PF_z, 87 zStrength, 120 PF+, 2.9 xRank, 0.21 xTitles, 0.00 xSackos)\n\t-Grittrain \n\n #1 (2018, pick #5, 16-6, 0.84 PF_z, 80 zStrength, 112 PF+, 3.5 xRank, 0.15 xTitles, 0.00 xSackos)\n\t-PK Casetrain \n\n #6 (2017, pick #8, 10-11, 0.64 PF_z, 74 zStrength, 105 PF+, 4.0 xRank, 0.11 xTitles, 0.00 xSackos)\n\t-Casetrain On Ice ","3.6","4.1","12.3","8.0","0.0","3152.8","2918.11","9.5","0.605","1.12","0.16","0.59","70.0","4.1","-0.5","0.572","-0.035","0.18","56.0","2910.7","59.3","-0.1","50.0","107.0","100.0","8 (2017 - 2025)","5.0","5.0","3.0","0.0","2.7","98.0","64.0","25222.4","23344.9","Casetrain On Ice\nPK Casetrain\nGrittrain\nSwayze Train\nEl Paso Rhinos"],["Total","Connor Reed","fuckingHockey-nhl","Connor Reed - fuckingHockey (nhl)\n\n#3 (2025, pick #10, 11-8, 0.75 PF_z, 77 zStrength, 104 PF+, 3.7 xRank, 0.13 xTitles, 0.00 xSackos)\n\t-Sudden Death \n\n #1 (2023, pick #9, 100 draft_zStrength, 18-3, 1.15 PF_z, 88 zStrength, 133 PF+, 2.8 xRank, 0.22 xTitles, 0.00 xSackos)\n\t-Sudden Death \n\n #1 (2022, pick #10, 99 draft_zStrength, 18-4, 1.55 PF_z, 94 zStrength, 118 PF+, 1.9 xRank, 0.34 xTitles, 0.00 xSackos)\n\t-Sudden Death \n\n #1 (2021, pick #4, 90 draft_zStrength, 8-5, 1.03 PF_z, 85 zStrength, 114 PF+, 3.1 xRank, 0.19 xTitles, 0.00 xSackos)\n\t-Sudden Death \n\n #3 (2020, pick #4, 40 draft_zStrength, 15-7, 1.67 PF_z, 95 zStrength, 111 PF+, 1.6 xRank, 0.38 xTitles, 0.00 xSackos)\n\t-Matthew Abraham \n\n #1 (2019, pick #10, 19-3, 1.51 PF_z, 93 zStrength, 126 PF+, 2.0 xRank, 0.32 xTitles, 0.00 xSackos)\n\t-Matthew Abraham \n\n #2 (2018, pick #10, 18-4, 1.36 PF_z, 91 zStrength, 119 PF+, 2.3 xRank, 0.28 xTitles, 0.00 xSackos)\n\t-Matthew Abraham \n\n #1 (2017, pick #10, 18-3, 2.28 PF_z, 99 zStrength, 117 PF+, 0.2 xRank, 0.61 xTitles, 0.00 xSackos)\n\t-Matthew Abraham ","1.6","8.4","15.6","4.6","0.0","3464.8","2886.7","15.75","0.772","2.47","0.0","1.41","90.0","2.2","-0.6","0.671","-0.091","-0.12","47.0","2876.0","85.3","1.54","82.0","118.0","101.0","8 (2017 - 2025)","8.0","8.0","5.0","0.0","0.9","125.0","37.0","27718.4","23093.6","Matthew Abraham\nSudden Death"],["Total","Danny Noonan","fuckingHockey-nhl","Danny Noonan - fuckingHockey (nhl)\n\n#6 (2025, pick #9, 7-12, -0.24 PF_z, 41 zStrength, 99 PF+, 6.0 xRank, 0.03 xTitles, 0.02 xSackos)\n\t-The Hockeyroos \n\n #6 (2023, pick #1, 39 draft_zStrength, 13-8, 0.42 PF_z, 66 zStrength, 112 PF+, 4.5 xRank, 0.08 xTitles, 0.00 xSackos)\n\t-The Hockeyroos \n\n #6 (2022, pick #9, 24 draft_zStrength, 8-14, -0.33 PF_z, 37 zStrength, 96 PF+, 6.2 xRank, 0.03 xTitles, 0.02 xSackos)\n\t-The Hockeyroos \n\n #7 (2021, pick #10, 48 draft_zStrength, 8-5, 0.50 PF_z, 69 zStrength, 107 PF+, 4.3 xRank, 0.09 xTitles, 0.00 xSackos)\n\t-The Hockeyroos \n\n #10 (2020, pick #6, 71 draft_zStrength, 5-17, -1.85 PF_z, 3 zStrength, 88 PF+, 9.7 xRank, 0.00 xTitles, 0.57 xSackos)\n\t-The Hockeyroos \n\n #9 (2019, pick #8, 7-15, -0.17 PF_z, 43 zStrength, 97 PF+, 5.8 xRank, 0.04 xTitles, 0.01 xSackos)\n\t-The Hockeyroos \n\n #5 (2018, pick #6, 13-9, 0.92 PF_z, 82 zStrength, 113 PF+, 3.3 xRank, 0.16 xTitles, 0.00 xSackos)\n\t-The Hockeyroos \n\n #5 (2017, pick #7, 8-13, -0.39 PF_z, 35 zStrength, 97 PF+, 6.3 xRank, 0.03 xTitles, 0.02 xSackos)\n\t-The Hockeyroos ","6.8","7.0","8.6","11.6","0.0","2952.71","2985.68","0.0","0.426","0.47","0.65","-0.14","47.0","5.8","1.0","0.483","0.047","0.43","65.0","2932.9","422.0","-0.12","46.0","101.0","102.0","8 (2017 - 2025)","0.0","0.0","0.0","1.0","1.7","69.0","93.0","23621.7","23885.4","The Hockeyroos"],["Total","Greg Ebert","fuckingHockey-nhl","Greg Ebert - fuckingHockey (nhl)\n\n#10 (2025, pick #5, 7-12, -1.18 PF_z, 12 zStrength, 94 PF+, 8.1 xRank, 0.01 xTitles, 0.18 xSackos)\n\t-tyler edwards \n\n #2 (2023, pick #5, 45 draft_zStrength, 16-5, 0.60 PF_z, 73 zStrength, 117 PF+, 4.1 xRank, 0.11 xTitles, 0.00 xSackos)\n\t-tyler edwards \n\n #5 (2022, pick #2, 41 draft_zStrength, 11-11, -0.17 PF_z, 43 zStrength, 98 PF+, 5.8 xRank, 0.04 xTitles, 0.01 xSackos)\n\t-tyler edwards \n\n #4 (2021, pick #5, 30 draft_zStrength, 9-4, 0.50 PF_z, 69 zStrength, 107 PF+, 4.3 xRank, 0.09 xTitles, 0.00 xSackos)\n\t-tyler edwards \n\n #9 (2020, pick #8, 29 draft_zStrength, 9-13, 0.35 PF_z, 64 zStrength, 102 PF+, 4.6 xRank, 0.08 xTitles, 0.00 xSackos)\n\t-tyler edwards \n\n #6 (2019, pick #1, 10-12, -0.10 PF_z, 46 zStrength, 98 PF+, 5.7 xRank, 0.04 xTitles, 0.01 xSackos)\n\t-tyler edwards \n\n #3 (2018, pick #1, 14-8, 0.64 PF_z, 74 zStrength, 109 PF+, 4.0 xRank, 0.11 xTitles, 0.00 xSackos)\n\t-tyler edwards \n\n #10 (2017, pick #2, 8-13, 0.20 PF_z, 58 zStrength, 102 PF+, 5.0 xRank, 0.06 xTitles, 0.00 xSackos)\n\t-tyler edwards ","6.1","3.6","10.5","9.8","0.0","3030.29","2957.06","0.13","0.519","0.54","0.21","0.11","55.0","5.2","0.9","0.513","-0.013","0.27","52.0","2924.3","262.1","-0.36","36.0","103.0","100.0","8 (2017 - 2025)","3.0","2.0","0.0","2.0","3.0","84.0","78.0","24242.3","23656.5","tyler edwards"],["Total","James McKenna","fuckingHockey-nhl","James McKenna - fuckingHockey (nhl)\n\n#4 (2025, pick #1, 16-3, 1.17 PF_z, 88 zStrength, 106 PF+, 2.8 xRank, 0.22 xTitles, 0.00 xSackos)\n\t-Hotdog Enthusiast \n\n #10 (2023, pick #3, 38 draft_zStrength, 0-21, -2.57 PF_z, 1 zStrength, 27 PF+, 11.3 xRank, 0.00 xTitles, 0.90 xSackos)\n\t-Hotdog Enthusiast \n\n #8 (2022, pick #6, 39 draft_zStrength, 5-17, -0.98 PF_z, 16 zStrength, 88 PF+, 7.7 xRank, 0.01 xTitles, 0.11 xSackos)\n\t-Hotdog Enthusiast \n\n #10 (2021, pick #7, 43 draft_zStrength, 6-7, -0.49 PF_z, 31 zStrength, 93 PF+, 6.6 xRank, 0.02 xTitles, 0.03 xSackos)\n\t-Absolutely Terrible \n\n #6 (2020, pick #3, 35 draft_zStrength, 9-13, -0.60 PF_z, 28 zStrength, 96 PF+, 6.8 xRank, 0.02 xTitles, 0.04 xSackos)\n\t-Absolutely Terrible \n\n #10 (2019, pick #5, 1-21, -2.10 PF_z, 2 zStrength, 64 PF+, 10.2 xRank, 0.00 xTitles, 0.72 xSackos)\n\t-Absolutely Terrible \n\n #7 (2018, pick #2, 9-13, -0.67 PF_z, 25 zStrength, 90 PF+, 7.0 xRank, 0.02 xTitles, 0.05 xSackos)\n\t-Absolutely Terrible \n\n #9 (2017, pick #5, 6-15, -1.66 PF_z, 5 zStrength, 87 PF+, 9.2 xRank, 0.00 xTitles, 0.44 xSackos)\n\t-Absolutely Terrible ","8.0","4.0","6.5","13.8","0.0","2396.08","2945.74","1.0","0.321","0.3","2.29","-0.99","24.0","7.7","0.3","0.381","0.046","-0.4","40.0","2994.8","-392.4","-0.29","39.0","82.0","99.0","8 (2017 - 2025)","1.0","0.0","0.0","3.0","2.1","52.0","110.0","19168.6","23565.9","Absolutely Terrible\nHotdog Enthusiast"],["Total","Kevin Mangan","fuckingHockey-nhl","Kevin Mangan - fuckingHockey (nhl)\n\n#9 (2025, pick #8, 5-14, -1.47 PF_z, 7 zStrength, 93 PF+, 8.8 xRank, 0.01 xTitles, 0.32 xSackos)\n\t-Blades of Glory \n\n #7 (2023, pick #10, 39 draft_zStrength, 13-8, 0.33 PF_z, 63 zStrength, 109 PF+, 4.7 xRank, 0.07 xTitles, 0.00 xSackos)\n\t-Blades of Glory \n\n #2 (2022, pick #5, 86 draft_zStrength, 20-2, 1.59 PF_z, 94 zStrength, 119 PF+, 1.8 xRank, 0.35 xTitles, 0.00 xSackos)\n\t-Blades of Glory \n\n #2 (2021, pick #3, 78 draft_zStrength, 10-3, 1.41 PF_z, 92 zStrength, 119 PF+, 2.2 xRank, 0.29 xTitles, 0.00 xSackos)\n\t-Blades of Glory \n\n #8 (2020, pick #10, 8 draft_zStrength, 8-14, -0.82 PF_z, 21 zStrength, 95 PF+, 7.3 xRank, 0.01 xTitles, 0.07 xSackos)\n\t-Blades of Glory \n\n #2 (2019, pick #3, 17-5, 0.62 PF_z, 73 zStrength, 111 PF+, 4.0 xRank, 0.11 xTitles, 0.00 xSackos)\n\t-Blades of Glory \n\n #4 (2018, pick #4, 17-5, 0.63 PF_z, 74 zStrength, 109 PF+, 4.0 xRank, 0.11 xTitles, 0.00 xSackos)\n\t-Blades of Glory \n\n #7 (2017, pick #9, 6-15, -0.80 PF_z, 21 zStrength, 94 PF+, 7.3 xRank, 0.01 xTitles, 0.07 xSackos)\n\t-Blades of Glory ","5.1","6.5","12.0","8.3","0.0","3089.4","2870.88","8.0","0.593","0.97","0.47","0.18","56.0","5.0","0.1","0.522","-0.072","-0.41","42.0","2917.8","-375.1","0.05","53.0","106.0","99.0","8 (2017 - 2025)","4.0","3.0","0.0","0.0","2.8","96.0","66.0","24715.2","22967.0","Blades of Glory"],["Total","Kyle McNulty","fuckingHockey-nhl","Kyle McNulty - fuckingHockey (nhl)\n\n#2 (2025, pick #7, 10-9, 1.38 PF_z, 92 zStrength, 107 PF+, 2.3 xRank, 0.28 xTitles, 0.00 xSackos)\n\t-I Can't Believe I'm Doing This \n\n #9 (2023, pick #7, 32 draft_zStrength, 5-16, -0.24 PF_z, 40 zStrength, 93 PF+, 6.0 xRank, 0.03 xTitles, 0.02 xSackos)\n\t-I Can't Believe I'm Doing This \n\n #10 (2022, pick #7, 44 draft_zStrength, 8-14, -1.40 PF_z, 8 zStrength, 83 PF+, 8.6 xRank, 0.01 xTitles, 0.28 xSackos)\n\t-I Can't Believe I'm Doing This \n\n #5 (2021, pick #8, 63 draft_zStrength, 8-5, 0.07 PF_z, 53 zStrength, 101 PF+, 5.3 xRank, 0.05 xTitles, 0.01 xSackos)\n\t-I Can't Believe I'm Doing This \n\n #4 (2020, pick #5, 33 draft_zStrength, 12-10, 0.71 PF_z, 76 zStrength, 105 PF+, 3.8 xRank, 0.13 xTitles, 0.00 xSackos)\n\t-I Can't Believe I'm Doing This \n\n #7 (2019, pick #6, 11-11, -0.19 PF_z, 42 zStrength, 97 PF+, 5.9 xRank, 0.04 xTitles, 0.01 xSackos)\n\t-I Can't Believe I'm Doing This \n\n #10 (2018, pick #9, 7-15, -0.52 PF_z, 30 zStrength, 93 PF+, 6.6 xRank, 0.02 xTitles, 0.03 xSackos)\n\t-I Can't Believe I'm Doing This \n\n #2 (2017, pick #1, 13-8, 0.04 PF_z, 52 zStrength, 100 PF+, 5.3 xRank, 0.05 xTitles, 0.01 xSackos)\n\t-I Can't Believe I'm Doing This ","6.1","6.3","9.3","11.0","0.0","2854.59","2977.05","0.63","0.457","0.61","0.36","-0.02","49.0","5.5","0.6","0.498","0.032","0.42","58.0","2943.8","265.7","-0.18","43.0","97.0","101.0","8 (2017 - 2025)","3.0","2.0","0.0","2.0","3.1","74.0","88.0","22836.7","23816.4","I Can't Believe I'm Doing This"],["Total","Matt Abraham","fuckingHockey-nhl","Matt Abraham - fuckingHockey (nhl)\n\n#5 (2025, pick #2, 8-11, -0.31 PF_z, 38 zStrength, 98 PF+, 6.1 xRank, 0.03 xTitles, 0.02 xSackos)\n\t-Team Edwards \n\n #8 (2023, pick #8, 8 draft_zStrength, 3-18, -0.93 PF_z, 18 zStrength, 74 PF+, 7.6 xRank, 0.01 xTitles, 0.10 xSackos)\n\t-Team Edwards \n\n #7 (2022, pick #1, 52 draft_zStrength, 10-12, -0.33 PF_z, 37 zStrength, 96 PF+, 6.2 xRank, 0.03 xTitles, 0.02 xSackos)\n\t-Team Edwards \n\n #8 (2021, pick #9, 60 draft_zStrength, 3-10, -1.40 PF_z, 8 zStrength, 81 PF+, 8.6 xRank, 0.01 xTitles, 0.28 xSackos)\n\t-Team Edwards \n\n #5 (2020, pick #7, 50 draft_zStrength, 11-11, -0.31 PF_z, 38 zStrength, 98 PF+, 6.2 xRank, 0.03 xTitles, 0.02 xSackos)\n\t-The Bros \n\n #4 (2019, pick #4, 12-10, -0.03 PF_z, 49 zStrength, 99 PF+, 5.5 xRank, 0.04 xTitles, 0.01 xSackos)\n\t-The Bros \n\n #8 (2018, pick #3, 3-19, -1.04 PF_z, 15 zStrength, 85 PF+, 7.8 xRank, 0.01 xTitles, 0.13 xSackos)\n\t-The Bros \n\n #8 (2017, pick #6, 11-10, -0.81 PF_z, 21 zStrength, 94 PF+, 7.3 xRank, 0.01 xTitles, 0.07 xSackos)\n\t-Always Sunny In Philadelphia ","6.6","5.0","7.6","12.6","0.0","2683.76","2890.89","1.0","0.377","0.17","0.64","-0.65","28.0","6.9","-0.3","0.422","0.053","-0.64","29.0","2962.8","-575.4","-0.28","43.0","91.0","97.0","8 (2017 - 2025)","1.0","0.0","0.0","0.0","1.6","61.0","101.0","21470.1","23127.1","Always Sunny In Philadelphia\nThe Bros\nTeam Edwards"],["Total","Sean Musser","fuckingHockey-nhl","Sean Musser - fuckingHockey (nhl)\n\n#7 (2025, pick #3, 10-9, 0.18 PF_z, 57 zStrength, 101 PF+, 5.0 xRank, 0.06 xTitles, 0.01 xSackos)\n\t-Oh hey Marleau is back \n\n #3 (2023, pick #6, 39 draft_zStrength, 13-8, 0.42 PF_z, 66 zStrength, 112 PF+, 4.5 xRank, 0.08 xTitles, 0.00 xSackos)\n\t-Oh hey Marleau is back \n\n #3 (2022, pick #8, 39 draft_zStrength, 13-9, 0.65 PF_z, 74 zStrength, 108 PF+, 4.0 xRank, 0.12 xTitles, 0.00 xSackos)\n\t-Oh hey Marleau is back \n\n #9 (2021, pick #2, 0 draft_zStrength, 2-11, -1.99 PF_z, 2 zStrength, 73 PF+, 10.0 xRank, 0.00 xTitles, 0.66 xSackos)\n\t-Oh hey Marleau is back \n\n #7 (2020, pick #9, 99 draft_zStrength, 10-12, -0.31 PF_z, 38 zStrength, 98 PF+, 6.2 xRank, 0.03 xTitles, 0.02 xSackos)\n\t-Marleau you Traderous cunt \n\n #5 (2019, pick #7, 11-11, 0.50 PF_z, 69 zStrength, 109 PF+, 4.3 xRank, 0.09 xTitles, 0.00 xSackos)\n\t-Patrick Marleau Plz come back \n\n #9 (2018, pick #7, 4-18, -1.98 PF_z, 2 zStrength, 72 PF+, 10.0 xRank, 0.00 xTitles, 0.66 xSackos)\n\t-Fuck Patrick Marleau \n\n #4 (2017, pick #3, 13-8, 0.37 PF_z, 65 zStrength, 103 PF+, 4.6 xRank, 0.08 xTitles, 0.00 xSackos)\n\t-The Loydsville Losers ","5.9","5.6","9.5","10.8","0.0","2852.66","2946.36","6.75","0.469","0.47","1.35","-0.27","47.0","6.1","-0.2","0.467","0.012","0.01","49.0","2944.0","18.6","-0.17","44.0","97.0","100.0","8 (2017 - 2025)","3.0","2.0","0.0","0.0","2.3","76.0","86.0","22821.3","23570.9","The Loydsville Losers\nFuck Patrick Marleau\nPatrick Marleau Plz come back\nMarleau you Traderous cunt\nOh hey Marleau is back"],["Total","Tyler Edwards","fuckingHockey-nhl","Tyler Edwards - fuckingHockey (nhl)\n\n#8 (2025, pick #6, 7-12, -1.24 PF_z, 11 zStrength, 94 PF+, 8.3 xRank, 0.01 xTitles, 0.20 xSackos)\n\t-Team Tyler \n\n #4 (2023, pick #4, 60 draft_zStrength, 13-8, 0.42 PF_z, 66 zStrength, 112 PF+, 4.5 xRank, 0.09 xTitles, 0.00 xSackos)\n\t-Team Tyler \n\n #4 (2022, pick #3, 33 draft_zStrength, 13-9, 0.53 PF_z, 70 zStrength, 106 PF+, 4.2 xRank, 0.10 xTitles, 0.00 xSackos)\n\t-Team Tyler \n\n #6 (2021, pick #1, 63 draft_zStrength, 3-10, -0.14 PF_z, 45 zStrength, 98 PF+, 5.8 xRank, 0.04 xTitles, 0.01 xSackos)\n\t-Team Tyler \n\n #2 (2020, pick #1, 28 draft_zStrength, 15-7, -0.22 PF_z, 41 zStrength, 99 PF+, 5.9 xRank, 0.03 xTitles, 0.02 xSackos)\n\t-Team Tyler \n\n #8 (2019, pick #9, 3-19, -1.16 PF_z, 12 zStrength, 80 PF+, 8.1 xRank, 0.01 xTitles, 0.17 xSackos)\n\t-Team Tyler \n\n #6 (2018, pick #8, 9-13, -0.18 PF_z, 43 zStrength, 97 PF+, 5.9 xRank, 0.04 xTitles, 0.01 xSackos)\n\t-Team Edwards \n\n #3 (2017, pick #4, 12-9, 0.13 PF_z, 55 zStrength, 101 PF+, 5.1 xRank, 0.06 xTitles, 0.01 xSackos)\n\t-Team Edwards ","5.1","4.5","9.4","10.9","0.0","2872.05","2970.68","0.75","0.463","0.36","0.42","-0.23","43.0","6.0","-0.8","0.472","0.021","0.27","60.0","2941.9","230.3","-0.11","46.0","98.0","101.0","8 (2017 - 2025)","4.0","2.0","0.0","0.0","2.1","75.0","87.0","22976.4","23765.4","Team Edwards\nTeam Tyler"],["2025","Casey Mangan","fuckingHockey-nhl","","1.0","4.0","14.0","5.0","0.0","2542.6","2272.6","1.0","0.737","0.17","0.0","0.95","83.0","3.3","-2.3","0.615","-0.122","-1.51","7.0","2413.4","-140.8","","","105.0","94.0","","1.0","1.0","1.0","0.0","","","","","","El Paso Rhinos"],["2025","Kyle McNulty","fuckingHockey-nhl","","2.0","7.0","10.0","9.0","0.0","2594.0","2634.7","0.0","0.526","0.28","0.0","1.38","92.0","2.3","-0.3","0.666","0.14","2.43","99.0","2407.7","227.0","","","107.0","109.0","","1.0","1.0","0.0","0.0","","","","","","I Can't Believe I'm Doing This"],["2025","Connor Reed","fuckingHockey-nhl","","3.0","10.0","11.0","8.0","0.0","2518.2","2404.6","0.0","0.579","0.13","0.0","0.75","77.0","3.7","-0.7","0.591","0.012","-0.12","45.0","2416.1","-11.5","","","104.0","100.0","","1.0","1.0","0.0","0.0","","","","","","Sudden Death"],["2025","James McKenna","fuckingHockey-nhl","","4.0","1.0","16.0","3.0","0.0","2568.5","2343.4","1.0","0.842","0.22","0.0","1.17","88.0","2.8","1.2","0.641","-0.201","-0.72","24.0","2410.5","-67.1","","","106.0","97.0","","1.0","0.0","0.0","0.0","","","","","","Hotdog Enthusiast"],["2025","Matt Abraham","fuckingHockey-nhl","","5.0","2.0","8.0","11.0","0.0","2389.0","2391.1","0.0","0.421","0.03","0.02","-0.31","38.0","6.1","-1.1","0.463","0.042","-0.42","34.0","2430.5","-39.4","","","99.0","98.0","","0.0","0.0","0.0","0.0","","","","","","Team Edwards"],["2025","Danny Noonan","fuckingHockey-nhl","","6.0","9.0","7.0","12.0","0.0","2397.2","2521.4","0.0","0.368","0.03","0.02","-0.24","41.0","6.0","0.0","0.471","0.103","0.98","84.0","2429.5","91.9","","","99.0","104.0","","0.0","0.0","0.0","0.0","","","","","","The Hockeyroos"],["2025","Sean Musser","fuckingHockey-nhl","","7.0","3.0","10.0","9.0","0.0","2447.8","2416.2","4.0","0.526","0.06","0.01","0.18","57.0","5.0","2.0","0.521","-0.005","-0.08","47.0","2423.9","-7.7","","","101.0","100.0","","0.0","0.0","0.0","0.0","","","","","","Oh hey Marleau is back"],["2025","Tyler Edwards","fuckingHockey-nhl","","8.0","6.0","7.0","12.0","0.0","2275.8","2431.7","0.0","0.368","0.01","0.2","-1.24","11.0","8.3","-0.3","0.351","-0.018","-0.12","45.0","2443.0","-11.3","","","94.0","100.0","","0.0","0.0","0.0","0.0","","","","","","Team Tyler"],["2025","Kevin Mangan","fuckingHockey-nhl","","9.0","8.0","5.0","14.0","0.0","2247.6","2439.8","0.0","0.263","0.01","0.32","-1.47","7.0","8.8","0.2","0.323","0.06","-0.07","47.0","2446.2","-6.4","","","93.0","100.0","","0.0","0.0","0.0","0.0","","","","","","Blades of Glory"],["2025","Greg Ebert","fuckingHockey-nhl","","10.0","5.0","7.0","12.0","0.0","2282.4","2407.6","0.0","0.368","0.01","0.18","-1.18","12.0","8.1","1.9","0.357","-0.011","-0.37","36.0","2442.3","-34.7","","","94.0","99.0","","0.0","0.0","0.0","1.0","","","","","","tyler edwards"],["2023","Connor Reed","fuckingHockey-nhl","","1.0","9.0","18.0","3.0","0.0","3397.9","2358.8","5.0","0.857","0.22","0.0","1.15","88.0","2.8","-1.8","0.639","-0.218","-1.96","3.0","2465.6","-106.8","2.72","100.0","133.0","96.0","","1.0","1.0","1.0","0.0","","","","","","Sudden Death"],["2023","Greg Ebert","fuckingHockey-nhl","","2.0","5.0","16.0","5.0","0.0","2998.0","2472.6","1.0","0.762","0.11","0.0","0.6","73.0","4.1","-2.1","0.573","-0.189","-0.69","25.0","2510.0","-37.4","-0.12","45.0","117.0","99.0","","1.0","1.0","0.0","0.0","","","","","","tyler edwards"],["2023","Sean Musser","fuckingHockey-nhl","","3.0","6.0","13.0","8.0","0.0","2866.6","2517.2","0.0","0.619","0.08","0.0","0.42","66.0","4.5","-1.5","0.551","-0.068","-0.14","45.0","2524.6","-7.4","-0.27","39.0","112.0","100.0","","1.0","1.0","0.0","0.0","","","","","","Oh hey Marleau is back"],["2023","Tyler Edwards","fuckingHockey-nhl","","4.0","4.0","13.0","8.0","0.0","2867.8","2543.2","2.0","0.619","0.09","0.0","0.42","66.0","4.5","-0.5","0.551","-0.068","0.34","63.0","2524.5","18.7","0.24","60.0","112.0","101.0","","1.0","0.0","0.0","0.0","","","","","","Team Tyler"],["2023","Casey Mangan","fuckingHockey-nhl","","5.0","2.0","11.0","10.0","0.0","2843.0","2587.1","3.0","0.524","0.08","0.0","0.39","65.0","4.5","0.5","0.547","0.023","1.1","86.0","2527.3","59.8","0.15","56.0","111.0","102.0","","0.0","0.0","0.0","0.0","","","","","","El Paso Rhinos"],["2023","Danny Noonan","fuckingHockey-nhl","","6.0","1.0","13.0","8.0","0.0","2865.9","2470.7","0.0","0.619","0.08","0.0","0.42","66.0","4.5","1.5","0.551","-0.068","-0.99","16.0","2524.7","-54.0","-0.27","39.0","112.0","98.0","","0.0","0.0","0.0","0.0","","","","","","The Hockeyroos"],["2023","Kevin Mangan","fuckingHockey-nhl","","7.0","10.0","13.0","8.0","0.0","2795.9","2571.4","7.0","0.619","0.07","0.0","0.33","63.0","4.7","2.3","0.539","-0.08","0.71","76.0","2532.5","38.9","-0.27","39.0","109.0","102.0","","0.0","0.0","0.0","0.0","","","","","","Blades of Glory"],["2023","Matt Abraham","fuckingHockey-nhl","","8.0","8.0","3.0","18.0","0.0","1882.0","2631.8","0.0","0.143","0.01","0.1","-0.93","18.0","7.6","0.4","0.388","0.245","-0.04","48.0","2634.0","-2.2","-1.42","8.0","74.0","100.0","","0.0","0.0","0.0","0.0","","","","","","Team Edwards"],["2023","Kyle McNulty","fuckingHockey-nhl","","9.0","7.0","5.0","16.0","0.0","2381.0","2670.6","0.0","0.238","0.03","0.02","-0.24","40.0","6.0","3.0","0.471","0.232","1.69","95.0","2578.6","92.0","-0.46","32.0","93.0","104.0","","0.0","0.0","0.0","0.0","","","","","","I Can't Believe I'm Doing This"],["2023","James McKenna","fuckingHockey-nhl","","10.0","3.0","0.0","21.0","0.0","690.2","2764.9","0.0","0.0","0.0","0.9","-2.57","1.0","11.3","-1.3","0.19","0.19","-0.03","49.0","2766.5","-1.6","-0.3","38.0","27.0","100.0","","0.0","0.0","0.0","1.0","","","","","","Hotdog Enthusiast"],["2022","Connor Reed","fuckingHockey-nhl","","1.0","10.0","18.0","4.0","0.0","3224.6","2622.8","18.0","0.818","0.34","0.0","1.55","94.0","1.9","-0.9","0.687","-0.131","-0.5","31.0","2665.6","-42.8","2.41","99.0","119.0","98.0","","1.0","1.0","1.0","0.0","","","","","","Sudden Death"],["2022","Kevin Mangan","fuckingHockey-nhl","","2.0","5.0","20.0","2.0","0.0","3237.0","2451.1","15.0","0.909","0.35","0.0","1.59","94.0","1.8","0.2","0.692","-0.217","-2.47","1.0","2664.2","-213.1","1.1","86.0","119.0","92.0","","1.0","1.0","0.0","0.0","","","","","","Blades of Glory"],["2022","Sean Musser","fuckingHockey-nhl","","3.0","8.0","13.0","9.0","0.0","2931.5","2710.4","7.0","0.591","0.12","0.0","0.65","74.0","4.0","-1.0","0.578","-0.013","0.14","56.0","2698.2","12.2","-0.29","39.0","108.0","101.0","","1.0","1.0","0.0","0.0","","","","","","Oh hey Marleau is back"],["2022","Tyler Edwards","fuckingHockey-nhl","","4.0","3.0","13.0","9.0","0.0","2892.3","2773.3","0.0","0.591","0.1","0.0","0.53","70.0","4.2","-0.2","0.564","-0.027","0.82","79.0","2702.5","70.8","-0.44","33.0","106.0","103.0","","1.0","0.0","0.0","0.0","","","","","","Team Tyler"],["2022","Greg Ebert","fuckingHockey-nhl","","5.0","2.0","11.0","11.0","0.0","2666.5","2711.4","0.0","0.5","0.04","0.01","-0.17","43.0","5.8","-0.8","0.48","-0.02","-0.19","43.0","2727.6","-16.2","-0.24","41.0","98.0","99.0","","0.0","0.0","0.0","0.0","","","","","","tyler edwards"],["2022","Danny Noonan","fuckingHockey-nhl","","6.0","9.0","8.0","14.0","0.0","2615.3","2790.2","0.0","0.364","0.03","0.02","-0.33","37.0","6.2","-0.2","0.461","0.097","0.66","75.0","2733.3","56.9","-0.72","24.0","96.0","102.0","","0.0","0.0","0.0","0.0","","","","","","The Hockeyroos"],["2022","Matt Abraham","fuckingHockey-nhl","","7.0","1.0","10.0","12.0","0.0","2613.6","2687.7","0.0","0.455","0.03","0.02","-0.33","37.0","6.2","0.8","0.46","0.005","-0.53","30.0","2733.5","-45.8","0.04","52.0","96.0","98.0","","0.0","0.0","0.0","0.0","","","","","","Team Edwards"],["2022","James McKenna","fuckingHockey-nhl","","8.0","6.0","5.0","17.0","0.0","2404.3","2823.8","0.0","0.227","0.01","0.11","-0.98","16.0","7.7","0.3","0.382","0.155","0.78","78.0","2756.8","67.0","-0.29","39.0","88.0","102.0","","0.0","0.0","0.0","0.0","","","","","","Hotdog Enthusiast"],["2022","Casey Mangan","fuckingHockey-nhl","","9.0","4.0","4.0","18.0","0.0","2362.7","2870.4","9.0","0.182","0.01","0.15","-1.11","13.0","8.0","1.0","0.367","0.185","1.26","90.0","2761.4","109.0","-1.43","8.0","87.0","104.0","","0.0","0.0","0.0","0.0","","","","","","El Paso Rhinos"],["2022","Kyle McNulty","fuckingHockey-nhl","","10.0","7.0","8.0","14.0","0.0","2267.4","2774.1","0.0","0.364","0.01","0.28","-1.4","8.0","8.6","1.4","0.331","-0.032","0.02","51.0","2772.0","2.1","-0.15","44.0","83.0","100.0","","0.0","0.0","0.0","1.0","","","","","","I Can't Believe I'm Doing This"],["2021","Connor Reed","fuckingHockey-nhl","","1.0","4.0","8.0","5.0","0.0","2224.7","2165.6","23.0","0.615","0.19","0.0","1.03","85.0","3.1","-2.1","0.624","0.009","1.77","96.0","1923.8","241.8","1.27","90.0","114.0","113.0","","1.0","1.0","1.0","0.0","","","","","","Sudden Death"],["2021","Kevin Mangan","fuckingHockey-nhl","","2.0","3.0","10.0","3.0","0.0","2324.0","1980.0","15.0","0.769","0.29","0.0","1.41","92.0","2.2","-0.2","0.67","-0.099","0.49","69.0","1912.8","67.2","0.77","78.0","119.0","104.0","","1.0","1.0","0.0","0.0","","","","","","Blades of Glory"],["2021","Casey Mangan","fuckingHockey-nhl","","3.0","6.0","8.0","5.0","0.0","2089.4","2000.7","2.0","0.615","0.1","0.0","0.51","70.0","4.3","-1.3","0.562","-0.053","0.45","67.0","1938.8","61.9","0.42","66.0","107.0","103.0","","1.0","1.0","0.0","0.0","","","","","","El Paso Rhinos"],["2021","Greg Ebert","fuckingHockey-nhl","","4.0","5.0","9.0","4.0","0.0","2086.0","1791.1","0.0","0.692","0.09","0.0","0.5","69.0","4.3","-0.3","0.561","-0.132","-1.09","14.0","1939.2","-148.1","-0.51","30.0","107.0","92.0","","1.0","0.0","0.0","0.0","","","","","","tyler edwards"],["2021","Kyle McNulty","fuckingHockey-nhl","","5.0","8.0","8.0","5.0","0.0","1973.5","1866.6","0.0","0.615","0.05","0.01","0.07","53.0","5.3","-0.3","0.509","-0.106","-0.62","27.0","1951.7","-85.1","0.34","63.0","101.0","96.0","","0.0","0.0","0.0","0.0","","","","","","I Can't Believe I'm Doing This"],["2021","Tyler Edwards","fuckingHockey-nhl","","6.0","1.0","3.0","10.0","0.0","1917.7","2115.2","0.0","0.231","0.04","0.01","-0.14","45.0","5.8","0.2","0.483","0.253","1.15","88.0","1957.9","157.3","0.34","63.0","98.0","108.0","","0.0","0.0","0.0","0.0","","","","","","Team Tyler"],["2021","Danny Noonan","fuckingHockey-nhl","","7.0","10.0","8.0","5.0","0.0","2084.7","2004.2","0.0","0.615","0.09","0.0","0.5","69.0","4.3","2.7","0.56","-0.055","0.47","68.0","1939.4","64.8","-0.04","48.0","107.0","103.0","","0.0","0.0","0.0","0.0","","","","","","The Hockeyroos"],["2021","Matt Abraham","fuckingHockey-nhl","","8.0","9.0","3.0","10.0","0.0","1585.6","1798.3","0.0","0.231","0.01","0.28","-1.4","8.0","8.6","-0.6","0.331","0.1","-1.44","7.0","1994.8","-196.5","0.25","60.0","81.0","90.0","","0.0","0.0","0.0","0.0","","","","","","Team Edwards"],["2021","Sean Musser","fuckingHockey-nhl","","9.0","2.0","2.0","11.0","0.0","1429.5","1861.8","1.0","0.154","0.0","0.66","-1.99","2.0","10.0","-1.0","0.259","0.106","-1.1","14.0","2012.2","-150.4","-2.65","0.0","73.0","93.0","","0.0","0.0","0.0","0.0","","","","","","Oh hey Marleau is back"],["2021","James McKenna","fuckingHockey-nhl","","10.0","7.0","6.0","7.0","0.0","1823.9","1955.5","0.0","0.462","0.02","0.03","-0.49","31.0","6.6","3.4","0.44","-0.021","-0.09","46.0","1968.3","-12.8","-0.19","43.0","93.0","99.0","","0.0","0.0","0.0","1.0","","","","","","Absolutely Terrible"],["2020","Casey Mangan","fuckingHockey-nhl","","1.0","2.0","16.0","6.0","0.0","3848.2","3388.3","10.0","0.727","0.28","0.0","1.38","92.0","2.3","-1.3","0.667","-0.06","-0.88","19.0","3498.0","-109.7","0.46","68.0","109.0","97.0","","1.0","1.0","1.0","0.0","","","","","","Swayze Train"],["2020","Tyler Edwards","fuckingHockey-nhl","","2.0","1.0","15.0","7.0","0.0","3482.4","3410.2","4.0","0.682","0.03","0.02","-0.22","41.0","5.9","-3.9","0.473","-0.209","-1.03","15.0","3538.6","-128.4","-0.58","28.0","99.0","96.0","","1.0","1.0","0.0","0.0","","","","","","Team Tyler"],["2020","Connor Reed","fuckingHockey-nhl","","3.0","4.0","15.0","7.0","0.0","3912.9","3532.8","17.0","0.682","0.38","0.0","1.67","95.0","1.6","1.4","0.701","0.019","0.34","63.0","3490.8","42.0","-0.25","40.0","111.0","101.0","","1.0","1.0","0.0","0.0","","","","","","Matthew Abraham"],["2020","Kyle McNulty","fuckingHockey-nhl","","4.0","5.0","12.0","10.0","0.0","3695.9","3478.4","0.0","0.546","0.13","0.0","0.71","76.0","3.8","0.2","0.586","0.041","-0.29","39.0","3514.9","-36.5","-0.44","33.0","105.0","99.0","","1.0","0.0","0.0","0.0","","","","","","I Can't Believe I'm Doing This"],["2020","Matt Abraham","fuckingHockey-nhl","","5.0","7.0","11.0","11.0","0.0","3461.5","3471.4","0.0","0.5","0.03","0.02","-0.31","38.0","6.2","-1.2","0.462","-0.038","-0.56","29.0","3540.9","-69.5","0.01","50.0","98.0","98.0","","0.0","0.0","0.0","0.0","","","","","","The Bros"],["2020","James McKenna","fuckingHockey-nhl","","6.0","3.0","9.0","13.0","0.0","3397.0","3526.8","0.0","0.409","0.02","0.04","-0.6","28.0","6.8","-0.8","0.428","0.019","-0.17","43.0","3548.1","-21.3","-0.38","35.0","96.0","99.0","","0.0","0.0","0.0","0.0","","","","","","Absolutely Terrible"],["2020","Sean Musser","fuckingHockey-nhl","","7.0","9.0","10.0","12.0","0.0","3462.4","3536.6","4.0","0.455","0.03","0.02","-0.31","38.0","6.2","0.8","0.463","0.008","-0.03","49.0","3540.8","-4.2","2.55","99.0","98.0","100.0","","0.0","0.0","0.0","0.0","","","","","","Marleau you Traderous cunt"],["2020","Kevin Mangan","fuckingHockey-nhl","","8.0","10.0","8.0","14.0","0.0","3346.1","3549.9","3.0","0.364","0.01","0.07","-0.82","21.0","7.3","0.7","0.401","0.037","-0.03","49.0","3553.8","-3.9","-1.39","8.0","95.0","100.0","","0.0","0.0","0.0","0.0","","","","","","Blades of Glory"],["2020","Greg Ebert","fuckingHockey-nhl","","9.0","8.0","9.0","13.0","0.0","3611.9","3870.1","0.0","0.409","0.08","0.0","0.35","64.0","4.6","4.4","0.542","0.133","2.76","100.0","3524.2","345.9","-0.55","29.0","102.0","110.0","","0.0","0.0","0.0","0.0","","","","","","tyler edwards"],["2020","Danny Noonan","fuckingHockey-nhl","","10.0","6.0","5.0","17.0","0.0","3111.6","3565.4","0.0","0.227","0.0","0.57","-1.85","3.0","9.7","0.3","0.277","0.05","-0.12","45.0","3579.8","-14.4","0.56","71.0","88.0","100.0","","0.0","0.0","0.0","1.0","","","","","","The Hockeyroos"],["2019","Connor Reed","fuckingHockey-nhl","","1.0","10.0","19.0","3.0","0.0","4318.7","3329.3","28.0","0.864","0.32","0.0","1.51","93.0","2.0","-1.0","0.682","-0.181","0.04","52.0","3323.4","5.9","","","126.0","100.0","","1.0","1.0","1.0","0.0","","","","","","Matthew Abraham"],["2019","Kevin Mangan","fuckingHockey-nhl","","2.0","3.0","17.0","5.0","0.0","3790.5","3186.4","6.0","0.773","0.11","0.0","0.62","73.0","4.0","-2.0","0.575","-0.198","-1.49","7.0","3382.1","-195.7","","","111.0","94.0","","1.0","1.0","0.0","0.0","","","","","","Blades of Glory"],["2019","Casey Mangan","fuckingHockey-nhl","","3.0","2.0","19.0","3.0","0.0","4092.3","3282.1","13.0","0.864","0.21","0.0","1.13","87.0","2.9","0.1","0.636","-0.228","-0.5","31.0","3348.5","-66.4","","","120.0","98.0","","1.0","1.0","0.0","0.0","","","","","","Grittrain"],["2019","Matt Abraham","fuckingHockey-nhl","","4.0","4.0","12.0","10.0","0.0","3403.0","3365.2","0.0","0.546","0.04","0.01","-0.03","49.0","5.5","-1.5","0.496","-0.05","-0.46","32.0","3425.1","-59.9","","","99.0","98.0","","1.0","0.0","0.0","0.0","","","","","","The Bros"],["2019","Sean Musser","fuckingHockey-nhl","","5.0","7.0","11.0","11.0","0.0","3717.2","3613.0","16.0","0.5","0.09","0.0","0.5","69.0","4.3","0.7","0.56","0.06","1.69","95.0","3390.2","222.8","","","109.0","107.0","","0.0","0.0","0.0","0.0","","","","","","Patrick Marleau Plz come back"],["2019","Greg Ebert","fuckingHockey-nhl","","6.0","1.0","10.0","12.0","0.0","3362.8","3312.2","0.0","0.455","0.04","0.01","-0.1","46.0","5.7","0.3","0.488","0.033","-0.89","19.0","3429.6","-117.4","","","98.0","97.0","","0.0","0.0","0.0","0.0","","","","","","tyler edwards"],["2019","Kyle McNulty","fuckingHockey-nhl","","7.0","6.0","11.0","11.0","0.0","3309.3","3620.8","2.0","0.5","0.04","0.01","-0.19","42.0","5.9","1.1","0.477","-0.023","1.41","92.0","3435.5","185.3","","","97.0","105.0","","0.0","0.0","0.0","0.0","","","","","","I Can't Believe I'm Doing This"],["2019","Tyler Edwards","fuckingHockey-nhl","","8.0","9.0","3.0","19.0","0.0","2734.1","3547.5","0.0","0.136","0.01","0.17","-1.16","12.0","8.1","-0.1","0.36","0.224","0.36","64.0","3499.5","48.0","","","80.0","101.0","","0.0","0.0","0.0","0.0","","","","","","Team Tyler"],["2019","Danny Noonan","fuckingHockey-nhl","","9.0","8.0","7.0","15.0","0.0","3323.2","3538.4","0.0","0.318","0.04","0.01","-0.17","43.0","5.8","3.2","0.48","0.162","0.79","79.0","3434.0","104.4","","","97.0","103.0","","0.0","0.0","0.0","0.0","","","","","","The Hockeyroos"],["2019","James McKenna","fuckingHockey-nhl","","10.0","5.0","1.0","21.0","0.0","2178.1","3434.3","6.0","0.046","0.0","0.72","-2.1","2.0","10.2","-0.2","0.247","0.201","-0.96","17.0","3561.2","-126.9","","","64.0","96.0","","0.0","0.0","0.0","1.0","","","","","","Absolutely Terrible"],["2018","Casey Mangan","fuckingHockey-nhl","","1.0","5.0","16.0","6.0","0.0","3949.3","3523.6","17.0","0.727","0.15","0.0","0.84","80.0","3.5","-2.5","0.601","-0.126","0.35","64.0","3483.8","39.8","","","112.0","101.0","","1.0","1.0","1.0","0.0","","","","","","PK Casetrain"],["2018","Connor Reed","fuckingHockey-nhl","","2.0","10.0","18.0","4.0","0.0","4210.9","3494.1","25.0","0.818","0.28","0.0","1.36","91.0","2.3","-0.3","0.664","-0.154","0.35","64.0","3454.8","39.3","","","119.0","101.0","","1.0","1.0","0.0","0.0","","","","","","Matthew Abraham"],["2018","Greg Ebert","fuckingHockey-nhl","","3.0","1.0","14.0","8.0","0.0","3851.3","3618.7","0.0","0.636","0.11","0.0","0.64","74.0","4.0","-1.0","0.578","-0.059","1.1","86.0","3494.7","124.0","","","109.0","104.0","","1.0","1.0","0.0","0.0","","","","","","tyler edwards"],["2018","Kevin Mangan","fuckingHockey-nhl","","4.0","4.0","17.0","5.0","0.0","3845.9","3363.7","11.0","0.773","0.11","0.0","0.63","74.0","4.0","0.0","0.576","-0.196","-1.17","12.0","3495.3","-131.6","","","109.0","96.0","","1.0","0.0","0.0","0.0","","","","","","Blades of Glory"],["2018","Danny Noonan","fuckingHockey-nhl","","5.0","6.0","13.0","9.0","0.0","3991.1","3607.4","0.0","0.591","0.16","0.0","0.92","82.0","3.3","1.7","0.611","0.02","1.14","87.0","3479.2","128.2","","","113.0","104.0","","0.0","0.0","0.0","0.0","","","","","","The Hockeyroos"],["2018","Tyler Edwards","fuckingHockey-nhl","","6.0","8.0","9.0","13.0","0.0","3440.3","3637.9","0.0","0.409","0.04","0.01","-0.18","43.0","5.9","0.1","0.478","0.069","0.87","81.0","3540.4","97.5","","","97.0","103.0","","0.0","0.0","0.0","0.0","","","","","","Team Edwards"],["2018","James McKenna","fuckingHockey-nhl","","7.0","2.0","9.0","13.0","0.0","3194.4","3319.2","0.0","0.409","0.02","0.05","-0.67","25.0","7.0","0.0","0.419","0.01","-2.21","1.0","3567.7","-248.5","","","91.0","93.0","","0.0","0.0","0.0","0.0","","","","","","Absolutely Terrible"],["2018","Matt Abraham","fuckingHockey-nhl","","8.0","3.0","3.0","19.0","0.0","3008.6","3576.0","1.0","0.136","0.01","0.13","-1.04","15.0","7.8","0.2","0.374","0.238","-0.11","46.0","3588.4","-12.4","","","85.0","100.0","","0.0","0.0","0.0","0.0","","","","","","The Bros"],["2018","Sean Musser","fuckingHockey-nhl","","9.0","7.0","4.0","18.0","0.0","2539.1","3587.0","5.0","0.182","0.0","0.66","-1.98","2.0","10.0","-1.0","0.26","0.079","-0.48","32.0","3640.5","-53.5","","","72.0","99.0","","0.0","0.0","0.0","0.0","","","","","","Fuck Patrick Marleau"],["2018","Kyle McNulty","fuckingHockey-nhl","","10.0","9.0","7.0","15.0","0.0","3272.9","3576.2","0.0","0.318","0.02","0.03","-0.52","30.0","6.6","3.4","0.438","0.12","0.15","56.0","3559.0","17.2","","","93.0","101.0","","0.0","0.0","0.0","1.0","","","","","","I Can't Believe I'm Doing This"],["2017","Connor Reed","fuckingHockey-nhl","","1.0","10.0","18.0","3.0","0.0","3910.5","3185.6","10.0","0.857","0.61","0.0","2.28","99.0","0.2","0.8","0.775","-0.082","-0.88","19.0","3268.2","-82.6","","","117.0","98.0","","1.0","1.0","1.0","0.0","","","","","","Matthew Abraham"],["2017","Kyle McNulty","fuckingHockey-nhl","","2.0","1.0","13.0","8.0","0.0","3342.7","3195.0","3.0","0.619","0.05","0.01","0.04","52.0","5.3","-3.3","0.505","-0.114","-1.45","7.0","3331.3","-136.3","","","100.0","96.0","","1.0","1.0","0.0","0.0","","","","","","I Can't Believe I'm Doing This"],["2017","Tyler Edwards","fuckingHockey-nhl","","3.0","4.0","12.0","9.0","0.0","3366.0","3306.4","0.0","0.571","0.06","0.01","0.13","55.0","5.1","-2.1","0.516","-0.055","-0.24","41.0","3328.7","-22.3","","","101.0","99.0","","1.0","1.0","0.0","0.0","","","","","","Team Edwards"],["2017","Sean Musser","fuckingHockey-nhl","","4.0","3.0","13.0","8.0","0.0","3427.2","3328.7","17.0","0.619","0.08","0.0","0.37","65.0","4.6","-0.6","0.545","-0.074","0.07","53.0","3321.9","6.8","","","103.0","100.0","","1.0","0.0","0.0","0.0","","","","","","The Loydsville Losers"],["2017","Danny Noonan","fuckingHockey-nhl","","5.0","7.0","8.0","13.0","0.0","3232.7","3387.7","0.0","0.381","0.03","0.02","-0.39","35.0","6.3","-1.3","0.453","0.072","0.47","68.0","3343.5","44.2","","","97.0","101.0","","0.0","0.0","0.0","0.0","","","","","","The Hockeyroos"],["2017","Casey Mangan","fuckingHockey-nhl","","6.0","8.0","10.0","11.0","0.0","3494.9","3420.1","21.0","0.476","0.11","0.0","0.64","74.0","4.0","2.0","0.577","0.101","1.13","87.0","3314.4","105.7","","","105.0","103.0","","0.0","0.0","0.0","0.0","","","","","","Casetrain On Ice"],["2017","Kevin Mangan","fuckingHockey-nhl","","7.0","9.0","6.0","15.0","0.0","3128.2","3424.7","7.0","0.286","0.01","0.07","-0.8","21.0","7.3","-0.3","0.403","0.117","0.74","77.0","3355.2","69.5","","","94.0","102.0","","0.0","0.0","0.0","0.0","","","","","","Blades of Glory"],["2017","Matt Abraham","fuckingHockey-nhl","","8.0","6.0","11.0","10.0","0.0","3126.8","3205.6","7.0","0.524","0.01","0.07","-0.81","21.0","7.3","0.7","0.402","-0.122","-1.6","6.0","3355.3","-149.7","","","94.0","96.0","","0.0","0.0","0.0","0.0","","","","","","Always Sunny In Philadelphia"],["2017","James McKenna","fuckingHockey-nhl","","9.0","5.0","6.0","15.0","0.0","2912.2","3398.0","1.0","0.286","0.0","0.44","-1.66","5.0","9.2","-0.2","0.3","0.014","0.2","58.0","3379.2","18.8","","","87.0","101.0","","0.0","0.0","0.0","0.0","","","","","","Absolutely Terrible"],["2017","Greg Ebert","fuckingHockey-nhl","","10.0","2.0","8.0","13.0","0.0","3383.4","3472.8","0.0","0.381","0.06","0.0","0.2","58.0","5.0","5.0","0.524","0.143","1.56","94.0","3326.8","146.0","","","102.0","104.0","","0.0","0.0","0.0","1.0","","","","","","tyler edwards"]],"links":{},"fallbacks":{},"fallbackText":"search","colIndex":{"year":0,"owner":1,"league_name":2,"Details":3,"finish":4,"pick":5,"W":6,"L":7,"T":8,"PF":9,"PA":10,"Moves":11,"PtsPct":12,"xTitles":13,"xSackos":14,"PF_z":15,"zStrength":16,"xRank":17,"RankDiff":18,"xPtsPct":19,"PtsPctDiff":20,"PA_z":21,"PA_zStrength":22,"xPA":23,"PA_DIFF":24,"draft_z":25,"draft_zStrength":26,"PF+":27,"PA+":28,"seasons":29,"Playoffs":30,"Podiums":31,"Titles":32,"Sackos":33,"std_finish":34,"total_W":35,"total_L":36,"total_PF":37,"total_PA":38,"team_name":39}}</script>
+<script>
+'use strict';
+var DATA = JSON.parse(document.getElementById('table-data').textContent);
+var COLS = DATA.cols, ROWS = DATA.rows;
+var LINKS = DATA.links || {}, COLIDX_BY_NAME = DATA.colIndex || {};
+var FALLBACKS = DATA.fallbacks || {}, FALLBACK_TEXT = DATA.fallbackText || '';
+var view = ROWS.map(function(_, i){ return i; });
+var sortCol = -1, sortDir = 0;                       // 0 none, 1 asc, -1 desc
+var ROWH = 30, PAD = 12;                             // row height px (MEASURED at init), render padding rows
+var wrap = document.getElementById('wrap');
+var thead = document.getElementById('thead');
+var tbody = document.getElementById('tbody');
+var topSpace = document.getElementById('topspace');
+var botSpace = document.getElementById('botspace');
+var count = document.getElementById('count');
+// A cell is truncated VISUALLY by css (max-width 520px, ~65 chars) but was
+// only made clickable above 120 chars, so anything between was cut off yet
+// unexpandable. Mark them expandable well below the visual cutoff and don't
+// slice - css adds the ellipsis and the full value stays in the cell.
+var EXPAND_AT = 40;
 
-    <script type="text/babel">
-        // Configuration
-        const initialData = [{"year": "Total", "owner": "Connor Reed", "league_name": "fuckingHockey-nhl", "Details": "Connor Reed - fuckingHockey (nhl)\n\n#3 (2025, 11-8, 0.76 PF_z, 77 zStrength, 104 PF+, 3.7 xRank, 0.13 xTitles, 0.00 xSackos)\n\t-Sudden Death \n\n #1 (2023, 100 draft_zStrength, 18-3, 1.15 PF_z, 88 zStrength, 133 PF+, 2.8 xRank, 0.22 xTitles, 0.00 xSackos)\n\t-Sudden Death \n\n #1 (2022, 99 draft_zStrength, 18-4, 1.55 PF_z, 94 zStrength, 118 PF+, 1.9 xRank, 0.34 xTitles, 0.00 xSackos)\n\t-Sudden Death \n\n #1 (2021, 90 draft_zStrength, 8-5, 1.03 PF_z, 85 zStrength, 114 PF+, 3.1 xRank, 0.19 xTitles, 0.00 xSackos)\n\t-Sudden Death \n\n #3 (2020, 40 draft_zStrength, 15-7, 1.67 PF_z, 95 zStrength, 111 PF+, 1.6 xRank, 0.38 xTitles, 0.00 xSackos)\n\t-Matthew Abraham \n\n #1 (2019, 19-3, 1.51 PF_z, 93 zStrength, 126 PF+, 2.0 xRank, 0.32 xTitles, 0.00 xSackos)\n\t-Matthew Abraham \n\n #2 (2018, 18-4, 1.36 PF_z, 91 zStrength, 119 PF+, 2.3 xRank, 0.28 xTitles, 0.00 xSackos)\n\t-Matthew Abraham \n\n #1 (2017, 18-3, 2.28 PF_z, 99 zStrength, 117 PF+, 0.2 xRank, 0.61 xTitles, 0.00 xSackos)\n\t-Matthew Abraham", "finish": 1.6, "pick": "", "W": 15.6, "L": 4.6, "T": 0.0, "PF": 3464.8, "PA": 2886.7, "Moves": 12.88, "PtsPct": 0.772, "xTitles": 2.47, "xSackos": 0.0, "PF_z": 1.41, "zStrength": 90.0, "xRank": 2.2, "RankDiff": -0.6, "xPtsPct": 0.671, "PtsPctDiff": -0.091, "PA_z": -0.12, "PA_zStrength": 47.0, "xPA": 2876.0, "PA_DIFF": 85.3, "draft_z": 1.54, "draft_zStrength": 82.0, "PF+": 118.0, "PA+": 101.0, "seasons": "8 (2017 - 2025)", "Playoffs": 8.0, "Podiums": 8.0, "Titles": 5.0, "Sackos": 0.0, "std_finish": 0.9, "total_W": 125.0, "total_L": 37.0, "total_PF": 27718.4, "total_PA": 23093.6, "team_name": "Matthew Abraham\nSudden Death"}, {"year": "Total", "owner": "Casey Mangan", "league_name": "fuckingHockey-nhl", "Details": "Casey Mangan - fuckingHockey (nhl)\n\n#1 (2025, 14-5, 0.96 PF_z, 83 zStrength, 105 PF+, 3.3 xRank, 0.17 xTitles, 0.00 xSackos)\n\t-El Paso Rhinos \n\n #5 (2023, 56 draft_zStrength, 11-10, 0.39 PF_z, 65 zStrength, 111 PF+, 4.6 xRank, 0.08 xTitles, 0.00 xSackos)\n\t-El Paso Rhinos \n\n #9 (2022, 8 draft_zStrength, 4-18, -1.11 PF_z, 13 zStrength, 87 PF+, 8.0 xRank, 0.01 xTitles, 0.15 xSackos)\n\t-El Paso Rhinos \n\n #3 (2021, 66 draft_zStrength, 8-5, 0.52 PF_z, 70 zStrength, 107 PF+, 4.3 xRank, 0.10 xTitles, 0.00 xSackos)\n\t-El Paso Rhinos \n\n #1 (2020, 68 draft_zStrength, 16-6, 1.38 PF_z, 92 zStrength, 109 PF+, 2.3 xRank, 0.28 xTitles, 0.00 xSackos)\n\t-Swayze Train \n\n #3 (2019, 19-3, 1.13 PF_z, 87 zStrength, 120 PF+, 2.9 xRank, 0.21 xTitles, 0.00 xSackos)\n\t-Grittrain \n\n #1 (2018, 16-6, 0.84 PF_z, 80 zStrength, 112 PF+, 3.5 xRank, 0.15 xTitles, 0.00 xSackos)\n\t-PK Casetrain \n\n #6 (2017, 10-11, 0.64 PF_z, 74 zStrength, 105 PF+, 4.0 xRank, 0.11 xTitles, 0.00 xSackos)\n\t-Casetrain On Ice", "finish": 3.6, "pick": "", "W": 12.3, "L": 8.0, "T": 0.0, "PF": 3152.8, "PA": 2918.11, "Moves": 7.38, "PtsPct": 0.605, "xTitles": 1.12, "xSackos": 0.16, "PF_z": 0.59, "zStrength": 71.0, "xRank": 4.1, "RankDiff": -0.5, "xPtsPct": 0.572, "PtsPctDiff": -0.035, "PA_z": 0.18, "PA_zStrength": 56.0, "xPA": 2910.7, "PA_DIFF": 59.3, "draft_z": -0.1, "draft_zStrength": 50.0, "PF+": 107.0, "PA+": 100.0, "seasons": "8 (2017 - 2025)", "Playoffs": 5.0, "Podiums": 5.0, "Titles": 3.0, "Sackos": 0.0, "std_finish": 2.7, "total_W": 98.0, "total_L": 64.0, "total_PF": 25222.4, "total_PA": 23344.9, "team_name": "Casetrain On Ice\nPK Casetrain\nGrittrain\nSwayze Train\nEl Paso Rhinos"}, {"year": "Total", "owner": "Kevin Mangan", "league_name": "fuckingHockey-nhl", "Details": "Kevin Mangan - fuckingHockey (nhl)\n\n#9 (2025, 5-14, -1.47 PF_z, 7 zStrength, 93 PF+, 8.8 xRank, 0.01 xTitles, 0.32 xSackos)\n\t-Blades of Glory \n\n #7 (2023, 39 draft_zStrength, 13-8, 0.33 PF_z, 63 zStrength, 109 PF+, 4.7 xRank, 0.07 xTitles, 0.00 xSackos)\n\t-Blades of Glory \n\n #2 (2022, 86 draft_zStrength, 20-2, 1.59 PF_z, 94 zStrength, 119 PF+, 1.8 xRank, 0.35 xTitles, 0.00 xSackos)\n\t-Blades of Glory \n\n #2 (2021, 78 draft_zStrength, 10-3, 1.41 PF_z, 92 zStrength, 119 PF+, 2.2 xRank, 0.29 xTitles, 0.00 xSackos)\n\t-Blades of Glory \n\n #8 (2020, 8 draft_zStrength, 8-14, -0.82 PF_z, 21 zStrength, 95 PF+, 7.3 xRank, 0.01 xTitles, 0.07 xSackos)\n\t-Blades of Glory \n\n #2 (2019, 17-5, 0.62 PF_z, 73 zStrength, 111 PF+, 4.0 xRank, 0.11 xTitles, 0.00 xSackos)\n\t-Blades of Glory \n\n #4 (2018, 17-5, 0.63 PF_z, 74 zStrength, 109 PF+, 4.0 xRank, 0.11 xTitles, 0.00 xSackos)\n\t-Blades of Glory \n\n #7 (2017, 6-15, -0.81 PF_z, 21 zStrength, 94 PF+, 7.3 xRank, 0.01 xTitles, 0.07 xSackos)\n\t-Blades of Glory", "finish": 5.1, "pick": "", "W": 12.0, "L": 8.3, "T": 0.0, "PF": 3089.4, "PA": 2870.88, "Moves": 6.63, "PtsPct": 0.593, "xTitles": 0.97, "xSackos": 0.47, "PF_z": 0.19, "zStrength": 56.0, "xRank": 5.0, "RankDiff": 0.1, "xPtsPct": 0.522, "PtsPctDiff": -0.072, "PA_z": -0.41, "PA_zStrength": 42.0, "xPA": 2917.8, "PA_DIFF": -375.1, "draft_z": 0.05, "draft_zStrength": 53.0, "PF+": 106.0, "PA+": 99.0, "seasons": "8 (2017 - 2025)", "Playoffs": 4.0, "Podiums": 3.0, "Titles": 0.0, "Sackos": 0.0, "std_finish": 2.8, "total_W": 96.0, "total_L": 66.0, "total_PF": 24715.2, "total_PA": 22967.0, "team_name": "Blades of Glory"}, {"year": "Total", "owner": "Tyler Edwards", "league_name": "fuckingHockey-nhl", "Details": "Tyler Edwards - fuckingHockey (nhl)\n\n#8 (2025, 7-12, -1.24 PF_z, 11 zStrength, 94 PF+, 8.3 xRank, 0.01 xTitles, 0.20 xSackos)\n\t-Team Tyler \n\n #4 (2023, 60 draft_zStrength, 13-8, 0.42 PF_z, 66 zStrength, 112 PF+, 4.5 xRank, 0.09 xTitles, 0.00 xSackos)\n\t-Team Tyler \n\n #4 (2022, 33 draft_zStrength, 13-9, 0.53 PF_z, 70 zStrength, 106 PF+, 4.2 xRank, 0.10 xTitles, 0.00 xSackos)\n\t-Team Tyler \n\n #6 (2021, 63 draft_zStrength, 3-10, -0.14 PF_z, 45 zStrength, 98 PF+, 5.8 xRank, 0.04 xTitles, 0.01 xSackos)\n\t-Team Tyler \n\n #2 (2020, 28 draft_zStrength, 15-7, -0.22 PF_z, 41 zStrength, 99 PF+, 6.0 xRank, 0.03 xTitles, 0.02 xSackos)\n\t-Team Tyler \n\n #8 (2019, 3-19, -1.16 PF_z, 12 zStrength, 80 PF+, 8.1 xRank, 0.01 xTitles, 0.17 xSackos)\n\t-Team Tyler \n\n #6 (2018, 9-13, -0.18 PF_z, 43 zStrength, 97 PF+, 5.9 xRank, 0.04 xTitles, 0.01 xSackos)\n\t-Team Edwards \n\n #3 (2017, 12-9, 0.13 PF_z, 55 zStrength, 101 PF+, 5.1 xRank, 0.06 xTitles, 0.01 xSackos)\n\t-Team Edwards", "finish": 5.1, "pick": "", "W": 9.4, "L": 10.9, "T": 0.0, "PF": 2872.05, "PA": 2970.68, "Moves": 0.75, "PtsPct": 0.463, "xTitles": 0.36, "xSackos": 0.42, "PF_z": -0.23, "zStrength": 43.0, "xRank": 6.0, "RankDiff": -0.8, "xPtsPct": 0.472, "PtsPctDiff": 0.021, "PA_z": 0.27, "PA_zStrength": 60.0, "xPA": 2941.9, "PA_DIFF": 230.3, "draft_z": -0.11, "draft_zStrength": 46.0, "PF+": 98.0, "PA+": 101.0, "seasons": "8 (2017 - 2025)", "Playoffs": 4.0, "Podiums": 2.0, "Titles": 0.0, "Sackos": 0.0, "std_finish": 2.1, "total_W": 75.0, "total_L": 87.0, "total_PF": 22976.4, "total_PA": 23765.4, "team_name": "Team Edwards\nTeam Tyler"}, {"year": "Total", "owner": "Sean Musser", "league_name": "fuckingHockey-nhl", "Details": "Sean Musser - fuckingHockey (nhl)\n\n#7 (2025, 10-9, 0.18 PF_z, 57 zStrength, 101 PF+, 5.0 xRank, 0.06 xTitles, 0.01 xSackos)\n\t-Oh hey Marleau is back \n\n #3 (2023, 39 draft_zStrength, 13-8, 0.42 PF_z, 66 zStrength, 112 PF+, 4.5 xRank, 0.08 xTitles, 0.00 xSackos)\n\t-Oh hey Marleau is back \n\n #3 (2022, 39 draft_zStrength, 13-9, 0.65 PF_z, 74 zStrength, 108 PF+, 4.0 xRank, 0.12 xTitles, 0.00 xSackos)\n\t-Oh hey Marleau is back \n\n #9 (2021, 0 draft_zStrength, 2-11, -1.99 PF_z, 2 zStrength, 73 PF+, 10.0 xRank, 0.00 xTitles, 0.66 xSackos)\n\t-Oh hey Marleau is back \n\n #7 (2020, 99 draft_zStrength, 10-12, -0.31 PF_z, 38 zStrength, 98 PF+, 6.2 xRank, 0.03 xTitles, 0.02 xSackos)\n\t-Marleau you Traderous cunt \n\n #5 (2019, 11-11, 0.50 PF_z, 69 zStrength, 109 PF+, 4.3 xRank, 0.09 xTitles, 0.00 xSackos)\n\t-Patrick Marleau Plz come back \n\n #9 (2018, 4-18, -1.98 PF_z, 2 zStrength, 72 PF+, 10.0 xRank, 0.00 xTitles, 0.66 xSackos)\n\t-Fuck Patrick Marleau \n\n #4 (2017, 13-8, 0.37 PF_z, 65 zStrength, 103 PF+, 4.6 xRank, 0.08 xTitles, 0.00 xSackos)\n\t-The Loydsville Losers", "finish": 5.9, "pick": "", "W": 9.5, "L": 10.8, "T": 0.0, "PF": 2852.66, "PA": 2946.36, "Moves": 6.38, "PtsPct": 0.469, "xTitles": 0.47, "xSackos": 1.35, "PF_z": -0.27, "zStrength": 47.0, "xRank": 6.1, "RankDiff": -0.2, "xPtsPct": 0.467, "PtsPctDiff": 0.012, "PA_z": 0.01, "PA_zStrength": 49.0, "xPA": 2944.0, "PA_DIFF": 18.6, "draft_z": -0.16, "draft_zStrength": 44.0, "PF+": 97.0, "PA+": 100.0, "seasons": "8 (2017 - 2025)", "Playoffs": 3.0, "Podiums": 2.0, "Titles": 0.0, "Sackos": 0.0, "std_finish": 2.3, "total_W": 76.0, "total_L": 86.0, "total_PF": 22821.3, "total_PA": 23570.9, "team_name": "The Loydsville Losers\nFuck Patrick Marleau\nPatrick Marleau Plz come back\nMarleau you Traderous cunt\nOh hey Marleau is back"}, {"year": "Total", "owner": "Greg Ebert", "league_name": "fuckingHockey-nhl", "Details": "Greg Ebert - fuckingHockey (nhl)\n\n#10 (2025, 7-12, -1.18 PF_z, 12 zStrength, 94 PF+, 8.2 xRank, 0.01 xTitles, 0.18 xSackos)\n\t-tyler edwards \n\n #2 (2023, 45 draft_zStrength, 16-5, 0.60 PF_z, 73 zStrength, 117 PF+, 4.1 xRank, 0.11 xTitles, 0.00 xSackos)\n\t-tyler edwards \n\n #5 (2022, 41 draft_zStrength, 11-11, -0.17 PF_z, 43 zStrength, 98 PF+, 5.8 xRank, 0.04 xTitles, 0.01 xSackos)\n\t-tyler edwards \n\n #4 (2021, 30 draft_zStrength, 9-4, 0.50 PF_z, 69 zStrength, 107 PF+, 4.3 xRank, 0.09 xTitles, 0.00 xSackos)\n\t-tyler edwards \n\n #9 (2020, 29 draft_zStrength, 9-13, 0.35 PF_z, 64 zStrength, 102 PF+, 4.7 xRank, 0.08 xTitles, 0.00 xSackos)\n\t-tyler edwards \n\n #6 (2019, 10-12, -0.10 PF_z, 46 zStrength, 98 PF+, 5.7 xRank, 0.04 xTitles, 0.01 xSackos)\n\t-tyler edwards \n\n #3 (2018, 14-8, 0.64 PF_z, 74 zStrength, 109 PF+, 4.0 xRank, 0.11 xTitles, 0.00 xSackos)\n\t-tyler edwards \n\n #10 (2017, 8-13, 0.20 PF_z, 58 zStrength, 102 PF+, 5.0 xRank, 0.06 xTitles, 0.00 xSackos)\n\t-tyler edwards", "finish": 6.1, "pick": "", "W": 10.5, "L": 9.8, "T": 0.0, "PF": 3030.29, "PA": 2957.06, "Moves": 0.13, "PtsPct": 0.519, "xTitles": 0.54, "xSackos": 0.21, "PF_z": 0.11, "zStrength": 55.0, "xRank": 5.2, "RankDiff": 0.9, "xPtsPct": 0.513, "PtsPctDiff": -0.013, "PA_z": 0.27, "PA_zStrength": 52.0, "xPA": 2924.3, "PA_DIFF": 262.1, "draft_z": -0.36, "draft_zStrength": 36.0, "PF+": 103.0, "PA+": 100.0, "seasons": "8 (2017 - 2025)", "Playoffs": 3.0, "Podiums": 2.0, "Titles": 0.0, "Sackos": 2.0, "std_finish": 3.0, "total_W": 84.0, "total_L": 78.0, "total_PF": 24242.3, "total_PA": 23656.5, "team_name": "tyler edwards"}, {"year": "Total", "owner": "Kyle McNulty", "league_name": "fuckingHockey-nhl", "Details": "Kyle McNulty - fuckingHockey (nhl)\n\n#2 (2025, 10-9, 1.38 PF_z, 92 zStrength, 107 PF+, 2.3 xRank, 0.28 xTitles, 0.00 xSackos)\n\t-I Can't Believe I'm Doing This \n\n #9 (2023, 32 draft_zStrength, 5-16, -0.24 PF_z, 40 zStrength, 93 PF+, 6.0 xRank, 0.03 xTitles, 0.02 xSackos)\n\t-I Can't Believe I'm Doing This \n\n #10 (2022, 44 draft_zStrength, 8-14, -1.40 PF_z, 8 zStrength, 83 PF+, 8.6 xRank, 0.01 xTitles, 0.28 xSackos)\n\t-I Can't Believe I'm Doing This \n\n #5 (2021, 63 draft_zStrength, 8-5, 0.07 PF_z, 53 zStrength, 101 PF+, 5.3 xRank, 0.05 xTitles, 0.01 xSackos)\n\t-I Can't Believe I'm Doing This \n\n #4 (2020, 33 draft_zStrength, 12-10, 0.71 PF_z, 76 zStrength, 105 PF+, 3.8 xRank, 0.13 xTitles, 0.00 xSackos)\n\t-I Can't Believe I'm Doing This \n\n #7 (2019, 11-11, -0.19 PF_z, 42 zStrength, 97 PF+, 5.9 xRank, 0.04 xTitles, 0.01 xSackos)\n\t-I Can't Believe I'm Doing This \n\n #10 (2018, 7-15, -0.52 PF_z, 30 zStrength, 93 PF+, 6.6 xRank, 0.02 xTitles, 0.03 xSackos)\n\t-I Can't Believe I'm Doing This \n\n #2 (2017, 13-8, 0.04 PF_z, 52 zStrength, 100 PF+, 5.4 xRank, 0.05 xTitles, 0.01 xSackos)\n\t-I Can't Believe I'm Doing This", "finish": 6.1, "pick": "", "W": 9.3, "L": 11.0, "T": 0.0, "PF": 2854.59, "PA": 2977.05, "Moves": 0.63, "PtsPct": 0.457, "xTitles": 0.61, "xSackos": 0.36, "PF_z": -0.02, "zStrength": 49.0, "xRank": 5.5, "RankDiff": 0.6, "xPtsPct": 0.498, "PtsPctDiff": 0.032, "PA_z": 0.42, "PA_zStrength": 58.0, "xPA": 2943.8, "PA_DIFF": 265.7, "draft_z": -0.18, "draft_zStrength": 43.0, "PF+": 97.0, "PA+": 101.0, "seasons": "8 (2017 - 2025)", "Playoffs": 3.0, "Podiums": 2.0, "Titles": 0.0, "Sackos": 2.0, "std_finish": 3.1, "total_W": 74.0, "total_L": 88.0, "total_PF": 22836.7, "total_PA": 23816.4, "team_name": "I Can't Believe I'm Doing This"}, {"year": "Total", "owner": "Matt Abraham", "league_name": "fuckingHockey-nhl", "Details": "Matt Abraham - fuckingHockey (nhl)\n\n#5 (2025, 8-11, -0.31 PF_z, 38 zStrength, 98 PF+, 6.1 xRank, 0.03 xTitles, 0.02 xSackos)\n\t-Team Edwards \n\n #8 (2023, 8 draft_zStrength, 3-18, -0.93 PF_z, 18 zStrength, 74 PF+, 7.6 xRank, 0.01 xTitles, 0.10 xSackos)\n\t-Team Edwards \n\n #7 (2022, 52 draft_zStrength, 10-12, -0.33 PF_z, 37 zStrength, 96 PF+, 6.2 xRank, 0.03 xTitles, 0.02 xSackos)\n\t-Team Edwards \n\n #8 (2021, 60 draft_zStrength, 3-10, -1.40 PF_z, 8 zStrength, 81 PF+, 8.7 xRank, 0.01 xTitles, 0.28 xSackos)\n\t-Team Edwards \n\n #5 (2020, 50 draft_zStrength, 11-11, -0.31 PF_z, 38 zStrength, 98 PF+, 6.2 xRank, 0.03 xTitles, 0.02 xSackos)\n\t-The Bros \n\n #4 (2019, 12-10, -0.03 PF_z, 49 zStrength, 99 PF+, 5.5 xRank, 0.04 xTitles, 0.01 xSackos)\n\t-The Bros \n\n #8 (2018, 3-19, -1.04 PF_z, 15 zStrength, 85 PF+, 7.8 xRank, 0.01 xTitles, 0.13 xSackos)\n\t-The Bros \n\n #8 (2017, 11-10, -0.81 PF_z, 21 zStrength, 94 PF+, 7.3 xRank, 0.01 xTitles, 0.07 xSackos)\n\t-Always Sunny In Philadelphia", "finish": 6.6, "pick": "", "W": 7.6, "L": 12.6, "T": 0.0, "PF": 2683.76, "PA": 2890.89, "Moves": 0.88, "PtsPct": 0.377, "xTitles": 0.17, "xSackos": 0.64, "PF_z": -0.65, "zStrength": 28.0, "xRank": 6.9, "RankDiff": -0.3, "xPtsPct": 0.422, "PtsPctDiff": 0.053, "PA_z": -0.64, "PA_zStrength": 29.0, "xPA": 2962.8, "PA_DIFF": -575.4, "draft_z": -0.28, "draft_zStrength": 43.0, "PF+": 91.0, "PA+": 97.0, "seasons": "8 (2017 - 2025)", "Playoffs": 1.0, "Podiums": 0.0, "Titles": 0.0, "Sackos": 0.0, "std_finish": 1.6, "total_W": 61.0, "total_L": 101.0, "total_PF": 21470.1, "total_PA": 23127.1, "team_name": "Always Sunny In Philadelphia\nThe Bros\nTeam Edwards"}, {"year": "Total", "owner": "Danny Noonan", "league_name": "fuckingHockey-nhl", "Details": "Danny Noonan - fuckingHockey (nhl)\n\n#6 (2025, 7-12, -0.24 PF_z, 41 zStrength, 99 PF+, 6.0 xRank, 0.03 xTitles, 0.02 xSackos)\n\t-The Hockeyroos \n\n #6 (2023, 39 draft_zStrength, 13-8, 0.42 PF_z, 66 zStrength, 112 PF+, 4.5 xRank, 0.08 xTitles, 0.00 xSackos)\n\t-The Hockeyroos \n\n #6 (2022, 24 draft_zStrength, 8-14, -0.33 PF_z, 37 zStrength, 96 PF+, 6.2 xRank, 0.03 xTitles, 0.02 xSackos)\n\t-The Hockeyroos \n\n #7 (2021, 48 draft_zStrength, 8-5, 0.50 PF_z, 69 zStrength, 107 PF+, 4.3 xRank, 0.09 xTitles, 0.00 xSackos)\n\t-The Hockeyroos \n\n #10 (2020, 71 draft_zStrength, 5-17, -1.85 PF_z, 3 zStrength, 88 PF+, 9.7 xRank, 0.00 xTitles, 0.57 xSackos)\n\t-The Hockeyroos \n\n #9 (2019, 7-15, -0.17 PF_z, 43 zStrength, 97 PF+, 5.8 xRank, 0.04 xTitles, 0.01 xSackos)\n\t-The Hockeyroos \n\n #5 (2018, 13-9, 0.92 PF_z, 82 zStrength, 113 PF+, 3.3 xRank, 0.17 xTitles, 0.00 xSackos)\n\t-The Hockeyroos \n\n #5 (2017, 8-13, -0.39 PF_z, 35 zStrength, 97 PF+, 6.3 xRank, 0.03 xTitles, 0.02 xSackos)\n\t-The Hockeyroos", "finish": 6.8, "pick": "", "W": 8.6, "L": 11.6, "T": 0.0, "PF": 2952.71, "PA": 2985.68, "Moves": 0.0, "PtsPct": 0.426, "xTitles": 0.47, "xSackos": 0.65, "PF_z": -0.14, "zStrength": 47.0, "xRank": 5.8, "RankDiff": 1.0, "xPtsPct": 0.483, "PtsPctDiff": 0.047, "PA_z": 0.43, "PA_zStrength": 65.0, "xPA": 2932.9, "PA_DIFF": 422.0, "draft_z": -0.12, "draft_zStrength": 46.0, "PF+": 101.0, "PA+": 102.0, "seasons": "8 (2017 - 2025)", "Playoffs": 0.0, "Podiums": 0.0, "Titles": 0.0, "Sackos": 1.0, "std_finish": 1.7, "total_W": 69.0, "total_L": 93.0, "total_PF": 23621.7, "total_PA": 23885.4, "team_name": "The Hockeyroos"}, {"year": "Total", "owner": "James McKenna", "league_name": "fuckingHockey-nhl", "Details": "James McKenna - fuckingHockey (nhl)\n\n#4 (2025, 16-3, 1.17 PF_z, 88 zStrength, 106 PF+, 2.8 xRank, 0.22 xTitles, 0.00 xSackos)\n\t-Hotdog Enthusiast \n\n #10 (2023, 38 draft_zStrength, 0-21, -2.57 PF_z, 1 zStrength, 27 PF+, 11.3 xRank, 0.00 xTitles, 0.90 xSackos)\n\t-Hotdog Enthusiast \n\n #8 (2022, 39 draft_zStrength, 5-17, -0.98 PF_z, 16 zStrength, 88 PF+, 7.7 xRank, 0.01 xTitles, 0.11 xSackos)\n\t-Hotdog Enthusiast \n\n #10 (2021, 43 draft_zStrength, 6-7, -0.49 PF_z, 31 zStrength, 93 PF+, 6.6 xRank, 0.02 xTitles, 0.03 xSackos)\n\t-Absolutely Terrible \n\n #6 (2020, 35 draft_zStrength, 9-13, -0.60 PF_z, 28 zStrength, 96 PF+, 6.8 xRank, 0.02 xTitles, 0.04 xSackos)\n\t-Absolutely Terrible \n\n #10 (2019, 1-21, -2.10 PF_z, 2 zStrength, 64 PF+, 10.2 xRank, 0.00 xTitles, 0.72 xSackos)\n\t-Absolutely Terrible \n\n #7 (2018, 9-13, -0.67 PF_z, 25 zStrength, 90 PF+, 7.0 xRank, 0.02 xTitles, 0.05 xSackos)\n\t-Absolutely Terrible \n\n #9 (2017, 6-15, -1.66 PF_z, 5 zStrength, 87 PF+, 9.2 xRank, 0.00 xTitles, 0.44 xSackos)\n\t-Absolutely Terrible", "finish": 8.0, "pick": "", "W": 6.5, "L": 13.8, "T": 0.0, "PF": 2396.08, "PA": 2945.74, "Moves": 1.0, "PtsPct": 0.321, "xTitles": 0.3, "xSackos": 2.29, "PF_z": -0.99, "zStrength": 25.0, "xRank": 7.7, "RankDiff": 0.3, "xPtsPct": 0.381, "PtsPctDiff": 0.046, "PA_z": -0.4, "PA_zStrength": 40.0, "xPA": 2994.8, "PA_DIFF": -392.4, "draft_z": -0.29, "draft_zStrength": 39.0, "PF+": 82.0, "PA+": 99.0, "seasons": "8 (2017 - 2025)", "Playoffs": 1.0, "Podiums": 0.0, "Titles": 0.0, "Sackos": 3.0, "std_finish": 2.1, "total_W": 52.0, "total_L": 110.0, "total_PF": 19168.6, "total_PA": 23565.9, "team_name": "Absolutely Terrible\nHotdog Enthusiast"}, {"year": "2025", "owner": "Casey Mangan", "league_name": "fuckingHockey-nhl", "Details": "", "finish": 1.0, "pick": "", "W": 14.0, "L": 5.0, "T": 0.0, "PF": 2542.6, "PA": 2272.6, "Moves": 1.0, "PtsPct": 0.737, "xTitles": 0.17, "xSackos": 0.0, "PF_z": 0.96, "zStrength": 83.0, "xRank": 3.3, "RankDiff": -2.3, "xPtsPct": 0.615, "PtsPctDiff": -0.122, "PA_z": -1.51, "PA_zStrength": 7.0, "xPA": 2413.4, "PA_DIFF": -140.8, "draft_z": "", "draft_zStrength": "", "PF+": 105.0, "PA+": 94.0, "seasons": "", "Playoffs": 1.0, "Podiums": 1.0, "Titles": 1.0, "Sackos": 0.0, "std_finish": "", "total_W": "", "total_L": "", "total_PF": "", "total_PA": "", "team_name": "El Paso Rhinos"}, {"year": "2025", "owner": "Kyle McNulty", "league_name": "fuckingHockey-nhl", "Details": "", "finish": 2.0, "pick": "", "W": 10.0, "L": 9.0, "T": 0.0, "PF": 2594.0, "PA": 2634.7, "Moves": 0.0, "PtsPct": 0.526, "xTitles": 0.28, "xSackos": 0.0, "PF_z": 1.38, "zStrength": 92.0, "xRank": 2.3, "RankDiff": -0.3, "xPtsPct": 0.666, "PtsPctDiff": 0.14, "PA_z": 2.43, "PA_zStrength": 99.0, "xPA": 2407.7, "PA_DIFF": 227.0, "draft_z": "", "draft_zStrength": "", "PF+": 107.0, "PA+": 109.0, "seasons": "", "Playoffs": 1.0, "Podiums": 1.0, "Titles": 0.0, "Sackos": 0.0, "std_finish": "", "total_W": "", "total_L": "", "total_PF": "", "total_PA": "", "team_name": "I Can't Believe I'm Doing This"}, {"year": "2025", "owner": "Connor Reed", "league_name": "fuckingHockey-nhl", "Details": "", "finish": 3.0, "pick": "", "W": 11.0, "L": 8.0, "T": 0.0, "PF": 2518.2, "PA": 2404.6, "Moves": 0.0, "PtsPct": 0.579, "xTitles": 0.13, "xSackos": 0.0, "PF_z": 0.76, "zStrength": 77.0, "xRank": 3.7, "RankDiff": -0.7, "xPtsPct": 0.591, "PtsPctDiff": 0.012, "PA_z": -0.12, "PA_zStrength": 45.0, "xPA": 2416.1, "PA_DIFF": -11.5, "draft_z": "", "draft_zStrength": "", "PF+": 104.0, "PA+": 100.0, "seasons": "", "Playoffs": 1.0, "Podiums": 1.0, "Titles": 0.0, "Sackos": 0.0, "std_finish": "", "total_W": "", "total_L": "", "total_PF": "", "total_PA": "", "team_name": "Sudden Death"}, {"year": "2025", "owner": "James McKenna", "league_name": "fuckingHockey-nhl", "Details": "", "finish": 4.0, "pick": "", "W": 16.0, "L": 3.0, "T": 0.0, "PF": 2568.5, "PA": 2343.4, "Moves": 1.0, "PtsPct": 0.842, "xTitles": 0.22, "xSackos": 0.0, "PF_z": 1.17, "zStrength": 88.0, "xRank": 2.8, "RankDiff": 1.2, "xPtsPct": 0.641, "PtsPctDiff": -0.201, "PA_z": -0.72, "PA_zStrength": 24.0, "xPA": 2410.5, "PA_DIFF": -67.1, "draft_z": "", "draft_zStrength": "", "PF+": 106.0, "PA+": 97.0, "seasons": "", "Playoffs": 1.0, "Podiums": 0.0, "Titles": 0.0, "Sackos": 0.0, "std_finish": "", "total_W": "", "total_L": "", "total_PF": "", "total_PA": "", "team_name": "Hotdog Enthusiast"}, {"year": "2025", "owner": "Matt Abraham", "league_name": "fuckingHockey-nhl", "Details": "", "finish": 5.0, "pick": "", "W": 8.0, "L": 11.0, "T": 0.0, "PF": 2389.0, "PA": 2391.1, "Moves": 0.0, "PtsPct": 0.421, "xTitles": 0.03, "xSackos": 0.02, "PF_z": -0.31, "zStrength": 38.0, "xRank": 6.1, "RankDiff": -1.1, "xPtsPct": 0.463, "PtsPctDiff": 0.042, "PA_z": -0.42, "PA_zStrength": 34.0, "xPA": 2430.5, "PA_DIFF": -39.4, "draft_z": "", "draft_zStrength": "", "PF+": 99.0, "PA+": 98.0, "seasons": "", "Playoffs": 0.0, "Podiums": 0.0, "Titles": 0.0, "Sackos": 0.0, "std_finish": "", "total_W": "", "total_L": "", "total_PF": "", "total_PA": "", "team_name": "Team Edwards"}, {"year": "2025", "owner": "Danny Noonan", "league_name": "fuckingHockey-nhl", "Details": "", "finish": 6.0, "pick": "", "W": 7.0, "L": 12.0, "T": 0.0, "PF": 2397.2, "PA": 2521.4, "Moves": 0.0, "PtsPct": 0.368, "xTitles": 0.03, "xSackos": 0.02, "PF_z": -0.24, "zStrength": 41.0, "xRank": 6.0, "RankDiff": 0.0, "xPtsPct": 0.471, "PtsPctDiff": 0.103, "PA_z": 0.98, "PA_zStrength": 84.0, "xPA": 2429.5, "PA_DIFF": 91.9, "draft_z": "", "draft_zStrength": "", "PF+": 99.0, "PA+": 104.0, "seasons": "", "Playoffs": 0.0, "Podiums": 0.0, "Titles": 0.0, "Sackos": 0.0, "std_finish": "", "total_W": "", "total_L": "", "total_PF": "", "total_PA": "", "team_name": "The Hockeyroos"}, {"year": "2025", "owner": "Sean Musser", "league_name": "fuckingHockey-nhl", "Details": "", "finish": 7.0, "pick": "", "W": 10.0, "L": 9.0, "T": 0.0, "PF": 2447.8, "PA": 2416.2, "Moves": 4.0, "PtsPct": 0.526, "xTitles": 0.06, "xSackos": 0.01, "PF_z": 0.18, "zStrength": 57.0, "xRank": 5.0, "RankDiff": 2.0, "xPtsPct": 0.521, "PtsPctDiff": -0.005, "PA_z": -0.08, "PA_zStrength": 47.0, "xPA": 2423.9, "PA_DIFF": -7.7, "draft_z": "", "draft_zStrength": "", "PF+": 101.0, "PA+": 100.0, "seasons": "", "Playoffs": 0.0, "Podiums": 0.0, "Titles": 0.0, "Sackos": 0.0, "std_finish": "", "total_W": "", "total_L": "", "total_PF": "", "total_PA": "", "team_name": "Oh hey Marleau is back"}, {"year": "2025", "owner": "Tyler Edwards", "league_name": "fuckingHockey-nhl", "Details": "", "finish": 8.0, "pick": "", "W": 7.0, "L": 12.0, "T": 0.0, "PF": 2275.8, "PA": 2431.7, "Moves": 0.0, "PtsPct": 0.368, "xTitles": 0.01, "xSackos": 0.2, "PF_z": -1.24, "zStrength": 11.0, "xRank": 8.3, "RankDiff": -0.3, "xPtsPct": 0.351, "PtsPctDiff": -0.018, "PA_z": -0.12, "PA_zStrength": 45.0, "xPA": 2443.0, "PA_DIFF": -11.3, "draft_z": "", "draft_zStrength": "", "PF+": 94.0, "PA+": 100.0, "seasons": "", "Playoffs": 0.0, "Podiums": 0.0, "Titles": 0.0, "Sackos": 0.0, "std_finish": "", "total_W": "", "total_L": "", "total_PF": "", "total_PA": "", "team_name": "Team Tyler"}, {"year": "2025", "owner": "Kevin Mangan", "league_name": "fuckingHockey-nhl", "Details": "", "finish": 9.0, "pick": "", "W": 5.0, "L": 14.0, "T": 0.0, "PF": 2247.6, "PA": 2439.8, "Moves": 0.0, "PtsPct": 0.263, "xTitles": 0.01, "xSackos": 0.32, "PF_z": -1.47, "zStrength": 7.0, "xRank": 8.8, "RankDiff": 0.2, "xPtsPct": 0.323, "PtsPctDiff": 0.06, "PA_z": -0.07, "PA_zStrength": 47.0, "xPA": 2446.2, "PA_DIFF": -6.4, "draft_z": "", "draft_zStrength": "", "PF+": 93.0, "PA+": 100.0, "seasons": "", "Playoffs": 0.0, "Podiums": 0.0, "Titles": 0.0, "Sackos": 0.0, "std_finish": "", "total_W": "", "total_L": "", "total_PF": "", "total_PA": "", "team_name": "Blades of Glory"}, {"year": "2025", "owner": "Greg Ebert", "league_name": "fuckingHockey-nhl", "Details": "", "finish": 10.0, "pick": "", "W": 7.0, "L": 12.0, "T": 0.0, "PF": 2282.4, "PA": 2407.6, "Moves": 0.0, "PtsPct": 0.368, "xTitles": 0.01, "xSackos": 0.18, "PF_z": -1.18, "zStrength": 12.0, "xRank": 8.2, "RankDiff": 1.9, "xPtsPct": 0.357, "PtsPctDiff": -0.011, "PA_z": -0.37, "PA_zStrength": 36.0, "xPA": 2442.3, "PA_DIFF": -34.7, "draft_z": "", "draft_zStrength": "", "PF+": 94.0, "PA+": 99.0, "seasons": "", "Playoffs": 0.0, "Podiums": 0.0, "Titles": 0.0, "Sackos": 1.0, "std_finish": "", "total_W": "", "total_L": "", "total_PF": "", "total_PA": "", "team_name": "tyler edwards"}, {"year": "2023", "owner": "Connor Reed", "league_name": "fuckingHockey-nhl", "Details": "", "finish": 1.0, "pick": "", "W": 18.0, "L": 3.0, "T": 0.0, "PF": 3397.9, "PA": 2358.8, "Moves": 5.0, "PtsPct": 0.857, "xTitles": 0.22, "xSackos": 0.0, "PF_z": 1.15, "zStrength": 88.0, "xRank": 2.8, "RankDiff": -1.8, "xPtsPct": 0.639, "PtsPctDiff": -0.218, "PA_z": -1.96, "PA_zStrength": 3.0, "xPA": 2465.6, "PA_DIFF": -106.8, "draft_z": 2.72, "draft_zStrength": 100.0, "PF+": 133.0, "PA+": 96.0, "seasons": "", "Playoffs": 1.0, "Podiums": 1.0, "Titles": 1.0, "Sackos": 0.0, "std_finish": "", "total_W": "", "total_L": "", "total_PF": "", "total_PA": "", "team_name": "Sudden Death"}, {"year": "2023", "owner": "Greg Ebert", "league_name": "fuckingHockey-nhl", "Details": "", "finish": 2.0, "pick": "", "W": 16.0, "L": 5.0, "T": 0.0, "PF": 2998.0, "PA": 2472.6, "Moves": 1.0, "PtsPct": 0.762, "xTitles": 0.11, "xSackos": 0.0, "PF_z": 0.6, "zStrength": 73.0, "xRank": 4.1, "RankDiff": -2.1, "xPtsPct": 0.573, "PtsPctDiff": -0.189, "PA_z": -0.69, "PA_zStrength": 25.0, "xPA": 2510.0, "PA_DIFF": -37.4, "draft_z": -0.12, "draft_zStrength": 45.0, "PF+": 117.0, "PA+": 99.0, "seasons": "", "Playoffs": 1.0, "Podiums": 1.0, "Titles": 0.0, "Sackos": 0.0, "std_finish": "", "total_W": "", "total_L": "", "total_PF": "", "total_PA": "", "team_name": "tyler edwards"}, {"year": "2023", "owner": "Sean Musser", "league_name": "fuckingHockey-nhl", "Details": "", "finish": 3.0, "pick": "", "W": 13.0, "L": 8.0, "T": 0.0, "PF": 2866.6, "PA": 2517.2, "Moves": 0.0, "PtsPct": 0.619, "xTitles": 0.08, "xSackos": 0.0, "PF_z": 0.42, "zStrength": 66.0, "xRank": 4.5, "RankDiff": -1.5, "xPtsPct": 0.551, "PtsPctDiff": -0.068, "PA_z": -0.14, "PA_zStrength": 45.0, "xPA": 2524.6, "PA_DIFF": -7.4, "draft_z": -0.27, "draft_zStrength": 39.0, "PF+": 112.0, "PA+": 100.0, "seasons": "", "Playoffs": 1.0, "Podiums": 1.0, "Titles": 0.0, "Sackos": 0.0, "std_finish": "", "total_W": "", "total_L": "", "total_PF": "", "total_PA": "", "team_name": "Oh hey Marleau is back"}, {"year": "2023", "owner": "Tyler Edwards", "league_name": "fuckingHockey-nhl", "Details": "", "finish": 4.0, "pick": "", "W": 13.0, "L": 8.0, "T": 0.0, "PF": 2867.8, "PA": 2543.2, "Moves": 2.0, "PtsPct": 0.619, "xTitles": 0.09, "xSackos": 0.0, "PF_z": 0.42, "zStrength": 66.0, "xRank": 4.5, "RankDiff": -0.5, "xPtsPct": 0.551, "PtsPctDiff": -0.068, "PA_z": 0.34, "PA_zStrength": 63.0, "xPA": 2524.5, "PA_DIFF": 18.7, "draft_z": 0.24, "draft_zStrength": 60.0, "PF+": 112.0, "PA+": 101.0, "seasons": "", "Playoffs": 1.0, "Podiums": 0.0, "Titles": 0.0, "Sackos": 0.0, "std_finish": "", "total_W": "", "total_L": "", "total_PF": "", "total_PA": "", "team_name": "Team Tyler"}, {"year": "2023", "owner": "Casey Mangan", "league_name": "fuckingHockey-nhl", "Details": "", "finish": 5.0, "pick": "", "W": 11.0, "L": 10.0, "T": 0.0, "PF": 2843.0, "PA": 2587.1, "Moves": 3.0, "PtsPct": 0.524, "xTitles": 0.08, "xSackos": 0.0, "PF_z": 0.39, "zStrength": 65.0, "xRank": 4.6, "RankDiff": 0.5, "xPtsPct": 0.547, "PtsPctDiff": 0.023, "PA_z": 1.1, "PA_zStrength": 86.0, "xPA": 2527.3, "PA_DIFF": 59.8, "draft_z": 0.15, "draft_zStrength": 56.0, "PF+": 111.0, "PA+": 102.0, "seasons": "", "Playoffs": 0.0, "Podiums": 0.0, "Titles": 0.0, "Sackos": 0.0, "std_finish": "", "total_W": "", "total_L": "", "total_PF": "", "total_PA": "", "team_name": "El Paso Rhinos"}, {"year": "2023", "owner": "Danny Noonan", "league_name": "fuckingHockey-nhl", "Details": "", "finish": 6.0, "pick": "", "W": 13.0, "L": 8.0, "T": 0.0, "PF": 2865.9, "PA": 2470.7, "Moves": 0.0, "PtsPct": 0.619, "xTitles": 0.08, "xSackos": 0.0, "PF_z": 0.42, "zStrength": 66.0, "xRank": 4.5, "RankDiff": 1.5, "xPtsPct": 0.551, "PtsPctDiff": -0.068, "PA_z": -0.99, "PA_zStrength": 16.0, "xPA": 2524.7, "PA_DIFF": -54.0, "draft_z": -0.27, "draft_zStrength": 39.0, "PF+": 112.0, "PA+": 98.0, "seasons": "", "Playoffs": 0.0, "Podiums": 0.0, "Titles": 0.0, "Sackos": 0.0, "std_finish": "", "total_W": "", "total_L": "", "total_PF": "", "total_PA": "", "team_name": "The Hockeyroos"}, {"year": "2023", "owner": "Kevin Mangan", "league_name": "fuckingHockey-nhl", "Details": "", "finish": 7.0, "pick": "", "W": 13.0, "L": 8.0, "T": 0.0, "PF": 2795.9, "PA": 2571.4, "Moves": 7.0, "PtsPct": 0.619, "xTitles": 0.07, "xSackos": 0.0, "PF_z": 0.33, "zStrength": 63.0, "xRank": 4.7, "RankDiff": 2.3, "xPtsPct": 0.539, "PtsPctDiff": -0.08, "PA_z": 0.71, "PA_zStrength": 76.0, "xPA": 2532.5, "PA_DIFF": 38.9, "draft_z": -0.27, "draft_zStrength": 39.0, "PF+": 109.0, "PA+": 102.0, "seasons": "", "Playoffs": 0.0, "Podiums": 0.0, "Titles": 0.0, "Sackos": 0.0, "std_finish": "", "total_W": "", "total_L": "", "total_PF": "", "total_PA": "", "team_name": "Blades of Glory"}, {"year": "2023", "owner": "Matt Abraham", "league_name": "fuckingHockey-nhl", "Details": "", "finish": 8.0, "pick": "", "W": 3.0, "L": 18.0, "T": 0.0, "PF": 1882.0, "PA": 2631.8, "Moves": 0.0, "PtsPct": 0.143, "xTitles": 0.01, "xSackos": 0.1, "PF_z": -0.93, "zStrength": 18.0, "xRank": 7.6, "RankDiff": 0.4, "xPtsPct": 0.388, "PtsPctDiff": 0.245, "PA_z": -0.04, "PA_zStrength": 48.0, "xPA": 2634.0, "PA_DIFF": -2.2, "draft_z": -1.42, "draft_zStrength": 8.0, "PF+": 74.0, "PA+": 100.0, "seasons": "", "Playoffs": 0.0, "Podiums": 0.0, "Titles": 0.0, "Sackos": 0.0, "std_finish": "", "total_W": "", "total_L": "", "total_PF": "", "total_PA": "", "team_name": "Team Edwards"}, {"year": "2023", "owner": "Kyle McNulty", "league_name": "fuckingHockey-nhl", "Details": "", "finish": 9.0, "pick": "", "W": 5.0, "L": 16.0, "T": 0.0, "PF": 2381.0, "PA": 2670.6, "Moves": 0.0, "PtsPct": 0.238, "xTitles": 0.03, "xSackos": 0.02, "PF_z": -0.24, "zStrength": 40.0, "xRank": 6.0, "RankDiff": 3.0, "xPtsPct": 0.471, "PtsPctDiff": 0.232, "PA_z": 1.69, "PA_zStrength": 95.0, "xPA": 2578.6, "PA_DIFF": 92.0, "draft_z": -0.46, "draft_zStrength": 32.0, "PF+": 93.0, "PA+": 104.0, "seasons": "", "Playoffs": 0.0, "Podiums": 0.0, "Titles": 0.0, "Sackos": 0.0, "std_finish": "", "total_W": "", "total_L": "", "total_PF": "", "total_PA": "", "team_name": "I Can't Believe I'm Doing This"}, {"year": "2023", "owner": "James McKenna", "league_name": "fuckingHockey-nhl", "Details": "", "finish": 10.0, "pick": "", "W": 0.0, "L": 21.0, "T": 0.0, "PF": 690.2, "PA": 2764.9, "Moves": 0.0, "PtsPct": 0.0, "xTitles": 0.0, "xSackos": 0.9, "PF_z": -2.57, "zStrength": 1.0, "xRank": 11.3, "RankDiff": -1.3, "xPtsPct": 0.19, "PtsPctDiff": 0.19, "PA_z": -0.03, "PA_zStrength": 49.0, "xPA": 2766.5, "PA_DIFF": -1.6, "draft_z": -0.3, "draft_zStrength": 38.0, "PF+": 27.0, "PA+": 100.0, "seasons": "", "Playoffs": 0.0, "Podiums": 0.0, "Titles": 0.0, "Sackos": 1.0, "std_finish": "", "total_W": "", "total_L": "", "total_PF": "", "total_PA": "", "team_name": "Hotdog Enthusiast"}, {"year": "2022", "owner": "Connor Reed", "league_name": "fuckingHockey-nhl", "Details": "", "finish": 1.0, "pick": "", "W": 18.0, "L": 4.0, "T": 0.0, "PF": 3224.6, "PA": 2622.8, "Moves": 18.0, "PtsPct": 0.818, "xTitles": 0.34, "xSackos": 0.0, "PF_z": 1.55, "zStrength": 94.0, "xRank": 1.9, "RankDiff": -0.9, "xPtsPct": 0.687, "PtsPctDiff": -0.131, "PA_z": -0.5, "PA_zStrength": 31.0, "xPA": 2665.6, "PA_DIFF": -42.8, "draft_z": 2.41, "draft_zStrength": 99.0, "PF+": 119.0, "PA+": 98.0, "seasons": "", "Playoffs": 1.0, "Podiums": 1.0, "Titles": 1.0, "Sackos": 0.0, "std_finish": "", "total_W": "", "total_L": "", "total_PF": "", "total_PA": "", "team_name": "Sudden Death"}, {"year": "2022", "owner": "Kevin Mangan", "league_name": "fuckingHockey-nhl", "Details": "", "finish": 2.0, "pick": "", "W": 20.0, "L": 2.0, "T": 0.0, "PF": 3237.0, "PA": 2451.1, "Moves": 15.0, "PtsPct": 0.909, "xTitles": 0.35, "xSackos": 0.0, "PF_z": 1.59, "zStrength": 94.0, "xRank": 1.8, "RankDiff": 0.2, "xPtsPct": 0.692, "PtsPctDiff": -0.217, "PA_z": -2.47, "PA_zStrength": 1.0, "xPA": 2664.2, "PA_DIFF": -213.1, "draft_z": 1.1, "draft_zStrength": 86.0, "PF+": 119.0, "PA+": 92.0, "seasons": "", "Playoffs": 1.0, "Podiums": 1.0, "Titles": 0.0, "Sackos": 0.0, "std_finish": "", "total_W": "", "total_L": "", "total_PF": "", "total_PA": "", "team_name": "Blades of Glory"}, {"year": "2022", "owner": "Sean Musser", "league_name": "fuckingHockey-nhl", "Details": "", "finish": 3.0, "pick": "", "W": 13.0, "L": 9.0, "T": 0.0, "PF": 2931.5, "PA": 2710.4, "Moves": 7.0, "PtsPct": 0.591, "xTitles": 0.12, "xSackos": 0.0, "PF_z": 0.65, "zStrength": 74.0, "xRank": 4.0, "RankDiff": -1.0, "xPtsPct": 0.578, "PtsPctDiff": -0.013, "PA_z": 0.14, "PA_zStrength": 56.0, "xPA": 2698.2, "PA_DIFF": 12.2, "draft_z": -0.29, "draft_zStrength": 39.0, "PF+": 108.0, "PA+": 101.0, "seasons": "", "Playoffs": 1.0, "Podiums": 1.0, "Titles": 0.0, "Sackos": 0.0, "std_finish": "", "total_W": "", "total_L": "", "total_PF": "", "total_PA": "", "team_name": "Oh hey Marleau is back"}, {"year": "2022", "owner": "Tyler Edwards", "league_name": "fuckingHockey-nhl", "Details": "", "finish": 4.0, "pick": "", "W": 13.0, "L": 9.0, "T": 0.0, "PF": 2892.3, "PA": 2773.3, "Moves": 0.0, "PtsPct": 0.591, "xTitles": 0.1, "xSackos": 0.0, "PF_z": 0.53, "zStrength": 70.0, "xRank": 4.2, "RankDiff": -0.2, "xPtsPct": 0.564, "PtsPctDiff": -0.027, "PA_z": 0.82, "PA_zStrength": 79.0, "xPA": 2702.5, "PA_DIFF": 70.8, "draft_z": -0.44, "draft_zStrength": 33.0, "PF+": 106.0, "PA+": 103.0, "seasons": "", "Playoffs": 1.0, "Podiums": 0.0, "Titles": 0.0, "Sackos": 0.0, "std_finish": "", "total_W": "", "total_L": "", "total_PF": "", "total_PA": "", "team_name": "Team Tyler"}, {"year": "2022", "owner": "Greg Ebert", "league_name": "fuckingHockey-nhl", "Details": "", "finish": 5.0, "pick": "", "W": 11.0, "L": 11.0, "T": 0.0, "PF": 2666.5, "PA": 2711.4, "Moves": 0.0, "PtsPct": 0.5, "xTitles": 0.04, "xSackos": 0.01, "PF_z": -0.17, "zStrength": 43.0, "xRank": 5.8, "RankDiff": -0.8, "xPtsPct": 0.48, "PtsPctDiff": -0.021, "PA_z": -0.19, "PA_zStrength": 43.0, "xPA": 2727.6, "PA_DIFF": -16.2, "draft_z": -0.24, "draft_zStrength": 41.0, "PF+": 98.0, "PA+": 99.0, "seasons": "", "Playoffs": 0.0, "Podiums": 0.0, "Titles": 0.0, "Sackos": 0.0, "std_finish": "", "total_W": "", "total_L": "", "total_PF": "", "total_PA": "", "team_name": "tyler edwards"}, {"year": "2022", "owner": "Danny Noonan", "league_name": "fuckingHockey-nhl", "Details": "", "finish": 6.0, "pick": "", "W": 8.0, "L": 14.0, "T": 0.0, "PF": 2615.3, "PA": 2790.2, "Moves": 0.0, "PtsPct": 0.364, "xTitles": 0.03, "xSackos": 0.02, "PF_z": -0.33, "zStrength": 37.0, "xRank": 6.2, "RankDiff": -0.2, "xPtsPct": 0.461, "PtsPctDiff": 0.097, "PA_z": 0.66, "PA_zStrength": 75.0, "xPA": 2733.3, "PA_DIFF": 56.9, "draft_z": -0.72, "draft_zStrength": 24.0, "PF+": 96.0, "PA+": 102.0, "seasons": "", "Playoffs": 0.0, "Podiums": 0.0, "Titles": 0.0, "Sackos": 0.0, "std_finish": "", "total_W": "", "total_L": "", "total_PF": "", "total_PA": "", "team_name": "The Hockeyroos"}, {"year": "2022", "owner": "Matt Abraham", "league_name": "fuckingHockey-nhl", "Details": "", "finish": 7.0, "pick": "", "W": 10.0, "L": 12.0, "T": 0.0, "PF": 2613.6, "PA": 2687.7, "Moves": 0.0, "PtsPct": 0.455, "xTitles": 0.03, "xSackos": 0.02, "PF_z": -0.33, "zStrength": 37.0, "xRank": 6.2, "RankDiff": 0.8, "xPtsPct": 0.46, "PtsPctDiff": 0.005, "PA_z": -0.53, "PA_zStrength": 30.0, "xPA": 2733.5, "PA_DIFF": -45.8, "draft_z": 0.04, "draft_zStrength": 52.0, "PF+": 96.0, "PA+": 98.0, "seasons": "", "Playoffs": 0.0, "Podiums": 0.0, "Titles": 0.0, "Sackos": 0.0, "std_finish": "", "total_W": "", "total_L": "", "total_PF": "", "total_PA": "", "team_name": "Team Edwards"}, {"year": "2022", "owner": "James McKenna", "league_name": "fuckingHockey-nhl", "Details": "", "finish": 8.0, "pick": "", "W": 5.0, "L": 17.0, "T": 0.0, "PF": 2404.3, "PA": 2823.8, "Moves": 0.0, "PtsPct": 0.227, "xTitles": 0.01, "xSackos": 0.11, "PF_z": -0.98, "zStrength": 16.0, "xRank": 7.7, "RankDiff": 0.3, "xPtsPct": 0.382, "PtsPctDiff": 0.155, "PA_z": 0.78, "PA_zStrength": 78.0, "xPA": 2756.8, "PA_DIFF": 67.0, "draft_z": -0.29, "draft_zStrength": 39.0, "PF+": 88.0, "PA+": 102.0, "seasons": "", "Playoffs": 0.0, "Podiums": 0.0, "Titles": 0.0, "Sackos": 0.0, "std_finish": "", "total_W": "", "total_L": "", "total_PF": "", "total_PA": "", "team_name": "Hotdog Enthusiast"}, {"year": "2022", "owner": "Casey Mangan", "league_name": "fuckingHockey-nhl", "Details": "", "finish": 9.0, "pick": "", "W": 4.0, "L": 18.0, "T": 0.0, "PF": 2362.7, "PA": 2870.4, "Moves": 9.0, "PtsPct": 0.182, "xTitles": 0.01, "xSackos": 0.15, "PF_z": -1.11, "zStrength": 13.0, "xRank": 8.0, "RankDiff": 1.0, "xPtsPct": 0.367, "PtsPctDiff": 0.185, "PA_z": 1.26, "PA_zStrength": 90.0, "xPA": 2761.4, "PA_DIFF": 109.0, "draft_z": -1.43, "draft_zStrength": 8.0, "PF+": 87.0, "PA+": 104.0, "seasons": "", "Playoffs": 0.0, "Podiums": 0.0, "Titles": 0.0, "Sackos": 0.0, "std_finish": "", "total_W": "", "total_L": "", "total_PF": "", "total_PA": "", "team_name": "El Paso Rhinos"}, {"year": "2022", "owner": "Kyle McNulty", "league_name": "fuckingHockey-nhl", "Details": "", "finish": 10.0, "pick": "", "W": 8.0, "L": 14.0, "T": 0.0, "PF": 2267.4, "PA": 2774.1, "Moves": 0.0, "PtsPct": 0.364, "xTitles": 0.01, "xSackos": 0.28, "PF_z": -1.4, "zStrength": 8.0, "xRank": 8.6, "RankDiff": 1.4, "xPtsPct": 0.331, "PtsPctDiff": -0.033, "PA_z": 0.03, "PA_zStrength": 51.0, "xPA": 2772.0, "PA_DIFF": 2.1, "draft_z": -0.15, "draft_zStrength": 44.0, "PF+": 83.0, "PA+": 100.0, "seasons": "", "Playoffs": 0.0, "Podiums": 0.0, "Titles": 0.0, "Sackos": 1.0, "std_finish": "", "total_W": "", "total_L": "", "total_PF": "", "total_PA": "", "team_name": "I Can't Believe I'm Doing This"}, {"year": "2021", "owner": "Connor Reed", "league_name": "fuckingHockey-nhl", "Details": "", "finish": 1.0, "pick": "", "W": 8.0, "L": 5.0, "T": 0.0, "PF": 2224.7, "PA": 2165.6, "Moves": 23.0, "PtsPct": 0.615, "xTitles": 0.19, "xSackos": 0.0, "PF_z": 1.03, "zStrength": 85.0, "xRank": 3.1, "RankDiff": -2.1, "xPtsPct": 0.624, "PtsPctDiff": 0.009, "PA_z": 1.77, "PA_zStrength": 96.0, "xPA": 1923.8, "PA_DIFF": 241.8, "draft_z": 1.27, "draft_zStrength": 90.0, "PF+": 114.0, "PA+": 113.0, "seasons": "", "Playoffs": 1.0, "Podiums": 1.0, "Titles": 1.0, "Sackos": 0.0, "std_finish": "", "total_W": "", "total_L": "", "total_PF": "", "total_PA": "", "team_name": "Sudden Death"}, {"year": "2021", "owner": "Kevin Mangan", "league_name": "fuckingHockey-nhl", "Details": "", "finish": 2.0, "pick": "", "W": 10.0, "L": 3.0, "T": 0.0, "PF": 2324.0, "PA": 1980.0, "Moves": 15.0, "PtsPct": 0.769, "xTitles": 0.29, "xSackos": 0.0, "PF_z": 1.41, "zStrength": 92.0, "xRank": 2.2, "RankDiff": -0.2, "xPtsPct": 0.67, "PtsPctDiff": -0.1, "PA_z": 0.49, "PA_zStrength": 69.0, "xPA": 1912.8, "PA_DIFF": 67.2, "draft_z": 0.77, "draft_zStrength": 78.0, "PF+": 119.0, "PA+": 104.0, "seasons": "", "Playoffs": 1.0, "Podiums": 1.0, "Titles": 0.0, "Sackos": 0.0, "std_finish": "", "total_W": "", "total_L": "", "total_PF": "", "total_PA": "", "team_name": "Blades of Glory"}, {"year": "2021", "owner": "Casey Mangan", "league_name": "fuckingHockey-nhl", "Details": "", "finish": 3.0, "pick": "", "W": 8.0, "L": 5.0, "T": 0.0, "PF": 2089.4, "PA": 2000.7, "Moves": 2.0, "PtsPct": 0.615, "xTitles": 0.1, "xSackos": 0.0, "PF_z": 0.52, "zStrength": 70.0, "xRank": 4.3, "RankDiff": -1.3, "xPtsPct": 0.562, "PtsPctDiff": -0.053, "PA_z": 0.45, "PA_zStrength": 67.0, "xPA": 1938.8, "PA_DIFF": 61.9, "draft_z": 0.42, "draft_zStrength": 66.0, "PF+": 107.0, "PA+": 103.0, "seasons": "", "Playoffs": 1.0, "Podiums": 1.0, "Titles": 0.0, "Sackos": 0.0, "std_finish": "", "total_W": "", "total_L": "", "total_PF": "", "total_PA": "", "team_name": "El Paso Rhinos"}, {"year": "2021", "owner": "Greg Ebert", "league_name": "fuckingHockey-nhl", "Details": "", "finish": 4.0, "pick": "", "W": 9.0, "L": 4.0, "T": 0.0, "PF": 2086.0, "PA": 1791.1, "Moves": 0.0, "PtsPct": 0.692, "xTitles": 0.09, "xSackos": 0.0, "PF_z": 0.5, "zStrength": 69.0, "xRank": 4.3, "RankDiff": -0.3, "xPtsPct": 0.561, "PtsPctDiff": -0.132, "PA_z": -1.09, "PA_zStrength": 14.0, "xPA": 1939.2, "PA_DIFF": -148.1, "draft_z": -0.52, "draft_zStrength": 30.0, "PF+": 107.0, "PA+": 92.0, "seasons": "", "Playoffs": 1.0, "Podiums": 0.0, "Titles": 0.0, "Sackos": 0.0, "std_finish": "", "total_W": "", "total_L": "", "total_PF": "", "total_PA": "", "team_name": "tyler edwards"}, {"year": "2021", "owner": "Kyle McNulty", "league_name": "fuckingHockey-nhl", "Details": "", "finish": 5.0, "pick": "", "W": 8.0, "L": 5.0, "T": 0.0, "PF": 1973.5, "PA": 1866.6, "Moves": 0.0, "PtsPct": 0.615, "xTitles": 0.05, "xSackos": 0.01, "PF_z": 0.07, "zStrength": 53.0, "xRank": 5.3, "RankDiff": -0.3, "xPtsPct": 0.509, "PtsPctDiff": -0.106, "PA_z": -0.62, "PA_zStrength": 27.0, "xPA": 1951.7, "PA_DIFF": -85.1, "draft_z": 0.34, "draft_zStrength": 63.0, "PF+": 101.0, "PA+": 96.0, "seasons": "", "Playoffs": 0.0, "Podiums": 0.0, "Titles": 0.0, "Sackos": 0.0, "std_finish": "", "total_W": "", "total_L": "", "total_PF": "", "total_PA": "", "team_name": "I Can't Believe I'm Doing This"}, {"year": "2021", "owner": "Tyler Edwards", "league_name": "fuckingHockey-nhl", "Details": "", "finish": 6.0, "pick": "", "W": 3.0, "L": 10.0, "T": 0.0, "PF": 1917.7, "PA": 2115.2, "Moves": 0.0, "PtsPct": 0.231, "xTitles": 0.04, "xSackos": 0.01, "PF_z": -0.14, "zStrength": 45.0, "xRank": 5.8, "RankDiff": 0.2, "xPtsPct": 0.483, "PtsPctDiff": 0.253, "PA_z": 1.15, "PA_zStrength": 88.0, "xPA": 1957.9, "PA_DIFF": 157.3, "draft_z": 0.34, "draft_zStrength": 63.0, "PF+": 98.0, "PA+": 108.0, "seasons": "", "Playoffs": 0.0, "Podiums": 0.0, "Titles": 0.0, "Sackos": 0.0, "std_finish": "", "total_W": "", "total_L": "", "total_PF": "", "total_PA": "", "team_name": "Team Tyler"}, {"year": "2021", "owner": "Danny Noonan", "league_name": "fuckingHockey-nhl", "Details": "", "finish": 7.0, "pick": "", "W": 8.0, "L": 5.0, "T": 0.0, "PF": 2084.7, "PA": 2004.2, "Moves": 0.0, "PtsPct": 0.615, "xTitles": 0.09, "xSackos": 0.0, "PF_z": 0.5, "zStrength": 69.0, "xRank": 4.3, "RankDiff": 2.7, "xPtsPct": 0.56, "PtsPctDiff": -0.055, "PA_z": 0.48, "PA_zStrength": 68.0, "xPA": 1939.4, "PA_DIFF": 64.8, "draft_z": -0.04, "draft_zStrength": 48.0, "PF+": 107.0, "PA+": 103.0, "seasons": "", "Playoffs": 0.0, "Podiums": 0.0, "Titles": 0.0, "Sackos": 0.0, "std_finish": "", "total_W": "", "total_L": "", "total_PF": "", "total_PA": "", "team_name": "The Hockeyroos"}, {"year": "2021", "owner": "Matt Abraham", "league_name": "fuckingHockey-nhl", "Details": "", "finish": 8.0, "pick": "", "W": 3.0, "L": 10.0, "T": 0.0, "PF": 1585.6, "PA": 1798.3, "Moves": 0.0, "PtsPct": 0.231, "xTitles": 0.01, "xSackos": 0.28, "PF_z": -1.4, "zStrength": 8.0, "xRank": 8.7, "RankDiff": -0.7, "xPtsPct": 0.331, "PtsPctDiff": 0.1, "PA_z": -1.44, "PA_zStrength": 7.0, "xPA": 1994.8, "PA_DIFF": -196.5, "draft_z": 0.25, "draft_zStrength": 60.0, "PF+": 81.0, "PA+": 90.0, "seasons": "", "Playoffs": 0.0, "Podiums": 0.0, "Titles": 0.0, "Sackos": 0.0, "std_finish": "", "total_W": "", "total_L": "", "total_PF": "", "total_PA": "", "team_name": "Team Edwards"}, {"year": "2021", "owner": "Sean Musser", "league_name": "fuckingHockey-nhl", "Details": "", "finish": 9.0, "pick": "", "W": 2.0, "L": 11.0, "T": 0.0, "PF": 1429.5, "PA": 1861.8, "Moves": 1.0, "PtsPct": 0.154, "xTitles": 0.0, "xSackos": 0.66, "PF_z": -1.99, "zStrength": 2.0, "xRank": 10.0, "RankDiff": -1.0, "xPtsPct": 0.26, "PtsPctDiff": 0.106, "PA_z": -1.1, "PA_zStrength": 14.0, "xPA": 2012.2, "PA_DIFF": -150.4, "draft_z": -2.65, "draft_zStrength": 0.0, "PF+": 73.0, "PA+": 93.0, "seasons": "", "Playoffs": 0.0, "Podiums": 0.0, "Titles": 0.0, "Sackos": 0.0, "std_finish": "", "total_W": "", "total_L": "", "total_PF": "", "total_PA": "", "team_name": "Oh hey Marleau is back"}, {"year": "2021", "owner": "James McKenna", "league_name": "fuckingHockey-nhl", "Details": "", "finish": 10.0, "pick": "", "W": 6.0, "L": 7.0, "T": 0.0, "PF": 1823.9, "PA": 1955.5, "Moves": 0.0, "PtsPct": 0.462, "xTitles": 0.02, "xSackos": 0.03, "PF_z": -0.49, "zStrength": 31.0, "xRank": 6.6, "RankDiff": 3.4, "xPtsPct": 0.44, "PtsPctDiff": -0.021, "PA_z": -0.09, "PA_zStrength": 46.0, "xPA": 1968.3, "PA_DIFF": -12.8, "draft_z": -0.19, "draft_zStrength": 43.0, "PF+": 93.0, "PA+": 99.0, "seasons": "", "Playoffs": 0.0, "Podiums": 0.0, "Titles": 0.0, "Sackos": 1.0, "std_finish": "", "total_W": "", "total_L": "", "total_PF": "", "total_PA": "", "team_name": "Absolutely Terrible"}, {"year": "2020", "owner": "Casey Mangan", "league_name": "fuckingHockey-nhl", "Details": "", "finish": 1.0, "pick": "", "W": 16.0, "L": 6.0, "T": 0.0, "PF": 3848.2, "PA": 3388.3, "Moves": 10.0, "PtsPct": 0.727, "xTitles": 0.28, "xSackos": 0.0, "PF_z": 1.38, "zStrength": 92.0, "xRank": 2.3, "RankDiff": -1.3, "xPtsPct": 0.667, "PtsPctDiff": -0.06, "PA_z": -0.88, "PA_zStrength": 19.0, "xPA": 3498.0, "PA_DIFF": -109.7, "draft_z": 0.46, "draft_zStrength": 68.0, "PF+": 109.0, "PA+": 97.0, "seasons": "", "Playoffs": 1.0, "Podiums": 1.0, "Titles": 1.0, "Sackos": 0.0, "std_finish": "", "total_W": "", "total_L": "", "total_PF": "", "total_PA": "", "team_name": "Swayze Train"}, {"year": "2020", "owner": "Tyler Edwards", "league_name": "fuckingHockey-nhl", "Details": "", "finish": 2.0, "pick": "", "W": 15.0, "L": 7.0, "T": 0.0, "PF": 3482.4, "PA": 3410.2, "Moves": 4.0, "PtsPct": 0.682, "xTitles": 0.03, "xSackos": 0.02, "PF_z": -0.22, "zStrength": 41.0, "xRank": 6.0, "RankDiff": -4.0, "xPtsPct": 0.473, "PtsPctDiff": -0.209, "PA_z": -1.03, "PA_zStrength": 15.0, "xPA": 3538.6, "PA_DIFF": -128.4, "draft_z": -0.58, "draft_zStrength": 28.0, "PF+": 99.0, "PA+": 96.0, "seasons": "", "Playoffs": 1.0, "Podiums": 1.0, "Titles": 0.0, "Sackos": 0.0, "std_finish": "", "total_W": "", "total_L": "", "total_PF": "", "total_PA": "", "team_name": "Team Tyler"}, {"year": "2020", "owner": "Connor Reed", "league_name": "fuckingHockey-nhl", "Details": "", "finish": 3.0, "pick": "", "W": 15.0, "L": 7.0, "T": 0.0, "PF": 3912.9, "PA": 3532.8, "Moves": 17.0, "PtsPct": 0.682, "xTitles": 0.38, "xSackos": 0.0, "PF_z": 1.67, "zStrength": 95.0, "xRank": 1.6, "RankDiff": 1.4, "xPtsPct": 0.701, "PtsPctDiff": 0.019, "PA_z": 0.34, "PA_zStrength": 63.0, "xPA": 3490.8, "PA_DIFF": 42.0, "draft_z": -0.25, "draft_zStrength": 40.0, "PF+": 111.0, "PA+": 101.0, "seasons": "", "Playoffs": 1.0, "Podiums": 1.0, "Titles": 0.0, "Sackos": 0.0, "std_finish": "", "total_W": "", "total_L": "", "total_PF": "", "total_PA": "", "team_name": "Matthew Abraham"}, {"year": "2020", "owner": "Kyle McNulty", "league_name": "fuckingHockey-nhl", "Details": "", "finish": 4.0, "pick": "", "W": 12.0, "L": 10.0, "T": 0.0, "PF": 3695.9, "PA": 3478.4, "Moves": 0.0, "PtsPct": 0.545, "xTitles": 0.13, "xSackos": 0.0, "PF_z": 0.71, "zStrength": 76.0, "xRank": 3.8, "RankDiff": 0.2, "xPtsPct": 0.586, "PtsPctDiff": 0.041, "PA_z": -0.29, "PA_zStrength": 39.0, "xPA": 3514.9, "PA_DIFF": -36.5, "draft_z": -0.44, "draft_zStrength": 33.0, "PF+": 105.0, "PA+": 99.0, "seasons": "", "Playoffs": 1.0, "Podiums": 0.0, "Titles": 0.0, "Sackos": 0.0, "std_finish": "", "total_W": "", "total_L": "", "total_PF": "", "total_PA": "", "team_name": "I Can't Believe I'm Doing This"}, {"year": "2020", "owner": "Matt Abraham", "league_name": "fuckingHockey-nhl", "Details": "", "finish": 5.0, "pick": "", "W": 11.0, "L": 11.0, "T": 0.0, "PF": 3461.5, "PA": 3471.4, "Moves": 0.0, "PtsPct": 0.5, "xTitles": 0.03, "xSackos": 0.02, "PF_z": -0.31, "zStrength": 38.0, "xRank": 6.2, "RankDiff": -1.2, "xPtsPct": 0.462, "PtsPctDiff": -0.038, "PA_z": -0.56, "PA_zStrength": 29.0, "xPA": 3540.9, "PA_DIFF": -69.5, "draft_z": 0.01, "draft_zStrength": 50.0, "PF+": 98.0, "PA+": 98.0, "seasons": "", "Playoffs": 0.0, "Podiums": 0.0, "Titles": 0.0, "Sackos": 0.0, "std_finish": "", "total_W": "", "total_L": "", "total_PF": "", "total_PA": "", "team_name": "The Bros"}, {"year": "2020", "owner": "James McKenna", "league_name": "fuckingHockey-nhl", "Details": "", "finish": 6.0, "pick": "", "W": 9.0, "L": 13.0, "T": 0.0, "PF": 3397.0, "PA": 3526.8, "Moves": 0.0, "PtsPct": 0.409, "xTitles": 0.02, "xSackos": 0.04, "PF_z": -0.6, "zStrength": 28.0, "xRank": 6.8, "RankDiff": -0.8, "xPtsPct": 0.428, "PtsPctDiff": 0.019, "PA_z": -0.17, "PA_zStrength": 43.0, "xPA": 3548.1, "PA_DIFF": -21.3, "draft_z": -0.38, "draft_zStrength": 35.0, "PF+": 96.0, "PA+": 99.0, "seasons": "", "Playoffs": 0.0, "Podiums": 0.0, "Titles": 0.0, "Sackos": 0.0, "std_finish": "", "total_W": "", "total_L": "", "total_PF": "", "total_PA": "", "team_name": "Absolutely Terrible"}, {"year": "2020", "owner": "Sean Musser", "league_name": "fuckingHockey-nhl", "Details": "", "finish": 7.0, "pick": "", "W": 10.0, "L": 12.0, "T": 0.0, "PF": 3462.4, "PA": 3536.6, "Moves": 4.0, "PtsPct": 0.455, "xTitles": 0.03, "xSackos": 0.02, "PF_z": -0.31, "zStrength": 38.0, "xRank": 6.2, "RankDiff": 0.9, "xPtsPct": 0.463, "PtsPctDiff": 0.008, "PA_z": -0.03, "PA_zStrength": 49.0, "xPA": 3540.8, "PA_DIFF": -4.2, "draft_z": 2.55, "draft_zStrength": 99.0, "PF+": 98.0, "PA+": 100.0, "seasons": "", "Playoffs": 0.0, "Podiums": 0.0, "Titles": 0.0, "Sackos": 0.0, "std_finish": "", "total_W": "", "total_L": "", "total_PF": "", "total_PA": "", "team_name": "Marleau you Traderous cunt"}, {"year": "2020", "owner": "Kevin Mangan", "league_name": "fuckingHockey-nhl", "Details": "", "finish": 8.0, "pick": "", "W": 8.0, "L": 14.0, "T": 0.0, "PF": 3346.1, "PA": 3549.9, "Moves": 3.0, "PtsPct": 0.364, "xTitles": 0.01, "xSackos": 0.07, "PF_z": -0.82, "zStrength": 21.0, "xRank": 7.3, "RankDiff": 0.7, "xPtsPct": 0.401, "PtsPctDiff": 0.038, "PA_z": -0.03, "PA_zStrength": 49.0, "xPA": 3553.8, "PA_DIFF": -3.9, "draft_z": -1.39, "draft_zStrength": 8.0, "PF+": 95.0, "PA+": 100.0, "seasons": "", "Playoffs": 0.0, "Podiums": 0.0, "Titles": 0.0, "Sackos": 0.0, "std_finish": "", "total_W": "", "total_L": "", "total_PF": "", "total_PA": "", "team_name": "Blades of Glory"}, {"year": "2020", "owner": "Greg Ebert", "league_name": "fuckingHockey-nhl", "Details": "", "finish": 9.0, "pick": "", "W": 9.0, "L": 13.0, "T": 0.0, "PF": 3611.9, "PA": 3870.1, "Moves": 0.0, "PtsPct": 0.409, "xTitles": 0.08, "xSackos": 0.0, "PF_z": 0.35, "zStrength": 64.0, "xRank": 4.7, "RankDiff": 4.4, "xPtsPct": 0.542, "PtsPctDiff": 0.133, "PA_z": 2.76, "PA_zStrength": 100.0, "xPA": 3524.2, "PA_DIFF": 345.9, "draft_z": -0.55, "draft_zStrength": 29.0, "PF+": 102.0, "PA+": 110.0, "seasons": "", "Playoffs": 0.0, "Podiums": 0.0, "Titles": 0.0, "Sackos": 0.0, "std_finish": "", "total_W": "", "total_L": "", "total_PF": "", "total_PA": "", "team_name": "tyler edwards"}, {"year": "2020", "owner": "Danny Noonan", "league_name": "fuckingHockey-nhl", "Details": "", "finish": 10.0, "pick": "", "W": 5.0, "L": 17.0, "T": 0.0, "PF": 3111.6, "PA": 3565.4, "Moves": 0.0, "PtsPct": 0.227, "xTitles": 0.0, "xSackos": 0.57, "PF_z": -1.85, "zStrength": 3.0, "xRank": 9.7, "RankDiff": 0.3, "xPtsPct": 0.277, "PtsPctDiff": 0.05, "PA_z": -0.12, "PA_zStrength": 45.0, "xPA": 3579.8, "PA_DIFF": -14.4, "draft_z": 0.56, "draft_zStrength": 71.0, "PF+": 88.0, "PA+": 100.0, "seasons": "", "Playoffs": 0.0, "Podiums": 0.0, "Titles": 0.0, "Sackos": 1.0, "std_finish": "", "total_W": "", "total_L": "", "total_PF": "", "total_PA": "", "team_name": "The Hockeyroos"}, {"year": "2019", "owner": "Connor Reed", "league_name": "fuckingHockey-nhl", "Details": "", "finish": 1.0, "pick": "", "W": 19.0, "L": 3.0, "T": 0.0, "PF": 4318.7, "PA": 3329.3, "Moves": 28.0, "PtsPct": 0.864, "xTitles": 0.32, "xSackos": 0.0, "PF_z": 1.51, "zStrength": 93.0, "xRank": 2.0, "RankDiff": -1.0, "xPtsPct": 0.682, "PtsPctDiff": -0.182, "PA_z": 0.05, "PA_zStrength": 52.0, "xPA": 3323.4, "PA_DIFF": 5.9, "draft_z": "", "draft_zStrength": "", "PF+": 126.0, "PA+": 100.0, "seasons": "", "Playoffs": 1.0, "Podiums": 1.0, "Titles": 1.0, "Sackos": 0.0, "std_finish": "", "total_W": "", "total_L": "", "total_PF": "", "total_PA": "", "team_name": "Matthew Abraham"}, {"year": "2019", "owner": "Kevin Mangan", "league_name": "fuckingHockey-nhl", "Details": "", "finish": 2.0, "pick": "", "W": 17.0, "L": 5.0, "T": 0.0, "PF": 3790.5, "PA": 3186.4, "Moves": 6.0, "PtsPct": 0.773, "xTitles": 0.11, "xSackos": 0.0, "PF_z": 0.62, "zStrength": 73.0, "xRank": 4.0, "RankDiff": -2.0, "xPtsPct": 0.575, "PtsPctDiff": -0.198, "PA_z": -1.49, "PA_zStrength": 7.0, "xPA": 3382.1, "PA_DIFF": -195.7, "draft_z": "", "draft_zStrength": "", "PF+": 111.0, "PA+": 94.0, "seasons": "", "Playoffs": 1.0, "Podiums": 1.0, "Titles": 0.0, "Sackos": 0.0, "std_finish": "", "total_W": "", "total_L": "", "total_PF": "", "total_PA": "", "team_name": "Blades of Glory"}, {"year": "2019", "owner": "Casey Mangan", "league_name": "fuckingHockey-nhl", "Details": "", "finish": 3.0, "pick": "", "W": 19.0, "L": 3.0, "T": 0.0, "PF": 4092.3, "PA": 3282.1, "Moves": 13.0, "PtsPct": 0.864, "xTitles": 0.21, "xSackos": 0.0, "PF_z": 1.13, "zStrength": 87.0, "xRank": 2.9, "RankDiff": 0.1, "xPtsPct": 0.636, "PtsPctDiff": -0.228, "PA_z": -0.51, "PA_zStrength": 31.0, "xPA": 3348.5, "PA_DIFF": -66.4, "draft_z": "", "draft_zStrength": "", "PF+": 120.0, "PA+": 98.0, "seasons": "", "Playoffs": 1.0, "Podiums": 1.0, "Titles": 0.0, "Sackos": 0.0, "std_finish": "", "total_W": "", "total_L": "", "total_PF": "", "total_PA": "", "team_name": "Grittrain"}, {"year": "2019", "owner": "Matt Abraham", "league_name": "fuckingHockey-nhl", "Details": "", "finish": 4.0, "pick": "", "W": 12.0, "L": 10.0, "T": 0.0, "PF": 3403.0, "PA": 3365.2, "Moves": 0.0, "PtsPct": 0.545, "xTitles": 0.04, "xSackos": 0.01, "PF_z": -0.03, "zStrength": 49.0, "xRank": 5.5, "RankDiff": -1.5, "xPtsPct": 0.496, "PtsPctDiff": -0.05, "PA_z": -0.46, "PA_zStrength": 32.0, "xPA": 3425.1, "PA_DIFF": -59.9, "draft_z": "", "draft_zStrength": "", "PF+": 99.0, "PA+": 98.0, "seasons": "", "Playoffs": 1.0, "Podiums": 0.0, "Titles": 0.0, "Sackos": 0.0, "std_finish": "", "total_W": "", "total_L": "", "total_PF": "", "total_PA": "", "team_name": "The Bros"}, {"year": "2019", "owner": "Sean Musser", "league_name": "fuckingHockey-nhl", "Details": "", "finish": 5.0, "pick": "", "W": 11.0, "L": 11.0, "T": 0.0, "PF": 3717.2, "PA": 3613.0, "Moves": 16.0, "PtsPct": 0.5, "xTitles": 0.09, "xSackos": 0.0, "PF_z": 0.5, "zStrength": 69.0, "xRank": 4.3, "RankDiff": 0.7, "xPtsPct": 0.56, "PtsPctDiff": 0.06, "PA_z": 1.69, "PA_zStrength": 95.0, "xPA": 3390.2, "PA_DIFF": 222.8, "draft_z": "", "draft_zStrength": "", "PF+": 109.0, "PA+": 107.0, "seasons": "", "Playoffs": 0.0, "Podiums": 0.0, "Titles": 0.0, "Sackos": 0.0, "std_finish": "", "total_W": "", "total_L": "", "total_PF": "", "total_PA": "", "team_name": "Patrick Marleau Plz come back"}, {"year": "2019", "owner": "Greg Ebert", "league_name": "fuckingHockey-nhl", "Details": "", "finish": 6.0, "pick": "", "W": 10.0, "L": 12.0, "T": 0.0, "PF": 3362.8, "PA": 3312.2, "Moves": 0.0, "PtsPct": 0.455, "xTitles": 0.04, "xSackos": 0.01, "PF_z": -0.1, "zStrength": 46.0, "xRank": 5.7, "RankDiff": 0.3, "xPtsPct": 0.488, "PtsPctDiff": 0.033, "PA_z": -0.89, "PA_zStrength": 19.0, "xPA": 3429.6, "PA_DIFF": -117.4, "draft_z": "", "draft_zStrength": "", "PF+": 98.0, "PA+": 97.0, "seasons": "", "Playoffs": 0.0, "Podiums": 0.0, "Titles": 0.0, "Sackos": 0.0, "std_finish": "", "total_W": "", "total_L": "", "total_PF": "", "total_PA": "", "team_name": "tyler edwards"}, {"year": "2019", "owner": "Kyle McNulty", "league_name": "fuckingHockey-nhl", "Details": "", "finish": 7.0, "pick": "", "W": 11.0, "L": 11.0, "T": 0.0, "PF": 3309.3, "PA": 3620.8, "Moves": 2.0, "PtsPct": 0.5, "xTitles": 0.04, "xSackos": 0.01, "PF_z": -0.19, "zStrength": 42.0, "xRank": 5.9, "RankDiff": 1.1, "xPtsPct": 0.477, "PtsPctDiff": -0.023, "PA_z": 1.41, "PA_zStrength": 92.0, "xPA": 3435.5, "PA_DIFF": 185.3, "draft_z": "", "draft_zStrength": "", "PF+": 97.0, "PA+": 105.0, "seasons": "", "Playoffs": 0.0, "Podiums": 0.0, "Titles": 0.0, "Sackos": 0.0, "std_finish": "", "total_W": "", "total_L": "", "total_PF": "", "total_PA": "", "team_name": "I Can't Believe I'm Doing This"}, {"year": "2019", "owner": "Tyler Edwards", "league_name": "fuckingHockey-nhl", "Details": "", "finish": 8.0, "pick": "", "W": 3.0, "L": 19.0, "T": 0.0, "PF": 2734.1, "PA": 3547.5, "Moves": 0.0, "PtsPct": 0.136, "xTitles": 0.01, "xSackos": 0.17, "PF_z": -1.16, "zStrength": 12.0, "xRank": 8.1, "RankDiff": -0.1, "xPtsPct": 0.36, "PtsPctDiff": 0.224, "PA_z": 0.37, "PA_zStrength": 64.0, "xPA": 3499.5, "PA_DIFF": 48.0, "draft_z": "", "draft_zStrength": "", "PF+": 80.0, "PA+": 101.0, "seasons": "", "Playoffs": 0.0, "Podiums": 0.0, "Titles": 0.0, "Sackos": 0.0, "std_finish": "", "total_W": "", "total_L": "", "total_PF": "", "total_PA": "", "team_name": "Team Tyler"}, {"year": "2019", "owner": "Danny Noonan", "league_name": "fuckingHockey-nhl", "Details": "", "finish": 9.0, "pick": "", "W": 7.0, "L": 15.0, "T": 0.0, "PF": 3323.2, "PA": 3538.4, "Moves": 0.0, "PtsPct": 0.318, "xTitles": 0.04, "xSackos": 0.01, "PF_z": -0.17, "zStrength": 43.0, "xRank": 5.8, "RankDiff": 3.2, "xPtsPct": 0.48, "PtsPctDiff": 0.162, "PA_z": 0.79, "PA_zStrength": 79.0, "xPA": 3434.0, "PA_DIFF": 104.4, "draft_z": "", "draft_zStrength": "", "PF+": 97.0, "PA+": 103.0, "seasons": "", "Playoffs": 0.0, "Podiums": 0.0, "Titles": 0.0, "Sackos": 0.0, "std_finish": "", "total_W": "", "total_L": "", "total_PF": "", "total_PA": "", "team_name": "The Hockeyroos"}, {"year": "2019", "owner": "James McKenna", "league_name": "fuckingHockey-nhl", "Details": "", "finish": 10.0, "pick": "", "W": 1.0, "L": 21.0, "T": 0.0, "PF": 2178.1, "PA": 3434.3, "Moves": 6.0, "PtsPct": 0.045, "xTitles": 0.0, "xSackos": 0.72, "PF_z": -2.1, "zStrength": 2.0, "xRank": 10.2, "RankDiff": -0.2, "xPtsPct": 0.247, "PtsPctDiff": 0.201, "PA_z": -0.96, "PA_zStrength": 17.0, "xPA": 3561.2, "PA_DIFF": -126.9, "draft_z": "", "draft_zStrength": "", "PF+": 64.0, "PA+": 96.0, "seasons": "", "Playoffs": 0.0, "Podiums": 0.0, "Titles": 0.0, "Sackos": 1.0, "std_finish": "", "total_W": "", "total_L": "", "total_PF": "", "total_PA": "", "team_name": "Absolutely Terrible"}, {"year": "2018", "owner": "Casey Mangan", "league_name": "fuckingHockey-nhl", "Details": "", "finish": 1.0, "pick": "", "W": 16.0, "L": 6.0, "T": 0.0, "PF": 3949.3, "PA": 3523.6, "Moves": 0.0, "PtsPct": 0.727, "xTitles": 0.15, "xSackos": 0.0, "PF_z": 0.84, "zStrength": 80.0, "xRank": 3.5, "RankDiff": -2.5, "xPtsPct": 0.601, "PtsPctDiff": -0.126, "PA_z": 0.35, "PA_zStrength": 64.0, "xPA": 3483.8, "PA_DIFF": 39.8, "draft_z": "", "draft_zStrength": "", "PF+": 112.0, "PA+": 101.0, "seasons": "", "Playoffs": 1.0, "Podiums": 1.0, "Titles": 1.0, "Sackos": 0.0, "std_finish": "", "total_W": "", "total_L": "", "total_PF": "", "total_PA": "", "team_name": "PK Casetrain"}, {"year": "2018", "owner": "Connor Reed", "league_name": "fuckingHockey-nhl", "Details": "", "finish": 2.0, "pick": "", "W": 18.0, "L": 4.0, "T": 0.0, "PF": 4210.9, "PA": 3494.1, "Moves": 2.0, "PtsPct": 0.818, "xTitles": 0.28, "xSackos": 0.0, "PF_z": 1.36, "zStrength": 91.0, "xRank": 2.3, "RankDiff": -0.3, "xPtsPct": 0.664, "PtsPctDiff": -0.154, "PA_z": 0.35, "PA_zStrength": 64.0, "xPA": 3454.8, "PA_DIFF": 39.3, "draft_z": "", "draft_zStrength": "", "PF+": 119.0, "PA+": 101.0, "seasons": "", "Playoffs": 1.0, "Podiums": 1.0, "Titles": 0.0, "Sackos": 0.0, "std_finish": "", "total_W": "", "total_L": "", "total_PF": "", "total_PA": "", "team_name": "Matthew Abraham"}, {"year": "2018", "owner": "Greg Ebert", "league_name": "fuckingHockey-nhl", "Details": "", "finish": 3.0, "pick": "", "W": 14.0, "L": 8.0, "T": 0.0, "PF": 3851.3, "PA": 3618.7, "Moves": 0.0, "PtsPct": 0.636, "xTitles": 0.11, "xSackos": 0.0, "PF_z": 0.64, "zStrength": 74.0, "xRank": 4.0, "RankDiff": -1.0, "xPtsPct": 0.578, "PtsPctDiff": -0.059, "PA_z": 1.1, "PA_zStrength": 86.0, "xPA": 3494.7, "PA_DIFF": 124.0, "draft_z": "", "draft_zStrength": "", "PF+": 109.0, "PA+": 104.0, "seasons": "", "Playoffs": 1.0, "Podiums": 1.0, "Titles": 0.0, "Sackos": 0.0, "std_finish": "", "total_W": "", "total_L": "", "total_PF": "", "total_PA": "", "team_name": "tyler edwards"}, {"year": "2018", "owner": "Kevin Mangan", "league_name": "fuckingHockey-nhl", "Details": "", "finish": 4.0, "pick": "", "W": 17.0, "L": 5.0, "T": 0.0, "PF": 3845.9, "PA": 3363.7, "Moves": 0.0, "PtsPct": 0.773, "xTitles": 0.11, "xSackos": 0.0, "PF_z": 0.63, "zStrength": 74.0, "xRank": 4.0, "RankDiff": 0.0, "xPtsPct": 0.576, "PtsPctDiff": -0.197, "PA_z": -1.17, "PA_zStrength": 12.0, "xPA": 3495.3, "PA_DIFF": -131.6, "draft_z": "", "draft_zStrength": "", "PF+": 109.0, "PA+": 96.0, "seasons": "", "Playoffs": 1.0, "Podiums": 0.0, "Titles": 0.0, "Sackos": 0.0, "std_finish": "", "total_W": "", "total_L": "", "total_PF": "", "total_PA": "", "team_name": "Blades of Glory"}, {"year": "2018", "owner": "Danny Noonan", "league_name": "fuckingHockey-nhl", "Details": "", "finish": 5.0, "pick": "", "W": 13.0, "L": 9.0, "T": 0.0, "PF": 3991.1, "PA": 3607.4, "Moves": 0.0, "PtsPct": 0.591, "xTitles": 0.17, "xSackos": 0.0, "PF_z": 0.92, "zStrength": 82.0, "xRank": 3.3, "RankDiff": 1.7, "xPtsPct": 0.611, "PtsPctDiff": 0.02, "PA_z": 1.14, "PA_zStrength": 87.0, "xPA": 3479.2, "PA_DIFF": 128.2, "draft_z": "", "draft_zStrength": "", "PF+": 113.0, "PA+": 104.0, "seasons": "", "Playoffs": 0.0, "Podiums": 0.0, "Titles": 0.0, "Sackos": 0.0, "std_finish": "", "total_W": "", "total_L": "", "total_PF": "", "total_PA": "", "team_name": "The Hockeyroos"}, {"year": "2018", "owner": "Tyler Edwards", "league_name": "fuckingHockey-nhl", "Details": "", "finish": 6.0, "pick": "", "W": 9.0, "L": 13.0, "T": 0.0, "PF": 3440.3, "PA": 3637.9, "Moves": 0.0, "PtsPct": 0.409, "xTitles": 0.04, "xSackos": 0.01, "PF_z": -0.18, "zStrength": 43.0, "xRank": 5.9, "RankDiff": 0.2, "xPtsPct": 0.478, "PtsPctDiff": 0.069, "PA_z": 0.87, "PA_zStrength": 81.0, "xPA": 3540.4, "PA_DIFF": 97.5, "draft_z": "", "draft_zStrength": "", "PF+": 97.0, "PA+": 103.0, "seasons": "", "Playoffs": 0.0, "Podiums": 0.0, "Titles": 0.0, "Sackos": 0.0, "std_finish": "", "total_W": "", "total_L": "", "total_PF": "", "total_PA": "", "team_name": "Team Edwards"}, {"year": "2018", "owner": "James McKenna", "league_name": "fuckingHockey-nhl", "Details": "", "finish": 7.0, "pick": "", "W": 9.0, "L": 13.0, "T": 0.0, "PF": 3194.4, "PA": 3319.2, "Moves": 0.0, "PtsPct": 0.409, "xTitles": 0.02, "xSackos": 0.05, "PF_z": -0.67, "zStrength": 25.0, "xRank": 7.0, "RankDiff": 0.0, "xPtsPct": 0.419, "PtsPctDiff": 0.01, "PA_z": -2.21, "PA_zStrength": 1.0, "xPA": 3567.7, "PA_DIFF": -248.5, "draft_z": "", "draft_zStrength": "", "PF+": 91.0, "PA+": 93.0, "seasons": "", "Playoffs": 0.0, "Podiums": 0.0, "Titles": 0.0, "Sackos": 0.0, "std_finish": "", "total_W": "", "total_L": "", "total_PF": "", "total_PA": "", "team_name": "Absolutely Terrible"}, {"year": "2018", "owner": "Matt Abraham", "league_name": "fuckingHockey-nhl", "Details": "", "finish": 8.0, "pick": "", "W": 3.0, "L": 19.0, "T": 0.0, "PF": 3008.6, "PA": 3576.0, "Moves": 0.0, "PtsPct": 0.136, "xTitles": 0.01, "xSackos": 0.13, "PF_z": -1.04, "zStrength": 15.0, "xRank": 7.8, "RankDiff": 0.2, "xPtsPct": 0.374, "PtsPctDiff": 0.238, "PA_z": -0.11, "PA_zStrength": 46.0, "xPA": 3588.4, "PA_DIFF": -12.4, "draft_z": "", "draft_zStrength": "", "PF+": 85.0, "PA+": 100.0, "seasons": "", "Playoffs": 0.0, "Podiums": 0.0, "Titles": 0.0, "Sackos": 0.0, "std_finish": "", "total_W": "", "total_L": "", "total_PF": "", "total_PA": "", "team_name": "The Bros"}, {"year": "2018", "owner": "Sean Musser", "league_name": "fuckingHockey-nhl", "Details": "", "finish": 9.0, "pick": "", "W": 4.0, "L": 18.0, "T": 0.0, "PF": 2539.1, "PA": 3587.0, "Moves": 2.0, "PtsPct": 0.182, "xTitles": 0.0, "xSackos": 0.66, "PF_z": -1.98, "zStrength": 2.0, "xRank": 10.0, "RankDiff": -1.0, "xPtsPct": 0.261, "PtsPctDiff": 0.079, "PA_z": -0.48, "PA_zStrength": 32.0, "xPA": 3640.5, "PA_DIFF": -53.5, "draft_z": "", "draft_zStrength": "", "PF+": 72.0, "PA+": 99.0, "seasons": "", "Playoffs": 0.0, "Podiums": 0.0, "Titles": 0.0, "Sackos": 0.0, "std_finish": "", "total_W": "", "total_L": "", "total_PF": "", "total_PA": "", "team_name": "Fuck Patrick Marleau"}, {"year": "2018", "owner": "Kyle McNulty", "league_name": "fuckingHockey-nhl", "Details": "", "finish": 10.0, "pick": "", "W": 7.0, "L": 15.0, "T": 0.0, "PF": 3272.9, "PA": 3576.2, "Moves": 0.0, "PtsPct": 0.318, "xTitles": 0.02, "xSackos": 0.03, "PF_z": -0.52, "zStrength": 30.0, "xRank": 6.6, "RankDiff": 3.4, "xPtsPct": 0.438, "PtsPctDiff": 0.12, "PA_z": 0.15, "PA_zStrength": 56.0, "xPA": 3559.0, "PA_DIFF": 17.2, "draft_z": "", "draft_zStrength": "", "PF+": 93.0, "PA+": 101.0, "seasons": "", "Playoffs": 0.0, "Podiums": 0.0, "Titles": 0.0, "Sackos": 1.0, "std_finish": "", "total_W": "", "total_L": "", "total_PF": "", "total_PA": "", "team_name": "I Can't Believe I'm Doing This"}, {"year": "2017", "owner": "Connor Reed", "league_name": "fuckingHockey-nhl", "Details": "", "finish": 1.0, "pick": "", "W": 18.0, "L": 3.0, "T": 0.0, "PF": 3910.5, "PA": 3185.6, "Moves": 10.0, "PtsPct": 0.857, "xTitles": 0.61, "xSackos": 0.0, "PF_z": 2.28, "zStrength": 99.0, "xRank": 0.2, "RankDiff": 0.8, "xPtsPct": 0.775, "PtsPctDiff": -0.082, "PA_z": -0.88, "PA_zStrength": 19.0, "xPA": 3268.2, "PA_DIFF": -82.6, "draft_z": "", "draft_zStrength": "", "PF+": 117.0, "PA+": 98.0, "seasons": "", "Playoffs": 1.0, "Podiums": 1.0, "Titles": 1.0, "Sackos": 0.0, "std_finish": "", "total_W": "", "total_L": "", "total_PF": "", "total_PA": "", "team_name": "Matthew Abraham"}, {"year": "2017", "owner": "Kyle McNulty", "league_name": "fuckingHockey-nhl", "Details": "", "finish": 2.0, "pick": "", "W": 13.0, "L": 8.0, "T": 0.0, "PF": 3342.7, "PA": 3195.0, "Moves": 3.0, "PtsPct": 0.619, "xTitles": 0.05, "xSackos": 0.01, "PF_z": 0.04, "zStrength": 52.0, "xRank": 5.4, "RankDiff": -3.4, "xPtsPct": 0.505, "PtsPctDiff": -0.114, "PA_z": -1.45, "PA_zStrength": 7.0, "xPA": 3331.3, "PA_DIFF": -136.3, "draft_z": "", "draft_zStrength": "", "PF+": 100.0, "PA+": 96.0, "seasons": "", "Playoffs": 1.0, "Podiums": 1.0, "Titles": 0.0, "Sackos": 0.0, "std_finish": "", "total_W": "", "total_L": "", "total_PF": "", "total_PA": "", "team_name": "I Can't Believe I'm Doing This"}, {"year": "2017", "owner": "Tyler Edwards", "league_name": "fuckingHockey-nhl", "Details": "", "finish": 3.0, "pick": "", "W": 12.0, "L": 9.0, "T": 0.0, "PF": 3366.0, "PA": 3306.4, "Moves": 0.0, "PtsPct": 0.571, "xTitles": 0.06, "xSackos": 0.01, "PF_z": 0.13, "zStrength": 55.0, "xRank": 5.1, "RankDiff": -2.1, "xPtsPct": 0.516, "PtsPctDiff": -0.056, "PA_z": -0.24, "PA_zStrength": 41.0, "xPA": 3328.7, "PA_DIFF": -22.3, "draft_z": "", "draft_zStrength": "", "PF+": 101.0, "PA+": 99.0, "seasons": "", "Playoffs": 1.0, "Podiums": 1.0, "Titles": 0.0, "Sackos": 0.0, "std_finish": "", "total_W": "", "total_L": "", "total_PF": "", "total_PA": "", "team_name": "Team Edwards"}, {"year": "2017", "owner": "Sean Musser", "league_name": "fuckingHockey-nhl", "Details": "", "finish": 4.0, "pick": "", "W": 13.0, "L": 8.0, "T": 0.0, "PF": 3427.2, "PA": 3328.7, "Moves": 17.0, "PtsPct": 0.619, "xTitles": 0.08, "xSackos": 0.0, "PF_z": 0.37, "zStrength": 65.0, "xRank": 4.6, "RankDiff": -0.6, "xPtsPct": 0.545, "PtsPctDiff": -0.074, "PA_z": 0.07, "PA_zStrength": 53.0, "xPA": 3321.9, "PA_DIFF": 6.8, "draft_z": "", "draft_zStrength": "", "PF+": 103.0, "PA+": 100.0, "seasons": "", "Playoffs": 1.0, "Podiums": 0.0, "Titles": 0.0, "Sackos": 0.0, "std_finish": "", "total_W": "", "total_L": "", "total_PF": "", "total_PA": "", "team_name": "The Loydsville Losers"}, {"year": "2017", "owner": "Danny Noonan", "league_name": "fuckingHockey-nhl", "Details": "", "finish": 5.0, "pick": "", "W": 8.0, "L": 13.0, "T": 0.0, "PF": 3232.7, "PA": 3387.7, "Moves": 0.0, "PtsPct": 0.381, "xTitles": 0.03, "xSackos": 0.02, "PF_z": -0.39, "zStrength": 35.0, "xRank": 6.3, "RankDiff": -1.3, "xPtsPct": 0.453, "PtsPctDiff": 0.072, "PA_z": 0.47, "PA_zStrength": 68.0, "xPA": 3343.5, "PA_DIFF": 44.2, "draft_z": "", "draft_zStrength": "", "PF+": 97.0, "PA+": 101.0, "seasons": "", "Playoffs": 0.0, "Podiums": 0.0, "Titles": 0.0, "Sackos": 0.0, "std_finish": "", "total_W": "", "total_L": "", "total_PF": "", "total_PA": "", "team_name": "The Hockeyroos"}, {"year": "2017", "owner": "Casey Mangan", "league_name": "fuckingHockey-nhl", "Details": "", "finish": 6.0, "pick": "", "W": 10.0, "L": 11.0, "T": 0.0, "PF": 3494.9, "PA": 3420.1, "Moves": 21.0, "PtsPct": 0.476, "xTitles": 0.11, "xSackos": 0.0, "PF_z": 0.64, "zStrength": 74.0, "xRank": 4.0, "RankDiff": 2.0, "xPtsPct": 0.577, "PtsPctDiff": 0.101, "PA_z": 1.13, "PA_zStrength": 87.0, "xPA": 3314.4, "PA_DIFF": 105.7, "draft_z": "", "draft_zStrength": "", "PF+": 105.0, "PA+": 103.0, "seasons": "", "Playoffs": 0.0, "Podiums": 0.0, "Titles": 0.0, "Sackos": 0.0, "std_finish": "", "total_W": "", "total_L": "", "total_PF": "", "total_PA": "", "team_name": "Casetrain On Ice"}, {"year": "2017", "owner": "Kevin Mangan", "league_name": "fuckingHockey-nhl", "Details": "", "finish": 7.0, "pick": "", "W": 6.0, "L": 15.0, "T": 0.0, "PF": 3128.2, "PA": 3424.7, "Moves": 7.0, "PtsPct": 0.286, "xTitles": 0.01, "xSackos": 0.07, "PF_z": -0.81, "zStrength": 21.0, "xRank": 7.3, "RankDiff": -0.3, "xPtsPct": 0.403, "PtsPctDiff": 0.117, "PA_z": 0.74, "PA_zStrength": 77.0, "xPA": 3355.2, "PA_DIFF": 69.5, "draft_z": "", "draft_zStrength": "", "PF+": 94.0, "PA+": 102.0, "seasons": "", "Playoffs": 0.0, "Podiums": 0.0, "Titles": 0.0, "Sackos": 0.0, "std_finish": "", "total_W": "", "total_L": "", "total_PF": "", "total_PA": "", "team_name": "Blades of Glory"}, {"year": "2017", "owner": "Matt Abraham", "league_name": "fuckingHockey-nhl", "Details": "", "finish": 8.0, "pick": "", "W": 11.0, "L": 10.0, "T": 0.0, "PF": 3126.8, "PA": 3205.6, "Moves": 7.0, "PtsPct": 0.524, "xTitles": 0.01, "xSackos": 0.07, "PF_z": -0.81, "zStrength": 21.0, "xRank": 7.3, "RankDiff": 0.7, "xPtsPct": 0.402, "PtsPctDiff": -0.122, "PA_z": -1.6, "PA_zStrength": 6.0, "xPA": 3355.3, "PA_DIFF": -149.7, "draft_z": "", "draft_zStrength": "", "PF+": 94.0, "PA+": 96.0, "seasons": "", "Playoffs": 0.0, "Podiums": 0.0, "Titles": 0.0, "Sackos": 0.0, "std_finish": "", "total_W": "", "total_L": "", "total_PF": "", "total_PA": "", "team_name": "Always Sunny In Philadelphia"}, {"year": "2017", "owner": "James McKenna", "league_name": "fuckingHockey-nhl", "Details": "", "finish": 9.0, "pick": "", "W": 6.0, "L": 15.0, "T": 0.0, "PF": 2912.2, "PA": 3398.0, "Moves": 1.0, "PtsPct": 0.286, "xTitles": 0.0, "xSackos": 0.44, "PF_z": -1.66, "zStrength": 5.0, "xRank": 9.2, "RankDiff": -0.2, "xPtsPct": 0.3, "PtsPctDiff": 0.014, "PA_z": 0.2, "PA_zStrength": 58.0, "xPA": 3379.2, "PA_DIFF": 18.8, "draft_z": "", "draft_zStrength": "", "PF+": 87.0, "PA+": 101.0, "seasons": "", "Playoffs": 0.0, "Podiums": 0.0, "Titles": 0.0, "Sackos": 0.0, "std_finish": "", "total_W": "", "total_L": "", "total_PF": "", "total_PA": "", "team_name": "Absolutely Terrible"}, {"year": "2017", "owner": "Greg Ebert", "league_name": "fuckingHockey-nhl", "Details": "", "finish": 10.0, "pick": "", "W": 8.0, "L": 13.0, "T": 0.0, "PF": 3383.4, "PA": 3472.8, "Moves": 0.0, "PtsPct": 0.381, "xTitles": 0.06, "xSackos": 0.0, "PF_z": 0.2, "zStrength": 58.0, "xRank": 5.0, "RankDiff": 5.0, "xPtsPct": 0.524, "PtsPctDiff": 0.143, "PA_z": 1.56, "PA_zStrength": 94.0, "xPA": 3326.8, "PA_DIFF": 146.0, "draft_z": "", "draft_zStrength": "", "PF+": 102.0, "PA+": 104.0, "seasons": "", "Playoffs": 0.0, "Podiums": 0.0, "Titles": 0.0, "Sackos": 1.0, "std_finish": "", "total_W": "", "total_L": "", "total_PF": "", "total_PA": "", "team_name": "tyler edwards"}];
-        const pageTitle = "fantasy_hockey_fuckinghockey - June 21, 2026";
-        const longTextColumns = ["Details", "team_name"];
-        const maxTextLength = 50;
-        const pageSize = 50;
-        const stickyColumns = ["year", "owner"];
+function esc(s){ var d = document.createElement('span'); d.textContent = s; return d.innerHTML; }
 
-        // Check if text is a URL
-        const isUrl = (text) => {
-            if (!text || typeof text !== 'string') return false;
-            return /^https?:\/\/\S+$/.test(text);
-        };
+// Accent-insensitive matching: "Acuna" finds "Acuña" and "Acuña" finds "Acuna".
+// NFD splits an accented letter into base + combining mark, so dropping the
+// marks leaves plain ASCII. Every non-ASCII character in this data decomposes
+// that way (measured across the spine: only í é á ó ñ ú Á É Ó appear). ⚠️ A
+// letter that is its own code point with no combining mark - ø, ł, đ, ß - does
+// NOT fold and would need an explicit map if one ever turns up.
+function fold(s){
+  return String(s).normalize('NFD').replace(/[\u0300-\u036f]/g, '').toLowerCase();
+}
 
-        // Memoized Text Cell Component
-        const TextCell = React.memo(function TextCell({ text }) {
-            const [isOpen, setIsOpen] = React.useState(false);
-            
-            // Handle URL links
-            if (isUrl(text)) {
-                return (
-                    <a 
-                        href={text} 
-                        target="_blank" 
-                        rel="noopener noreferrer"
-                        className="text-blue-600 hover:underline"
-                    >
-                        {text}
-                    </a>
-                );
-            }
-            
-            if (!text || text.length <= maxTextLength) {
-                return <span>{text || ""}</span>;
-            }
+// The folded whole-row haystack, built ONCE on first use. The plain-text filter
+// used to re-join and re-lowercase every row on every keystroke - 24,000 of
+// them on the biggest table - and folding is more expensive than lowercasing,
+// so caching it makes the filter faster than it was before this change.
+var HAYS = null;
+function hays(){
+  if (!HAYS) HAYS = ROWS.map(function(r){ return fold(r.join('\u0001')); });
+  return HAYS;
+}
 
-            return (
-                <>
-                    <span 
-                        className="truncate-text"
-                        onClick={() => setIsOpen(true)}
-                    >
-                        {text.substring(0, maxTextLength)}&hellip;
-                    </span>
-                    
-                    {isOpen && (
-                        <div 
-                            className="text-modal"
-                            onClick={() => setIsOpen(false)}
-                        >
-                            <div 
-                                className="modal-content relative"
-                                onClick={e => e.stopPropagation()}
-                            >
-                                <button 
-                                    className="close-button"
-                                    onClick={() => setIsOpen(false)}
-                                >
-                                    ×
-                                </button>
-                                <div className="mt-4 whitespace-pre-wrap">
-                                    {isUrl(text) ? (
-                                        <a 
-                                            href={text} 
-                                            target="_blank" 
-                                            rel="noopener noreferrer"
-                                            className="text-blue-600 hover:underline"
-                                        >
-                                            {text}
-                                        </a>
-                                    ) : (
-                                        text
-                                    )}
-                                </div>
-                            </div>
-                        </div>
-                    )}
-                </>
-            );
+// height must land on the cell too - a <tr> alone doesn't reliably size in
+// table layout. rounded to whole px so spacers can never drift fractionally.
+function setSpacer(tr, px){
+  var h = Math.round(px) + 'px';
+  tr.style.height = h;
+  tr.firstElementChild.style.height = h;
+}
+
+function buildHeader(){
+  var tr = document.createElement('tr');
+  COLS.forEach(function(c, i){
+    var th = document.createElement('th');
+    th.innerHTML = esc(c) + '<span class="arrow">' + (i===sortCol ? (sortDir===1?'\u25B2':'\u25BC') : '') + '</span>';
+    th.onclick = function(){ setSort(i); };
+    tr.appendChild(th);
+  });
+  thead.innerHTML = '';
+  thead.appendChild(tr);
+}
+
+function numeric(v){
+  if (v === '' || v === null) return null;
+  var n = parseFloat(String(v).replace(/,/g,''));
+  return (!isNaN(n) && isFinite(n) && /^[\s]*[-+$]?[\d,.]+%?[\s]*$/.test(String(v))) ? n : null;
+}
+
+function setSort(i){
+  if (sortCol === i){ sortDir = (sortDir === 1) ? -1 : 1; } else { sortCol = i; sortDir = 1; }
+  view.sort(function(a, b){
+    var va = ROWS[a][i], vb = ROWS[b][i];
+    var na = numeric(va), nb = numeric(vb);
+    var r;
+    if (va === '' && vb !== '') return 1;            // empties last, always
+    if (vb === '' && va !== '') return -1;
+    if (na !== null && nb !== null){ r = na - nb; }
+    else { r = String(va).localeCompare(String(vb), undefined, {sensitivity:'base'}); }
+    return sortDir * r;
+  });
+  buildHeader();
+  render();
+}
+
+var filterBox = document.getElementById('filter');
+var debounce = null;
+filterBox.addEventListener('input', function(){
+  clearTimeout(debounce);
+  debounce = setTimeout(applyFilter, 180);
+});
+
+// ---- sql-ish WHERE expressions ------------------------------------------
+// v_grade >= 7 and area like '%hueco%'   |   year in (2019,2020) or not flash = 'FLASH'
+// column names normalize: lowercase, runs of non-alphanumerics -> _
+var COLIDX = {};
+COLS.forEach(function(c, i){ COLIDX[normId(c)] = i; });
+
+// fold first: without it an accented COLUMN name loses the letter entirely
+// (é -> _) and could never be typed. No such column exists today; this just
+// keeps column matching on the same footing as value matching.
+function normId(s){ return fold(s).replace(/[^a-z0-9]+/g, '_').replace(/^_+|_+$/g, ''); }
+
+function looksLikeSql(q){
+  return /(<=|>=|!=|<>|=|<|>)/.test(q) || /\b(like|in|and|or|not)\b/i.test(q);
+}
+
+function tokenize(q){
+  var re = /\s*(?:(<=|>=|!=|<>|=|<|>|\(|\)|,)|'((?:[^']|'')*)'|"([^"]*)"|([A-Za-z0-9_.%$-]+))/g;
+  var toks = [], m, pos = 0;
+  while ((m = re.exec(q)) !== null){
+    if (m.index !== pos && q.slice(pos, m.index).trim() !== '') return null;
+    pos = re.lastIndex;
+    if (m[1] !== undefined) toks.push({t:'op', v:m[1]});
+    else if (m[2] !== undefined) toks.push({t:'str', v:m[2].replace(/''/g, "'")});
+    else if (m[3] !== undefined) toks.push({t:'str', v:m[3]});
+    else {
+      var w = m[4], lw = w.toLowerCase();
+      if (['and','or','not','like','in'].indexOf(lw) >= 0) toks.push({t:'kw', v:lw});
+      else toks.push({t:'word', v:w});
+    }
+  }
+  if (pos < q.length && q.slice(pos).trim() !== '') return null;
+  return toks;
+}
+
+function parse(toks){
+  var p = 0;
+  function peek(){ return toks[p]; }
+  function take(){ return toks[p++]; }
+  function expr(){
+    var n = term();
+    while (peek() && peek().t === 'kw' && peek().v === 'or'){ take(); n = {or:[n, term()]}; }
+    return n;
+  }
+  function term(){
+    var n = factor();
+    while (peek() && peek().t === 'kw' && peek().v === 'and'){ take(); n = {and:[n, factor()]}; }
+    return n;
+  }
+  function factor(){
+    var tk = peek();
+    if (!tk) throw 0;
+    if (tk.t === 'kw' && tk.v === 'not'){ take(); return {not: factor()}; }
+    if (tk.t === 'op' && tk.v === '('){ take(); var n = expr(); if (!peek() || peek().v !== ')') throw 0; take(); return n; }
+    return predicate();
+  }
+  function predicate(){
+    var c = take();
+    if (!c || c.t !== 'word') throw 0;
+    var idx = COLIDX[normId(c.v)];
+    if (idx === undefined) throw 0;
+    var neg = false, tk = peek();
+    if (tk && tk.t === 'kw' && tk.v === 'not'){ take(); neg = true; tk = peek(); }
+    if (!tk) throw 0;
+    if (tk.t === 'kw' && tk.v === 'like'){ take(); var v = value(); return {like:{col:idx, pat:v, neg:neg}}; }
+    if (tk.t === 'kw' && tk.v === 'in'){
+      take(); if (!peek() || peek().v !== '(') throw 0; take();
+      var vals = [value()];
+      while (peek() && peek().v === ','){ take(); vals.push(value()); }
+      if (!peek() || peek().v !== ')') throw 0; take();
+      return {inlist:{col:idx, vals:vals, neg:neg}};
+    }
+    if (neg) throw 0;
+    if (tk.t === 'op' && ['=','!=','<>','<','<=','>','>='].indexOf(tk.v) >= 0){ take(); return {cmp:{col:idx, op:tk.v, val:value()}}; }
+    throw 0;
+  }
+  function value(){
+    var tk = take();
+    if (!tk || (tk.t !== 'str' && tk.t !== 'word')) throw 0;
+    return tk.v;
+  }
+  var n = expr();
+  if (p !== toks.length) throw 0;
+  return n;
+}
+
+function evalNode(n, row){
+  if (n.or) return evalNode(n.or[0], row) || evalNode(n.or[1], row);
+  if (n.and) return evalNode(n.and[0], row) && evalNode(n.and[1], row);
+  if (n.not) return !evalNode(n.not, row);
+  if (n.cmp){
+    var cell = String(row[n.cmp.col]), val = String(n.cmp.val);
+    var nc = numeric(cell), nv = numeric(val), r;
+    if (nc !== null && nv !== null){ r = nc < nv ? -1 : (nc > nv ? 1 : 0); }
+    else { var a = fold(cell), b = fold(val); r = a < b ? -1 : (a > b ? 1 : 0); }
+    switch (n.cmp.op){
+      case '=': return r === 0;
+      case '!=': case '<>': return r !== 0;
+      case '<': return r < 0;
+      case '<=': return r <= 0;
+      case '>': return r > 0;
+      case '>=': return r >= 0;
+    }
+  }
+  if (n.like){
+    // fold BEFORE escaping, so % and _ survive to become wildcards
+    var pat = fold(n.like.pat).replace(/[.*+?^${}()|[\]\\]/g, '\\$&').replace(/%/g, '.*').replace(/_/g, '.');
+    var hit = new RegExp('^' + pat + '$', 'i').test(fold(row[n.like.col]));
+    return n.like.neg ? !hit : hit;
+  }
+  if (n.inlist){
+    var cell = fold(row[n.inlist.col]);
+    var hit = n.inlist.vals.some(function(v){ return fold(v) === cell; });
+    return n.inlist.neg ? !hit : hit;
+  }
+  return false;
+}
+// -------------------------------------------------------------------------
+
+function applyFilter(){
+  var q = filterBox.value.trim();
+  filterBox.classList.remove('bad');
+  view = [];
+  if (q === ''){
+    for (var i = 0; i < ROWS.length; i++) view.push(i);
+  } else if (looksLikeSql(q)){
+    var ast = null, toks = tokenize(q);
+    if (toks){ try { ast = parse(toks); } catch (e) { ast = null; } }
+    if (!ast){
+      filterBox.classList.add('bad');
+      count.textContent = 'bad expression';
+      return;                                        // keep current view
+    }
+    for (var i = 0; i < ROWS.length; i++){ if (evalNode(ast, ROWS[i])) view.push(i); }
+  } else {
+    var terms = fold(q).split(/\s+/), H = hays();
+    for (var i = 0; i < ROWS.length; i++){
+      var hay = H[i];
+      var ok = true;
+      for (var t = 0; t < terms.length; t++){ if (hay.indexOf(terms[t]) === -1){ ok = false; break; } }
+      if (ok) view.push(i);
+    }
+  }
+  if (sortCol >= 0){ var c = sortCol, d = sortDir; sortCol = -1; sortDir = 0; setSort(c); if (d === -1) setSort(c); return; }
+  render();
+}
+
+function render(){
+  var h = wrap.clientHeight;
+  var first = Math.max(0, Math.floor(wrap.scrollTop / ROWH) - PAD);
+  var last = Math.min(view.length, Math.ceil((wrap.scrollTop + h) / ROWH) + PAD);
+  setSpacer(topSpace, first * ROWH);
+  setSpacer(botSpace, (view.length - last) * ROWH);
+  var html = [];
+  for (var v = first; v < last; v++){
+    var row = ROWS[view[v]];
+    html.push('<tr>');
+    for (var c = 0; c < row.length; c++){
+      var val = String(row[c]);
+      // an empty cell falls back to its COLUMN~GUARD~template if one is
+      // registered AND that row's guard column is non-empty, labelled
+      // FALLBACK_TEXT since there is no value to show
+      var tmpl = LINKS[c], text = val;
+      if (val === ''){
+        var fb = FALLBACKS[c];
+        tmpl = (fb && String(row[fb[0]] || '') !== '') ? fb[1] : null;
+        text = FALLBACK_TEXT;
+      }
+      if (tmpl){
+        var href = tmpl.replace(/\{([^}]*)\}/g, function(_m, name){
+          var raw = (name === '') ? val : String(row[COLIDX_BY_NAME[name]] || '');
+          return encodeURIComponent(raw);
         });
+        html.push('<td><a href="' + esc(href) + '" target="_blank" rel="noopener">' + esc(text) + '</a></td>');
+      } else if (val.length > EXPAND_AT){
+        html.push('<td class="expandable" data-r="' + view[v] + '" data-c="' + c + '">' + esc(val) + '</td>');
+      } else {
+        html.push('<td>' + esc(val) + '</td>');
+      }
+    }
+    html.push('</tr>');
+  }
+  tbody.innerHTML = html.join('');
+  count.textContent = view.length.toLocaleString() + ' of ' + ROWS.length.toLocaleString() + ' rows';
+}
 
-        // Virtual Table Row Component
-        const TableRow = React.memo(function TableRow({ row, columns, longTextColumns }) {
-            return (
-                <tr className="hover:bg-gray-50">
-                    {columns.map((column, colIndex) => (
-                        <td 
-                            key={column} 
-                            className={`px-6 py-4 whitespace-normal text-sm text-gray-500 ${
-                                stickyColumns && stickyColumns.includes(column) 
-                                    ? `sticky-column sticky-column-${stickyColumns.indexOf(column)}` 
-                                    : ''
-                            }`}
-                        >
-                            {longTextColumns.includes(column) ? (
-                                <TextCell text={String(row[column])} />
-                            ) : (
-                                isUrl(String(row[column])) ? (
-                                    <a 
-                                        href={String(row[column])} 
-                                        target="_blank" 
-                                        rel="noopener noreferrer"
-                                        className="text-blue-600 hover:underline"
-                                    >
-                                        {String(row[column])}
-                                    </a>
-                                ) : (
-                                    String(row[column] ?? "")
-                                )
-                            )}
-                        </td>
-                    ))}
-                </tr>
-            );
-        });
+// ROWH must match the REAL rendered row height: if it doesn't, the spacer
+// heights misreport the total, scrollHeight shifts under the browser on
+// every render, it corrects scrollTop, that fires scroll again -> runaway
+// scrolling. So measure a real row instead of assuming one.
+function calibrate(){
+  if (!ROWS.length) return;
+  setSpacer(topSpace, 0);
+  setSpacer(botSpace, 0);
+  var probe = [], row = ROWS[0];
+  probe.push('<tr>');
+  for (var c = 0; c < row.length; c++){
+    var val = String(row[c]);
+    probe.push('<td>' + esc(val) + '</td>');
+  }
+  probe.push('</tr>');
+  tbody.innerHTML = probe.join('');
+  var tr = tbody.firstElementChild;
+  if (tr){
+    var h = Math.round(tr.getBoundingClientRect().height);
+    if (h > 4) ROWH = h;             // whole px only: fractional rows drift
+  }
+  tbody.innerHTML = '';
+}
 
-        // Filter Component
-        const Filter = React.memo(function Filter({ columns, filters, onFilterChange }) {
-            const [activeColumn, setActiveColumn] = React.useState(null);
-            const [searchTerm, setSearchTerm] = React.useState('');
-            
-            // Filter columns based on search term
-            const filteredColumns = React.useMemo(() => {
-                if (!searchTerm) return columns;
-                return columns.filter(col => 
-                    col.toLowerCase().includes(searchTerm.toLowerCase())
-                );
-            }, [columns, searchTerm]);
-            
-            // Count active filters
-            const filterCount = Object.keys(filters).length;
-            
-            return (
-                <div className="mb-4 flex flex-wrap items-end gap-4">
-                    {/* Active filters display */}
-                    <div className="flex-1">
-                        <div className="flex flex-wrap gap-2 mb-2">
-                            {Object.entries(filters).map(([column, value]) => (
-                                <div 
-                                    key={column} 
-                                    className="bg-blue-100 text-blue-800 px-3 py-1 rounded-full text-sm flex items-center"
-                                >
-                                    <span className="font-medium mr-1">{column.replace(/_/g, ' ')}</span>
-                                    <span>{value || '<empty>'}</span>
-                                    <button 
-                                        onClick={() => onFilterChange(column, '')}
-                                        className="ml-2 text-blue-600 hover:text-blue-800"
-                                    >
-                                        ×
-                                    </button>
-                                </div>
-                            ))}
-                            {filterCount > 0 && (
-                                <button 
-                                    onClick={() => {
-                                        Object.keys(filters).forEach(column => {
-                                            onFilterChange(column, '');
-                                        });
-                                    }}
-                                    className="text-sm text-red-600 hover:text-red-800 ml-2"
-                                >
-                                    Clear all
-                                </button>
-                            )}
-                        </div>
-                        
-                        {/* Dropdown for filter selection */}
-                        <div className="relative inline-block text-left">
-                            <div>
-                                <button 
-                                    type="button" 
-                                    className="inline-flex justify-center w-full rounded-md border border-gray-300 shadow-sm px-4 py-2 bg-white text-sm font-medium text-gray-700 hover:bg-gray-50 focus:outline-none"
-                                    onClick={() => setActiveColumn(activeColumn ? null : '')}
-                                >
-                                    Add Filter {filterCount > 0 ? "(" + filterCount + ")" : ""}
-                                </button>
-                            </div>
-                            
-                            {activeColumn !== null && activeColumn === '' && (
-                                <div className="origin-top-left absolute left-0 mt-2 rounded-md shadow-lg bg-white ring-1 ring-black ring-opacity-5 focus:outline-none z-50" style={{width: '320px'}}>
-                                    <div className="py-1">
-                                        {/* Search input for columns */}
-                                        <div className="px-4 py-2">
-                                            <input
-                                                type="text"
-                                                className="w-full px-3 py-2 border rounded-md text-sm"
-                                                placeholder="Search columns..."
-                                                value={searchTerm}
-                                                onChange={e => setSearchTerm(e.target.value)}
-                                            />
-                                        </div>
-                                        
-                                        {/* Scrollable column list */}
-                                        <div style={{maxHeight: '200px', overflowY: 'auto'}}>
-                                            {filteredColumns.map(column => (
-                                                <button
-                                                    key={column}
-                                                    className={`block w-full text-left px-4 py-2 text-sm hover:bg-gray-100 ${filters[column] ? 'bg-blue-50' : ''}`}
-                                                    onClick={() => {
-                                                        setActiveColumn(column);
-                                                        setSearchTerm('');
-                                                    }}
-                                                >
-                                                    {column.replace(/_/g, ' ')}
-                                                    {filters[column] && (
-                                                        <span className="ml-2 text-blue-600">✓</span>
-                                                    )}
-                                                </button>
-                                            ))}
-                                            {filteredColumns.length === 0 && (
-                                                <div className="px-4 py-2 text-sm text-gray-500">
-                                                    No columns found
-                                                </div>
-                                            )}
-                                        </div>
-                                    </div>
-                                </div>
-                            )}
-                        </div>
-                        
-                        {/* Filter value input */}
-                        {activeColumn && activeColumn !== '' && (
-                            <div className="mt-2 flex">
-                                <div className="relative bg-white p-4 border rounded-md shadow-lg z-50 ml-4" style={{width: '320px'}}>
-                                    <div className="text-sm font-medium text-gray-700 mb-1">
-                                        {activeColumn.replace(/_/g, ' ')}
-                                    </div>
-                                    <div className="flex">
-                                        <input
-                                            type="text"
-                                            value={filters[activeColumn] || ''}
-                                            onChange={e => onFilterChange(activeColumn, e.target.value)}
-                                            className="flex-1 px-3 py-2 border rounded-l-md text-sm"
-                                            placeholder="Enter filter value..."
-                                        />
-                                        <button
-                                            onClick={() => {
-                                                if (filters[activeColumn] || filters[activeColumn] === '') {
-                                                    setActiveColumn(null);
-                                                } else {
-                                                    onFilterChange(activeColumn, '');
-                                                    setActiveColumn(null);
-                                                }
-                                            }}
-                                            className="px-3 py-2 border border-l-0 rounded-r-md bg-gray-100 hover:bg-gray-200"
-                                        >
-                                            Apply
-                                        </button>
-                                    </div>
-                                    <div className="text-xs text-gray-500 mt-1">
-                                        Supports: &gt;, &lt;, &gt;=, &lt;=, =, != (e.g. "&gt;100" or "=exact match")
-                                    </div>
-                                    <div className="flex gap-2 mt-2">
-                                        <button
-                                            onClick={() => {
-                                                onFilterChange(activeColumn, '=empty');
-                                                setActiveColumn(null);
-                                            }}
-                                            className="text-xs bg-gray-100 hover:bg-gray-200 px-2 py-1 rounded"
-                                        >
-                                            Is Empty
-                                        </button>
-                                        <button
-                                            onClick={() => {
-                                                onFilterChange(activeColumn, '!=empty');
-                                                setActiveColumn(null);
-                                            }}
-                                            className="text-xs bg-gray-100 hover:bg-gray-200 px-2 py-1 rounded"
-                                        >
-                                            Not Empty
-                                        </button>
-                                    </div>
-                                </div>
-                            </div>
-                        )}
-                    </div>
-                </div>
-            );
-        });
+// one render per animation frame, no matter how many scroll events arrive
+var pending = false;
+function scheduleRender(){
+  if (pending) return;
+  pending = true;
+  window.requestAnimationFrame(function(){ pending = false; render(); });
+}
 
-        // Main Table Component
-        function DataTable() {
-            const [page, setPage] = React.useState(1);
-            const [filters, setFilters] = React.useState({});
-            const [sort, setSort] = React.useState({ field: null, direction: "asc" });
-            const [globalSearch, setGlobalSearch] = React.useState('');
-            
-            const columns = React.useMemo(() => 
-                initialData.length > 0 ? Object.keys(initialData[0]) : [], 
-                []
-            );
+wrap.addEventListener('scroll', scheduleRender);
+window.addEventListener('resize', function(){ calibrate(); render(); });
 
-// Expression filtering logic
-                const evaluateExpression = React.useCallback((value, filterValue) => {
-                    // Handle empty cases
-                    if (!filterValue) return true;
-                    filterValue = filterValue.trim();
-                    if (!filterValue) return true;
+var overlay = document.getElementById('overlay');
+tbody.addEventListener('click', function(e){
+  var td = e.target.closest('td.expandable');
+  if (!td) return;
+  overlay.querySelector('.box').textContent = ROWS[td.dataset.r][td.dataset.c];
+  overlay.style.display = 'flex';
+});
+overlay.addEventListener('click', function(){ overlay.style.display = 'none'; });
+document.addEventListener('keydown', function(e){ if (e.key === 'Escape') overlay.style.display = 'none'; });
 
-                    // Convert value to string for comparison, handling null/undefined
-                    const strValue = value === null || value === undefined ? '' : String(value);
-                    
-                    // Special case for empty values
-                    if (filterValue === '=empty') {
-                        return strValue === '' || value === null || value === undefined;
-                    }
-                    if (filterValue === '!=empty') {
-                        return strValue !== '' && value !== null && value !== undefined;
-                    }
-
-                    // Handle numeric comparisons
-                    const numericOperators = {
-                        '>=': (a, b) => parseFloat(a) >= parseFloat(b),
-                        '<=': (a, b) => parseFloat(a) <= parseFloat(b),
-                        '>': (a, b) => parseFloat(a) > parseFloat(b),
-                        '<': (a, b) => parseFloat(a) < parseFloat(b),
-                        '!=': (a, b) => parseFloat(a) !== parseFloat(b),
-                        '=': (a, b) => parseFloat(a) === parseFloat(b)
-                    };
-
-                    // Check for numeric operators
-                    for (const [op, fn] of Object.entries(numericOperators)) {
-                        if (filterValue.startsWith(op)) {
-                            const numValue = filterValue.slice(op.length).trim();
-                            if (!isNaN(numValue) && !isNaN(value)) {
-                                return fn(value, numValue);
-                            }
-                        }
-                    }
-
-                    // Handle exact text match
-                    if (filterValue.startsWith('=')) {
-                        return String(value || '').toLowerCase() === filterValue.slice(1).trim().toLowerCase();
-                    }
-
-                    // Default to partial text match
-                    return String(value || '').toLowerCase().includes(filterValue.toLowerCase());
-                }, []);
-
-            // Global search function
-            const matchesGlobalSearch = React.useCallback((row) => {
-                if (!globalSearch) return true;
-                const searchTerm = globalSearch.toLowerCase();
-                
-                // Check if any field in the row contains the search term
-                return Object.values(row).some(value => {
-                    if (value === null || value === undefined) return false;
-                    return String(value).toLowerCase().includes(searchTerm);
-                });
-            }, [globalSearch]);
-            
-            // Memoized filtering with expression support and global search
-            const filteredData = React.useMemo(() => {
-                return initialData.filter(row =>
-                    // Apply column filters
-                    Object.entries(filters).every(([column, filterValue]) => {
-                        const cellValue = row[column];
-                        return evaluateExpression(cellValue, filterValue);
-                    }) && 
-                    // Apply global search
-                    matchesGlobalSearch(row)
-                );
-            }, [filters, evaluateExpression, matchesGlobalSearch]);
-
-            // Calculate column widths for sticky columns
-            React.useEffect(() => {
-                if (stickyColumns && stickyColumns.length > 0) {
-                    // Wait for the table to render
-                    setTimeout(() => {
-                        const table = document.querySelector('table');
-                        if (table) {
-                            stickyColumns.forEach((column, index) => {
-                                const columnIndex = columns.indexOf(column);
-                                if (columnIndex !== -1) {
-                                    // Find all cells in this column
-                                    const cells = table.querySelectorAll(`tr > *:nth-child(${columnIndex + 1})`);
-                                    if (cells.length > 0) {
-                                        // Find the widest cell
-                                        let maxWidth = 0;
-                                        cells.forEach(cell => {
-                                            const width = cell.offsetWidth;
-                                            if (width > maxWidth) maxWidth = width;
-                                        });
-                                        // Set the CSS variable for this column's width
-                                        document.documentElement.style.setProperty(`--sticky-width-${index}`, `${maxWidth}px`);
-                                    }
-                                }
-                            });
-                        }
-                    }, 100);
-                }
-            }, [columns, stickyColumns, filteredData.length]);
-
-            // Memoized sorting
-            const sortedData = React.useMemo(() => {
-                if (!sort.field) return filteredData;
-
-                return [...filteredData].sort((a, b) => {
-                    let aVal = a[sort.field];
-                    let bVal = b[sort.field];
-
-                    if (longTextColumns.includes(sort.field)) {
-                        aVal = String(aVal || '').toLowerCase();
-                        bVal = String(bVal || '').toLowerCase();
-                    }
-
-                    if (aVal === bVal) return 0;
-                    if (!aVal) return 1;
-                    if (!bVal) return -1;
-
-                    const result = aVal < bVal ? -1 : 1;
-                    return sort.direction === "asc" ? result : -result;
-                });
-            }, [filteredData, sort]);
-
-            // Pagination
-            const totalPages = Math.ceil(sortedData.length / pageSize);
-            const currentPageData = sortedData.slice(
-                (page - 1) * pageSize,
-                page * pageSize
-            );
-
-            const handleSort = React.useCallback((field) => {
-                setSort(current => ({
-                    field,
-                    direction: current.field === field && current.direction === "asc" 
-                        ? "desc" 
-                        : "asc"
-                }));
-            }, []);
-
-            const handleFilterChange = React.useCallback((column, value) => {
-                setFilters(prev => ({
-                    ...prev,
-                    [column]: value
-                }));
-                setPage(1);
-            }, []);
-
-            return (
-                <div className="max-w-7xl mx-auto">
-                    <div className="bg-white rounded-lg shadow-lg p-6">
-                        <h1 className="text-2xl font-bold text-gray-800 mb-6">{pageTitle}</h1>
-                        
-                        <div className="mb-4 flex items-center">
-                            <div className="flex-1 mr-4">
-                                <input
-                                    type="text"
-                                    placeholder="Search all data..."
-                                    className="w-full px-4 py-2 border rounded-md text-sm"
-                                    value={globalSearch}
-                                    onChange={e => {
-                                        setGlobalSearch(e.target.value);
-                                        setPage(1); // Reset to first page on search
-                                    }}
-                                />
-                            </div>
-                            {globalSearch && (
-                                <button
-                                    onClick={() => setGlobalSearch('')}
-                                    className="text-sm text-gray-600 hover:text-gray-800"
-                                >
-                                    Clear
-                                </button>
-                            )}
-                        </div>
-                        
-                        <Filter 
-                            columns={columns}
-                            filters={filters}
-                            onFilterChange={handleFilterChange}
-                        />
-
-                        <div className="mb-4">
-                            <span className="text-sm text-gray-600">
-                                Showing {currentPageData.length} of {sortedData.length} results
-                            </span>
-                        </div>
-
-                        <div className="overflow-x-auto">
-                            <table className="min-w-full divide-y divide-gray-200">
-                                <thead className="bg-gray-50">
-                                    <tr>
-                                        {columns.map((column, colIndex) => (
-                                            <th
-                                                key={column}
-                                                onClick={() => handleSort(column)}
-                                                className={`px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider cursor-pointer hover:bg-gray-100 ${
-                                                    stickyColumns && stickyColumns.includes(column) 
-                                                        ? `sticky-column sticky-column-${stickyColumns.indexOf(column)}` 
-                                                        : ''
-                                                }`}
-                                            >
-                                                {column.replace(/_/g, ' ')}
-                                                {sort.field === column && (
-                                                    <span className="ml-2">
-                                                        {sort.direction === "asc" ? "↑" : "↓"}
-                                                    </span>
-                                                )}
-                                            </th>
-                                        ))}
-                                    </tr>
-                                </thead>
-                                <tbody className="bg-white divide-y divide-gray-200">
-                                    {currentPageData.map((row, index) => (
-                                        <TableRow
-                                            key={index}
-                                            row={row}
-                                            columns={columns}
-                                            longTextColumns={longTextColumns}
-                                        />
-                                    ))}
-                                </tbody>
-                            </table>
-                        </div>
-
-                        {totalPages > 1 && (
-                            <div className="mt-4 flex justify-between items-center">
-                                <button
-                                    onClick={() => setPage(p => Math.max(1, p - 1))}
-                                    disabled={page === 1}
-                                    className="px-4 py-2 border rounded-md disabled:opacity-50"
-                                >
-                                    Previous
-                                </button>
-                                <span className="text-sm text-gray-600">
-                                    Page {page} of {totalPages}
-                                </span>
-                                <button
-                                    onClick={() => setPage(p => Math.min(totalPages, p + 1))}
-                                    disabled={page === totalPages}
-                                    className="px-4 py-2 border rounded-md disabled:opacity-50"
-                                >
-                                    Next
-                                </button>
-                            </div>
-                        )}
-                    </div>
-                </div>
-            );
-        }
-
-        ReactDOM.render(<DataTable />, document.getElementById('root'));
-    </script>
+buildHeader();
+calibrate();
+render();
+</script>
 </body>
 </html>
