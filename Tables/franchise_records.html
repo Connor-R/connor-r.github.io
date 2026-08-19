@@ -11,7 +11,7 @@
   gtag('js', new Date());
   gtag('config', 'G-8N02F87WCP');
 </script>
-<title>NSBL - Franchise Records, 2003-2022 (Last Updated Aug 18, 2026)</title>
+<title>NSBL - Franchise Records, 2003-2022 (Last Updated Aug 19, 2026)</title>
 <style>
 :root { --border:#d0d4d9; --head:#2c3e50; --headtxt:#fff; --zebra:#f5f7f9; --hover:#eaf2fb; --accent:#2563eb; --rowh:31px; }
 * { box-sizing:border-box; }
@@ -39,13 +39,31 @@ tbody tr:hover td { background:var(--hover); }
 td.expandable { color:var(--accent); cursor:pointer; }
 td a { color:var(--accent); text-decoration:none; }
 td a:hover { text-decoration:underline; }
+/* FROZEN COLUMNS. The sticky HEADER already works this way (th{top:0}); this
+   is the same trick on the other axis, plus the corner where they meet.
+   ⚠️ THE Z-ORDER IS THE THING TO GET WRONG. A frozen td must sit ABOVE the
+   ordinary cells it slides over (which have no z-index) but BELOW the header
+   it slides under; the corner cell is both and has to beat both. Get it wrong
+   and the header renders under the rows it labels.
+   ⚠️ A frozen cell MUST be opaque. Sticky cells stay in the flow, so a
+   transparent one shows the scrolling content straight through it - which is
+   why the zebra and hover backgrounds are restated here rather than inherited.
+   The left offsets are CSS VARIABLES set by measureFrozen(): column widths are
+   content-driven (no table-layout:fixed), so they cannot be constants. */
+th.frz, td.frz { position:sticky; z-index:1; }
+th.frz { z-index:3; }
+td.frz { background:#fff; }
+tbody tr:nth-child(odd) td.frz { background:var(--zebra); }
+tbody tr:hover td.frz { background:var(--hover); }
+th.frz-last, td.frz-last { border-right:2px solid var(--head); }
 #overlay { position:fixed; inset:0; background:rgba(0,0,0,.5); display:none; justify-content:center; align-items:center; z-index:10; }
 #overlay .box { background:#fff; border-radius:8px; padding:22px 26px; max-width:72vw; max-height:75vh; overflow:auto; white-space:pre-wrap; font-size:14px; box-shadow:0 8px 40px rgba(0,0,0,.35); }
-</style>
+
+.frz-0 { left:var(--frzL-0, 0px); }</style>
 </head>
 <body>
 <header>
-<h1>NSBL - Franchise Records, 2003-2022 (Last Updated Aug 18, 2026)</h1>
+<h1>NSBL - Franchise Records, 2003-2022 (Last Updated Aug 19, 2026)</h1>
 <div class="controls">
 <input id="filter" type="search" placeholder="filter: text terms, or sql: columnA > X and columnB like '%hi%'" autocomplete="off">
 <span id="count"></span>
@@ -60,13 +78,14 @@ td a:hover { text-decoration:underline; }
 </table>
 </div>
 <div id="overlay"><div class="box"></div></div>
-<script id="table-data" type="application/json">{"cols":["Team","Team Name","Seasons","W","L","Win%","W/Season","RF","RA","Run Diff","Division Titles","Wild Cards","Pennants","World Series"],"rows":[["TEX","Texas Rangers","20","1806","1437","0.5569","90.3","15895","14630","1265","6","4","1","0"],["COL","Colorado Rockies","20","1803","1439","0.5561","90.2","16416","14871","1545","8","3","1","1"],["TOR","Toronto Blue Jays","20","1768","1473","0.5455","88.4","15642","14229","1413","7","4","5","3"],["NYM","New York Mets","20","1748","1492","0.5395","87.4","14513","13502","1011","10","0","3","1"],["SEA","Seattle Mariners","20","1745","1498","0.5381","87.3","15157","14052","1105","7","3","2","1"],["TB","Tampa Bay Rays","20","1730","1511","0.5338","86.5","14736","13428","1308","4","4","3","0"],["SD","San Diego Padres","20","1724","1520","0.5314","86.2","14227","13305","922","2","7","0","0"],["BAL","Baltimore Orioles","20","1716","1527","0.5291","85.8","15291","14500","791","6","7","4","2"],["PIT","Pittsburgh Pirates","20","1687","1555","0.5204","84.4","14907","14375","532","6","2","2","1"],["LAD","Los Angeles Dodgers","20","1684","1556","0.5198","84.2","14265","13469","796","5","0","3","1"],["OAK","Oakland Athletics","20","1676","1568","0.5166","83.8","14937","14188","749","3","4","1","1"],["CHC","Chicago Cubs","20","1670","1571","0.5153","83.5","14634","14322","312","5","3","2","0"],["ARI","Arizona Diamondbacks","20","1666","1576","0.5139","83.3","14957","14429","528","5","4","3","2"],["MIA","Miami Marlins","20","1662","1578","0.5130","83.1","14449","13882","567","3","3","0","0"],["CHW","Chicago White Sox","20","1629","1611","0.5028","81.5","14795","14616","179","5","1","0","0"],["MIL","Milwaukee Brewers","20","1616","1624","0.4988","80.8","14067","14316","-249","4","1","0","0"],["BOS","Boston Red Sox","20","1604","1636","0.4951","80.2","15308","15433","-125","2","3","1","1"],["ATL","Atlanta Braves","20","1591","1650","0.4909","79.6","14137","14547","-410","6","2","1","0"],["LAA","Los Angeles Angels","20","1587","1653","0.4898","79.4","13908","14409","-501","3","0","1","0"],["CLE","Cleveland Guardians","20","1573","1668","0.4853","78.7","14702","14994","-292","5","1","1","1"],["CIN","Cincinnati Reds","20","1572","1670","0.4849","78.6","14561","14660","-99","2","2","0","0"],["NYY","New York Yankees","20","1555","1685","0.4799","77.8","14752","15125","-373","1","1","0","0"],["MIN","Minnesota Twins","20","1539","1701","0.4750","77.0","14570","15171","-601","6","0","0","0"],["HOU","Houston Astros","20","1515","1725","0.4676","75.8","13635","14575","-940","4","0","2","2"],["DET","Detroit Tigers","20","1494","1746","0.4611","74.7","14121","15509","-1388","2","0","0","0"],["KC","Kansas City Royals","20","1494","1746","0.4611","74.7","14311","15466","-1155","2","0","1","0"],["STL","St. Louis Cardinals","20","1493","1748","0.4607","74.7","13828","15037","-1209","0","2","1","1"],["SF","San Francisco Giants","20","1464","1776","0.4519","73.2","13611","15182","-1571","0","1","0","0"],["WAS","Washington Nationals","20","1424","1817","0.4394","71.2","13500","15341","-1841","1","1","2","2"],["PHI","Philadelphia Phillies","20","1381","1859","0.4262","69.1","13107","15376","-2269","0","1","0","0"]],"links":{},"fallbacks":{},"fallbackText":"search","colIndex":{"Team":0,"Team Name":1,"Seasons":2,"W":3,"L":4,"Win%":5,"W/Season":6,"RF":7,"RA":8,"Run Diff":9,"Division Titles":10,"Wild Cards":11,"Pennants":12,"World Series":13}}</script>
+<script id="table-data" type="application/json">{"cols":["Team","Team Name","Seasons","W","L","Win%","W/Season","RF","RA","Run Diff","Division Titles","Wild Cards","Pennants","World Series"],"rows":[["TEX","Texas Rangers","20","1806","1437","0.5569","90.3","15895","14630","1265","6","4","1","0"],["COL","Colorado Rockies","20","1803","1439","0.5561","90.2","16416","14871","1545","8","3","1","1"],["TOR","Toronto Blue Jays","20","1768","1473","0.5455","88.4","15642","14229","1413","7","4","5","3"],["NYM","New York Mets","20","1748","1492","0.5395","87.4","14513","13502","1011","10","0","3","1"],["SEA","Seattle Mariners","20","1745","1498","0.5381","87.3","15157","14052","1105","7","3","2","1"],["TB","Tampa Bay Rays","20","1730","1511","0.5338","86.5","14736","13428","1308","4","4","3","0"],["SD","San Diego Padres","20","1724","1520","0.5314","86.2","14227","13305","922","2","7","0","0"],["BAL","Baltimore Orioles","20","1716","1527","0.5291","85.8","15291","14500","791","6","7","4","2"],["PIT","Pittsburgh Pirates","20","1687","1555","0.5204","84.4","14907","14375","532","6","2","2","1"],["LAD","Los Angeles Dodgers","20","1684","1556","0.5198","84.2","14265","13469","796","5","0","3","1"],["OAK","Oakland Athletics","20","1676","1568","0.5166","83.8","14937","14188","749","3","4","1","1"],["CHC","Chicago Cubs","20","1670","1571","0.5153","83.5","14634","14322","312","5","3","2","0"],["ARI","Arizona Diamondbacks","20","1666","1576","0.5139","83.3","14957","14429","528","5","4","3","2"],["MIA","Miami Marlins","20","1662","1578","0.5130","83.1","14449","13882","567","3","3","0","0"],["CHW","Chicago White Sox","20","1629","1611","0.5028","81.5","14795","14616","179","5","1","0","0"],["MIL","Milwaukee Brewers","20","1616","1624","0.4988","80.8","14067","14316","-249","4","1","0","0"],["BOS","Boston Red Sox","20","1604","1636","0.4951","80.2","15308","15433","-125","2","3","1","1"],["ATL","Atlanta Braves","20","1591","1650","0.4909","79.6","14137","14547","-410","6","2","1","0"],["LAA","Los Angeles Angels","20","1587","1653","0.4898","79.4","13908","14409","-501","3","0","1","0"],["CLE","Cleveland Guardians","20","1573","1668","0.4853","78.7","14702","14994","-292","5","1","1","1"],["CIN","Cincinnati Reds","20","1572","1670","0.4849","78.6","14561","14660","-99","2","2","0","0"],["NYY","New York Yankees","20","1555","1685","0.4799","77.8","14752","15125","-373","1","1","0","0"],["MIN","Minnesota Twins","20","1539","1701","0.4750","77.0","14570","15171","-601","6","0","0","0"],["HOU","Houston Astros","20","1515","1725","0.4676","75.8","13635","14575","-940","4","0","2","2"],["DET","Detroit Tigers","20","1494","1746","0.4611","74.7","14121","15509","-1388","2","0","0","0"],["KC","Kansas City Royals","20","1494","1746","0.4611","74.7","14311","15466","-1155","2","0","1","0"],["STL","St. Louis Cardinals","20","1493","1748","0.4607","74.7","13828","15037","-1209","0","2","1","1"],["SF","San Francisco Giants","20","1464","1776","0.4519","73.2","13611","15182","-1571","0","1","0","0"],["WAS","Washington Nationals","20","1424","1817","0.4394","71.2","13500","15341","-1841","1","1","2","2"],["PHI","Philadelphia Phillies","20","1381","1859","0.4262","69.1","13107","15376","-2269","0","1","0","0"]],"links":{},"fallbacks":{},"fallbackText":"search","freeze":1,"colIndex":{"Team":0,"Team Name":1,"Seasons":2,"W":3,"L":4,"Win%":5,"W/Season":6,"RF":7,"RA":8,"Run Diff":9,"Division Titles":10,"Wild Cards":11,"Pennants":12,"World Series":13}}</script>
 <script>
 'use strict';
 var DATA = JSON.parse(document.getElementById('table-data').textContent);
 var COLS = DATA.cols, ROWS = DATA.rows;
 var LINKS = DATA.links || {}, COLIDX_BY_NAME = DATA.colIndex || {};
 var FALLBACKS = DATA.fallbacks || {}, FALLBACK_TEXT = DATA.fallbackText || '';
+var FREEZE = DATA.freeze || 0;                       // how many leftmost columns stay put
 var view = ROWS.map(function(_, i){ return i; });
 var sortCol = -1, sortDir = 0;                       // 0 none, 1 asc, -1 desc
 var ROWH = 30, PAD = 12;                             // row height px (MEASURED at init), render padding rows
@@ -112,12 +131,39 @@ function setSpacer(tr, px){
   tr.firstElementChild.style.height = h;
 }
 
+// '' for an ordinary column, else the classes that freeze column i.
+function frzClass(i){
+  if (i >= FREEZE) return '';
+  return 'frz frz-' + i + (i === FREEZE - 1 ? ' frz-last' : '');
+}
+
+// ⚠️ THE OFFSETS MUST BE MEASURED, NOT COMPUTED. Column widths come from the
+// content (there is no table-layout:fixed), so the left edge of frozen column
+// i is the summed rendered width of the columns before it, and that changes
+// when a sort or a filter brings a wider cell into view. ⚠️ It also changes
+// while SCROLLING, because the virtual scroller only ever has the visible rows
+// in the DOM - so this runs at the end of every render, and writes only when a
+// value actually moved, to keep it off the hot path.
+var frzCache = [];
+function measureFrozen(){
+  if (!FREEZE || !thead.rows.length) return;
+  var cells = thead.rows[0].cells, left = 0;
+  for (var i = 0; i < FREEZE && i < cells.length; i++){
+    if (frzCache[i] !== left){
+      document.documentElement.style.setProperty('--frzL-' + i, left + 'px');
+      frzCache[i] = left;
+    }
+    left += cells[i].offsetWidth;
+  }
+}
+
 function buildHeader(){
   var tr = document.createElement('tr');
   COLS.forEach(function(c, i){
     var th = document.createElement('th');
     th.innerHTML = esc(c) + '<span class="arrow">' + (i===sortCol ? (sortDir===1?'\u25B2':'\u25BC') : '') + '</span>';
     th.onclick = function(){ setSort(i); };
+    if (i < FREEZE) th.className = frzClass(i);
     tr.appendChild(th);
   });
   thead.innerHTML = '';
@@ -320,21 +366,23 @@ function render(){
         tmpl = (fb && String(row[fb[0]] || '') !== '') ? fb[1] : null;
         text = FALLBACK_TEXT;
       }
+      var fz = frzClass(c);
       if (tmpl){
         var href = tmpl.replace(/\{([^}]*)\}/g, function(_m, name){
           var raw = (name === '') ? val : String(row[COLIDX_BY_NAME[name]] || '');
           return encodeURIComponent(raw);
         });
-        html.push('<td><a href="' + esc(href) + '" target="_blank" rel="noopener">' + esc(text) + '</a></td>');
+        html.push('<td' + (fz ? ' class="' + fz + '"' : '') + '><a href="' + esc(href) + '" target="_blank" rel="noopener">' + esc(text) + '</a></td>');
       } else if (val.length > EXPAND_AT){
-        html.push('<td class="expandable" data-r="' + view[v] + '" data-c="' + c + '">' + esc(val) + '</td>');
+        html.push('<td class="expandable' + (fz ? ' ' + fz : '') + '" data-r="' + view[v] + '" data-c="' + c + '">' + esc(val) + '</td>');
       } else {
-        html.push('<td>' + esc(val) + '</td>');
+        html.push('<td' + (fz ? ' class="' + fz + '"' : '') + '>' + esc(val) + '</td>');
       }
     }
     html.push('</tr>');
   }
   tbody.innerHTML = html.join('');
+  measureFrozen();
   count.textContent = view.length.toLocaleString() + ' of ' + ROWS.length.toLocaleString() + ' rows';
 }
 

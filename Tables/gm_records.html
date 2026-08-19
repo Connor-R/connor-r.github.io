@@ -11,7 +11,7 @@
   gtag('js', new Date());
   gtag('config', 'G-8N02F87WCP');
 </script>
-<title>NSBL - General Manager Records, 2008-2022 (Last Updated Aug 18, 2026)</title>
+<title>NSBL - General Manager Records, 2008-2022 (Last Updated Aug 19, 2026)</title>
 <style>
 :root { --border:#d0d4d9; --head:#2c3e50; --headtxt:#fff; --zebra:#f5f7f9; --hover:#eaf2fb; --accent:#2563eb; --rowh:31px; }
 * { box-sizing:border-box; }
@@ -39,13 +39,31 @@ tbody tr:hover td { background:var(--hover); }
 td.expandable { color:var(--accent); cursor:pointer; }
 td a { color:var(--accent); text-decoration:none; }
 td a:hover { text-decoration:underline; }
+/* FROZEN COLUMNS. The sticky HEADER already works this way (th{top:0}); this
+   is the same trick on the other axis, plus the corner where they meet.
+   ⚠️ THE Z-ORDER IS THE THING TO GET WRONG. A frozen td must sit ABOVE the
+   ordinary cells it slides over (which have no z-index) but BELOW the header
+   it slides under; the corner cell is both and has to beat both. Get it wrong
+   and the header renders under the rows it labels.
+   ⚠️ A frozen cell MUST be opaque. Sticky cells stay in the flow, so a
+   transparent one shows the scrolling content straight through it - which is
+   why the zebra and hover backgrounds are restated here rather than inherited.
+   The left offsets are CSS VARIABLES set by measureFrozen(): column widths are
+   content-driven (no table-layout:fixed), so they cannot be constants. */
+th.frz, td.frz { position:sticky; z-index:1; }
+th.frz { z-index:3; }
+td.frz { background:#fff; }
+tbody tr:nth-child(odd) td.frz { background:var(--zebra); }
+tbody tr:hover td.frz { background:var(--hover); }
+th.frz-last, td.frz-last { border-right:2px solid var(--head); }
 #overlay { position:fixed; inset:0; background:rgba(0,0,0,.5); display:none; justify-content:center; align-items:center; z-index:10; }
 #overlay .box { background:#fff; border-radius:8px; padding:22px 26px; max-width:72vw; max-height:75vh; overflow:auto; white-space:pre-wrap; font-size:14px; box-shadow:0 8px 40px rgba(0,0,0,.35); }
-</style>
+
+.frz-0 { left:var(--frzL-0, 0px); }</style>
 </head>
 <body>
 <header>
-<h1>NSBL - General Manager Records, 2008-2022 (Last Updated Aug 18, 2026)</h1>
+<h1>NSBL - General Manager Records, 2008-2022 (Last Updated Aug 19, 2026)</h1>
 <div class="controls">
 <input id="filter" type="search" placeholder="filter: text terms, or sql: columnA > X and columnB like '%hi%'" autocomplete="off">
 <span id="count"></span>
@@ -60,13 +78,14 @@ td a:hover { text-decoration:underline; }
 </table>
 </div>
 <div id="overlay"><div class="box"></div></div>
-<script id="table-data" type="application/json">{"cols":["GM","Clubs","Seasons (2008-2022)","W","L","Win%","W/Season","RF","RA","Run Diff","Division Titles","Wild Cards","Pennants","World Series","First Year","Last Year","GM Through"],"rows":[["Brian Emark","COL","15","1425","1006","0.5862","95.0","12116","10183","1933","8","3","1","1","2008","2022","2026"],["Ty Duncan","BAL","15","1368","1065","0.5623","91.2","11597","10351","1246","6","7","4","2","2008","2022","2026"],["Connor Reed","TB","15","1368","1063","0.5627","91.2","11150","9370","1780","4","4","3","0","2008","2022","2026"],["Jim Krug","PIT","15","1314","1118","0.5403","87.6","11030","10329","701","6","2","2","1","2008","2022","2025"],["Tracy Kienast","TOR","15","1290","1141","0.5306","86.0","10999","10397","602","4","3","3","1","2008","2022","2026"],["Jeff Reese","OAK","15","1279","1155","0.5255","85.3","10823","10125","698","3","4","1","1","2008","2022","2026"],["Joe Clark","CHC","15","1231","1200","0.5064","82.1","10683","10691","-8","4","3","2","0","2008","2022","2026"],["Hayes Kern","NYM","14","1227","1041","0.5410","87.6","9717","8973","744","7","0","2","1","2009","2022","2026"],["Rich Cooper","LAD","15","1198","1232","0.4930","79.9","10262","10247","15","1","0","1","1","2008","2022","2023"],["Matt Hopkins","CHW","14","1191","1077","0.5251","85.1","10311","9656","655","5","1","0","0","2009","2022","2026"],["Patrick Haight","SEA","14","1182","1089","0.5205","84.4","10173","9834","339","2","3","0","0","2008","2022","2026"],["Sean Ramsey","MIL","15","1177","1253","0.4844","78.5","10232","10745","-513","1","0","0","0","2008","2022","2026"],["John McGee","LAA","15","1143","1287","0.4704","76.2","9922","10698","-776","2","0","0","0","2008","2022","2026"],["Shawn Kienast","NYY","15","1114","1316","0.4584","74.3","10294","11171","-877","0","0","0","0","2008","2022","2026"],["Mark Karpinski","TEX","12","1087","859","0.5586","90.6","9025","8068","957","5","4","1","0","2011","2022","2024"],["Travis Smith","SF","15","1077","1353","0.4432","71.8","9629","10868","-1239","0","1","0","0","2008","2022","2026"],["Ian Hall","ARI","12","1052","894","0.5406","87.7","8565","7768","797","3","4","2","2","2011","2022","2022"],["Colby Hubbard","CIN","12","928","1018","0.4769","77.3","8316","8522","-206","1","2","0","0","2011","2022","2026"],["Scott Ross","CLE","9","704","754","0.4829","78.2","6377","6685","-308","3","0","1","1","2008","2017","2017"],["Michael Kudis","SD","8","685","615","0.5269","85.6","5469","5142","327","1","3","0","0","2010","2017","2017"],["Kenny Kelly","MIA","8","658","638","0.5077","82.3","5753","5634","119","1","0","0","0","2008","2015","2015"],["Mike Zimmerman","STL","9","634","825","0.4345","70.4","5855","6753","-898","0","1","1","1","2009","2017","2017"],["Thomas Vancho","BOS","8","630","666","0.4861","78.8","6116","6276","-160","1","0","0","0","2008","2015","2015"],["Nathan Feuerer","KC","8","621","675","0.4792","77.6","5528","5640","-112","2","0","1","0","2015","2022","2024"],["Matt Kevin","WAS","8","609","688","0.4695","76.1","5618","5860","-242","0","1","1","1","2008","2015","2015"],["John Stein","PHI","9","579","879","0.3971","64.3","5592","6867","-1275","0","0","0","0","2008","2016","2016"],["Jay Ross","MIN","7","545","589","0.4806","77.9","5255","5412","-157","1","0","0","0","2008","2014","2014"],["Mark Nestor","HOU","8","530","766","0.4090","66.3","4856","5955","-1099","0","0","0","0","2015","2022","2026"],["Howard Ross","KC","7","526","608","0.4638","75.1","4992","5413","-421","0","0","0","0","2008","2014","2014"],["Karri Parnell","ATL","6","466","506","0.4794","77.7","3873","4053","-180","2","0","0","0","2010","2015","2015"],["Michael Lucey","PHI","6","445","527","0.4578","74.2","4023","4470","-447","0","1","0","0","2017","2022","2026"],["Timothy Farmer","BOS","6","423","549","0.4352","70.5","4178","4718","-540","0","0","0","0","2017","2022","2026"],["Ed Schwabeland","MIA","5","423","387","0.5222","84.6","3471","3225","246","1","2","0","0","2018","2022","2026"],["David Taylor","WAS","6","418","554","0.4300","69.7","3904","4610","-706","1","0","1","1","2017","2022","2026"],["Dan Claycomb","CLE","5","386","425","0.4760","77.2","3606","3725","-119","0","1","0","0","2018","2022","2022"],["Pat Padula","ATL","5","384","426","0.4741","76.8","3385","3635","-250","1","1","0","0","2017","2021","2021"],["Deron Crawford","SD","4","346","302","0.5340","86.5","2777","2579","198","1","1","0","0","2019","2022","2026"],["Jason Bersani","MIN","5","329","481","0.4062","65.8","3101","3808","-707","0","0","0","0","2017","2021","2021"],["Tim Lindner","DET","4","324","324","0.5000","81.0","2571","2614","-43","1","0","0","0","2014","2017","2017"],["Jeff Sacks","ARI","3","245","241","0.5041","81.7","2453","2346","107","1","0","1","0","2008","2010","2010"],["Mike Elley","TEX","2","197","128","0.6062","98.5","1745","1470","275","1","0","0","0","2008","2009","2009"],["Carla Holbrook","CIN","2","172","152","0.5309","86.0","1683","1508","175","1","0","0","0","2008","2009","2009"],["Mark Ashton","ATL","2","166","158","0.5123","83.0","1619","1588","31","0","0","0","0","2008","2009","2009"],["Bob Fecca","DET","2","159","165","0.4907","79.5","1383","1432","-49","0","0","0","0","2020","2021","2021"],["Jon Nofal","HOU","2","153","171","0.4722","76.5","1273","1326","-53","1","0","0","0","2013","2014","2014"],["Scott Braunschweig","DET","2","124","200","0.3827","62.0","1418","1727","-309","0","0","0","0","2008","2009","2009"],["Michael Buffkin","NYM","1","98","64","0.6049","98.0","845","719","126","1","0","0","0","2008","2008","2008"],["Nick Reeves","SD","1","93","69","0.5741","93.0","747","658","89","0","1","0","0","2008","2008","2008"],["Robert Pitt","DET","1","84","78","0.5185","84.0","710","716","-6","0","0","0","0","2013","2013","2013"],["Charles Thivierge","STL","1","83","79","0.5123","83.0","797","794","3","0","0","0","0","2021","2021","2021"],["Curtis Deem","HOU","1","81","81","0.5000","81.0","684","665","19","0","0","0","0","2011","2011","2011"],["Matt Scanz","MIN","1","77","85","0.4753","77.0","763","765","-2","0","0","0","0","2022","2022","2022"],["Marlin Scurti","DET","1","77","85","0.4753","77.0","708","750","-42","0","0","0","0","2011","2011","2011"],["Mike Anderson","HOU","1","76","86","0.4691","76.0","757","802","-45","0","0","0","0","2008","2008","2008"],["Josh","SD","1","74","88","0.4568","74.0","708","805","-97","0","0","0","0","2009","2009","2009"],["Tyler Courtney","CHW","1","74","88","0.4568","74.0","722","748","-26","0","0","0","0","2008","2008","2008"]],"links":{},"fallbacks":{},"fallbackText":"search","colIndex":{"GM":0,"Clubs":1,"Seasons (2008-2022)":2,"W":3,"L":4,"Win%":5,"W/Season":6,"RF":7,"RA":8,"Run Diff":9,"Division Titles":10,"Wild Cards":11,"Pennants":12,"World Series":13,"First Year":14,"Last Year":15,"GM Through":16}}</script>
+<script id="table-data" type="application/json">{"cols":["GM","Clubs","Seasons (2008-2022)","W","L","Win%","W/Season","RF","RA","Run Diff","Division Titles","Wild Cards","Pennants","World Series","First Year","Last Year","GM Through"],"rows":[["Brian Emark","COL","15","1425","1006","0.5862","95.0","12116","10183","1933","8","3","1","1","2008","2022","2026"],["Ty Duncan","BAL","15","1368","1065","0.5623","91.2","11597","10351","1246","6","7","4","2","2008","2022","2026"],["Connor Reed","TB","15","1368","1063","0.5627","91.2","11150","9370","1780","4","4","3","0","2008","2022","2026"],["Jim Krug","PIT","15","1314","1118","0.5403","87.6","11030","10329","701","6","2","2","1","2008","2022","2025"],["Tracy Kienast","TOR","15","1290","1141","0.5306","86.0","10999","10397","602","4","3","3","1","2008","2022","2026"],["Jeff Reese","OAK","15","1279","1155","0.5255","85.3","10823","10125","698","3","4","1","1","2008","2022","2026"],["Joe Clark","CHC","15","1231","1200","0.5064","82.1","10683","10691","-8","4","3","2","0","2008","2022","2026"],["Hayes Kern","NYM","14","1227","1041","0.5410","87.6","9717","8973","744","7","0","2","1","2009","2022","2026"],["Rich Cooper","LAD","15","1198","1232","0.4930","79.9","10262","10247","15","1","0","1","1","2008","2022","2023"],["Matt Hopkins","CHW","14","1191","1077","0.5251","85.1","10311","9656","655","5","1","0","0","2009","2022","2026"],["Patrick Haight","SEA","14","1182","1089","0.5205","84.4","10173","9834","339","2","3","0","0","2008","2022","2026"],["Sean Ramsey","MIL","15","1177","1253","0.4844","78.5","10232","10745","-513","1","0","0","0","2008","2022","2026"],["John McGee","LAA","15","1143","1287","0.4704","76.2","9922","10698","-776","2","0","0","0","2008","2022","2026"],["Shawn Kienast","NYY","15","1114","1316","0.4584","74.3","10294","11171","-877","0","0","0","0","2008","2022","2026"],["Mark Karpinski","TEX","12","1087","859","0.5586","90.6","9025","8068","957","5","4","1","0","2011","2022","2024"],["Travis Smith","SF","15","1077","1353","0.4432","71.8","9629","10868","-1239","0","1","0","0","2008","2022","2026"],["Ian Hall","ARI","12","1052","894","0.5406","87.7","8565","7768","797","3","4","2","2","2011","2022","2022"],["Colby Hubbard","CIN","12","928","1018","0.4769","77.3","8316","8522","-206","1","2","0","0","2011","2022","2026"],["Scott Ross","CLE","9","704","754","0.4829","78.2","6377","6685","-308","3","0","1","1","2008","2017","2017"],["Michael Kudis","SD","8","685","615","0.5269","85.6","5469","5142","327","1","3","0","0","2010","2017","2017"],["Kenny Kelly","MIA","8","658","638","0.5077","82.3","5753","5634","119","1","0","0","0","2008","2015","2015"],["Mike Zimmerman","STL","9","634","825","0.4345","70.4","5855","6753","-898","0","1","1","1","2009","2017","2017"],["Thomas Vancho","BOS","8","630","666","0.4861","78.8","6116","6276","-160","1","0","0","0","2008","2015","2015"],["Nathan Feuerer","KC","8","621","675","0.4792","77.6","5528","5640","-112","2","0","1","0","2015","2022","2024"],["Matt Kevin","WAS","8","609","688","0.4695","76.1","5618","5860","-242","0","1","1","1","2008","2015","2015"],["John Stein","PHI","9","579","879","0.3971","64.3","5592","6867","-1275","0","0","0","0","2008","2016","2016"],["Jay Ross","MIN","7","545","589","0.4806","77.9","5255","5412","-157","1","0","0","0","2008","2014","2014"],["Mark Nestor","HOU","8","530","766","0.4090","66.3","4856","5955","-1099","0","0","0","0","2015","2022","2026"],["Howard Ross","KC","7","526","608","0.4638","75.1","4992","5413","-421","0","0","0","0","2008","2014","2014"],["Karri Parnell","ATL","6","466","506","0.4794","77.7","3873","4053","-180","2","0","0","0","2010","2015","2015"],["Michael Lucey","PHI","6","445","527","0.4578","74.2","4023","4470","-447","0","1","0","0","2017","2022","2026"],["Timothy Farmer","BOS","6","423","549","0.4352","70.5","4178","4718","-540","0","0","0","0","2017","2022","2026"],["Ed Schwabeland","MIA","5","423","387","0.5222","84.6","3471","3225","246","1","2","0","0","2018","2022","2026"],["David Taylor","WAS","6","418","554","0.4300","69.7","3904","4610","-706","1","0","1","1","2017","2022","2026"],["Dan Claycomb","CLE","5","386","425","0.4760","77.2","3606","3725","-119","0","1","0","0","2018","2022","2022"],["Pat Padula","ATL","5","384","426","0.4741","76.8","3385","3635","-250","1","1","0","0","2017","2021","2021"],["Deron Crawford","SD","4","346","302","0.5340","86.5","2777","2579","198","1","1","0","0","2019","2022","2026"],["Jason Bersani","MIN","5","329","481","0.4062","65.8","3101","3808","-707","0","0","0","0","2017","2021","2021"],["Tim Lindner","DET","4","324","324","0.5000","81.0","2571","2614","-43","1","0","0","0","2014","2017","2017"],["Jeff Sacks","ARI","3","245","241","0.5041","81.7","2453","2346","107","1","0","1","0","2008","2010","2010"],["Mike Elley","TEX","2","197","128","0.6062","98.5","1745","1470","275","1","0","0","0","2008","2009","2009"],["Carla Holbrook","CIN","2","172","152","0.5309","86.0","1683","1508","175","1","0","0","0","2008","2009","2009"],["Mark Ashton","ATL","2","166","158","0.5123","83.0","1619","1588","31","0","0","0","0","2008","2009","2009"],["Bob Fecca","DET","2","159","165","0.4907","79.5","1383","1432","-49","0","0","0","0","2020","2021","2021"],["Jon Nofal","HOU","2","153","171","0.4722","76.5","1273","1326","-53","1","0","0","0","2013","2014","2014"],["Scott Braunschweig","DET","2","124","200","0.3827","62.0","1418","1727","-309","0","0","0","0","2008","2009","2009"],["Michael Buffkin","NYM","1","98","64","0.6049","98.0","845","719","126","1","0","0","0","2008","2008","2008"],["Nick Reeves","SD","1","93","69","0.5741","93.0","747","658","89","0","1","0","0","2008","2008","2008"],["Robert Pitt","DET","1","84","78","0.5185","84.0","710","716","-6","0","0","0","0","2013","2013","2013"],["Charles Thivierge","STL","1","83","79","0.5123","83.0","797","794","3","0","0","0","0","2021","2021","2021"],["Curtis Deem","HOU","1","81","81","0.5000","81.0","684","665","19","0","0","0","0","2011","2011","2011"],["Matt Scanz","MIN","1","77","85","0.4753","77.0","763","765","-2","0","0","0","0","2022","2022","2022"],["Marlin Scurti","DET","1","77","85","0.4753","77.0","708","750","-42","0","0","0","0","2011","2011","2011"],["Mike Anderson","HOU","1","76","86","0.4691","76.0","757","802","-45","0","0","0","0","2008","2008","2008"],["Josh","SD","1","74","88","0.4568","74.0","708","805","-97","0","0","0","0","2009","2009","2009"],["Tyler Courtney","CHW","1","74","88","0.4568","74.0","722","748","-26","0","0","0","0","2008","2008","2008"]],"links":{},"fallbacks":{},"fallbackText":"search","freeze":1,"colIndex":{"GM":0,"Clubs":1,"Seasons (2008-2022)":2,"W":3,"L":4,"Win%":5,"W/Season":6,"RF":7,"RA":8,"Run Diff":9,"Division Titles":10,"Wild Cards":11,"Pennants":12,"World Series":13,"First Year":14,"Last Year":15,"GM Through":16}}</script>
 <script>
 'use strict';
 var DATA = JSON.parse(document.getElementById('table-data').textContent);
 var COLS = DATA.cols, ROWS = DATA.rows;
 var LINKS = DATA.links || {}, COLIDX_BY_NAME = DATA.colIndex || {};
 var FALLBACKS = DATA.fallbacks || {}, FALLBACK_TEXT = DATA.fallbackText || '';
+var FREEZE = DATA.freeze || 0;                       // how many leftmost columns stay put
 var view = ROWS.map(function(_, i){ return i; });
 var sortCol = -1, sortDir = 0;                       // 0 none, 1 asc, -1 desc
 var ROWH = 30, PAD = 12;                             // row height px (MEASURED at init), render padding rows
@@ -112,12 +131,39 @@ function setSpacer(tr, px){
   tr.firstElementChild.style.height = h;
 }
 
+// '' for an ordinary column, else the classes that freeze column i.
+function frzClass(i){
+  if (i >= FREEZE) return '';
+  return 'frz frz-' + i + (i === FREEZE - 1 ? ' frz-last' : '');
+}
+
+// ⚠️ THE OFFSETS MUST BE MEASURED, NOT COMPUTED. Column widths come from the
+// content (there is no table-layout:fixed), so the left edge of frozen column
+// i is the summed rendered width of the columns before it, and that changes
+// when a sort or a filter brings a wider cell into view. ⚠️ It also changes
+// while SCROLLING, because the virtual scroller only ever has the visible rows
+// in the DOM - so this runs at the end of every render, and writes only when a
+// value actually moved, to keep it off the hot path.
+var frzCache = [];
+function measureFrozen(){
+  if (!FREEZE || !thead.rows.length) return;
+  var cells = thead.rows[0].cells, left = 0;
+  for (var i = 0; i < FREEZE && i < cells.length; i++){
+    if (frzCache[i] !== left){
+      document.documentElement.style.setProperty('--frzL-' + i, left + 'px');
+      frzCache[i] = left;
+    }
+    left += cells[i].offsetWidth;
+  }
+}
+
 function buildHeader(){
   var tr = document.createElement('tr');
   COLS.forEach(function(c, i){
     var th = document.createElement('th');
     th.innerHTML = esc(c) + '<span class="arrow">' + (i===sortCol ? (sortDir===1?'\u25B2':'\u25BC') : '') + '</span>';
     th.onclick = function(){ setSort(i); };
+    if (i < FREEZE) th.className = frzClass(i);
     tr.appendChild(th);
   });
   thead.innerHTML = '';
@@ -320,21 +366,23 @@ function render(){
         tmpl = (fb && String(row[fb[0]] || '') !== '') ? fb[1] : null;
         text = FALLBACK_TEXT;
       }
+      var fz = frzClass(c);
       if (tmpl){
         var href = tmpl.replace(/\{([^}]*)\}/g, function(_m, name){
           var raw = (name === '') ? val : String(row[COLIDX_BY_NAME[name]] || '');
           return encodeURIComponent(raw);
         });
-        html.push('<td><a href="' + esc(href) + '" target="_blank" rel="noopener">' + esc(text) + '</a></td>');
+        html.push('<td' + (fz ? ' class="' + fz + '"' : '') + '><a href="' + esc(href) + '" target="_blank" rel="noopener">' + esc(text) + '</a></td>');
       } else if (val.length > EXPAND_AT){
-        html.push('<td class="expandable" data-r="' + view[v] + '" data-c="' + c + '">' + esc(val) + '</td>');
+        html.push('<td class="expandable' + (fz ? ' ' + fz : '') + '" data-r="' + view[v] + '" data-c="' + c + '">' + esc(val) + '</td>');
       } else {
-        html.push('<td>' + esc(val) + '</td>');
+        html.push('<td' + (fz ? ' class="' + fz + '"' : '') + '>' + esc(val) + '</td>');
       }
     }
     html.push('</tr>');
   }
   tbody.innerHTML = html.join('');
+  measureFrozen();
   count.textContent = view.length.toLocaleString() + ' of ' + ROWS.length.toLocaleString() + ' rows';
 }
 
