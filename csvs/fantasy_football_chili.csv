@@ -2,7 +2,7 @@ year,owner,league_name,Details,finish,pick,W,L,T,PF,PA,Moves,PtsPct,xTitles,xSac
 Total,Aaron Ogden,Chili-nfl,"Aaron Ogden - Chili (nfl)
 
 #2 (2014, pick #9, 9-3-1, 1.73 PF_z, 96 zStrength, 118 PF+, 1.9 xRank, 0.38 xTitles, 0.01 xSackos)
-	-Donald Eerlings ",2,9,9,3,1,1355.00,1158.00,22,0.731,0.38,0.01,1.73,96,1.9,0.1,0.731,0.000,0.68,75,1120.6,37.4,,,118,103,1 (2014 - 2014),1,1,0,0,0.0,9,3,1355.00,1158.00,Donald Eerlings
+	-Donald Eerlings ",2.0,9.0,9.0,3.0,1.0,1355.00,1158.00,22.0,0.731,0.38,0.01,1.73,96,1.9,0.1,0.731,0.000,0.68,75,1120.6,37.4,,,118,103,1 (2014 - 2014),1,1,0,0,0.0,9,3,1355.00,1158.00,Donald Eerlings
 Total,Ben Lalor,Chili-nfl,"Ben Lalor - Chili (nfl)
 
 #12 (2025, pick #3, 84 draft_zStrength, 7-7, 0.38 PF_z, 65 zStrength, 102 PF+, 5.6 xRank, 0.07 xTitles, 0.03 xSackos)
@@ -67,7 +67,7 @@ Total,Bryan Jones,Chili-nfl,"Bryan Jones - Chili (nfl)
 	-Broke Back Brady Mountain 
 
  #9 (2016, pick #10, 6-7, -0.61 PF_z, 27 zStrength, 95 PF+, 8.0 xRank, 0.02 xTitles, 0.10 xSackos)
-	-Pepperoni Nipples ",6.3,5.8,7.3,6.2,0,1421.28,1412.27,35.3,0.541,1.17,0.51,0.31,57,5.8,0.5,0.541,0.001,0.41,64,1380.4,318.3,0.58,67,103,102,10 (2016 - 2025),5,3,0,0,2.8,73,62,14212.84,14122.70,"Pepperoni Nipples
+	-Pepperoni Nipples ",6.3,5.8,7.3,6.2,0.0,1421.28,1412.27,35.3,0.541,1.17,0.51,0.31,57,5.8,0.5,0.541,0.001,0.41,64,1380.4,318.3,0.58,67,103,102,10 (2016 - 2025),5,3,0,0,2.8,73,62,14212.84,14122.70,"Pepperoni Nipples
 Broke Back Brady Mountain
 Broke Back Brady
 Show Me Your TDs
@@ -106,7 +106,7 @@ Total,Chris Bolanos,Chili-nfl,"Chris Bolanos - Chili (nfl)
 	-Barry McCockinner 
 
  #7 (2016, pick #12, 6-7, -1.01 PF_z, 16 zStrength, 92 PF+, 9.0 xRank, 0.01 xTitles, 0.16 xSackos)
-	-Chip Kellys Doo Doo Butter ",8,6.9,6,7.5,0,1347.89,1414.86,8.8,0.444,0.41,0.93,-0.31,40,7.3,0.7,0.458,0.010,0.23,57,1387.1,277.5,0.30,55,98,101,10 (2016 - 2025),3,1,0,2,3.3,60,75,13478.86,14148.64,"Chip Kellys Doo Doo Butter
+	-Chip Kellys Doo Doo Butter ",8.0,6.9,6.0,7.5,0.0,1347.89,1414.86,8.8,0.444,0.41,0.93,-0.31,40,7.3,0.7,0.458,0.010,0.23,57,1387.1,277.5,0.30,55,98,101,10 (2016 - 2025),3,1,0,2,3.3,60,75,13478.86,14148.64,"Chip Kellys Doo Doo Butter
 Barry McCockinner
 Jimmy's G-Spot
 Treyning Day
@@ -123,7 +123,7 @@ Total,Connor Reed,Chili-nfl,"Connor Reed - Chili (nfl)
 	-skyrizi 
 
  #4 (2022, pick #4, 97 draft_zStrength, 9-5, 1.02 PF_z, 85 zStrength, 110 PF+, 4.0 xRank, 0.17 xTitles, 0.02 xSackos)
-	-Microsoft Outlook ",5.3,4.8,9,5,0,1652.04,1550.76,29.5,0.643,0.96,0.17,0.91,74,4.3,1.0,0.622,-0.021,-0.16,44,1565.2,-57.9,0.81,72,105,99,4 (2022 - 2025),3,0,0,0,2.2,36,20,6608.16,6203.04,"Microsoft Outlook
+	-Microsoft Outlook ",5.3,4.8,9.0,5.0,0.0,1652.04,1550.76,29.5,0.643,0.96,0.17,0.91,74,4.3,1.0,0.622,-0.021,-0.16,44,1565.2,-57.9,0.81,72,105,99,4 (2022 - 2025),3,0,0,0,2.2,36,20,6608.16,6203.04,"Microsoft Outlook
 skyrizi
 our company is a family
 xavier I hardley know her"
@@ -167,7 +167,7 @@ Ben Jong Un"
 Total,Derek VanRiper,Chili-nfl,"Derek VanRiper - Chili (nfl)
 
 #10 (2014, pick #5, 5-8, 0.17 PF_z, 57 zStrength, 102 PF+, 5.1 xRank, 0.05 xTitles, 0.04 xSackos)
-	-Discount Daaaaable Check ",10,5,5,8,0,1165.00,1157.00,19,0.385,0.05,0.04,0.17,57,5.1,4.9,0.523,0.138,0.28,61,1141.7,15.3,,,102,101,1 (2014 - 2014),0,0,0,1,0.0,5,8,1165.00,1157.00,Discount Daaaaable Check
+	-Discount Daaaaable Check ",10.0,5.0,5.0,8.0,0.0,1165.00,1157.00,19.0,0.385,0.05,0.04,0.17,57,5.1,4.9,0.523,0.138,0.28,61,1141.7,15.3,,,102,101,1 (2014 - 2014),0,0,0,1,0.0,5,8,1165.00,1157.00,Discount Daaaaable Check
 Total,Erik Bagley,Chili-nfl,"Erik Bagley - Chili (nfl)
 
 #8 (2025, pick #10, 32 draft_zStrength, 4-10, -1.06 PF_z, 14 zStrength, 95 PF+, 9.1 xRank, 0.01 xTitles, 0.16 xSackos)
@@ -201,7 +201,7 @@ Total,Erik Bagley,Chili-nfl,"Erik Bagley - Chili (nfl)
 	-AP died On Me 
 
  #1 (2014, pick #6, 7-6, 0.29 PF_z, 62 zStrength, 103 PF+, 4.8 xRank, 0.06 xTitles, 0.04 xSackos)
-	-Huge Taters ",4.5,8.1,7.4,6.1,0,1384.23,1344.68,32.5,0.547,0.85,0.69,0.12,54,6.1,-1.7,0.517,-0.031,-0.16,47,1360.0,-168.0,0.15,55,102,99,11 (2014 - 2025),7,6,3,0,3.2,81,67,15226.52,14791.52,"Huge Taters
+	-Huge Taters ",4.5,8.1,7.4,6.1,0.0,1384.23,1344.68,32.5,0.547,0.85,0.69,0.12,54,6.1,-1.7,0.517,-0.031,-0.16,47,1360.0,-168.0,0.15,55,102,99,11 (2014 - 2025),7,6,3,0,3.2,81,67,15226.52,14791.52,"Huge Taters
 AP died On Me
 Cookin that Chili
 Lynch Mob
@@ -241,7 +241,7 @@ Total,Erik Foster,Chili-nfl,"Erik Foster - Chili (nfl)
 	-Dude Where's My Carr? 
 
  #4 (2014, pick #2, 10-3, 0.55 PF_z, 71 zStrength, 106 PF+, 4.3 xRank, 0.09 xTitles, 0.03 xSackos)
-	-Hankey Sankey ",6.4,7.5,6.9,6.5,0,1401.53,1364.75,41.6,0.514,1.36,0.61,0.35,60,5.6,0.8,0.547,0.031,-0.01,50,1358.3,70.6,-0.72,28,103,100,11 (2014 - 2025),6,2,2,0,3.4,76,72,15416.84,15012.26,"Hankey Sankey
+	-Hankey Sankey ",6.4,7.5,6.9,6.5,0.0,1401.53,1364.75,41.6,0.514,1.36,0.61,0.35,60,5.6,0.8,0.547,0.031,-0.01,50,1358.3,70.6,-0.72,28,103,100,11 (2014 - 2025),6,2,2,0,3.4,76,72,15416.84,15012.26,"Hankey Sankey
 Dude Where's My Carr?
 Lights Kamara Miller Time!
 40 Million Dollar Baby
@@ -249,11 +249,11 @@ Garbage Pass Kids"
 Total,Gio Bustichi,Chili-nfl,"Gio Bustichi - Chili (nfl)
 
 #5 (2014, pick #4, 7-6, -0.49 PF_z, 31 zStrength, 95 PF+, 6.4 xRank, 0.02 xTitles, 0.09 xSackos)
-	-Team Bustichi ",5,4,7,6,0,1084.00,1082.00,23,0.538,0.02,0.09,-0.49,31,6.4,-1.4,0.434,-0.104,-1.24,11,1150.7,-68.7,,,95,94,1 (2014 - 2014),1,0,0,0,0.0,7,6,1084.00,1082.00,Team Bustichi
+	-Team Bustichi ",5.0,4.0,7.0,6.0,0.0,1084.00,1082.00,23.0,0.538,0.02,0.09,-0.49,31,6.4,-1.4,0.434,-0.104,-1.24,11,1150.7,-68.7,,,95,94,1 (2014 - 2014),1,0,0,0,0.0,7,6,1084.00,1082.00,Team Bustichi
 Total,Jake Duncan,Chili-nfl,"Jake Duncan - Chili (nfl)
 
 #5 (2016, pick #1, 7-6, 1.14 PF_z, 87 zStrength, 109 PF+, 3.7 xRank, 0.20 xTitles, 0.01 xSackos)
-	-Team Duncan ",5,1,7,6,0,1243.00,1127.00,19,0.538,0.20,0.01,1.14,87,3.7,1.3,0.653,0.114,-0.15,44,1135.2,-8.2,,,109,99,1 (2016 - 2016),1,0,0,0,0.0,7,6,1243.00,1127.00,Team Duncan
+	-Team Duncan ",5.0,1.0,7.0,6.0,0.0,1243.00,1127.00,19.0,0.538,0.20,0.01,1.14,87,3.7,1.3,0.653,0.114,-0.15,44,1135.2,-8.2,,,109,99,1 (2016 - 2016),1,0,0,0,0.0,7,6,1243.00,1127.00,Team Duncan
 Total,Kyle McReynolds,Chili-nfl,"Kyle McReynolds - Chili (nfl)
 
 #2 (2025, pick #11, 19 draft_zStrength, 9-5, -0.47 PF_z, 32 zStrength, 98 PF+, 7.7 xRank, 0.02 xTitles, 0.09 xSackos)
@@ -311,7 +311,7 @@ Total,Nick Mannina,Chili-nfl,"Nick Mannina - Chili (nfl)
 	-Team Mannina 
 
  #9 (2014, pick #1, 4-9, -1.16 PF_z, 12 zStrength, 88 PF+, 7.8 xRank, 0.01 xTitles, 0.18 xSackos)
-	-Team Mannina ",6.1,5.9,6.3,6.9,0,1191.06,1254.78,10,0.478,0.58,0.84,-0.25,43,6.9,-0.8,0.467,-0.016,0.05,52,1246.8,55.7,,,97,100,7 (2014 - 2021),4,3,0,0,3.1,44,48,8337.42,8783.48,"Team Mannina
+	-Team Mannina ",6.1,5.9,6.3,6.9,0.0,1191.06,1254.78,10.0,0.478,0.58,0.84,-0.25,43,6.9,-0.8,0.467,-0.016,0.05,52,1246.8,55.7,,,97,100,7 (2014 - 2021),4,3,0,0,3.1,44,48,8337.42,8783.48,"Team Mannina
 Milk Wagons"
 Total,Russell Smith,Chili-nfl,"Russell Smith - Chili (nfl)
 
@@ -343,7 +343,7 @@ Total,Russell Smith,Chili-nfl,"Russell Smith - Chili (nfl)
 	-Frig off Lahey 
 
  #11 (2016, pick #6, 5-8, -0.63 PF_z, 27 zStrength, 95 PF+, 8.1 xRank, 0.02 xTitles, 0.11 xSackos)
-	-Frig off Lahey ",7.3,6.1,5.8,7.7,0,1328.18,1403.92,10.6,0.430,0.52,1.43,-0.49,37,7.7,-0.4,0.434,0.005,0.22,58,1388.9,150.2,0.03,51,96,101,10 (2016 - 2025),3,3,1,1,3.8,58,77,13281.82,14039.22,"Frig off Lahey
+	-Frig off Lahey ",7.3,6.1,5.8,7.7,0.0,1328.18,1403.92,10.6,0.430,0.52,1.43,-0.49,37,7.7,-0.4,0.434,0.005,0.22,58,1388.9,150.2,0.03,51,96,101,10 (2016 - 2025),3,3,1,1,3.8,58,77,13281.82,14039.22,"Frig off Lahey
 Lim Jahey
 Lim Jahey and Co."
 Total,Scott Dreier,Chili-nfl,"Scott Dreier - Chili (nfl)
@@ -379,7 +379,7 @@ Total,Scott Dreier,Chili-nfl,"Scott Dreier - Chili (nfl)
 	-Team Dreier 
 
  #3 (2014, pick #10, 7-6, 1.15 PF_z, 88 zStrength, 112 PF+, 3.0 xRank, 0.20 xTitles, 0.01 xSackos)
-	-Team Dreier ",5.7,7,6.9,6.5,0,1376.45,1372.60,16.6,0.514,1.06,1.01,0.04,53,6.4,-0.6,0.505,-0.008,0.17,56,1360.5,133.5,0.30,59,101,101,11 (2014 - 2025),7,3,0,0,2.9,76,72,15140.98,15098.64,Team Dreier
+	-Team Dreier ",5.7,7.0,6.9,6.5,0.0,1376.45,1372.60,16.6,0.514,1.06,1.01,0.04,53,6.4,-0.6,0.505,-0.008,0.17,56,1360.5,133.5,0.30,59,101,101,11 (2014 - 2025),7,3,0,0,2.9,76,72,15140.98,15098.64,Team Dreier
 Total,Scott Masik,Chili-nfl,"Scott Masik - Chili (nfl)
 
 #10 (2025, pick #4, 10 draft_zStrength, 5-9, -1.51 PF_z, 7 zStrength, 93 PF+, 10.3 xRank, 0.00 xTitles, 0.25 xSackos)
@@ -407,7 +407,7 @@ Total,Scott Masik,Chili-nfl,"Scott Masik - Chili (nfl)
 	-Keenan and KEL...ce 
 
  #7 (2017, pick #7, 5-8, 0.04 PF_z, 52 zStrength, 100 PF+, 6.4 xRank, 0.04 xTitles, 0.05 xSackos)
-	-Cant HYDE your Chili ",7.4,6.1,6.3,7.2,0,1410.42,1409.03,26.2,0.467,0.69,0.75,-0.04,48,6.6,0.8,0.494,0.028,0.07,53,1410.5,-13.1,-0.44,35,100,100,9 (2017 - 2025),3,2,1,1,3.6,57,65,12693.76,12681.28,"Cant HYDE your Chili
+	-Cant HYDE your Chili ",7.4,6.1,6.3,7.2,0.0,1410.42,1409.03,26.2,0.467,0.69,0.75,-0.04,48,6.6,0.8,0.494,0.028,0.07,53,1410.5,-13.1,-0.44,35,100,100,9 (2017 - 2025),3,2,1,1,3.6,57,65,12693.76,12681.28,"Cant HYDE your Chili
 Keenan and KEL...ce
 The comeback Kid
 Bowl of Chili
@@ -446,7 +446,7 @@ Total,Troy Kato,Chili-nfl,"Troy Kato - Chili (nfl)
 	-Team Kato 
 
  #8 (2014, pick #7, 3-9-1, -1.77 PF_z, 4 zStrength, 81 PF+, 9.1 xRank, 0.00 xTitles, 0.31 xSackos)
-	-Team Kato ",5.9,5.9,6.5,6.7,0.3,1328.91,1343.42,16,0.490,1.04,1.44,-0.25,44,7.0,-1.1,0.467,-0.023,-0.33,42,1365.5,-242.4,-0.09,45,97,98,11 (2014 - 2025),6,4,2,0,3.7,71,74,14618.04,14777.62,"Team Kato
+	-Team Kato ",5.9,5.9,6.5,6.7,0.3,1328.91,1343.42,16.0,0.490,1.04,1.44,-0.25,44,7.0,-1.1,0.467,-0.023,-0.33,42,1365.5,-242.4,-0.09,45,97,98,11 (2014 - 2025),6,4,2,0,3.7,71,74,14618.04,14777.62,"Team Kato
 Blooper Cooper
 HalfChubb FullWood
 Finding Deebo

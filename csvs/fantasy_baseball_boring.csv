@@ -10,29 +10,29 @@ Total,??unknown2017BaseballIsBoring??,BaseballIsBoring-mlb,"??unknown2017Basebal
 Total,Aaron,BaseballIsBoring-mlb,"Aaron - BaseballIsBoring (mlb)
 
 #1 (2012, , 1.98 PF_z, 98 zStrength, 165 PF+, 0.9 xRank, 0.49 xTitles, 0.00 xSackos)
-	-Moneybrawlers ",1,,,,,100.00,,,,0.49,0.00,1.98,98,0.9,0.1,0.739,,,,,,,,165,,1 (2012 - 2012),0,1,1,0,0.0,,,100.00,,Moneybrawlers
+	-Moneybrawlers ",1.0,,,,,100.00,,,,0.49,0.00,1.98,98,0.9,0.1,0.739,,,,,,,,165,,1 (2012 - 2012),0,1,1,0,0.0,,,100.00,,Moneybrawlers
 Total,Balco 2,BaseballIsBoring-mlb,"Balco 2 - BaseballIsBoring (mlb)
 
 #2 (2011, , 1.94 PF_z, 97 zStrength, 162 PF+, 1.2 xRank, 0.48 xTitles, 0.00 xSackos)
-	-Balco 2 ",2,,,,,105.00,,,,0.48,0.00,1.94,97,1.2,0.8,0.734,,,,,,,,162,,1 (2011 - 2011),0,1,0,0,0.0,,,105.00,,Balco 2
+	-Balco 2 ",2.0,,,,,105.00,,,,0.48,0.00,1.94,97,1.2,0.8,0.734,,,,,,,,162,,1 (2011 - 2011),0,1,0,0,0.0,,,105.00,,Balco 2
 Total,Benny and the Jets,BaseballIsBoring-mlb,"Benny and the Jets - BaseballIsBoring (mlb)
 
 #8 (2011, , -0.39 PF_z, 35 zStrength, 88 PF+, 7.6 xRank, 0.03 xTitles, 0.02 xSackos)
-	-Benny and the Jets ",8,,,,,57.00,,,,0.03,0.02,-0.39,35,7.6,0.4,0.453,,,,,,,,88,,1 (2011 - 2011),0,0,0,0,0.0,,,57.00,,Benny and the Jets
+	-Benny and the Jets ",8.0,,,,,57.00,,,,0.03,0.02,-0.39,35,7.6,0.4,0.453,,,,,,,,88,,1 (2011 - 2011),0,0,0,0,0.0,,,57.00,,Benny and the Jets
 Total,Chris Stage,BaseballIsBoring-mlb,"Chris Stage - BaseballIsBoring (mlb)
 
 #n/a (2026, pick #9, 30 draft_zStrength, 6-13, -1.07 PF_z, 14 zStrength, 94 PF+, 9.5 xRank, 0.01 xTitles, 0.14 xSackos)
 	-The Bonus Babies 
 
  #9 (2025, pick #2, 6 draft_zStrength, 9-13, -0.51 PF_z, 31 zStrength, 94 PF+, 7.9 xRank, 0.02 xTitles, 0.03 xSackos)
-	-The Bonus Babies ",9,2,9,13,0,19805.07,20823.97,,0.409,0.02,0.03,-0.51,31,7.9,1.1,0.439,0.030,-0.57,29,21091.1,-267.1,-1.52,6,94,99,1 (2025 - 2025),0,0,0,0,0.0,9,13,19805.07,20823.97,The Bonus Babies
+	-The Bonus Babies ",9.0,2.0,9.0,13.0,0.0,19805.07,20823.97,,0.409,0.02,0.03,-0.51,31,7.9,1.1,0.439,0.030,-0.57,29,21091.1,-267.1,-1.52,6,94,99,1 (2025 - 2025),0,0,0,0,0.0,9,13,19805.07,20823.97,The Bonus Babies
 Total,Chris Sutherland,BaseballIsBoring-mlb,"Chris Sutherland - BaseballIsBoring (mlb)
 
 #n/a (2026, pick #8, 24 draft_zStrength, 12-7, 0.13 PF_z, 55 zStrength, 101 PF+, 6.2 xRank, 0.06 xTitles, 0.01 xSackos)
 	-chrisbsuth 
 
  #8 (2025, pick #3, 37 draft_zStrength, 9-13, -0.27 PF_z, 39 zStrength, 97 PF+, 7.3 xRank, 0.03 xTitles, 0.02 xSackos)
-	-chrisbsuth ",8,3,9,13,0,20347.47,21053.74,,0.409,0.03,0.02,-0.27,39,7.3,0.7,0.467,0.058,0.03,51,21041.8,11.9,-0.32,37,97,100,1 (2025 - 2025),0,0,0,0,0.0,9,13,20347.47,21053.74,chrisbsuth
+	-chrisbsuth ",8.0,3.0,9.0,13.0,0.0,20347.47,21053.74,,0.409,0.03,0.02,-0.27,39,7.3,0.7,0.467,0.058,0.03,51,21041.8,11.9,-0.32,37,97,100,1 (2025 - 2025),0,0,0,0,0.0,9,13,20347.47,21053.74,chrisbsuth
 Total,Colton Way,BaseballIsBoring-mlb,"Colton Way - BaseballIsBoring (mlb)
 
 #n/a (2026, pick #7, 34 draft_zStrength, 8-11, -0.23 PF_z, 41 zStrength, 99 PF+, 7.2 xRank, 0.03 xTitles, 0.02 xSackos)
@@ -75,7 +75,7 @@ Total,Colton Way,BaseballIsBoring-mlb,"Colton Way - BaseballIsBoring (mlb)
 	-Colton Way 
 
  # (2013, ,  PF_z,  zStrength,  PF+,  xRank,  xTitles,  xSackos)
-	-Colton Way ",4.2,8.1,7,5.6,0,11891.37,11486.59,,0.555,0.52,0.06,0.16,56,5.4,-0.8,0.519,-0.038,-0.34,37,18834.3,-1348.7,0.00,50,102,99,13 (2013 - 2025),5,4.5,3,0,2.6,91,73,154587.80,149325.64,"Colton Way
+	-Colton Way ",4.2,8.1,7.0,5.6,0.0,11891.37,11486.59,,0.555,0.52,0.06,0.16,56,5.4,-0.8,0.519,-0.038,-0.34,37,18834.3,-1348.7,0.00,50,102,99,13 (2013 - 2025),5,4.5,3,0,2.6,91,73,154587.80,149325.64,"Colton Way
 IV Coons
 Foreign Substance
 Torpedo Bats"
@@ -121,7 +121,7 @@ Total,Connor Reed,BaseballIsBoring-mlb,"Connor Reed - BaseballIsBoring (mlb)
 	-Connor Reed 
 
  #1 (2013, ,  PF_z,  zStrength,  PF+,  xRank,  xTitles,  xSackos)
-	-Connor Reed ",2.9,6.5,8.3,4.3,0,12793.16,11633.97,,0.659,1.33,0.01,0.90,81,3.6,-0.5,0.608,-0.041,0.26,60,18681.9,1786.1,1.66,94,110,101,13 (2013 - 2025),9,6,2,0,1.4,108,56,166311.14,151241.59,"Connor Reed
+	-Connor Reed ",2.9,6.5,8.3,4.3,0.0,12793.16,11633.97,,0.659,1.33,0.01,0.90,81,3.6,-0.5,0.608,-0.041,0.26,60,18681.9,1786.1,1.66,94,110,101,13 (2013 - 2025),9,6,2,0,1.4,108,56,166311.14,151241.59,"Connor Reed
 The Reigning Champs"
 Total,Dan Brown,BaseballIsBoring-mlb,"Dan Brown - BaseballIsBoring (mlb)
 
@@ -153,7 +153,7 @@ Total,Dan Brown,BaseballIsBoring-mlb,"Dan Brown - BaseballIsBoring (mlb)
 	-Dan Brown 
 
  # (2013, ,  PF_z,  zStrength,  PF+,  xRank,  xTitles,  xSackos)
-	-Dan Brown ",8.4,5,3.2,6.6,0,7760.58,8882.47,,0.327,0.06,1.12,-1.11,17,8.6,-0.2,0.367,0.026,-0.01,49,17749.7,76.1,-1.16,13,88,99,10 (2013 - 2022),0,0,0,0,1.0,32,66,77605.81,88824.74,"Dan Brown
+	-Dan Brown ",8.4,5.0,3.2,6.6,0.0,7760.58,8882.47,,0.327,0.06,1.12,-1.11,17,8.6,-0.2,0.367,0.026,-0.01,49,17749.7,76.1,-1.16,13,88,99,10 (2013 - 2022),0,0,0,0,1.0,32,66,77605.81,88824.74,"Dan Brown
 Now This is Padresing"
 Total,Devin Kawabata,BaseballIsBoring-mlb,"Devin Kawabata - BaseballIsBoring (mlb)
 
@@ -203,7 +203,7 @@ Total,Devin Kawabata,BaseballIsBoring-mlb,"Devin Kawabata - BaseballIsBoring (ml
 	-Springfield Isotopes 
 
  #6 (2011, , 0.07 PF_z, 53 zStrength, 102 PF+, 6.3 xRank, 0.05 xTitles, 0.01 xSackos)
-	-Sterohoes ",5.4,6.8,5.9,5.1,0,10315.91,10051.35,,0.537,0.76,0.13,0.15,55,5.5,-0.1,0.519,0.007,0.13,55,18826.7,156.6,-0.66,31,102,100,15 (2011 - 2025),3,3,2,1,3.1,88,76,154738.71,150770.29,"Sterohoes
+	-Sterohoes ",5.4,6.8,5.9,5.1,0.0,10315.91,10051.35,,0.537,0.76,0.13,0.15,55,5.5,-0.1,0.519,0.007,0.13,55,18826.7,156.6,-0.66,31,102,100,15 (2011 - 2025),3,3,2,1,3.1,88,76,154738.71,150770.29,"Sterohoes
 Springfield Isotopes
 Devin Kawabata
 Sabermetrics are for nerds
@@ -211,15 +211,15 @@ sabermetrics are for nerds"
 Total,Dgafus,BaseballIsBoring-mlb,"Dgafus - BaseballIsBoring (mlb)
 
 #10 (2012, , -1.93 PF_z, 3 zStrength, 36 PF+, 9.9 xRank, 0.00 xTitles, 0.62 xSackos)
-	-Dgafus ",10,,,,,22.00,,,,0.00,0.62,-1.93,3,9.9,0.1,0.267,,,,,,,,36,,1 (2012 - 2012),0,0,0,1,0.0,,,22.00,,Dgafus
+	-Dgafus ",10.0,,,,,22.00,,,,0.00,0.62,-1.93,3,9.9,0.1,0.267,,,,,,,,36,,1 (2012 - 2012),0,0,0,1,0.0,,,22.00,,Dgafus
 Total,Esqueleto,BaseballIsBoring-mlb,"Esqueleto - BaseballIsBoring (mlb)
 
 #8 (2012, , -0.58 PF_z, 28 zStrength, 81 PF+, 6.8 xRank, 0.02 xTitles, 0.04 xSackos)
-	-Esqueleto ",8,,,,,49.00,,,,0.02,0.04,-0.58,28,6.8,1.2,0.430,,,,,,,,81,,1 (2012 - 2012),0,0,0,0,0.0,,,49.00,,Esqueleto
+	-Esqueleto ",8.0,,,,,49.00,,,,0.02,0.04,-0.58,28,6.8,1.2,0.430,,,,,,,,81,,1 (2012 - 2012),0,0,0,0,0.0,,,49.00,,Esqueleto
 Total,Gangsters!,BaseballIsBoring-mlb,"Gangsters! - BaseballIsBoring (mlb)
 
 #9 (2011, , -0.56 PF_z, 29 zStrength, 82 PF+, 8.1 xRank, 0.02 xTitles, 0.04 xSackos)
-	-Gangsters! ",9,,,,,53.50,,,,0.02,0.04,-0.56,29,8.1,0.9,0.433,,,,,,,,82,,1 (2011 - 2011),0,0,0,0,0.0,,,53.50,,Gangsters!
+	-Gangsters! ",9.0,,,,,53.50,,,,0.02,0.04,-0.56,29,8.1,0.9,0.433,,,,,,,,82,,1 (2011 - 2011),0,0,0,0,0.0,,,53.50,,Gangsters!
 Total,Garrett Harris,BaseballIsBoring-mlb,"Garrett Harris - BaseballIsBoring (mlb)
 
 #n/a (2026, pick #1, 64 draft_zStrength, 7-12, -0.68 PF_z, 25 zStrength, 96 PF+, 8.4 xRank, 0.02 xTitles, 0.05 xSackos)
@@ -265,17 +265,17 @@ Total,Garrett Harris,BaseballIsBoring-mlb,"Garrett Harris - BaseballIsBoring (ml
 	-Garrett Harris 
 
  #7 (2012, , -0.28 PF_z, 39 zStrength, 91 PF+, 6.1 xRank, 0.03 xTitles, 0.02 xSackos)
-	-hella awesome ",5.8,5.3,4.6,7.1,0,10238.61,10988.24,,0.390,0.41,1.11,-0.43,38,6.7,0.0,0.448,0.038,0.24,57,18990.6,1911.0,-0.12,46,95,101,14 (2012 - 2025),4,3,2,1,3.0,64,100,143340.50,153835.41,"hella awesome
+	-hella awesome ",5.8,5.3,4.6,7.1,0.0,10238.61,10988.24,,0.390,0.41,1.11,-0.43,38,6.7,0.0,0.448,0.038,0.24,57,18990.6,1911.0,-0.12,46,95,101,14 (2012 - 2025),4,3,2,1,3.0,64,100,143340.50,153835.41,"hella awesome
 Garrett Harris
 Baseball Team"
 Total,great bayer's,BaseballIsBoring-mlb,"great bayer's - BaseballIsBoring (mlb)
 
 #4 (2012, , 0.18 PF_z, 57 zStrength, 106 PF+, 5.0 xRank, 0.06 xTitles, 0.01 xSackos)
-	-great bayer's ",4,,,,,64.00,,,,0.06,0.01,0.18,57,5.0,-1.0,0.521,,,,,,,,106,,1 (2012 - 2012),0,0,0,0,0.0,,,64.00,,great bayer's
+	-great bayer's ",4.0,,,,,64.00,,,,0.06,0.01,0.18,57,5.0,-1.0,0.521,,,,,,,,106,,1 (2012 - 2012),0,0,0,0,0.0,,,64.00,,great bayer's
 Total,hXcsXe,BaseballIsBoring-mlb,"hXcsXe - BaseballIsBoring (mlb)
 
 #12 (2011, , -1.29 PF_z, 10 zStrength, 59 PF+, 10.1 xRank, 0.01 xTitles, 0.22 xSackos)
-	-hXcsXe ",12,,,,,38.50,,,,0.01,0.22,-1.29,10,10.1,1.9,0.345,,,,,,,,59,,1 (2011 - 2011),0,0,0,1,0.0,,,38.50,,hXcsXe
+	-hXcsXe ",12.0,,,,,38.50,,,,0.01,0.22,-1.29,10,10.1,1.9,0.345,,,,,,,,59,,1 (2011 - 2011),0,0,0,1,0.0,,,38.50,,hXcsXe
 Total,Ian Howard,BaseballIsBoring-mlb,"Ian Howard - BaseballIsBoring (mlb)
 
 #n/a (2026, pick #5, 93 draft_zStrength, 7-12, -0.01 PF_z, 50 zStrength, 100 PF+, 6.6 xRank, 0.05 xTitles, 0.01 xSackos)
@@ -312,7 +312,7 @@ Total,Ian Howard,BaseballIsBoring-mlb,"Ian Howard - BaseballIsBoring (mlb)
 	-Ian Howard 
 
  # (2015, ,  PF_z,  zStrength,  PF+,  xRank,  xTitles,  xSackos)
-	-Ian Howard ",5.6,5.4,8.7,6.2,0,15001.52,13914.51,,0.585,1.24,0.01,0.84,79,3.8,1.8,0.601,0.029,0.75,72,18695.8,3493.3,1.68,94,109,103,11 (2015 - 2025),4,0,0,0,1.3,96,68,165016.67,153059.66,"Ian Howard
+	-Ian Howard ",5.6,5.4,8.7,6.2,0.0,15001.52,13914.51,,0.585,1.24,0.01,0.84,79,3.8,1.8,0.601,0.029,0.75,72,18695.8,3493.3,1.68,94,109,103,11 (2015 - 2025),4,0,0,0,1.3,96,68,165016.67,153059.66,"Ian Howard
 Joe Buck Yourself
 Say It Ain't Soto
 Semien Stain
@@ -338,21 +338,21 @@ Total,Jake Howard,BaseballIsBoring-mlb,"Jake Howard - BaseballIsBoring (mlb)
 	-3/5 a Freeman 
 
  #10 (2018, pick #5, 4-20, -1.38 PF_z, 8 zStrength, 83 PF+, 8.6 xRank, 0.01 xTitles, 0.27 xSackos)
-	-3/5 a Freeman ",8.9,4,4.7,15.6,0,15898.73,18802.22,,0.232,0.35,1.89,-1.00,21,8.2,0.7,0.380,0.113,0.07,54,18856.6,-380.6,0.60,72,88,100,7 (2018 - 2024),1,0,0,3,2.0,33,109,111291.10,131615.57,"3/5 a Freeman
+	-3/5 a Freeman ",8.9,4.0,4.7,15.6,0.0,15898.73,18802.22,,0.232,0.35,1.89,-1.00,21,8.2,0.7,0.380,0.113,0.07,54,18856.6,-380.6,0.60,72,88,100,7 (2018 - 2024),1,0,0,3,2.0,33,109,111291.10,131615.57,"3/5 a Freeman
 SharkArenado
 I Maeda Mistake"
 Total,James Sutherland,BaseballIsBoring-mlb,"James Sutherland - BaseballIsBoring (mlb)
 
 #12 (2025, pick #1, 14 draft_zStrength, 4-18, -2.41 PF_z, 1 zStrength, 73 PF+, 13.2 xRank, 0.00 xTitles, 0.86 xSackos)
-	-WontonDon20 ",12,1,4,18,0,15381.57,20574.80,,0.182,0.00,0.86,-2.41,1,13.2,-1.2,0.209,0.027,-1.95,3,21493.3,-918.5,-1.09,14,73,96,1 (2025 - 2025),0,0,0,1,0.0,4,18,15381.57,20574.80,WontonDon20
+	-WontonDon20 ",12.0,1.0,4.0,18.0,0.0,15381.57,20574.80,,0.182,0.00,0.86,-2.41,1,13.2,-1.2,0.209,0.027,-1.95,3,21493.3,-918.5,-1.09,14,73,96,1 (2025 - 2025),0,0,0,1,0.0,4,18,15381.57,20574.80,WontonDon20
 Total,Joe,BaseballIsBoring-mlb,"Joe - BaseballIsBoring (mlb)
 
 #2 (2012, , 0.73 PF_z, 77 zStrength, 124 PF+, 3.8 xRank, 0.13 xTitles, 0.00 xSackos)
-	-Fundamentally Sound ",2,,,,,75.00,,,,0.13,0.00,0.73,77,3.8,-1.8,0.588,,,,,,,,124,,1 (2012 - 2012),0,1,0,0,0.0,,,75.00,,Fundamentally Sound
+	-Fundamentally Sound ",2.0,,,,,75.00,,,,0.13,0.00,0.73,77,3.8,-1.8,0.588,,,,,,,,124,,1 (2012 - 2012),0,1,0,0,0.0,,,75.00,,Fundamentally Sound
 Total,Jordan Small,BaseballIsBoring-mlb,"Jordan Small - BaseballIsBoring (mlb)
 
 #7 (2011, , -0.39 PF_z, 35 zStrength, 88 PF+, 7.6 xRank, 0.03 xTitles, 0.02 xSackos)
-	-Give Peas a Chance ",7,,,,,57.00,,,,0.03,0.02,-0.39,35,7.6,-0.6,0.453,,,,,,,,88,,1 (2011 - 2011),0,0,0,0,0.0,,,57.00,,Give Peas a Chance
+	-Give Peas a Chance ",7.0,,,,,57.00,,,,0.03,0.02,-0.39,35,7.6,-0.6,0.453,,,,,,,,88,,1 (2011 - 2011),0,0,0,0,0.0,,,57.00,,Give Peas a Chance
 Total,Josh Balaban,BaseballIsBoring-mlb,"Josh Balaban - BaseballIsBoring (mlb)
 
 #n/a (2026, pick #2, 85 draft_zStrength, 11-8, 0.78 PF_z, 78 zStrength, 104 PF+, 4.4 xRank, 0.14 xTitles, 0.00 xSackos)
@@ -371,7 +371,7 @@ Total,Josh Balaban,BaseballIsBoring-mlb,"Josh Balaban - BaseballIsBoring (mlb)
 	-The Youngcocks 
 
  #4 (2021, pick #6, 44 draft_zStrength, 17-5, 1.15 PF_z, 87 zStrength, 115 PF+, 3.4 xRank, 0.22 xTitles, 0.00 xSackos)
-	-The Youngcocks ",4.2,7.2,14.2,7.8,0,22870.23,21020.45,,0.645,0.74,0.01,0.75,76,4.1,0.1,0.591,-0.055,0.69,73,20648.4,1860.4,0.52,64,110,102,5 (2021 - 2025),4,2,0,0,2.0,71,39,114351.17,105102.27,"The Youngcocks
+	-The Youngcocks ",4.2,7.2,14.2,7.8,0.0,22870.23,21020.45,,0.645,0.74,0.01,0.75,76,4.1,0.1,0.591,-0.055,0.69,73,20648.4,1860.4,0.52,64,110,102,5 (2021 - 2025),4,2,0,0,2.0,71,39,114351.17,105102.27,"The Youngcocks
 Only Phams"
 Total,Justin Hart,BaseballIsBoring-mlb,"Justin Hart - BaseballIsBoring (mlb)
 
@@ -385,18 +385,18 @@ Total,Justin Hart,BaseballIsBoring-mlb,"Justin Hart - BaseballIsBoring (mlb)
 	-Justin Hart 
 
  # (2013, ,  PF_z,  zStrength,  PF+,  xRank,  xTitles,  xSackos)
-	-Justin Hart ",1,,,,,,,,,,,,,,,,,,,,,,,,,4 (2013 - 2016),1,1,1,0,0.0,,,,,Justin Hart
+	-Justin Hart ",1.0,,,,,,,,,,,,,,,,,,,,,,,,,4 (2013 - 2016),1,1,1,0,0.0,,,,,Justin Hart
 Total,killerb,BaseballIsBoring-mlb,"killerb - BaseballIsBoring (mlb)
 
 #1 (2011, , 1.99 PF_z, 98 zStrength, 163 PF+, 1.1 xRank, 0.50 xTitles, 0.00 xSackos)
-	-Gas House Gang ",1,,,,,106.00,,,,0.50,0.00,1.99,98,1.1,-0.1,0.740,,,,,,,,163,,1 (2011 - 2011),0,1,1,0,0.0,,,106.00,,Gas House Gang
+	-Gas House Gang ",1.0,,,,,106.00,,,,0.50,0.00,1.99,98,1.1,-0.1,0.740,,,,,,,,163,,1 (2011 - 2011),0,1,1,0,0.0,,,106.00,,Gas House Gang
 Total,Kohl Bashline,BaseballIsBoring-mlb,"Kohl Bashline - BaseballIsBoring (mlb)
 
 #12 (2022, pick #1, 14 draft_zStrength, 1-21, -2.13 PF_z, 2 zStrength, 69 PF+, 12.4 xRank, 0.00 xTitles, 0.74 xSackos)
 	-Babe Ruth B. Ginsberg 
 
  #12 (2021, pick #12, 26 draft_zStrength, 3-19, -1.86 PF_z, 3 zStrength, 76 PF+, 11.7 xRank, 0.00 xTitles, 0.58 xSackos)
-	-Babe Ruth B. Ginsberg ",12,6.5,2,20,0,14765.15,21031.55,,0.091,0.00,1.32,-2.00,2,12.0,0.0,0.259,0.168,0.06,52,20979.4,104.4,-0.88,20,72,100,2 (2021 - 2022),0,0,0,2,0.0,4,40,29530.30,42063.10,Babe Ruth B. Ginsberg
+	-Babe Ruth B. Ginsberg ",12.0,6.5,2.0,20.0,0.0,14765.15,21031.55,,0.091,0.00,1.32,-2.00,2,12.0,0.0,0.259,0.168,0.06,52,20979.4,104.4,-0.88,20,72,100,2 (2021 - 2022),0,0,0,2,0.0,4,40,29530.30,42063.10,Babe Ruth B. Ginsberg
 Total,Kyle Marlow,BaseballIsBoring-mlb,"Kyle Marlow - BaseballIsBoring (mlb)
 
 #n/a (2026, pick #10, 6 draft_zStrength, 13-6, 0.19 PF_z, 57 zStrength, 101 PF+, 6.0 xRank, 0.06 xTitles, 0.01 xSackos)
@@ -445,7 +445,7 @@ Total,Kyle Marlow,BaseballIsBoring-mlb,"Kyle Marlow - BaseballIsBoring (mlb)
 	-Marlows 
 
  #5 (2011, , 0.15 PF_z, 56 zStrength, 105 PF+, 6.1 xRank, 0.06 xTitles, 0.01 xSackos)
-	-Marlows ",4.8,7.3,6.8,4.1,0,10487.04,9788.86,,0.622,0.78,0.25,0.11,54,5.6,-0.7,0.513,-0.088,-0.76,28,18795.6,-3532.2,-0.23,41,100,97,15 (2011 - 2025),5,4.5,2,0,2.8,102,62,157305.58,146832.89,"Marlows
+	-Marlows ",4.8,7.3,6.8,4.1,0.0,10487.04,9788.86,,0.622,0.78,0.25,0.11,54,5.6,-0.7,0.513,-0.088,-0.76,28,18795.6,-3532.2,-0.23,41,100,97,15 (2011 - 2025),5,4.5,2,0,2.8,102,62,157305.58,146832.89,"Marlows
 Kyle Marlow
 WAR and Peace
 WAR And Peace
@@ -453,7 +453,7 @@ Nick Lo SoloDolo"
 Total,Matt Tweed,BaseballIsBoring-mlb,"Matt Tweed - BaseballIsBoring (mlb)
 
 #10 (2011, , -0.90 PF_z, 18 zStrength, 72 PF+, 9.0 xRank, 0.01 xTitles, 0.09 xSackos)
-	-Mathu Da Damaja ",10,,,,,46.50,,,,0.01,0.09,-0.90,18,9.0,1.0,0.392,,,,,,,,72,,1 (2011 - 2011),0,0,0,0,0.0,,,46.50,,Mathu Da Damaja
+	-Mathu Da Damaja ",10.0,,,,,46.50,,,,0.01,0.09,-0.90,18,9.0,1.0,0.392,,,,,,,,72,,1 (2011 - 2011),0,0,0,0,0.0,,,46.50,,Mathu Da Damaja
 Total,Nate Rosen,BaseballIsBoring-mlb,"Nate Rosen - BaseballIsBoring (mlb)
 
 # (2015, ,  PF_z,  zStrength,  PF+,  xRank,  xTitles,  xSackos)
@@ -467,7 +467,7 @@ Total,Nate Rosen,BaseballIsBoring-mlb,"Nate Rosen - BaseballIsBoring (mlb)
 Total,The Real Deal,BaseballIsBoring-mlb,"The Real Deal - BaseballIsBoring (mlb)
 
 #3 (2011, , 0.27 PF_z, 61 zStrength, 108 PF+, 5.8 xRank, 0.07 xTitles, 0.00 xSackos)
-	-The Real Deal ",3,,,,,70.50,,,,0.07,0.00,0.27,61,5.8,-2.8,0.532,,,,,,,,109,,1 (2011 - 2011),0,1,0,0,0.0,,,70.50,,The Real Deal
+	-The Real Deal ",3.0,,,,,70.50,,,,0.07,0.00,0.27,61,5.8,-2.8,0.532,,,,,,,,109,,1 (2011 - 2011),0,1,0,0,0.0,,,70.50,,The Real Deal
 Total,Thomas Macfadyen,BaseballIsBoring-mlb,"Thomas Macfadyen - BaseballIsBoring (mlb)
 
 #n/a (2026, pick #11, 86 draft_zStrength, 4-15, -2.47 PF_z, 1 zStrength, 86 PF+, 13.3 xRank, 0.00 xTitles, 0.88 xSackos)
@@ -510,7 +510,7 @@ Total,Thomas Macfadyen,BaseballIsBoring-mlb,"Thomas Macfadyen - BaseballIsBoring
 	-Thomas Macfadyen 
 
  # (2013, ,  PF_z,  zStrength,  PF+,  xRank,  xTitles,  xSackos)
-	-Thomas Macfadyen ",7.9,3.1,4.3,8.3,0,10604.43,11645.81,,0.341,0.36,1.00,-0.61,30,7.4,0.5,0.427,0.055,-0.17,49,19044.6,-961.3,0.00,50,93,99,13 (2013 - 2025),1,1,0,0,2.8,56,108,137857.53,151395.48,"Thomas Macfadyen
+	-Thomas Macfadyen ",7.9,3.1,4.3,8.3,0.0,10604.43,11645.81,,0.341,0.36,1.00,-0.61,30,7.4,0.5,0.427,0.055,-0.17,49,19044.6,-961.3,0.00,50,93,99,13 (2013 - 2025),1,1,0,0,2.8,56,108,137857.53,151395.48,"Thomas Macfadyen
 The Whiskey Dicks
 Shut Up Babydick"
 Total,Tommy Pompo,BaseballIsBoring-mlb,"Tommy Pompo - BaseballIsBoring (mlb)
@@ -561,7 +561,7 @@ Total,Tommy Pompo,BaseballIsBoring-mlb,"Tommy Pompo - BaseballIsBoring (mlb)
 	-Chex Mix 
 
  #4 (2011, , 0.15 PF_z, 56 zStrength, 105 PF+, 6.1 xRank, 0.06 xTitles, 0.01 xSackos)
-	-Chex Mix ",3.4,7.8,7.9,3,0,11129.04,9830.85,,0.726,1.40,0.05,0.62,70,4.3,-0.4,0.575,-0.098,-0.31,42,18681.8,-1991.6,-0.91,21,108,99,15 (2011 - 2025),10,8,1,0,2.1,119,45,166935.54,147462.82,"Chex Mix
+	-Chex Mix ",3.4,7.8,7.9,3.0,0.0,11129.04,9830.85,,0.726,1.40,0.05,0.62,70,4.3,-0.4,0.575,-0.098,-0.31,42,18681.8,-1991.6,-0.91,21,108,99,15 (2011 - 2025),10,8,1,0,2.1,119,45,166935.54,147462.82,"Chex Mix
 Tommy Pompo
 Acuna Matata
 Swing Lowe, Sweet Chariot
@@ -571,11 +571,11 @@ The Ghost of Wade Boggs"
 Total,Wahooligans,BaseballIsBoring-mlb,"Wahooligans - BaseballIsBoring (mlb)
 
 #3 (2012, , 0.65 PF_z, 74 zStrength, 122 PF+, 4.0 xRank, 0.12 xTitles, 0.00 xSackos)
-	-Wahooligans ",3,,,,,73.50,,,,0.12,0.00,0.65,74,4.0,-1.0,0.579,,,,,,,,122,,1 (2012 - 2012),0,1,0,0,0.0,,,73.50,,Wahooligans
+	-Wahooligans ",3.0,,,,,73.50,,,,0.12,0.00,0.65,74,4.0,-1.0,0.579,,,,,,,,122,,1 (2012 - 2012),0,1,0,0,0.0,,,73.50,,Wahooligans
 Total,What's A,BaseballIsBoring-mlb,"What's A - BaseballIsBoring (mlb)
 
 #11 (2011, , -1.04 PF_z, 15 zStrength, 67 PF+, 9.4 xRank, 0.01 xTitles, 0.13 xSackos)
-	-What's A ",11,,,,,43.50,,,,0.01,0.13,-1.04,15,9.4,1.6,0.374,,,,,,,,67,,1 (2011 - 2011),0,0,0,0,0.0,,,43.50,,What's A
+	-What's A ",11.0,,,,,43.50,,,,0.01,0.13,-1.04,15,9.4,1.6,0.374,,,,,,,,67,,1 (2011 - 2011),0,0,0,0,0.0,,,43.50,,What's A
 2026,Chris Stage,BaseballIsBoring-mlb,,n/a,9,6,13,0,17413.40,18865.53,,0.316,0.01,0.14,-1.07,14,9.5,,0.371,0.055,0.26,60,18662.8,202.7,-0.52,30,94,101,,,,,,,,,,,The Bonus Babies
 2026,Chris Sutherland,BaseballIsBoring-mlb,,n/a,8,12,7,0,18701.07,18407.47,,0.632,0.06,0.01,0.13,55,6.2,,0.516,-0.116,-0.18,43,18545.7,-138.2,-0.71,24,101,99,,,,,,,,,,,chrisbsuth
 2026,Colton Way,BaseballIsBoring-mlb,,n/a,7,8,11,0,18308.37,18448.67,,0.421,0.03,0.02,-0.23,41,7.2,,0.472,0.051,-0.17,43,18581.4,-132.7,-0.41,34,99,99,,,,,,,,,,,Torpedo Bats
