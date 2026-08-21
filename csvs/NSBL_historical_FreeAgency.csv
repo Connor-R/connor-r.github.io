@@ -270,7 +270,8 @@ COL: 2026-08-17 to current",2,2025,2026,547973,10233,search
 2025,t2-1,CLE,David Fry,C,30,,3,4.250,yes,CLE: 2025-04-04 to current,2,2025,2026,681807,24934,search
 2025,t2-1,PHI,Jason Foley,RP,30,,2,4.040,yes,PHI: 2025-04-04 to current,2,2025,2026,671345,19531,search
 2025,t2-1,PHI,Collin Snider,RP,30,,2,4.000,yes,PHI: 2025-04-12 to current,2,2025,2026,676092,23307,search
-2025,t2-1,LAD,Jared Koenig,RP,31,,2,3.003,no,LAD: 2025-04-04 to current,2,2025,2026,657649,27517,search
+2025,t2-1,LAD,Jared Koenig,RP,31,,2,3.003,no,"LAD: 2025-04-04 to 2026-08-20
+TOR: 2026-08-21 to current",2,2025,2026,657649,27517,search
 2025,t2-1,LAA,Beau Brieske,RP,27,,2,3.000,yes,LAA: 2025-04-04 to current,2,2025,2026,689225,26079,search
 2025,t2-1,SD,Eloy Jiménez,RF,29,,2,2.500,no,SD:  2025-04-04 to current,2,2025,2026,650391,17484,search
 2025,t2-1,PIT,Reed Garrett,RP,32,,2,2.250,yes,PIT: 2025-04-04 to current,2,2025,2026,657585,16866,search
@@ -321,7 +322,8 @@ COL: 2026-04-24 to current",2,2025,2026,489446,9073,search
 2025,t2-3,ATL,Justin Slaten,RP,28,,4,3.000,no,ATL: 2025-04-04 to current,2,2025,2026,686580,25648,search
 2025,t2-3,KC,Brenan Hanifee,RP,27,,3,2.222,no,KC:  2025-04-04 to current,2,2025,2026,669724,22304,search
 2025,t2-3,KC,DaShawn Keirsey,CF,28,,2,2.020,yes,KC:  2025-04-04 to current,2,2025,2026,680577,24496,search
-2025,t2-3,LAD,Ryan Thompson,RP,33,,2,1.999,no,LAD: 2025-04-04 to current,2,2025,2026,657044,16647,search
+2025,t2-3,LAD,Ryan Thompson,RP,33,,2,1.999,no,"LAD: 2025-04-04 to 2026-08-20
+TOR: 2026-08-21 to current",2,2025,2026,657044,16647,search
 2025,t2-3,LAA,Adam Ottavino,RP,40,,2,1.900,no,LAA: 2025-04-04 to current,2,2025,2026,493603,1247,search
 2025,t2-4,STL,Dennis Santana,RP,29,,2,7.000,yes,STL: 2025-04-06 to current,2,2025,2026,642701,17878,search
 2025,t2-4,ATL,Hyeseong Kim,H,26,,6,7.000,no,"ATL: 2025-04-06 to 2026-02-06
