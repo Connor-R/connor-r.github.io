@@ -1,0 +1,439 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-8N02F87WCP"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'G-8N02F87WCP');
+</script>
+<title>NSBL - Free Agency by Franchise and Year (Last Updated Aug 19, 2026)</title>
+<style>
+:root { --border:#d0d4d9; --head:#2c3e50; --headtxt:#fff; --zebra:#f5f7f9; --hover:#eaf2fb; --accent:#2563eb; --rowh:31px; }
+* { box-sizing:border-box; }
+body { margin:0; font:14px/20px -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif; color:#1c2733; background:#fff; -webkit-text-size-adjust:100%; }
+header { padding:14px 18px 10px; }
+h1 { margin:0 0 8px; font-size:19px; font-weight:600; }
+.controls { display:flex; align-items:center; gap:14px; flex-wrap:wrap; }
+#filter { padding:6px 10px; font-size:14px; border:1px solid var(--border); border-radius:6px; width:420px; max-width:90vw; }
+#filter.bad { border-color:#dc2626; outline-color:#dc2626; }
+#count { color:#5b6875; font-size:13px; }
+/* overflow-anchor:none is LOAD-BEARING: scroll anchoring fights a virtual
+   scroller. Chrome sees the top spacer resize, "corrects" scrollTop to keep
+   content stable, that fires scroll -> render -> resize -> correct ... a
+   runaway that accelerates to the bottom on the lightest scroll. */
+#wrap { overflow:auto; overflow-anchor:none; border-top:1px solid var(--border); height:calc(100vh - 86px); position:relative; }
+table { border-collapse:collapse; width:max-content; min-width:100%; }
+/* rows are a FIXED integer height so the spacer math can't drift */
+tbody tr { height:var(--rowh); }
+th, td { height:var(--rowh); padding:5px 12px; border-right:1px solid var(--border); white-space:nowrap; max-width:520px; overflow:hidden; text-overflow:ellipsis; }
+th { position:sticky; top:0; background:var(--head); color:var(--headtxt); cursor:pointer; user-select:none; text-align:left; z-index:2; }
+th .arrow { opacity:.85; font-size:11px; margin-left:5px; }
+td { border-bottom:1px solid #e6e9ec; }
+tbody tr:nth-child(odd) td { background:var(--zebra); }
+tbody tr:hover td { background:var(--hover); }
+td.expandable { color:var(--accent); cursor:pointer; }
+td a { color:var(--accent); text-decoration:none; }
+td a:hover { text-decoration:underline; }
+/* FROZEN COLUMNS. The sticky HEADER already works this way (th{top:0}); this
+   is the same trick on the other axis, plus the corner where they meet.
+   ⚠️ THE Z-ORDER IS THE THING TO GET WRONG. A frozen td must sit ABOVE the
+   ordinary cells it slides over (which have no z-index) but BELOW the header
+   it slides under; the corner cell is both and has to beat both. Get it wrong
+   and the header renders under the rows it labels.
+   ⚠️ A frozen cell MUST be opaque. Sticky cells stay in the flow, so a
+   transparent one shows the scrolling content straight through it - which is
+   why the zebra and hover backgrounds are restated here rather than inherited.
+   The left offsets are CSS VARIABLES set by measureFrozen(): column widths are
+   content-driven (no table-layout:fixed), so they cannot be constants. */
+th.frz, td.frz { position:sticky; z-index:1; }
+th.frz { z-index:3; }
+td.frz { background:#fff; }
+tbody tr:nth-child(odd) td.frz { background:var(--zebra); }
+tbody tr:hover td.frz { background:var(--hover); }
+th.frz-last, td.frz-last { border-right:2px solid var(--head); }
+#overlay { position:fixed; inset:0; background:rgba(0,0,0,.5); display:none; justify-content:center; align-items:center; z-index:10; }
+#overlay .box { background:#fff; border-radius:8px; padding:22px 26px; max-width:72vw; max-height:75vh; overflow:auto; white-space:pre-wrap; font-size:14px; box-shadow:0 8px 40px rgba(0,0,0,.35); }
+
+.frz-0 { left:var(--frzL-0, 0px); }</style>
+</head>
+<body>
+<header>
+<h1>NSBL - Free Agency by Franchise and Year (Last Updated Aug 19, 2026)</h1>
+<div class="controls">
+<input id="filter" type="search" placeholder="filter: text terms, or sql: columnA > X and columnB like '%hi%'" autocomplete="off">
+<span id="count"></span>
+</div>
+</header>
+<div id="wrap">
+<table>
+<thead id="thead"></thead>
+<tbody><tr id="topspace" style="height:0"><td colspan="31" style="height:0;padding:0;border:0"></td></tr></tbody>
+<tbody id="tbody"></tbody>
+<tbody><tr id="botspace" style="height:0"><td colspan="31" style="height:0;padding:0;border:0"></td></tr></tbody>
+</table>
+</div>
+<div id="overlay"><div class="box"></div></div>
+<script id="table-data" type="application/json">{"cols":["Team","2013 Players","2013 Total Value","2014 Players","2014 Total Value","2015 Players","2015 Total Value","2016 Players","2016 Total Value","2017 Players","2017 Total Value","2018 Players","2018 Total Value","2019 Players","2019 Total Value","2020 Players","2020 Total Value","2021 Players","2021 Total Value","2022 Players","2022 Total Value","2023 Players","2023 Total Value","2024 Players","2024 Total Value","2025 Players","2025 Total Value","2026 Players","2026 Total Value","All Players","All Total Value"],"rows":[["all","260","1925.354","241","2715.692","227","2598.811","241","2525.422","194","1956.557","245","3560.510","176","3760.499","203","2698.809","235","3032.589","218","2259.102","219","3117.063","172","2641.336","192","4249.990","218","6329.628","3041","43371.362"],["ARI","8","115.217","6","21.750","5","64.500","5","31.931","6","58.950","11","156.352","7","50.754","6","135.900","9","47.350","6","36.650","6","41.000","6","33.800","6","530.000","2","38.500","89","1362.654"],["ATL","6","86.873","8","176.693","6","124.286","2","14.920","1","4.000","3","26.400","2","240.000","2","9.100","12","22.000","20","74.800","12","71.250","9","123.400","10","215.800","1","455.000","94","1644.522"],["BAL","6","44.115","8","53.125","6","96.575","10","86.774","9","11.607","8","345.922","1","45.000","11","53.900","3","38.600","11","105.830","9","216.650","4","35.075","6","144.876","9","263.600","101","1541.649"],["BOS","8","62.852","9","273.950","6","41.550","6","56.900","7","46.250","6","4.403","7","165.500","7","111.851","5","40.460","3","93.000","6","90.250","5","130.230","2","199.500","5","233.000","82","1549.696"],["CHC","11","87.299","5","62.678","7","198.220","5","88.376","7","67.844","8","142.342","3","334.500","14","99.534","3","38.150","11","80.335","6","77.550","3","80.170","6","128.300","7","295.399","96","1780.697"],["CHW","11","33.575","13","81.113","14","116.440","8","60.120","8","46.452","8","106.357","9","58.945","3","105.000","11","158.130","3","3.807","4","61.002","6","129.840","3","83.430","6","91.500","107","1135.711"],["CIN","4","39.950","5","119.325","6","140.280","3","36.200","8","73.300","2","12.000","7","495.900","3","67.100","7","71.350","4","49.440","7","13.200","2","42.400","8","338.600","6","145.800","72","1644.845"],["CLE","12","78.774","3","148.417","7","77.097","","","4","18.930","9","105.616","7","64.530","7","10.000","17","329.258","8","188.300","6","13.000","5","48.800","7","178.750","8","308.300","100","1569.772"],["COL","11","26.750","11","57.393","13","138.954","10","139.722","10","75.847","5","144.548","6","99.349","5","145.710","6","166.804","9","110.804","7","71.788","2","10.800","4","183.250","3","30.348","102","1402.067"],["DET","15","89.565","10","48.152","11","82.853","8","42.753","8","144.800","6","131.750","4","81.100","7","92.819","","","19","132.587","10","164.950","6","91.065","5","120.700","8","117.000","117","1340.094"],["HOU","1","2.468","8","91.703","","","6","38.500","5","51.400","5","256.086","4","67.700","5","32.700","6","73.700","1","16.000","6","68.000","8","244.900","","","4","92.708","59","1035.865"],["KC","5","28.600","4","87.560","6","98.300","13","74.100","7","21.480","12","164.921","8","17.602","12","52.481","12","42.501","13","110.189","13","68.504","5","38.850","13","325.712","4","52.700","127","1183.500"],["LAA","9","61.950","7","94.975","4","36.000","7","147.860","","","8","182.500","1","1.250","6","26.150","3","91.000","6","31.000","7","130.600","2","41.000","7","69.300","8","758.900","75","1672.485"],["LAD","11","92.296","14","119.750","16","225.100","10","76.836","4","18.225","6","105.970","8","164.960","3","99.296","4","55.500","6","31.045","9","158.767","4","80.000","5","17.254","8","588.850","108","1833.849"],["MIA","5","25.100","4","55.250","8","131.000","8","107.100","2","13.700","11","268.725","3","618.500","3","6.500","4","69.266","5","37.002","1","14.000","2","17.436","8","36.250","5","198.100","69","1597.929"],["MIL","9","101.974","10","95.808","9","155.665","7","85.310","18","182.962","20","64.846","11","64.430","4","12.500","13","270.134","6","9.800","7","114.246","8","85.143","8","227.033","15","266.807","145","1736.658"],["MIN","6","20.292","3","29.505","7","40.783","15","106.455","3","49.000","7","28.852","3","48.000","17","282.704","17","43.616","5","101.500","12","45.200","4","34.800","5","20.600","9","147.000","113","998.307"],["NYM","11","129.452","10","155.105","14","66.625","11","168.640","6","13.010","10","85.284","2","50.400","5","122.720","4","17.900","6","91.100","7","102.100","8","221.300","8","84.250","8","120.600","110","1428.486"],["NYY","7","82.467","10","149.288","3","102.822","2","67.123","2","37.368","8","100.004","6","38.000","11","86.022","8","61.453","2","14.200","7","260.300","11","133.205","7","37.115","6","335.500","90","1504.867"],["OAK","12","86.500","6","115.551","11","93.625","13","161.015","4","43.650","7","227.750","3","67.000","6","13.650","7","113.000","5","47.300","12","352.000","6","45.200","10","248.150","13","207.000","115","1821.391"],["PHI","8","24.900","11","51.450","9","48.500","9","202.900","10","42.000","10","52.500","13","170.000","4","42.000","4","90.000","8","65.200","7","63.251","8","177.800","8","48.380","10","245.000","119","1323.881"],["PIT","2","10.900","3","183.360","2","6.240","2","38.040","4","252.470","3","122.440","1","4.520","2","15.020","","","7","175.610","6","126.020","5","146.370","4","11.900","6","141.800","47","1234.690"],["SD","11","13.372","10","42.336","9","19.112","11","158.069","13","64.712","7","47.691","5","61.000","10","86.400","11","184.700","8","35.402","15","177.200","9","67.400","8","31.800","9","360.600","136","1349.794"],["SEA","7","88.409","9","34.350","5","49.350","8","65.350","9","101.500","14","139.200","5","120.250","4","255.400","13","153.550","11","93.300","3","50.700","4","41.700","9","42.500","14","126.400","115","1361.959"],["SF","10","79.079","7","46.650","11","126.190","5","111.500","6","53.506","7","105.940","5","176.200","1","7.320","6","33.440","6","108.900","4","110.319","7","61.420","6","92.910","4","103.600","85","1216.974"],["STL","14","82.640","6","91.900","5","41.850","6","24.100","2","36.200","15","102.025","15","123.800","8","204.466","7","129.520","2","14.646","1","9.400","9","82.900","7","344.500","2","68.000","99","1355.947"],["TB","14","181.254","12","37.342","9","36.000","16","106.430","10","28.450","11","55.008","14","119.954","10","172.838","15","37.011","9","26.300","11","145.200","8","116.950","7","96.998","11","160.900","157","1320.635"],["TEX","6","19.255","7","28.586","6","60.060","9","93.250","7","86.960","4","25.890","2","12.460","9","47.710","9","119.895","6","54.055","7","156.130","9","43.320","3","84.000","4","198.400","88","1029.971"],["TOR","12","30.076","13","103.927","6","141.584","12","30.394","12","269.984","10","45.588","7","126.645","12","132.018","8","144.901","5","91.800","4","30.486","7","236.062","8","265.132","6","68.066","122","1716.663"],["WAS","8","99.400","9","58.700","6","39.250","14","104.754","2","42.000","4","203.600","7","72.250","6","170.000","11","389.400","7","229.200","7","114.000","","","4","43.000","17","110.250","102","1675.804"]],"links":{},"fallbacks":{},"fallbackText":"search","freeze":1,"colIndex":{"Team":0,"2013 Players":1,"2013 Total Value":2,"2014 Players":3,"2014 Total Value":4,"2015 Players":5,"2015 Total Value":6,"2016 Players":7,"2016 Total Value":8,"2017 Players":9,"2017 Total Value":10,"2018 Players":11,"2018 Total Value":12,"2019 Players":13,"2019 Total Value":14,"2020 Players":15,"2020 Total Value":16,"2021 Players":17,"2021 Total Value":18,"2022 Players":19,"2022 Total Value":20,"2023 Players":21,"2023 Total Value":22,"2024 Players":23,"2024 Total Value":24,"2025 Players":25,"2025 Total Value":26,"2026 Players":27,"2026 Total Value":28,"All Players":29,"All Total Value":30}}</script>
+<script>
+'use strict';
+var DATA = JSON.parse(document.getElementById('table-data').textContent);
+var COLS = DATA.cols, ROWS = DATA.rows;
+var LINKS = DATA.links || {}, COLIDX_BY_NAME = DATA.colIndex || {};
+var FALLBACKS = DATA.fallbacks || {}, FALLBACK_TEXT = DATA.fallbackText || '';
+var FREEZE = DATA.freeze || 0;                       // how many leftmost columns stay put
+var view = ROWS.map(function(_, i){ return i; });
+var sortCol = -1, sortDir = 0;                       // 0 none, 1 asc, -1 desc
+var ROWH = 30, PAD = 12;                             // row height px (MEASURED at init), render padding rows
+var wrap = document.getElementById('wrap');
+var thead = document.getElementById('thead');
+var tbody = document.getElementById('tbody');
+var topSpace = document.getElementById('topspace');
+var botSpace = document.getElementById('botspace');
+var count = document.getElementById('count');
+// A cell is truncated VISUALLY by css (max-width 520px, ~65 chars) but was
+// only made clickable above 120 chars, so anything between was cut off yet
+// unexpandable. Mark them expandable well below the visual cutoff and don't
+// slice - css adds the ellipsis and the full value stays in the cell.
+var EXPAND_AT = 40;
+
+function esc(s){ var d = document.createElement('span'); d.textContent = s; return d.innerHTML; }
+
+// Accent-insensitive matching: "Acuna" finds "Acuña" and "Acuña" finds "Acuna".
+// NFD splits an accented letter into base + combining mark, so dropping the
+// marks leaves plain ASCII. Every non-ASCII character in this data decomposes
+// that way (measured across the spine: only í é á ó ñ ú Á É Ó appear). ⚠️ A
+// letter that is its own code point with no combining mark - ø, ł, đ, ß - does
+// NOT fold and would need an explicit map if one ever turns up.
+function fold(s){
+  return String(s).normalize('NFD').replace(/[\u0300-\u036f]/g, '').toLowerCase();
+}
+
+// The folded whole-row haystack, built ONCE on first use. The plain-text filter
+// used to re-join and re-lowercase every row on every keystroke - 24,000 of
+// them on the biggest table - and folding is more expensive than lowercasing,
+// so caching it makes the filter faster than it was before this change.
+var HAYS = null;
+function hays(){
+  if (!HAYS) HAYS = ROWS.map(function(r){ return fold(r.join('\u0001')); });
+  return HAYS;
+}
+
+// height must land on the cell too - a <tr> alone doesn't reliably size in
+// table layout. rounded to whole px so spacers can never drift fractionally.
+function setSpacer(tr, px){
+  var h = Math.round(px) + 'px';
+  tr.style.height = h;
+  tr.firstElementChild.style.height = h;
+}
+
+// '' for an ordinary column, else the classes that freeze column i.
+function frzClass(i){
+  if (i >= FREEZE) return '';
+  return 'frz frz-' + i + (i === FREEZE - 1 ? ' frz-last' : '');
+}
+
+// ⚠️ THE OFFSETS MUST BE MEASURED, NOT COMPUTED. Column widths come from the
+// content (there is no table-layout:fixed), so the left edge of frozen column
+// i is the summed rendered width of the columns before it, and that changes
+// when a sort or a filter brings a wider cell into view. ⚠️ It also changes
+// while SCROLLING, because the virtual scroller only ever has the visible rows
+// in the DOM - so this runs at the end of every render, and writes only when a
+// value actually moved, to keep it off the hot path.
+var frzCache = [];
+function measureFrozen(){
+  if (!FREEZE || !thead.rows.length) return;
+  var cells = thead.rows[0].cells, left = 0;
+  for (var i = 0; i < FREEZE && i < cells.length; i++){
+    if (frzCache[i] !== left){
+      document.documentElement.style.setProperty('--frzL-' + i, left + 'px');
+      frzCache[i] = left;
+    }
+    left += cells[i].offsetWidth;
+  }
+}
+
+function buildHeader(){
+  var tr = document.createElement('tr');
+  COLS.forEach(function(c, i){
+    var th = document.createElement('th');
+    th.innerHTML = esc(c) + '<span class="arrow">' + (i===sortCol ? (sortDir===1?'\u25B2':'\u25BC') : '') + '</span>';
+    th.onclick = function(){ setSort(i); };
+    if (i < FREEZE) th.className = frzClass(i);
+    tr.appendChild(th);
+  });
+  thead.innerHTML = '';
+  thead.appendChild(tr);
+}
+
+function numeric(v){
+  if (v === '' || v === null) return null;
+  var n = parseFloat(String(v).replace(/,/g,''));
+  return (!isNaN(n) && isFinite(n) && /^[\s]*[-+$]?[\d,.]+%?[\s]*$/.test(String(v))) ? n : null;
+}
+
+function setSort(i){
+  if (sortCol === i){ sortDir = (sortDir === 1) ? -1 : 1; } else { sortCol = i; sortDir = 1; }
+  view.sort(function(a, b){
+    var va = ROWS[a][i], vb = ROWS[b][i];
+    var na = numeric(va), nb = numeric(vb);
+    var r;
+    if (va === '' && vb !== '') return 1;            // empties last, always
+    if (vb === '' && va !== '') return -1;
+    if (na !== null && nb !== null){ r = na - nb; }
+    else { r = String(va).localeCompare(String(vb), undefined, {sensitivity:'base'}); }
+    return sortDir * r;
+  });
+  buildHeader();
+  render();
+}
+
+var filterBox = document.getElementById('filter');
+var debounce = null;
+filterBox.addEventListener('input', function(){
+  clearTimeout(debounce);
+  debounce = setTimeout(applyFilter, 180);
+});
+
+// ---- sql-ish WHERE expressions ------------------------------------------
+// v_grade >= 7 and area like '%hueco%'   |   year in (2019,2020) or not flash = 'FLASH'
+// column names normalize: lowercase, runs of non-alphanumerics -> _
+var COLIDX = {};
+COLS.forEach(function(c, i){ COLIDX[normId(c)] = i; });
+
+// fold first: without it an accented COLUMN name loses the letter entirely
+// (é -> _) and could never be typed. No such column exists today; this just
+// keeps column matching on the same footing as value matching.
+function normId(s){ return fold(s).replace(/[^a-z0-9]+/g, '_').replace(/^_+|_+$/g, ''); }
+
+function looksLikeSql(q){
+  return /(<=|>=|!=|<>|=|<|>)/.test(q) || /\b(like|in|and|or|not)\b/i.test(q);
+}
+
+function tokenize(q){
+  var re = /\s*(?:(<=|>=|!=|<>|=|<|>|\(|\)|,)|'((?:[^']|'')*)'|"([^"]*)"|([A-Za-z0-9_.%$-]+))/g;
+  var toks = [], m, pos = 0;
+  while ((m = re.exec(q)) !== null){
+    if (m.index !== pos && q.slice(pos, m.index).trim() !== '') return null;
+    pos = re.lastIndex;
+    if (m[1] !== undefined) toks.push({t:'op', v:m[1]});
+    else if (m[2] !== undefined) toks.push({t:'str', v:m[2].replace(/''/g, "'")});
+    else if (m[3] !== undefined) toks.push({t:'str', v:m[3]});
+    else {
+      var w = m[4], lw = w.toLowerCase();
+      if (['and','or','not','like','in'].indexOf(lw) >= 0) toks.push({t:'kw', v:lw});
+      else toks.push({t:'word', v:w});
+    }
+  }
+  if (pos < q.length && q.slice(pos).trim() !== '') return null;
+  return toks;
+}
+
+function parse(toks){
+  var p = 0;
+  function peek(){ return toks[p]; }
+  function take(){ return toks[p++]; }
+  function expr(){
+    var n = term();
+    while (peek() && peek().t === 'kw' && peek().v === 'or'){ take(); n = {or:[n, term()]}; }
+    return n;
+  }
+  function term(){
+    var n = factor();
+    while (peek() && peek().t === 'kw' && peek().v === 'and'){ take(); n = {and:[n, factor()]}; }
+    return n;
+  }
+  function factor(){
+    var tk = peek();
+    if (!tk) throw 0;
+    if (tk.t === 'kw' && tk.v === 'not'){ take(); return {not: factor()}; }
+    if (tk.t === 'op' && tk.v === '('){ take(); var n = expr(); if (!peek() || peek().v !== ')') throw 0; take(); return n; }
+    return predicate();
+  }
+  function predicate(){
+    var c = take();
+    if (!c || c.t !== 'word') throw 0;
+    var idx = COLIDX[normId(c.v)];
+    if (idx === undefined) throw 0;
+    var neg = false, tk = peek();
+    if (tk && tk.t === 'kw' && tk.v === 'not'){ take(); neg = true; tk = peek(); }
+    if (!tk) throw 0;
+    if (tk.t === 'kw' && tk.v === 'like'){ take(); var v = value(); return {like:{col:idx, pat:v, neg:neg}}; }
+    if (tk.t === 'kw' && tk.v === 'in'){
+      take(); if (!peek() || peek().v !== '(') throw 0; take();
+      var vals = [value()];
+      while (peek() && peek().v === ','){ take(); vals.push(value()); }
+      if (!peek() || peek().v !== ')') throw 0; take();
+      return {inlist:{col:idx, vals:vals, neg:neg}};
+    }
+    if (neg) throw 0;
+    if (tk.t === 'op' && ['=','!=','<>','<','<=','>','>='].indexOf(tk.v) >= 0){ take(); return {cmp:{col:idx, op:tk.v, val:value()}}; }
+    throw 0;
+  }
+  function value(){
+    var tk = take();
+    if (!tk || (tk.t !== 'str' && tk.t !== 'word')) throw 0;
+    return tk.v;
+  }
+  var n = expr();
+  if (p !== toks.length) throw 0;
+  return n;
+}
+
+function evalNode(n, row){
+  if (n.or) return evalNode(n.or[0], row) || evalNode(n.or[1], row);
+  if (n.and) return evalNode(n.and[0], row) && evalNode(n.and[1], row);
+  if (n.not) return !evalNode(n.not, row);
+  if (n.cmp){
+    var cell = String(row[n.cmp.col]), val = String(n.cmp.val);
+    var nc = numeric(cell), nv = numeric(val), r;
+    if (nc !== null && nv !== null){ r = nc < nv ? -1 : (nc > nv ? 1 : 0); }
+    else { var a = fold(cell), b = fold(val); r = a < b ? -1 : (a > b ? 1 : 0); }
+    switch (n.cmp.op){
+      case '=': return r === 0;
+      case '!=': case '<>': return r !== 0;
+      case '<': return r < 0;
+      case '<=': return r <= 0;
+      case '>': return r > 0;
+      case '>=': return r >= 0;
+    }
+  }
+  if (n.like){
+    // fold BEFORE escaping, so % and _ survive to become wildcards
+    var pat = fold(n.like.pat).replace(/[.*+?^${}()|[\]\\]/g, '\\$&').replace(/%/g, '.*').replace(/_/g, '.');
+    var hit = new RegExp('^' + pat + '$', 'i').test(fold(row[n.like.col]));
+    return n.like.neg ? !hit : hit;
+  }
+  if (n.inlist){
+    var cell = fold(row[n.inlist.col]);
+    var hit = n.inlist.vals.some(function(v){ return fold(v) === cell; });
+    return n.inlist.neg ? !hit : hit;
+  }
+  return false;
+}
+// -------------------------------------------------------------------------
+
+function applyFilter(){
+  var q = filterBox.value.trim();
+  filterBox.classList.remove('bad');
+  view = [];
+  if (q === ''){
+    for (var i = 0; i < ROWS.length; i++) view.push(i);
+  } else if (looksLikeSql(q)){
+    var ast = null, toks = tokenize(q);
+    if (toks){ try { ast = parse(toks); } catch (e) { ast = null; } }
+    if (!ast){
+      filterBox.classList.add('bad');
+      count.textContent = 'bad expression';
+      return;                                        // keep current view
+    }
+    for (var i = 0; i < ROWS.length; i++){ if (evalNode(ast, ROWS[i])) view.push(i); }
+  } else {
+    var terms = fold(q).split(/\s+/), H = hays();
+    for (var i = 0; i < ROWS.length; i++){
+      var hay = H[i];
+      var ok = true;
+      for (var t = 0; t < terms.length; t++){ if (hay.indexOf(terms[t]) === -1){ ok = false; break; } }
+      if (ok) view.push(i);
+    }
+  }
+  if (sortCol >= 0){ var c = sortCol, d = sortDir; sortCol = -1; sortDir = 0; setSort(c); if (d === -1) setSort(c); return; }
+  render();
+}
+
+function render(){
+  var h = wrap.clientHeight;
+  var first = Math.max(0, Math.floor(wrap.scrollTop / ROWH) - PAD);
+  var last = Math.min(view.length, Math.ceil((wrap.scrollTop + h) / ROWH) + PAD);
+  setSpacer(topSpace, first * ROWH);
+  setSpacer(botSpace, (view.length - last) * ROWH);
+  var html = [];
+  for (var v = first; v < last; v++){
+    var row = ROWS[view[v]];
+    html.push('<tr>');
+    for (var c = 0; c < row.length; c++){
+      var val = String(row[c]);
+      // an empty cell falls back to its COLUMN~GUARD~template if one is
+      // registered AND that row's guard column is non-empty, labelled
+      // FALLBACK_TEXT since there is no value to show
+      var tmpl = LINKS[c], text = val;
+      if (val === ''){
+        var fb = FALLBACKS[c];
+        tmpl = (fb && String(row[fb[0]] || '') !== '') ? fb[1] : null;
+        text = FALLBACK_TEXT;
+      }
+      var fz = frzClass(c);
+      if (tmpl){
+        var href = tmpl.replace(/\{([^}]*)\}/g, function(_m, name){
+          var raw = (name === '') ? val : String(row[COLIDX_BY_NAME[name]] || '');
+          return encodeURIComponent(raw);
+        });
+        html.push('<td' + (fz ? ' class="' + fz + '"' : '') + '><a href="' + esc(href) + '" target="_blank" rel="noopener">' + esc(text) + '</a></td>');
+      } else if (val.length > EXPAND_AT){
+        html.push('<td class="expandable' + (fz ? ' ' + fz : '') + '" data-r="' + view[v] + '" data-c="' + c + '">' + esc(val) + '</td>');
+      } else {
+        html.push('<td' + (fz ? ' class="' + fz + '"' : '') + '>' + esc(val) + '</td>');
+      }
+    }
+    html.push('</tr>');
+  }
+  tbody.innerHTML = html.join('');
+  measureFrozen();
+  count.textContent = view.length.toLocaleString() + ' of ' + ROWS.length.toLocaleString() + ' rows';
+}
+
+// ROWH must match the REAL rendered row height: if it doesn't, the spacer
+// heights misreport the total, scrollHeight shifts under the browser on
+// every render, it corrects scrollTop, that fires scroll again -> runaway
+// scrolling. So measure a real row instead of assuming one.
+function calibrate(){
+  if (!ROWS.length) return;
+  setSpacer(topSpace, 0);
+  setSpacer(botSpace, 0);
+  var probe = [], row = ROWS[0];
+  probe.push('<tr>');
+  for (var c = 0; c < row.length; c++){
+    var val = String(row[c]);
+    probe.push('<td>' + esc(val) + '</td>');
+  }
+  probe.push('</tr>');
+  tbody.innerHTML = probe.join('');
+  var tr = tbody.firstElementChild;
+  if (tr){
+    var h = Math.round(tr.getBoundingClientRect().height);
+    if (h > 4) ROWH = h;             // whole px only: fractional rows drift
+  }
+  tbody.innerHTML = '';
+}
+
+// one render per animation frame, no matter how many scroll events arrive
+var pending = false;
+function scheduleRender(){
+  if (pending) return;
+  pending = true;
+  window.requestAnimationFrame(function(){ pending = false; render(); });
+}
+
+wrap.addEventListener('scroll', scheduleRender);
+window.addEventListener('resize', function(){ calibrate(); render(); });
+
+var overlay = document.getElementById('overlay');
+tbody.addEventListener('click', function(e){
+  var td = e.target.closest('td.expandable');
+  if (!td) return;
+  overlay.querySelector('.box').textContent = ROWS[td.dataset.r][td.dataset.c];
+  overlay.style.display = 'flex';
+});
+overlay.addEventListener('click', function(){ overlay.style.display = 'none'; });
+document.addEventListener('keydown', function(e){ if (e.key === 'Escape') overlay.style.display = 'none'; });
+
+buildHeader();
+calibrate();
+render();
+</script>
+</body>
+</html>

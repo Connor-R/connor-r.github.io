@@ -1,0 +1,57 @@
+@charset "utf-8";
+
+/* connor-r.github.io - white background, black text, one column.
+   Function over style (Connor, 2026-08-24).
+
+   ⚠️ WHAT THIS REPLACED, so it is not reintroduced. The old sheet painted the
+   four nav buttons from a sprite (i/links.png) keyed to ids #home/#res/#cv/#int
+   while the markup said #home/#posts/#resume/#interests. Only #home matched, so
+   three of the four buttons had no image, no width and no position - and the
+   <a> elements were EMPTY, the labels living in the sprite. Posts, Resume and
+   Interests were invisible and unlabelled on all 24 pages, for years.
+   The nav is now real text in the HTML with no ids to mismatch. */
+
+body {
+	background: #fff;
+	color: #000;
+	margin: 0;
+	font: 16px/1.55 -apple-system, BlinkMacSystemFont, "Segoe UI",
+	      Helvetica, Arial, sans-serif;
+}
+
+/* was a hard width:1000px, which is why nothing fit on a phone */
+#column  { max-width: 1000px; margin: 0 auto; }
+#innards { padding: 0 20px 30px; }
+
+/* the header image is 1000px wide and sits flush to the column edges, so the
+   padding lives on #innards and #navlist rather than on #column */
+#column > img { display: block; width: 100%; }
+
+#nav     { border-bottom: 1px solid #000; }
+#navlist { list-style: none; margin: 0; padding: 10px 20px;
+           display: flex; flex-wrap: wrap; gap: 24px; font-size: 18px; }
+#navlist a { color: #000; text-decoration: none; }
+#navlist a:hover, #navlist a:focus { text-decoration: underline; }
+
+a { color: #00e; }
+a:focus { outline: 2px solid #00e; outline-offset: 2px; }
+
+h1 { font-size: 28px; }
+h2 { font-size: 22px; }
+h3 { font-size: 20px; text-decoration: underline; margin: 0; }
+h4 { font-size: 18px; font-weight: bold; margin: 0; }
+
+p.center { text-align: center; }
+
+img { max-width: 100%; }
+
+@media (max-width: 700px) {
+	/* ⚠️ !important IS LOAD-BEARING. cr_interests.html sizes its 18 gallery
+	   photos with an inline style="height:450px" (and 330/200px) and no
+	   width, so max-width:100% squeezes the width while the inline height
+	   holds - every photo squashed. An inline declaration beats any
+	   stylesheet rule without it. Scoped to the media query, so desktop
+	   rendering is untouched. */
+	img    { height: auto !important; }
+	figure { float: none !important; margin: 0 0 1em; }
+}

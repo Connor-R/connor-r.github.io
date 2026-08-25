@@ -1,0 +1,15 @@
+# ⚠️ This repo is PUBLIC and is served by GitHub Pages. Everything committed
+# here is world-readable at connor-r.github.io/<path>, including files nothing
+# links to. A Gmail app password lived in quotes/un_pw.csv for 5.5 months
+# exactly this way (removed 2026-08-24) - .gitignore did NOT save it, because
+# the file was already tracked when the ignore line was added. An ignore entry
+# is not evidence a secret is out of the repo; `git ls-files` is.
+#
+# NO SCRIPTS AND NO CREDENTIALS. The publishable static site only.
+.DS_Store
+*.xlsx
+un_pw.csv
+*.py
+*.pyc
+*.sh
+*.sql

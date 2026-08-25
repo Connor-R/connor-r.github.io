@@ -1,0 +1,440 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-8N02F87WCP"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'G-8N02F87WCP');
+</script>
+<title>Western (Last Updated Aug 24, 2026)</title>
+<style>
+:root { --border:#d0d4d9; --head:#2c3e50; --headtxt:#fff; --zebra:#f5f7f9; --hover:#eaf2fb; --accent:#2563eb; --rowh:31px; }
+* { box-sizing:border-box; }
+body { margin:0; font:14px/20px -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif; color:#1c2733; background:#fff; -webkit-text-size-adjust:100%; }
+header { padding:14px 18px 10px; }
+h1 { margin:0 0 8px; font-size:19px; font-weight:600; }
+.controls { display:flex; align-items:center; gap:14px; flex-wrap:wrap; }
+#filter { padding:6px 10px; font-size:14px; border:1px solid var(--border); border-radius:6px; width:420px; max-width:90vw; }
+#filter.bad { border-color:#dc2626; outline-color:#dc2626; }
+#count { color:#5b6875; font-size:13px; }
+/* overflow-anchor:none is LOAD-BEARING: scroll anchoring fights a virtual
+   scroller. Chrome sees the top spacer resize, "corrects" scrollTop to keep
+   content stable, that fires scroll -> render -> resize -> correct ... a
+   runaway that accelerates to the bottom on the lightest scroll. */
+#wrap { overflow:auto; overflow-anchor:none; border-top:1px solid var(--border); height:calc(100vh - 86px); position:relative; }
+table { border-collapse:collapse; width:max-content; min-width:100%; }
+/* rows are a FIXED integer height so the spacer math can't drift */
+tbody tr { height:var(--rowh); }
+th, td { height:var(--rowh); padding:5px 12px; border-right:1px solid var(--border); white-space:nowrap; max-width:520px; overflow:hidden; text-overflow:ellipsis; }
+th { position:sticky; top:0; background:var(--head); color:var(--headtxt); cursor:pointer; user-select:none; text-align:left; z-index:2; }
+th .arrow { opacity:.85; font-size:11px; margin-left:5px; }
+td { border-bottom:1px solid #e6e9ec; }
+tbody tr:nth-child(odd) td { background:var(--zebra); }
+tbody tr:hover td { background:var(--hover); }
+td.expandable { color:var(--accent); cursor:pointer; }
+td a { color:var(--accent); text-decoration:none; }
+td a:hover { text-decoration:underline; }
+/* FROZEN COLUMNS. The sticky HEADER already works this way (th{top:0}); this
+   is the same trick on the other axis, plus the corner where they meet.
+   ⚠️ THE Z-ORDER IS THE THING TO GET WRONG. A frozen td must sit ABOVE the
+   ordinary cells it slides over (which have no z-index) but BELOW the header
+   it slides under; the corner cell is both and has to beat both. Get it wrong
+   and the header renders under the rows it labels.
+   ⚠️ A frozen cell MUST be opaque. Sticky cells stay in the flow, so a
+   transparent one shows the scrolling content straight through it - which is
+   why the zebra and hover backgrounds are restated here rather than inherited.
+   The left offsets are CSS VARIABLES set by measureFrozen(): column widths are
+   content-driven (no table-layout:fixed), so they cannot be constants. */
+th.frz, td.frz { position:sticky; z-index:1; }
+th.frz { z-index:3; }
+td.frz { background:#fff; }
+tbody tr:nth-child(odd) td.frz { background:var(--zebra); }
+tbody tr:hover td.frz { background:var(--hover); }
+th.frz-last, td.frz-last { border-right:2px solid var(--head); }
+#overlay { position:fixed; inset:0; background:rgba(0,0,0,.5); display:none; justify-content:center; align-items:center; z-index:10; }
+#overlay .box { background:#fff; border-radius:8px; padding:22px 26px; max-width:72vw; max-height:75vh; overflow:auto; white-space:pre-wrap; font-size:14px; box-shadow:0 8px 40px rgba(0,0,0,.35); }
+
+.frz-0 { left:var(--frzL-0, 0px); }
+.frz-1 { left:var(--frzL-1, 0px); }</style>
+</head>
+<body>
+<header>
+<h1>Western (Last Updated Aug 24, 2026)</h1>
+<div class="controls">
+<input id="filter" type="search" placeholder="filter: text terms, or sql: columnA > X and columnB like '%hi%'" autocomplete="off">
+<span id="count"></span>
+</div>
+</header>
+<div id="wrap">
+<table>
+<thead id="thead"></thead>
+<tbody><tr id="topspace" style="height:0"><td colspan="40" style="height:0;padding:0;border:0"></td></tr></tbody>
+<tbody id="tbody"></tbody>
+<tbody><tr id="botspace" style="height:0"><td colspan="40" style="height:0;padding:0;border:0"></td></tr></tbody>
+</table>
+</div>
+<div id="overlay"><div class="box"></div></div>
+<script id="table-data" type="application/json">{"cols":["year","owner","league_name","Details","finish","pick","W","L","T","PF","PA","Moves","PtsPct","xTitles","xSackos","PF_z","zStrength","xRank","RankDiff","xPtsPct","PtsPctDiff","PA_z","PA_zStrength","xPA","PA_DIFF","draft_z","draft_zStrength","PF+","PA+","seasons","Playoffs","Podiums","Titles","Sackos","std_finish","total_W","total_L","total_PF","total_PA","team_name"],"rows":[["Total","Ben Lalor","Western-nba","Ben Lalor - Western (nba)\n\n#6 (2026, 46 draft_zStrength, 4-16, -1.35 PF_z, 9 zStrength, 72 PF+, 5.1 xRank, 0.01 xTitles, 0.25 xSackos)\n\t-The Hairy Tadger \n\n #6 (2025, 72 draft_zStrength, 9-11, -0.34 PF_z, 37 zStrength, 96 PF+, 3.7 xRank, 0.03 xTitles, 0.02 xSackos)\n\t-The Hairy Tadger \n\n #4 (2024, 17 draft_zStrength, 10-10, 0.34 PF_z, 63 zStrength, 104 PF+, 2.8 xRank, 0.08 xTitles, 0.00 xSackos)\n\t-The Stinky Tadger \n\n #3 (2023, 27 draft_zStrength, 11-9, 0.41 PF_z, 66 zStrength, 106 PF+, 2.7 xRank, 0.08 xTitles, 0.00 xSackos)\n\t-The Stinky Tadger \n\n #5 (2022, pick #2, 24 draft_zStrength, 4-16, -1.48 PF_z, 7 zStrength, 85 PF+, 5.3 xRank, 0.01 xTitles, 0.33 xSackos)\n\t-The Stinky Tadger ","4.8","2.0","7.6","12.4","0.0","19427.80","20631.00","8.2","0.380","0.20","0.60","-0.48","36","3.9","0.9","0.442","0.062","-0.62","30","21062.5","-2157.4","-0.36","37","93","98","5 (2022 - 2026)","2","1","0","2","1.2","38","62","97139.00","103155.00","The Stinky Tadger\nThe Hairy Tadger"],["Total","Connor Reed","Western-nba","Connor Reed - Western (nba)\n\n#1 (2026, 98 draft_zStrength, 11-9, 0.47 PF_z, 68 zStrength, 110 PF+, 2.6 xRank, 0.09 xTitles, 0.00 xSackos)\n\t-Young Larry Bird \n\n #4 (2025, 95 draft_zStrength, 13-7, 0.03 PF_z, 51 zStrength, 100 PF+, 3.2 xRank, 0.05 xTitles, 0.01 xSackos)\n\t-Young Larry Bird \n\n #3 (2024, 97 draft_zStrength, 11-9, -0.10 PF_z, 46 zStrength, 99 PF+, 3.4 xRank, 0.04 xTitles, 0.01 xSackos)\n\t-Young Larry Bird \n\n #1 (2023, 98 draft_zStrength, 14-6, 0.99 PF_z, 84 zStrength, 114 PF+, 1.9 xRank, 0.18 xTitles, 0.00 xSackos)\n\t-Young Larry Bird \n\n #3 (2022, pick #6, 97 draft_zStrength, 10-10, 0.80 PF_z, 79 zStrength, 108 PF+, 2.2 xRank, 0.14 xTitles, 0.00 xSackos)\n\t-Young Larry Bird ","2.4","6.0","11.8","8.2","0.0","22036.60","21041.20","23.6","0.590","0.50","0.02","0.44","66","2.7","-0.3","0.553","-0.037","0.91","75","20540.7","2502.4","1.85","97","106","103","5 (2022 - 2026)","5","4","2","0","1.2","59","41","110183.00","105206.00","Young Larry Bird"],["Total","Erik Bagley","Western-nba","Erik Bagley - Western (nba)\n\n#3 (2026, 35 draft_zStrength, 13-7, 0.67 PF_z, 75 zStrength, 114 PF+, 2.3 xRank, 0.12 xTitles, 0.00 xSackos)\n\t-D-Lo Green \n\n #2 (2025, 7 draft_zStrength, 12-8, 0.66 PF_z, 75 zStrength, 108 PF+, 2.4 xRank, 0.12 xTitles, 0.00 xSackos)\n\t-D-Lo Green \n\n #1 (2024, 22 draft_zStrength, 14-6, 1.03 PF_z, 85 zStrength, 113 PF+, 1.9 xRank, 0.19 xTitles, 0.00 xSackos)\n\t-James HardOn \n\n #2 (2023, 65 draft_zStrength, 16-4, 0.84 PF_z, 80 zStrength, 112 PF+, 2.1 xRank, 0.15 xTitles, 0.00 xSackos)\n\t-Drey Area \n\n #1 (2022, pick #1, 77 draft_zStrength, 14-6, 1.14 PF_z, 87 zStrength, 111 PF+, 1.7 xRank, 0.22 xTitles, 0.00 xSackos)\n\t-The Ich Bros ","1.8","1.0","13.8","6.2","0.0","23194.60","20152.00","66.2","0.690","0.79","0.00","0.87","80","2.1","-0.3","0.605","-0.085","-0.30","40","20309.1","-785.6","-0.30","41","112","99","5 (2022 - 2026)","5","5","2","0","0.7","69","31","115973.00","100760.00","The Ich Bros\nDrey Area\nJames HardOn\nD-Lo Green"],["Total","Erik Foster","Western-nba","Erik Foster - Western (nba)\n\n#2 (2026, 15 draft_zStrength, 19-1, 1.28 PF_z, 90 zStrength, 126 PF+, 1.5 xRank, 0.25 xTitles, 0.00 xSackos)\n\t-2016 Warriors \n\n #3 (2025, 22 draft_zStrength, 15-5, 1.03 PF_z, 85 zStrength, 112 PF+, 1.9 xRank, 0.19 xTitles, 0.00 xSackos)\n\t-Simons Says Ball \n\n #5 (2024, 32 draft_zStrength, 10-10, -0.28 PF_z, 39 zStrength, 96 PF+, 3.6 xRank, 0.03 xTitles, 0.02 xSackos)\n\t-Zero Fox Given \n\n #5 (2023, 20 draft_zStrength, 7-13, -0.68 PF_z, 25 zStrength, 90 PF+, 4.2 xRank, 0.02 xTitles, 0.05 xSackos)\n\t-Get Giddey With It \n\n #4 (2022, pick #3, 16 draft_zStrength, 11-9, -0.30 PF_z, 38 zStrength, 97 PF+, 3.7 xRank, 0.03 xTitles, 0.02 xSackos)\n\t-Curious George Goes to Towns ","3.8","3.0","12.4","7.6","0.0","21598.20","20394.20","23.6","0.620","0.52","0.09","0.21","55","3.0","0.8","0.525","-0.095","-0.65","31","20628.4","-1171.0","-0.83","21","104","99","5 (2022 - 2026)","3","2","0","0","1.2","62","38","107991.00","101971.00","Curious George Goes to Towns\nGet Giddey With It\nZero Fox Given\nSimons Says Ball\n2016 Warriors"],["Total","Kyle McReynolds","Western-nba","Kyle McReynolds - Western (nba)\n\n#4 (2026, 61 draft_zStrength, 11-9, 0.27 PF_z, 61 zStrength, 106 PF+, 2.9 xRank, 0.07 xTitles, 0.00 xSackos)\n\t-Glock Morant \n\n #1 (2025, 67 draft_zStrength, 10-10, 0.63 PF_z, 74 zStrength, 107 PF+, 2.4 xRank, 0.11 xTitles, 0.00 xSackos)\n\t-Glock Morant \n\n #2 (2024, 78 draft_zStrength, 14-6, 0.96 PF_z, 83 zStrength, 112 PF+, 1.9 xRank, 0.17 xTitles, 0.00 xSackos)\n\t-Big Daddy Joker \n\n #4 (2023, 52 draft_zStrength, 11-9, 0.33 PF_z, 63 zStrength, 105 PF+, 2.8 xRank, 0.07 xTitles, 0.00 xSackos)\n\t-Chef Curry \n\n #2 (2022, pick #4, 22 draft_zStrength, 14-6, 0.85 PF_z, 80 zStrength, 108 PF+, 2.1 xRank, 0.15 xTitles, 0.00 xSackos)\n\t-Chef Curry ","2.6","4.0","12.0","8.0","0.0","22401.00","20495.40","30.6","0.600","0.58","0.01","0.61","72","2.4","0.2","0.574","-0.026","0.05","51","20467.8","137.8","0.15","56","108","100","5 (2022 - 2026)","5","3","1","0","1.2","60","40","112005.00","102477.00","Chef Curry\nBig Daddy Joker\nGlock Morant"],["Total","Troy Kato","Western-nba","Troy Kato - Western (nba)\n\n#5 (2026, 22 draft_zStrength, 2-18, -1.34 PF_z, 9 zStrength, 72 PF+, 5.1 xRank, 0.01 xTitles, 0.25 xSackos)\n\t-Poole Party \n\n #5 (2025, 34 draft_zStrength, 1-19, -2.00 PF_z, 2 zStrength, 77 PF+, 6.0 xRank, 0.00 xTitles, 0.66 xSackos)\n\t-Poole Party \n\n #6 (2024, 33 draft_zStrength, 1-19, -1.95 PF_z, 3 zStrength, 75 PF+, 5.9 xRank, 0.00 xTitles, 0.64 xSackos)\n\t-Poole Party \n\n #6 (2023, 17 draft_zStrength, 1-19, -1.89 PF_z, 3 zStrength, 72 PF+, 5.9 xRank, 0.00 xTitles, 0.59 xSackos)\n\t-Poole Party \n\n #6 (2022, pick #5, 48 draft_zStrength, 7-13, -1.01 PF_z, 16 zStrength, 90 PF+, 4.7 xRank, 0.01 xTitles, 0.12 xSackos)\n\t-Poole Party ","5.6","5.0","2.4","17.6","0.0","16082.00","22026.40","4.6","0.120","0.02","2.26","-1.64","6","5.5","0.1","0.302","0.182","0.62","69","21731.6","1473.8","-0.53","31","77","101","5 (2022 - 2026)","0","0","0","3","0.5","12","88","80410.00","110132.00","Poole Party"],["2026","Connor Reed","Western-nba","","1","","11","9","0","21015.00","19609.00","20","0.550","0.09","0.00","0.47","68","2.6","-1.6","0.556","0.006","1.49","93","18816.0","793.0","2.02","98","110","104","","1","1","1","0","","","","","","Young Larry Bird"],["2026","Erik Foster","Western-nba","","2","","19","1","0","24215.00","17855.00","34","0.950","0.25","0.00","1.28","90","1.5","0.5","0.655","-0.295","-0.60","27","18176.0","-321.0","-1.05","15","126","98","","1","1","0","0","","","","","","2016 Warriors"],["2026","Erik Bagley","Western-nba","","3","","13","7","0","21810.00","18432.00","58","0.650","0.12","0.00","0.67","75","2.3","0.7","0.581","-0.069","-0.42","34","18657.0","-225.0","-0.40","35","114","99","","1","1","0","0","","","","","","D-Lo Green"],["2026","Kyle McReynolds","Western-nba","","4","","11","9","0","20243.00","18721.00","24","0.550","0.07","0.00","0.27","61","2.9","1.1","0.533","-0.017","-0.47","32","18970.4","-249.4","0.29","61","106","99","","1","0","0","0","","","","","","Glock Morant"],["2026","Troy Kato","Western-nba","","5","","2","18","0","13910.00","20888.00","9","0.100","0.01","0.25","-1.34","9","5.1","-0.1","0.338","0.238","1.23","89","20237.0","651.0","-0.77","22","73","103","","0","0","0","0","","","","","","Poole Party"],["2026","Ben Lalor","Western-nba","","6","","4","16","0","13902.00","19590.00","3","0.200","0.01","0.25","-1.35","9","5.1","0.9","0.338","0.138","-1.22","11","20238.6","-648.6","-0.09","46","73","97","","0","0","0","1","","","","","","The Hairy Tadger"],["2025","Kyle McReynolds","Western-nba","","1","","10","10","0","23035.00","21601.00","30","0.500","0.11","0.00","0.63","74","2.4","-1.4","0.576","0.076","0.87","81","21199.0","402.0","0.45","67","107","102","","1","1","1","0","","","","","","Glock Morant"],["2025","Erik Bagley","Western-nba","","2","","12","8","0","23113.00","21372.00","62","0.600","0.12","0.00","0.66","75","2.4","-0.4","0.580","-0.020","0.41","66","21183.4","188.6","-1.45","7","108","101","","1","1","0","0","","","","","","D-Lo Green"],["2025","Erik Foster","Western-nba","","3","","15","5","0","23999.00","20304.00","22","0.750","0.19","0.00","1.03","85","1.9","1.1","0.624","-0.126","-1.52","6","21006.2","-702.2","-0.78","22","112","97","","1","1","0","0","","","","","","Simons Says Ball"],["2025","Connor Reed","Western-nba","","4","","13","7","0","21573.00","21225.00","17","0.650","0.05","0.01","0.03","51","3.2","0.8","0.503","-0.147","-0.58","28","21491.4","-266.4","1.61","95","100","99","","1","0","0","0","","","","","","Young Larry Bird"],["2025","Troy Kato","Western-nba","","5","","1","19","0","16642.00","23136.00","3","0.050","0.00","0.66","-2.00","2","6.0","-1.0","0.259","0.209","1.43","92","22477.6","658.4","-0.41","34","77","103","","0","0","0","0","","","","","","Poole Party"],["2025","Ben Lalor","Western-nba","","6","","9","11","0","20668.00","21392.00","6","0.450","0.03","0.02","-0.34","37","3.7","2.3","0.458","0.008","-0.61","27","21672.4","-280.4","0.58","72","96","99","","0","0","0","1","","","","","","The Hairy Tadger"],["2024","Erik Bagley","Western-nba","","1","","14","6","0","25367.00","21702.00","73","0.700","0.19","0.00","1.03","85","1.9","-0.9","0.624","-0.076","-0.44","33","21826.2","-124.2","-0.77","22","113","99","","1","1","1","0","","","","","","James HardOn"],["2024","Kyle McReynolds","Western-nba","","2","","14","6","0","25173.00","21777.00","30","0.700","0.17","0.00","0.96","83","1.9","0.1","0.616","-0.084","-0.31","38","21865.0","-88.0","0.76","78","112","100","","1","1","0","0","","","","","","Big Daddy Joker"],["2024","Connor Reed","Western-nba","","3","","11","9","0","22138.00","22780.00","22","0.550","0.04","0.01","-0.10","46","3.4","-0.4","0.488","-0.062","1.08","86","22472.0","308.0","1.87","97","99","101","","1","1","0","0","","","","","","Young Larry Bird"],["2024","Ben Lalor","Western-nba","","4","","10","10","0","23397.00","22562.00","9","0.500","0.08","0.00","0.34","63","2.8","1.2","0.541","0.041","1.20","89","22220.2","341.8","-0.97","17","104","102","","1","0","0","0","","","","","","The Stinky Tadger"],["2024","Erik Foster","Western-nba","","5","","10","10","0","21614.00","22079.00","13","0.500","0.03","0.02","-0.28","39","3.6","1.4","0.466","-0.034","-1.75","4","22576.8","-497.8","-0.46","32","96","98","","0","0","0","0","","","","","","Zero Fox Given"],["2024","Troy Kato","Western-nba","","6","","1","19","0","16809.00","23598.00","4","0.050","0.00","0.64","-1.95","3","5.9","0.1","0.264","0.214","0.21","58","23537.8","60.2","-0.43","33","75","100","","0","0","0","1","","","","","","Poole Party"],["2023","Connor Reed","Western-nba","","1","","14","6","0","23961.00","20611.00","19","0.700","0.18","0.00","0.99","84","1.9","-0.9","0.619","-0.081","0.47","68","20326.2","284.8","1.96","98","115","101","","1","1","1","0","","","","","","Young Larry Bird"],["2023","Erik Bagley","Western-nba","","2","","16","4","0","23507.00","19625.00","72","0.800","0.15","0.00","0.84","80","2.1","-0.1","0.601","-0.199","-1.32","9","20417.0","-792.0","0.39","65","112","96","","1","1","0","0","","","","","","Drey Area"],["2023","Ben Lalor","Western-nba","","3","","11","9","0","22192.00","19812.00","16","0.550","0.08","0.00","0.41","66","2.7","0.3","0.550","0.000","-1.45","7","20680.0","-868.0","-0.61","27","106","96","","1","1","0","0","","","","","","The Stinky Tadger"],["2023","Kyle McReynolds","Western-nba","","4","","11","9","0","21953.00","20971.00","27","0.550","0.07","0.00","0.33","63","2.8","1.2","0.540","-0.010","0.41","66","20727.8","243.2","0.05","52","105","101","","1","0","0","0","","","","","","Chef Curry"],["2023","Erik Foster","Western-nba","","5","","7","13","0","18838.00","21941.00","22","0.350","0.02","0.05","-0.68","25","4.2","0.8","0.418","0.068","0.98","84","21350.8","590.2","-0.83","20","90","103","","0","0","0","0","","","","","","Get Giddey With It"],["2023","Troy Kato","Western-nba","","6","","1","19","0","15141.00","22632.00","1","0.050","0.00","0.59","-1.89","3","5.9","0.1","0.272","0.222","0.90","82","22090.2","541.8","-0.97","17","72","103","","0","0","0","1","","","","","","Poole Party"],["2022","Erik Bagley","Western-nba","","1","1","14","6","0","22176.00","19629.00","66","0.700","0.22","0.00","1.14","87","1.7","-0.7","0.638","-0.062","0.25","60","19462.0","167.0","0.75","77","111","101","","1","1","1","0","","","","","","The Ich Bros"],["2022","Kyle McReynolds","Western-nba","","2","4","14","6","0","21601.00","19407.00","42","0.700","0.15","0.00","0.85","80","2.1","-0.1","0.603","-0.097","-0.25","40","19577.0","-170.0","-0.79","22","109","99","","1","1","0","0","","","","","","Chef Curry"],["2022","Connor Reed","Western-nba","","3","6","10","10","0","21496.00","20981.00","40","0.500","0.14","0.00","0.80","79","2.2","0.8","0.597","0.097","2.06","98","19598.0","1383.0","1.81","97","108","107","","1","1","0","0","","","","","","Young Larry Bird"],["2022","Erik Foster","Western-nba","","4","3","11","9","0","19325.00","19792.00","27","0.550","0.03","0.02","-0.30","38","3.7","0.3","0.464","-0.086","-0.36","36","20032.2","-240.2","-1.01","16","97","99","","1","0","0","0","","","","","","Curious George Goes to Towns"],["2022","Ben Lalor","Western-nba","","5","2","4","16","0","16980.00","19799.00","7","0.200","0.01","0.33","-1.48","7","5.3","-0.3","0.321","0.121","-1.04","15","20501.2","-702.2","-0.70","24","85","97","","0","0","0","0","","","","","","The Stinky Tadger"],["2022","Troy Kato","Western-nba","","6","5","7","13","0","17908.00","19878.00","6","0.350","0.01","0.12","-1.01","16","4.7","1.3","0.377","0.027","-0.65","26","20315.6","-437.6","-0.06","48","90","98","","0","0","0","1","","","","","","Poole Party"]],"links":{},"fallbacks":{},"fallbackText":"search","freeze":2,"colIndex":{"year":0,"owner":1,"league_name":2,"Details":3,"finish":4,"pick":5,"W":6,"L":7,"T":8,"PF":9,"PA":10,"Moves":11,"PtsPct":12,"xTitles":13,"xSackos":14,"PF_z":15,"zStrength":16,"xRank":17,"RankDiff":18,"xPtsPct":19,"PtsPctDiff":20,"PA_z":21,"PA_zStrength":22,"xPA":23,"PA_DIFF":24,"draft_z":25,"draft_zStrength":26,"PF+":27,"PA+":28,"seasons":29,"Playoffs":30,"Podiums":31,"Titles":32,"Sackos":33,"std_finish":34,"total_W":35,"total_L":36,"total_PF":37,"total_PA":38,"team_name":39}}</script>
+<script>
+'use strict';
+var DATA = JSON.parse(document.getElementById('table-data').textContent);
+var COLS = DATA.cols, ROWS = DATA.rows;
+var LINKS = DATA.links || {}, COLIDX_BY_NAME = DATA.colIndex || {};
+var FALLBACKS = DATA.fallbacks || {}, FALLBACK_TEXT = DATA.fallbackText || '';
+var FREEZE = DATA.freeze || 0;                       // how many leftmost columns stay put
+var view = ROWS.map(function(_, i){ return i; });
+var sortCol = -1, sortDir = 0;                       // 0 none, 1 asc, -1 desc
+var ROWH = 30, PAD = 12;                             // row height px (MEASURED at init), render padding rows
+var wrap = document.getElementById('wrap');
+var thead = document.getElementById('thead');
+var tbody = document.getElementById('tbody');
+var topSpace = document.getElementById('topspace');
+var botSpace = document.getElementById('botspace');
+var count = document.getElementById('count');
+// A cell is truncated VISUALLY by css (max-width 520px, ~65 chars) but was
+// only made clickable above 120 chars, so anything between was cut off yet
+// unexpandable. Mark them expandable well below the visual cutoff and don't
+// slice - css adds the ellipsis and the full value stays in the cell.
+var EXPAND_AT = 40;
+
+function esc(s){ var d = document.createElement('span'); d.textContent = s; return d.innerHTML; }
+
+// Accent-insensitive matching: "Acuna" finds "Acuña" and "Acuña" finds "Acuna".
+// NFD splits an accented letter into base + combining mark, so dropping the
+// marks leaves plain ASCII. Every non-ASCII character in this data decomposes
+// that way (measured across the spine: only í é á ó ñ ú Á É Ó appear). ⚠️ A
+// letter that is its own code point with no combining mark - ø, ł, đ, ß - does
+// NOT fold and would need an explicit map if one ever turns up.
+function fold(s){
+  return String(s).normalize('NFD').replace(/[\u0300-\u036f]/g, '').toLowerCase();
+}
+
+// The folded whole-row haystack, built ONCE on first use. The plain-text filter
+// used to re-join and re-lowercase every row on every keystroke - 24,000 of
+// them on the biggest table - and folding is more expensive than lowercasing,
+// so caching it makes the filter faster than it was before this change.
+var HAYS = null;
+function hays(){
+  if (!HAYS) HAYS = ROWS.map(function(r){ return fold(r.join('\u0001')); });
+  return HAYS;
+}
+
+// height must land on the cell too - a <tr> alone doesn't reliably size in
+// table layout. rounded to whole px so spacers can never drift fractionally.
+function setSpacer(tr, px){
+  var h = Math.round(px) + 'px';
+  tr.style.height = h;
+  tr.firstElementChild.style.height = h;
+}
+
+// '' for an ordinary column, else the classes that freeze column i.
+function frzClass(i){
+  if (i >= FREEZE) return '';
+  return 'frz frz-' + i + (i === FREEZE - 1 ? ' frz-last' : '');
+}
+
+// ⚠️ THE OFFSETS MUST BE MEASURED, NOT COMPUTED. Column widths come from the
+// content (there is no table-layout:fixed), so the left edge of frozen column
+// i is the summed rendered width of the columns before it, and that changes
+// when a sort or a filter brings a wider cell into view. ⚠️ It also changes
+// while SCROLLING, because the virtual scroller only ever has the visible rows
+// in the DOM - so this runs at the end of every render, and writes only when a
+// value actually moved, to keep it off the hot path.
+var frzCache = [];
+function measureFrozen(){
+  if (!FREEZE || !thead.rows.length) return;
+  var cells = thead.rows[0].cells, left = 0;
+  for (var i = 0; i < FREEZE && i < cells.length; i++){
+    if (frzCache[i] !== left){
+      document.documentElement.style.setProperty('--frzL-' + i, left + 'px');
+      frzCache[i] = left;
+    }
+    left += cells[i].offsetWidth;
+  }
+}
+
+function buildHeader(){
+  var tr = document.createElement('tr');
+  COLS.forEach(function(c, i){
+    var th = document.createElement('th');
+    th.innerHTML = esc(c) + '<span class="arrow">' + (i===sortCol ? (sortDir===1?'\u25B2':'\u25BC') : '') + '</span>';
+    th.onclick = function(){ setSort(i); };
+    if (i < FREEZE) th.className = frzClass(i);
+    tr.appendChild(th);
+  });
+  thead.innerHTML = '';
+  thead.appendChild(tr);
+}
+
+function numeric(v){
+  if (v === '' || v === null) return null;
+  var n = parseFloat(String(v).replace(/,/g,''));
+  return (!isNaN(n) && isFinite(n) && /^[\s]*[-+$]?[\d,.]+%?[\s]*$/.test(String(v))) ? n : null;
+}
+
+function setSort(i){
+  if (sortCol === i){ sortDir = (sortDir === 1) ? -1 : 1; } else { sortCol = i; sortDir = 1; }
+  view.sort(function(a, b){
+    var va = ROWS[a][i], vb = ROWS[b][i];
+    var na = numeric(va), nb = numeric(vb);
+    var r;
+    if (va === '' && vb !== '') return 1;            // empties last, always
+    if (vb === '' && va !== '') return -1;
+    if (na !== null && nb !== null){ r = na - nb; }
+    else { r = String(va).localeCompare(String(vb), undefined, {sensitivity:'base'}); }
+    return sortDir * r;
+  });
+  buildHeader();
+  render();
+}
+
+var filterBox = document.getElementById('filter');
+var debounce = null;
+filterBox.addEventListener('input', function(){
+  clearTimeout(debounce);
+  debounce = setTimeout(applyFilter, 180);
+});
+
+// ---- sql-ish WHERE expressions ------------------------------------------
+// v_grade >= 7 and area like '%hueco%'   |   year in (2019,2020) or not flash = 'FLASH'
+// column names normalize: lowercase, runs of non-alphanumerics -> _
+var COLIDX = {};
+COLS.forEach(function(c, i){ COLIDX[normId(c)] = i; });
+
+// fold first: without it an accented COLUMN name loses the letter entirely
+// (é -> _) and could never be typed. No such column exists today; this just
+// keeps column matching on the same footing as value matching.
+function normId(s){ return fold(s).replace(/[^a-z0-9]+/g, '_').replace(/^_+|_+$/g, ''); }
+
+function looksLikeSql(q){
+  return /(<=|>=|!=|<>|=|<|>)/.test(q) || /\b(like|in|and|or|not)\b/i.test(q);
+}
+
+function tokenize(q){
+  var re = /\s*(?:(<=|>=|!=|<>|=|<|>|\(|\)|,)|'((?:[^']|'')*)'|"([^"]*)"|([A-Za-z0-9_.%$-]+))/g;
+  var toks = [], m, pos = 0;
+  while ((m = re.exec(q)) !== null){
+    if (m.index !== pos && q.slice(pos, m.index).trim() !== '') return null;
+    pos = re.lastIndex;
+    if (m[1] !== undefined) toks.push({t:'op', v:m[1]});
+    else if (m[2] !== undefined) toks.push({t:'str', v:m[2].replace(/''/g, "'")});
+    else if (m[3] !== undefined) toks.push({t:'str', v:m[3]});
+    else {
+      var w = m[4], lw = w.toLowerCase();
+      if (['and','or','not','like','in'].indexOf(lw) >= 0) toks.push({t:'kw', v:lw});
+      else toks.push({t:'word', v:w});
+    }
+  }
+  if (pos < q.length && q.slice(pos).trim() !== '') return null;
+  return toks;
+}
+
+function parse(toks){
+  var p = 0;
+  function peek(){ return toks[p]; }
+  function take(){ return toks[p++]; }
+  function expr(){
+    var n = term();
+    while (peek() && peek().t === 'kw' && peek().v === 'or'){ take(); n = {or:[n, term()]}; }
+    return n;
+  }
+  function term(){
+    var n = factor();
+    while (peek() && peek().t === 'kw' && peek().v === 'and'){ take(); n = {and:[n, factor()]}; }
+    return n;
+  }
+  function factor(){
+    var tk = peek();
+    if (!tk) throw 0;
+    if (tk.t === 'kw' && tk.v === 'not'){ take(); return {not: factor()}; }
+    if (tk.t === 'op' && tk.v === '('){ take(); var n = expr(); if (!peek() || peek().v !== ')') throw 0; take(); return n; }
+    return predicate();
+  }
+  function predicate(){
+    var c = take();
+    if (!c || c.t !== 'word') throw 0;
+    var idx = COLIDX[normId(c.v)];
+    if (idx === undefined) throw 0;
+    var neg = false, tk = peek();
+    if (tk && tk.t === 'kw' && tk.v === 'not'){ take(); neg = true; tk = peek(); }
+    if (!tk) throw 0;
+    if (tk.t === 'kw' && tk.v === 'like'){ take(); var v = value(); return {like:{col:idx, pat:v, neg:neg}}; }
+    if (tk.t === 'kw' && tk.v === 'in'){
+      take(); if (!peek() || peek().v !== '(') throw 0; take();
+      var vals = [value()];
+      while (peek() && peek().v === ','){ take(); vals.push(value()); }
+      if (!peek() || peek().v !== ')') throw 0; take();
+      return {inlist:{col:idx, vals:vals, neg:neg}};
+    }
+    if (neg) throw 0;
+    if (tk.t === 'op' && ['=','!=','<>','<','<=','>','>='].indexOf(tk.v) >= 0){ take(); return {cmp:{col:idx, op:tk.v, val:value()}}; }
+    throw 0;
+  }
+  function value(){
+    var tk = take();
+    if (!tk || (tk.t !== 'str' && tk.t !== 'word')) throw 0;
+    return tk.v;
+  }
+  var n = expr();
+  if (p !== toks.length) throw 0;
+  return n;
+}
+
+function evalNode(n, row){
+  if (n.or) return evalNode(n.or[0], row) || evalNode(n.or[1], row);
+  if (n.and) return evalNode(n.and[0], row) && evalNode(n.and[1], row);
+  if (n.not) return !evalNode(n.not, row);
+  if (n.cmp){
+    var cell = String(row[n.cmp.col]), val = String(n.cmp.val);
+    var nc = numeric(cell), nv = numeric(val), r;
+    if (nc !== null && nv !== null){ r = nc < nv ? -1 : (nc > nv ? 1 : 0); }
+    else { var a = fold(cell), b = fold(val); r = a < b ? -1 : (a > b ? 1 : 0); }
+    switch (n.cmp.op){
+      case '=': return r === 0;
+      case '!=': case '<>': return r !== 0;
+      case '<': return r < 0;
+      case '<=': return r <= 0;
+      case '>': return r > 0;
+      case '>=': return r >= 0;
+    }
+  }
+  if (n.like){
+    // fold BEFORE escaping, so % and _ survive to become wildcards
+    var pat = fold(n.like.pat).replace(/[.*+?^${}()|[\]\\]/g, '\\$&').replace(/%/g, '.*').replace(/_/g, '.');
+    var hit = new RegExp('^' + pat + '$', 'i').test(fold(row[n.like.col]));
+    return n.like.neg ? !hit : hit;
+  }
+  if (n.inlist){
+    var cell = fold(row[n.inlist.col]);
+    var hit = n.inlist.vals.some(function(v){ return fold(v) === cell; });
+    return n.inlist.neg ? !hit : hit;
+  }
+  return false;
+}
+// -------------------------------------------------------------------------
+
+function applyFilter(){
+  var q = filterBox.value.trim();
+  filterBox.classList.remove('bad');
+  view = [];
+  if (q === ''){
+    for (var i = 0; i < ROWS.length; i++) view.push(i);
+  } else if (looksLikeSql(q)){
+    var ast = null, toks = tokenize(q);
+    if (toks){ try { ast = parse(toks); } catch (e) { ast = null; } }
+    if (!ast){
+      filterBox.classList.add('bad');
+      count.textContent = 'bad expression';
+      return;                                        // keep current view
+    }
+    for (var i = 0; i < ROWS.length; i++){ if (evalNode(ast, ROWS[i])) view.push(i); }
+  } else {
+    var terms = fold(q).split(/\s+/), H = hays();
+    for (var i = 0; i < ROWS.length; i++){
+      var hay = H[i];
+      var ok = true;
+      for (var t = 0; t < terms.length; t++){ if (hay.indexOf(terms[t]) === -1){ ok = false; break; } }
+      if (ok) view.push(i);
+    }
+  }
+  if (sortCol >= 0){ var c = sortCol, d = sortDir; sortCol = -1; sortDir = 0; setSort(c); if (d === -1) setSort(c); return; }
+  render();
+}
+
+function render(){
+  var h = wrap.clientHeight;
+  var first = Math.max(0, Math.floor(wrap.scrollTop / ROWH) - PAD);
+  var last = Math.min(view.length, Math.ceil((wrap.scrollTop + h) / ROWH) + PAD);
+  setSpacer(topSpace, first * ROWH);
+  setSpacer(botSpace, (view.length - last) * ROWH);
+  var html = [];
+  for (var v = first; v < last; v++){
+    var row = ROWS[view[v]];
+    html.push('<tr>');
+    for (var c = 0; c < row.length; c++){
+      var val = String(row[c]);
+      // an empty cell falls back to its COLUMN~GUARD~template if one is
+      // registered AND that row's guard column is non-empty, labelled
+      // FALLBACK_TEXT since there is no value to show
+      var tmpl = LINKS[c], text = val;
+      if (val === ''){
+        var fb = FALLBACKS[c];
+        tmpl = (fb && String(row[fb[0]] || '') !== '') ? fb[1] : null;
+        text = FALLBACK_TEXT;
+      }
+      var fz = frzClass(c);
+      if (tmpl){
+        var href = tmpl.replace(/\{([^}]*)\}/g, function(_m, name){
+          var raw = (name === '') ? val : String(row[COLIDX_BY_NAME[name]] || '');
+          return encodeURIComponent(raw);
+        });
+        html.push('<td' + (fz ? ' class="' + fz + '"' : '') + '><a href="' + esc(href) + '" target="_blank" rel="noopener">' + esc(text) + '</a></td>');
+      } else if (val.length > EXPAND_AT){
+        html.push('<td class="expandable' + (fz ? ' ' + fz : '') + '" data-r="' + view[v] + '" data-c="' + c + '">' + esc(val) + '</td>');
+      } else {
+        html.push('<td' + (fz ? ' class="' + fz + '"' : '') + '>' + esc(val) + '</td>');
+      }
+    }
+    html.push('</tr>');
+  }
+  tbody.innerHTML = html.join('');
+  measureFrozen();
+  count.textContent = view.length.toLocaleString() + ' of ' + ROWS.length.toLocaleString() + ' rows';
+}
+
+// ROWH must match the REAL rendered row height: if it doesn't, the spacer
+// heights misreport the total, scrollHeight shifts under the browser on
+// every render, it corrects scrollTop, that fires scroll again -> runaway
+// scrolling. So measure a real row instead of assuming one.
+function calibrate(){
+  if (!ROWS.length) return;
+  setSpacer(topSpace, 0);
+  setSpacer(botSpace, 0);
+  var probe = [], row = ROWS[0];
+  probe.push('<tr>');
+  for (var c = 0; c < row.length; c++){
+    var val = String(row[c]);
+    probe.push('<td>' + esc(val) + '</td>');
+  }
+  probe.push('</tr>');
+  tbody.innerHTML = probe.join('');
+  var tr = tbody.firstElementChild;
+  if (tr){
+    var h = Math.round(tr.getBoundingClientRect().height);
+    if (h > 4) ROWH = h;             // whole px only: fractional rows drift
+  }
+  tbody.innerHTML = '';
+}
+
+// one render per animation frame, no matter how many scroll events arrive
+var pending = false;
+function scheduleRender(){
+  if (pending) return;
+  pending = true;
+  window.requestAnimationFrame(function(){ pending = false; render(); });
+}
+
+wrap.addEventListener('scroll', scheduleRender);
+window.addEventListener('resize', function(){ calibrate(); render(); });
+
+var overlay = document.getElementById('overlay');
+tbody.addEventListener('click', function(e){
+  var td = e.target.closest('td.expandable');
+  if (!td) return;
+  overlay.querySelector('.box').textContent = ROWS[td.dataset.r][td.dataset.c];
+  overlay.style.display = 'flex';
+});
+overlay.addEventListener('click', function(){ overlay.style.display = 'none'; });
+document.addEventListener('keydown', function(e){ if (e.key === 'Escape') overlay.style.display = 'none'; });
+
+buildHeader();
+calibrate();
+render();
+</script>
+</body>
+</html>
