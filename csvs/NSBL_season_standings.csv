@@ -10,8 +10,8 @@ Year,Team,Team Name,Division,Finish,W,L,Win%,RF,RA,Run Diff,Playoff
 2022,NYY,New York Yankees,AL East,4,81,81,0.5000,732,772,-40,
 2022,BOS,Boston Red Sox,AL East,5,67,95,0.4136,747,853,-106,
 2022,OAK,Oakland Athletics,AL West,1,92,70,0.5679,709,629,80,Lost Division Series
-2022,SEA,Seattle Mariners,AL West,2,89,73,0.5494,715,641,74,Lost League Championship (Wild Card)
 2022,TEX,Texas Rangers,AL West,2,89,73,0.5494,709,627,82,Lost World Series (Wild Card)
+2022,SEA,Seattle Mariners,AL West,2,89,73,0.5494,715,641,74,Lost League Championship (Wild Card)
 2022,HOU,Houston Astros,AL West,4,74,88,0.4568,665,772,-107,
 2022,LAA,Los Angeles Angels,AL West,5,60,102,0.3704,668,834,-166,
 2022,PIT,Pittsburgh Pirates,NL Central,1,96,66,0.5926,697,600,97,Lost League Championship
@@ -86,8 +86,8 @@ Year,Team,Team Name,Division,Finish,W,L,Win%,RF,RA,Run Diff,Playoff
 2020,WAS,Washington Nationals,NL East,5,52,110,0.3210,575,841,-266,
 2020,ARI,Arizona Diamondbacks,NL West,1,93,69,0.5741,773,633,140,Won World Series
 2020,SD,San Diego Padres,NL West,2,86,76,0.5309,647,592,55,
-2020,COL,Colorado Rockies,NL West,3,85,77,0.5247,753,727,26,
 2020,LAD,Los Angeles Dodgers,NL West,3,85,77,0.5247,675,638,37,
+2020,COL,Colorado Rockies,NL West,3,85,77,0.5247,753,727,26,
 2020,SF,San Francisco Giants,NL West,5,70,92,0.4321,641,692,-51,
 2019,CHW,Chicago White Sox,AL Central,1,106,56,0.6543,911,625,286,Lost Division Series
 2019,CLE,Cleveland Indians,AL Central,2,85,77,0.5247,722,716,6,
@@ -247,8 +247,8 @@ Year,Team,Team Name,Division,Finish,W,L,Win%,RF,RA,Run Diff,Playoff
 2014,BAL,Baltimore Orioles,AL East,1,102,60,0.6296,782,615,167,not recorded
 2014,TOR,Toronto Blue Jays,AL East,2,93,70,0.5706,686,634,52,Lost Wild Card Round (Wild Card)
 2014,TB,Tampa Bay Rays,AL East,3,89,73,0.5494,648,546,102,not recorded
-2014,BOS,Boston Red Sox,AL East,4,79,83,0.4877,715,695,20,not recorded
 2014,NYY,New York Yankees,AL East,4,79,83,0.4877,678,678,0,not recorded
+2014,BOS,Boston Red Sox,AL East,4,79,83,0.4877,715,695,20,not recorded
 2014,SEA,Seattle Mariners,AL West,1,102,60,0.6296,825,672,153,not recorded
 2014,OAK,Oakland Athletics,AL West,2,97,66,0.5951,722,591,131,Won World Series (Wild Card)
 2014,TEX,Texas Rangers,AL West,3,76,86,0.4691,731,761,-30,not recorded
@@ -407,15 +407,15 @@ Year,Team,Team Name,Division,Finish,W,L,Win%,RF,RA,Run Diff,Playoff
 2009,CIN,Cincinnati Reds,NL Central,2,78,84,0.4815,800,762,38,not recorded
 2009,CHC,Chicago Cubs,NL Central,2,78,84,0.4815,728,741,-13,not recorded
 2009,HOU,Houston Astros,NL Central,4,71,91,0.4383,706,797,-91,not recorded
-2009,PIT,Pittsburgh Pirates,NL Central,5,70,92,0.4321,718,796,-78,not recorded
 2009,STL,St. Louis Cardinals,NL Central,5,70,92,0.4321,676,810,-134,not recorded
+2009,PIT,Pittsburgh Pirates,NL Central,5,70,92,0.4321,718,796,-78,not recorded
 2009,MIA,Florida Marlins,NL East,1,96,66,0.5926,855,659,196,not recorded
 2009,NYM,New York Mets,NL East,2,88,74,0.5432,799,670,129,not recorded
 2009,ATL,Atlanta Braves,NL East,3,77,85,0.4753,775,809,-34,not recorded
 2009,WAS,Washington Nationals,NL East,3,77,85,0.4753,691,720,-29,not recorded
 2009,PHI,Philadelphia Phillies,NL East,5,57,105,0.3519,583,911,-328,not recorded
-2009,ARI,Arizona Diamondbacks,NL West,1,99,63,0.6111,918,722,196,Lost World Series
 2009,COL,Colorado Rockies,NL West,1,99,63,0.6111,802,659,143,Made Playoffs (Wild Card)
+2009,ARI,Arizona Diamondbacks,NL West,1,99,63,0.6111,918,722,196,Lost World Series
 2009,SF,San Francisco Giants,NL West,3,79,83,0.4877,750,774,-24,not recorded
 2009,SD,San Diego Padres,NL West,4,74,88,0.4568,708,805,-97,not recorded
 2009,LAD,Los Angeles Dodgers,NL West,5,73,89,0.4506,712,770,-58,not recorded
@@ -426,8 +426,8 @@ Year,Team,Team Name,Division,Finish,W,L,Win%,RF,RA,Run Diff,Playoff
 2008,MIN,Minnesota Twins,AL Central,5,72,90,0.4444,731,838,-107,not recorded
 2008,TB,Tampa Bay Rays,AL East,1,90,72,0.5556,836,698,138,not recorded
 2008,BAL,Baltimore Orioles,AL East,2,90,74,0.5488,866,749,117,Lost World Series (Wild Card)
-2008,TOR,Toronto Blue Jays,AL East,3,87,75,0.5370,874,823,51,not recorded
 2008,BOS,Boston Red Sox,AL East,3,87,75,0.5370,810,754,56,not recorded
+2008,TOR,Toronto Blue Jays,AL East,3,87,75,0.5370,874,823,51,not recorded
 2008,NYY,New York Yankees,AL East,5,71,91,0.4383,719,843,-124,not recorded
 2008,LAA,Los Angeles Angels,AL West,1,92,70,0.5679,799,722,77,not recorded
 2008,TEX,Texas Rangers,AL West,2,88,75,0.5399,856,758,98,not recorded
@@ -436,8 +436,8 @@ Year,Team,Team Name,Division,Finish,W,L,Win%,RF,RA,Run Diff,Playoff
 2008,CIN,Cincinnati Reds,NL Central,1,94,68,0.5802,883,746,137,not recorded
 2008,CHC,Chicago Cubs,NL Central,2,88,74,0.5432,850,797,53,not recorded
 2008,MIL,Milwaukee Brewers,NL Central,2,88,74,0.5432,785,767,18,not recorded
-2008,HOU,Houston Astros,NL Central,4,76,86,0.4691,757,802,-45,not recorded
 2008,STL,St. Louis Cardinals,NL Central,4,76,86,0.4691,766,816,-50,not recorded
+2008,HOU,Houston Astros,NL Central,4,76,86,0.4691,757,802,-45,not recorded
 2008,PIT,Pittsburgh Pirates,NL Central,6,64,98,0.3951,726,924,-198,not recorded
 2008,NYM,New York Mets,NL East,1,98,64,0.6049,845,719,126,not recorded
 2008,MIA,Florida Marlins,NL East,2,90,72,0.5556,779,728,51,not recorded
@@ -480,12 +480,12 @@ Year,Team,Team Name,Division,Finish,W,L,Win%,RF,RA,Run Diff,Playoff
 2007,ARI,Arizona Diamondbacks,NL West,4,77,85,0.4753,809,898,-89,not recorded
 2007,SF,San Francisco Giants,NL West,5,75,87,0.4630,814,906,-92,not recorded
 2006,MIN,Minnesota Twins,AL Central,1,94,68,0.5802,856,728,128,not recorded
-2006,CLE,Cleveland Indians,AL Central,2,80,82,0.4938,796,823,-27,not recorded
 2006,KC,Kansas City Royals,AL Central,2,80,82,0.4938,791,823,-32,not recorded
+2006,CLE,Cleveland Indians,AL Central,2,80,82,0.4938,796,823,-27,not recorded
 2006,CHW,Chicago White Sox,AL Central,4,67,95,0.4136,763,891,-128,not recorded
 2006,DET,Detroit Tigers,AL Central,5,62,100,0.3827,707,888,-181,not recorded
-2006,TOR,Toronto Blue Jays,AL East,1,92,70,0.5679,931,774,157,Won World Series
 2006,NYY,New York Yankees,AL East,1,92,70,0.5679,900,795,105,Made Playoffs (Wild Card)
+2006,TOR,Toronto Blue Jays,AL East,1,92,70,0.5679,931,774,157,Won World Series
 2006,TB,Tampa Bay Devil Rays,AL East,3,91,71,0.5617,777,688,89,not recorded
 2006,BOS,Boston Red Sox,AL East,4,85,77,0.5247,832,778,54,not recorded
 2006,BAL,Baltimore Orioles,AL East,5,71,91,0.4383,744,849,-105,not recorded
@@ -591,8 +591,8 @@ Year,Team,Team Name,Division,Finish,W,L,Win%,RF,RA,Run Diff,Playoff
 2003,MIL,Milwaukee Brewers,NL Central,6,64,98,0.3951,640,808,-168,not recorded
 2003,ATL,Atlanta Braves,NL East,1,96,66,0.5926,790,737,53,not recorded
 2003,PHI,Philadelphia Phillies,NL East,2,78,84,0.4815,728,788,-60,not recorded
-2003,WAS,Montreal Expos,NL East,3,72,90,0.4444,698,754,-56,not recorded
 2003,NYM,New York Mets,NL East,3,72,90,0.4444,678,790,-112,not recorded
+2003,WAS,Montreal Expos,NL East,3,72,90,0.4444,698,754,-56,not recorded
 2003,MIA,Florida Marlins,NL East,5,69,93,0.4259,669,805,-136,not recorded
 2003,ARI,Arizona Diamondbacks,NL West,1,90,72,0.5556,732,630,102,not recorded
 2003,COL,Colorado Rockies,NL West,2,88,74,0.5432,921,826,95,not recorded
