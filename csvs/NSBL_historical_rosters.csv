@@ -2059,7 +2059,8 @@ Bo Bichette,LAD,,if,1.323,3rd,,,,N,2022-01-07,2022-11-05,snapshot,666182,19612,s
 Bo Bichette,LAD,,if,4.401,4th,,,,Y,2023-01-27,2023-03-13,snapshot,666182,19612,search
 Bo Bichette,LAD,active,if,4.401,4th,,,,Y,2023-03-22,2023-08-23,snapshot,666182,19612,search
 Bo Bichette,LAD,active,if,5.256,5th,,,,Y,2024-02-19,2024-02-20,snapshot,666182,19612,search
-Bo Bichette,LAD,active,if,16.653,CE,2026,,,Y,2024-03-17,current,snapshot,666182,19612,search
+Bo Bichette,LAD,active,if,16.653,CE,2026,,,Y,2024-03-17,2026-08-26,snapshot,666182,19612,search
+Bo Bichette,ATL,active,if,16.653,CE,2026,,,Y,2026-08-27,current,snapshot,666182,19612,search
 Dante Bichette,NYY,,of,0.400,XXX,,,,N,2012-01-01,2013-01-01,snapshot,605142,,search
 Dante Bichette,NYY,,of,0.500,XXX,,,,N,2014-01-01,2019-01-01,snapshot,605142,,search
 Phil Bickford,CHC,,p,0.500,XXX,,,,N,2014-01-01,2019-11-15,snapshot,641360,18519,search
@@ -12366,7 +12367,8 @@ Tzu-Wei Lin,MIN,,if,0.715,2nd-G,,,,Y,2020-05-23,2020-11-15,snapshot,624407,14678
 Tzu-Wei Lin,MIN,,if,0.930,3rd,,,,N,2021-01-13,2021-05-09,snapshot,624407,14678,search
 Tzu-Wei Lin,MIN,,if,0.930,3rd-G,,,,Y,2021-05-16,2021-07-23,snapshot,624407,14678,search
 Wei-En Lin,ATL,reserve,p,0.700,XXX,,,Yes,N,2025-09-01,2025-09-01,snapshot,827734,sa3067072,search
-Wei-En Lin,ATL,reserve,p,0.700,XXX,,,,N,2026-02-06,current,snapshot,827734,sa3067072,search
+Wei-En Lin,ATL,reserve,p,0.700,XXX,,,,N,2026-02-06,2026-08-26,snapshot,827734,sa3067072,search
+Wei-En Lin,LAD,reserve,p,0.700,XXX,,,,N,2026-08-27,current,snapshot,827734,sa3067072,search
 Yu-Min Lin,STL,reserve,p,0.700,XXX,,,,N,2024-03-17,current,snapshot,801179,sa3019278,search
 Resly Linares,CIN,,p,0.500,XXX,,,,N,2019-01-01,2019-11-15,snapshot,660831,sa873296,search
 Resly Linares,CIN,,p,0.550,XXX,,,,N,2020-01-01,2022-11-05,snapshot,660831,sa873296,search
@@ -12987,7 +12989,8 @@ Manny Machado,STL,,if,13.994,CE,2019,,,Y,2018-01-01,2019-01-01,snapshot,592518,1
 Manny Machado,COL,,if,13.994,CE,2019,,,Y,2019-11-15,2019-11-15,snapshot,592518,11493,search
 Manny Machado,SEA,,if,33.000,V,2026,,Yes,Y,2020-04-01,2020-11-15,snapshot,592518,11493,search
 Manny Machado,SEA,,if,33.000,V,2026,,,Y,2021-01-13,2023-03-13,snapshot,592518,11493,search
-Manny Machado,SEA,active,if,33.000,V,2026,,,Y,2023-03-22,current,snapshot,592518,11493,search
+Manny Machado,SEA,active,if,33.000,V,2026,,,Y,2023-03-22,2026-08-26,snapshot,592518,11493,search
+Manny Machado,MIL,active,if,33.000,V,2026,,,Y,2026-08-27,current,snapshot,592518,11493,search
 Jean Machi,LAD,,p,1.600,V,2015,,,Y,2015-01-01,2015-01-01,snapshot,466948,3220,search
 Jean Machi,LAD,,p,1.665,V,2017,Y-NBO,,Y,2017-01-01,2018-01-01,snapshot,466948,3220,search
 Vimael Machín,NYM,,if,1.610,V,2021,Yes,Yes,Y,2020-04-01,2020-11-15,snapshot,605353,17684,search
@@ -18106,7 +18109,8 @@ JR Ritchie,WAS,reserve,p,0.700,XXX,,,,N,2023-03-22,2023-06-22,snapshot,702275,31
 JR Ritchie,MIL,reserve,p,0.700,XXX,,,,N,2023-08-13,2024-02-20,snapshot,702275,31760,search
 JR Ritchie,WAS,reserve,p,0.700,XXX,,,,N,2024-03-17,2024-08-15,snapshot,702275,31760,search
 JR Ritchie,ATL,reserve,p,0.700,XXX,,,,N,2025-02-09,2025-07-09,snapshot,702275,31760,search
-JR Ritchie,MIL,reserve,p,0.700,XXX,,,,N,2025-09-01,current,snapshot,702275,31760,search
+JR Ritchie,MIL,reserve,p,0.700,XXX,,,,N,2025-09-01,2026-08-26,snapshot,702275,31760,search
+JR Ritchie,SEA,reserve,p,0.700,XXX,,,,N,2026-08-27,current,snapshot,702275,31760,search
 Ryan Ritter,SEA,reserve,if,0.700,XXX,,,Yes,N,2024-03-17,2024-08-15,snapshot,690022,31500,search
 Ryan Ritter,SEA,reserve,if,0.700,XXX,,,,N,2025-02-09,current,snapshot,690022,31500,search
 Emmanuel Rivera,LAD,active,if,1.400,V,2025,,,Y,2025-04-11,2025-09-01,snapshot,656896,19890,search
