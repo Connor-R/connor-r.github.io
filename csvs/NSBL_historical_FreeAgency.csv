@@ -168,7 +168,7 @@ Signing Year,Day,Signed By,Player,Pos,Age,Rights,Years,AAV,Opt,Teams Rostered,Se
 2026,t3-2,WAS,Bryan Hudson,RP,29,,2,2.500,Yes,WAS: 2026-04-11 to current,1,2026,2026,663542,19924,search
 2026,t3-2,OAK,Riley Cornelio,H,26,,4,2.500,Yes,OAK: 2026-04-11 to current,1,2026,2026,683000,31953,search
 2026,t3-2,NYM,Amed Rosario,3B,31,,3,2.500,Yes,NYM: 2026-04-11 to current,1,2026,2026,642708,15518,search
-2026,t3-2,MIL,Nick Mears,RP,30,,2,2.222,No,MIL: 2026-04-11 to current,1,2026,2026,683232,25376,search
+2026,t3-2,MIL,Nick Mears,RP,30,,2,2.222,No,MIL: 2026-04-11 to 2026-08-28,1,2026,2026,683232,25376,search
 2026,t3-2,MIL,Max Schuemann,SS,29,,3,2.222,Yes,MIL: 2026-04-11 to current,1,2026,2026,680474,24488,search
 2026,t3-2,DET,Dylan Moore,2B,34,,2,2.000,Yes,DET: 2026-04-11 to current,1,2026,2026,664238,18042,search
 2026,t3-2,DET,Joc Pederson,LF,34,,2,2.000,Yes,DET: 2026-04-11 to current,1,2026,2026,592626,11899,search
@@ -221,7 +221,8 @@ Signing Year,Day,Signed By,Player,Pos,Age,Rights,Years,AAV,Opt,Teams Rostered,Se
 2025,t1-1,OAK,Aaron Judge,CF,33,,5,40.000,no,OAK: 2025-03-20 to current,2,2025,2026,592450,15640,search
 2025,t1-1,BOS,Alex Bregman,3B,31,,3,36.500,no,"BOS: 2025-03-20 to 2026-08-03
 MIN: 2026-08-05 to current",2,2025,2026,608324,17678,search
-2025,t1-1,TOR,Corbin Burnes,SP,31,,5,36.000,no,TOR: 2025-03-20 to current,2,2025,2026,669203,19361,search
+2025,t1-1,TOR,Corbin Burnes,SP,31,,5,36.000,no,"TOR: 2025-03-20 to 2026-08-28
+ATL: 2026-08-29 to current",2,2025,2026,669203,19361,search
 2025,t1-1,BOS,Zack Wheeler,SP,35,,3,30.000,no,BOS: 2025-03-20 to current,2,2025,2026,554430,10310,search
 2025,t1-2,ARI,Roki Sasaki,H,24,,7,56.000,yes,ARI: 2025-03-31 to current,2,2025,2026,808963,35323,search
 2025,t1-2,STL,Tyler Glasnow,SP,32,,2,45.000,yes,STL: 2025-03-31 to current,2,2025,2026,607192,14374,search
@@ -257,7 +258,8 @@ COL: 2026-08-17 to current",2,2025,2026,547973,10233,search
 2025,t2-1,WAS,Jorge Soler,RF,33,,2,7.500,no,WAS: 2025-04-04 to current,2,2025,2026,624585,14221,search
 2025,t2-1,OAK,Lance McCullers,H,32,,2,7.500,yes,OAK: 2025-04-04 to 2025-09-01,1,2025,2025,621121,14120,search
 2025,t2-1,WAS,Jonathan Loáisiga,RP,31,,2,7.000,yes,WAS: 2025-04-04 to current,2,2025,2026,642528,19753,search
-2025,t2-1,ATL,Tobias Myers,SP,27,,6,7.000,no,ATL: 2025-04-04 to current,2,2025,2026,668964,22191,search
+2025,t2-1,ATL,Tobias Myers,SP,27,,6,7.000,no,"ATL: 2025-04-04 to 2026-08-28
+TOR: 2026-08-29 to current",2,2025,2026,668964,22191,search
 2025,t2-1,SF,Dedniel Núñez,RP,29,,3,6.700,no,SF:  2025-04-04 to current,2,2025,2026,673380,23055,search
 2025,t2-1,SF,Cole Sands,RP,28,,3,6.000,no,SF:  2025-04-04 to current,2,2025,2026,663485,21461,search
 2025,t2-1,WAS,Jurickson Profar,LF,32,,2,5.000,no,WAS: 2025-04-04 to current,2,2025,2026,595777,10815,search
@@ -341,7 +343,7 @@ MIL: 2026-03-13 to current",2,2025,2026,808975,35322,search
 2025,t2-4,KC,Declan Cronin,RP,28,,3,2.222,yes,KC:  2025-04-06 to 2025-07-09,1,2025,2025,686539,25645,search
 2025,t2-4,MIL,Samy Natera,H,26,,3,2.222,yes,MIL: 2025-04-06 to current,2,2025,2026,696519,,search
 2025,t2-4,MIN,Vinny Capra,3B,29,,2,2.200,yes,MIN: 2025-04-06 to 2025-09-01,1,2025,2025,681962,25040,search
-2025,t2-4,OAK,Seth Brown,LF,33,,2,2.200,yes,OAK: 2025-04-06 to current,2,2025,2026,664913,18171,search
+2025,t2-4,OAK,Seth Brown,LF,33,,2,2.200,yes,OAK: 2025-04-06 to 2026-08-28,2,2025,2026,664913,18171,search
 2025,t2-4,PHI,Shay Whitcomb,3B,27,,2,2.000,yes,PHI: 2025-04-06 to current,2,2025,2026,694376,27789,search
 2025,t2-4,KC,Calvin Faucher,RP,30,,2,1.911,no,KC:  2025-04-06 to current,2,2025,2026,676534,20116,search
 2025,t2-4,KC,Owen Miller,1B,29,,2,1.911,yes,KC:  2025-04-06 to current,2,2025,2026,680911,24655,search
@@ -677,7 +679,8 @@ CLE: 2025-02-09 to 2025-02-09",3,2023,2025,600869,13621,search
 2023,t2-1,PIT,Evan Phillips,RP,28,,2,8.250,yes,PIT: 2023-03-22 to 2024-08-15,2,2023,2024,623465,17734,search
 2023,t2-1,NYM,Jesse Winker,LF,29,,3,7.500,yes,NYM: 2023-03-22 to 2025-09-01,3,2023,2025,608385,13590,search
 2023,t2-1,WAS,James Outman,RF,26,,7,7.500,yes,"WAS: 2023-03-22 to 2024-08-15
-ATL: 2025-02-09 to current",4,2023,2026,681546,24770,search
+ATL: 2025-02-09 to 2026-08-28
+TOR: 2026-08-29 to current",4,2023,2026,681546,24770,search
 2023,t2-1,MIA,Félix Bautista,RP,28,,2,7.000,yes,MIA: 2023-03-22 to 2025-02-09,3,2023,2025,642585,20666,search
 2023,t2-1,MIL,Joey Meneses,1B,31,,3,6.022,no,"MIL: 2023-03-22 to 2024-07-12
 WAS: 2024-08-15 to 2024-08-15
