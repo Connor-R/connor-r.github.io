@@ -9420,7 +9420,8 @@ Liam Hendriks,TOR,active,p,7.900,V,2023,,,Y,2023-03-22,2023-08-23,snapshot,52123
 Liam Hendriks,LAD,active,p,8.000,V,2025,Yes,Yes,Y,2024-04-01,2024-08-15,snapshot,521230,3548,search
 Liam Hendriks,LAD,active,p,8.000,V,2025,Yes,,Y,2025-02-09,2025-09-01,snapshot,521230,3548,search
 Liam Hendriks,WAS,reserve,p,1.100,MLI,,,,N,2026-04-24,2026-04-24,snapshot,521230,3548,search
-Liam Hendriks,WAS,active,p,1.400,V,,,,Y,2026-07-10,current,snapshot,521230,3548,search
+Liam Hendriks,WAS,active,p,1.400,V,,,,Y,2026-07-10,2026-09-06,snapshot,521230,3548,search
+Liam Hendriks,NYM,active,p,1.400,V,,,,Y,2026-09-07,current,snapshot,521230,3548,search
 Edgardo Henriquez,CHW,,p,0.550,XXX,,,Yes,N,2022-07-27,2022-11-05,snapshot,683618,26944,search
 Edgardo Henriquez,CHW,,p,0.700,XXX,,,,N,2023-01-27,2023-03-13,snapshot,683618,26944,search
 Edgardo Henriquez,CHW,reserve,p,0.700,XXX,,,,N,2023-03-22,current,snapshot,683618,26944,search
@@ -12556,7 +12557,8 @@ Jonathan Loáisiga,ARI,,p,4.933,5th,,,,Y,2023-01-27,2023-03-13,snapshot,642528,1
 Jonathan Loáisiga,ARI,active,p,4.933,5th,,,,Y,2023-03-22,2023-08-23,snapshot,642528,19753,search
 Jonathan Loáisiga,ARI,active,p,5.983,6th,,,,Y,2024-02-19,2024-08-15,snapshot,642528,19753,search
 Jonathan Loáisiga,WAS,active,p,7.000,V,2026,Yes,Yes,Y,2025-04-04,2025-09-01,snapshot,642528,19753,search
-Jonathan Loáisiga,WAS,active,p,7.000,V,2026,Yes,,Y,2026-02-06,current,snapshot,642528,19753,search
+Jonathan Loáisiga,WAS,active,p,7.000,V,2026,Yes,,Y,2026-02-06,2026-09-06,snapshot,642528,19753,search
+Jonathan Loáisiga,NYM,active,p,7.000,V,2026,Yes,,Y,2026-09-07,current,snapshot,642528,19753,search
 José Lobatón,PHI,,C,,,,,,,2013-04-01,2013-04-01,inferred_fa,446653,4243,search
 José Lobatón,TEX,,c,1.850,V,2016,Yes,,Y,2015-01-01,2016-01-01,snapshot,446653,4243,search
 José Lobatón,TEX,,c,1.850,V,2016,Y-NBO,,Y,2017-01-01,2017-01-01,snapshot,446653,4243,search
