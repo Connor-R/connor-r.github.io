@@ -11,7 +11,7 @@
   gtag('js', new Date());
   gtag('config', 'G-8N02F87WCP');
 </script>
-<title>NSBL - Free Agency by Franchise and Year (Last Updated Aug 19, 2026)</title>
+<title>NSBL - Free Agency by Franchise and Year (Last Updated Sep 14, 2026)</title>
 <style>
 :root { --border:#d0d4d9; --head:#2c3e50; --headtxt:#fff; --zebra:#f5f7f9; --hover:#eaf2fb; --accent:#2563eb; --rowh:31px; }
 * { box-sizing:border-box; }
@@ -49,7 +49,8 @@ td a:hover { text-decoration:underline; }
    transparent one shows the scrolling content straight through it - which is
    why the zebra and hover backgrounds are restated here rather than inherited.
    The left offsets are CSS VARIABLES set by measureFrozen(): column widths are
-   content-driven (no table-layout:fixed), so they cannot be constants. */
+   content-driven (no table-layout:fixed), so they cannot be constants. So are
+   the per-column max-widths, set by capFrozen() - see there for why. */
 th.frz, td.frz { position:sticky; z-index:1; }
 th.frz { z-index:3; }
 td.frz { background:#fff; }
@@ -59,11 +60,11 @@ th.frz-last, td.frz-last { border-right:2px solid var(--head); }
 #overlay { position:fixed; inset:0; background:rgba(0,0,0,.5); display:none; justify-content:center; align-items:center; z-index:10; }
 #overlay .box { background:#fff; border-radius:8px; padding:22px 26px; max-width:72vw; max-height:75vh; overflow:auto; white-space:pre-wrap; font-size:14px; box-shadow:0 8px 40px rgba(0,0,0,.35); }
 
-.frz-0 { left:var(--frzL-0, 0px); }</style>
+.frz-0 { left:var(--frzL-0, 0px); max-width:var(--frzW-0, 520px); }</style>
 </head>
 <body>
 <header>
-<h1>NSBL - Free Agency by Franchise and Year (Last Updated Aug 19, 2026)</h1>
+<h1>NSBL - Free Agency by Franchise and Year (Last Updated Sep 14, 2026)</h1>
 <div class="controls">
 <input id="filter" type="search" placeholder="filter: text terms, or sql: columnA > X and columnB like '%hi%'" autocomplete="off">
 <span id="count"></span>
@@ -145,6 +146,68 @@ function frzClass(i){
 // in the DOM - so this runs at the end of every render, and writes only when a
 // value actually moved, to keep it off the hot path.
 var frzCache = [];
+
+// ⚠️ THE FROZEN BAND IS CAPPED AS A WHOLE, NOT PER COLUMN. Each cell may be
+// 520px, so --freeze 4 could pin more than the whole viewport and leave nothing
+// to scroll - on a phone, --freeze 1 on a long name nearly does. A flat
+// character cap cannot fix that (four capped columns still fill a phone) and
+// would clip names on desktop for no reason. Instead the band gets a budget of
+// FRZ_SHARE of the visible width and is WATER-FILLED: columns that fit under
+// an even share keep their natural width, and whatever budget they leave is
+// split among the wide ones, which alone are clipped. A page whose band
+// already fits is untouched (the cap stays at the css 520px).
+// ⚠️ Natural widths are measured over EVERY row with a canvas, once, not read
+// from the DOM: the virtual scroller only has the visible rows rendered, so a
+// DOM measure would re-fit the band - and jitter it - on every scroll.
+var FRZ_SHARE = 0.5, FRZ_FLOOR = 56, CELL_MAX = 520, CELL_PAD = 25;
+var frzText = null, frzCap = [];                     // per col: Map value->px; cap px or 0 if unclipped
+function textWidths(){
+  var ctx = document.createElement('canvas').getContext('2d');
+  var bodyFont = getComputedStyle(tbody).font;
+  var ths = thead.rows[0].cells, maps = [];
+  for (var c = 0; c < FREEZE; c++){
+    var m = new Map();
+    ctx.font = getComputedStyle(ths[c]).font;
+    m.hdr = ctx.measureText(COLS[c]).width + 18;     // + the sort arrow's room
+    ctx.font = bodyFont;
+    m.max = m.hdr;
+    for (var r = 0; r < ROWS.length; r++){
+      var v = String(ROWS[r][c]);
+      if (v === '') v = FALLBACK_TEXT;
+      if (m.has(v)) continue;
+      var w = ctx.measureText(v.replace(/\s+/g, ' ')).width;
+      m.set(v, w);
+      if (w > m.max) m.max = w;
+    }
+    maps.push(m);
+  }
+  return maps;
+}
+function capFrozen(){
+  if (!FREEZE || !thead.rows.length) return;
+  if (!frzText) frzText = textWidths();
+  var nat = frzText.map(function(m){ return Math.min(CELL_MAX, Math.ceil(m.max) + CELL_PAD); });
+  var sorted = nat.slice().sort(function(a, b){ return a - b; });
+  var rest = wrap.clientWidth * FRZ_SHARE, cap = CELL_MAX;
+  for (var i = 0; i < sorted.length; i++){
+    var even = rest / (sorted.length - i);
+    if (sorted[i] <= even){ rest -= sorted[i]; } else { cap = even; break; }
+  }
+  cap = Math.max(FRZ_FLOOR, Math.min(CELL_MAX, Math.floor(cap)));
+  for (var c = 0; c < FREEZE; c++){
+    document.documentElement.style.setProperty('--frzW-' + c, cap + 'px');
+    frzCap[c] = nat[c] > cap ? cap : 0;
+  }
+}
+// true when a frozen cell's text is wider than its capped column, so it gets
+// click-to-expand like a long cell - a clipped short name would otherwise be
+// unreadable, being under EXPAND_AT
+function frzClipped(c, val){
+  if (!frzCap[c]) return false;
+  var w = frzText[c].get(val === '' ? FALLBACK_TEXT : val);
+  return w !== undefined && w + CELL_PAD > frzCap[c];
+}
+
 function measureFrozen(){
   if (!FREEZE || !thead.rows.length) return;
   var cells = thead.rows[0].cells, left = 0;
@@ -163,7 +226,7 @@ function buildHeader(){
     var th = document.createElement('th');
     th.innerHTML = esc(c) + '<span class="arrow">' + (i===sortCol ? (sortDir===1?'\u25B2':'\u25BC') : '') + '</span>';
     th.onclick = function(){ setSort(i); };
-    if (i < FREEZE) th.className = frzClass(i);
+    if (i < FREEZE){ th.className = frzClass(i); th.title = c; }   // title: a capped header still reads in full
     tr.appendChild(th);
   });
   thead.innerHTML = '';
@@ -373,7 +436,7 @@ function render(){
           return encodeURIComponent(raw);
         });
         html.push('<td' + (fz ? ' class="' + fz + '"' : '') + '><a href="' + esc(href) + '" target="_blank" rel="noopener">' + esc(text) + '</a></td>');
-      } else if (val.length > EXPAND_AT){
+      } else if (val.length > EXPAND_AT || frzClipped(c, val)){
         html.push('<td class="expandable' + (fz ? ' ' + fz : '') + '" data-r="' + view[v] + '" data-c="' + c + '">' + esc(val) + '</td>');
       } else {
         html.push('<td' + (fz ? ' class="' + fz + '"' : '') + '>' + esc(val) + '</td>');
@@ -419,7 +482,7 @@ function scheduleRender(){
 }
 
 wrap.addEventListener('scroll', scheduleRender);
-window.addEventListener('resize', function(){ calibrate(); render(); });
+window.addEventListener('resize', function(){ calibrate(); capFrozen(); render(); });
 
 var overlay = document.getElementById('overlay');
 tbody.addEventListener('click', function(e){
@@ -433,6 +496,7 @@ document.addEventListener('keydown', function(e){ if (e.key === 'Escape') overla
 
 buildHeader();
 calibrate();
+capFrozen();
 render();
 </script>
 </body>
