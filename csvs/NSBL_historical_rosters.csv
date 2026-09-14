@@ -1331,7 +1331,7 @@ Tanner Banks,TOR,active,p,1.554,V,2025,,,Y,2025-02-09,2025-04-16,snapshot,621383
 Tanner Banks,TOR,reserve,p,1.554,V,2025,,,Y,2025-07-09,2025-07-09,snapshot,621383,16990,search
 Tanner Banks,TOR,active,p,1.554,V,2025,,,Y,2025-09-01,2025-09-01,snapshot,621383,16990,search
 Tanner Banks,NYM,active,p,2.500,V,2027,Y,Y,Y,2026-04-04,2026-04-04,snapshot,621383,16990,search
-Tanner Banks,NYM,active,p,2.500,V,2027,Yes,Y,Y,2026-04-11,current,snapshot,621383,16990,search
+Tanner Banks,NYM,active,p,2.500,V,2027,Yes,Y,Y,2026-04-11,2026-09-13,snapshot,621383,16990,search
 Brian Bannister,KC,,SP,,,,,,,2005-07-01,2005-07-01,inferred_draft,446454,5718,search
 Brian Bannister,STL,,p,1.958,4th,,,,Y,2009-01-01,2009-01-01,snapshot,446454,5718,search
 Brian Bannister,STL,,p,2.154,5th,,,,Y,2010-01-01,2010-01-01,snapshot,446454,5718,search
@@ -16138,7 +16138,7 @@ Luis Ortiz,NYM,reserve,p,0.700,XXX,,,Yes,N,2023-03-22,2023-08-23,snapshot,682847
 Luis Ortiz,NYM,reserve,p,0.700,XXX,,,,N,2024-02-19,2025-04-16,snapshot,682847,27646,search
 Luis Ortiz,NYM,active,p,0.700,XXX-G,,,,Y,2025-07-09,2025-09-01,snapshot,682847,27646,search
 Luis Ortiz,NYM,active,p,1.470,2nd,,,,Y,2026-02-06,2026-03-13,snapshot,682847,27646,search
-Luis Ortiz,NYM,reserve,p,1.470,2nd,,,,N,2026-03-24,current,snapshot,682847,27646,search
+Luis Ortiz,NYM,reserve,p,1.470,2nd,,,,N,2026-03-24,2026-09-13,snapshot,682847,27646,search
 Robinson Ortiz,SF,active,p,3.700,V,2027,Yes,Y,Y,2026-04-04,2026-04-24,snapshot,673662,sa3004006,search
 Robinson Ortiz,SF,reserve,p,3.700,V,2027,Yes,Y,Y,2026-07-10,current,snapshot,673662,sa3004006,search
 Daniel Ortmeier,WAS,,of,1.200,V,2009,Yes,,Y,2009-01-01,2009-01-01,snapshot,430931,4694,search
