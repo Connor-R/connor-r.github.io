@@ -1,7 +1,7 @@
 year,owner,league_name,Details,finish,pick,W,L,T,PF,PA,Moves,PtsPct,xTitles,xSackos,PF_z,zStrength,xRank,RankDiff,xPtsPct,PtsPctDiff,PA_z,PA_zStrength,xPA,PA_DIFF,draft_z,draft_zStrength,PF+,PA+,seasons,Playoffs,Podiums,Titles,Sackos,std_finish,total_W,total_L,total_PF,total_PA,team_name
 Total,Ben Lalor,ChiliStew-mlb,"Ben Lalor - ChiliStew (mlb)
 
-#n/a (2026, 15 draft_zStrength, 75-144-9, -1.91 PF_z, 3 zStrength, 39 PF+, 11.8 xRank, 0.00 xTitles, 0.61 xSackos)
+#11 (2026, 15 draft_zStrength, 75-144-9, -1.94 PF_z, 3 zStrength, 39 PF+, 11.9 xRank, 0.00 xTitles, 0.63 xSackos)
 	-Yard Sale 
 
  #12 (2025, 6 draft_zStrength, 85-142-13, -1.39 PF_z, 8 zStrength, 56 PF+, 10.3 xRank, 0.01 xTitles, 0.27 xSackos)
@@ -26,7 +26,7 @@ Total,Ben Lalor,ChiliStew-mlb,"Ben Lalor - ChiliStew (mlb)
 	-Right in the Posey 
 
  #9 (2017, pick #2, 93-150-9, -1.36 PF_z, 9 zStrength, 54 PF+, 8.5 xRank, 0.01 xTitles, 0.26 xSackos)
-	-I did it all for the Mookie ",10.0,5.0,87.4,133.5,10.1,395.16,,11.1,0.400,0.13,2.37,-1.15,18,9.0,1.0,0.361,-0.042,,,,,-1.06,16,66,,8 (2017 - 2025),0,0,0,3,1.3,699,1068,3161.28,,"I did it all for the Mookie
+	-I did it all for the Mookie ",10.1,5.0,86.0,134.7,10.0,377.57,,11.0,0.395,0.14,3.00,-1.24,16,9.3,0.8,0.350,-0.046,,,,,-1.06,16,63,,9 (2017 - 2026),0,0,0,3,1.3,774,1212,3398.16,,"I did it all for the Mookie
 Right in the Posey
 Bustiner Posey
 Snell Ya Later
@@ -35,7 +35,7 @@ Just The FIP
 Yard Sale"
 Total,Brian Martinez,ChiliStew-mlb,"Brian Martinez - ChiliStew (mlb)
 
-#n/a (2026, 66 draft_zStrength, 125-94-9, 0.23 PF_z, 59 zStrength, 107 PF+, 5.9 xRank, 0.06 xTitles, 0.00 xSackos)
+#6 (2026, 66 draft_zStrength, 125-94-9, 0.03 PF_z, 51 zStrength, 101 PF+, 6.5 xRank, 0.05 xTitles, 0.01 xSackos)
 	-Outta ammo 
 
  #6 (2025, 81 draft_zStrength, 129-105-6, 0.39 PF_z, 65 zStrength, 112 PF+, 5.4 xRank, 0.08 xTitles, 0.00 xSackos)
@@ -54,13 +54,13 @@ Total,Brian Martinez,ChiliStew-mlb,"Brian Martinez - ChiliStew (mlb)
 	-BAM SLAMS 
 
  #8 (2019, pick #5, 78-134-16, -1.42 PF_z, 8 zStrength, 58 PF+, 9.6 xRank, 0.01 xTitles, 0.29 xSackos)
-	-BAM SLAMS ",3.8,4.5,116.0,98.5,11.5,657.46,,56.8,0.539,0.68,0.30,0.37,64,5.3,-1.4,0.544,0.007,,,,,0.65,73,109,,6 (2019 - 2025),5,4,1,0,2.4,696,591,3944.74,,"BAM SLAMS
+	-BAM SLAMS ",4.1,4.5,117.3,97.9,11.1,650.23,,57.0,0.543,0.73,0.31,0.32,62,5.4,-1.3,0.538,-0.003,,,,,0.59,71,108,,7 (2019 - 2026),6,4,1,0,2.4,821,685,4551.64,,"BAM SLAMS
 Morning Woodruff
 Ragans set to Stun
 Outta ammo"
 Total,Bryan Jones,ChiliStew-mlb,"Bryan Jones - ChiliStew (mlb)
 
-#n/a (2026, 9 draft_zStrength, 112-103-13, -0.76 PF_z, 22 zStrength, 76 PF+, 8.6 xRank, 0.02 xTitles, 0.06 xSackos)
+#7 (2026, 9 draft_zStrength, 112-103-13, -0.70 PF_z, 24 zStrength, 78 PF+, 8.5 xRank, 0.02 xTitles, 0.05 xSackos)
 	-Acuna Matata 
 
  #10 (2025, 15 draft_zStrength, 100-128-12, -0.89 PF_z, 19 zStrength, 72 PF+, 9.0 xRank, 0.01 xTitles, 0.09 xSackos)
@@ -85,7 +85,7 @@ Total,Bryan Jones,ChiliStew-mlb,"Bryan Jones - ChiliStew (mlb)
 	-Put it in the Bumgarner 
 
  #4 (2017, pick #9, 139-104-9, 1.02 PF_z, 85 zStrength, 134 PF+, 3.1 xRank, 0.19 xTitles, 0.00 xSackos)
-	-Team Jones ",6.3,8.5,113.4,109.6,9.5,593.93,,50.0,0.508,0.61,0.80,-0.05,51,6.2,0.0,0.494,-0.012,,,,,-0.81,22,98,,8 (2017 - 2025),4,2,0,1,3.0,907,877,4751.40,,"Team Jones
+	-Team Jones ",6.3,8.5,113.2,108.9,9.9,580.17,,50.0,0.509,0.63,0.86,-0.12,48,6.5,-0.1,0.485,-0.023,,,,,-0.94,19,96,,9 (2017 - 2026),4,2,0,1,2.8,1019,980,5221.57,,"Team Jones
 Put it in the Bumgarner
 Lucroy's La Croix
 Magical Harp
@@ -95,7 +95,7 @@ Turner Over
 Acuna Matata"
 Total,Connor Reed,ChiliStew-mlb,"Connor Reed - ChiliStew (mlb)
 
-#n/a (2026, 97 draft_zStrength, 133-93-2, 1.37 PF_z, 91 zStrength, 143 PF+, 2.8 xRank, 0.28 xTitles, 0.00 xSackos)
+#1 (2026, 97 draft_zStrength, 133-93-2, 1.25 PF_z, 89 zStrength, 139 PF+, 3.1 xRank, 0.25 xTitles, 0.00 xSackos)
 	-JG Wentworth (877-CASH-NOW) 
 
  #1 (2025, 85 draft_zStrength, 137-94-9, 1.40 PF_z, 92 zStrength, 144 PF+, 2.7 xRank, 0.29 xTitles, 0.00 xSackos)
@@ -105,7 +105,7 @@ Total,Connor Reed,ChiliStew-mlb,"Connor Reed - ChiliStew (mlb)
 	-JG Wentworth (877-CASH-NOW) 
 
  #6 (2023, 98 draft_zStrength, 120-103-5, 1.11 PF_z, 87 zStrength, 131 PF+, 3.5 xRank, 0.21 xTitles, 0.00 xSackos)
-	-Hungry Grab A Snickers ",4.0,,126.0,103.0,7.0,831.79,,41.0,0.549,0.75,0.00,1.26,89,3.1,0.9,0.652,0.103,,,,,1.58,92,137,,3 (2023 - 2025),3,1,1,0,2.2,378,309,2495.37,,"Hungry Grab A Snickers
+	-Hungry Grab A Snickers ",3.3,,127.8,100.5,5.8,832.97,,40.3,0.558,0.99,0.00,1.26,89,3.1,0.2,0.652,0.093,,,,,1.64,94,138,,4 (2023 - 2026),4,2,2,0,2.3,511,402,3331.87,,"Hungry Grab A Snickers
 JG Wentworth (877-CASH-NOW)"
 Total,Daniel Bolanos,ChiliStew-mlb,"Daniel Bolanos - ChiliStew (mlb)
 
@@ -116,7 +116,7 @@ Total,Daniel Bolanos,ChiliStew-mlb,"Daniel Bolanos - ChiliStew (mlb)
 	-Dingers And Stingers ",9.5,6.5,113.0,127.0,12.0,554.25,,10.0,0.472,0.06,0.03,-0.25,40,6.0,3.5,0.469,-0.003,,,,,,,92,,2 (2017 - 2018),0,0,0,1,0.5,226,254,1108.50,,Dingers And Stingers
 Total,Erik Bagley,ChiliStew-mlb,"Erik Bagley - ChiliStew (mlb)
 
-#n/a (2026, 71 draft_zStrength, 94-119-15, -0.40 PF_z, 34 zStrength, 87 PF+, 7.6 xRank, 0.03 xTitles, 0.02 xSackos)
+#10 (2026, 71 draft_zStrength, 94-119-15, -0.41 PF_z, 34 zStrength, 87 PF+, 7.6 xRank, 0.03 xTitles, 0.03 xSackos)
 	-Schlitt for Breakfast 
 
  #4 (2025, 87 draft_zStrength, 133-96-11, 1.72 PF_z, 96 zStrength, 154 PF+, 1.8 xRank, 0.40 xTitles, 0.00 xSackos)
@@ -141,7 +141,7 @@ Total,Erik Bagley,ChiliStew-mlb,"Erik Bagley - ChiliStew (mlb)
 	-The Dirty Sanchez 
 
  #3 (2017, pick #5, 147-100-5, 1.59 PF_z, 94 zStrength, 153 PF+, 1.8 xRank, 0.35 xTitles, 0.00 xSackos)
-	-The Dirty Sanchez ",4.5,5.0,122.5,98.5,10.0,725.00,,52.3,0.552,1.25,0.03,0.66,70,4.4,0.1,0.580,0.028,,,,,1.30,89,120,,8 (2017 - 2025),5,4,1,0,2.6,980,788,5799.98,,"The Dirty Sanchez
+	-The Dirty Sanchez ",5.1,5.0,119.3,100.8,10.6,702.83,,52.1,0.540,1.28,0.06,0.54,66,4.7,0.4,0.565,0.025,,,,,1.11,84,116,,9 (2017 - 2026),5,4,1,0,3.0,1074,907,6325.45,,"The Dirty Sanchez
 All Betts on Davis
 Dicks in Hand
 O'Doyle Rules
@@ -149,7 +149,7 @@ Moustache Striders
 Schlitt for Breakfast"
 Total,Erik Foster,ChiliStew-mlb,"Erik Foster - ChiliStew (mlb)
 
-#n/a (2026, 18 draft_zStrength, 73-148-7, -1.85 PF_z, 3 zStrength, 41 PF+, 11.6 xRank, 0.00 xTitles, 0.57 xSackos)
+#12 (2026, 18 draft_zStrength, 73-148-7, -1.87 PF_z, 3 zStrength, 42 PF+, 11.7 xRank, 0.00 xTitles, 0.58 xSackos)
 	-Garbage Pitch Kids 
 
  #8 (2025, 8 draft_zStrength, 86-143-11, -1.27 PF_z, 10 zStrength, 60 PF+, 10.0 xRank, 0.01 xTitles, 0.21 xSackos)
@@ -174,7 +174,7 @@ Total,Erik Foster,ChiliStew-mlb,"Erik Foster - ChiliStew (mlb)
 	-Yeli For MVP 
 
  #2 (2017, pick #10, 128-118-6, 0.30 PF_z, 62 zStrength, 110 PF+, 4.8 xRank, 0.07 xTitles, 0.00 xSackos)
-	-A Ray of K's ",4.4,8.5,113.6,110.0,8.9,620.32,,83.5,0.508,0.61,0.27,0.12,55,5.8,-1.4,0.515,0.005,,,,,-1.10,14,103,,8 (2017 - 2025),6,3,1,0,2.5,909,880,4962.56,,"A Ray of K's
+	-A Ray of K's ",5.2,8.5,109.1,114.2,8.7,579.31,,82.1,0.489,0.61,0.85,-0.10,50,6.5,-1.2,0.488,-0.002,,,,,-1.05,15,96,,9 (2017 - 2026),6,3,1,1,3.4,982,1028,5213.81,,"A Ray of K's
 Yeli For MVP
 OpBo Tacos
 Ya Like Jazz?
@@ -183,30 +183,30 @@ In My Anti-Closer Era
 Garbage Pitch Kids"
 Total,Geoffrey Wolken,ChiliStew-mlb,"Geoffrey Wolken - ChiliStew (mlb)
 
-#n/a (2026, 15 draft_zStrength, 126-96-6, 0.27 PF_z, 61 zStrength, 109 PF+, 5.8 xRank, 0.07 xTitles, 0.00 xSackos)
+#5 (2026, 15 draft_zStrength, 126-96-6, 0.42 PF_z, 66 zStrength, 113 PF+, 5.4 xRank, 0.09 xTitles, 0.00 xSackos)
 	-Burke's and Socks 
 
  #11 (2025, 20 draft_zStrength, 107-121-12, -0.52 PF_z, 30 zStrength, 84 PF+, 8.0 xRank, 0.02 xTitles, 0.03 xSackos)
 	-I Love Gold(schmidt) 
 
  #4 (2024, 31 draft_zStrength, 125-103-12, -0.19 PF_z, 43 zStrength, 95 PF+, 7.0 xRank, 0.04 xTitles, 0.01 xSackos)
-	-Junior! Western Bacon Chee ",7.5,,116.0,112.0,12.0,543.62,,51.0,0.508,0.06,0.05,-0.36,36,7.5,0.0,0.457,-0.051,,,,,-0.67,26,89,,2 (2024 - 2025),1,0,0,0,3.5,232,224,1087.23,,"Junior! Western Bacon Chee
+	-Junior! Western Bacon Chee ",6.7,,119.3,106.7,10.0,589.48,,50.3,0.527,0.14,0.05,-0.10,46,6.8,-0.1,0.488,-0.039,,,,,-0.79,22,97,,3 (2024 - 2026),2,0,0,0,3.1,358,320,1768.45,,"Junior! Western Bacon Chee
 I Love Gold(schmidt)
 Burke's and Socks"
 Total,Kevin Bagley,ChiliStew-mlb,"Kevin Bagley - ChiliStew (mlb)
 
-#n/a (2026, 83 draft_zStrength, 126-90-12, 0.11 PF_z, 54 zStrength, 103 PF+, 6.2 xRank, 0.05 xTitles, 0.01 xSackos)
+#2 (2026, 83 draft_zStrength, 126-90-12, 0.18 PF_z, 57 zStrength, 106 PF+, 6.0 xRank, 0.06 xTitles, 0.01 xSackos)
 	-The Raleigh Big Dumpers 
 
  #5 (2025, 58 draft_zStrength, 119-112-9, 0.64 PF_z, 74 zStrength, 120 PF+, 4.8 xRank, 0.11 xTitles, 0.00 xSackos)
 	-The Raleigh Big Dumpers 
 
  #10 (2024, 58 draft_zStrength, 113-112-15, 0.34 PF_z, 63 zStrength, 110 PF+, 5.6 xRank, 0.08 xTitles, 0.00 xSackos)
-	-I am the Trout ",7.5,,116.0,112.0,12.0,701.71,,36.5,0.508,0.19,0.00,0.49,69,5.2,2.3,0.560,0.051,,,,,0.21,58,115,,2 (2024 - 2025),1,0,0,0,2.5,232,224,1403.42,,"I am the Trout
+	-I am the Trout ",5.7,,119.3,104.7,12.0,679.54,,38.7,0.531,0.25,0.01,0.39,65,5.5,0.2,0.547,0.015,,,,,0.46,66,112,,3 (2024 - 2026),2,1,0,0,3.3,358,314,2038.63,,"I am the Trout
 The Raleigh Big Dumpers"
 Total,Kyle McReynolds,ChiliStew-mlb,"Kyle McReynolds - ChiliStew (mlb)
 
-#n/a (2026, 83 draft_zStrength, 112-104-12, 0.74 PF_z, 77 zStrength, 124 PF+, 4.5 xRank, 0.13 xTitles, 0.00 xSackos)
+#8 (2026, 83 draft_zStrength, 112-104-12, 0.69 PF_z, 75 zStrength, 122 PF+, 4.6 xRank, 0.12 xTitles, 0.00 xSackos)
 	-SheaButter DeezNutz 
 
  #2 (2025, 86 draft_zStrength, 129-98-13, 0.63 PF_z, 74 zStrength, 120 PF+, 4.8 xRank, 0.11 xTitles, 0.00 xSackos)
@@ -231,12 +231,12 @@ Total,Kyle McReynolds,ChiliStew-mlb,"Kyle McReynolds - ChiliStew (mlb)
 	-Ballsdeep Inpoon 
 
  #6 (2017, pick #8, 119-128-5, -0.79 PF_z, 21 zStrength, 73 PF+, 7.3 xRank, 0.01 xTitles, 0.07 xSackos)
-	-Ballsdeep Inpoon ",6.8,4.8,107.5,112.9,12.1,549.83,,45.6,0.488,0.51,0.97,-0.34,40,6.9,-0.2,0.459,-0.030,,,,,-0.22,42,91,,8 (2017 - 2025),5,2,1,2,3.9,860,903,4398.64,,"Ballsdeep Inpoon
+	-Ballsdeep Inpoon ",6.9,4.8,108.0,111.9,12.1,569.98,,45.3,0.492,0.63,0.97,-0.23,44,6.7,0.2,0.473,-0.019,,,,,0.07,52,94,,9 (2017 - 2026),5,2,1,2,3.7,972,1007,5129.82,,"Ballsdeep Inpoon
 CeaseAndDesist DeezNutz
 SheaButter DeezNutz"
 Total,Kyle Shipe,ChiliStew-mlb,"Kyle Shipe - ChiliStew (mlb)
 
-#n/a (2026, 69 draft_zStrength, 116-102-10, 0.83 PF_z, 80 zStrength, 126 PF+, 4.2 xRank, 0.15 xTitles, 0.00 xSackos)
+#4 (2026, 69 draft_zStrength, 116-102-10, 0.84 PF_z, 80 zStrength, 126 PF+, 4.2 xRank, 0.15 xTitles, 0.00 xSackos)
 	-Pham's PlMP Hand 
 
  #3 (2025, 61 draft_zStrength, 144-87-9, 0.38 PF_z, 65 zStrength, 112 PF+, 5.5 xRank, 0.08 xTitles, 0.00 xSackos)
@@ -255,7 +255,7 @@ Total,Kyle Shipe,ChiliStew-mlb,"Kyle Shipe - ChiliStew (mlb)
 	-Boner Jamz 
 
  #7 (2019, pick #7, 101-105-10, -0.35 PF_z, 36 zStrength, 90 PF+, 6.9 xRank, 0.03 xTitles, 0.02 xSackos)
-	-Boner Jamz ",5.8,6.0,111.0,103.0,10.0,574.29,,40.2,0.518,0.40,0.90,-0.26,46,6.9,-1.1,0.468,-0.050,,,,,0.17,57,95,,6 (2019 - 2025),3,2,0,0,3.0,666,618,3445.76,,"Boner Jamz
+	-Boner Jamz ",5.6,6.0,111.7,102.9,10.0,600.82,,41.3,0.520,0.54,0.91,-0.11,51,6.5,-1.0,0.487,-0.033,,,,,0.25,60,99,,7 (2019 - 2026),4,2,0,0,2.9,782,720,4205.71,,"Boner Jamz
 Pham's High Rollers
 Auto Drafters
 Pham's PIMP Hand
@@ -306,7 +306,7 @@ Rumz Team
 Freddy Got Jazzed"
 Total,Scott Dreier,ChiliStew-mlb,"Scott Dreier - ChiliStew (mlb)
 
-#n/a (2026, 60 draft_zStrength, 104-112-12, 0.74 PF_z, 77 zStrength, 123 PF+, 4.5 xRank, 0.13 xTitles, 0.00 xSackos)
+#9 (2026, 60 draft_zStrength, 104-112-12, 0.67 PF_z, 75 zStrength, 121 PF+, 4.7 xRank, 0.12 xTitles, 0.00 xSackos)
 	-Team Dreier 
 
  #7 (2025, 83 draft_zStrength, 103-127-10, 0.05 PF_z, 52 zStrength, 102 PF+, 6.4 xRank, 0.05 xTitles, 0.01 xSackos)
@@ -331,10 +331,10 @@ Total,Scott Dreier,ChiliStew-mlb,"Scott Dreier - ChiliStew (mlb)
 	-Team Dreier 
 
  #1 (2017, pick #6, 139-101-12, 1.40 PF_z, 92 zStrength, 147 PF+, 2.2 xRank, 0.29 xTitles, 0.00 xSackos)
-	-Team Dreier ",4.0,6.3,117.9,102.9,11.8,762.38,,47.8,0.532,1.49,0.01,0.93,80,3.7,0.3,0.612,0.081,,,,,1.04,85,126,,8 (2017 - 2025),6,4,2,0,2.4,943,823,6099.02,,Team Dreier
+	-Team Dreier ",4.6,6.3,116.3,103.9,11.8,758.41,,44.9,0.527,1.61,0.01,0.90,80,3.8,0.7,0.609,0.083,,,,,0.84,79,126,,9 (2017 - 2026),6,4,2,0,2.8,1047,935,6825.68,,Team Dreier
 Total,Troy Kato,ChiliStew-mlb,"Troy Kato - ChiliStew (mlb)
 
-#n/a (2026, 13 draft_zStrength, 114-105-9, 0.64 PF_z, 74 zStrength, 120 PF+, 4.8 xRank, 0.11 xTitles, 0.00 xSackos)
+#3 (2026, 13 draft_zStrength, 114-105-9, 0.83 PF_z, 80 zStrength, 126 PF+, 4.2 xRank, 0.15 xTitles, 0.00 xSackos)
 	-Tity Witty 
 
  #9 (2025, 22 draft_zStrength, 104-123-13, -1.15 PF_z, 12 zStrength, 64 PF+, 9.7 xRank, 0.01 xTitles, 0.16 xSackos)
@@ -359,22 +359,22 @@ Total,Troy Kato,ChiliStew-mlb,"Troy Kato - ChiliStew (mlb)
 	-Team Kato 
 
  #7 (2017, pick #7, 121-116-15, -0.03 PF_z, 49 zStrength, 99 PF+, 5.5 xRank, 0.04 xTitles, 0.01 xSackos)
-	-Team Kato ",5.9,4.8,110.0,108.1,12.9,583.32,,39.6,0.504,0.84,0.78,-0.10,46,6.5,-0.6,0.488,-0.017,,,,,-0.82,21,97,,8 (2017 - 2025),4,2,1,0,2.8,880,865,4666.59,,"Team Kato
+	-Team Kato ",5.6,4.8,110.4,107.8,12.4,602.70,,42.0,0.506,0.99,0.78,0.01,50,6.2,-0.7,0.501,-0.006,,,,,-0.90,19,100,,9 (2017 - 2026),5,3,1,0,2.8,994,970,5424.31,,"Team Kato
 Buehler's Day Off
 Droppin' Bohm's
 Tity Witty"
-2026,Ben Lalor,ChiliStew-mlb,,n/a,,75,144,9,236.82,,10,0.349,0.00,0.61,-1.91,3,11.8,,0.270,-0.079,,,,,-1.04,15,39,,,,,,,,,,,,Yard Sale
-2026,Brian Martinez,ChiliStew-mlb,,n/a,,125,94,9,645.03,,58,0.568,0.06,0.00,0.23,59,5.9,,0.527,-0.041,,,,,0.40,66,107,,,,,,,,,,,,Outta ammo
-2026,Bryan Jones,ChiliStew-mlb,,n/a,,112,103,13,455.84,,50,0.520,0.02,0.06,-0.76,22,8.6,,0.408,-0.112,,,,,-1.34,9,76,,,,,,,,,,,,Acuna Matata
-2026,Connor Reed,ChiliStew-mlb,,n/a,,133,93,2,863.22,,33,0.588,0.28,0.00,1.37,91,2.8,,0.665,0.077,,,,,1.82,97,143,,,,,,,,,,,,JG Wentworth (877-CASH-NOW)
-2026,Erik Bagley,ChiliStew-mlb,,n/a,,94,119,15,525.08,,51,0.445,0.03,0.02,-0.40,34,7.6,,0.452,0.006,,,,,0.56,71,87,,,,,,,,,,,,Schlitt for Breakfast
-2026,Erik Foster,ChiliStew-mlb,,n/a,,73,148,7,248.48,,69,0.336,0.00,0.57,-1.85,3,11.6,,0.277,-0.059,,,,,-0.91,18,41,,,,,,,,,,,,Garbage Pitch Kids
-2026,Geoffrey Wolken,ChiliStew-mlb,,n/a,,126,96,6,653.64,,49,0.566,0.07,0.00,0.27,61,5.8,,0.533,-0.033,,,,,-1.03,15,109,,,,,,,,,,,,Burke's and Socks
-2026,Kevin Bagley,ChiliStew-mlb,,n/a,,126,90,12,622.37,,33,0.579,0.05,0.01,0.11,54,6.2,,0.513,-0.066,,,,,0.97,83,103,,,,,,,,,,,,The Raleigh Big Dumpers
-2026,Kyle McReynolds,ChiliStew-mlb,,n/a,,112,104,12,744.05,,43,0.518,0.13,0.00,0.74,77,4.5,,0.590,0.072,,,,,0.95,83,124,,,,,,,,,,,,SheaButter DeezNutz
-2026,Kyle Shipe,ChiliStew-mlb,,n/a,,116,102,10,760.76,,48,0.531,0.15,0.00,0.83,80,4.2,,0.600,0.070,,,,,0.51,69,126,,,,,,,,,,,,Pham's PlMP Hand
-2026,Scott Dreier,ChiliStew-mlb,,n/a,,104,112,12,742.62,,22,0.483,0.13,0.00,0.74,77,4.5,,0.589,0.106,,,,,0.25,60,123,,,,,,,,,,,,Team Dreier
-2026,Troy Kato,ChiliStew-mlb,,n/a,,114,105,9,724.13,,58,0.520,0.11,0.00,0.64,74,4.8,,0.577,0.057,,,,,-1.15,13,120,,,,,,,,,,,,Tity Witty
+2026,Connor Reed,ChiliStew-mlb,,1,,133,93,2,836.50,,38,0.588,0.25,0.00,1.25,89,3.1,-2.1,0.651,0.063,,,,,1.82,97,139,,,1,1,1,0,,,,,,JG Wentworth (877-CASH-NOW)
+2026,Kevin Bagley,ChiliStew-mlb,,2,,126,90,12,635.21,,43,0.579,0.06,0.01,0.18,57,6.0,-4.0,0.522,-0.057,,,,,0.97,83,106,,,1,1,0,0,,,,,,The Raleigh Big Dumpers
+2026,Troy Kato,ChiliStew-mlb,,3,,114,105,9,757.72,,61,0.520,0.15,0.00,0.83,80,4.2,-1.2,0.600,0.081,,,,,-1.15,13,126,,,1,1,0,0,,,,,,Tity Witty
+2026,Kyle Shipe,ChiliStew-mlb,,4,,116,102,10,759.95,,48,0.531,0.15,0.00,0.84,80,4.2,-0.2,0.602,0.071,,,,,0.51,69,126,,,1,0,0,0,,,,,,Pham's PlMP Hand
+2026,Geoffrey Wolken,ChiliStew-mlb,,5,,126,96,6,681.22,,49,0.566,0.09,0.00,0.42,66,5.4,-0.4,0.551,-0.015,,,,,-1.03,15,113,,,1,0,0,0,,,,,,Burke's and Socks
+2026,Brian Martinez,ChiliStew-mlb,,6,,125,94,9,606.90,,58,0.568,0.05,0.01,0.03,51,6.5,-0.5,0.503,-0.065,,,,,0.40,66,101,,,1,0,0,0,,,,,,Outta ammo
+2026,Bryan Jones,ChiliStew-mlb,,7,,112,103,13,470.17,,50,0.520,0.02,0.05,-0.70,24,8.5,-1.5,0.416,-0.104,,,,,-1.34,9,78,,,0,0,0,0,,,,,,Acuna Matata
+2026,Kyle McReynolds,ChiliStew-mlb,,8,,112,104,12,731.18,,43,0.518,0.12,0.00,0.69,75,4.6,3.4,0.583,0.066,,,,,0.95,83,122,,,0,0,0,0,,,,,,SheaButter DeezNutz
+2026,Scott Dreier,ChiliStew-mlb,,9,,104,112,12,726.66,,22,0.483,0.12,0.00,0.67,75,4.7,4.3,0.580,0.098,,,,,0.25,60,121,,,0,0,0,0,,,,,,Team Dreier
+2026,Erik Bagley,ChiliStew-mlb,,10,,94,119,15,525.47,,51,0.445,0.03,0.03,-0.41,34,7.6,2.4,0.451,0.006,,,,,0.56,71,87,,,0,0,0,0,,,,,,Schlitt for Breakfast
+2026,Ben Lalor,ChiliStew-mlb,,11,,75,144,9,236.88,,10,0.349,0.00,0.63,-1.94,3,11.9,-0.9,0.266,-0.083,,,,,-1.04,15,39,,,0,0,0,0,,,,,,Yard Sale
+2026,Erik Foster,ChiliStew-mlb,,12,,73,148,7,251.25,,71,0.336,0.00,0.58,-1.87,3,11.7,0.3,0.275,-0.061,,,,,-0.91,18,42,,,0,0,0,1,,,,,,Garbage Pitch Kids
 2025,Connor Reed,ChiliStew-mlb,,1,,137,94,9,874.72,,41,0.590,0.29,0.00,1.40,92,2.7,-1.7,0.669,0.080,,,,,1.05,85,144,,,1,1,1,0,,,,,,JG Wentworth (877-CASH-NOW)
 2025,Kyle McReynolds,ChiliStew-mlb,,2,,129,98,13,727.71,,66,0.565,0.11,0.00,0.63,74,4.8,-2.8,0.576,0.012,,,,,1.09,86,120,,,1,1,0,0,,,,,,CeaseAndDesist DeezNutz
 2025,Kyle Shipe,ChiliStew-mlb,,3,,144,87,9,679.22,,61,0.619,0.08,0.00,0.38,65,5.5,-2.5,0.546,-0.073,,,,,0.27,61,112,,,1,1,0,0,,,,,,Pham's PIMP Hand
