@@ -6989,7 +6989,8 @@ Garret Forrester,ATL,reserve,if,0.700,XXX,,,Yes,N,2023-08-13,2023-08-23,snapshot
 Garret Forrester,ATL,reserve,if,0.700,XXX,,,,N,2024-02-19,2024-08-15,snapshot,807720,sa3022822,search
 Garret Forrester,WAS,reserve,if,0.700,XXX,,,,N,2025-02-09,current,snapshot,807720,sa3022822,search
 Michael Forret,BAL,reserve,p,0.700,XXX,,,Yes,N,2025-03-31,2025-09-01,snapshot,702650,sa3023479,search
-Michael Forret,BAL,reserve,p,0.700,XXX,,,,N,2026-02-06,current,snapshot,702650,sa3023479,search
+Michael Forret,BAL,reserve,p,0.700,XXX,,,,N,2026-02-06,2026-09-27,snapshot,702650,sa3023479,search
+Michael Forret,BAL,active,p,0.700,XXX,,,,Y,2026-09-28,current,snapshot,702650,sa3023479,search
 Logan Forsythe,ARI,,if,0.400,XXX,,,,N,2010-01-01,2010-01-01,snapshot,523253,7185,search
 Logan Forsythe,CHW,,if,0.400,XXX,,,,N,2011-01-01,2011-01-01,snapshot,523253,7185,search
 Logan Forsythe,TOR,,if,0.400,XXX,,,,N,2012-01-01,2013-01-01,snapshot,523253,7185,search
@@ -10886,7 +10887,8 @@ Termarr Johnson,HOU,,if,0.550,XXX,,,Yes,N,2022-07-24,2022-11-05,snapshot,702261,
 Termarr Johnson,HOU,,if,0.700,XXX,,,,N,2023-01-27,2023-03-13,snapshot,702261,sa3020214,search
 Termarr Johnson,HOU,reserve,if,0.700,XXX,,,,N,2023-03-22,current,snapshot,702261,sa3020214,search
 Ty Johnson,BAL,reserve,p,0.700,XXX,,,Yes,N,2025-03-20,2025-09-01,snapshot,694494,sa3023410,search
-Ty Johnson,BAL,reserve,p,0.700,XXX,,,,N,2026-02-06,current,snapshot,694494,sa3023410,search
+Ty Johnson,BAL,reserve,p,0.700,XXX,,,,N,2026-02-06,2026-09-27,snapshot,694494,sa3023410,search
+Ty Johnson,BAL,active,p,0.700,XXX,,,,Y,2026-09-28,current,snapshot,694494,sa3023410,search
 Tyler Johnson,CHW,,p,2.100,V,2009,,,Y,2009-01-01,2009-01-01,snapshot,656592,sa915688,search
 Tyler Johnson,CLE,,p,1.900,V,2023,Yes,Yes,Y,2021-04-04,2021-12-05,snapshot,656592,sa915688,search
 Tyler Johnson,CLE,,p,1.900,V,2023,Yes,,Y,2022-01-07,2023-02-24,snapshot,656592,sa915688,search
@@ -11120,7 +11122,7 @@ Tommy Kahnle,TOR,active,p,7.500,V,2024,,Yes,Y,2023-03-22,2023-08-23,snapshot,592
 Tommy Kahnle,TOR,active,p,7.500,V,2024,,,Y,2024-02-19,2024-08-15,snapshot,592454,11384,search
 Tommy Kahnle,TOR,active,p,1.950,V,2026,,Yes,Y,2025-04-11,2025-09-01,snapshot,592454,11384,search
 Tommy Kahnle,TOR,active,p,1.950,V,2026,,,Y,2026-02-06,2026-04-24,snapshot,592454,11384,search
-Tommy Kahnle,TOR,reserve,p,1.950,V,2026,,,Y,2026-07-10,current,snapshot,592454,11384,search
+Tommy Kahnle,TOR,reserve,p,1.950,V,2026,,,Y,2026-07-10,2026-09-27,snapshot,592454,11384,search
 Ryan Kalish,CHW,,of,0.400,XXX,,,,N,2009-01-01,2010-01-01,snapshot,501888,6962,search
 Ryan Kalish,OAK,,of,0.400,XXX,,,,N,2011-01-01,2013-01-01,snapshot,501888,6962,search
 Ryan Kalish,OAK,,of,0.500,XXX,,,,N,2014-01-01,2015-01-01,snapshot,501888,6962,search
@@ -11758,7 +11760,8 @@ Adam Kolarek,CHW,,p,3.000,V,2022,Yes,,Y,2022-01-07,2022-03-27,snapshot,592473,10
 Adam Kolarek,LAA,,p,3.000,V,2022,Yes,,Y,2022-04-03,2022-10-01,snapshot,592473,10843,search
 Adam Kolarek,PIT,,p,3.000,V,2022,Yes,,Y,2022-10-10,2022-11-05,snapshot,592473,10843,search
 Stephen Kolek,BAL,active,p,2.225,V,2025,Yes,,Y,2025-04-15,2026-02-06,snapshot,663568,21487,search
-Stephen Kolek,BAL,active,p,2.225,V,2026,,,Y,2026-03-13,current,snapshot,663568,21487,search
+Stephen Kolek,BAL,active,p,2.225,V,2026,,,Y,2026-03-13,2026-09-27,snapshot,663568,21487,search
+Stephen Kolek,ATL,active,p,2.225,V,2026,,,Y,2026-09-28,current,snapshot,663568,21487,search
 Tyler Kolek,TB,,p,0.500,XXX,,,,N,2015-01-01,2017-01-01,snapshot,656626,sa828660,search
 Tyler Kolek,PHI,,p,0.500,XXX,,,,N,2018-01-01,2019-11-15,snapshot,656626,sa828660,search
 Tyler Kolek,PHI,,p,0.550,XXX,,,,N,2020-01-01,2021-09-10,snapshot,656626,sa828660,search
@@ -13332,7 +13335,7 @@ Alec Marsh,TOR,,p,0.700,XXX,,,,N,2023-01-27,2023-03-13,snapshot,679525,27451,sea
 Alec Marsh,TOR,reserve,p,0.700,XXX,,,,N,2023-03-22,2025-07-09,snapshot,679525,27451,search
 Alec Marsh,TOR,active,p,0.700,XXX-G,,,,Y,2025-09-01,2025-09-01,snapshot,679525,27451,search
 Alec Marsh,TOR,active,p,0.910,2nd,,,,Y,2026-02-06,2026-03-24,snapshot,679525,27451,search
-Alec Marsh,TOR,reserve,p,0.910,2nd,,,,N,2026-04-04,current,snapshot,679525,27451,search
+Alec Marsh,TOR,reserve,p,0.910,2nd,,,,N,2026-04-04,2026-09-27,snapshot,679525,27451,search
 Brandon Marsh,CHC,,of,0.500,XXX,,,,N,2018-01-01,2019-11-15,snapshot,669016,20202,search
 Brandon Marsh,CHC,,of,0.550,XXX,,,,N,2020-01-01,2022-11-05,snapshot,669016,20202,search
 Brandon Marsh,CHC,,of,0.910,2nd,,,,N,2023-01-27,2023-03-13,snapshot,669016,20202,search
@@ -16188,7 +16191,7 @@ Glenn Otto,DET,,p,2.350,V,2023,Yes,,Y,2023-01-27,2023-03-13,snapshot,657248,2136
 James Outman,WAS,active,of,7.500,V,2029,Yes,Yes,Y,2023-03-22,2023-08-23,snapshot,681546,24770,search
 James Outman,WAS,active,of,7.500,V,2029,Yes,,Y,2024-02-19,2024-08-15,snapshot,681546,24770,search
 James Outman,ATL,active,of,7.500,V,2029,Yes,,Y,2025-02-09,2026-08-28,snapshot,681546,24770,search
-James Outman,TOR,active,of,7.500,V,2029,Yes,,Y,2026-08-29,current,snapshot,681546,24770,search
+James Outman,TOR,active,of,7.500,V,2029,Yes,,Y,2026-08-29,2026-09-27,snapshot,681546,24770,search
 Josh Outman,CLE,,SP,,,,,,,2007-07-01,2007-07-01,inferred_draft,489189,4004,search
 Josh Outman,MIN,,p,0.400,XXX,,,,N,2009-01-01,2012-01-01,snapshot,489189,4004,search
 Josh Outman,MIN,,p,0.600,2nd,,,,Y,2013-01-01,2013-01-01,snapshot,489189,4004,search
@@ -16411,7 +16414,8 @@ Isaac Paredes,CHW,active,if,16.047,CE,2028,,Y,Y,2026-04-04,current,snapshot,6706
 Kyren Paris,TOR,,if,0.500,XXX,,,Yes,N,2019-11-15,2019-11-15,snapshot,677347,26420,search
 Kyren Paris,TOR,,if,0.550,XXX,,,,N,2020-01-01,2022-11-05,snapshot,677347,26420,search
 Kyren Paris,TOR,,if,0.700,XXX,,,,N,2023-01-27,2023-03-13,snapshot,677347,26420,search
-Kyren Paris,TOR,reserve,if,0.700,XXX,,,,N,2023-03-22,current,snapshot,677347,26420,search
+Kyren Paris,TOR,reserve,if,0.700,XXX,,,,N,2023-03-22,2026-09-27,snapshot,677347,26420,search
+Kyren Paris,TB,reserve,if,0.700,XXX,,,,N,2026-09-28,current,snapshot,677347,26420,search
 Byung Ho Park,TB,,1B,,,,,,,2017-04-01,2017-04-01,inferred_fa,666560,18497,search
 Byung Ho Park,MIL,,if,1.000,V,2017,Yes,,Y,2018-01-01,2018-01-01,snapshot,666560,18497,search
 Chan Ho Park,CHW,,p,0.801,V,2010,Yes,,Y,2011-01-01,2011-01-01,snapshot,120221,1267,search
@@ -17152,7 +17156,7 @@ Michael Pineda,MIL,,p,1.600,V,2023,,Yes,Y,2022-04-24,2022-11-05,snapshot,501381,
 Michael Pineda,MIL,,p,1.600,V,2023,,,Y,2023-01-27,2023-03-13,snapshot,501381,5372,search
 Pedro Pineda,TOR,,of,0.550,XXX,,,Yes,N,2022-01-16,2022-11-05,snapshot,694191,sa3015703,search
 Pedro Pineda,TOR,,of,0.700,XXX,,,,N,2023-01-27,2023-03-13,snapshot,694191,sa3015703,search
-Pedro Pineda,TOR,reserve,of,0.700,XXX,,,,N,2023-03-22,current,snapshot,694191,sa3015703,search
+Pedro Pineda,TOR,reserve,of,0.700,XXX,,,,N,2023-03-22,2026-09-27,snapshot,694191,sa3015703,search
 Joel Piñeiro,MIL,,p,1.500,V,2009,Yes,,Y,2009-01-01,2010-01-01,snapshot,334492,1094,search
 Joel Piñeiro,MIL,,p,2.655,V,2012,Yes,,Y,2012-01-01,2013-01-01,snapshot,334492,1094,search
 Joel Piñeiro,CHC,,p,1.200,V,2014,Yes,,Y,2014-01-01,2014-01-01,snapshot,334492,1094,search
@@ -20772,7 +20776,8 @@ Brock Stewart,CHC,,p,0.500,1st,,,,Y,2019-01-01,2019-11-15,snapshot,592779,16727,
 Brock Stewart,CHC,,p,0.715,2nd,,,,Y,2020-01-01,2021-05-09,snapshot,592779,16727,search
 Brock Stewart,CHC,,p,0.715,2nd-G,,,,Y,2021-05-16,2021-12-05,snapshot,592779,16727,search
 Brock Stewart,BAL,active,p,6.125,V,2026,Yes,Yes,Y,2024-04-01,2024-08-15,snapshot,592779,16727,search
-Brock Stewart,BAL,active,p,6.125,V,2026,Yes,,Y,2025-02-09,current,snapshot,592779,16727,search
+Brock Stewart,BAL,active,p,6.125,V,2026,Yes,,Y,2025-02-09,2026-09-27,snapshot,592779,16727,search
+Brock Stewart,ATL,active,p,6.125,V,2026,Yes,,Y,2026-09-28,current,snapshot,592779,16727,search
 Carter Stewart,MIN,,p,0.500,XXX,,,,N,2019-01-01,2019-11-15,snapshot,678012,,search
 Carter Stewart,KC,,p,0.550,XXX,,,,N,2020-01-01,2022-11-05,snapshot,678012,,search
 Carter Stewart,KC,,p,0.700,XXX,,,,N,2023-01-27,2023-03-13,snapshot,678012,,search
