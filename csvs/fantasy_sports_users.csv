@@ -3158,40 +3158,52 @@ Chris Cawdrey,league_year,2013,nfl,Bitches,"Chris Cawdrey - Bitches (nfl), 2013
 	-Captain Lonestar ",1,1,1,2013,2013,0,0.00,0,0.00,0,0.00,1,1.00,0.0,0.00,0.4,0.35,0.0,8.00,0.00,4.0,0.133,-1.93,0.55,3,71,,,2,13,0,1554.14,1850.82,13
 Chris Stage,total,All,All,All,"Chris Stage - All (All)
 
-#n/a (BaseballIsBoring 2026, pick #9, 30 draft_zStrength, 8-14, -0.87 PF_z, 19 zStrength, 94 PF+, 8.9 xRank, 0.01 xTitles, 0.08 xSackos)
+#10 (BaseballIsBoring 2026, pick #9, 30 draft_zStrength, 8-14, -0.87 PF_z, 19 zStrength, 94 PF+, 8.9 xRank, 0.01 xTitles, 0.08 xSackos)
 	-The Bonus Babies 
 
  #9 (BaseballIsBoring 2025, pick #2, 6 draft_zStrength, 9-13, -0.51 PF_z, 31 zStrength, 94 PF+, 7.9 xRank, 0.02 xTitles, 0.03 xSackos)
-	-The Bonus Babies ",1,1,1,2025,2025,0,0.00,0,0.00,0,0.00,0,0.00,0.0,0.02,0.0,0.03,27.3,9.00,0.00,2.0,0.409,-0.51,-0.57,31,29,-1.52,6,,,,,,
+	-The Bonus Babies ",2,1,1,2025,2026,0,0.00,0,0.00,0,0.00,0,0.00,0.0,0.02,0.1,0.06,22.7,9.50,0.50,5.5,0.386,-0.69,-0.20,25,42,-1.02,18,,,,,,
 Chris Stage,sport,All,mlb,All,"Chris Stage - All (mlb)
 
-#n/a (BaseballIsBoring 2026, pick #9, 30 draft_zStrength, 8-14, -0.87 PF_z, 19 zStrength, 94 PF+, 8.9 xRank, 0.01 xTitles, 0.08 xSackos)
+#10 (BaseballIsBoring 2026, pick #9, 30 draft_zStrength, 8-14, -0.87 PF_z, 19 zStrength, 94 PF+, 8.9 xRank, 0.01 xTitles, 0.08 xSackos)
 	-The Bonus Babies 
 
  #9 (BaseballIsBoring 2025, pick #2, 6 draft_zStrength, 9-13, -0.51 PF_z, 31 zStrength, 94 PF+, 7.9 xRank, 0.02 xTitles, 0.03 xSackos)
-	-The Bonus Babies ",1,1,1,2025,2025,0,0.00,0,0.00,0,0.00,0,0.00,0.0,0.02,0.0,0.03,27.3,9.00,0.00,2.0,0.409,-0.51,-0.57,31,29,-1.52,6,,,,,,
+	-The Bonus Babies ",2,1,1,2025,2026,0,0.00,0,0.00,0,0.00,0,0.00,0.0,0.02,0.1,0.06,22.7,9.50,0.50,5.5,0.386,-0.69,-0.20,25,42,-1.02,18,,,,,,
+Chris Stage,year,2026,All,All,"Chris Stage - All (All), 2026
+
+#10 (BaseballIsBoring 2026, pick #9, 30 draft_zStrength, 8-14, -0.87 PF_z, 19 zStrength, 94 PF+, 8.9 xRank, 0.01 xTitles, 0.08 xSackos)
+	-The Bonus Babies ",1,1,1,2026,2026,0,0.00,0,0.00,0,0.00,0,0.00,0.0,0.01,0.1,0.08,18.2,10.00,0.00,9.0,0.364,-0.87,0.16,19,56,-0.52,30,,,,,,
 Chris Stage,year,2025,All,All,"Chris Stage - All (All), 2025
 
 #9 (BaseballIsBoring 2025, pick #2, 6 draft_zStrength, 9-13, -0.51 PF_z, 31 zStrength, 94 PF+, 7.9 xRank, 0.02 xTitles, 0.03 xSackos)
 	-The Bonus Babies ",1,1,1,2025,2025,0,0.00,0,0.00,0,0.00,0,0.00,0.0,0.02,0.0,0.03,27.3,9.00,0.00,2.0,0.409,-0.51,-0.57,31,29,-1.52,6,,,,,,
+Chris Stage,year_sport,2026,mlb,All,"Chris Stage - All (mlb), 2026
+
+#10 (BaseballIsBoring 2026, pick #9, 30 draft_zStrength, 8-14, -0.87 PF_z, 19 zStrength, 94 PF+, 8.9 xRank, 0.01 xTitles, 0.08 xSackos)
+	-The Bonus Babies ",1,1,1,2026,2026,0,0.00,0,0.00,0,0.00,0,0.00,0.0,0.01,0.1,0.08,18.2,10.00,0.00,9.0,0.364,-0.87,0.16,19,56,-0.52,30,,,,,,
 Chris Stage,year_sport,2025,mlb,All,"Chris Stage - All (mlb), 2025
 
 #9 (BaseballIsBoring 2025, pick #2, 6 draft_zStrength, 9-13, -0.51 PF_z, 31 zStrength, 94 PF+, 7.9 xRank, 0.02 xTitles, 0.03 xSackos)
 	-The Bonus Babies ",1,1,1,2025,2025,0,0.00,0,0.00,0,0.00,0,0.00,0.0,0.02,0.0,0.03,27.3,9.00,0.00,2.0,0.409,-0.51,-0.57,31,29,-1.52,6,,,,,,
 Chris Stage,league,All,mlb,BaseballIsBoring,"Chris Stage - BaseballIsBoring (mlb)
 
-#n/a (2026, pick #9, 30 draft_zStrength, 8-14, -0.87 PF_z, 19 zStrength, 94 PF+, 8.9 xRank, 0.01 xTitles, 0.08 xSackos)
+#10 (2026, pick #9, 30 draft_zStrength, 8-14, -0.87 PF_z, 19 zStrength, 94 PF+, 8.9 xRank, 0.01 xTitles, 0.08 xSackos)
 	-The Bonus Babies 
 
  #9 (2025, pick #2, 6 draft_zStrength, 9-13, -0.51 PF_z, 31 zStrength, 94 PF+, 7.9 xRank, 0.02 xTitles, 0.03 xSackos)
-	-The Bonus Babies ",1,1,1,2025,2025,0,0.00,0,0.00,0,0.00,0,0.00,0.0,0.02,0.0,0.03,27.3,9.00,0.00,2.0,0.409,-0.51,-0.57,31,29,-1.52,6,9,13,0,19805.07,20823.97,
+	-The Bonus Babies ",2,1,1,2025,2026,0,0.00,0,0.00,0,0.00,0,0.00,0.0,0.02,0.1,0.06,22.7,9.50,0.50,5.5,0.386,-0.69,-0.20,25,42,-1.02,18,17,27,0,39464.70,41950.27,
+Chris Stage,league_year,2026,mlb,BaseballIsBoring,"Chris Stage - BaseballIsBoring (mlb), 2026
+
+#10 (2026, pick #9, 30 draft_zStrength, 8-14, -0.87 PF_z, 19 zStrength, 94 PF+, 8.9 xRank, 0.01 xTitles, 0.08 xSackos)
+	-The Bonus Babies ",1,1,1,2026,2026,0,0.00,0,0.00,0,0.00,0,0.00,0.0,0.01,0.1,0.08,18.2,10.00,0.00,9.0,0.364,-0.87,0.16,19,56,-0.52,30,8,14,0,19659.63,21126.30,
 Chris Stage,league_year,2025,mlb,BaseballIsBoring,"Chris Stage - BaseballIsBoring (mlb), 2025
 
 #9 (2025, pick #2, 6 draft_zStrength, 9-13, -0.51 PF_z, 31 zStrength, 94 PF+, 7.9 xRank, 0.02 xTitles, 0.03 xSackos)
 	-The Bonus Babies ",1,1,1,2025,2025,0,0.00,0,0.00,0,0.00,0,0.00,0.0,0.02,0.0,0.03,27.3,9.00,0.00,2.0,0.409,-0.51,-0.57,31,29,-1.52,6,9,13,0,19805.07,20823.97,
 Chris Sutherland,total,All,All,All,"Chris Sutherland - All (All)
 
-#n/a (BaseballIsBoring 2026, pick #8, 24 draft_zStrength, 13-9, 0.55 PF_z, 71 zStrength, 104 PF+, 5.0 xRank, 0.10 xTitles, 0.00 xSackos)
+#4 (BaseballIsBoring 2026, pick #8, 24 draft_zStrength, 13-9, 0.55 PF_z, 71 zStrength, 104 PF+, 5.0 xRank, 0.10 xTitles, 0.00 xSackos)
 	-chrisbsuth 
 
  #8 (BaseballIsBoring 2025, pick #3, 37 draft_zStrength, 9-13, -0.27 PF_z, 39 zStrength, 97 PF+, 7.3 xRank, 0.03 xTitles, 0.02 xSackos)
@@ -3204,10 +3216,10 @@ Chris Sutherland,total,All,All,All,"Chris Sutherland - All (All)
 	-Team Thunder Thighs 
 
  #12 (BallNightLong 2022, 19 draft_zStrength, 85-116-9, -1.26 PF_z, 10 zStrength, 77 PF+, 10.0 xRank, 0.01 xTitles, 0.21 xSackos)
-	-Team Thunder Thighs ",4,2,1,2022,2025,1,0.25,0,0.00,0,0.00,1,0.25,0.1,0.02,0.4,0.10,20.1,10.25,2.28,3.0,0.437,-0.65,0.03,29,51,-0.83,22,,,,,,
+	-Team Thunder Thighs ",5,2,1,2022,2026,2,0.40,0,0.00,0,0.00,1,0.20,0.2,0.04,0.4,0.08,30.6,9.00,3.22,5.5,0.468,-0.41,0.22,37,59,-0.80,22,,,,,,
 Chris Sutherland,sport,All,mlb,All,"Chris Sutherland - All (mlb)
 
-#n/a (BaseballIsBoring 2026, pick #8, 24 draft_zStrength, 13-9, 0.55 PF_z, 71 zStrength, 104 PF+, 5.0 xRank, 0.10 xTitles, 0.00 xSackos)
+#4 (BaseballIsBoring 2026, pick #8, 24 draft_zStrength, 13-9, 0.55 PF_z, 71 zStrength, 104 PF+, 5.0 xRank, 0.10 xTitles, 0.00 xSackos)
 	-chrisbsuth 
 
  #8 (BaseballIsBoring 2025, pick #3, 37 draft_zStrength, 9-13, -0.27 PF_z, 39 zStrength, 97 PF+, 7.3 xRank, 0.03 xTitles, 0.02 xSackos)
@@ -3220,7 +3232,11 @@ Chris Sutherland,sport,All,mlb,All,"Chris Sutherland - All (mlb)
 	-Team Thunder Thighs 
 
  #12 (BallNightLong 2022, 19 draft_zStrength, 85-116-9, -1.26 PF_z, 10 zStrength, 77 PF+, 10.0 xRank, 0.01 xTitles, 0.21 xSackos)
-	-Team Thunder Thighs ",4,2,1,2022,2025,1,0.25,0,0.00,0,0.00,1,0.25,0.1,0.02,0.4,0.10,20.1,10.25,2.28,3.0,0.437,-0.65,0.03,29,51,-0.83,22,,,,,,
+	-Team Thunder Thighs ",5,2,1,2022,2026,2,0.40,0,0.00,0,0.00,1,0.20,0.2,0.04,0.4,0.08,30.6,9.00,3.22,5.5,0.468,-0.41,0.22,37,59,-0.80,22,,,,,,
+Chris Sutherland,year,2026,All,All,"Chris Sutherland - All (All), 2026
+
+#4 (BaseballIsBoring 2026, pick #8, 24 draft_zStrength, 13-9, 0.55 PF_z, 71 zStrength, 104 PF+, 5.0 xRank, 0.10 xTitles, 0.00 xSackos)
+	-chrisbsuth ",1,1,1,2026,2026,1,1.00,0,0.00,0,0.00,0,0.00,0.1,0.10,0.0,0.00,72.7,4.00,0.00,8.0,0.591,0.55,0.42,71,66,-0.71,24,,,,,,
 Chris Sutherland,year,2025,All,All,"Chris Sutherland - All (All), 2025
 
 #8 (BaseballIsBoring 2025, pick #3, 37 draft_zStrength, 9-13, -0.27 PF_z, 39 zStrength, 97 PF+, 7.3 xRank, 0.03 xTitles, 0.02 xSackos)
@@ -3237,6 +3253,10 @@ Chris Sutherland,year,2022,All,All,"Chris Sutherland - All (All), 2022
 
 #12 (BallNightLong 2022, 19 draft_zStrength, 85-116-9, -1.26 PF_z, 10 zStrength, 77 PF+, 10.0 xRank, 0.01 xTitles, 0.21 xSackos)
 	-Team Thunder Thighs ",1,1,1,2022,2022,0,0.00,0,0.00,0,0.00,1,1.00,0.0,0.01,0.2,0.21,0.0,12.00,0.00,,0.426,-1.26,,10,,-0.87,19,,,,,,
+Chris Sutherland,year_sport,2026,mlb,All,"Chris Sutherland - All (mlb), 2026
+
+#4 (BaseballIsBoring 2026, pick #8, 24 draft_zStrength, 13-9, 0.55 PF_z, 71 zStrength, 104 PF+, 5.0 xRank, 0.10 xTitles, 0.00 xSackos)
+	-chrisbsuth ",1,1,1,2026,2026,1,1.00,0,0.00,0,0.00,0,0.00,0.1,0.10,0.0,0.00,72.7,4.00,0.00,8.0,0.591,0.55,0.42,71,66,-0.71,24,,,,,,
 Chris Sutherland,year_sport,2025,mlb,All,"Chris Sutherland - All (mlb), 2025
 
 #8 (BaseballIsBoring 2025, pick #3, 37 draft_zStrength, 9-13, -0.27 PF_z, 39 zStrength, 97 PF+, 7.3 xRank, 0.03 xTitles, 0.02 xSackos)
@@ -3265,11 +3285,15 @@ Chris Sutherland,league,All,mlb,BallNightLong,"Chris Sutherland - BallNightLong 
 	-Team Thunder Thighs ",3,1,1,2022,2024,1,0.33,0,0.00,0,0.00,1,0.33,0.1,0.02,0.4,0.12,14.7,11.00,2.16,,0.446,-0.77,,25,,-0.99,17,278,347,35,1188.79,,90
 Chris Sutherland,league,All,mlb,BaseballIsBoring,"Chris Sutherland - BaseballIsBoring (mlb)
 
-#n/a (2026, pick #8, 24 draft_zStrength, 13-9, 0.55 PF_z, 71 zStrength, 104 PF+, 5.0 xRank, 0.10 xTitles, 0.00 xSackos)
+#4 (2026, pick #8, 24 draft_zStrength, 13-9, 0.55 PF_z, 71 zStrength, 104 PF+, 5.0 xRank, 0.10 xTitles, 0.00 xSackos)
 	-chrisbsuth 
 
  #8 (2025, pick #3, 37 draft_zStrength, 9-13, -0.27 PF_z, 39 zStrength, 97 PF+, 7.3 xRank, 0.03 xTitles, 0.02 xSackos)
-	-chrisbsuth ",1,1,1,2025,2025,0,0.00,0,0.00,0,0.00,0,0.00,0.0,0.03,0.0,0.02,36.4,8.00,0.00,3.0,0.409,-0.27,0.03,39,51,-0.32,37,9,13,0,20347.47,21053.74,
+	-chrisbsuth ",2,1,1,2025,2026,1,0.50,0,0.00,0,0.00,0,0.00,0.1,0.07,0.0,0.01,54.5,6.00,2.00,5.5,0.500,0.14,0.22,55,59,-0.52,31,22,22,0,41999.44,42228.21,
+Chris Sutherland,league_year,2026,mlb,BaseballIsBoring,"Chris Sutherland - BaseballIsBoring (mlb), 2026
+
+#4 (2026, pick #8, 24 draft_zStrength, 13-9, 0.55 PF_z, 71 zStrength, 104 PF+, 5.0 xRank, 0.10 xTitles, 0.00 xSackos)
+	-chrisbsuth ",1,1,1,2026,2026,1,1.00,0,0.00,0,0.00,0,0.00,0.1,0.10,0.0,0.00,72.7,4.00,0.00,8.0,0.591,0.55,0.42,71,66,-0.71,24,13,9,0,21651.97,21174.47,
 Chris Sutherland,league_year,2025,mlb,BaseballIsBoring,"Chris Sutherland - BaseballIsBoring (mlb), 2025
 
 #8 (2025, pick #3, 37 draft_zStrength, 9-13, -0.27 PF_z, 39 zStrength, 97 PF+, 7.3 xRank, 0.03 xTitles, 0.02 xSackos)
@@ -3288,7 +3312,7 @@ Chris Sutherland,league_year,2022,mlb,BallNightLong,"Chris Sutherland - BallNigh
 	-Team Thunder Thighs ",1,1,1,2022,2022,0,0.00,0,0.00,0,0.00,1,1.00,0.0,0.01,0.2,0.21,0.0,12.00,0.00,,0.426,-1.26,,10,,-0.87,19,85,116,9,383.97,,51
 Colton Way,total,All,All,All,"Colton Way - All (All)
 
-#n/a (BaseballIsBoring 2026, pick #7, 34 draft_zStrength, 9-13, -0.25 PF_z, 40 zStrength, 98 PF+, 7.2 xRank, 0.03 xTitles, 0.02 xSackos)
+#9 (BaseballIsBoring 2026, pick #7, 34 draft_zStrength, 9-13, -0.25 PF_z, 40 zStrength, 98 PF+, 7.2 xRank, 0.03 xTitles, 0.02 xSackos)
 	-Torpedo Bats 
 
  #7 (BaseballIsBoring 2025, pick #12, 48 draft_zStrength, 12-10, 0.03 PF_z, 51 zStrength, 100 PF+, 6.5 xRank, 0.05 xTitles, 0.01 xSackos)
@@ -3367,10 +3391,10 @@ Colton Way,total,All,All,All,"Colton Way - All (All)
 	-Colton Way 
 
  #2 (Bitches 2013, pick #1, 10-5, 0.48 PF_z, 68 zStrength, 103 PF+, 3.6 xRank, 0.08 xTitles, 0.03 xSackos)
-	-The Dretones ",26,2,2,2013,2025,14,0.54,10.5,0.40,4,0.15,1,0.04,2.0,0.08,0.6,0.02,64.7,4.59,3.10,6.6,0.584,0.37,-0.10,62,46,0.26,59,,,,,,
+	-The Dretones ",27,2,2,2013,2026,14,0.52,10.5,0.39,4,0.15,1,0.04,2.1,0.08,0.6,0.02,63.2,4.77,3.16,6.6,0.576,0.34,-0.13,61,46,0.19,57,,,,,,
 Colton Way,sport,All,mlb,All,"Colton Way - All (mlb)
 
-#n/a (BaseballIsBoring 2026, pick #7, 34 draft_zStrength, 9-13, -0.25 PF_z, 40 zStrength, 98 PF+, 7.2 xRank, 0.03 xTitles, 0.02 xSackos)
+#9 (BaseballIsBoring 2026, pick #7, 34 draft_zStrength, 9-13, -0.25 PF_z, 40 zStrength, 98 PF+, 7.2 xRank, 0.03 xTitles, 0.02 xSackos)
 	-Torpedo Bats 
 
  #7 (BaseballIsBoring 2025, pick #12, 48 draft_zStrength, 12-10, 0.03 PF_z, 51 zStrength, 100 PF+, 6.5 xRank, 0.05 xTitles, 0.01 xSackos)
@@ -3410,7 +3434,7 @@ Colton Way,sport,All,mlb,All,"Colton Way - All (mlb)
 	-Colton Way 
 
  # (BaseballIsBoring 2013, ,  PF_z,  zStrength,  PF+,  xRank,  xTitles,  xSackos)
-	-Colton Way ",13,1,1,2013,2025,5,0.38,4.5,0.35,3,0.23,0,0.00,0.5,0.04,0.1,0.00,67.4,4.15,2.61,8.1,0.557,0.16,-0.34,56,37,0.00,50,,,,,,
+	-Colton Way ",14,1,1,2013,2026,5,0.36,4.5,0.32,3,0.21,0,0.00,0.6,0.04,0.1,0.01,63.8,4.59,2.85,8.0,0.541,0.11,-0.37,54,36,-0.10,46,,,,,,
 Colton Way,sport,All,nfl,All,"Colton Way - All (nfl)
 
 #6 (Bitches 2025, pick #3, 82 draft_zStrength, 7-7, 0.78 PF_z, 78 zStrength, 106 PF+, 4.6 xRank, 0.13 xTitles, 0.02 xSackos)
@@ -3451,6 +3475,10 @@ Colton Way,sport,All,nfl,All,"Colton Way - All (nfl)
 
  #2 (Bitches 2013, pick #1, 10-5, 0.48 PF_z, 68 zStrength, 103 PF+, 3.6 xRank, 0.08 xTitles, 0.03 xSackos)
 	-The Dretones ",13,1,1,2013,2025,9,0.69,6,0.46,1,0.08,1,0.08,1.5,0.12,0.5,0.04,62.7,4.92,3.38,5.7,0.600,0.50,0.04,66,52,0.38,64,,,,,,
+Colton Way,year,2026,All,All,"Colton Way - All (All), 2026
+
+#9 (BaseballIsBoring 2026, pick #7, 34 draft_zStrength, 9-13, -0.25 PF_z, 40 zStrength, 98 PF+, 7.2 xRank, 0.03 xTitles, 0.02 xSackos)
+	-Torpedo Bats ",1,1,1,2026,2026,0,0.00,0,0.00,0,0.00,0,0.00,0.0,0.03,0.0,0.02,27.3,9.00,0.00,7.0,0.409,-0.25,-0.58,40,28,-0.41,34,,,,,,
 Colton Way,year,2025,All,All,"Colton Way - All (All), 2025
 
 #7 (BaseballIsBoring 2025, pick #12, 48 draft_zStrength, 12-10, 0.03 PF_z, 51 zStrength, 100 PF+, 6.5 xRank, 0.05 xTitles, 0.01 xSackos)
@@ -3542,6 +3570,10 @@ Colton Way,year,2013,All,All,"Colton Way - All (All), 2013
 
  #2 (Bitches 2013, pick #1, 10-5, 0.48 PF_z, 68 zStrength, 103 PF+, 3.6 xRank, 0.08 xTitles, 0.03 xSackos)
 	-The Dretones ",2,2,2,2013,2013,1,0.50,1,0.50,0,0.00,0,0.00,0.1,0.04,0.0,0.02,85.7,2.00,0.00,1.0,0.667,0.48,-0.68,68,25,,,,,,,,
+Colton Way,year_sport,2026,mlb,All,"Colton Way - All (mlb), 2026
+
+#9 (BaseballIsBoring 2026, pick #7, 34 draft_zStrength, 9-13, -0.25 PF_z, 40 zStrength, 98 PF+, 7.2 xRank, 0.03 xTitles, 0.02 xSackos)
+	-Torpedo Bats ",1,1,1,2026,2026,0,0.00,0,0.00,0,0.00,0,0.00,0.0,0.03,0.0,0.02,27.3,9.00,0.00,7.0,0.409,-0.25,-0.58,40,28,-0.41,34,,,,,,
 Colton Way,year_sport,2025,mlb,All,"Colton Way - All (mlb), 2025
 
 #7 (BaseballIsBoring 2025, pick #12, 48 draft_zStrength, 12-10, 0.03 PF_z, 51 zStrength, 100 PF+, 6.5 xRank, 0.05 xTitles, 0.01 xSackos)
@@ -3648,7 +3680,7 @@ Colton Way,year_sport,2013,nfl,All,"Colton Way - All (nfl), 2013
 	-The Dretones ",1,1,1,2013,2013,1,1.00,1,1.00,0,0.00,0,0.00,0.1,0.08,0.0,0.03,85.7,2.00,0.00,1.0,0.667,0.48,-0.68,68,25,,,,,,,,
 Colton Way,league,All,mlb,BaseballIsBoring,"Colton Way - BaseballIsBoring (mlb)
 
-#n/a (2026, pick #7, 34 draft_zStrength, 9-13, -0.25 PF_z, 40 zStrength, 98 PF+, 7.2 xRank, 0.03 xTitles, 0.02 xSackos)
+#9 (2026, pick #7, 34 draft_zStrength, 9-13, -0.25 PF_z, 40 zStrength, 98 PF+, 7.2 xRank, 0.03 xTitles, 0.02 xSackos)
 	-Torpedo Bats 
 
  #7 (2025, pick #12, 48 draft_zStrength, 12-10, 0.03 PF_z, 51 zStrength, 100 PF+, 6.5 xRank, 0.05 xTitles, 0.01 xSackos)
@@ -3688,7 +3720,7 @@ Colton Way,league,All,mlb,BaseballIsBoring,"Colton Way - BaseballIsBoring (mlb)
 	-Colton Way 
 
  # (2013, ,  PF_z,  zStrength,  PF+,  xRank,  xTitles,  xSackos)
-	-Colton Way ",13,1,1,2013,2025,5,0.38,4.5,0.35,3,0.23,0,0.00,0.5,0.04,0.1,0.00,67.4,4.15,2.61,8.1,0.557,0.16,-0.34,56,37,0.00,50,91,73,0,154587.80,149325.64,
+	-Colton Way ",14,1,1,2013,2026,5,0.36,4.5,0.32,3,0.21,0,0.00,0.6,0.04,0.1,0.01,63.8,4.59,2.85,8.0,0.541,0.11,-0.37,54,36,-0.10,46,100,86,0,175119.77,169733.67,
 Colton Way,league,All,nfl,Bitches,"Colton Way - Bitches (nfl)
 
 #6 (2025, pick #3, 82 draft_zStrength, 7-7, 0.78 PF_z, 78 zStrength, 106 PF+, 4.6 xRank, 0.13 xTitles, 0.02 xSackos)
@@ -3729,6 +3761,10 @@ Colton Way,league,All,nfl,Bitches,"Colton Way - Bitches (nfl)
 
  #2 (2013, pick #1, 10-5, 0.48 PF_z, 68 zStrength, 103 PF+, 3.6 xRank, 0.08 xTitles, 0.03 xSackos)
 	-The Dretones ",13,1,1,2013,2025,9,0.69,6,0.46,1,0.08,1,0.08,1.5,0.12,0.5,0.04,62.7,4.92,3.38,5.7,0.600,0.50,0.04,66,52,0.38,64,107,71,0,21968.22,20728.76,395
+Colton Way,league_year,2026,mlb,BaseballIsBoring,"Colton Way - BaseballIsBoring (mlb), 2026
+
+#9 (2026, pick #7, 34 draft_zStrength, 9-13, -0.25 PF_z, 40 zStrength, 98 PF+, 7.2 xRank, 0.03 xTitles, 0.02 xSackos)
+	-Torpedo Bats ",1,1,1,2026,2026,0,0.00,0,0.00,0,0.00,0,0.00,0.0,0.03,0.0,0.02,27.3,9.00,0.00,7.0,0.409,-0.25,-0.58,40,28,-0.41,34,9,13,0,20531.97,20408.03,
 Colton Way,league_year,2025,mlb,BaseballIsBoring,"Colton Way - BaseballIsBoring (mlb), 2025
 
 #7 (2025, pick #12, 48 draft_zStrength, 12-10, 0.03 PF_z, 51 zStrength, 100 PF+, 6.5 xRank, 0.05 xTitles, 0.01 xSackos)
@@ -3835,7 +3871,7 @@ Colton Way,league_year,2013,nfl,Bitches,"Colton Way - Bitches (nfl), 2013
 	-The Dretones ",1,1,1,2013,2013,1,1.00,1,1.00,0,0.00,0,0.00,0.1,0.08,0.0,0.03,85.7,2.00,0.00,1.0,0.667,0.48,-0.68,68,25,,,10,5,0,1820.08,1693.72,21
 Connor Reed,total,All,All,All,"Connor Reed - All (All)
 
-#n/a (BaseballIsBoring 2026, pick #3, 80 draft_zStrength, 14-8, 0.32 PF_z, 63 zStrength, 102 PF+, 5.7 xRank, 0.07 xTitles, 0.00 xSackos)
+#1 (BaseballIsBoring 2026, pick #3, 80 draft_zStrength, 14-8, 0.32 PF_z, 63 zStrength, 102 PF+, 5.7 xRank, 0.07 xTitles, 0.00 xSackos)
 	-The Reigning Champs 
 
  #n/a (Chili 2026, pick #5, 82 draft_zStrength, 2-0, 1.29 PF_z, 90 zStrength, 121 PF+, 3.3 xRank, 0.24 xTitles, 0.01 xSackos)
@@ -4088,10 +4124,10 @@ Connor Reed,total,All,All,All,"Connor Reed - All (All)
 	-Connor Reed 
 
  #5 (Bitches 2013, pick #8, 5-10, 0.78 PF_z, 78 zStrength, 105 PF+, 3.1 xRank, 0.13 xTitles, 0.02 xSackos)
-	-GloboGymPurpleCobras ",81,11,4,2013,2026,65,0.80,49,0.60,24.5,0.30,1,0.01,16.5,0.20,1.5,0.02,75.5,3.44,2.71,6.6,0.637,0.94,0.24,78,57,1.27,80,,,,,,
+	-GloboGymPurpleCobras ",82,11,4,2013,2026,66,0.80,50,0.61,25.5,0.31,1,0.01,16.5,0.20,1.5,0.02,75.8,3.40,2.71,6.5,0.637,0.93,0.24,77,56,1.26,80,,,,,,
 Connor Reed,sport,All,mlb,All,"Connor Reed - All (mlb)
 
-#n/a (BaseballIsBoring 2026, pick #3, 80 draft_zStrength, 14-8, 0.32 PF_z, 63 zStrength, 102 PF+, 5.7 xRank, 0.07 xTitles, 0.00 xSackos)
+#1 (BaseballIsBoring 2026, pick #3, 80 draft_zStrength, 14-8, 0.32 PF_z, 63 zStrength, 102 PF+, 5.7 xRank, 0.07 xTitles, 0.00 xSackos)
 	-The Reigning Champs 
 
  #1 (ChiliStew 2026, 97 draft_zStrength, 133-93-2, 1.25 PF_z, 89 zStrength, 139 PF+, 3.1 xRank, 0.25 xTitles, 0.00 xSackos)
@@ -4176,7 +4212,7 @@ Connor Reed,sport,All,mlb,All,"Connor Reed - All (mlb)
 	-Connor Reed 
 
  #1 (BaseballIsBoring 2013, ,  PF_z,  zStrength,  PF+,  xRank,  xTitles,  xSackos)
-	-Connor Reed ",28,4,1,2013,2026,23,0.82,16,0.57,9,0.32,0,0.00,5.9,0.21,0.0,0.00,82.2,2.79,1.91,5.9,0.667,1.19,0.20,85,57,1.98,96,,,,,,
+	-Connor Reed ",29,4,1,2013,2026,24,0.83,17,0.59,10,0.34,0,0.00,6.0,0.21,0.0,0.00,82.9,2.72,1.91,5.7,0.666,1.15,0.16,84,56,1.90,95,,,,,,
 Connor Reed,sport,All,nba,All,"Connor Reed - All (nba)
 
 #1 (Western 2026, 98 draft_zStrength, 11-9, 0.47 PF_z, 68 zStrength, 110 PF+, 2.6 xRank, 0.09 xTitles, 0.00 xSackos)
@@ -4350,7 +4386,7 @@ Connor Reed,sport,All,nhl,All,"Connor Reed - All (nhl)
 	-Matthew Abraham ",8,1,1,2017,2025,8,1.00,8,1.00,5,0.63,0,0.00,2.5,0.31,0.0,0.00,93.1,1.63,0.86,8.4,0.761,1.41,-0.12,90,47,1.54,82,,,,,,
 Connor Reed,year,2026,All,All,"Connor Reed - All (All), 2026
 
-#n/a (BaseballIsBoring 2026, pick #3, 80 draft_zStrength, 14-8, 0.32 PF_z, 63 zStrength, 102 PF+, 5.7 xRank, 0.07 xTitles, 0.00 xSackos)
+#1 (BaseballIsBoring 2026, pick #3, 80 draft_zStrength, 14-8, 0.32 PF_z, 63 zStrength, 102 PF+, 5.7 xRank, 0.07 xTitles, 0.00 xSackos)
 	-The Reigning Champs 
 
  #n/a (Chili 2026, pick #5, 82 draft_zStrength, 2-0, 1.29 PF_z, 90 zStrength, 121 PF+, 3.3 xRank, 0.24 xTitles, 0.01 xSackos)
@@ -4366,7 +4402,7 @@ Connor Reed,year,2026,All,All,"Connor Reed - All (All), 2026
 	-6 7 
 
  #1 (Western 2026, 98 draft_zStrength, 11-9, 0.47 PF_z, 68 zStrength, 110 PF+, 2.6 xRank, 0.09 xTitles, 0.00 xSackos)
-	-Young Larry Bird ",2,2,2,2026,2026,2,1.00,2,1.00,2,1.00,0,0.00,0.3,0.17,0.0,0.00,100.0,1.00,0.00,,0.569,0.86,1.49,79,93,1.92,97,,,,,,
+	-Young Larry Bird ",3,3,2,2026,2026,3,1.00,3,1.00,3,1.00,0,0.00,0.4,0.14,0.0,0.00,100.0,1.00,0.00,3.0,0.591,0.68,0.59,73,65,1.56,92,,,,,,
 Connor Reed,year,2025,All,All,"Connor Reed - All (All), 2025
 
 #3 (BaseballIsBoring 2025, pick #8, 89 draft_zStrength, 14-8, 0.63 PF_z, 74 zStrength, 107 PF+, 4.8 xRank, 0.11 xTitles, 0.00 xSackos)
@@ -4619,11 +4655,11 @@ Connor Reed,year,2013,All,All,"Connor Reed - All (All), 2013
 	-GloboGymPurpleCobras ",2,2,2,2013,2013,1,0.50,1,0.50,1,0.50,0,0.00,0.1,0.06,0.0,0.01,71.4,3.00,2.00,8.0,0.333,0.78,1.94,78,97,,,,,,,,
 Connor Reed,year_sport,2026,mlb,All,"Connor Reed - All (mlb), 2026
 
-#n/a (BaseballIsBoring 2026, pick #3, 80 draft_zStrength, 14-8, 0.32 PF_z, 63 zStrength, 102 PF+, 5.7 xRank, 0.07 xTitles, 0.00 xSackos)
+#1 (BaseballIsBoring 2026, pick #3, 80 draft_zStrength, 14-8, 0.32 PF_z, 63 zStrength, 102 PF+, 5.7 xRank, 0.07 xTitles, 0.00 xSackos)
 	-The Reigning Champs 
 
  #1 (ChiliStew 2026, 97 draft_zStrength, 133-93-2, 1.25 PF_z, 89 zStrength, 139 PF+, 3.1 xRank, 0.25 xTitles, 0.00 xSackos)
-	-JG Wentworth (877-CASH-NOW) ",1,1,1,2026,2026,1,1.00,1,1.00,1,1.00,0,0.00,0.2,0.25,0.0,0.00,100.0,1.00,0.00,,0.588,1.25,,89,,1.82,97,,,,,,
+	-JG Wentworth (877-CASH-NOW) ",2,2,1,2026,2026,2,1.00,2,1.00,2,1.00,0,0.00,0.3,0.16,0.0,0.00,100.0,1.00,0.00,3.0,0.612,0.79,-0.31,76,38,1.34,88,,,,,,
 Connor Reed,year_sport,2026,nba,All,"Connor Reed - All (nba), 2026
 
 #1 (Western 2026, 98 draft_zStrength, 11-9, 0.47 PF_z, 68 zStrength, 110 PF+, 2.6 xRank, 0.09 xTitles, 0.00 xSackos)
@@ -4920,7 +4956,7 @@ Connor Reed,league,All,mlb,BallNightLong,"Connor Reed - BallNightLong (mlb)
 	-Regis Philbin ",3,1,1,2022,2024,3,1.00,2,0.67,1,0.33,0,0.00,0.7,0.22,0.0,0.00,78.8,3.33,2.62,,0.540,1.02,,81,,2.56,99,344,290,26,2030.23,,174
 Connor Reed,league,All,mlb,BaseballIsBoring,"Connor Reed - BaseballIsBoring (mlb)
 
-#n/a (2026, pick #3, 80 draft_zStrength, 14-8, 0.32 PF_z, 63 zStrength, 102 PF+, 5.7 xRank, 0.07 xTitles, 0.00 xSackos)
+#1 (2026, pick #3, 80 draft_zStrength, 14-8, 0.32 PF_z, 63 zStrength, 102 PF+, 5.7 xRank, 0.07 xTitles, 0.00 xSackos)
 	-The Reigning Champs 
 
  #3 (2025, pick #8, 89 draft_zStrength, 14-8, 0.63 PF_z, 74 zStrength, 107 PF+, 4.8 xRank, 0.11 xTitles, 0.00 xSackos)
@@ -4960,7 +4996,7 @@ Connor Reed,league,All,mlb,BaseballIsBoring,"Connor Reed - BaseballIsBoring (mlb
 	-Connor Reed 
 
  #1 (2013, ,  PF_z,  zStrength,  PF+,  xRank,  xTitles,  xSackos)
-	-Connor Reed ",13,1,1,2013,2025,9,0.69,6,0.46,2,0.15,0,0.00,1.3,0.10,0.0,0.00,81.0,2.89,1.45,6.5,0.650,0.90,0.26,81,60,1.66,94,108,56,0,166311.14,151241.59,
+	-Connor Reed ",14,1,1,2013,2026,10,0.71,7,0.50,3,0.21,0,0.00,1.4,0.10,0.0,0.00,82.9,2.70,1.49,6.1,0.648,0.83,0.20,79,57,1.46,90,122,64,0,187637.61,171810.19,
 Connor Reed,league,All,mlb,ChiliStew,"Connor Reed - ChiliStew (mlb)
 
 #1 (2026, 97 draft_zStrength, 133-93-2, 1.25 PF_z, 89 zStrength, 139 PF+, 3.1 xRank, 0.25 xTitles, 0.00 xSackos)
@@ -5174,6 +5210,10 @@ Connor Reed,league,All,nhl,fuckingHockey,"Connor Reed - fuckingHockey (nhl)
 
  #1 (2017, pick #10, 18-3, 2.28 PF_z, 99 zStrength, 117 PF+, 0.2 xRank, 0.61 xTitles, 0.00 xSackos)
 	-Matthew Abraham ",8,1,1,2017,2025,8,1.00,8,1.00,5,0.63,0,0.00,2.5,0.31,0.0,0.00,93.1,1.63,0.86,8.4,0.761,1.41,-0.12,90,47,1.54,82,125,37,0,27718.40,23093.60,126
+Connor Reed,league_year,2026,mlb,BaseballIsBoring,"Connor Reed - BaseballIsBoring (mlb), 2026
+
+#1 (2026, pick #3, 80 draft_zStrength, 14-8, 0.32 PF_z, 63 zStrength, 102 PF+, 5.7 xRank, 0.07 xTitles, 0.00 xSackos)
+	-The Reigning Champs ",1,1,1,2026,2026,1,1.00,1,1.00,1,1.00,0,0.00,0.1,0.07,0.0,0.00,100.0,1.00,0.00,3.0,0.636,0.32,-0.31,63,38,0.85,80,14,8,0,21326.47,20568.60,
 Connor Reed,league_year,2026,mlb,ChiliStew,"Connor Reed - ChiliStew (mlb), 2026
 
 #1 (2026, 97 draft_zStrength, 133-93-2, 1.25 PF_z, 89 zStrength, 139 PF+, 3.1 xRank, 0.25 xTitles, 0.00 xSackos)
@@ -6824,7 +6864,7 @@ Derek VanRiper,league_year,2014,nfl,Chili,"Derek VanRiper - Chili (nfl), 2014
 	-Discount Daaaaable Check ",1,1,1,2014,2014,0,0.00,0,0.00,0,0.00,1,1.00,0.1,0.05,0.0,0.04,0.0,10.00,0.00,5.0,0.385,0.17,0.28,57,61,,,5,8,0,1165.00,1157.00,19
 Devin Kawabata,total,All,All,All,"Devin Kawabata - All (All)
 
-#n/a (BaseballIsBoring 2026, pick #6, 73 draft_zStrength, 15-7, 1.22 PF_z, 89 zStrength, 108 PF+, 3.2 xRank, 0.24 xTitles, 0.00 xSackos)
+#2 (BaseballIsBoring 2026, pick #6, 73 draft_zStrength, 15-7, 1.22 PF_z, 89 zStrength, 108 PF+, 3.2 xRank, 0.24 xTitles, 0.00 xSackos)
 	-sabermetrics are for nerds 
 
  #6 (BaseballIsBoring 2025, pick #9, 66 draft_zStrength, 12-10, 0.71 PF_z, 76 zStrength, 108 PF+, 4.6 xRank, 0.12 xTitles, 0.00 xSackos)
@@ -6870,10 +6910,10 @@ Devin Kawabata,total,All,All,All,"Devin Kawabata - All (All)
 	-Springfield Isotopes 
 
  #6 (BaseballIsBoring 2011, , 0.07 PF_z, 53 zStrength, 102 PF+, 6.3 xRank, 0.05 xTitles, 0.01 xSackos)
-	-Sterohoes ",15,1,1,2011,2025,3,0.20,3,0.20,2,0.13,1,0.07,0.8,0.05,0.1,0.01,55.2,5.40,3.14,6.8,0.514,0.15,0.13,55,55,-0.66,31,,,,,,
+	-Sterohoes ",16,1,1,2011,2026,4,0.25,4,0.25,2,0.13,1,0.06,1.0,0.06,0.1,0.01,58.4,5.09,3.15,6.7,0.532,0.25,0.19,58,57,-0.34,41,,,,,,
 Devin Kawabata,sport,All,mlb,All,"Devin Kawabata - All (mlb)
 
-#n/a (BaseballIsBoring 2026, pick #6, 73 draft_zStrength, 15-7, 1.22 PF_z, 89 zStrength, 108 PF+, 3.2 xRank, 0.24 xTitles, 0.00 xSackos)
+#2 (BaseballIsBoring 2026, pick #6, 73 draft_zStrength, 15-7, 1.22 PF_z, 89 zStrength, 108 PF+, 3.2 xRank, 0.24 xTitles, 0.00 xSackos)
 	-sabermetrics are for nerds 
 
  #6 (BaseballIsBoring 2025, pick #9, 66 draft_zStrength, 12-10, 0.71 PF_z, 76 zStrength, 108 PF+, 4.6 xRank, 0.12 xTitles, 0.00 xSackos)
@@ -6919,7 +6959,11 @@ Devin Kawabata,sport,All,mlb,All,"Devin Kawabata - All (mlb)
 	-Springfield Isotopes 
 
  #6 (BaseballIsBoring 2011, , 0.07 PF_z, 53 zStrength, 102 PF+, 6.3 xRank, 0.05 xTitles, 0.01 xSackos)
-	-Sterohoes ",15,1,1,2011,2025,3,0.20,3,0.20,2,0.13,1,0.07,0.8,0.05,0.1,0.01,55.2,5.40,3.14,6.8,0.514,0.15,0.13,55,55,-0.66,31,,,,,,
+	-Sterohoes ",16,1,1,2011,2026,4,0.25,4,0.25,2,0.13,1,0.06,1.0,0.06,0.1,0.01,58.4,5.09,3.15,6.7,0.532,0.25,0.19,58,57,-0.34,41,,,,,,
+Devin Kawabata,year,2026,All,All,"Devin Kawabata - All (All), 2026
+
+#2 (BaseballIsBoring 2026, pick #6, 73 draft_zStrength, 15-7, 1.22 PF_z, 89 zStrength, 108 PF+, 3.2 xRank, 0.24 xTitles, 0.00 xSackos)
+	-sabermetrics are for nerds ",1,1,1,2026,2026,1,1.00,1,1.00,0,0.00,0,0.00,0.2,0.24,0.0,0.00,90.9,2.00,0.00,6.0,0.682,1.22,0.63,89,74,0.62,73,,,,,,
 Devin Kawabata,year,2025,All,All,"Devin Kawabata - All (All), 2025
 
 #6 (BaseballIsBoring 2025, pick #9, 66 draft_zStrength, 12-10, 0.71 PF_z, 76 zStrength, 108 PF+, 4.6 xRank, 0.12 xTitles, 0.00 xSackos)
@@ -6980,6 +7024,10 @@ Devin Kawabata,year,2011,All,All,"Devin Kawabata - All (All), 2011
 
 #6 (BaseballIsBoring 2011, , 0.07 PF_z, 53 zStrength, 102 PF+, 6.3 xRank, 0.05 xTitles, 0.01 xSackos)
 	-Sterohoes ",1,1,1,2011,2011,0,0.00,0,0.00,0,0.00,0,0.00,0.1,0.05,0.0,0.01,54.5,6.00,0.00,,,0.07,,53,,,,,,,,,
+Devin Kawabata,year_sport,2026,mlb,All,"Devin Kawabata - All (mlb), 2026
+
+#2 (BaseballIsBoring 2026, pick #6, 73 draft_zStrength, 15-7, 1.22 PF_z, 89 zStrength, 108 PF+, 3.2 xRank, 0.24 xTitles, 0.00 xSackos)
+	-sabermetrics are for nerds ",1,1,1,2026,2026,1,1.00,1,1.00,0,0.00,0,0.00,0.2,0.24,0.0,0.00,90.9,2.00,0.00,6.0,0.682,1.22,0.63,89,74,0.62,73,,,,,,
 Devin Kawabata,year_sport,2025,mlb,All,"Devin Kawabata - All (mlb), 2025
 
 #6 (BaseballIsBoring 2025, pick #9, 66 draft_zStrength, 12-10, 0.71 PF_z, 76 zStrength, 108 PF+, 4.6 xRank, 0.12 xTitles, 0.00 xSackos)
@@ -7042,7 +7090,7 @@ Devin Kawabata,year_sport,2011,mlb,All,"Devin Kawabata - All (mlb), 2011
 	-Sterohoes ",1,1,1,2011,2011,0,0.00,0,0.00,0,0.00,0,0.00,0.1,0.05,0.0,0.01,54.5,6.00,0.00,,,0.07,,53,,,,,,,,,
 Devin Kawabata,league,All,mlb,BaseballIsBoring,"Devin Kawabata - BaseballIsBoring (mlb)
 
-#n/a (2026, pick #6, 73 draft_zStrength, 15-7, 1.22 PF_z, 89 zStrength, 108 PF+, 3.2 xRank, 0.24 xTitles, 0.00 xSackos)
+#2 (2026, pick #6, 73 draft_zStrength, 15-7, 1.22 PF_z, 89 zStrength, 108 PF+, 3.2 xRank, 0.24 xTitles, 0.00 xSackos)
 	-sabermetrics are for nerds 
 
  #6 (2025, pick #9, 66 draft_zStrength, 12-10, 0.71 PF_z, 76 zStrength, 108 PF+, 4.6 xRank, 0.12 xTitles, 0.00 xSackos)
@@ -7088,7 +7136,11 @@ Devin Kawabata,league,All,mlb,BaseballIsBoring,"Devin Kawabata - BaseballIsBorin
 	-Springfield Isotopes 
 
  #6 (2011, , 0.07 PF_z, 53 zStrength, 102 PF+, 6.3 xRank, 0.05 xTitles, 0.01 xSackos)
-	-Sterohoes ",15,1,1,2011,2025,3,0.20,3,0.20,2,0.13,1,0.07,0.8,0.05,0.1,0.01,55.2,5.40,3.14,6.8,0.514,0.15,0.13,55,55,-0.66,31,88,76,0,154738.71,150770.29,
+	-Sterohoes ",16,1,1,2011,2026,4,0.25,4,0.25,2,0.13,1,0.06,1.0,0.06,0.1,0.01,58.4,5.09,3.15,6.7,0.532,0.25,0.19,58,57,-0.34,41,103,83,0,177323.04,172041.19,
+Devin Kawabata,league_year,2026,mlb,BaseballIsBoring,"Devin Kawabata - BaseballIsBoring (mlb), 2026
+
+#2 (2026, pick #6, 73 draft_zStrength, 15-7, 1.22 PF_z, 89 zStrength, 108 PF+, 3.2 xRank, 0.24 xTitles, 0.00 xSackos)
+	-sabermetrics are for nerds ",1,1,1,2026,2026,1,1.00,1,1.00,0,0.00,0,0.00,0.2,0.24,0.0,0.00,90.9,2.00,0.00,6.0,0.682,1.22,0.63,89,74,0.62,73,15,7,0,22584.33,21270.90,
 Devin Kawabata,league_year,2025,mlb,BaseballIsBoring,"Devin Kawabata - BaseballIsBoring (mlb), 2025
 
 #6 (2025, pick #9, 66 draft_zStrength, 12-10, 0.71 PF_z, 76 zStrength, 108 PF+, 4.6 xRank, 0.12 xTitles, 0.00 xSackos)
@@ -9099,7 +9151,7 @@ Gangsters!,league_year,2011,mlb,BaseballIsBoring,"Gangsters! - BaseballIsBoring 
 	-Gangsters! ",1,1,1,2011,2011,0,0.00,0,0.00,0,0.00,0,0.00,0.0,0.02,0.0,0.04,27.3,9.00,0.00,,,-0.56,,29,,,,,,,53.50,,
 Garrett Harris,total,All,All,All,"Garrett Harris - All (All)
 
-#n/a (BaseballIsBoring 2026, pick #1, 64 draft_zStrength, 7-15, -1.20 PF_z, 11 zStrength, 92 PF+, 9.8 xRank, 0.01 xTitles, 0.18 xSackos)
+#11 (BaseballIsBoring 2026, pick #1, 64 draft_zStrength, 7-15, -1.20 PF_z, 11 zStrength, 92 PF+, 9.8 xRank, 0.01 xTitles, 0.18 xSackos)
 	-Baseball Team 
 
  #1 (BaseballIsBoring 2025, pick #6, 38 draft_zStrength, 16-6, 0.71 PF_z, 76 zStrength, 108 PF+, 4.6 xRank, 0.13 xTitles, 0.00 xSackos)
@@ -9181,10 +9233,10 @@ Garrett Harris,total,All,All,All,"Garrett Harris - All (All)
 	-Y'all bitches 
 
  #7 (BaseballIsBoring 2012, , -0.28 PF_z, 39 zStrength, 91 PF+, 6.1 xRank, 0.03 xTitles, 0.02 xSackos)
-	-hella awesome ",27,2,2,2012,2025,7,0.26,3,0.11,2,0.07,1,0.04,1.0,0.04,2.5,0.09,43.1,6.58,2.58,5.6,0.443,-0.39,-0.23,39,42,0.54,67,,,,,,
+	-hella awesome ",28,2,2,2012,2026,7,0.25,3,0.11,2,0.07,1,0.04,1.0,0.04,2.7,0.10,41.8,6.76,2.67,5.4,0.437,-0.43,-0.13,38,45,0.52,66,,,,,,
 Garrett Harris,sport,All,mlb,All,"Garrett Harris - All (mlb)
 
-#n/a (BaseballIsBoring 2026, pick #1, 64 draft_zStrength, 7-15, -1.20 PF_z, 11 zStrength, 92 PF+, 9.8 xRank, 0.01 xTitles, 0.18 xSackos)
+#11 (BaseballIsBoring 2026, pick #1, 64 draft_zStrength, 7-15, -1.20 PF_z, 11 zStrength, 92 PF+, 9.8 xRank, 0.01 xTitles, 0.18 xSackos)
 	-Baseball Team 
 
  #1 (BaseballIsBoring 2025, pick #6, 38 draft_zStrength, 16-6, 0.71 PF_z, 76 zStrength, 108 PF+, 4.6 xRank, 0.13 xTitles, 0.00 xSackos)
@@ -9227,7 +9279,7 @@ Garrett Harris,sport,All,mlb,All,"Garrett Harris - All (mlb)
 	-Garrett Harris 
 
  #7 (BaseballIsBoring 2012, , -0.28 PF_z, 39 zStrength, 91 PF+, 6.1 xRank, 0.03 xTitles, 0.02 xSackos)
-	-hella awesome ",14,1,1,2012,2025,4,0.29,3,0.21,2,0.14,1,0.07,0.4,0.03,1.1,0.08,48.5,5.82,3.04,5.3,0.408,-0.43,0.24,38,57,-0.12,45,,,,,,
+	-hella awesome ",15,1,1,2012,2026,4,0.27,3,0.20,2,0.13,1,0.07,0.4,0.03,1.3,0.09,45.2,6.25,3.24,4.8,0.398,-0.51,0.43,36,62,0.00,50,,,,,,
 Garrett Harris,sport,All,nfl,All,"Garrett Harris - All (nfl)
 
 #10 (Bitches 2025, pick #9, 76 draft_zStrength, 5-9, -1.09 PF_z, 14 zStrength, 92 PF+, 9.2 xRank, 0.01 xTitles, 0.17 xSackos)
@@ -9268,6 +9320,10 @@ Garrett Harris,sport,All,nfl,All,"Garrett Harris - All (nfl)
 
  #7 (Bitches 2013, pick #2, 7-8, -1.41 PF_z, 8 zStrength, 91 PF+, 6.7 xRank, 0.00 xTitles, 0.23 xSackos)
 	-Y'all bitches ",13,1,1,2013,2025,3,0.23,0,0.00,0,0.00,0,0.00,0.6,0.05,1.4,0.11,38.6,7.23,1.89,5.8,0.464,-0.36,-0.52,39,33,0.86,77,,,,,,
+Garrett Harris,year,2026,All,All,"Garrett Harris - All (All), 2026
+
+#11 (BaseballIsBoring 2026, pick #1, 64 draft_zStrength, 7-15, -1.20 PF_z, 11 zStrength, 92 PF+, 9.8 xRank, 0.01 xTitles, 0.18 xSackos)
+	-Baseball Team ",1,1,1,2026,2026,0,0.00,0,0.00,0,0.00,0,0.00,0.0,0.01,0.2,0.18,9.1,11.00,0.00,1.0,0.318,-1.20,1.92,11,97,0.36,64,,,,,,
 Garrett Harris,year,2025,All,All,"Garrett Harris - All (All), 2025
 
 #1 (BaseballIsBoring 2025, pick #6, 38 draft_zStrength, 16-6, 0.71 PF_z, 76 zStrength, 108 PF+, 4.6 xRank, 0.13 xTitles, 0.00 xSackos)
@@ -9363,6 +9419,10 @@ Garrett Harris,year,2012,All,All,"Garrett Harris - All (All), 2012
 
 #7 (BaseballIsBoring 2012, , -0.28 PF_z, 39 zStrength, 91 PF+, 6.1 xRank, 0.03 xTitles, 0.02 xSackos)
 	-hella awesome ",1,1,1,2012,2012,0,0.00,0,0.00,0,0.00,0,0.00,0.0,0.03,0.0,0.02,33.3,7.00,0.00,,,-0.28,,39,,,,,,,,,
+Garrett Harris,year_sport,2026,mlb,All,"Garrett Harris - All (mlb), 2026
+
+#11 (BaseballIsBoring 2026, pick #1, 64 draft_zStrength, 7-15, -1.20 PF_z, 11 zStrength, 92 PF+, 9.8 xRank, 0.01 xTitles, 0.18 xSackos)
+	-Baseball Team ",1,1,1,2026,2026,0,0.00,0,0.00,0,0.00,0,0.00,0.0,0.01,0.2,0.18,9.1,11.00,0.00,1.0,0.318,-1.20,1.92,11,97,0.36,64,,,,,,
 Garrett Harris,year_sport,2025,mlb,All,"Garrett Harris - All (mlb), 2025
 
 #1 (BaseballIsBoring 2025, pick #6, 38 draft_zStrength, 16-6, 0.71 PF_z, 76 zStrength, 108 PF+, 4.6 xRank, 0.13 xTitles, 0.00 xSackos)
@@ -9473,7 +9533,7 @@ Garrett Harris,year_sport,2012,mlb,All,"Garrett Harris - All (mlb), 2012
 	-hella awesome ",1,1,1,2012,2012,0,0.00,0,0.00,0,0.00,0,0.00,0.0,0.03,0.0,0.02,33.3,7.00,0.00,,,-0.28,,39,,,,,,,,,
 Garrett Harris,league,All,mlb,BaseballIsBoring,"Garrett Harris - BaseballIsBoring (mlb)
 
-#n/a (2026, pick #1, 64 draft_zStrength, 7-15, -1.20 PF_z, 11 zStrength, 92 PF+, 9.8 xRank, 0.01 xTitles, 0.18 xSackos)
+#11 (2026, pick #1, 64 draft_zStrength, 7-15, -1.20 PF_z, 11 zStrength, 92 PF+, 9.8 xRank, 0.01 xTitles, 0.18 xSackos)
 	-Baseball Team 
 
  #1 (2025, pick #6, 38 draft_zStrength, 16-6, 0.71 PF_z, 76 zStrength, 108 PF+, 4.6 xRank, 0.13 xTitles, 0.00 xSackos)
@@ -9516,7 +9576,7 @@ Garrett Harris,league,All,mlb,BaseballIsBoring,"Garrett Harris - BaseballIsBorin
 	-Garrett Harris 
 
  #7 (2012, , -0.28 PF_z, 39 zStrength, 91 PF+, 6.1 xRank, 0.03 xTitles, 0.02 xSackos)
-	-hella awesome ",14,1,1,2012,2025,4,0.29,3,0.21,2,0.14,1,0.07,0.4,0.03,1.1,0.08,48.5,5.82,3.04,5.3,0.408,-0.43,0.24,38,57,-0.12,45,64,100,0,143340.50,153835.41,
+	-hella awesome ",15,1,1,2012,2026,4,0.27,3,0.20,2,0.13,1,0.07,0.4,0.03,1.3,0.09,45.2,6.25,3.24,4.8,0.398,-0.51,0.43,36,62,0.00,50,71,115,0,162534.84,176524.34,
 Garrett Harris,league,All,nfl,Bitches,"Garrett Harris - Bitches (nfl)
 
 #10 (2025, pick #9, 76 draft_zStrength, 5-9, -1.09 PF_z, 14 zStrength, 92 PF+, 9.2 xRank, 0.01 xTitles, 0.17 xSackos)
@@ -9557,6 +9617,10 @@ Garrett Harris,league,All,nfl,Bitches,"Garrett Harris - Bitches (nfl)
 
  #7 (2013, pick #2, 7-8, -1.41 PF_z, 8 zStrength, 91 PF+, 6.7 xRank, 0.00 xTitles, 0.23 xSackos)
 	-Y'all bitches ",13,1,1,2013,2025,3,0.23,0,0.00,0,0.00,0,0.00,0.6,0.05,1.4,0.11,38.6,7.23,1.89,5.8,0.464,-0.36,-0.52,39,33,0.86,77,83,95,0,20148.68,20334.64,207
+Garrett Harris,league_year,2026,mlb,BaseballIsBoring,"Garrett Harris - BaseballIsBoring (mlb), 2026
+
+#11 (2026, pick #1, 64 draft_zStrength, 7-15, -1.20 PF_z, 11 zStrength, 92 PF+, 9.8 xRank, 0.01 xTitles, 0.18 xSackos)
+	-Baseball Team ",1,1,1,2026,2026,0,0.00,0,0.00,0,0.00,0,0.00,0.0,0.01,0.2,0.18,9.1,11.00,0.00,1.0,0.318,-1.20,1.92,11,97,0.36,64,7,15,0,19194.34,22688.93,
 Garrett Harris,league_year,2025,mlb,BaseballIsBoring,"Garrett Harris - BaseballIsBoring (mlb), 2025
 
 #1 (2025, pick #6, 38 draft_zStrength, 16-6, 0.71 PF_z, 76 zStrength, 108 PF+, 4.6 xRank, 0.13 xTitles, 0.00 xSackos)
@@ -10730,7 +10794,7 @@ hXcsXe,league_year,2011,mlb,BaseballIsBoring,"hXcsXe - BaseballIsBoring (mlb), 2
 	-hXcsXe ",1,1,1,2011,2011,0,0.00,0,0.00,0,0.00,1,1.00,0.0,0.01,0.2,0.22,0.0,12.00,0.00,,,-1.29,,10,,,,,,,38.50,,
 Ian Howard,total,All,All,All,"Ian Howard - All (All)
 
-#n/a (BaseballIsBoring 2026, pick #5, 93 draft_zStrength, 9-13, -0.10 PF_z, 46 zStrength, 99 PF+, 6.8 xRank, 0.04 xTitles, 0.01 xSackos)
+#8 (BaseballIsBoring 2026, pick #5, 93 draft_zStrength, 9-13, -0.10 PF_z, 46 zStrength, 99 PF+, 6.8 xRank, 0.04 xTitles, 0.01 xSackos)
 	-Shin Music 
 
  #5 (BaseballIsBoring 2025, pick #10, 93 draft_zStrength, 12-10, 0.87 PF_z, 81 zStrength, 110 PF+, 4.1 xRank, 0.15 xTitles, 0.00 xSackos)
@@ -10773,10 +10837,10 @@ Ian Howard,total,All,All,All,"Ian Howard - All (All)
 	-Ian Howard 
 
  # (BaseballIsBoring 2015, ,  PF_z,  zStrength,  PF+,  xRank,  xTitles,  xSackos)
-	-Ian Howard ",14,2,1,2015,2025,6,0.43,2,0.14,1,0.07,0,0.00,1.7,0.12,0.0,0.00,59.1,5.18,2.29,5.4,0.558,0.80,0.75,77,72,1.23,85,,,,,,
+	-Ian Howard ",15,2,1,2015,2026,6,0.40,2,0.13,1,0.07,0,0.00,1.8,0.12,0.0,0.00,57.2,5.42,2.33,5.3,0.546,0.72,0.64,74,69,1.27,86,,,,,,
 Ian Howard,sport,All,mlb,All,"Ian Howard - All (mlb)
 
-#n/a (BaseballIsBoring 2026, pick #5, 93 draft_zStrength, 9-13, -0.10 PF_z, 46 zStrength, 99 PF+, 6.8 xRank, 0.04 xTitles, 0.01 xSackos)
+#8 (BaseballIsBoring 2026, pick #5, 93 draft_zStrength, 9-13, -0.10 PF_z, 46 zStrength, 99 PF+, 6.8 xRank, 0.04 xTitles, 0.01 xSackos)
 	-Shin Music 
 
  #5 (BaseballIsBoring 2025, pick #10, 93 draft_zStrength, 12-10, 0.87 PF_z, 81 zStrength, 110 PF+, 4.1 xRank, 0.15 xTitles, 0.00 xSackos)
@@ -10819,7 +10883,11 @@ Ian Howard,sport,All,mlb,All,"Ian Howard - All (mlb)
 	-Ian Howard 
 
  # (BaseballIsBoring 2015, ,  PF_z,  zStrength,  PF+,  xRank,  xTitles,  xSackos)
-	-Ian Howard ",14,2,1,2015,2025,6,0.43,2,0.14,1,0.07,0,0.00,1.7,0.12,0.0,0.00,59.1,5.18,2.29,5.4,0.558,0.80,0.75,77,72,1.23,85,,,,,,
+	-Ian Howard ",15,2,1,2015,2026,6,0.40,2,0.13,1,0.07,0,0.00,1.8,0.12,0.0,0.00,57.2,5.42,2.33,5.3,0.546,0.72,0.64,74,69,1.27,86,,,,,,
+Ian Howard,year,2026,All,All,"Ian Howard - All (All), 2026
+
+#8 (BaseballIsBoring 2026, pick #5, 93 draft_zStrength, 9-13, -0.10 PF_z, 46 zStrength, 99 PF+, 6.8 xRank, 0.04 xTitles, 0.01 xSackos)
+	-Shin Music ",1,1,1,2026,2026,0,0.00,0,0.00,0,0.00,0,0.00,0.0,0.04,0.0,0.01,36.4,8.00,0.00,5.0,0.409,-0.10,-0.24,46,41,1.48,93,,,,,,
 Ian Howard,year,2025,All,All,"Ian Howard - All (All), 2025
 
 #5 (BaseballIsBoring 2025, pick #10, 93 draft_zStrength, 12-10, 0.87 PF_z, 81 zStrength, 110 PF+, 4.1 xRank, 0.15 xTitles, 0.00 xSackos)
@@ -10873,6 +10941,10 @@ Ian Howard,year,2015,All,All,"Ian Howard - All (All), 2015
 
 # (BaseballIsBoring 2015, ,  PF_z,  zStrength,  PF+,  xRank,  xTitles,  xSackos)
 	-Ian Howard ",1,1,1,2015,2015,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Ian Howard,year_sport,2026,mlb,All,"Ian Howard - All (mlb), 2026
+
+#8 (BaseballIsBoring 2026, pick #5, 93 draft_zStrength, 9-13, -0.10 PF_z, 46 zStrength, 99 PF+, 6.8 xRank, 0.04 xTitles, 0.01 xSackos)
+	-Shin Music ",1,1,1,2026,2026,0,0.00,0,0.00,0,0.00,0,0.00,0.0,0.04,0.0,0.01,36.4,8.00,0.00,5.0,0.409,-0.10,-0.24,46,41,1.48,93,,,,,,
 Ian Howard,year_sport,2025,mlb,All,"Ian Howard - All (mlb), 2025
 
 #5 (BaseballIsBoring 2025, pick #10, 93 draft_zStrength, 12-10, 0.87 PF_z, 81 zStrength, 110 PF+, 4.1 xRank, 0.15 xTitles, 0.00 xSackos)
@@ -10938,7 +11010,7 @@ Ian Howard,league,All,mlb,BallNightLong,"Ian Howard - BallNightLong (mlb)
 	-Pinch Shitters ",3,1,1,2022,2024,2,0.67,2,0.67,1,0.33,0,0.00,0.5,0.16,0.0,0.00,76.5,4.00,3.56,,0.523,0.70,,72,,0.79,76,325,295,40,1828.64,,208
 Ian Howard,league,All,mlb,BaseballIsBoring,"Ian Howard - BaseballIsBoring (mlb)
 
-#n/a (2026, pick #5, 93 draft_zStrength, 9-13, -0.10 PF_z, 46 zStrength, 99 PF+, 6.8 xRank, 0.04 xTitles, 0.01 xSackos)
+#8 (2026, pick #5, 93 draft_zStrength, 9-13, -0.10 PF_z, 46 zStrength, 99 PF+, 6.8 xRank, 0.04 xTitles, 0.01 xSackos)
 	-Shin Music 
 
  #5 (2025, pick #10, 93 draft_zStrength, 12-10, 0.87 PF_z, 81 zStrength, 110 PF+, 4.1 xRank, 0.15 xTitles, 0.00 xSackos)
@@ -10972,7 +11044,11 @@ Ian Howard,league,All,mlb,BaseballIsBoring,"Ian Howard - BaseballIsBoring (mlb)
 	-Ian Howard 
 
  # (2015, ,  PF_z,  zStrength,  PF+,  xRank,  xTitles,  xSackos)
-	-Ian Howard ",11,1,1,2015,2025,4,0.36,0,0.00,0,0.00,0,0.00,1.2,0.11,0.0,0.00,52.7,5.63,1.32,5.4,0.572,0.84,0.75,79,72,1.68,94,96,68,0,165016.67,153059.66,
+	-Ian Howard ",12,1,1,2015,2026,4,0.33,0,0.00,0,0.00,0,0.00,1.3,0.11,0.0,0.00,50.8,5.89,1.45,5.3,0.554,0.73,0.64,75,69,1.63,94,105,81,0,185748.47,173747.79,
+Ian Howard,league_year,2026,mlb,BaseballIsBoring,"Ian Howard - BaseballIsBoring (mlb), 2026
+
+#8 (2026, pick #5, 93 draft_zStrength, 9-13, -0.10 PF_z, 46 zStrength, 99 PF+, 6.8 xRank, 0.04 xTitles, 0.01 xSackos)
+	-Shin Music ",1,1,1,2026,2026,0,0.00,0,0.00,0,0.00,0,0.00,0.0,0.04,0.0,0.01,36.4,8.00,0.00,5.0,0.409,-0.10,-0.24,46,41,1.48,93,9,13,0,20731.80,20688.13,
 Ian Howard,league_year,2025,mlb,BaseballIsBoring,"Ian Howard - BaseballIsBoring (mlb), 2025
 
 #5 (2025, pick #10, 93 draft_zStrength, 12-10, 0.87 PF_z, 81 zStrength, 110 PF+, 4.1 xRank, 0.15 xTitles, 0.00 xSackos)
@@ -12441,7 +12517,7 @@ Jordan Small,league_year,2011,mlb,BaseballIsBoring,"Jordan Small - BaseballIsBor
 	-Give Peas a Chance ",1,1,1,2011,2011,0,0.00,0,0.00,0,0.00,0,0.00,0.0,0.03,0.0,0.02,45.5,7.00,0.00,,,-0.39,,35,,,,,,,57.00,,
 Josh Balaban,total,All,All,All,"Josh Balaban - All (All)
 
-#n/a (BaseballIsBoring 2026, pick #2, 85 draft_zStrength, 13-9, 0.86 PF_z, 80 zStrength, 106 PF+, 4.2 xRank, 0.15 xTitles, 0.00 xSackos)
+#5 (BaseballIsBoring 2026, pick #2, 85 draft_zStrength, 13-9, 0.86 PF_z, 80 zStrength, 106 PF+, 4.2 xRank, 0.15 xTitles, 0.00 xSackos)
 	-Only Phams 
 
  #2 (BaseballIsBoring 2025, pick #5, 94 draft_zStrength, 16-6, 1.09 PF_z, 86 zStrength, 112 PF+, 3.5 xRank, 0.20 xTitles, 0.00 xSackos)
@@ -12463,10 +12539,10 @@ Josh Balaban,total,All,All,All,"Josh Balaban - All (All)
 	-The Youngcocks 
 
  #4 (BaseballIsBoring 2021, pick #6, 44 draft_zStrength, 17-5, 1.15 PF_z, 87 zStrength, 115 PF+, 3.4 xRank, 0.22 xTitles, 0.00 xSackos)
-	-The Youngcocks ",7,2,1,2021,2025,6,0.86,3,0.43,0,0.00,0,0.00,1.0,0.15,0.0,0.00,68.2,4.29,1.91,7.2,0.634,0.78,0.69,77,73,0.28,58,,,,,,
+	-The Youngcocks ",8,2,1,2021,2026,7,0.88,3,0.38,0,0.00,0,0.00,1.2,0.15,0.0,0.00,67.7,4.38,1.80,6.3,0.629,0.79,0.72,77,74,0.41,62,,,,,,
 Josh Balaban,sport,All,mlb,All,"Josh Balaban - All (mlb)
 
-#n/a (BaseballIsBoring 2026, pick #2, 85 draft_zStrength, 13-9, 0.86 PF_z, 80 zStrength, 106 PF+, 4.2 xRank, 0.15 xTitles, 0.00 xSackos)
+#5 (BaseballIsBoring 2026, pick #2, 85 draft_zStrength, 13-9, 0.86 PF_z, 80 zStrength, 106 PF+, 4.2 xRank, 0.15 xTitles, 0.00 xSackos)
 	-Only Phams 
 
  #2 (BaseballIsBoring 2025, pick #5, 94 draft_zStrength, 16-6, 1.09 PF_z, 86 zStrength, 112 PF+, 3.5 xRank, 0.20 xTitles, 0.00 xSackos)
@@ -12488,7 +12564,11 @@ Josh Balaban,sport,All,mlb,All,"Josh Balaban - All (mlb)
 	-The Youngcocks 
 
  #4 (BaseballIsBoring 2021, pick #6, 44 draft_zStrength, 17-5, 1.15 PF_z, 87 zStrength, 115 PF+, 3.4 xRank, 0.22 xTitles, 0.00 xSackos)
-	-The Youngcocks ",7,2,1,2021,2025,6,0.86,3,0.43,0,0.00,0,0.00,1.0,0.15,0.0,0.00,68.2,4.29,1.91,7.2,0.634,0.78,0.69,77,73,0.28,58,,,,,,
+	-The Youngcocks ",8,2,1,2021,2026,7,0.88,3,0.38,0,0.00,0,0.00,1.2,0.15,0.0,0.00,67.7,4.38,1.80,6.3,0.629,0.79,0.72,77,74,0.41,62,,,,,,
+Josh Balaban,year,2026,All,All,"Josh Balaban - All (All), 2026
+
+#5 (BaseballIsBoring 2026, pick #2, 85 draft_zStrength, 13-9, 0.86 PF_z, 80 zStrength, 106 PF+, 4.2 xRank, 0.15 xTitles, 0.00 xSackos)
+	-Only Phams ",1,1,1,2026,2026,1,1.00,0,0.00,0,0.00,0,0.00,0.2,0.15,0.0,0.00,63.6,5.00,0.00,2.0,0.591,0.86,0.90,80,82,1.04,85,,,,,,
 Josh Balaban,year,2025,All,All,"Josh Balaban - All (All), 2025
 
 #2 (BaseballIsBoring 2025, pick #5, 94 draft_zStrength, 16-6, 1.09 PF_z, 86 zStrength, 112 PF+, 3.5 xRank, 0.20 xTitles, 0.00 xSackos)
@@ -12515,6 +12595,10 @@ Josh Balaban,year,2021,All,All,"Josh Balaban - All (All), 2021
 
 #4 (BaseballIsBoring 2021, pick #6, 44 draft_zStrength, 17-5, 1.15 PF_z, 87 zStrength, 115 PF+, 3.4 xRank, 0.22 xTitles, 0.00 xSackos)
 	-The Youngcocks ",1,1,1,2021,2021,1,1.00,0,0.00,0,0.00,0,0.00,0.2,0.22,0.0,0.00,72.7,4.00,0.00,6.0,0.773,1.15,0.13,87,55,-0.14,44,,,,,,
+Josh Balaban,year_sport,2026,mlb,All,"Josh Balaban - All (mlb), 2026
+
+#5 (BaseballIsBoring 2026, pick #2, 85 draft_zStrength, 13-9, 0.86 PF_z, 80 zStrength, 106 PF+, 4.2 xRank, 0.15 xTitles, 0.00 xSackos)
+	-Only Phams ",1,1,1,2026,2026,1,1.00,0,0.00,0,0.00,0,0.00,0.2,0.15,0.0,0.00,63.6,5.00,0.00,2.0,0.591,0.86,0.90,80,82,1.04,85,,,,,,
 Josh Balaban,year_sport,2025,mlb,All,"Josh Balaban - All (mlb), 2025
 
 #2 (BaseballIsBoring 2025, pick #5, 94 draft_zStrength, 16-6, 1.09 PF_z, 86 zStrength, 112 PF+, 3.5 xRank, 0.20 xTitles, 0.00 xSackos)
@@ -12550,7 +12634,7 @@ Josh Balaban,league,All,mlb,BallNightLong,"Josh Balaban - BallNightLong (mlb)
 	-Only Phams ",2,1,1,2023,2024,2,1.00,1,0.50,0,0.00,0,0.00,0.3,0.15,0.0,0.00,71.7,4.50,1.50,,0.606,0.84,,80,,-0.06,48,263,167,20,1297.05,,104
 Josh Balaban,league,All,mlb,BaseballIsBoring,"Josh Balaban - BaseballIsBoring (mlb)
 
-#n/a (2026, pick #2, 85 draft_zStrength, 13-9, 0.86 PF_z, 80 zStrength, 106 PF+, 4.2 xRank, 0.15 xTitles, 0.00 xSackos)
+#5 (2026, pick #2, 85 draft_zStrength, 13-9, 0.86 PF_z, 80 zStrength, 106 PF+, 4.2 xRank, 0.15 xTitles, 0.00 xSackos)
 	-Only Phams 
 
  #2 (2025, pick #5, 94 draft_zStrength, 16-6, 1.09 PF_z, 86 zStrength, 112 PF+, 3.5 xRank, 0.20 xTitles, 0.00 xSackos)
@@ -12566,7 +12650,11 @@ Josh Balaban,league,All,mlb,BaseballIsBoring,"Josh Balaban - BaseballIsBoring (m
 	-The Youngcocks 
 
  #4 (2021, pick #6, 44 draft_zStrength, 17-5, 1.15 PF_z, 87 zStrength, 115 PF+, 3.4 xRank, 0.22 xTitles, 0.00 xSackos)
-	-The Youngcocks ",5,1,1,2021,2025,4,0.80,2,0.40,0,0.00,0,0.00,0.7,0.15,0.0,0.00,66.9,4.20,2.04,7.2,0.645,0.75,0.69,76,73,0.52,64,71,39,0,114351.17,105102.27,
+	-The Youngcocks ",6,1,1,2021,2026,5,0.83,2,0.33,0,0.00,0,0.00,0.9,0.15,0.0,0.00,66.3,4.33,1.89,6.3,0.636,0.77,0.72,76,74,0.65,69,84,48,0,136431.87,126651.50,
+Josh Balaban,league_year,2026,mlb,BaseballIsBoring,"Josh Balaban - BaseballIsBoring (mlb), 2026
+
+#5 (2026, pick #2, 85 draft_zStrength, 13-9, 0.86 PF_z, 80 zStrength, 106 PF+, 4.2 xRank, 0.15 xTitles, 0.00 xSackos)
+	-Only Phams ",1,1,1,2026,2026,1,1.00,0,0.00,0,0.00,0,0.00,0.2,0.15,0.0,0.00,63.6,5.00,0.00,2.0,0.591,0.86,0.90,80,82,1.04,85,13,9,0,22080.70,21549.23,
 Josh Balaban,league_year,2025,mlb,BaseballIsBoring,"Josh Balaban - BaseballIsBoring (mlb), 2025
 
 #2 (2025, pick #5, 94 draft_zStrength, 16-6, 1.09 PF_z, 86 zStrength, 112 PF+, 3.5 xRank, 0.20 xTitles, 0.00 xSackos)
@@ -13677,7 +13765,7 @@ Kohl Bashline,league_year,2021,mlb,BaseballIsBoring,"Kohl Bashline - BaseballIsB
 	-Babe Ruth B. Ginsberg ",1,1,1,2021,2021,0,0.00,0,0.00,0,0.00,1,1.00,0.0,0.00,0.6,0.58,0.0,12.00,0.00,12.0,0.136,-1.86,0.55,3,71,-0.66,26,3,19,0,15354.80,21212.10,
 Kyle Marlow,total,All,All,All,"Kyle Marlow - All (All)
 
-#n/a (BaseballIsBoring 2026, pick #10, 6 draft_zStrength, 15-7, 0.30 PF_z, 62 zStrength, 102 PF+, 5.7 xRank, 0.07 xTitles, 0.00 xSackos)
+#3 (BaseballIsBoring 2026, pick #10, 6 draft_zStrength, 15-7, 0.30 PF_z, 62 zStrength, 102 PF+, 5.7 xRank, 0.07 xTitles, 0.00 xSackos)
 	-Nick Lo SoloDolo 
 
  #10 (BaseballIsBoring 2025, pick #7, 41 draft_zStrength, 8-14, -0.82 PF_z, 21 zStrength, 91 PF+, 8.8 xRank, 0.01 xTitles, 0.07 xSackos)
@@ -13732,10 +13820,10 @@ Kyle Marlow,total,All,All,All,"Kyle Marlow - All (All)
 	-Marlows 
 
  #5 (BaseballIsBoring 2011, , 0.15 PF_z, 56 zStrength, 105 PF+, 6.1 xRank, 0.06 xTitles, 0.01 xSackos)
-	-Marlows ",18,2,1,2011,2025,8,0.44,4.5,0.25,2,0.11,0,0.00,1.1,0.06,0.3,0.01,62.5,4.82,2.49,7.3,0.605,0.19,-0.76,57,28,-0.25,41,,,,,,
+	-Marlows ",19,2,1,2011,2026,9,0.47,5.5,0.29,2,0.11,0,0.00,1.2,0.06,0.3,0.01,63.7,4.70,2.45,7.6,0.612,0.20,-0.91,57,25,-0.43,36,,,,,,
 Kyle Marlow,sport,All,mlb,All,"Kyle Marlow - All (mlb)
 
-#n/a (BaseballIsBoring 2026, pick #10, 6 draft_zStrength, 15-7, 0.30 PF_z, 62 zStrength, 102 PF+, 5.7 xRank, 0.07 xTitles, 0.00 xSackos)
+#3 (BaseballIsBoring 2026, pick #10, 6 draft_zStrength, 15-7, 0.30 PF_z, 62 zStrength, 102 PF+, 5.7 xRank, 0.07 xTitles, 0.00 xSackos)
 	-Nick Lo SoloDolo 
 
  #10 (BaseballIsBoring 2025, pick #7, 41 draft_zStrength, 8-14, -0.82 PF_z, 21 zStrength, 91 PF+, 8.8 xRank, 0.01 xTitles, 0.07 xSackos)
@@ -13790,7 +13878,11 @@ Kyle Marlow,sport,All,mlb,All,"Kyle Marlow - All (mlb)
 	-Marlows 
 
  #5 (BaseballIsBoring 2011, , 0.15 PF_z, 56 zStrength, 105 PF+, 6.1 xRank, 0.06 xTitles, 0.01 xSackos)
-	-Marlows ",18,2,1,2011,2025,8,0.44,4.5,0.25,2,0.11,0,0.00,1.1,0.06,0.3,0.01,62.5,4.82,2.49,7.3,0.605,0.19,-0.76,57,28,-0.25,41,,,,,,
+	-Marlows ",19,2,1,2011,2026,9,0.47,5.5,0.29,2,0.11,0,0.00,1.2,0.06,0.3,0.01,63.7,4.70,2.45,7.6,0.612,0.20,-0.91,57,25,-0.43,36,,,,,,
+Kyle Marlow,year,2026,All,All,"Kyle Marlow - All (All), 2026
+
+#3 (BaseballIsBoring 2026, pick #10, 6 draft_zStrength, 15-7, 0.30 PF_z, 62 zStrength, 102 PF+, 5.7 xRank, 0.07 xTitles, 0.00 xSackos)
+	-Nick Lo SoloDolo ",1,1,1,2026,2026,1,1.00,1,1.00,0,0.00,0,0.00,0.1,0.07,0.0,0.00,81.8,3.00,0.00,10.0,0.682,0.30,-2.10,62,2,-1.52,6,,,,,,
 Kyle Marlow,year,2025,All,All,"Kyle Marlow - All (All), 2025
 
 #10 (BaseballIsBoring 2025, pick #7, 41 draft_zStrength, 8-14, -0.82 PF_z, 21 zStrength, 91 PF+, 8.8 xRank, 0.01 xTitles, 0.07 xSackos)
@@ -13860,6 +13952,10 @@ Kyle Marlow,year,2011,All,All,"Kyle Marlow - All (All), 2011
 
 #5 (BaseballIsBoring 2011, , 0.15 PF_z, 56 zStrength, 105 PF+, 6.1 xRank, 0.06 xTitles, 0.01 xSackos)
 	-Marlows ",1,1,1,2011,2011,0,0.00,0,0.00,0,0.00,0,0.00,0.1,0.06,0.0,0.01,63.6,5.00,0.00,,,0.15,,56,,,,,,,,,
+Kyle Marlow,year_sport,2026,mlb,All,"Kyle Marlow - All (mlb), 2026
+
+#3 (BaseballIsBoring 2026, pick #10, 6 draft_zStrength, 15-7, 0.30 PF_z, 62 zStrength, 102 PF+, 5.7 xRank, 0.07 xTitles, 0.00 xSackos)
+	-Nick Lo SoloDolo ",1,1,1,2026,2026,1,1.00,1,1.00,0,0.00,0,0.00,0.1,0.07,0.0,0.00,81.8,3.00,0.00,10.0,0.682,0.30,-2.10,62,2,-1.52,6,,,,,,
 Kyle Marlow,year_sport,2025,mlb,All,"Kyle Marlow - All (mlb), 2025
 
 #10 (BaseballIsBoring 2025, pick #7, 41 draft_zStrength, 8-14, -0.82 PF_z, 21 zStrength, 91 PF+, 8.8 xRank, 0.01 xTitles, 0.07 xSackos)
@@ -13941,7 +14037,7 @@ Kyle Marlow,league,All,mlb,BallNightLong,"Kyle Marlow - BallNightLong (mlb)
 	-Hot DOG ",3,1,1,2022,2024,3,1.00,0,0.00,0,0.00,0,0.00,0.4,0.12,0.0,0.01,65.0,5.00,0.82,,0.576,0.48,,66,,-0.27,40,364,263,33,1684.51,,136
 Kyle Marlow,league,All,mlb,BaseballIsBoring,"Kyle Marlow - BaseballIsBoring (mlb)
 
-#n/a (2026, pick #10, 6 draft_zStrength, 15-7, 0.30 PF_z, 62 zStrength, 102 PF+, 5.7 xRank, 0.07 xTitles, 0.00 xSackos)
+#3 (2026, pick #10, 6 draft_zStrength, 15-7, 0.30 PF_z, 62 zStrength, 102 PF+, 5.7 xRank, 0.07 xTitles, 0.00 xSackos)
 	-Nick Lo SoloDolo 
 
  #10 (2025, pick #7, 41 draft_zStrength, 8-14, -0.82 PF_z, 21 zStrength, 91 PF+, 8.8 xRank, 0.01 xTitles, 0.07 xSackos)
@@ -13987,7 +14083,11 @@ Kyle Marlow,league,All,mlb,BaseballIsBoring,"Kyle Marlow - BaseballIsBoring (mlb
 	-Marlows 
 
  #5 (2011, , 0.15 PF_z, 56 zStrength, 105 PF+, 6.1 xRank, 0.06 xTitles, 0.01 xSackos)
-	-Marlows ",15,1,1,2011,2025,5,0.33,4.5,0.30,2,0.13,0,0.00,0.8,0.05,0.2,0.02,61.8,4.77,2.77,7.3,0.616,0.11,-0.76,54,28,-0.23,41,102,62,0,157305.58,146832.89,
+	-Marlows ",16,1,1,2011,2026,6,0.38,5.5,0.34,2,0.13,0,0.00,0.9,0.05,0.3,0.02,63.4,4.63,2.70,7.6,0.624,0.13,-0.91,55,25,-0.55,32,117,69,0,178610.51,165863.56,
+Kyle Marlow,league_year,2026,mlb,BaseballIsBoring,"Kyle Marlow - BaseballIsBoring (mlb), 2026
+
+#3 (2026, pick #10, 6 draft_zStrength, 15-7, 0.30 PF_z, 62 zStrength, 102 PF+, 5.7 xRank, 0.07 xTitles, 0.00 xSackos)
+	-Nick Lo SoloDolo ",1,1,1,2026,2026,1,1.00,1,1.00,0,0.00,0,0.00,0.1,0.07,0.0,0.00,81.8,3.00,0.00,10.0,0.682,0.30,-2.10,62,2,-1.52,6,15,7,0,21304.93,19030.67,
 Kyle Marlow,league_year,2025,mlb,BaseballIsBoring,"Kyle Marlow - BaseballIsBoring (mlb), 2025
 
 #10 (2025, pick #7, 41 draft_zStrength, 8-14, -0.82 PF_z, 21 zStrength, 91 PF+, 8.8 xRank, 0.01 xTitles, 0.07 xSackos)
@@ -17316,6 +17416,30 @@ Russell Smith,league_year,2016,nfl,Chili,"Russell Smith - Chili (nfl), 2016
 
 #11 (2016, pick #6, 5-8, -0.63 PF_z, 27 zStrength, 95 PF+, 8.1 xRank, 0.02 xTitles, 0.11 xSackos)
 	-Frig off Lahey ",1,1,1,2016,2016,0,0.00,0,0.00,0,0.00,0,0.00,0.0,0.02,0.1,0.11,9.1,11.00,0.00,6.0,0.385,-0.63,0.43,27,66,,,5,8,0,1090.00,1172.00,9
+Rusty Dusty,total,All,All,All,"Rusty Dusty - All (All)
+
+#6 (BaseballIsBoring 2026, pick #12, 13-9, 0.19 PF_z, 57 zStrength, 101 PF+, 6.0 xRank, 0.06 xTitles, 0.01 xSackos)
+	-L7 weenie ",1,1,1,2026,2026,0,0.00,0,0.00,0,0.00,0,0.00,0.1,0.06,0.0,0.01,54.5,6.00,0.00,12.0,0.591,0.19,-0.50,57,31,,,,,,,,
+Rusty Dusty,sport,All,mlb,All,"Rusty Dusty - All (mlb)
+
+#6 (BaseballIsBoring 2026, pick #12, 13-9, 0.19 PF_z, 57 zStrength, 101 PF+, 6.0 xRank, 0.06 xTitles, 0.01 xSackos)
+	-L7 weenie ",1,1,1,2026,2026,0,0.00,0,0.00,0,0.00,0,0.00,0.1,0.06,0.0,0.01,54.5,6.00,0.00,12.0,0.591,0.19,-0.50,57,31,,,,,,,,
+Rusty Dusty,year,2026,All,All,"Rusty Dusty - All (All), 2026
+
+#6 (BaseballIsBoring 2026, pick #12, 13-9, 0.19 PF_z, 57 zStrength, 101 PF+, 6.0 xRank, 0.06 xTitles, 0.01 xSackos)
+	-L7 weenie ",1,1,1,2026,2026,0,0.00,0,0.00,0,0.00,0,0.00,0.1,0.06,0.0,0.01,54.5,6.00,0.00,12.0,0.591,0.19,-0.50,57,31,,,,,,,,
+Rusty Dusty,year_sport,2026,mlb,All,"Rusty Dusty - All (mlb), 2026
+
+#6 (BaseballIsBoring 2026, pick #12, 13-9, 0.19 PF_z, 57 zStrength, 101 PF+, 6.0 xRank, 0.06 xTitles, 0.01 xSackos)
+	-L7 weenie ",1,1,1,2026,2026,0,0.00,0,0.00,0,0.00,0,0.00,0.1,0.06,0.0,0.01,54.5,6.00,0.00,12.0,0.591,0.19,-0.50,57,31,,,,,,,,
+Rusty Dusty,league,All,mlb,BaseballIsBoring,"Rusty Dusty - BaseballIsBoring (mlb)
+
+#6 (2026, pick #12, 13-9, 0.19 PF_z, 57 zStrength, 101 PF+, 6.0 xRank, 0.06 xTitles, 0.01 xSackos)
+	-L7 weenie ",1,1,1,2026,2026,0,0.00,0,0.00,0,0.00,0,0.00,0.1,0.06,0.0,0.01,54.5,6.00,0.00,12.0,0.591,0.19,-0.50,57,31,,,13,9,0,21138.94,20420.27,
+Rusty Dusty,league_year,2026,mlb,BaseballIsBoring,"Rusty Dusty - BaseballIsBoring (mlb), 2026
+
+#6 (2026, pick #12, 13-9, 0.19 PF_z, 57 zStrength, 101 PF+, 6.0 xRank, 0.06 xTitles, 0.01 xSackos)
+	-L7 weenie ",1,1,1,2026,2026,0,0.00,0,0.00,0,0.00,0,0.00,0.1,0.06,0.0,0.01,54.5,6.00,0.00,12.0,0.591,0.19,-0.50,57,31,,,13,9,0,21138.94,20420.27,
 Ryan Patterson,total,All,All,All,"Ryan Patterson - All (All)
 
 #11 (Genital 2023, 6-8, -0.13 PF_z, 45 zStrength, 99 PF+, 6.8 xRank, 0.03 xTitles, 0.06 xSackos)
@@ -18959,7 +19083,7 @@ The Real Deal,league_year,2011,mlb,BaseballIsBoring,"The Real Deal - BaseballIsB
 	-The Real Deal ",1,1,1,2011,2011,0,0.00,1,1.00,0,0.00,0,0.00,0.1,0.07,0.0,0.00,81.8,3.00,0.00,,,0.27,,61,,,,,,,70.50,,
 Thomas Macfadyen,total,All,All,All,"Thomas Macfadyen - All (All)
 
-#n/a (BaseballIsBoring 2026, pick #11, 86 draft_zStrength, 4-18, -2.30 PF_z, 1 zStrength, 85 PF+, 12.9 xRank, 0.00 xTitles, 0.82 xSackos)
+#12 (BaseballIsBoring 2026, pick #11, 86 draft_zStrength, 4-18, -2.30 PF_z, 1 zStrength, 85 PF+, 12.9 xRank, 0.00 xTitles, 0.82 xSackos)
 	-Shut Up Babydick 
 
  #11 (BaseballIsBoring 2025, pick #4, 59 draft_zStrength, 6-16, -0.97 PF_z, 17 zStrength, 89 PF+, 9.2 xRank, 0.01 xTitles, 0.11 xSackos)
@@ -18999,10 +19123,10 @@ Thomas Macfadyen,total,All,All,All,"Thomas Macfadyen - All (All)
 	-Thomas Macfadyen 
 
  # (BaseballIsBoring 2013, ,  PF_z,  zStrength,  PF+,  xRank,  xTitles,  xSackos)
-	-Thomas Macfadyen ",13,1,1,2013,2025,1,0.08,1,0.08,0,0.00,0,0.00,0.4,0.03,1.0,0.08,30.2,7.88,2.76,3.1,0.372,-0.61,-0.17,30,49,0.00,50,,,,,,
+	-Thomas Macfadyen ",14,1,1,2013,2026,1,0.07,1,0.07,0,0.00,1,0.07,0.4,0.03,1.8,0.13,26.8,8.33,2.91,4.0,0.351,-0.80,-0.27,27,45,0.27,59,,,,,,
 Thomas Macfadyen,sport,All,mlb,All,"Thomas Macfadyen - All (mlb)
 
-#n/a (BaseballIsBoring 2026, pick #11, 86 draft_zStrength, 4-18, -2.30 PF_z, 1 zStrength, 85 PF+, 12.9 xRank, 0.00 xTitles, 0.82 xSackos)
+#12 (BaseballIsBoring 2026, pick #11, 86 draft_zStrength, 4-18, -2.30 PF_z, 1 zStrength, 85 PF+, 12.9 xRank, 0.00 xTitles, 0.82 xSackos)
 	-Shut Up Babydick 
 
  #11 (BaseballIsBoring 2025, pick #4, 59 draft_zStrength, 6-16, -0.97 PF_z, 17 zStrength, 89 PF+, 9.2 xRank, 0.01 xTitles, 0.11 xSackos)
@@ -19042,7 +19166,11 @@ Thomas Macfadyen,sport,All,mlb,All,"Thomas Macfadyen - All (mlb)
 	-Thomas Macfadyen 
 
  # (BaseballIsBoring 2013, ,  PF_z,  zStrength,  PF+,  xRank,  xTitles,  xSackos)
-	-Thomas Macfadyen ",13,1,1,2013,2025,1,0.08,1,0.08,0,0.00,0,0.00,0.4,0.03,1.0,0.08,30.2,7.88,2.76,3.1,0.372,-0.61,-0.17,30,49,0.00,50,,,,,,
+	-Thomas Macfadyen ",14,1,1,2013,2026,1,0.07,1,0.07,0,0.00,1,0.07,0.4,0.03,1.8,0.13,26.8,8.33,2.91,4.0,0.351,-0.80,-0.27,27,45,0.27,59,,,,,,
+Thomas Macfadyen,year,2026,All,All,"Thomas Macfadyen - All (All), 2026
+
+#12 (BaseballIsBoring 2026, pick #11, 86 draft_zStrength, 4-18, -2.30 PF_z, 1 zStrength, 85 PF+, 12.9 xRank, 0.00 xTitles, 0.82 xSackos)
+	-Shut Up Babydick ",1,1,1,2026,2026,0,0.00,0,0.00,0,0.00,1,1.00,0.0,0.00,0.8,0.82,0.0,12.00,0.00,11.0,0.182,-2.30,-1.08,1,14,1.08,86,,,,,,
 Thomas Macfadyen,year,2025,All,All,"Thomas Macfadyen - All (All), 2025
 
 #11 (BaseballIsBoring 2025, pick #4, 59 draft_zStrength, 6-16, -0.97 PF_z, 17 zStrength, 89 PF+, 9.2 xRank, 0.01 xTitles, 0.11 xSackos)
@@ -19095,6 +19223,10 @@ Thomas Macfadyen,year,2013,All,All,"Thomas Macfadyen - All (All), 2013
 
 # (BaseballIsBoring 2013, ,  PF_z,  zStrength,  PF+,  xRank,  xTitles,  xSackos)
 	-Thomas Macfadyen ",1,1,1,2013,2013,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Thomas Macfadyen,year_sport,2026,mlb,All,"Thomas Macfadyen - All (mlb), 2026
+
+#12 (BaseballIsBoring 2026, pick #11, 86 draft_zStrength, 4-18, -2.30 PF_z, 1 zStrength, 85 PF+, 12.9 xRank, 0.00 xTitles, 0.82 xSackos)
+	-Shut Up Babydick ",1,1,1,2026,2026,0,0.00,0,0.00,0,0.00,1,1.00,0.0,0.00,0.8,0.82,0.0,12.00,0.00,11.0,0.182,-2.30,-1.08,1,14,1.08,86,,,,,,
 Thomas Macfadyen,year_sport,2025,mlb,All,"Thomas Macfadyen - All (mlb), 2025
 
 #11 (BaseballIsBoring 2025, pick #4, 59 draft_zStrength, 6-16, -0.97 PF_z, 17 zStrength, 89 PF+, 9.2 xRank, 0.01 xTitles, 0.11 xSackos)
@@ -19149,7 +19281,7 @@ Thomas Macfadyen,year_sport,2013,mlb,All,"Thomas Macfadyen - All (mlb), 2013
 	-Thomas Macfadyen ",1,1,1,2013,2013,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 Thomas Macfadyen,league,All,mlb,BaseballIsBoring,"Thomas Macfadyen - BaseballIsBoring (mlb)
 
-#n/a (2026, pick #11, 86 draft_zStrength, 4-18, -2.30 PF_z, 1 zStrength, 85 PF+, 12.9 xRank, 0.00 xTitles, 0.82 xSackos)
+#12 (2026, pick #11, 86 draft_zStrength, 4-18, -2.30 PF_z, 1 zStrength, 85 PF+, 12.9 xRank, 0.00 xTitles, 0.82 xSackos)
 	-Shut Up Babydick 
 
  #11 (2025, pick #4, 59 draft_zStrength, 6-16, -0.97 PF_z, 17 zStrength, 89 PF+, 9.2 xRank, 0.01 xTitles, 0.11 xSackos)
@@ -19189,7 +19321,11 @@ Thomas Macfadyen,league,All,mlb,BaseballIsBoring,"Thomas Macfadyen - BaseballIsB
 	-Thomas Macfadyen 
 
  # (2013, ,  PF_z,  zStrength,  PF+,  xRank,  xTitles,  xSackos)
-	-Thomas Macfadyen ",13,1,1,2013,2025,1,0.08,1,0.08,0,0.00,0,0.00,0.4,0.03,1.0,0.08,30.2,7.88,2.76,3.1,0.372,-0.61,-0.17,30,49,0.00,50,56,108,0,137857.53,151395.48,
+	-Thomas Macfadyen ",14,1,1,2013,2026,1,0.07,1,0.07,0,0.00,1,0.07,0.4,0.03,1.8,0.13,26.8,8.33,2.91,4.0,0.351,-0.80,-0.27,27,45,0.27,59,60,126,0,155515.40,171638.08,
+Thomas Macfadyen,league_year,2026,mlb,BaseballIsBoring,"Thomas Macfadyen - BaseballIsBoring (mlb), 2026
+
+#12 (2026, pick #11, 86 draft_zStrength, 4-18, -2.30 PF_z, 1 zStrength, 85 PF+, 12.9 xRank, 0.00 xTitles, 0.82 xSackos)
+	-Shut Up Babydick ",1,1,1,2026,2026,0,0.00,0,0.00,0,0.00,1,1.00,0.0,0.00,0.8,0.82,0.0,12.00,0.00,11.0,0.182,-2.30,-1.08,1,14,1.08,86,4,18,0,17657.87,20242.60,
 Thomas Macfadyen,league_year,2025,mlb,BaseballIsBoring,"Thomas Macfadyen - BaseballIsBoring (mlb), 2025
 
 #11 (2025, pick #4, 59 draft_zStrength, 6-16, -0.97 PF_z, 17 zStrength, 89 PF+, 9.2 xRank, 0.01 xTitles, 0.11 xSackos)
@@ -19244,7 +19380,7 @@ Thomas Macfadyen,league_year,2013,mlb,BaseballIsBoring,"Thomas Macfadyen - Baseb
 	-Thomas Macfadyen ",1,1,1,2013,2013,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 Tommy Pompo,total,All,All,All,"Tommy Pompo - All (All)
 
-#n/a (BaseballIsBoring 2026, pick #4, 25 draft_zStrength, 12-10, 1.29 PF_z, 90 zStrength, 109 PF+, 3.0 xRank, 0.26 xTitles, 0.00 xSackos)
+#7 (BaseballIsBoring 2026, pick #4, 25 draft_zStrength, 12-10, 1.29 PF_z, 90 zStrength, 109 PF+, 3.0 xRank, 0.26 xTitles, 0.00 xSackos)
 	-The Ghost of Wade Boggs 
 
  #4 (BaseballIsBoring 2025, pick #11, 9 draft_zStrength, 14-8, 0.94 PF_z, 83 zStrength, 110 PF+, 3.9 xRank, 0.17 xTitles, 0.00 xSackos)
@@ -19338,10 +19474,10 @@ Tommy Pompo,total,All,All,All,"Tommy Pompo - All (All)
 	-Chex Mix 
 
  #4 (BaseballIsBoring 2011, , 0.15 PF_z, 56 zStrength, 105 PF+, 6.1 xRank, 0.06 xTitles, 0.01 xSackos)
-	-Chex Mix ",31,3,2,2011,2025,22,0.71,15,0.48,3,0.10,2,0.06,3.7,0.12,1.1,0.04,68.7,4.10,2.52,6.8,0.624,0.45,-0.32,64,40,-0.10,45,,,,,,
+	-Chex Mix ",32,3,2,2011,2026,22,0.69,15,0.47,3,0.09,2,0.06,4.0,0.12,1.1,0.03,67.9,4.20,2.54,6.6,0.621,0.48,-0.27,65,42,-0.14,44,,,,,,
 Tommy Pompo,sport,All,mlb,All,"Tommy Pompo - All (mlb)
 
-#n/a (BaseballIsBoring 2026, pick #4, 25 draft_zStrength, 12-10, 1.29 PF_z, 90 zStrength, 109 PF+, 3.0 xRank, 0.26 xTitles, 0.00 xSackos)
+#7 (BaseballIsBoring 2026, pick #4, 25 draft_zStrength, 12-10, 1.29 PF_z, 90 zStrength, 109 PF+, 3.0 xRank, 0.26 xTitles, 0.00 xSackos)
 	-The Ghost of Wade Boggs 
 
  #4 (BaseballIsBoring 2025, pick #11, 9 draft_zStrength, 14-8, 0.94 PF_z, 83 zStrength, 110 PF+, 3.9 xRank, 0.17 xTitles, 0.00 xSackos)
@@ -19396,7 +19532,7 @@ Tommy Pompo,sport,All,mlb,All,"Tommy Pompo - All (mlb)
 	-Chex Mix 
 
  #4 (BaseballIsBoring 2011, , 0.15 PF_z, 56 zStrength, 105 PF+, 6.1 xRank, 0.06 xTitles, 0.01 xSackos)
-	-Chex Mix ",18,2,1,2011,2025,13,0.72,10,0.56,1,0.06,0,0.00,1.9,0.11,0.1,0.00,75.7,3.38,1.87,7.8,0.662,0.69,-0.31,73,42,-0.72,26,,,,,,
+	-Chex Mix ",19,2,1,2011,2026,13,0.68,10,0.53,1,0.05,0,0.00,2.2,0.12,0.1,0.00,73.9,3.59,2.00,7.3,0.652,0.74,-0.19,74,46,-0.71,26,,,,,,
 Tommy Pompo,sport,All,nfl,All,"Tommy Pompo - All (nfl)
 
 #5 (Bitches 2025, pick #7, 55 draft_zStrength, 8-6, -1.23 PF_z, 11 zStrength, 90 PF+, 9.6 xRank, 0.01 xTitles, 0.19 xSackos)
@@ -19437,6 +19573,10 @@ Tommy Pompo,sport,All,nfl,All,"Tommy Pompo - All (nfl)
 
  #3 (Bitches 2013, pick #6, 10-5, 0.38 PF_z, 65 zStrength, 102 PF+, 3.7 xRank, 0.07 xTitles, 0.04 xSackos)
 	-Tommy P's Team ",13,1,1,2013,2025,9,0.69,5,0.38,2,0.15,2,0.15,1.8,0.14,1.0,0.08,60.0,5.00,2.91,6.2,0.592,0.21,-0.33,55,39,0.52,65,,,,,,
+Tommy Pompo,year,2026,All,All,"Tommy Pompo - All (All), 2026
+
+#7 (BaseballIsBoring 2026, pick #4, 25 draft_zStrength, 12-10, 1.29 PF_z, 90 zStrength, 109 PF+, 3.0 xRank, 0.26 xTitles, 0.00 xSackos)
+	-The Ghost of Wade Boggs ",1,1,1,2026,2026,0,0.00,0,0.00,0,0.00,0,0.00,0.3,0.26,0.0,0.00,45.5,7.00,0.00,4.0,0.546,1.29,0.77,90,78,-0.67,25,,,,,,
 Tommy Pompo,year,2025,All,All,"Tommy Pompo - All (All), 2025
 
 #4 (BaseballIsBoring 2025, pick #11, 9 draft_zStrength, 14-8, 0.94 PF_z, 83 zStrength, 110 PF+, 3.9 xRank, 0.17 xTitles, 0.00 xSackos)
@@ -19545,6 +19685,10 @@ Tommy Pompo,year,2011,All,All,"Tommy Pompo - All (All), 2011
 
 #4 (BaseballIsBoring 2011, , 0.15 PF_z, 56 zStrength, 105 PF+, 6.1 xRank, 0.06 xTitles, 0.01 xSackos)
 	-Chex Mix ",1,1,1,2011,2011,0,0.00,0,0.00,0,0.00,0,0.00,0.1,0.06,0.0,0.01,72.7,4.00,0.00,,,0.15,,56,,,,,,,,,
+Tommy Pompo,year_sport,2026,mlb,All,"Tommy Pompo - All (mlb), 2026
+
+#7 (BaseballIsBoring 2026, pick #4, 25 draft_zStrength, 12-10, 1.29 PF_z, 90 zStrength, 109 PF+, 3.0 xRank, 0.26 xTitles, 0.00 xSackos)
+	-The Ghost of Wade Boggs ",1,1,1,2026,2026,0,0.00,0,0.00,0,0.00,0,0.00,0.3,0.26,0.0,0.00,45.5,7.00,0.00,4.0,0.546,1.29,0.77,90,78,-0.67,25,,,,,,
 Tommy Pompo,year_sport,2025,mlb,All,"Tommy Pompo - All (mlb), 2025
 
 #4 (BaseballIsBoring 2025, pick #11, 9 draft_zStrength, 14-8, 0.94 PF_z, 83 zStrength, 110 PF+, 3.9 xRank, 0.17 xTitles, 0.00 xSackos)
@@ -19678,7 +19822,7 @@ Tommy Pompo,league,All,mlb,BallNightLong,"Tommy Pompo - BallNightLong (mlb)
 	-Whip Its ",3,1,1,2022,2024,3,1.00,2,0.67,0,0.00,0,0.00,0.5,0.18,0.0,0.00,79.7,3.33,0.47,,0.590,0.93,,81,,-0.52,30,371,252,37,1954.46,,200
 Tommy Pompo,league,All,mlb,BaseballIsBoring,"Tommy Pompo - BaseballIsBoring (mlb)
 
-#n/a (2026, pick #4, 25 draft_zStrength, 12-10, 1.29 PF_z, 90 zStrength, 109 PF+, 3.0 xRank, 0.26 xTitles, 0.00 xSackos)
+#7 (2026, pick #4, 25 draft_zStrength, 12-10, 1.29 PF_z, 90 zStrength, 109 PF+, 3.0 xRank, 0.26 xTitles, 0.00 xSackos)
 	-The Ghost of Wade Boggs 
 
  #4 (2025, pick #11, 9 draft_zStrength, 14-8, 0.94 PF_z, 83 zStrength, 110 PF+, 3.9 xRank, 0.17 xTitles, 0.00 xSackos)
@@ -19724,7 +19868,7 @@ Tommy Pompo,league,All,mlb,BaseballIsBoring,"Tommy Pompo - BaseballIsBoring (mlb
 	-Chex Mix 
 
  #4 (2011, , 0.15 PF_z, 56 zStrength, 105 PF+, 6.1 xRank, 0.06 xTitles, 0.01 xSackos)
-	-Chex Mix ",15,1,1,2011,2025,10,0.67,8,0.53,1,0.07,0,0.00,1.4,0.09,0.0,0.00,74.7,3.38,2.06,7.8,0.689,0.62,-0.31,70,42,-0.91,21,119,45,0,166935.54,147462.82,
+	-Chex Mix ",16,1,1,2011,2026,10,0.63,8,0.50,1,0.06,0,0.00,1.7,0.10,0.0,0.00,72.7,3.64,2.19,7.3,0.673,0.68,-0.19,72,46,-0.85,22,131,55,0,189616.91,168838.99,
 Tommy Pompo,league,All,nfl,Bitches,"Tommy Pompo - Bitches (nfl)
 
 #5 (2025, pick #7, 55 draft_zStrength, 8-6, -1.23 PF_z, 11 zStrength, 90 PF+, 9.6 xRank, 0.01 xTitles, 0.19 xSackos)
@@ -19765,6 +19909,10 @@ Tommy Pompo,league,All,nfl,Bitches,"Tommy Pompo - Bitches (nfl)
 
  #3 (2013, pick #6, 10-5, 0.38 PF_z, 65 zStrength, 102 PF+, 3.7 xRank, 0.07 xTitles, 0.04 xSackos)
 	-Tommy P's Team ",13,1,1,2013,2025,9,0.69,5,0.38,2,0.15,2,0.15,1.8,0.14,1.0,0.08,60.0,5.00,2.91,6.2,0.592,0.21,-0.33,55,39,0.52,65,105,73,0,21319.72,20407.82,317
+Tommy Pompo,league_year,2026,mlb,BaseballIsBoring,"Tommy Pompo - BaseballIsBoring (mlb), 2026
+
+#7 (2026, pick #4, 25 draft_zStrength, 12-10, 1.29 PF_z, 90 zStrength, 109 PF+, 3.0 xRank, 0.26 xTitles, 0.00 xSackos)
+	-The Ghost of Wade Boggs ",1,1,1,2026,2026,0,0.00,0,0.00,0,0.00,0,0.00,0.3,0.26,0.0,0.00,45.5,7.00,0.00,4.0,0.546,1.29,0.77,90,78,-0.67,25,12,10,0,22681.37,21376.17,
 Tommy Pompo,league_year,2025,mlb,BaseballIsBoring,"Tommy Pompo - BaseballIsBoring (mlb), 2025
 
 #4 (2025, pick #11, 9 draft_zStrength, 14-8, 0.94 PF_z, 83 zStrength, 110 PF+, 3.9 xRank, 0.17 xTitles, 0.00 xSackos)
