@@ -1,7 +1,7 @@
 year,owner,league_name,Details,finish,pick,W,L,T,PF,PA,Moves,PtsPct,xTitles,xSackos,PF_z,zStrength,xRank,RankDiff,xPtsPct,PtsPctDiff,PA_z,PA_zStrength,xPA,PA_DIFF,draft_z,draft_zStrength,PF+,PA+,seasons,Playoffs,Podiums,Titles,Sackos,std_finish,total_W,total_L,total_PF,total_PA,team_name
 Total,Casey Mangan,Jameses-nfl,"Casey Mangan - Jameses (nfl)
 
-#n/a (2026, pick #2, 64 draft_zStrength, 2-1, 0.36 PF_z, 64 zStrength, 106 PF+, 5.6 xRank, 0.07 xTitles, 0.04 xSackos)
+#n/a (2026, pick #2, 64 draft_zStrength, 2-2, 0.58 PF_z, 72 zStrength, 109 PF+, 5.1 xRank, 0.10 xTitles, 0.03 xSackos)
 	-Kumbaya Malort 
 
  #6 (2025, pick #5, 65 draft_zStrength, 7-7, 1.43 PF_z, 92 zStrength, 105 PF+, 3.0 xRank, 0.28 xTitles, 0.01 xSackos)
@@ -48,7 +48,7 @@ Cocaine Train
 Kumbaya Malort"
 Total,Connor Reed,Jameses-nfl,"Connor Reed - Jameses (nfl)
 
-#n/a (2026, pick #12, 74 draft_zStrength, 2-1, 1.59 PF_z, 94 zStrength, 126 PF+, 2.6 xRank, 0.33 xTitles, 0.01 xSackos)
+#n/a (2026, pick #12, 74 draft_zStrength, 3-1, 1.78 PF_z, 96 zStrength, 126 PF+, 2.1 xRank, 0.40 xTitles, 0.01 xSackos)
 	-6 7 
 
  #7 (2025, pick #1, 83 draft_zStrength, 6-8, -0.62 PF_z, 27 zStrength, 98 PF+, 8.1 xRank, 0.02 xTitles, 0.11 xSackos)
@@ -96,7 +96,7 @@ rome odunzer I hardly know her
 6 7"
 Total,Danny Noonan,Jameses-nfl,"Danny Noonan - Jameses (nfl)
 
-#n/a (2026, pick #6, 65 draft_zStrength, 3-0, -0.05 PF_z, 48 zStrength, 99 PF+, 6.6 xRank, 0.04 xTitles, 0.06 xSackos)
+#n/a (2026, pick #6, 65 draft_zStrength, 3-1, -0.79 PF_z, 21 zStrength, 88 PF+, 8.5 xRank, 0.01 xTitles, 0.13 xSackos)
 	-Fantastic Men 
 
  #2 (2025, pick #11, 78 draft_zStrength, 8-6, -0.12 PF_z, 45 zStrength, 100 PF+, 6.8 xRank, 0.03 xTitles, 0.06 xSackos)
@@ -134,7 +134,7 @@ Total,Danny Noonan,Jameses-nfl,"Danny Noonan - Jameses (nfl)
 Fantastisch Mensch"
 Total,Donovan Sheridan,Jameses-nfl,"Donovan Sheridan - Jameses (nfl)
 
-#n/a (2026, pick #11, 69 draft_zStrength, 2-1, 0.22 PF_z, 59 zStrength, 104 PF+, 6.0 xRank, 0.06 xTitles, 0.04 xSackos)
+#n/a (2026, pick #11, 69 draft_zStrength, 2-2, 0.38 PF_z, 65 zStrength, 106 PF+, 5.6 xRank, 0.07 xTitles, 0.03 xSackos)
 	-Turn On The JJettas 
 
  #3 (2025, pick #10, 65 draft_zStrength, 11-3, 1.44 PF_z, 92 zStrength, 105 PF+, 2.9 xRank, 0.28 xTitles, 0.01 xSackos)
@@ -180,7 +180,7 @@ Puka Round and Find Out
 Turn On The JJettas"
 Total,Greg Ebert,Jameses-nfl,"Greg Ebert - Jameses (nfl)
 
-#n/a (2026, pick #8, 88 draft_zStrength, 0-3, -0.97 PF_z, 17 zStrength, 84 PF+, 8.9 xRank, 0.01 xTitles, 0.15 xSackos)
+#n/a (2026, pick #8, 88 draft_zStrength, 1-3, -0.47 PF_z, 32 zStrength, 93 PF+, 7.7 xRank, 0.02 xTitles, 0.09 xSackos)
 	-Pain is a Circle 
 
  #11 (2025, pick #9, 68 draft_zStrength, 5-9, -0.18 PF_z, 43 zStrength, 99 PF+, 7.0 xRank, 0.03 xTitles, 0.07 xSackos)
@@ -227,7 +227,7 @@ Academic Weapons
 Pain is a Circle"
 Total,James McKenna,Jameses-nfl,"James McKenna - Jameses (nfl)
 
-#n/a (2026, pick #4, 3 draft_zStrength, 0-3, -1.25 PF_z, 11 zStrength, 80 PF+, 9.6 xRank, 0.01 xTitles, 0.20 xSackos)
+#n/a (2026, pick #4, 3 draft_zStrength, 1-3, -0.81 PF_z, 21 zStrength, 88 PF+, 8.5 xRank, 0.01 xTitles, 0.13 xSackos)
 	-Hit Squad 
 
  #4 (2025, pick #8, 36 draft_zStrength, 9-5, 1.22 PF_z, 89 zStrength, 104 PF+, 3.5 xRank, 0.22 xTitles, 0.01 xSackos)
@@ -265,7 +265,7 @@ Total,James McKenna,Jameses-nfl,"James McKenna - Jameses (nfl)
 Hotgod Squad"
 Total,Kevin Mangan,Jameses-nfl,"Kevin Mangan - Jameses (nfl)
 
-#n/a (2026, pick #9, 16 draft_zStrength, 2-1, -0.35 PF_z, 36 zStrength, 94 PF+, 7.4 xRank, 0.02 xTitles, 0.08 xSackos)
+#n/a (2026, pick #9, 16 draft_zStrength, 3-1, -0.33 PF_z, 37 zStrength, 95 PF+, 7.3 xRank, 0.03 xTitles, 0.08 xSackos)
 	-Butt Calves 
 
  #12 (2025, pick #12, 4 draft_zStrength, 5-9, -1.65 PF_z, 5 zStrength, 94 PF+, 10.6 xRank, 0.00 xTitles, 0.28 xSackos)
@@ -313,8 +313,8 @@ Purple Reign
 Butt Calves"
 Total,Kyle McNulty,Jameses-nfl,"Kyle McNulty - Jameses (nfl)
 
-#n/a (2026, pick #3, 32 draft_zStrength, 1-2, -1.81 PF_z, 4 zStrength, 71 PF+, 11.0 xRank, 0.00 xTitles, 0.32 xSackos)
-	-AJ Down 
+#n/a (2026, pick #3, 32 draft_zStrength, 1-3, -1.86 PF_z, 3 zStrength, 73 PF+, 11.1 xRank, 0.00 xTitles, 0.33 xSackos)
+	-AJ Frown 
 
  #10 (2025, pick #2, 92 draft_zStrength, 6-8, -1.29 PF_z, 10 zStrength, 96 PF+, 9.7 xRank, 0.01 xTitles, 0.20 xSackos)
 	-Off Constantly 
@@ -356,10 +356,10 @@ Team 2020
 Detroit Lions 2020
 Small TDs
 Off Constantly
-AJ Down"
+AJ Frown"
 Total,Matt Abraham,Jameses-nfl,"Matt Abraham - Jameses (nfl)
 
-#n/a (2026, pick #10, 17 draft_zStrength, 1-2, -0.23 PF_z, 41 zStrength, 96 PF+, 7.1 xRank, 0.03 xTitles, 0.07 xSackos)
+#n/a (2026, pick #10, 17 draft_zStrength, 2-2, -0.52 PF_z, 30 zStrength, 92 PF+, 7.8 xRank, 0.02 xTitles, 0.09 xSackos)
 	-Pengwinners 
 
  #9 (2025, pick #7, 39 draft_zStrength, 7-7, -0.46 PF_z, 32 zStrength, 98 PF+, 7.7 xRank, 0.02 xTitles, 0.09 xSackos)
@@ -408,7 +408,7 @@ Total,Mitchell Vierhus,Jameses-nfl,"Mitchell Vierhus - Jameses (nfl)
 	-U can run, but you can't Hyde ",10.0,11.0,3.0,10.0,0.0,963.80,1267.10,10.0,0.231,0.00,0.39,-2.05,2,11.6,-1.6,0.226,-0.005,1.18,88,1190.0,77.1,,,82,107,1 (2015 - 2015),0,0,0,0,0.0,3,10,963.80,1267.10,"U can run, but you can't Hyde"
 Total,Sean Musser,Jameses-nfl,"Sean Musser - Jameses (nfl)
 
-#n/a (2026, pick #1, 96 draft_zStrength, 2-1, 1.70 PF_z, 96 zStrength, 128 PF+, 2.3 xRank, 0.37 xTitles, 0.01 xSackos)
+#n/a (2026, pick #1, 96 draft_zStrength, 3-1, 1.72 PF_z, 96 zStrength, 125 PF+, 2.2 xRank, 0.38 xTitles, 0.01 xSackos)
 	-The Loid Gibbs the lloyd Takes 
 
  #8 (2025, pick #6, 17 draft_zStrength, 7-7, -0.82 PF_z, 20 zStrength, 97 PF+, 8.6 xRank, 0.01 xTitles, 0.13 xSackos)
@@ -454,7 +454,7 @@ Waddle baby, Waddle baby
 The Loid Gibbs the lloyd Takes"
 Total,Trevor Carney,Jameses-nfl,"Trevor Carney - Jameses (nfl)
 
-#n/a (2026, pick #7, 64 draft_zStrength, 2-1, 0.12 PF_z, 55 zStrength, 102 PF+, 6.2 xRank, 0.05 xTitles, 0.05 xSackos)
+#n/a (2026, pick #7, 64 draft_zStrength, 2-2, 0.12 PF_z, 55 zStrength, 102 PF+, 6.2 xRank, 0.05 xTitles, 0.05 xSackos)
 	-The Hall Monitor 
 
  #5 (2025, pick #3, 4 draft_zStrength, 8-6, 0.27 PF_z, 61 zStrength, 101 PF+, 5.8 xRank, 0.06 xTitles, 0.04 xSackos)
@@ -489,7 +489,7 @@ Total,Trevor Carney,Jameses-nfl,"Trevor Carney - Jameses (nfl)
 The Hall Monitor"
 Total,Tyler Edwards,Jameses-nfl,"Tyler Edwards - Jameses (nfl)
 
-#n/a (2026, pick #5, 19 draft_zStrength, 1-2, 0.67 PF_z, 75 zStrength, 111 PF+, 4.9 xRank, 0.11 xTitles, 0.03 xSackos)
+#n/a (2026, pick #5, 19 draft_zStrength, 1-3, 0.19 PF_z, 57 zStrength, 103 PF+, 6.0 xRank, 0.05 xTitles, 0.04 xSackos)
 	-TOADAL DOMINATION 
 
  #1 (2025, pick #4, 79 draft_zStrength, 5-9, 0.79 PF_z, 79 zStrength, 103 PF+, 4.6 xRank, 0.13 xTitles, 0.02 xSackos)
@@ -525,18 +525,18 @@ Total,Tyler Edwards,Jameses-nfl,"Tyler Edwards - Jameses (nfl)
  #12 (2015, pick #12, 6-7, -0.86 PF_z, 19 zStrength, 92 PF+, 8.7 xRank, 0.01 xTitles, 0.14 xSackos)
 	-Wu Tang Liquidation ",6.0,6.1,6.2,7.3,0.0,1391.58,1420.55,23.9,0.459,1.32,1.22,-0.03,49,6.6,-0.6,0.496,0.038,0.33,62,1397.9,249.2,1.22,88,99,102,11 (2015 - 2025),5,3,2,1,3.7,68,80,15307.33,15626.07,"Wu Tang Liquidation
 TOADAL DOMINATION"
-2026,Casey Mangan,Jameses-nfl,,n/a,2,2,1,0,335.98,368.08,5,0.667,0.07,0.04,0.36,64,5.6,,0.548,-0.118,1.35,91,315.7,52.4,0.35,64,106,117,,,,,,,,,,,Kumbaya Malort
-2026,Connor Reed,Jameses-nfl,,n/a,12,2,1,0,399.02,315.29,7,0.667,0.33,0.01,1.59,94,2.6,,0.712,0.045,0.14,55,310.0,5.3,0.65,74,126,102,,,,,,,,,,,6 7
-2026,Danny Noonan,Jameses-nfl,,n/a,6,3,0,0,314.89,287.98,0,1.000,0.04,0.06,-0.05,48,6.6,,0.493,-0.507,-0.76,22,317.7,-29.7,0.39,65,99,91,,,,,,,,,,,Fantastic Men
-2026,Donovan Sheridan,Jameses-nfl,,n/a,11,2,1,0,328.66,296.94,2,0.667,0.06,0.04,0.22,59,6.0,,0.529,-0.137,-0.50,31,316.4,-19.5,0.50,69,104,94,,,,,,,,,,,Turn On The JJettas
-2026,Greg Ebert,Jameses-nfl,,n/a,8,0,3,0,267.49,322.36,1,0.000,0.01,0.15,-0.97,17,8.9,,0.370,0.370,0.01,50,322.0,0.4,1.19,88,84,100,,,,,,,,,,,Pain is a Circle
-2026,James McKenna,Jameses-nfl,,n/a,4,0,3,0,253.23,369.85,2,0.000,0.01,0.20,-1.25,11,9.6,,0.333,0.333,1.20,88,323.3,46.6,-1.87,3,80,114,,,,,,,,,,,Hit Squad
-2026,Kevin Mangan,Jameses-nfl,,n/a,9,2,1,0,299.22,272.64,4,0.667,0.02,0.08,-0.35,36,7.4,,0.453,-0.214,-1.20,12,319.1,-46.5,-0.99,16,94,85,,,,,,,,,,,Butt Calves
-2026,Kyle McNulty,Jameses-nfl,,n/a,3,1,2,0,224.52,262.07,8,0.333,0.00,0.32,-1.81,4,11.0,,0.259,-0.075,-1.64,5,325.9,-63.8,-0.48,32,71,80,,,,,,,,,,,AJ Down
-2026,Matt Abraham,Jameses-nfl,,n/a,10,1,2,0,305.60,323.52,1,0.333,0.03,0.07,-0.23,41,7.1,,0.469,0.136,0.13,55,318.5,5.0,-0.97,17,96,102,,,,,,,,,,,Pengwinners
-2026,Sean Musser,Jameses-nfl,,n/a,1,2,1,0,405.08,376.87,7,0.667,0.37,0.01,1.70,96,2.3,,0.728,0.061,1.74,96,309.5,67.4,1.76,96,128,122,,,,,,,,,,,The Loid Gibbs the lloyd Takes
-2026,Trevor Carney,Jameses-nfl,,n/a,7,2,1,0,323.62,286.39,0,0.667,0.05,0.05,0.12,55,6.2,,0.516,-0.151,-0.78,22,316.9,-30.5,0.35,64,102,90,,,,,,,,,,,The Hall Monitor
-2026,Tyler Edwards,Jameses-nfl,,n/a,5,1,2,0,351.85,327.17,1,0.333,0.11,0.03,0.67,75,4.9,,0.589,0.256,0.33,63,314.3,12.9,-0.88,19,111,104,,,,,,,,,,,TOADAL DOMINATION
+2026,Casey Mangan,Jameses-nfl,,n/a,2,2,2,0,461.81,496.30,6,0.500,0.10,0.03,0.58,72,5.1,,0.578,0.078,1.66,95,421.9,74.4,0.35,64,109,118,,,,,,,,,,,Kumbaya Malort
+2026,Connor Reed,Jameses-nfl,,n/a,12,3,1,0,537.35,435.91,9,0.750,0.40,0.01,1.78,96,2.1,,0.738,-0.012,0.47,68,415.1,20.8,0.65,74,126,105,,,,,,,,,,,6 7
+2026,Danny Noonan,Jameses-nfl,,n/a,6,3,1,0,375.57,393.34,1,0.750,0.01,0.13,-0.79,21,8.5,,0.394,-0.356,-0.81,21,429.8,-36.5,0.39,65,88,92,,,,,,,,,,,Fantastic Men
+2026,Donovan Sheridan,Jameses-nfl,,n/a,11,2,2,0,449.28,435.27,5,0.500,0.07,0.03,0.38,65,5.6,,0.551,0.051,0.27,61,423.1,12.2,0.50,69,106,103,,,,,,,,,,,Turn On The JJettas
+2026,Greg Ebert,Jameses-nfl,,n/a,8,1,3,0,395.71,448.19,1,0.250,0.02,0.09,-0.47,32,7.7,,0.437,0.187,0.45,67,427.9,20.3,1.19,88,93,105,,,,,,,,,,,Pain is a Circle
+2026,James McKenna,Jameses-nfl,,n/a,4,1,3,0,374.36,478.91,5,0.250,0.01,0.13,-0.81,21,8.5,,0.392,0.142,1.10,86,429.9,49.0,-1.87,3,88,111,,,,,,,,,,,Hit Squad
+2026,Kevin Mangan,Jameses-nfl,,n/a,9,3,1,0,404.58,333.32,5,0.750,0.03,0.08,-0.33,37,7.3,,0.456,-0.294,-2.10,2,427.1,-93.8,-0.99,16,95,78,,,,,,,,,,,Butt Calves
+2026,Kyle McNulty,Jameses-nfl,,n/a,3,1,3,0,308.64,390.38,11,0.250,0.00,0.33,-1.86,3,11.1,,0.252,0.002,-1.02,15,435.8,-45.4,-0.48,32,73,90,,,,,,,,,,,AJ Frown
+2026,Matt Abraham,Jameses-nfl,,n/a,10,2,2,0,392.48,408.76,4,0.500,0.02,0.09,-0.52,30,7.8,,0.430,-0.070,-0.44,33,428.2,-19.4,-0.97,17,92,96,,,,,,,,,,,Pengwinners
+2026,Sean Musser,Jameses-nfl,,n/a,1,3,1,0,533.39,460.99,10,0.750,0.38,0.01,1.72,96,2.2,,0.730,-0.020,1.02,85,415.4,45.6,1.76,96,125,111,,,,,,,,,,,The Loid Gibbs the lloyd Takes
+2026,Trevor Carney,Jameses-nfl,,n/a,7,2,2,0,432.68,407.52,0,0.500,0.05,0.05,0.12,55,6.2,,0.516,0.016,-0.38,35,424.6,-17.1,0.35,64,102,96,,,,,,,,,,,The Hall Monitor
+2026,Tyler Edwards,Jameses-nfl,,n/a,5,1,3,0,437.09,414.05,1,0.250,0.05,0.04,0.19,57,6.0,,0.525,0.275,-0.23,41,424.2,-10.2,-0.88,19,103,98,,,,,,,,,,,TOADAL DOMINATION
 2025,Tyler Edwards,Jameses-nfl,,1,4,5,9,0,1516.65,1539.26,16,0.357,0.13,0.02,0.79,79,4.6,-3.6,0.606,0.249,0.88,81,1472.8,66.5,0.80,79,103,105,,1,1,1,0,,,,,,TOADAL DOMINATION
 2025,Danny Noonan,Jameses-nfl,,2,11,8,6,0,1470.26,1557.09,27,0.571,0.03,0.06,-0.12,45,6.8,-4.8,0.484,-0.088,1.06,86,1477.0,80.1,0.77,78,100,105,,1,1,0,0,,,,,,Fantastic Men
 2025,Donovan Sheridan,Jameses-nfl,,3,10,11,3,0,1549.58,1323.58,15,0.786,0.28,0.01,1.44,92,2.9,0.1,0.692,-0.093,-1.94,3,1469.8,-146.2,0.40,65,105,90,,1,1,0,0,,,,,,Puka Round and Find Out
