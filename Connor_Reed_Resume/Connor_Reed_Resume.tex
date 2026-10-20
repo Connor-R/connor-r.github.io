@@ -21,9 +21,14 @@
  \moveleft\hoffset\vbox{\hrule width 7.125in height 1pt}\smallskip
 % address begins here
 % Again, the address lines must be centered over entire width of resume:
- \moveleft.5\hoffset\centerline{\textit{20 Kite Hill Rd. -- Santa Cruz, CA 95060}}
+% Street address and phone are blacked out in this public copy -- fill them in
+% by hand for a job application (never in this file, which is published).
+\newcommand{\redact}[1]{\rule[-1.5pt]{#1}{9pt}}
+\newcommand{\ResStreet}{\redact{1.05in}}
+\newcommand{\ResPhone}{\redact{0.85in}}
+ \moveleft.5\hoffset\centerline{\textit{\ResStreet{} -- Santa Cruz, CA 95060}}
 
- \moveleft.5\hoffset\centerline{\texttt{\Mobilefone \hspace{1pt} (831) 239-5848 \hspace{5pt}}  \HexaSteel \hspace{8pt} \Letter \hspace{1pt} \href{mailto:connor.reed.92@gmail.com}{\texttt{connor.reed.92@gmail.com}}}
+ \moveleft.5\hoffset\centerline{\texttt{\Mobilefone \hspace{1pt} \ResPhone \hspace{5pt}}  \HexaSteel \hspace{8pt} \Letter \hspace{1pt} \href{mailto:connor.reed.92@gmail.com}{\texttt{connor.reed.92@gmail.com}}}
 
  \moveleft.5\hoffset\centerline{\includegraphics[height=8pt]{linked.png} \hspace{1pt} \href{https://www.linkedin.com/in/connorreed1}{\texttt{linkedin.com/in/connorreed1}} \hspace{5pt}  \HexaSteel \hspace{8pt} \includegraphics[height=8pt]{github.png} \hspace{1pt} \href{https://github.com/connor-r}{\texttt{github.com/connor-r}} \hspace{5pt}  \HexaSteel \hspace{8pt} Personal Page: \href{http://connor-r.github.io}{\texttt{connor-r.github.io}} }
 
@@ -35,7 +40,7 @@
 \begin{itemize}
 \item[] Montreal, Quebec, Canada  %\hfill  \textit{Expected Graduation Date: June 2016} 
 \hspace{-7pt}
-\vspace{-5pt}\item[] Physical Geography Major with Mathematics/Statistics Minor
+\vspace{-5pt}\item[] Physical Geography Major, Mathematics/Statistics Minor
 \end{itemize}
 
 %\vspace{-7pt}
@@ -58,24 +63,35 @@
 \vspace{-5pt}\item[] Concurrent enrollment during high school
  \end{itemize}
 
-\section{SAMPLE COURSEWORK} 
-\textbullet\hspace{3pt} Principles of Statistics 1\,\&\,2, Statistics, Probability, Statistics of Gambling and Gaming, Linear Algebra 1\,\&\,2, Calculus 1,\,2,\,\&\,3, Topics in Geometry, Discrete Structures, Mathematical Finance,  Foundations of Programming, Introduction to Computer Science, Introductory GIS, Raster GIS, Socioeconomic Applications of GIS%, Geomorpholgy, Hydrology, Soils and Environment, Running Water Environments, Global Change, Earth System Science, Cities in the Modern World, Geography of the World Economy
+%\section{SAMPLE COURSEWORK} 
+%\textbullet\hspace{3pt} Principles of Statistics 1\,\&\,2, Statistics, Probability, Statistics of Gambling and Gaming, Linear Algebra 1\,\&\,2, Calculus 1,\,2,\,\&\,3, Topics in Geometry, Discrete Structures, Mathematical Finance,  Foundations of Programming, Introduction to Computer Science, Introductory GIS, Raster GIS, Socioeconomic Applications of GIS%, Geomorpholgy, Hydrology, Soils and Environment, Running Water Environments, Global Change, Earth System Science, Cities in the Modern World, Geography of the World Economy
 
 
 \section{TECHNICAL SKILLS} 
-\textbullet\hspace{3pt} MS Office (advanced ability in MS Excel), ArcGIS, Adobe Photoshop,%, Plot.ly
-\\\textbullet\hspace{3pt} \textbf{Statistical Programming Environments:} Python, basic ability in AWS environments, R, Mathematica
-\\\textbullet\hspace{3pt} \textbf{Other Programming Languages:} SQL (primarily MySQL), \LaTeX, Bash, Git %, familiary with HTML, JSON, and xml structures
-\\\textbullet \hspace{3pt} \textbf{Specific Abilities:} Web Scraping, Data Mining, Data Cleaning, Predictive Modeling, Data Visualization, Regression Analysis, Sports Analytics (MLB, NHL, NBA)
+%\textbullet\hspace{3pt} MS Office (advanced ability in MS Excel), ArcGIS, Adobe Photoshop,%, Plot.ly
+\textbullet\hspace{3pt} \textbf{Programming Environments:} Python, SQL (primarily MySQL), \LaTeX, Bash, Git %, familiary with HTML, JSON, and xml structures
+\\\textbullet \hspace{3pt} \textbf{Data Engineering:} ETL/Data Ingestion, Data Validation/Monitoring/Alerting, Database Design/Administration
+\\\textbullet \hspace{3pt} \textbf{Specific Abilities:} Web Scraping, Data Cleaning, Predictive Modeling, Data Visualization, Regression Analysis, Sports Analytics (MLB, NHL, NBA)
 
 \section{RELEVANT WORK EXPERIENCE}
-\textit{SQL Developer and Stats Analyst} \hfill 2018 - Present
-\\National Hockey League
+\textit{Python Software Developer (feeds team)} \hfill Feb 2023 - Present
+\\National Hockey League, New York, NY (remote)
 \begin{itemize}
-\item[-]
+\item[-] Primarily python based tooling to handle the import of external (predominantly scorekeeping based) feeds into internal data housing.
+\vspace{-3pt}\item[-] Tools for monitoring feeds for unusual or erroneous results and notifying desired parties.
+\vspace{-3pt}\item[-] Set up reporting for the supervision of officials/scorekeepers/clock software/other niche bizzaro functions.
+\vspace{-3pt}\item[-] Less impressive wit, banter, and pizzaz than previous.
 \end{itemize}
 
-\textit{MLB/NHL Buzzword (analysis, or data science, or research, etc.)} \hfill 2015 - 2018
+\textit{SQL Developer + Stats Analyst} \hfill Dec 2018 - Feb 2023
+\\National Hockey League, New York, NY
+\begin{itemize}
+\item[-] SQL tooling to pull and present data for queries for teams/media/etc.
+\vspace{-3pt}\item[-] Python tooling for a similar purpose.
+\vspace{-3pt}\item[-] Impressed all coworkers with incredible wit, banter, and pizzaz.
+\end{itemize}
+
+\textit{MLB/NHL person} \hfill Jul 2015 - Mar 2018
 \\Mdalury LLC
 \begin{itemize}
 \item[-] Used statistics, data programming, SQL database architecture, and domain specific knowledge to develop a set of proprietary data, models, and tools primarily focused on Daily Fantasy Sports.
@@ -152,8 +168,9 @@
 
 \section{OUTSIDE INTERESTS}
 \textbullet\hspace{3pt} \href{http://connor-r.github.io/cr_interests.html#bouldering}{Rock Climbing}  -- I have been rock climbing since 2008 and enjoy climbing in a variety of areas both domestically and internationally.
+\smallskip\\\textbullet\hspace{3pt} \href{http://connor-r.github.io/cr_interests.html\#discGolf}{Disc Golf} -- I started \href{https://www.pdga.com/player/225722}{disc golfing} during the tail end of Covid after moving back to California. I like that it's a throwing sport you can do solo or with friends.
 \smallskip\\\textbullet\hspace{3pt} \href{http://connor-r.github.io/Posts/sim_league_team_projections.html}{Simulation Baseball} -- Since 2008 I have played in Diamond Mind Baseball (DMB) simulation baseball leagues and enjoy using these leagues for honing my technical skills and practicing decision theory.
-\smallskip\\\textbullet\hspace{3pt} \href{http://connor-r.github.io/Posts/nba_shot_charts_2018update.html}{NBA Shot Charts} -- Mostly as an exercise to improve my data visualization I wrote a python script that could plot NBA shot charts. Then, as an exercise to utilize an automated posting system I wrote a python Twitter bot that tweets pseudo-random charts under the handle \href{https://twitter.com/NBAChartBot}{@NBAChartBot}.
+%\smallskip\\\textbullet\hspace{3pt} \href{http://connor-r.github.io/Posts/nba_shot_charts_2018update.html}{NBA Shot Charts} -- Mostly as an exercise to improve my data visualization I wrote a python script that could plot NBA shot charts. Then, as an exercise to utilize an automated posting system I wrote a python Twitter bot that tweets pseudo-random charts under the handle \href{https://twitter.com/NBAChartBot}{@NBAChartBot}.
 \smallskip\\\textbullet\hspace{3pt} \href{http://connor-r.github.io/cr_interests.html#recSports}{Recreational Team Sports} --  Team sports have always been a big part of my life. I primarily played competitive baseball and soccer in my earlier years, but shifted to more recreational intramural sports in college, and have continued to play these sports recreationally after graduating. 
 \smallskip\\\textbullet\hspace{3pt} \href{http://connor-r.github.io/cr_interests.html#cats}{Cats} -- I love most animals, but I feel most strongly about cats. My cats are always fun to be around and do a great job cheering me up if I am in a bad mood.
 
