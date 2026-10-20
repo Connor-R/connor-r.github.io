@@ -13,3 +13,11 @@ un_pw.csv
 *.pyc
 *.sh
 *.sql
+
+# Resume build inputs and by-products: only the PDF (and the logos it embeds)
+# are published. The .tex still holds commented-out references contact
+# details - untracked 2026-10-20, though they remain in git history (accepted).
+Connor_Reed_Resume/*.tex
+Connor_Reed_Resume/*.log
+Connor_Reed_Resume/*.synctex.gz
+Connor_Reed_Resume/*.cls
